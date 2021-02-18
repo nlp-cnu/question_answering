@@ -1,9 +1,9 @@
 [submodule "bioasq_question_processing"]
 	path = bioasq_question_processing
-	url = https://github.com/masonnlp/bioasq_question_processing.git
+	url = https://github.com/DanielSims1/bioasq_question_processing.git
 [submodule "bioasqir"]
 	path = bioasqir
-	url = https://github.com/masonnlp/bioasqir.git
+	url = https://github.com/DanielSims1/bioasqir.git
 [submodule "bioasq_qa_module"]
 	path = bioasq_qa_module
-	url = https://github.com/masonnlp/bioasq_qa_module.git
+	url = https://github.com/DanielSims1/bioasq_qa_module.git
