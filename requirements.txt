@@ -8,3 +8,4 @@ https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.2.4/en_core_sci_l
 beautifulsoup4==4.9.3 
 bs4==0.0.1 
 soupsieve==2.2
+whoosh==2.7.4
