@@ -1,6 +1,3 @@
-[submodule "bioasq_question_processing"]
-	path = bioasq_question_processing
-	url = https://github.com/DanielSims1/bioasq_question_processing.git
 [submodule "bioasqir"]
 	path = bioasqir
 	url = https://github.com/DanielSims1/bioasqir.git
