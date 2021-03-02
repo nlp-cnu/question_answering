@@ -1,4 +1,5 @@
 """
+Based on code from https://github.com/masonnlp/bioasq_question_processing
 question_understanding.py :
     The Question Understanding (QU) module for the QA pipeline which takes in a query in the form
         [ID, Question]    Example -->  [51406e6223fec90375000009,Does metformin interfere thyroxine absorption?]
@@ -18,18 +19,7 @@ import scispacy
 import en_core_sci_lg
 from bs4 import BeautifulSoup as bs
 
-# This is for cpu support for non-NVIDEA cuda-capable machines.
-spacy.prefer_gpu()
-
-#initialize model
-device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
-model = BertForSequenceClassification.from_pretrained('bioasq_question_processing/model', cache_dir=None)
-
-# load in BioBERT
-nlp = en_core_sci_lg.load()
-
-def preprocess(df):
+def preprocess(df, tokenizer):
     df.encoded_tokens = [tokenizer.encode_plus(text,add_special_tokens=True)['input_ids'] for text in df['Question']] #encoded tokens for each tweet
     df.attention_mask = [tokenizer.encode_plus(text,add_special_tokens=True)['attention_mask'] for text in df['Question']]
     encoded_tokens = list(df.encoded_tokens)
@@ -37,7 +27,7 @@ def preprocess(df):
     return encoded_tokens,attention_mask
 
 # Convert indices to Torch tensor and dump into cuda
-def feed_generator(encoded_tokens,attention_mask):
+def feed_generator(device, encoded_tokens,attention_mask):
 
     batch_size = 16
     batch_seq = [x for x in range(int(len(encoded_tokens)/batch_size))]
@@ -61,7 +51,7 @@ def feed_generator(encoded_tokens,attention_mask):
         yield token_tensor,attention_mask
 
 # Returns a prediction ( query, snippets, features)
-def predict(model,data):
+def predict(device, model,data):
     model.eval()
     if device == "cuda:0":
         model.cuda()
@@ -74,7 +64,8 @@ def predict(model,data):
         preds += tmp_preds             
     return preds
 
-def ask_and_receive(ID):
+def ask_and_receive(ID, device, tokenizer, model, nlp ):
+
     user_question = input(":: Please enter your question for the BioASQ QA system ::\n")
     
     testing_df = pd.DataFrame({'ID':[ID],'Question':user_question})
@@ -82,9 +73,9 @@ def ask_and_receive(ID):
     #testing_df = pd.read_csv("bioasq_question_processing/input.csv",sep=',',header=0)
     print(testing_df)
    
-    encoded_tokens_Test,attention_mask_Test = preprocess(testing_df)
-    data_test = feed_generator(encoded_tokens_Test, attention_mask_Test)
-    preds_test = predict(model,data_test)
+    encoded_tokens_Test,attention_mask_Test = preprocess(testing_df,tokenizer)
+    data_test = feed_generator(device, encoded_tokens_Test, attention_mask_Test)
+    preds_test = predict(device,model,data_test)
 
     indices_to_label = {0: 'factoid', 1: 'list', 2: 'summary', 3: 'yesno'}
 
@@ -97,9 +88,9 @@ def ask_and_receive(ID):
     testing_df['type'] = predict_label
 
     print(testing_df)
-    xml_tree(testing_df)
+    xml_tree(testing_df,nlp)
 
-def xml_tree(df):
+def xml_tree(df,nlp):
     root = ET.Element("Input")
     for ind in df.index:
         id = df['ID'][ind]
@@ -107,7 +98,7 @@ def xml_tree(df):
         qtype = df['type'][ind]
         q = ET.SubElement(root,"Q")
         q.set('id',str(id))
-        q.text = question*
+        q.text = question
         qp = ET.SubElement(q,"QP")
         qp_type = ET.SubElement(qp,'Type')
         qp_type.text = qtype
@@ -123,9 +114,3 @@ def xml_tree(df):
         IR = ET.SubElement(q, "IR")
     tree = ET.ElementTree(root)
     tree.write('bioasq_question_processing/output/bioasq_qa.xml', pretty_print=True)
-
-if __name__ == "__main__":
-    n = 0
-    while(True):
-        ask_and_receive(n)
-        n += 1
