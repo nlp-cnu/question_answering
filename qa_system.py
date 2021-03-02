@@ -19,7 +19,7 @@ import en_core_sci_lg
 from bs4 import BeautifulSoup as bs
 
 import question_understanding
-
+import information_retrieval
 
 if __name__ == "__main__":
 
