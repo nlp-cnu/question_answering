@@ -6,6 +6,9 @@ question_understanding.py :
     and outputs an xml file containing the original question as well as relevant snippets, features, and a predicted query
     for use in the Information Retrieval portion of the pipeline.
 """
+import warnings
+
+warnings.filterwarnings('ignore')
 
 import json
 import pandas as pd
@@ -20,7 +23,7 @@ import en_core_sci_lg
 from bs4 import BeautifulSoup as bs
 
 def preprocess(df, tokenizer):
-    df.encoded_tokens = [tokenizer.encode_plus(text,add_special_tokens=True)['input_ids'] for text in df['Question']] #encoded tokens for each tweet
+    df.encoded_tokens = [tokenizer.encode_plus(text,add_special_tokens=True)['input_ids'] for text in df['Question']] 
     df.attention_mask = [tokenizer.encode_plus(text,add_special_tokens=True)['attention_mask'] for text in df['Question']]
     encoded_tokens = list(df.encoded_tokens)
     attention_mask = list(df.attention_mask)
@@ -64,15 +67,7 @@ def predict(device, model,data):
         preds += tmp_preds             
     return preds
 
-def ask_and_receive(ID, device, tokenizer, model, nlp ):
-
-    user_question = input(":: Please enter your question for the BioASQ QA system ::\n")
-    
-    testing_df = pd.DataFrame({'ID':[ID],'Question':user_question})
-
-    #testing_df = pd.read_csv("bioasq_question_processing/input.csv",sep=',',header=0)
-    print(testing_df)
-   
+def ask_and_receive(testing_df, device, tokenizer, model, nlp ):
     encoded_tokens_Test,attention_mask_Test = preprocess(testing_df,tokenizer)
     data_test = feed_generator(device, encoded_tokens_Test, attention_mask_Test)
     preds_test = predict(device,model,data_test)
@@ -87,8 +82,23 @@ def ask_and_receive(ID, device, tokenizer, model, nlp ):
 
     testing_df['type'] = predict_label
 
-    print(testing_df)
-    xml_tree(testing_df,nlp)
+    #xml_tree(testing_df,nlp)
+    return send_qu_data(testing_df,nlp)
+
+
+#instead of using the xml, just pass the data
+def send_qu_data(df,nlp):
+    
+    ind = df.first_valid_index()
+    id = df['ID'][ind]
+    question = df['Question'][ind]
+    type = df['type'][ind]
+    doc = nlp(question)
+    entities = []
+    for ent in doc.ents:
+        entities.append(str(ent))
+    query = str(' '.join(entities))
+    return (id, question, type, entities, query)
 
 def xml_tree(df,nlp):
     root = ET.Element("Input")
@@ -103,6 +113,7 @@ def xml_tree(df,nlp):
         qp_type = ET.SubElement(qp,'Type')
         qp_type.text = qtype
         doc = nlp(question)
+        print(f"doc: {doc.ents}")
         ent_list = []
         for ent in doc.ents:
             ent_list.append(str(ent))
@@ -113,4 +124,4 @@ def xml_tree(df,nlp):
         # Create IR tag
         IR = ET.SubElement(q, "IR")
     tree = ET.ElementTree(root)
-    tree.write('bioasq_question_processing/output/bioasq_qa.xml', pretty_print=True)
+    tree.write('output/bioasq_qa.xml', pretty_print=True)
