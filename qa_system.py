@@ -24,17 +24,28 @@ import scispacy
 import en_core_sci_lg
 from bs4 import BeautifulSoup as bs
 
+import requests
+import re
+import os
+from tqdm import tqdm
+
 from whoosh import index
 from whoosh.fields import Schema, TEXT, IDLIST, ID, NUMERIC
 from whoosh.analysis import StemmingAnalyzer
 from whoosh.qparser import QueryParser
 
+import setup
 import question_understanding
 import information_retrieval
 
 import PubmedA
 
 if __name__ == "__main__":
+    # This ensures that all the packages are installed so that the system can work with the modules
+    data_folder = 'data_modules'
+    setup.setup_system(data_folder)
+    model_folder_name = 'model'
+    pubmed_official_index_name = 'pubmed_articles'
 
     # This is for cpu support for non-NVIDEA cuda-capable machines.
     spacy.prefer_gpu()
@@ -43,15 +54,22 @@ if __name__ == "__main__":
     print("Initializing model...")
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
-    model = BertForSequenceClassification.from_pretrained('model', cache_dir=None)
+    # TODO remove this in testing
+    model = BertForSequenceClassification.from_pretrained(data_folder + os.path.sep + model_folder_name, cache_dir=None)
 
     # load in BioBERT
     print("Loading BioBERT...")
     nlp = en_core_sci_lg.load()
 
-    print("Loading index...")
-    # Change this directory from index to small_index_dir for testing
-    pubmed_article_ix = index.open_dir("small_index_dir", indexname="pubmed_articles")
+    index_name = input("Would you like to use 'full' index? (Y/N)\n")
+    if index_name in ['Y','y','Yes','yes','yep','Yep','Yup','yup']: 
+        index_var = 'index'
+        ind_choice = 'full'
+    else:
+        ind_choice = 'partial'
+        index_var = 'small_index_dir'
+    print(f"Loading {ind_choice} index...")
+    pubmed_article_ix = index.open_dir(data_folder + os.path.sep + index_var, indexname=pubmed_official_index_name)
     qp = QueryParser("abstract_text", schema=Schema(
         pmid=ID(stored=True),
         title=TEXT(stored=True),
