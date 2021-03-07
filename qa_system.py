@@ -63,11 +63,11 @@ if __name__ == "__main__":
 
     index_name = input("Would you like to use 'full' index? (Y/N)\n")
     if index_name in ['Y','y','Yes','yes','yep','Yep','Yup','yup']: 
-        index_var = 'index'
+        index_var = 'full_index'
         ind_choice = 'full'
     else:
         ind_choice = 'partial'
-        index_var = 'small_index_dir'
+        index_var = 'partial_index'
     print(f"Loading {ind_choice} index...")
     pubmed_article_ix = index.open_dir(data_folder + os.path.sep + index_var, indexname=pubmed_official_index_name)
     qp = QueryParser("abstract_text", schema=Schema(

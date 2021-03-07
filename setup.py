@@ -39,7 +39,7 @@ def save_response_content(response, destination,total_size):
                     pbar.update(len(chunk))
 
 def getModel(cwd):
-    print(f"Retrieving Model")
+    print(f"Retrieving model")
     cwd = cwd + 'model' + os.path.sep
     ensure_file_has_directory(cwd)
     model_files = [('1-0qL0U2LnvdCJb4AYBuO0aGYrlIescjb', cwd + 'config.json'),
@@ -52,12 +52,20 @@ def getModel(cwd):
 
 
 def getIndex(cwd):
-    print("Retrieving Index")
+    print("Retrieving index")
     cwd = cwd + 'index' + os.path.sep
     ensure_file_has_directory(cwd)
-    index_files = [('1_35onQtzJf8kFl2EV-HBEAOn2DdAidsX', cwd + '_pubmed_articles_1.toc'),
-                    ('1ZuJAM8niUoTq9ZT28Pp5EJSIDbbNY3aV', cwd + 'pubmed_articles_liyfs44zssrgfqtn.seg'),
-                    ('11Cke43Iqq91CTVvNkQ3w17blRTQ_BNax', cwd + 'special_tokens_map.json')]
+    full = cwd + os.path.sep + 'full_index' + os.path.sep
+    partial = cwd + os.path.sep + 'partial_index' + os.path.sep
+    ensure_file_has_directory(full)
+    ensure_file_has_directory(partial)
+
+    index_files = [('1_35onQtzJf8kFl2EV-HBEAOn2DdAidsX', full + '_pubmed_articles_1.toc'),
+                    ('1ZuJAM8niUoTq9ZT28Pp5EJSIDbbNY3aV', full + 'pubmed_articles_liyfs44zssrgfqtn.seg'),
+                    ('11Cke43Iqq91CTVvNkQ3w17blRTQ_BNax', full + 'pubmed_articled_WRITELOCK'),
+                    ('1wmPeN86iKIAJWye_K0FEk86uZFFetdtR', partial + '_pubmed_articles_1.toc'),
+                    ('1AHf9A-oUg7X9HuEUsOvgl0bi2VWoCpqX', partial + 'pubmed_articles_meguiz6sn10his75.seg'),
+                    ('1vyuLVhvOue9He7o9-10ejWTlmQ848JP-', partial + '_pubmed_articles_WRITELOCK')]
     for file in index_files:
         download_if_nonesistant(file)
 
