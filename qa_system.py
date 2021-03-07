@@ -44,6 +44,7 @@ if __name__ == "__main__":
     # This ensures that all the packages are installed so that the system can work with the modules
     data_folder = 'data_modules'
     setup.setup_system(data_folder)
+    index_folder_name = 'index'
     model_folder_name = 'model'
     pubmed_official_index_name = 'pubmed_articles'
 
@@ -54,7 +55,6 @@ if __name__ == "__main__":
     print("Initializing model...")
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
-    # TODO remove this in testing
     model = BertForSequenceClassification.from_pretrained(data_folder + os.path.sep + model_folder_name, cache_dir=None)
 
     # load in BioBERT
@@ -63,13 +63,13 @@ if __name__ == "__main__":
 
     index_name = input("Would you like to use 'full' index? (Y/N)\n")
     if index_name in ['Y','y','Yes','yes','yep','Yep','Yup','yup']: 
-        index_var = 'full_index'
         ind_choice = 'full'
+        index_var = 'full_index'
     else:
         ind_choice = 'partial'
         index_var = 'partial_index'
     print(f"Loading {ind_choice} index...")
-    pubmed_article_ix = index.open_dir(data_folder + os.path.sep + index_var, indexname=pubmed_official_index_name)
+    pubmed_article_ix = index.open_dir(data_folder + os.path.sep + index_folder_name + os.path.sep + index_var, indexname=pubmed_official_index_name)
     qp = QueryParser("abstract_text", schema=Schema(
         pmid=ID(stored=True),
         title=TEXT(stored=True),
