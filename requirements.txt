@@ -7,7 +7,6 @@ chardet==4.0.0
 click==7.1.2
 conllu==4.4
 cymem==2.0.5
-en-core-sci-lg==0.4.0
 filelock==3.0.12
 idna==2.10
 Jinja2==2.11.3
