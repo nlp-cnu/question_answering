@@ -1,13 +1,12 @@
 beautifulsoup4==4.9.3
-blis==0.7.4
 bs4==0.0.1
+Cython
 catalogue==2.0.1
 certifi==2020.12.5
 chardet==4.0.0
 click==7.1.2
 conllu==4.4
 cymem==2.0.5
-en-core-sci-lg==0.4.0
 filelock==3.0.12
 idna==2.10
 Jinja2==2.11.3
@@ -50,4 +49,7 @@ typer==0.3.2
 typing-extensions==3.7.4.3
 urllib3==1.26.3
 wasabi==0.8.2
+blis==0.7.4
 Whoosh==2.7.4
+https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.4.0/en_core_sci_lg-0.4.0.tar.gz
+
