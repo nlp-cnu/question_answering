@@ -1,3 +1,5 @@
+# Based on code from https://github.com/masonnlp/bioasqir
+
 from whoosh import index
 from whoosh.fields import Schema, TEXT, IDLIST, ID, NUMERIC
 from whoosh.analysis import StemmingAnalyzer
