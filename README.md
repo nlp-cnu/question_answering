@@ -1,6 +1,7 @@
 # BioASQ-QA-System
 CNU Computer Science capstone project
 
+> NOTE: make sure you have updated pip and at least python 3.8
 
 ## First time setup:
 ### 1) Navigate to the folder you wish to store this project and clone this repository
