@@ -21,6 +21,7 @@ fields for input json for factoid/list/yesno:
 
 """
 import json
+from json import loads
 import os
 import time
 
@@ -33,10 +34,13 @@ def run_qa_file(filename, output_dir,predict_file):
 
 def get_answer(data, output_dir):
     print ('qa_data', data)
-    inputfile_path = '/tmp/qa_input.json'
     tmpdir_path = os.getcwd() + os.path.sep + 'tmp' + os.path.sep
+    inputfile_path = 'tmp'+os.path.sep+'qa_input.json'
     out_file_name = 'predictions.json'
     outfile_path = output_dir + out_file_name
+
+    if not os.path.isdir(output_dir):
+        os.mkdir (output_dir)
 
     id, type, question, abstract = data
     # This is all to get the data in the proper format for the json file
@@ -49,16 +53,17 @@ def get_answer(data, output_dir):
 
     if not os.path.isdir(tmpdir_path):
         os.mkdir (tmpdir_path)
-    #Write data to json file
+    # Write data to json file
     with open(inputfile_path,'w') as outfile:
         json.dump(json_data,outfile,indent=4)
         outfile.close()
+        print("finished writing results")
     if type == 'yesno':
-        run_qa_file('run_yesno.py',output_dir, predict_file=outfile_path)
+        run_qa_file('run_yesno.py',output_dir, predict_file=inputfile_path)
     elif type == 'factoid':
-        run_qa_file('run_factoid.py',output_dir, predict_file=outfile_path)
+        run_qa_file('run_factoid.py',output_dir, predict_file=inputfile_path)
     elif type == 'list':
-        run_qa_file('run_list.py',output_dir, predict_file=outfile_path)
+        run_qa_file('run_list.py',output_dir, predict_file=inputfile_path)
     else:
         print("This should never log....")
         return 

@@ -100,7 +100,7 @@ if __name__ == "__main__":
                 # Pass in the question ID, type, user question, and top abstract for the result  
                 data_for_qa = (n, type, user_question,top_result.abstract_text)
 
-                qa_output_dir = f'{os.path.sep}tmp{os.path.sep}qa_output{os.path.sep}'
+                qa_output_dir = f'{os.getcwd()}{os.path.sep}tmp{os.path.sep}qa_output{os.path.sep}'
                 results = question_answering.get_answer(data_for_qa,output_dir=qa_output_dir)
                 if results:
                     print(f"Question: {user_question}\nAnswer:{results}")
