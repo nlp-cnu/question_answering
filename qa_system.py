@@ -28,6 +28,7 @@ import requests
 import re
 import os
 from tqdm import tqdm
+import json
 
 from whoosh import index
 from whoosh.fields import Schema, TEXT, IDLIST, ID, NUMERIC
@@ -37,6 +38,7 @@ from whoosh.qparser import QueryParser
 import setup
 import question_understanding
 import information_retrieval
+import question_answering
 
 import PubmedA
 
@@ -77,24 +79,36 @@ if __name__ == "__main__":
         mesh_major=IDLIST(stored=True),
         year=NUMERIC(stored=True),
         abstract_text=TEXT(stored=True, analyzer=StemmingAnalyzer())))
-
     n = 0
     while(True):
         user_question = input(":: Please enter your question for the BioASQ QA system or \'quit\' ::\n")
         if user_question  == 'quit': #handle end loop
             quit()
         df = pd.DataFrame({'ID':[n],'Question':user_question})
-
         qu_output = question_understanding.ask_and_receive(df,device,tokenizer,model,nlp)
-        # this takes the form (id, question, type, entities, query)
-        print(f"<QU>\nID: {qu_output[0]}\nQuestion: {qu_output[1]}\nType: {qu_output[2]}\nEntities:{qu_output[3]}\nQuery: {qu_output[4]}\n</QU>")
-        query_results = information_retrieval.search(pubmed_article_ix,qp,qu_output)
-        if query_results:
-            print("Top 5 results\n")
-            for result in query_results:
-                print(result,"\n")
+        id, question, type, entities, query = qu_output
+        if type == 'summary':
+            print("Summary type questions are currently not supported. \nPlease try asking a question that can be answerend with a list, yes/no, or factoid.")
         else:
-            print("Unfortunately I do not know the answer to your question")
+            # this takes the form (id, question, type, entities, query)
+            print(f"<QU>\nID: {id}\nQuestion: {question}\nType: {type}\nEntities:{entities}\nQuery: {query}\n</QU>")
+            
+            query_results = information_retrieval.search(pubmed_article_ix,qp,qu_output)
+            if query_results:
+                top_result = query_results[0]
+                print(f"Top result\n{top_result}")
+                # Pass in the question ID, type, user question, and top abstract for the result  
+                data_for_qa = (n, type, user_question,top_result.abstract_text)
+
+                qa_output_dir = f'{os.path.sep}tmp{os.path.sep}qa_output{os.path.sep}'
+                results = question_answering.get_answer(data_for_qa,output_dir=qa_output_dir)
+                if results:
+                    print(f"Question: {user_question}\nAnswer:{results}")
+                    question_answering.clear_tmp_dir()
+                else:
+                    print("something went wrong.")
+            else:
+                print("Unfortunately I do not know the answer to your question")
         
         n += 1
 
