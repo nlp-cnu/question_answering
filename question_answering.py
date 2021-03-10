@@ -38,7 +38,9 @@ def get_answer(data, output_dir):
     inputfile_path = 'tmp'+os.path.sep+'qa_input.json'
     out_file_name = 'predictions.json'
     outfile_path = output_dir + out_file_name
-
+    
+    if not os.path.isdir(tmpdir_path):
+        os.mkdir (tmpdir_path)
     if not os.path.isdir(output_dir):
         os.mkdir (output_dir)
 
@@ -51,8 +53,7 @@ def get_answer(data, output_dir):
     json_data = {}
     json_data['data'] = [{'paragraphs':paragraphs}]
 
-    if not os.path.isdir(tmpdir_path):
-        os.mkdir (tmpdir_path)
+    
     # Write data to json file
     with open(inputfile_path,'w') as outfile:
         json.dump(json_data,outfile,indent=4)

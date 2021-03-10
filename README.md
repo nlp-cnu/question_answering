@@ -38,7 +38,7 @@ $ cd BioASQ-QA-System
   $ pyenv local 3.7.9
   ```
 
-  ## Installing the required dependencies:
+## Installing the required dependencies:
 
   ### 6) Create a python virtual environment `.env` for the project
   ```
