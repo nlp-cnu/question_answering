@@ -1,7 +1,7 @@
 # BioASQ-QA-System
 CNU Computer Science capstone project
 
-> NOTE: make sure you have updated pip and at least python 3.8
+> NOTE: make sure you have updated pip and python 3.7
 
 
 
