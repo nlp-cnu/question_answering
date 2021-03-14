@@ -47,6 +47,14 @@ $ cd BioASQ-QA-System/
   ```
   $ pyenv install 3.7.9
   ```
+  
+  #### 4a) If this build fails on Ubuntu, run this script then retry step 4)
+  ```
+  sudo apt-get install -y build-essential libssl-dev zlib1g-dev libbz2-dev \
+libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev \
+xz-utils tk-dev libffi-dev liblzma-dev python-openssl git
+  ```
+  > See [pyenv Installation FAQ](https://github.com/pyenv/pyenv/wiki/common-build-problems) if the build fails on another Linux distribution
 
   ### 5) Set 3.7.9 for local environment
   ```
