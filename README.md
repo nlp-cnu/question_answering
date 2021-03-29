@@ -12,7 +12,7 @@ $ git clone https://github.com/DanielSims1/BioASQ-QA-System.git
 ```
 ### 2) Navigate to the cloned repository
 ```
-$ cd BioASQ-QA-System
+$ cd BioASQ-QA-System/
 ``` 
 
 ## Ensuring you have the right python version:
@@ -27,11 +27,34 @@ $ cd BioASQ-QA-System
   ```
   $ exec $SHELL
   ```
+  
+  ### 3c) Follow the steps to have pyenv automatically by adding to ~/.bashrc
+  ```
+  $ echo 'export PATH="~$HOME/.pyenv/bin:$PATH"' >> ~/.bashrc
+  ```
+  ```
+  $ echo 'eval "$(pyenv init -)"' >> ~/.bashrc
+  ```
+  ```
+  $ echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.bashrc
+  ```
+  ```
+  $ exec $SHELL
+  ```
+  
 
   ### 4) Install python 3.7.9 with pyenv
   ```
   $ pyenv install 3.7.9
   ```
+  
+  #### 4a) If this build fails on Ubuntu, run this script then retry step 4)
+  ```
+  sudo apt-get install -y build-essential libssl-dev zlib1g-dev libbz2-dev \
+libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev \
+xz-utils tk-dev libffi-dev liblzma-dev python-openssl git
+  ```
+  > See [pyenv Installation FAQ](https://github.com/pyenv/pyenv/wiki/common-build-problems) if the build fails on another Linux distribution
 
   ### 5) Set 3.7.9 for local environment
   ```
