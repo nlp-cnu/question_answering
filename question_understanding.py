@@ -67,7 +67,7 @@ def predict(device, model,data):
         preds += tmp_preds             
     return preds
 
-def ask_and_receive(testing_df, device, tokenizer, model, nlp ):
+def ask_and_receive(testing_df, device, tokenizer, model, nlp , batch_mode = False):
     encoded_tokens_Test,attention_mask_Test = preprocess(testing_df,tokenizer)
     data_test = feed_generator(device, encoded_tokens_Test, attention_mask_Test)
     preds_test = predict(device,model,data_test)
@@ -82,8 +82,11 @@ def ask_and_receive(testing_df, device, tokenizer, model, nlp ):
 
     testing_df['type'] = predict_label
 
-    #xml_tree(testing_df,nlp)
-    return send_qu_data(testing_df,nlp)
+    if(batch_mode):
+        xml_tree(testing_df,nlp)
+    else:
+        return send_qu_data(testing_df,nlp)
+
 
 
 #instead of using the xml, just pass the data
