@@ -20,58 +20,77 @@ Preferred Entry Synonym
 """
 
 def get_plaintext_from_umls(uid):
-    get_concepts_regex = "(?=[|]*)+([A-z -])+(?=[|]\d[|]\w*[|]\d*[|])"
+    get_concepts_regex = "(?=[|]*)+([\w\d\s\- \, \.])+(?=[|]\d[|]\w*[|]\d*[|])"
     grep_out_path = "tmp/grep_out.txt"
+    command_str = f"grep '{uid}' umls/MRCONSO.RRF" 
+    try:
+        output = subprocess.check_output(command_str,shell=True).decode("utf-8")
+    except subprocess.CalledProcessError as e:
+        print (e.returncode)
+        return None
+    lines = output.splitlines()
+    good_lines = []
+    for line in lines: # get only english words
+        if "|ENG|" in line:
+            good_lines.append(line)
 
-    command_str = f"grep '{uid}' umls/MRCONSO.RFF"
-    print('command:',command_str)
-    output = subprocess.check_output(command_str,shell=True)
-    #os.system(command_str)
-    print(output)
-
-    with open(grep_out_path,"r") as file:
-        concepts = re.findall(get_concepts_regex,file.read())
-    if concepts:
-        return concepts
+    cleaned_lines = "\n".join(good_lines)
+    concepts_iter = re.finditer(get_concepts_regex,cleaned_lines)
+    if concepts_iter:
+        concepts_list = []
+        for concept in concepts_iter:
+            concepts_list.append(concept.group())
+        return concepts_list
 
 
 # pull the relavant concepts from their original format ex: ("http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0005154") -> ("GO:0005154")
 def get_readable_concepts(dirty_concept):
     get_uid_regex = "(GO:\d{7})|(D\d{6})"
     result = re.search(get_uid_regex,dirty_concept)
-    clean_uid = result.group()
-    print(dirty_concept, clean_uid)
-    return get_plaintext_from_umls(clean_uid)
+    if(result):
+        clean_uid = result.group()
+        return get_plaintext_from_umls(clean_uid)
+    else:
+        return None
 
 def remove_duplicates(concepts):
     return list(OrderedDict.fromkeys(concepts))
+
 
 def make_human_readable(concepts):
     human_readable_concepts = []
     for concept in concepts:
         concepts_from_db = get_readable_concepts(concept)
-        human_readable_concepts.extend(concepts_from_db)
+        if(concepts_from_db):
+            human_readable_concepts.extend(concepts_from_db)
     return remove_duplicates(human_readable_concepts)
 
 # This script is designed to extract human-readable terms from a UMLS representation such as GO:0005488 -> [ligand, binding]
 if __name__ == "__main__":
 
-    #path_to_json = f"testing_datasets{os.path.sep}BioASQ-training8b{os.path.sep}training8b.json"
+    path_to_json = f"testing_datasets{os.path.sep}BioASQ-training8b{os.path.sep}training8b.json"
     path_to_json2 = f"tmp{os.path.sep}sample.json"
 
     # 1) get a reference to the training8b.json
     training_dataset = None
-    with open(path_to_json2) as file:
+    with open(path_to_json) as file:
         training_dataset = json.loads(file.read())
 
     # 2) loop through each element and get the human readable text for each concept
     questions = training_dataset["questions"]
+    n = 1
     for question in questions:
-        print("****")
-        concepts = question["concepts"]
-        human_concepts = make_human_readable(concepts)
-        question["human_concepts"] = human_concepts
-    
-    # 3) place human readable concepts in human_concepts in the same json object
+        print(f"Question {n}: {question.get('body')}")
+        concepts = question.get("concepts")
+        if(concepts and question.get("human_concepts") == None):
+            #print("concepts:",concepts,"\n\n")
+            human_concepts = make_human_readable(concepts)
+            question["human_concepts"] = human_concepts
+        n=n+1
+    # 3) write changes back to file
+
+    with open(path_to_json,'w') as outfile:
+        json.dump(training_dataset,outfile,indent=4)
+        outfile.close()
 
 
