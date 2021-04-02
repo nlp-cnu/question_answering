@@ -77,14 +77,14 @@ def batch_search(input_file, output_file, indexer, parser, write_buffer_size=500
                         mesh_major.text = mesh
                 tree = ET.ElementTree(root)
                 # save current procress to file every x documents (controlled by write_buffer_size)
-                if(index % write_buffer_size-1 == 0):
+                if(index % write_buffer_size-1 == 0):   
                     print(f"Writing data to {output_file}")
                     tree.write(output_file, pretty_print=True)
             else:
                 print("No results")
             
             index=index+1
-        print("Writing data to {output_file}")
+        print(f"Writing data to {output_file}")
         tree.write(output_file, pretty_print=True)
     else:
         print(f"Error loading {input_file}")
