@@ -32,17 +32,20 @@ def batch_search(input_file, output_file, indexer, parser, write_buffer_size=100
         # get all questions from the output file and parse in batch format
         questions = root.findall('Q')
         index = 0
-        num_questions = "".join(len(questions))
+        num_questions = str((len(questions)))
+        print(f"{num_questions} questions found")
         for question in questions:
             # Question ID and question processing tags
-            qid = question.get('id')
-            qp = question.get('QP')
+            #print(question.text)
+            qid = question.get("id")
+            qp = question.find("QP")
             # safeguard for malformed query
             if qp.find("Query").text:
                 query = qp.find("Query").text
             else:
+                print("No query found, using original question")
                 query = question.text
-            print(f"Searching[{index}/{num_questions}]... {query}")
+            print(f"{query} [{index}/{num_questions}]")
             # use search method to find a result
             results = search(indexer,parser,query)
             if results:

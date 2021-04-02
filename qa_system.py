@@ -93,23 +93,28 @@ if __name__ == "__main__":
         print(f"{batch_options_dict.get(result)} test selected")
 
         test_qu_data_path = "tmp/qu_input/input.csv"
-
+        ir_input_file = "tmp/ir/input/bioasq_qa.xml"
+        ir_output_file = "tmp/ir/output/bioasq_qa.xml"
         if (result == "0"):
             print ("All")
         elif(result == "1"):
-            print ("QU work here")
+            print ("QU")
             test_dataframe = pd.read_csv(test_qu_data_path,sep=',',header=0)
             question_understanding.ask_and_receive(test_dataframe,device,tokenizer,model,nlp,batch_mode=True)
             # This places the output file at output/bioasq_qa.xml
         elif(result == "2"):
-            print ("IR work here")
-            
+            print ("IR")
+            information_retrieval.batch_search(input_file=ir_input_file, output_file=ir_output_file, indexer=pubmed_article_ix, parser=qp)
         elif(result == "3"):
-            print ("QA work here")
+            print ("QA")
         elif(result == "4"):
-            print ("QU + IR work here")
+            print ("QU + IR")
+            test_dataframe = pd.read_csv(test_qu_data_path,sep=',',header=0)
+            question_understanding.ask_and_receive(test_dataframe,device,tokenizer,model,nlp,batch_mode=True)
+            information_retrieval.batch_search(input_file=ir_input_file, output_file=ir_output_file, indexer=pubmed_article_ix, parser=qp)
         elif(result == "5"):
-            print ("IR + QA work here")
+            print ("IR + QA")
+            information_retrieval.batch_search(input_file=ir_input_file, output_file=ir_output_file, indexer=pubmed_article_ix, parser=qp)
         else:
             quit()
 
@@ -120,7 +125,6 @@ if __name__ == "__main__":
             if user_question  == 'quit': #handle end loop
                 quit()
             df = pd.DataFrame({'ID':[n],'Question':user_question})
-            
             qu_output = question_understanding.ask_and_receive(df,device,tokenizer,model,nlp)
             id, question, type, entities, query = qu_output
             if type == 'summary':
