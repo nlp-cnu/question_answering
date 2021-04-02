@@ -28,7 +28,7 @@ def search(indexer, parser, query, max_results = 5, batch_mode=False):
             res.append(pa)
     return res
 
-def batch_search(input_file, output_file, indexer, parser, write_buffer_size=10):
+def batch_search(input_file, output_file, indexer, parser, write_buffer_size=500):
     fileTree = ET.parse(input_file)
     if fileTree:
         root = fileTree.getroot()
@@ -77,11 +77,12 @@ def batch_search(input_file, output_file, indexer, parser, write_buffer_size=10)
                         mesh_major.text = mesh
                 tree = ET.ElementTree(root)
                 # save current procress to file every x documents (controlled by write_buffer_size)
-                if(index % write_buffer_size-1 == 0):
-                    print("Writing data to {output_file}")
-                    tree.write(output_file, pretty_print=True)
             else:
                 print("No results")
+            if(index % write_buffer_size-1 == 0):
+                print(f"Writing data to {output_file}")
+                tree.write(output_file, pretty_print=True)
+            
             index=index+1
         print("Writing data to {output_file}")
         tree.write(output_file, pretty_print=True)
