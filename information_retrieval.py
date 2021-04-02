@@ -9,10 +9,13 @@ import lxml.etree as ET
 import PubmedA
 
 # here we receive input of the form the form (id, question, type, entities, query). and we want the query
-def search(indexer, parser, query, max_results = 5):
+def search(indexer, parser, query, max_results = 5, batch_mode=False):
     print("Searching....")
     res = []
-    q = parser.parse(query[4])
+    if batch_mode:
+        q = parser.parse(query)
+    else:
+        q = parser.parse(query[4])
     with indexer.searcher() as s:
         results = s.search(q, limit=max_results)
         for result in results:
@@ -25,13 +28,13 @@ def search(indexer, parser, query, max_results = 5):
             res.append(pa)
     return res
 
-def batch_search(input_file, output_file, indexer, parser, write_buffer_size=1000):
+def batch_search(input_file, output_file, indexer, parser, write_buffer_size=10):
     fileTree = ET.parse(input_file)
     if fileTree:
         root = fileTree.getroot()
         # get all questions from the output file and parse in batch format
         questions = root.findall('Q')
-        index = 0
+        index = 1
         num_questions = str((len(questions)))
         print(f"{num_questions} questions found")
         for question in questions:
@@ -47,7 +50,7 @@ def batch_search(input_file, output_file, indexer, parser, write_buffer_size=100
                 query = question.text
             print(f"{query} [{index}/{num_questions}]")
             # use search method to find a result
-            results = search(indexer,parser,query)
+            results = search(indexer,parser,query,batch_mode=True)
             if results:
                 print("Results found.")
                 ir = question.find("IR")
@@ -55,28 +58,30 @@ def batch_search(input_file, output_file, indexer, parser, write_buffer_size=100
                 for result in results:
                     query_used = ET.SubElement(ir, "QueryUsed")
                     query_used.text = query
-                    result = ET.SubElement(ir, "Result")
-                    result.set("PMID", result.pmid)
-                    journal = ET.SubElement(result, "Journal")
+                    result_tag = ET.SubElement(ir, "Result")
+                    result_tag.set("PMID", result.pmid)
+                    journal = ET.SubElement(result_tag, "Journal")
                     journal.text = result.journal
-                    year = ET.SubElement(result, "Year")
+                    year = ET.SubElement(result_tag, "Year")
                     try:
                         year.text = result.year
                     except:
                         pass
-                    title = ET.SubElement(result, "Title")
+                    title = ET.SubElement(result_tag, "Title")
                     title.text = result.title
-                    abstract = ET.SubElement(result, "Abstract")
+                    abstract = ET.SubElement(result_tag, "Abstract")
                     abstract.text = result.abstract_text
                     # tags
                     for mesh in result.mesh_major:
-                        mesh_major = ET.SubElement(result, "MeSH")
+                        mesh_major = ET.SubElement(result_tag, "MeSH")
                         mesh_major.text = mesh
                 tree = ET.ElementTree(root)
                 # save current procress to file every x documents (controlled by write_buffer_size)
-                if(index % write_buffer_size == 0):
+                if(index % write_buffer_size-1 == 0):
                     print("Writing data to {output_file}")
                     tree.write(output_file, pretty_print=True)
+            else:
+                print("No results")
             index=index+1
         print("Writing data to {output_file}")
         tree.write(output_file, pretty_print=True)
