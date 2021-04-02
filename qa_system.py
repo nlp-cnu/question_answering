@@ -92,7 +92,7 @@ if __name__ == "__main__":
         result = input(batch_options)
         print(f"{batch_options_dict.get(result)} test selected")
 
-        test_qu_data_path = "tmp/qu_input/small_input.csv"
+        test_qu_data_path = "tmp/qu_input/input.csv"
 
         if (result == "0"):
             print ("All")
@@ -101,10 +101,9 @@ if __name__ == "__main__":
             test_dataframe = pd.read_csv(test_qu_data_path,sep=',',header=0)
             question_understanding.ask_and_receive(test_dataframe,device,tokenizer,model,nlp,batch_mode=True)
             # This places the output file at output/bioasq_qa.xml
-
-
         elif(result == "2"):
             print ("IR work here")
+            
         elif(result == "3"):
             print ("QA work here")
         elif(result == "4"):

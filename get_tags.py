@@ -92,5 +92,3 @@ if __name__ == "__main__":
     with open(path_to_json,'w') as outfile:
         json.dump(training_dataset,outfile,indent=4)
         outfile.close()
-
-
