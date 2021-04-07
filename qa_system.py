@@ -92,14 +92,19 @@ if __name__ == "__main__":
         result = input(batch_options)
         print(f"{batch_options_dict.get(result)} test selected")
 
-        test_qu_data_path = "tmp/qu_input/input.csv"
+        qu_input = "tmp/qu_input/input.csv"
+        test_qu_data_path = "tmp/qu_input/small_input.csv"
+
         ir_input_file = "tmp/ir/input/bioasq_qa.xml"
         ir_output_file = "tmp/ir/output/bioasq_qa.xml"
+
+        qa_output_dir = "tmp/qa/"
+
         if (result == "0"):
             print ("All")
         elif(result == "1"):
             print ("QU")
-            test_dataframe = pd.read_csv(test_qu_data_path,sep=',',header=0)
+            test_dataframe = pd.read_csv(qu_input,sep=',',header=0)
             question_understanding.ask_and_receive(test_dataframe,device,tokenizer,model,nlp,batch_mode=True)
             # This places the output file at output/bioasq_qa.xml
         elif(result == "2"):
@@ -107,9 +112,10 @@ if __name__ == "__main__":
             information_retrieval.batch_search(input_file=ir_input_file, output_file=ir_output_file, indexer=pubmed_article_ix, parser=qp)
         elif(result == "3"):
             print ("QA")
+            question_answering.run_batch_mode(input_file=ir_output_file,output_dir=qa_output_dir)
         elif(result == "4"):
             print ("QU + IR")
-            test_dataframe = pd.read_csv(test_qu_data_path,sep=',',header=0)
+            test_dataframe = pd.read_csv(qu_input,sep=',',header=0)
             question_understanding.ask_and_receive(test_dataframe,device,tokenizer,model,nlp,batch_mode=True)
             information_retrieval.batch_search(input_file=ir_input_file, output_file=ir_output_file, indexer=pubmed_article_ix, parser=qp)
         elif(result == "5"):
@@ -144,9 +150,9 @@ if __name__ == "__main__":
                     results = question_answering.get_answer(data_for_qa,output_dir=qa_output_dir)
                     if results:
                         print(f"Question: {user_question}\nAnswer:{results}")
-                        question_answering.clear_tmp_dir()
+                        #question_answering.clear_tmp_dir()
                     else:
-                        print("something went wrong.")
+                        print("Something went wrong.")
                 else:
                     print("Unfortunately I do not know the answer to your question")
             

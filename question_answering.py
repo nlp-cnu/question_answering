@@ -19,11 +19,17 @@ fields for input json for factoid/list/yesno:
     ]
 }]
 
+
 """
+import warnings
+
+warnings.filterwarnings('ignore')
+
 import json
 from json import loads
 import os
 import time
+from bs4 import BeautifulSoup as bs
 
 def run_qa_file(filename, output_dir,predict_file):
     print(f"Running {filename}")
@@ -32,18 +38,42 @@ def run_qa_file(filename, output_dir,predict_file):
     command = f"python {filename} --do_train=False --do_predict=True --vocab_file={vocab_file_path} --bert_config_file={bert_config_file} --output_dir={output_dir} --predict_file={predict_file}"
     os.system(command)
 
-def get_answer(data, output_dir):
-    print ('qa_data', data)
+def print_json_to_file(file, json_data):
+    with open(file,'w') as outfile:
+        json.dump(json_data,outfile,indent=4)
+        outfile.close()
+
+def setup_file_system(output_dir):
     tmpdir_path = os.getcwd() + os.path.sep + 'tmp' + os.path.sep
     inputfile_path = 'tmp'+os.path.sep+'qa_input.json'
     out_file_name = 'predictions.json'
     outfile_path = output_dir + out_file_name
-    
+
+    factoid_path = output_dir + "factoid" + os.path.sep
+    yesno_path = output_dir + "yesno" + os.path.sep
+    list_path = output_dir + "list" + os.path.sep
+
+
     if not os.path.isdir(tmpdir_path):
         os.mkdir (tmpdir_path)
     if not os.path.isdir(output_dir):
         os.mkdir (output_dir)
+    if not os.path.isdir(factoid_path):
+        os.mkdir (factoid_path)
+    if not os.path.isdir(yesno_path):
+        os.mkdir (yesno_path)
+    if not os.path.isdir(list_path):
+        os.mkdir (list_path)
+    return inputfile_path, outfile_path, factoid_path,yesno_path,list_path
 
+def get_answer(data, output_dir, batch_mode = False):
+    inputfile_path,outfile_path,factoid_path,yesno_path,list_path = setup_file_system(output_dir)
+    if(batch_mode):
+        factoid_file_path = factoid_path + "qa_factoids.json"
+        yesno_file_path = yesno_path + "qa_yesno.json"
+        list_file_path = list_path + "qa_list.json"
+    else:
+        print ('qa_data', data)
     id, type, question, abstract = data
     # This is all to get the data in the proper format for the json file
     qas = [{'id':id, 'question':question}]
@@ -52,31 +82,71 @@ def get_answer(data, output_dir):
     paragraphs.append(one_item)
     json_data = {}
     json_data['data'] = [{'paragraphs':paragraphs}]
-
-    
-    # Write data to json file
-    with open(inputfile_path,'w') as outfile:
-        json.dump(json_data,outfile,indent=4)
-        outfile.close()
-        print("finished writing results")
-    if type == 'yesno':
-        run_qa_file('run_yesno.py',output_dir, predict_file=inputfile_path)
-    elif type == 'factoid':
-        run_qa_file('run_factoid.py',output_dir, predict_file=inputfile_path)
-    elif type == 'list':
-        run_qa_file('run_list.py',output_dir, predict_file=inputfile_path)
+    if(batch_mode):
+        if type == 'yesno':
+            print_json_to_file(yesno_file_path, json_data)
+        elif type == 'factoid':
+            print_json_to_file(factoid_file_path, json_data)
+        elif type == 'list':
+            print_json_to_file(list_file_path, json_data)
+        else: # We don't handle the summary case
+            return 
     else:
-        print("This should never log....")
-        return 
-    # Wait for qa script to finish to respond with answer
+        # Write data to json file
+        print_json_to_file(inputfile_path, json_data)
+        print("finished writing results")
+        if type == 'yesno':
+            run_qa_file('run_yesno.py',output_dir, predict_file=inputfile_path)
+        elif type == 'factoid':
+            run_qa_file('run_factoid.py',output_dir, predict_file=inputfile_path)
+        elif type == 'list':
+            run_qa_file('run_list.py',output_dir, predict_file=inputfile_path)
+        else: # We don't handle the summary case
+            return 
+        while (not os.path.exists(outfile_path)):
+            time.sleep(1)
+        # Wait for qa script to finish to respond with answer if not batch mode
+        if os.path.isfile(outfile_path):
+            with open(outfile_path,'r') as j:
+                results = json.loads(j.read()) 
+                j.close()
+                return results
 
-    while (not os.path.exists(outfile_path)):
-        time.sleep(1)
-    if os.path.isfile(outfile_path):
-        with open(outfile_path,'r') as j:
-            results = json.loads(j.read()) 
-            j.close()
-            return results
+def run_batch_mode(input_file,output_dir):
+    print(f"reading {input_file} for input")
+    with open(input_file, "r") as file:
+        content = file.readlines()
+        content = "".join(content)
+        soup = bs(content,"lxml")
+        result = soup.find_all("q") # get all the questions
+        for item in result:
+            #id, type, question, abstract = data
+            type = item.find("qp").find("type").get_text()
+            id = item.attrs['id']
+            original_question = item.text.split('?' or '.')[0] # The questions are broken apart by a line ending of ? or .
+            try:
+                abstract_text = item.find('ir').find('result').find("abstract").get_text()
+            except:
+                # If IR was unsuccessful when it came to retrieving documents for the given question\
+                abstract_text = ""
+            data = (id, type, original_question, abstract_text)
+            print(f"Getting answer for {original_question}")
+            get_answer(data,output_dir,batch_mode=True)
+    #Now that the intermediary files are generated, pass them into qa scripts. 
+    factoid_path = output_dir + "factoid" + os.path.sep
+    yesno_path = output_dir + "yesno" + os.path.sep
+    list_path = output_dir + "list" + os.path.sep
+    factoid_file_path = factoid_path + "qa_factoids.json"
+    yesno_file_path = yesno_path + "qa_yesno.json"
+    list_file_path = list_path + "qa_list.json"
 
-def clear_tmp_dir():
+    print("Running predictions")
+    
+    run_qa_file('run_yesno.py',yesno_path, predict_file= yesno_file_path)
+    run_qa_file('run_factoid.py',factoid_path, predict_file= factoid_file_path)
+    run_qa_file('run_list.py',list_path, predict_file= list_file_path)
+
+def clear_tmp_dir(files):
     print("tmp dir cleaning")
+    for file in files:
+        os.remove(file)

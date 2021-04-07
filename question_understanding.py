@@ -87,11 +87,8 @@ def ask_and_receive(testing_df, device, tokenizer, model, nlp , batch_mode = Fal
     else:
         return send_qu_data(testing_df,nlp)
 
-
-
 #instead of using the xml, just pass the data
 def send_qu_data(df,nlp):
-    
     ind = df.first_valid_index()
     id = df['ID'][ind]
     question = df['Question'][ind]
@@ -127,4 +124,5 @@ def xml_tree(df,nlp):
         # Create IR tag
         IR = ET.SubElement(q, "IR")
     tree = ET.ElementTree(root)
-    tree.write('output/bioasq_qa.xml', pretty_print=True)
+    output_file = "output/bioasq_qa.xml"
+    tree.write(output_file, pretty_print=True)
