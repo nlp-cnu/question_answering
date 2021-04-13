@@ -31,12 +31,9 @@ def preprocess(df, tokenizer):
 
 # Convert indices to Torch tensor and dump into cuda
 def feed_generator(device, encoded_tokens,attention_mask):
-
     batch_size = 16
     batch_seq = [x for x in range(int(len(encoded_tokens)/batch_size))]
-
     shuffled_encoded_tokens,shuffled_attention_mask = encoded_tokens,attention_mask
-
     res = len(encoded_tokens)%batch_size
     if res != 0:
         batch_seq = [x for x in range(int(len(encoded_tokens)/batch_size)+1)]
@@ -47,10 +44,8 @@ def feed_generator(device, encoded_tokens,attention_mask):
         maxlen_sent = max([len(i) for i in shuffled_encoded_tokens[batch*batch_size:(batch+1)*batch_size]])
         token_tensor = torch.tensor([tokens+[0]*(maxlen_sent-len(tokens)) for tokens in shuffled_encoded_tokens[batch*batch_size:(batch+1)*batch_size]])
         attention_mask = torch.tensor([tokens+[0]*(maxlen_sent-len(tokens)) for tokens in shuffled_attention_mask[batch*batch_size:(batch+1)*batch_size]]) 
-
         token_tensor = token_tensor.to(device)
         attention_mask = attention_mask.to(device)
-
         yield token_tensor,attention_mask
 
 # Returns a prediction ( query, snippets, features)
@@ -71,17 +66,13 @@ def ask_and_receive(testing_df, device, tokenizer, model, nlp , batch_mode = Fal
     encoded_tokens_Test,attention_mask_Test = preprocess(testing_df,tokenizer)
     data_test = feed_generator(device, encoded_tokens_Test, attention_mask_Test)
     preds_test = predict(device,model,data_test)
-
     indices_to_label = {0: 'factoid', 1: 'list', 2: 'summary', 3: 'yesno'}
-
     predict_label = []
     for i in preds_test[0:len(testing_df['Question'])]:
         for j in indices_to_label:
             if i == j:
                 predict_label.append(indices_to_label[j])
-
     testing_df['type'] = predict_label
-
     if(batch_mode):
         xml_tree(testing_df,nlp)
     else:
@@ -124,5 +115,5 @@ def xml_tree(df,nlp):
         # Create IR tag
         IR = ET.SubElement(q, "IR")
     tree = ET.ElementTree(root)
-    output_file = "output/bioasq_qa.xml"
+    output_file = "tmp/qu/output/bioasq_qa.xml"
     tree.write(output_file, pretty_print=True)

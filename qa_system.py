@@ -1,11 +1,5 @@
 """
-This is the main I/O stream for the QA pipeline
-
-FOR REMOVING SUBMODULES LATER https://gist.github.com/myusuf3/7f645819ded92bda6677
-
-1. setup QU module
-2. setup IR module
-3. setup QA module
+This is the main file for the QA pipeline
 """
 
 import warnings
@@ -79,51 +73,54 @@ if __name__ == "__main__":
     is_batch_mode = batch_mode_answer in ['Y','y','Yes','yes','yep','Yep','Yup','yup']
 
     if is_batch_mode:
-        batch_options = """What part of the system do you want to test? (Type number) 
-        0) Whole system
-        1) Question Understanding (QU)
-        2) Information Retrieval (IR)
-        3) Question Answering (QA)
-        4) QU + IR
-        5) IR + QA
-        6) Cancel
-        """
-        batch_options_dict = {"0":"Whole system", "1": "Question Understanding", "2": "Information Retrieval", "3": "Question Answering", "4": "QU + IR", "5": "IR + QU", "6" : "Cancel"}
-        result = input(batch_options)
-        print(f"{batch_options_dict.get(result)} test selected")
-
-        qu_input = "tmp/qu_input/input.csv"
-        test_qu_data_path = "tmp/qu_input/small_input.csv"
-
-        ir_input_file = "tmp/ir/input/bioasq_qa.xml"
-        ir_output_file = "tmp/ir/output/bioasq_qa.xml"
-
-        qa_output_dir = "tmp/qa/"
-
-        if (result == "0"):
-            print ("All")
-        elif(result == "1"):
-            print ("QU")
-            test_dataframe = pd.read_csv(qu_input,sep=',',header=0)
-            question_understanding.ask_and_receive(test_dataframe,device,tokenizer,model,nlp,batch_mode=True)
-            # This places the output file at output/bioasq_qa.xml
-        elif(result == "2"):
-            print ("IR")
-            information_retrieval.batch_search(input_file=ir_input_file, output_file=ir_output_file, indexer=pubmed_article_ix, parser=qp)
-        elif(result == "3"):
-            print ("QA")
-            question_answering.run_batch_mode(input_file=ir_output_file,output_dir=qa_output_dir)
-        elif(result == "4"):
-            print ("QU + IR")
-            test_dataframe = pd.read_csv(qu_input,sep=',',header=0)
-            question_understanding.ask_and_receive(test_dataframe,device,tokenizer,model,nlp,batch_mode=True)
-            information_retrieval.batch_search(input_file=ir_input_file, output_file=ir_output_file, indexer=pubmed_article_ix, parser=qp)
-        elif(result == "5"):
-            print ("IR + QA")
-            information_retrieval.batch_search(input_file=ir_input_file, output_file=ir_output_file, indexer=pubmed_article_ix, parser=qp)
-        else:
-            quit()
-
+        while(True):
+            qu_input = "tmp/qu/input/input.csv"
+            ir_input_generated = "tmp/ir/input/bioasq_qa.xml"
+            ir_output_generated = "tmp/ir/output/bioasq_qa.xml"
+            qa_output_generated_dir = "tmp/qa/"
+            ir_input_gold = "testing_datasets/gold_ir_input.xml"
+            ir_output_gold = "testing_datasets/gold_ir_output.xml"
+            
+            batch_options = """What part of the system do you want to test? (Type number) 
+            0) Whole system
+            1) Question Understanding (QU)
+            2) Information Retrieval (IR)
+            3) Question Answering (QA)
+            4) QU + IR
+            5) IR + QA
+            6) Cancel
+            """
+            batch_options_dict = {"0":"Whole system", "1": "Question Understanding", "2": "Information Retrieval", "3": "Question Answering", "4": "QU + IR", "5": "IR + QU", "6" : "Cancel"}
+            result = input(batch_options)
+            if(result):
+                print(f"{batch_options_dict.get(result)} selected")
+                if (result == "0"):
+                    print ("All")
+                    test_dataframe = pd.read_csv(qu_input,sep=',',header=0)
+                    question_understanding.ask_and_receive(test_dataframe,device,tokenizer,model,nlp,batch_mode=True)
+                    information_retrieval.batch_search(input_file=ir_input_generated, output_file=ir_output_generated, indexer=pubmed_article_ix, parser=qp)
+                    question_answering.run_batch_mode(input_file=ir_output_generated,output_dir=qa_output_generated_dir)
+                elif(result == "1"):
+                    print ("QU")
+                    test_dataframe = pd.read_csv(qu_input,sep=',',header=0)
+                    question_understanding.ask_and_receive(test_dataframe,device,tokenizer,model,nlp,batch_mode=True)
+                elif(result == "2"):
+                    print ("IR")
+                    information_retrieval.batch_search(input_file=ir_input_generated, output_file=ir_output_generated, indexer=pubmed_article_ix, parser=qp)
+                elif(result == "3"):
+                    print ("QA")
+                    question_answering.run_batch_mode(input_file=ir_output_generated,output_dir=qa_output_generated_dir)
+                elif(result == "4"):
+                    print ("QU + IR")
+                    test_dataframe = pd.read_csv(qu_input,sep=',',header=0)
+                    question_understanding.ask_and_receive(test_dataframe,device,tokenizer,model,nlp,batch_mode=True)
+                    information_retrieval.batch_search(input_file=ir_input_generated, output_file=ir_output_generated, indexer=pubmed_article_ix, parser=qp)
+                elif(result == "5"):
+                    print ("IR + QA")
+                    information_retrieval.batch_search(input_file=ir_input_generated, output_file=ir_output_generated, indexer=pubmed_article_ix, parser=qp)
+                    question_answering.run_batch_mode(input_file=ir_output_generated,output_dir=qa_output_generated_dir)
+                else:
+                    quit()
     else:
         n = 0
         while(True):
@@ -146,8 +143,8 @@ if __name__ == "__main__":
                     # Pass in the question ID, type, user question, and top abstract for the result  
                     data_for_qa = (n, type, user_question,top_result.abstract_text)
 
-                    qa_output_dir = f'{os.getcwd()}{os.path.sep}tmp{os.path.sep}qa_output{os.path.sep}'
-                    results = question_answering.get_answer(data_for_qa,output_dir=qa_output_dir)
+                    qa_output_generated_dir = f'{os.getcwd()}{os.path.sep}tmp{os.path.sep}qa_output{os.path.sep}'
+                    results = question_answering.get_answer(data_for_qa,output_dir=qa_output_generated_dir)
                     if results:
                         print(f"Question: {user_question}\nAnswer:{results}")
                         #question_answering.clear_tmp_dir()
@@ -155,7 +152,6 @@ if __name__ == "__main__":
                         print("Something went wrong.")
                 else:
                     print("Unfortunately I do not know the answer to your question")
-            
             n += 1
 
 
