@@ -62,6 +62,8 @@ def predict(device, model,data):
         preds += tmp_preds             
     return preds
 
+# If we are in batch mode, append all generated queries and concepts to xml file,
+# Otherwise pass QU data (question type, concepts, query) back for transfer to IR module
 def ask_and_receive(testing_df, device, tokenizer, model, nlp , batch_mode = False):
     encoded_tokens_Test,attention_mask_Test = preprocess(testing_df,tokenizer)
     data_test = feed_generator(device, encoded_tokens_Test, attention_mask_Test)
@@ -91,6 +93,7 @@ def send_qu_data(df,nlp):
     query = str(' '.join(entities))
     return (id, question, type, entities, query)
 
+# Print the extracted information from BioBERT to an xml file we will append to later.
 def xml_tree(df,nlp):
     root = ET.Element("Input")
     for ind in df.index:

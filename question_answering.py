@@ -28,6 +28,7 @@ import os
 import time
 from bs4 import BeautifulSoup as bs
 
+# pass formatted json into file that generates answer
 def run_qa_file(filename, output_dir,predict_file):
     print(f"Running {filename}")
     vocab_file_path = f'data_modules{os.path.sep}model{os.path.sep}vocab.txt'
@@ -46,18 +47,22 @@ def print_json_to_file(file, json_data, batch_mode = False):
                     new_data = json_data['data'][0]
                     old_data.append(new_data)
                     json_data['data'] = old_data
-
-                    """
-                    old_paragraphs = old_json_data['data'][0]['paragraphs']
-                    new_paragraphs = json_data['data'][0]['paragraphs']
-                    old_paragraphs.append(new_paragraphs[0])
-                    json_data['data'][0]['paragraphs'] = old_paragraphs
-                    """
         except:
             print("First run")
     with open(file,'w') as outfile:
         json.dump(json_data,outfile,indent=4)
         outfile.close()
+
+def get_json_from_data(data):
+    id, type, question, abstract = data
+    # This is all to get the data in the proper format for the json file
+    json_data = {}
+    qas = [{'id':id, 'question':question}]
+    one_item = {'qas':qas,'context':abstract}
+    paragraphs = []
+    paragraphs.append(one_item)
+    json_data['data'] = [{'paragraphs':paragraphs}]
+    return json_data
 
 def setup_file_system(output_dir):
     tmpdir_path = os.getcwd() + os.path.sep + 'tmp' + os.path.sep
@@ -79,22 +84,14 @@ def setup_file_system(output_dir):
         os.mkdir (list_path)
     return inputfile_path, outfile_path, factoid_path,yesno_path,list_path
 
-def get_answer(data, output_dir, batch_mode = False):
+def get_answer(json_data, output_dir, batch_mode = False):
     inputfile_path,outfile_path,factoid_path,yesno_path,list_path = setup_file_system(output_dir)
     if(batch_mode):
         factoid_file_path = factoid_path + "qa_factoids.json"
         yesno_file_path = yesno_path + "qa_yesno.json"
         list_file_path = list_path + "qa_list.json"
     else:
-        print ('qa_data', data)
-    id, type, question, abstract = data
-    # This is all to get the data in the proper format for the json file
-    json_data = {}
-    qas = [{'id':id, 'question':question}]
-    one_item = {'qas':qas,'context':abstract}
-    paragraphs = []
-    paragraphs.append(one_item)
-    json_data['data'] = [{'paragraphs':paragraphs}]
+        print ('qa_data', json_data)
     if(batch_mode):
         if type == 'yesno':
             print_json_to_file(yesno_file_path, json_data, batch_mode=True)
@@ -133,26 +130,30 @@ def run_batch_mode(input_file,output_dir):
         soup = bs(content,"lxml")
         result = soup.find_all("q") # get all the questions
         for item in result:
-            #id, type, question, abstract = data
             type = item.find("qp").find("type").get_text()
             id = item.attrs['id']
             original_question = str(item.find('qp').previousSibling)
             try:
                 abstract_text = item.find('ir').find('result').find("abstract").get_text()
             except:
-                # If IR was unsuccessful when it came to retrieving documents for the given question\
+                # If IR was unsuccessful when it came to retrieving documents for the given question
                 abstract_text = ""
             data = (id, type, original_question, abstract_text)
             print(f"Getting answer for \'{original_question}\'")
-            get_answer(data,output_dir,batch_mode=True)
-    #Now that the intermediary files are generated, pass them into qa scripts. 
+            # write all questions to a general file
+            json_data = get_json_from_data(data)
+            print_json_to_file(output_dir+ "qa_all.json", json_data, batch_mode=True)
+            if abstract_text != "":
+                # get the answers for questions with relevant concepts
+                get_answer(json_data,output_dir,batch_mode=True)
+    
+    # Now that the intermediary files are generated, pass them into qa scripts. 
     factoid_path = output_dir + "factoid" + os.path.sep
     yesno_path = output_dir + "yesno" + os.path.sep
     list_path = output_dir + "list" + os.path.sep
     factoid_file_path = factoid_path + "qa_factoids.json"
     yesno_file_path = yesno_path + "qa_yesno.json"
     list_file_path = list_path + "qa_list.json"
-
     print("Running predictions")
 
     run_qa_file('run_yesno.py',yesno_path, predict_file= yesno_file_path)

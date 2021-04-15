@@ -15,7 +15,6 @@ def f1_score(predicted, actual):
     # precision = true predicted positives / all predicted positives
     # recall = true predicted positives/ all actual positives
     # f1 = 2 * (precision * recall) / (precision + recall)
-    print(f"predicted: {predicted} | actual {actual}")
     true_positives=[ele for ele in predicted if ele in actual] # correctly predicted positives
     false_positives=np.setdiff1d(predicted,actual)  # elements that were predicted incorrectly
     missed_positives=np.setdiff1d(actual,predicted) # important elements which were not predicted
