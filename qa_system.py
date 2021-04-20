@@ -92,42 +92,38 @@ if __name__ == "__main__":
             batch_options_dict = {"0":"Whole system", "1": "Question Understanding", "2": "Information Retrieval", "3": "Question Answering", "4": "QU + IR", "5": "IR + QU", "6" : "Cancel"}
             result = input(batch_options)
             if(result):
-                print(f"{batch_options_dict.get(result)} selected.")
+                if result in batch_options_dict.keys():
+                    print(f"{batch_options_dict.get(result)} selected.")
                 if (result == "0"):
-                    print ("All")
                     test_dataframe = pd.read_csv(qu_input,sep=',',header=0)
                     question_understanding.ask_and_receive(test_dataframe,device,tokenizer,model,nlp,batch_mode=True)
                     information_retrieval.batch_search(input_file=ir_input_generated, output_file=ir_output_generated, indexer=pubmed_article_ix, parser=qp)
                     question_answering.run_batch_mode(input_file=ir_output_generated,output_dir=qa_output_generated_dir)
                 elif(result == "1"):
-                    print ("QU")
                     test_dataframe = pd.read_csv(qu_input,sep=',',header=0)
                     question_understanding.ask_and_receive(test_dataframe,device,tokenizer,model,nlp,batch_mode=True)
                 elif(result == "2"):
-                    print ("IR")
                     if os.path.exists(ir_input_generated):
                         information_retrieval.batch_search(input_file=ir_input_generated, output_file=ir_output_generated, indexer=pubmed_article_ix, parser=qp)
                     else:
                         print("Make sure you run the QU module before running the IR module.")
                 elif(result == "3"):
-                    print ("QA")
                     if os.path.exists(ir_output_generated):
                         question_answering.run_batch_mode(input_file=ir_output_generated,output_dir=qa_output_generated_dir)
                     else:
                         print("Make sure you run both the QU module and the IR module before running the QA module.")
                 elif(result == "4"):
-                    print ("QU + IR")
                     test_dataframe = pd.read_csv(qu_input,sep=',',header=0)
                     question_understanding.ask_and_receive(test_dataframe,device,tokenizer,model,nlp,batch_mode=True)
                     information_retrieval.batch_search(input_file=ir_input_generated, output_file=ir_output_generated, indexer=pubmed_article_ix, parser=qp)
                 elif(result == "5"):
-                    print ("IR + QA")
                     if os.path.exists(ir_input_generated):
                         information_retrieval.batch_search(input_file=ir_input_generated, output_file=ir_output_generated, indexer=pubmed_article_ix, parser=qp)
                         question_answering.run_batch_mode(input_file=ir_output_generated,output_dir=qa_output_generated_dir)
                     else:
                         print("Make sure you run the QU module before running the IR module.")
                 else:
+                    print("Shutting down...")
                     quit()
     # If the user responds with anything not affirmative, send them to the live question answering
     else:

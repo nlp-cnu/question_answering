@@ -79,6 +79,7 @@ def ask_and_receive(testing_df, device, tokenizer, model, nlp , batch_mode = Fal
                 predict_label.append(indices_to_label[j])
     testing_df['type'] = predict_label
     if(batch_mode):
+        print("Writing QU results to xml file...")
         xml_tree(testing_df,nlp)
     else:
         return send_qu_data(testing_df,nlp)
