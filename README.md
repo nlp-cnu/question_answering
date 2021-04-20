@@ -3,6 +3,12 @@
 
 The BioASQ-QA-System repo provides the source code for a biomedical question answering system aimed at participating in the BioASQ Challenge 8b. I utilized a BioBERT language representation model that was fine-tuned on biomedical data for the purposes of this challenge. I also utilized an index of the PubMed database that is queried by the system for retrieval of relavent biomedical documents related to user questions.
 
+The system is comprised of 3 main NLP modules, `question_understanding.py`, `information_retrieval.py`, and `question_answering.py` which each serve individual functions in the pipeline orchestrated by `qa_system.py`. 
+
+The system is able to be run in both live, and batch question answering mode. In the live question answering mode, the user can type their biomedical questions directly into the terminal then the system will work its way through the pipeline to respond with a suitable answer. In the batch question answering mode, individual modules, 
+
+In addition to the 3 main NLP modules, there are methods for performing analysis on the system, found in `analysis.py`
+
 
 See the [wiki](https://github.com/DanielSims1/BioASQ-QA-System/wiki) for in-depth system documentation or [first time setup guide.](https://github.com/DanielSims1/BioASQ-QA-System/wiki/First-Time-Setup)
 
