@@ -1,7 +1,11 @@
 # BioASQ-QA-System
-CNU Computer Science capstone project
+> CNU Computer Science capstone project
 
-## See [Wiki ](https://github.com/DanielSims1/BioASQ-QA-System/wiki)for documentation and [first-time setup guide](https://github.com/DanielSims1/BioASQ-QA-System/wiki/First-Time-Setup)
+The BioASQ-QA-System repo provides the source code for a biomedical question answering system aimed at participating in the BioASQ Challenge 8b. I utilized a BioBERT language representation model that was fine-tuned on biomedical data for the purposes of this challenge. I also utilized an index of the PubMed database that is queried by the system for retrieval of relavent biomedical documents related to user questions.
+
+This system can be used in a python 3.7.9 environment with the appropriate dependencies running on a Linux machine.
+
+See the [wiki](https://github.com/DanielSims1/BioASQ-QA-System/wiki) for in-depth system documentation or [first time setup guide.](https://github.com/DanielSims1/BioASQ-QA-System/wiki/First-Time-Setup)
 
 # Citation
   Please see [Published BioBERT paper](https://link.springer.com/chapter/10.1007/978-3-030-43887-6_64) for explanation of question answering module pieces: 
@@ -29,4 +33,6 @@ Here is the original [BioBERT paper](http://dx.doi.org/10.1093/bioinformatics/bt
   year={2019}
 }
 ```
+
+> This work was done in collaboration with Dr. Samuel Henry in preperation for future graduate-level research in the CNU 5-year masters program
 
