@@ -99,4 +99,6 @@ if __name__ == "__main__":
     print(f"Average QU f1 score:\n{qu_f1_sum}")
     print(f"Average IR f1 score:\n{ir_f1_sum}")
 
+    # QA system analysis
+
 

@@ -80,16 +80,15 @@ if __name__ == "__main__":
             qa_output_generated_dir = "tmp/qa/"
             # User prompt
             batch_options = """
-            What part of the system do you want to test? (Type number) 
+            What part of the system do you want to test? (Any non-number input will Cancel) 
             0) Whole system
             1) Question Understanding (QU)
             2) Information Retrieval (IR)
             3) Question Answering (QA)
             4) QU + IR
             5) IR + QA
-            6) Cancel
             """
-            batch_options_dict = {"0":"Whole system", "1": "Question Understanding", "2": "Information Retrieval", "3": "Question Answering", "4": "QU + IR", "5": "IR + QU", "6" : "Cancel"}
+            batch_options_dict = {"0":"Whole system", "1": "Question Understanding", "2": "Information Retrieval", "3": "Question Answering", "4": "QU + IR", "5": "IR + QU"}
             result = input(batch_options)
             if(result):
                 if result in batch_options_dict.keys():
