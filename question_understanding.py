@@ -14,6 +14,7 @@ warnings.filterwarnings('ignore')
 import json
 import pandas as pd
 import numpy as np
+import os
 import torch
 import torch.nn.functional as F
 from transformers import BertTokenizer,BertForSequenceClassification,AdamW,BertConfig,get_linear_schedule_with_warmup
@@ -121,4 +122,5 @@ def xml_tree(df,nlp):
         IR = ET.SubElement(q, "IR")
     tree = ET.ElementTree(root)
     output_file = "tmp/qu/output/bioasq_qa.xml"
+    os.makedirs(os.path.dirname(output_file), exist_ok=True)
     tree.write(output_file, pretty_print=True)
