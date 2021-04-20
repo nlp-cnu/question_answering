@@ -6,7 +6,7 @@ The BioASQ-QA-System repo provides the source code for a biomedical question ans
 
 See the [wiki](https://github.com/DanielSims1/BioASQ-QA-System/wiki) for in-depth system documentation or [first time setup guide.](https://github.com/DanielSims1/BioASQ-QA-System/wiki/First-Time-Setup)
 
-# Citation
+## Citation
   Please see [Published BioBERT paper](https://link.springer.com/chapter/10.1007/978-3-030-43887-6_64) for explanation of question answering module pieces: 
 ```
 @InProceedings{10.1007/978-3-030-43887-6_64,
@@ -32,9 +32,11 @@ Here is the original [BioBERT paper](http://dx.doi.org/10.1093/bioinformatics/bt
   year={2019}
 }
 ```
-# Requirements
+## Requirements
 This system can be used in a python 3.7.9 environment with the appropriate dependencies running on a Linux machine.
 
+## License and Disclaimer
+Please see and agree to `LICENSE` file for details. Downloading data indicates your acceptance of the disclaimer.
 
 > This work was done in collaboration with Dr. Samuel Henry in preperation for future graduate-level research in the CNU 5-year masters program
 
