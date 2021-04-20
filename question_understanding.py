@@ -6,8 +6,9 @@ question_understanding.py :
     and outputs an xml file containing the original question as well as relevant snippets, features, and a predicted query
     for use in the Information Retrieval portion of the pipeline.
 """
-import warnings
 
+# This is to remove some errors related to dependency issues for better user-friendlyness
+import warnings
 warnings.filterwarnings('ignore')
 
 import json
@@ -22,6 +23,7 @@ import scispacy
 import en_core_sci_lg
 from bs4 import BeautifulSoup as bs
 
+#map the original question to tokens utilizing a tokenizer
 def preprocess(df, tokenizer):
     df.encoded_tokens = [tokenizer.encode_plus(text,add_special_tokens=True)['input_ids'] for text in df['Question']] 
     df.attention_mask = [tokenizer.encode_plus(text,add_special_tokens=True)['attention_mask'] for text in df['Question']]

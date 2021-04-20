@@ -711,8 +711,9 @@ def write_predictions(all_examples, all_features, all_results, n_best_size,
               logit=logits))
 
       break
-
-    assert len(prelim_predictions) == 1
+    # NOTE: this was enabled previously
+    #assert len(prelim_predictions) == 1
+    
     # Not used..
     # probs = _compute_softmax(logits)
     probs = logits

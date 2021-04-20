@@ -1,10 +1,7 @@
 """
-This module implements the class DataSetReader which contains
- the implementation of code to read the BioAsq dataset
+This forms the object that encodes a query on the PubMed Index
 """
 from typing import List
-
-
 class PubmedA:
     # seem to be 14,913,938 articles
 

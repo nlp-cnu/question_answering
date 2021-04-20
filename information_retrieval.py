@@ -8,7 +8,8 @@ import lxml.etree as ET
 
 import PubmedA
 
-# here we receive input of the form the form (id, question, type, entities, query). and we want the query
+# Here we receive input of the form the form (id, question, type, entities, query).
+# We use this input to query the PubMed database index which has been specially indexed to improve query times.
 def search(indexer, parser, query, max_results = 5, batch_mode=False):
     print("Searching....")
     res = []
@@ -28,6 +29,7 @@ def search(indexer, parser, query, max_results = 5, batch_mode=False):
             res.append(pa)
     return res
 
+#Query the the PubMed index with every query generated in the QU module, writing the result articles fetched by query to a file every <write_buffer_size> iterations 
 def batch_search(input_file, output_file, indexer, parser, write_buffer_size=500):
     fileTree = ET.parse(input_file)
     if fileTree:
@@ -39,7 +41,6 @@ def batch_search(input_file, output_file, indexer, parser, write_buffer_size=500
         print(f"{num_questions} questions found")
         for question in questions:
             # Question ID and question processing tags
-            #print(question.text)
             qid = question.get("id")
             qp = question.find("QP")
             # safeguard for malformed query
@@ -76,13 +77,12 @@ def batch_search(input_file, output_file, indexer, parser, write_buffer_size=500
                         mesh_major = ET.SubElement(result_tag, "MeSH")
                         mesh_major.text = mesh
                 tree = ET.ElementTree(root)
-                # save current procress to file every x documents (controlled by write_buffer_size)
+                # save current progress to file every n documents (controlled by write_buffer_size)
                 if(index % write_buffer_size-1 == 0):   
                     print(f"Writing data to {output_file}")
                     tree.write(output_file, pretty_print=True)
             else:
                 print("No results")
-            
             index=index+1
         print(f"Writing data to {output_file}")
         tree.write(output_file, pretty_print=True)

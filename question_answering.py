@@ -25,6 +25,7 @@ warnings.filterwarnings('ignore')
 import json
 from json import loads
 import os
+import shutil
 import time
 from bs4 import BeautifulSoup as bs
 
@@ -34,6 +35,7 @@ def run_qa_file(filename, output_dir,predict_file):
     vocab_file_path = f'data_modules{os.path.sep}model{os.path.sep}vocab.txt'
     bert_config_file = f'data_modules{os.path.sep}model{os.path.sep}config.json'
     command = f"python {filename} --do_train=False --do_predict=True --vocab_file={vocab_file_path} --bert_config_file={bert_config_file} --output_dir={output_dir} --predict_file={predict_file}"
+    print(f"Running command: {command}")
     os.system(command)
 
 def print_json_to_file(file, json_data, batch_mode = False):
@@ -53,9 +55,9 @@ def print_json_to_file(file, json_data, batch_mode = False):
         json.dump(json_data,outfile,indent=4)
         outfile.close()
 
+# This is all to get the data in the proper format for the json file
 def get_json_from_data(data):
     id, type, question, abstract = data
-    # This is all to get the data in the proper format for the json file
     json_data = {}
     qas = [{'id':id, 'question':question}]
     one_item = {'qas':qas,'context':abstract}
@@ -64,9 +66,24 @@ def get_json_from_data(data):
     json_data['data'] = [{'paragraphs':paragraphs}]
     return json_data
 
-def setup_file_system(output_dir):
+# Transform the nbest_predictions.json and predictions.json into proper format for the Evaluation Measures repository
+def transform_to_bioasq(file_paths):
+    factoid_old, list_old, yesno_old = file_paths
+    factoid_command = f"python ./biocodes/transform_n2b_factoid.py --nbest_path={factoid_old} --output_path={os.path.dirname(factoid_old)}"
+    list_command = f"python ./biocodes/transform_n2b_list.py --nbest_path={list_old} --output_path={os.path.dirname(list_old)}"
+    yesno_command = f"python ./biocodes/transform_n2b_yesno.py --nbest_path={yesno_old} --output_path={os.path.dirname(yesno_old)}"
+    if os.path.exists(factoid_old):
+        os.system(factoid_command)
+    #commenting this out until List question formatting 
+    #if os.path.exists(list_old): 
+        #os.system(list_command)
+    if os.path.exists(yesno_old):
+        os.system(yesno_command)
+    
+#ensure temp directory and subdirectories exist
+def setup_file_system(output_dir,batch_mode = False):
     tmpdir_path = os.getcwd() + os.path.sep + 'tmp' + os.path.sep
-    inputfile_path = 'tmp'+os.path.sep+'qa_input.json'
+    inputfile_path = output_dir +'qa_input.json'
     out_file_name = 'predictions.json'
     outfile_path = output_dir + out_file_name
     factoid_path = output_dir + "factoid" + os.path.sep
@@ -76,23 +93,22 @@ def setup_file_system(output_dir):
         os.mkdir (tmpdir_path)
     if not os.path.isdir(output_dir):
         os.mkdir (output_dir)
-    if not os.path.isdir(factoid_path):
-        os.mkdir (factoid_path)
-    if not os.path.isdir(yesno_path):
-        os.mkdir (yesno_path)
-    if not os.path.isdir(list_path):
-        os.mkdir (list_path)
+    if batch_mode:
+        if not os.path.isdir(factoid_path):
+            os.mkdir (factoid_path)
+        if not os.path.isdir(yesno_path):
+            os.mkdir (yesno_path)
+        if not os.path.isdir(list_path):
+            os.mkdir (list_path)
     return inputfile_path, outfile_path, factoid_path,yesno_path,list_path
 
 def get_answer(json_data, output_dir, batch_mode = False):
+    id, type, question,abstract = json_data
     inputfile_path,outfile_path,factoid_path,yesno_path,list_path = setup_file_system(output_dir)
     if(batch_mode):
         factoid_file_path = factoid_path + "qa_factoids.json"
         yesno_file_path = yesno_path + "qa_yesno.json"
         list_file_path = list_path + "qa_list.json"
-    else:
-        print ('qa_data', json_data)
-    if(batch_mode):
         if type == 'yesno':
             print_json_to_file(yesno_file_path, json_data, batch_mode=True)
         elif type == 'factoid':
@@ -102,9 +118,11 @@ def get_answer(json_data, output_dir, batch_mode = False):
         else: # We don't handle the summary case
             return 
     else:
-        # Write data to json file
-        print_json_to_file(inputfile_path, json_data)
-        print("finished writing results")
+        print ('Question answering json:', json_data)
+        # Write data in BioASQ format to json file
+        good_json_data = get_json_from_data(json_data)
+        print_json_to_file(inputfile_path, good_json_data)
+        print(f"Question type <{type}>")
         if type == 'yesno':
             run_qa_file('run_yesno.py',output_dir, predict_file=inputfile_path)
         elif type == 'factoid':
@@ -148,19 +166,24 @@ def run_batch_mode(input_file,output_dir):
                 get_answer(json_data,output_dir,batch_mode=True)
     
     # Now that the intermediary files are generated, pass them into qa scripts. 
-    factoid_path = output_dir + "factoid" + os.path.sep
-    yesno_path = output_dir + "yesno" + os.path.sep
-    list_path = output_dir + "list" + os.path.sep
+    _,_,factoid_path,yesno_path,list_path = setup_file_system(output_dir,True)
+
     factoid_file_path = factoid_path + "qa_factoids.json"
     yesno_file_path = yesno_path + "qa_yesno.json"
     list_file_path = list_path + "qa_list.json"
-    print("Running predictions")
+    
+    list_nbest = list_path+"nbest_predictions.json"
+    factoid_nbest = factoid_path+"nbest_predictions.json"
+    yesno_nbest = yesno_path+"nbest_predictions.json"
 
     run_qa_file('run_yesno.py',yesno_path, predict_file= yesno_file_path)
     run_qa_file('run_factoid.py',factoid_path, predict_file= factoid_file_path)
     run_qa_file('run_list.py',list_path, predict_file= list_file_path)
+    
+    # Run the nbest predictions through a file type transformer, then into BioASQ evaluation repo
+    while not os.path.exists(list_nbest):
+        time.sleep(1)
+    if os.path.isfile(list_nbest):
+        file_paths = (factoid_nbest, list_nbest, yesno_nbest)
+        transform_to_bioasq(file_paths)
 
-def clear_tmp_dir(files):
-    print("tmp dir cleaning")
-    for file in files:
-        os.remove(file)
