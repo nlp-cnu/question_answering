@@ -121,6 +121,6 @@ def xml_tree(df,nlp):
         # Create IR tag
         IR = ET.SubElement(q, "IR")
     tree = ET.ElementTree(root)
-    output_file = "tmp/qu/output/bioasq_qa.xml"
+    output_file = "tmp/ir/input/bioasq_qa.xml"
     os.makedirs(os.path.dirname(output_file), exist_ok=True)
     tree.write(output_file, pretty_print=True)
