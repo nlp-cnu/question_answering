@@ -74,7 +74,7 @@ if __name__ == "__main__":
     is_batch_mode = batch_mode_answer in ['Y','y','Yes','yes','Yep','yep','Yup','yup']
     if is_batch_mode:
         while(True):
-            qu_input = "tmp/qu/input/input.csv"
+            qu_input = "testing_datasets/input.csv"
             ir_input_generated = "tmp/ir/input/bioasq_qa.xml"
             ir_output_generated = "tmp/ir/output/bioasq_qa.xml"
             qa_output_generated_dir = "tmp/qa/"
