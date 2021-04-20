@@ -1,6 +1,8 @@
 # BioASQ-QA-System
 CNU Computer Science capstone project
 
+## See [Wiki ](https://github.com/DanielSims1/BioASQ-QA-System/wiki)for documentation and [first-time setup guide](https://github.com/DanielSims1/BioASQ-QA-System/wiki/First-Time-Setup)
+
 # Citation
   Please see [Published BioBERT paper](https://link.springer.com/chapter/10.1007/978-3-030-43887-6_64) for explanation of question answering module pieces: 
 ```
@@ -27,4 +29,4 @@ Here is the original [BioBERT paper](http://dx.doi.org/10.1093/bioinformatics/bt
   year={2019}
 }
 ```
-See [Wiki for documentation and setup guide](https://github.com/DanielSims1/BioASQ-QA-System/wiki)
+
