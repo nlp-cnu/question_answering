@@ -79,7 +79,7 @@ def ask_and_receive(testing_df, device, tokenizer, model, nlp , batch_mode = Fal
                 predict_label.append(indices_to_label[j])
     testing_df['type'] = predict_label
     if(batch_mode):
-        print("Writing QU results to xml file...")
+        print("\033[95mWriting QU results to xml file...\033[0m")
         xml_tree(testing_df,nlp)
     else:
         return send_qu_data(testing_df,nlp)
@@ -111,7 +111,7 @@ def xml_tree(df,nlp):
         qp_type = ET.SubElement(qp,'Type')
         qp_type.text = qtype
         doc = nlp(question)
-        print(f"doc: {doc.ents}")
+        print(f"\033[95mdoc: {doc.ents}\033[0m")
         ent_list = []
         for ent in doc.ents:
             ent_list.append(str(ent))

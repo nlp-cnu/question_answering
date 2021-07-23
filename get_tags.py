@@ -26,7 +26,7 @@ def get_plaintext_from_umls(uid):
     try:
         output = subprocess.check_output(command_str,shell=True).decode("utf-8")
     except subprocess.CalledProcessError as e:
-        print (e.returncode)
+        print(e.returncode)
         return None
     lines = output.splitlines()
     good_lines = []
@@ -80,7 +80,7 @@ if __name__ == "__main__":
     questions = training_dataset["questions"]
     n = 1
     for question in questions:
-        print(f"Question {n}: {question.get('body')}")
+        print(f"\033[95mQuestion {n}: {question.get('body')}\033[0m")
         concepts = question.get("concepts")
         if(concepts and question.get("human_concepts") == None):
             #print("concepts:",concepts,"\n\n")

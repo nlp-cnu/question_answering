@@ -76,11 +76,11 @@ def get_gold_dicts():
             documents = [document.split("/")[-1] for document in question.get('documents')]
             qu_dict[id] = human_concepts
             ir_dict[id] = documents
-    print(f"Concepts -> empty: {empty} | found: {found}")
+    print(f"\033[95mConcepts -> empty: {empty} | found: {found}\033[0m")
     return qu_dict,ir_dict
 
 if __name__ == "__main__":
-    print(" -- Analysis Module --")
+    print("\033[95m -- Analysis Module --\033[0m")
     qu_gold,ir_gold = get_gold_dicts()
     qu_generated = get_generated_dict("tmp/ir/input/bioasq_qa.xml",True)
     ir_generated = get_generated_dict("tmp/ir/output/bioasq_qa.xml",False)
@@ -96,8 +96,8 @@ if __name__ == "__main__":
     qu_f1_sum/=len(qu_f1)
     ir_f1_sum/=len(ir_f1)
 
-    print(f"Average QU f1 score:\n{qu_f1_sum}")
-    print(f"Average IR f1 score:\n{ir_f1_sum}")
+    print(f"\033[95mAverage QU f1 score:\n{qu_f1_sum}\033[0m")
+    print(f"\033[95mAverage IR f1 score:\n{ir_f1_sum}\033[0m")
 
     # QA system analysis
 

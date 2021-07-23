@@ -31,11 +31,11 @@ from bs4 import BeautifulSoup as bs
 
 # pass formatted json into file that generates answer
 def run_qa_file(filename, output_dir,predict_file):
-    print(f"Running {filename}")
+    print(f"\033[95mRunning {filename}\033[0m")
     vocab_file_path = f'data_modules{os.path.sep}model{os.path.sep}vocab.txt'
     bert_config_file = f'data_modules{os.path.sep}model{os.path.sep}config.json'
     command = f"python {filename} --do_train=False --do_predict=True --vocab_file={vocab_file_path} --bert_config_file={bert_config_file} --output_dir={output_dir} --predict_file={predict_file}"
-    print(f"Running command: {command}")
+    print(f"\033[95mRunning command: {command}\033[0m")
     os.system(command)
 
 def print_json_to_file(file, json_data, batch_mode = False):
@@ -50,7 +50,7 @@ def print_json_to_file(file, json_data, batch_mode = False):
                     old_data.append(new_data)
                     json_data['data'] = old_data
         except:
-            print("First run")
+            print("\033[95mFirst run\033[0m")
     with open(file,'w') as outfile:
         json.dump(json_data,outfile,indent=4)
         outfile.close()
@@ -105,6 +105,7 @@ def setup_file_system(output_dir,batch_mode = False):
 def get_answer(json_data, output_dir, batch_mode = False):
     id, type, question,abstract = json_data
     inputfile_path,outfile_path,factoid_path,yesno_path,list_path = setup_file_system(output_dir)
+    # list nbest is used to respond with multiple results
     if(batch_mode):
         factoid_file_path = factoid_path + "qa_factoids.json"
         yesno_file_path = yesno_path + "qa_yesno.json"
@@ -118,17 +119,20 @@ def get_answer(json_data, output_dir, batch_mode = False):
         else: # We don't handle the summary case
             return 
     else:
-        print ('Question answering json:', json_data)
+        print(f'\033[95mQuestion answering json: {json_data}\033[0m ')
         # Write data in BioASQ format to json file
         good_json_data = get_json_from_data(json_data)
         print_json_to_file(inputfile_path, good_json_data)
-        print(f"Question type <{type}>")
+        print(f"\033[95mQuestion type <{type}>\033[0m")
         if type == 'yesno':
             run_qa_file('run_yesno.py',output_dir, predict_file=inputfile_path)
         elif type == 'factoid':
             run_qa_file('run_factoid.py',output_dir, predict_file=inputfile_path)
         elif type == 'list':
             run_qa_file('run_list.py',output_dir, predict_file=inputfile_path)
+            list_nbest = output_dir + "nbest_predictions.json"
+            # allow for getting multiple predictions
+            outfile_path = list_nbest
         else: # We don't handle the summary case
             return 
         while (not os.path.exists(outfile_path)):
@@ -141,7 +145,7 @@ def get_answer(json_data, output_dir, batch_mode = False):
                 return results
 
 def run_batch_mode(input_file,output_dir):
-    print(f"reading {input_file} for input")
+    print(f"\033[95mreading {input_file} for input\033[0m")
     with open(input_file, "rU") as file:
         content = file.readlines()
         content = "".join(content)
@@ -157,7 +161,7 @@ def run_batch_mode(input_file,output_dir):
                 # If IR was unsuccessful when it came to retrieving documents for the given question
                 abstract_text = ""
             data = (id, type, original_question, abstract_text)
-            print(f"Getting answer for \'{original_question}\'")
+            print(f"\033[95mGetting answer for \'{original_question}\'\033[0m")
             # write all questions to a general file
             json_data = get_json_from_data(data)
             print_json_to_file(output_dir+ "qa_all.json", json_data, batch_mode=True)
