@@ -55,7 +55,7 @@ spacy-legacy==3.0.1
 srsly==2.4.0
 tensorboard==1.15.0
 tensorflow-estimator==1.15.1
-tensorflow-gpu==1.15.2
+tensorflow-gpu==1.15
 termcolor==1.1.0
 thinc==8.0.1
 threadpoolctl==2.1.0

@@ -17,6 +17,9 @@ Preferred Variant
 PT > ET > SY
 Preferred Entry Synonym
 
+
+We should only pull PT representations of each mesh id and use it as the unique identifier for the MESH ID since there should only be ONE Preferred Variant.
+
 """
 
 def get_plaintext_from_umls(uid):

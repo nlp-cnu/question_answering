@@ -254,7 +254,6 @@ qidDict = dict()
 qidQtextDict = dict()
 
 for multiQid in nbest_pred_dict:
-    assert len(multiQid) == (24+4)
 
     realQid = multiQid[:-4]
 
@@ -435,7 +434,6 @@ for qid in qidDict:
                 tempList.append(ans)
             ansList = tempList
 
-    assert len(qid) == 24
 
     assert len(ansList) > 0
 
