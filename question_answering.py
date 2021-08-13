@@ -38,6 +38,7 @@ def run_qa_file(filename, output_dir,predict_file):
     print(f"\033[95mRunning command: {command}\033[0m")
     os.system(command)
 
+# prints json to file ;)
 def print_json_to_file(file, json_data, batch_mode = False):
     if(batch_mode):
         try:
@@ -149,29 +150,29 @@ def get_answer(json_data, output_dir, batch_mode = False):
                 return results
 
 def run_batch_mode(input_file,output_dir):
-    # print(f"\033[95mreading {input_file} for input\033[0m")
-    # with open(input_file, "rU") as file:
-    #     content = file.readlines()
-    #     content = "".join(content)
-    #     soup = bs(content,"lxml")
-    #     result = soup.find_all("q") # get all the questions
-    #     for item in result:
-    #         type = item.find("qp").find("type").get_text()
-    #         id = item.attrs['id']
-    #         original_question = str(item.find('qp').previousSibling)
-    #         try:
-    #             abstract_text = item.find('ir').find('result').find("abstract").get_text()
-    #         except:
-    #             # If IR was unsuccessful when it came to retrieving documents for the given question
-    #             abstract_text = ""
-    #         data = (id, type, original_question, abstract_text)
-    #         print(f"\033[95mGetting answer for \'{original_question}\'\033[0m")
-    #         # write all questions to a general file
-    #         json_data = get_json_from_data(data)
-    #         print_json_to_file(output_dir+ "qa_all.json", json_data, batch_mode=True)
-    #         if abstract_text != "":
-    #             # get the answers for questions with relevant concepts
-    #             get_answer(data,output_dir,batch_mode=True)
+    print(f"\033[95mreading {input_file} for input\033[0m")
+    with open(input_file, "rU") as file:
+        content = file.readlines()
+        content = "".join(content)
+        soup = bs(content,"lxml")
+        result = soup.find_all("q") # get all the questions
+        for item in result:
+            type = item.find("qp").find("type").get_text()
+            id = item.attrs['id']
+            original_question = str(item.find('qp').previousSibling)
+            try:
+                abstract_text = item.find('ir').find('result').find("abstract").get_text()
+            except:
+                # If IR was unsuccessful when it came to retrieving documents for the given question
+                abstract_text = ""
+            data = (id, type, original_question, abstract_text)
+            print(f"\033[95mGetting answer for \'{original_question}\'\033[0m")
+            # write all questions to a general file
+            json_data = get_json_from_data(data)
+            print_json_to_file(output_dir+ "qa_all.json", json_data, batch_mode=True)
+            if abstract_text != "":
+                # get the answers for questions with relevant concepts
+                get_answer(data,output_dir,batch_mode=True)
     
     # Now that the intermediary files are generated, pass them into qa scripts. 
     _,_,factoid_path,yesno_path,list_path = setup_file_system(output_dir,True)
@@ -182,18 +183,21 @@ def run_batch_mode(input_file,output_dir):
     
     list_nbest = list_path+"nbest_predictions.json"
     factoid_nbest = factoid_path+"nbest_predictions.json"
-    yesno_nbest = yesno_path+"nbest_predictions.json"
-
+    # We use predictions instead of nbest since yesno only has 2 options
+    yesno_preds = yesno_path+"predictions.json" 
+    # Run the biobert question answering code on our extracted question dataframes
     run_qa_file('run_yesno.py',yesno_path, predict_file= yesno_file_path)
-    # run_qa_file('run_factoid.py',factoid_path, predict_file= factoid_file_path)
-    # run_qa_file('run_list.py',list_path, predict_file= list_file_path)
+    run_qa_file('run_factoid.py',factoid_path, predict_file= factoid_file_path)
+    run_qa_file('run_list.py',list_path, predict_file= list_file_path)
     
     # Run the nbest predictions through a file type transformer, then into BioASQ evaluation repo
     while not os.path.exists(list_nbest):
         time.sleep(1)
     if os.path.isfile(list_nbest):
         print("\033[95mMigrating jsons to correct bioasq format!!\033[0m")
-        file_paths = (factoid_nbest, list_nbest, yesno_nbest)
+        file_paths = (factoid_nbest, list_nbest, yesno_preds)
         transform_to_bioasq(file_paths)
+
+
 
 
