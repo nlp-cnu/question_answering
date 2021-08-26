@@ -31,13 +31,14 @@ from bs4 import BeautifulSoup as bs
 
 # pass formatted json into file that generates answer
 def run_qa_file(filename, output_dir,predict_file):
-    print(f"Running {filename}")
+    print(f"\033[95mRunning {filename}\033[0m")
     vocab_file_path = f'data_modules{os.path.sep}model{os.path.sep}vocab.txt'
     bert_config_file = f'data_modules{os.path.sep}model{os.path.sep}config.json'
     command = f"python {filename} --do_train=False --do_predict=True --vocab_file={vocab_file_path} --bert_config_file={bert_config_file} --output_dir={output_dir} --predict_file={predict_file}"
-    print(f"Running command: {command}")
+    print(f"\033[95mRunning command: {command}\033[0m")
     os.system(command)
 
+# prints json to file ;)
 def print_json_to_file(file, json_data, batch_mode = False):
     if(batch_mode):
         try:
@@ -50,7 +51,7 @@ def print_json_to_file(file, json_data, batch_mode = False):
                     old_data.append(new_data)
                     json_data['data'] = old_data
         except:
-            print("First run")
+            print("\033[95mFirst run\033[0m")
     with open(file,'w') as outfile:
         json.dump(json_data,outfile,indent=4)
         outfile.close()
@@ -73,11 +74,14 @@ def transform_to_bioasq(file_paths):
     list_command = f"python ./biocodes/transform_n2b_list.py --nbest_path={list_old} --output_path={os.path.dirname(list_old)}"
     yesno_command = f"python ./biocodes/transform_n2b_yesno.py --nbest_path={yesno_old} --output_path={os.path.dirname(yesno_old)}"
     if os.path.exists(factoid_old):
+        print("\033[95mChanging Factoid!\033[0m")
         os.system(factoid_command)
     #commenting this out until List question formatting 
-    #if os.path.exists(list_old): 
-        #os.system(list_command)
+    if os.path.exists(list_old): 
+        print("\033[95mChanging List!\033[0m")
+        os.system(list_command)
     if os.path.exists(yesno_old):
+        print("\033[95mChanging yesno!\033[0m")
         os.system(yesno_command)
     
 #ensure temp directory and subdirectories exist
@@ -105,30 +109,35 @@ def setup_file_system(output_dir,batch_mode = False):
 def get_answer(json_data, output_dir, batch_mode = False):
     id, type, question,abstract = json_data
     inputfile_path,outfile_path,factoid_path,yesno_path,list_path = setup_file_system(output_dir)
+    # list nbest is used to respond with multiple results
     if(batch_mode):
         factoid_file_path = factoid_path + "qa_factoids.json"
         yesno_file_path = yesno_path + "qa_yesno.json"
         list_file_path = list_path + "qa_list.json"
+        printing_json = get_json_from_data(json_data)
         if type == 'yesno':
-            print_json_to_file(yesno_file_path, json_data, batch_mode=True)
+            print_json_to_file(yesno_file_path, printing_json, batch_mode=True)
         elif type == 'factoid':
-            print_json_to_file(factoid_file_path, json_data, batch_mode=True)
+            print_json_to_file(factoid_file_path, printing_json, batch_mode=True)
         elif type == 'list':
-            print_json_to_file(list_file_path, json_data, batch_mode=True)
+            print_json_to_file(list_file_path, printing_json, batch_mode=True)
         else: # We don't handle the summary case
             return 
     else:
-        print ('Question answering json:', json_data)
+        print(f'\033[95mQuestion answering json: {json_data}\033[0m ')
         # Write data in BioASQ format to json file
         good_json_data = get_json_from_data(json_data)
         print_json_to_file(inputfile_path, good_json_data)
-        print(f"Question type <{type}>")
+        print(f"\033[95mQuestion type <{type}>\033[0m")
         if type == 'yesno':
             run_qa_file('run_yesno.py',output_dir, predict_file=inputfile_path)
         elif type == 'factoid':
             run_qa_file('run_factoid.py',output_dir, predict_file=inputfile_path)
         elif type == 'list':
             run_qa_file('run_list.py',output_dir, predict_file=inputfile_path)
+            list_nbest = output_dir + "nbest_predictions.json"
+            # allow for getting multiple predictions
+            outfile_path = list_nbest
         else: # We don't handle the summary case
             return 
         while (not os.path.exists(outfile_path)):
@@ -141,7 +150,7 @@ def get_answer(json_data, output_dir, batch_mode = False):
                 return results
 
 def run_batch_mode(input_file,output_dir):
-    print(f"reading {input_file} for input")
+    print(f"\033[95mreading {input_file} for input\033[0m")
     with open(input_file, "rU") as file:
         content = file.readlines()
         content = "".join(content)
@@ -157,13 +166,13 @@ def run_batch_mode(input_file,output_dir):
                 # If IR was unsuccessful when it came to retrieving documents for the given question
                 abstract_text = ""
             data = (id, type, original_question, abstract_text)
-            print(f"Getting answer for \'{original_question}\'")
+            print(f"\033[95mGetting answer for \'{original_question}\'\033[0m")
             # write all questions to a general file
             json_data = get_json_from_data(data)
             print_json_to_file(output_dir+ "qa_all.json", json_data, batch_mode=True)
             if abstract_text != "":
                 # get the answers for questions with relevant concepts
-                get_answer(json_data,output_dir,batch_mode=True)
+                get_answer(data,output_dir,batch_mode=True)
     
     # Now that the intermediary files are generated, pass them into qa scripts. 
     _,_,factoid_path,yesno_path,list_path = setup_file_system(output_dir,True)
@@ -174,8 +183,9 @@ def run_batch_mode(input_file,output_dir):
     
     list_nbest = list_path+"nbest_predictions.json"
     factoid_nbest = factoid_path+"nbest_predictions.json"
-    yesno_nbest = yesno_path+"nbest_predictions.json"
-
+    # We use predictions instead of nbest since yesno only has 2 options
+    yesno_preds = yesno_path+"predictions.json" 
+    # Run the biobert question answering code on our extracted question dataframes
     run_qa_file('run_yesno.py',yesno_path, predict_file= yesno_file_path)
     run_qa_file('run_factoid.py',factoid_path, predict_file= factoid_file_path)
     run_qa_file('run_list.py',list_path, predict_file= list_file_path)
@@ -184,6 +194,10 @@ def run_batch_mode(input_file,output_dir):
     while not os.path.exists(list_nbest):
         time.sleep(1)
     if os.path.isfile(list_nbest):
-        file_paths = (factoid_nbest, list_nbest, yesno_nbest)
+        print("\033[95mMigrating jsons to correct bioasq format!!\033[0m")
+        file_paths = (factoid_nbest, list_nbest, yesno_preds)
         transform_to_bioasq(file_paths)
+
+
+
 

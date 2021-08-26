@@ -39,7 +39,7 @@ def save_response_content(response, destination,total_size):
                     pbar.update(len(chunk))
 
 def getModel(cwd):
-    print(f"Retrieving model")
+    print(f"\033[95mRetrieving model\033[0m")
     cwd = cwd + 'model' + os.path.sep
     ensure_file_has_directory(cwd)
     model_files = [('1-0qL0U2LnvdCJb4AYBuO0aGYrlIescjb', cwd + 'config.json'),
@@ -52,7 +52,7 @@ def getModel(cwd):
 
 
 def getIndex(cwd):
-    print("Retrieving index")
+    print("\033[95mRetrieving index\033[0m")
     cwd = cwd + 'index' + os.path.sep
     ensure_file_has_directory(cwd)
     full = cwd + os.path.sep + 'full_index' + os.path.sep
@@ -71,12 +71,12 @@ def getIndex(cwd):
 
 def ensure_file_has_directory(dir):
     if not os.path.isdir(os.path.dirname(dir)):
-        print(f'Making {dir} folder')
+        print(f'\033[95mMaking {dir} folder\033[0m')
         os.mkdir (dir)
 
 def download_if_nonesistant(file):
     if not os.path.isfile (file[1]) :
-        print(f"{file[1]} does not exist")
+        print(f"\033[95m{file[1]} does not exist\033[0m")
         download_file_from_google_drive(file[0],file[1])
 
 #Data Directory is the name of the folder you want your data modules to be stored in
