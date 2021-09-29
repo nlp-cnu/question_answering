@@ -1,9 +1,11 @@
+from re import S
 from lxml import etree as ET
 
 import numpy as np
 import pandas as pd
 import json
 import os
+import csv
 import subprocess
 
 """
@@ -12,14 +14,40 @@ import subprocess
     for QA we use the BioASQ testing repo
 """
 
+# make master json for eval purposes
+def generate_master_golden_json(filenames):
+    input_file = open('/home/daniels/dev/BioASQ-QA-System/testing_datasets/Task8BGoldenEnriched/8B1_golden.json')
+    master_json = json.load(input_file)
+    for json_location in filenames:
+        json_file = open(json_location)
+        raw_json = json.load(json_file)
+        for question in raw_json['questions']:
+            master_json['questions'].append(question)
+        json_file.close()
+    input_file.close()
+    output_file = open("/home/daniels/dev/BioASQ-QA-System/testing_datasets/Task8BGoldenEnriched/master_golden.json","w")
+    json.dump(master_json,output_file,indent=2)
+
+# This is so that our system can actually use the golden test datapoints..... of course we can't test with training questions, there would be no overlap.
+def create_testing_csv():
+    input_file = open('/home/daniels/dev/BioASQ-QA-System/testing_datasets/Task8BGoldenEnriched/master_golden.json')
+    master_json = json.load(input_file)
+    input_file.close()
+
+    output_csv = open('/home/daniels/dev/BioASQ-QA-System/testing_datasets/evaluation_input.csv',"w")
+    csv_writer = csv.writer(output_csv)
+    csv_writer.writerow(['ID','Question'])
+    for question in master_json['questions']:
+        csv_writer.writerow([question['id'],question['body']])
+    output_csv.close()
+
 
 def run_evaluation_code(file_to_evaluate):
     # now to check our stats from the evaluation measures repo (user will need to write in path to repo)
     # java -Xmx10G -cp flat/BioASQEvaluation/dist/BioASQEvaluation.jar evaluation.EvaluatorTask1b -phaseB -e 5 "/home/daniels/dev/BioASQ-QA-System/testing_datasets/Task8BGoldenEnriched/8B1_golden.json" "/home/daniels/dev/BioASQ-QA-System/tmp/qa/yesno/BioASQform_BioASQ-answer.json" -verbose
     eval_measures_repo_path = "/home/daniels/dev/Evaluation-Measures"
-    golden_file_path = ""
-    path_to_jar = ""
-    evaluation_command = f"java -Xmx10G -cp '{path_to_jar}' evaluation.EvaluatorTask1b -phaseB -e 5 '{golden_file_path}' '{file_to_evaluate}' -verbose"
+    golden_file_path = "/home/daniels/dev/BioASQ-QA-System/testing_datasets/Task8BGoldenEnriched/master_golden.json"
+    path_to_jar = "/home/daniels/dev/Evaluation-Measures/flat/BioASQEvaluation/dist/BioASQEvaluation.jar"
     evaluation_process = subprocess.Popen(
         [
             "java",
@@ -38,7 +66,7 @@ def run_evaluation_code(file_to_evaluate):
         stdout=subprocess.PIPE,
     )
     stdout, _ = evaluation_process.communicate()
-    
+    return stdout.decode("utf-8")
 
 
 def f1_score(predicted, actual):
@@ -51,7 +79,7 @@ def f1_score(predicted, actual):
     false_positives = np.setdiff1d(
         predicted, actual
     )  # elements that were predicted incorrectly
-    missed_positives = np.setdiff1d(
+    false_negatives = np.setdiff1d(
         actual, predicted
     )  # important elements which were not predicted
     if len(predicted) == 0:
@@ -59,8 +87,8 @@ def f1_score(predicted, actual):
         recall = 0
     else:
         precision = len(true_positives) / len(predicted)
-        recall = len(true_positives) + len(missed_positives)
-    if precision == 0 or recall == 0:
+        recall = len(true_positives) + len(false_negatives)
+    if precision == 0 or recall == 0: # shorctut
         f1 = 0
     else:
         f1 = 2 * (precision * recall) / (precision + recall)
@@ -122,23 +150,41 @@ def get_gold_dicts():
 
 
 if __name__ == "__main__":
-    print("\033[95m -- Analysis Module --\033[0m")
-    qu_gold, ir_gold = get_gold_dicts()
-    qu_generated = get_generated_dict("tmp/ir/input/bioasq_qa.xml", True)
-    ir_generated = get_generated_dict("tmp/ir/output/bioasq_qa.xml", False)
-    qu_f1 = get_scores(gold_dict=qu_gold, gen_dict=qu_generated)
-    ir_f1 = get_scores(gold_dict=ir_gold, gen_dict=ir_generated)
-    qu_f1_sum = 0.0
-    ir_f1_sum = 0.0
+    '''
+        Various dataset manipulation scripts will be left in comments here
+    '''
+    # files=['/home/daniels/dev/BioASQ-QA-System/testing_datasets/Task8BGoldenEnriched/8B2_golden.json','/home/daniels/dev/BioASQ-QA-System/testing_datasets/Task8BGoldenEnriched/8B3_golden.json','/home/daniels/dev/BioASQ-QA-System/testing_datasets/Task8BGoldenEnriched/8B4_golden.json','/home/daniels/dev/BioASQ-QA-System/testing_datasets/Task8BGoldenEnriched/8B5_golden.json']
+    # generate_master_golden_json(files)
 
-    for key in qu_f1.keys():
-        qu_f1_sum += qu_f1.get(key)
-    for key in ir_f1.keys():
-        ir_f1_sum += ir_f1.get(key)
-    qu_f1_sum /= len(qu_f1)
-    ir_f1_sum /= len(ir_f1)
+    # print("\033[31m -- Analysis Module --\033[0m")
+    # qu_gold, ir_gold = get_gold_dicts()
+    # qu_generated = get_generated_dict("tmp/ir/input/bioasq_qa.xml", True)
+    # ir_generated = get_generated_dict("tmp/ir/output/bioasq_qa.xml", False)
+    # qu_f1 = get_scores(gold_dict=qu_gold, gen_dict=qu_generated)
+    # ir_f1 = get_scores(gold_dict=ir_gold, gen_dict=ir_generated)
+    # qu_f1_sum = 0.0
+    # ir_f1_sum = 0.0
 
-    print(f"\033[95mAverage QU f1 score:\n{qu_f1_sum}\033[0m")
-    print(f"\033[95mAverage IR f1 score:\n{ir_f1_sum}\033[0m")
+    # for key in qu_f1.keys():
+    #     qu_f1_sum += qu_f1.get(key)
+    # for key in ir_f1.keys():
+    #     ir_f1_sum += ir_f1.get(key)
+    # qu_f1_sum /= len(qu_f1)
+    # ir_f1_sum /= len(ir_f1)
 
-    # QA system analysis
+    # print(f"\033[95mAverage QU f1 score:\n{qu_f1_sum}\033[0m")
+    # print(f"\033[95mAverage IR f1 score:\n{ir_f1_sum}\033[0m")
+
+    # # QA module analysis
+    # yesno_file= "/home/daniels/dev/BioASQ-QA-System/tmp/qa/yesno/BioASQform_BioASQ-answer.json"
+    # factoid_file= "/home/daniels/dev/BioASQ-QA-System/tmp/qa/factoid/BioASQform_BioASQ-answer.json"
+    # list_file= "/home/daniels/dev/BioASQ-QA-System/tmp/qa/list/BioASQform_BioASQ-answer.json"
+    # print("\n\n\033[95mQA module evaluation\033[0m")
+    # print(run_evaluation_code(yesno_file))
+    # print(run_evaluation_code(factoid_file))
+    # print(run_evaluation_code(list_file))
+    # print("\033[31mEvaluation complete.\033[0m")
+    create_testing_csv()
+
+
+
