@@ -33,7 +33,7 @@ def force_english(unknown_text):
 def get_plaintext_from_umls(uid):
     get_concepts_regex = "(?=[|]*)+([\w\d\s\- \, \.])+(?=[|]\d[|]\w*[|]\d*[|])"
     grep_out_path = "tmp/grep_out.txt"
-    command_str = f"grep 'PT|{uid}' umls/MRCONSO.RRF" 
+    command_str = f"grep '|ENG|.*|{uid}|.*|MH|' umls/MRCONSO.RRF" 
     print(command_str)
     try:
         output = subprocess.check_output(command_str,shell=True).decode("utf-8")
