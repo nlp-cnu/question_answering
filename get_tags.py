@@ -24,7 +24,6 @@ We should only pull PT representations of each mesh id and use it as the unique 
 
 """
 
-
 def get_plaintext_from_umls(uid):
     get_concepts_regex = "(?=[|]*)+([\w\d\s\- \, \.])+(?=[|]\d[|]\w*[|]\d*[|])"
     command_str = f"grep '|ENG|.*|{uid}|.*|MH|' umls/MRCONSO.RRF" 
@@ -44,7 +43,7 @@ def get_plaintext_from_umls(uid):
 
 # pull the relavant concepts from their original format ex: ("http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0005154") -> ("GO:0005154")
 def get_readable_concepts(dirty_concept):
-    get_uid_regex = "(GO:\d{7})|(D\d{6})"
+    get_uid_regex = "(GO:\d{7})|(D\d{6})" # ALSO HANDLE disease ontology
     result = re.search(get_uid_regex,dirty_concept)
     if(result):
         clean_uid = result.group()
