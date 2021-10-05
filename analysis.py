@@ -1,4 +1,5 @@
 from re import L, S
+import re
 from lxml import etree as ET
 
 import numpy as np
@@ -7,6 +8,7 @@ import json
 import os
 import csv
 import subprocess
+from sklearn import metrics as m
 
 """
     for QU we are doing f1 score on concepts
@@ -69,31 +71,40 @@ def run_evaluation_code(file_to_evaluate):
     return stdout.decode("utf-8")
 
 
-def f1_score(predicted, actual):
+def eval_score(predicted, actual):
     # precision = true predicted positives / all predicted positives
     # recall = true predicted positives/ all actual positives
     # f1 = 2 * (precision * recall) / (precision + recall)
+    # force lowercase to help out here
+    predicted = set([ele.lower() for ele in predicted])
+    actual = set([ele.lower() for ele in actual])
+
+    # correctly predicted positives
     true_positives = [
         ele for ele in predicted if ele in actual
-    ]  # correctly predicted positives
-    false_positives = np.setdiff1d(
-        predicted, actual
-    )  # elements that were predicted incorrectly
-    false_negatives = np.setdiff1d(
-        actual, predicted
-    )  # important elements which were not predicted
-    if len(predicted) == 0:
+    ]  
+    # elements that were predicted incorrectly
+    false_positives = [
+        ele for ele in predicted if ele not in actual
+    ]
+    # important elements which were not predicted
+    false_negatives = [
+        ele for ele in actual if ele not in predicted
+    ]
+
+    if len(predicted) == 0 or len(actual) == 0:
         precision = 0
         recall = 0
     else:
-        precision = len(true_positives) / len(predicted)
-        recall = len(true_positives) + len(false_negatives)
-    if precision == 0 or recall == 0: # shorctut
+        precision = len(true_positives) / (len(true_positives) + len(false_positives))
+        recall = len(true_positives) / (len(true_positives)+ len(false_negatives))
+    if precision == 0 or recall == 0: # shortcut
         f1 = 0
     else:
         f1 = 2 * (precision * recall) / (precision + recall)
-    print(f"\n---\nF1: [{len(predicted)} predicted]({predicted}) | [{len(actual)} actual]({actual})\n{len(true_positives)} correct answers : {true_positives}\n{len(false_positives)} incorrect answers: {false_positives}\n{len(false_negatives)} missed answers: {false_negatives}\n")
-    return f1
+    print(f"\n---\nF1: [{len(predicted)} predicted] {predicted} | [{len(actual)} actual] {actual} \n{len(true_positives)} correct answers : {true_positives}\n{len(false_positives)} incorrect answers: {false_positives}\n{len(false_negatives)} missed answers: {false_negatives}\n")
+    print(f"f1: {f1}, precision: {precision}, recall: {recall}")
+    return (f1,precision,recall)
 
 
 def get_generated_dict(file_location, mode="concepts"):
@@ -103,10 +114,10 @@ def get_generated_dict(file_location, mode="concepts"):
         if fileTree:
             root = fileTree.getroot()
             questions = root.findall("Q")
-            print(f"{len(questions)} questions found")
+            print(f"{len(questions)} {mode} found")
             for question in questions:
                 qid = question.get("id")
-                if mode=="qu":
+                if mode=="concepts":
                     qp = question.find("QP")
                     concepts = [e.text for e in qp.findall("Entities")] # entities are the same as concepts
                     dict[qid] = concepts
@@ -130,11 +141,13 @@ def get_generated_dicts(generated_xml):
     generated_types = get_generated_dict(generated_xml, mode="type")
     return generated_concepts,generated_pubmed_ids,generated_types
 
+# f1_scores takes the form {id: (f1,precision,recall)}
 def get_scores(gold_dict, gen_dict):
-    f1_scores = {}
-    for key in gen_dict.keys():
-        f1_scores[key] = f1_score(gen_dict[key], gold_dict[key])
-    return f1_scores
+    eval_scores = {}
+    for key in gold_dict.keys():
+        # only take duplicates to not penalize for hitting same document multiple times
+        eval_scores[key] = eval_score(set(gen_dict[key]), set(gold_dict[key]))
+    return eval_scores
 
 def get_gold_dicts(golden_dataset):
     # Here we are going to be opening files and retrieving a dict of features with keys taken from question IDs
@@ -151,26 +164,35 @@ def get_gold_dicts(golden_dataset):
             question_type = question.get("type")
             human_concepts = question.get("human_concepts")
             if not human_concepts:
-                human_concepts = []
                 empty += 1
             else:
                 found += 1
             documents = [
                 document.split("/")[-1] for document in question.get("documents")
             ]
-            concepts_dict[id] = human_concepts
+            # print(f"documents found: for question ({id}) : {len(documents)}")
+            if human_concepts:
+                concepts_dict[id] = human_concepts
+            else:
+                concepts_dict[id] = []
             pubmed_ids_dict[id] = documents
             type_dict[id] = (question_type,question["body"])
     print(f"\033[95mConcepts -> empty: {empty} | found: {found}\033[0m")
+    print(f" {len(concepts_dict)} concepts {len(pubmed_ids_dict)} ids {len(type_dict)} types")
     return concepts_dict, pubmed_ids_dict, type_dict
 
-def get_average_f1(f1_list):
+def get_average_scores(f1_list):
     if len(f1_list) == 0:
         return
     f1_sum = 0.0
+    precision_sum = 0.0
+    recall_sum = 0.0
     for key in f1_list.keys():
-        f1_sum += f1_list.get(key)
-    return f1_sum / len(f1_list)
+        f1_sum += f1_list.get(key)[0]
+        precision_sum += f1_list.get(key)[1]
+        recall_sum += f1_list.get(key)[2]
+
+    return (f1_sum / len(f1_list),  precision_sum / len(f1_list), recall_sum / len(f1_list))
 
 def exact_matching(gold, generated):
     num_correct = 0
@@ -178,15 +200,13 @@ def exact_matching(gold, generated):
         if id in gold:
             if generated[id][0] == gold[id][0]:
                 num_correct+=1
-            else:
-                print(f"Question [{id}], {generated[id][1]}, Guessed <{generated[id][0]}> when it should have been <{gold[id][0]}>")
+            # else:
+                # print(f"Question [{id}], {generated[id][1]}, Guessed <{generated[id][0]}> when it should have been <{gold[id][0]}>")
         else:
-            print(f"question {od} not in evalation set")
+            print(f"question {id} not in evalation set")
     return f"{num_correct}/{len(generated)}"
 
-def print_ir_qu_results(EVALUATING = False, TESTING = False):
-    EVALUATING = True
-    TESTING = True
+def print_qu_ir_results(EVALUATING = False, TESTING = False):
 
     print("\033[31m -- Analysis Module --\033[0m")
 
@@ -200,22 +220,24 @@ def print_ir_qu_results(EVALUATING = False, TESTING = False):
         generated_xml = "tmp/ir/output/bioasq_qa_EVAL.xml"
     else:
         generated_xml= "tmp/ir/output/bioasq_qa.xml"
-
+    print("Getting golden data")
     gold_concepts, gold_pubmed_ids, gold_question_types = get_gold_dicts(golden_dataset)
-    generated_concepts, generated_pubmed_ids, generated_types= get_generated_dicts(generated_xml)
-    print(f"Num generated concepts: {len(generated_concepts)}, pmids: {len(generated_pubmed_ids)}, types: {len(generated_types)}")
-    print("getting f1 scores")
-    concepts_f1 = get_scores(gold_dict=gold_concepts, gen_dict=generated_concepts)
+    print(f"\033[31mNum gold concepts: {len(gold_concepts)}, pmids: {len(gold_pubmed_ids)}, types: {len(gold_question_types)}\033[0m")
 
-    pubmed_f1 = get_scores(gold_dict=gold_pubmed_ids, gen_dict=generated_pubmed_ids)
+    generated_concepts, generated_pubmed_ids, generated_types= get_generated_dicts(generated_xml)
+    print(f"\033[31mNum generated concepts: {len(generated_concepts)}, pmids: {len(generated_pubmed_ids)}, types: {len(generated_types)}\033[0m")
+    print("\033[95mgetting f1 scores\033[0m")
+    concepts_scores = get_scores(gold_dict=gold_concepts, gen_dict=generated_concepts)
+
+    pubmed_scores = get_scores(gold_dict=gold_pubmed_ids, gen_dict=generated_pubmed_ids)
     type_em = exact_matching(gold=gold_question_types,generated=generated_types)
 
-    qu_concepts_f1_average = get_average_f1(concepts_f1)
-    ir_f1_average = get_average_f1(pubmed_f1)
+    qu_concepts_scores_average = get_average_scores(concepts_scores)
+    ir_scores_average = get_average_scores(pubmed_scores)
 
-    print(f"\033[95mAverage QU concepts f1 score:\n{qu_concepts_f1_average}\033[0m")
+    print(f"\033[95mAverage QU concepts f1, precision, recall score:\n{qu_concepts_scores_average}\033[0m")
     print(f"\033[95mNumber of question's with type correctly predicted {type_em}\033[0m")
-    print(f"\033[95mAverage IR f1 score:\n{ir_f1_average}\033[0m")
+    print(f"\033[95mAverage IR PMID f1, precision, recall score:\n{ir_scores_average}\033[0m")
 
 def print_qa_results(TESTING=False,EVALUATING=False):
     # QA module analysis
@@ -245,10 +267,11 @@ if __name__ == "__main__":
     # files=['/home/daniels/dev/BioASQ-QA-System/testing_datasets/Task8BGoldenEnriched/8B2_golden.json','/home/daniels/dev/BioASQ-QA-System/testing_datasets/Task8BGoldenEnriched/8B3_golden.json','/home/daniels/dev/BioASQ-QA-System/testing_datasets/Task8BGoldenEnriched/8B4_golden.json','/home/daniels/dev/BioASQ-QA-System/testing_datasets/Task8BGoldenEnriched/8B5_golden.json']
     # generate_master_golden_json(files)
     # create_testing_csv()
+    EVALUATING = False
+    TESTING = False
 
-
-    print_ir_qu_results(TESTING=True)
-    print_qa_results(TESTING=True)    
+    print_qu_ir_results(TESTING=TESTING, EVALUATING=EVALUATING)
+    #print_qa_results(TESTING=TESTING, EVALUATING=EVALUATING)    
 
 
 
