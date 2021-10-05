@@ -16,6 +16,12 @@ from sklearn import metrics as m
     for QA we use the BioASQ testing repo
 """
 
+'''
+DEBUG VARIABLES
+'''
+EVALUATING = True
+TESTING = False
+
 # make master json for eval purposes
 def generate_master_golden_json(filenames):
     input_file = open('/home/daniels/dev/BioASQ-QA-System/testing_datasets/Task8BGoldenEnriched/8B1_golden.json')
@@ -29,6 +35,36 @@ def generate_master_golden_json(filenames):
     input_file.close()
     output_file = open("/home/daniels/dev/BioASQ-QA-System/testing_datasets/Task8BGoldenEnriched/master_golden.json","w")
     json.dump(master_json,output_file,indent=2)
+
+# create train_factoid.json, train_yesno.json, and train_list.json
+def split_gold_train(path_to_files):
+    input_file = open("/home/daniels/dev/BioASQ-QA-System/testing_datasets/BioASQ-training8b/CLEAN/training8b.json")
+    master_json = json.load(input_file)
+    input_file.close()
+
+    empty_q = '{"questions":[]}'
+
+    yn_j = json.loads(empty_q)
+    lst_j = json.loads(empty_q)
+    fct_j = json.loads(empty_q)
+    yn = [q for q in master_json['questions'] if q['type']=='yesno']
+    lst = [q for q in master_json['questions'] if q['type']=='list']
+    fct = [q for q in master_json['questions'] if q['type']=='factoid']
+
+    # put in json format all happy and stuff
+    for q in yn: 
+        yn_j['questions'].append(q)
+    for q in lst: 
+        lst_j['questions'].append(q)
+    for q in fct:   
+        fct_j['questions'].append(q)
+
+    with open(f"{path_to_files}/train_yesno.json","w") as yesno_file:
+        json.dump(yn_j,yesno_file,indent=2)
+    with open(f"{path_to_files}/train_factoid.json","w") as factoid_file:
+        json.dump(fct_j,factoid_file,indent=2)
+    with open(f"{path_to_files}/train_list.json","w") as list_file:
+        json.dump(lst_j,list_file,indent=2)
 
 # This is so that our system can actually use the golden test datapoints..... of course we can't test with training questions, there would be no overlap.
 def create_testing_csv():
@@ -44,11 +80,20 @@ def create_testing_csv():
     output_csv.close()
 
 
-def run_evaluation_code(file_to_evaluate):
+def run_evaluation_code(file_to_evaluate,golden_file):
     # now to check our stats from the evaluation measures repo (user will need to write in path to repo)
-    # java -Xmx10G -cp flat/BioASQEvaluation/dist/BioASQEvaluation.jar evaluation.EvaluatorTask1b -phaseB -e 5 "/home/daniels/dev/BioASQ-QA-System/testing_datasets/Task8BGoldenEnriched/8B1_golden.json" "/home/daniels/dev/BioASQ-QA-System/tmp/qa/yesno/BioASQform_BioASQ-answer.json" -verbose
+    # java -Xmx10G -cp flat/BioASQEvaluation/dist/BioASQEvaluation.jar evaluation.EvaluatorTask1b -phaseB -e 5 "/home/daniels/dev/BioASQ-QA-System/testing_datasets/BioASQ-training8b/CLEAN/training8b.json" "/home/daniels/dev/BioASQ-QA-System/tmp/qa/yesno/BioASQform_BioASQ-answer.json" -verbose
+    print(f"file to evaluate: {file_to_evaluate}")
     eval_measures_repo_path = "/home/daniels/dev/Evaluation-Measures"
-    golden_file_path = "/home/daniels/dev/BioASQ-QA-System/testing_datasets/Task8BGoldenEnriched/master_golden.json"
+    if EVALUATING or TESTING:
+        golden_file_path = "/home/daniels/dev/BioASQ-QA-System/testing_datasets/Task8BGoldenEnriched/master_golden.json"
+    else:
+        golden_file_path = golden_file
+        #golden_file_path = "/home/daniels/dev/BioASQ-QA-System/testing_datasets/BioASQ-training8b/CLEAN/training8b.json"
+        #golden_file_path = "/home/daniels/dev/BioASQ-QA-System/testing_datasets/BioASQ-training8b/training8b.json"
+    #file_to_evaluate = golden_file_path
+    print(f"golden file : {golden_file_path}")
+
     path_to_jar = "/home/daniels/dev/Evaluation-Measures/flat/BioASQEvaluation/dist/BioASQEvaluation.jar"
     evaluation_process = subprocess.Popen(
         [
@@ -91,10 +136,15 @@ def eval_score(predicted, actual):
     false_negatives = [
         ele for ele in actual if ele not in predicted
     ]
-
-    if len(predicted) == 0 or len(actual) == 0:
-        precision = 0
-        recall = 0
+    if len(predicted) == 0 and len(actual) == 0:
+        print("No predicted or golden values???")
+        return(-99,-99,-99)
+    if len(predicted) == 0:
+        #print("No predicted values")
+        return(-1,-1,-1)
+    if len(actual) == 0:
+        #print("No golden values")
+        return(-5,-5,-5)
     else:
         precision = len(true_positives) / (len(true_positives) + len(false_positives))
         recall = len(true_positives) / (len(true_positives)+ len(false_negatives))
@@ -102,43 +152,55 @@ def eval_score(predicted, actual):
         f1 = 0
     else:
         f1 = 2 * (precision * recall) / (precision + recall)
-    print(f"\n---\nF1: [{len(predicted)} predicted] {predicted} | [{len(actual)} actual] {actual} \n{len(true_positives)} correct answers : {true_positives}\n{len(false_positives)} incorrect answers: {false_positives}\n{len(false_negatives)} missed answers: {false_negatives}\n")
-    print(f"f1: {f1}, precision: {precision}, recall: {recall}")
+    #print(f"\n---\nF1: [{len(predicted)} predicted] {predicted} | [{len(actual)} actual] {actual} \n{len(true_positives)} correct answers : {true_positives}\n{len(false_positives)} incorrect answers: {false_positives}\n{len(false_negatives)} missed answers: {false_negatives}\n")
+    #print(f"f1: {f1}, precision: {precision}, recall: {recall}")
     return (f1,precision,recall)
 
 
 def get_generated_dict(file_location, mode="concepts"):
     dict = {}
+    no_concepts = 0
+    no_pmids = 0
     with open(file_location, "r") as xml_file:
         fileTree = ET.parse(xml_file)
         if fileTree:
             root = fileTree.getroot()
             questions = root.findall("Q")
             print(f"{len(questions)} {mode} found")
+            
             for question in questions:
                 qid = question.get("id")
                 if mode=="concepts":
                     qp = question.find("QP")
                     concepts = [e.text for e in qp.findall("Entities")] # entities are the same as concepts
+                    if concepts == []:
+                        no_concepts +=1
+                        print(f"NO CONCEPTS QUESTION = {qid}")
                     dict[qid] = concepts
                 elif mode=="pubmed_ids":
                     ir = question.find("IR")
                     result_pmids = [e.get("PMID") for e in ir.findall("Result")]
+                    if(result_pmids == []):
+                        no_pmids +=1
                     dict[qid] = result_pmids
                 elif mode =="type":
                     qp = question.find("QP")
                     result_type = qp.find("Type").text
                     dict[qid] = (result_type,question.text)
-    return dict
+    return dict,no_concepts,no_pmids
 
 def get_generated_dicts(generated_xml):
     print(f"generated xml file is {generated_xml}")
     print("Getting generated concepts")
-    generated_concepts = get_generated_dict(generated_xml, mode="concepts")
+    generated_concepts, no_concepts,no_pmids = get_generated_dict(generated_xml, mode="concepts")
+    if no_concepts > 0 or no_pmids > 0:
+        print(f"questions with no concepts: {no_concepts}, questions with no pmids: {no_pmids}")
     print("Getting generated pmids")
-    generated_pubmed_ids = get_generated_dict(generated_xml, mode="pubmed_ids")
+    generated_pubmed_ids, no_concepts,no_pmids = get_generated_dict(generated_xml, mode="pubmed_ids")
+    if no_concepts > 0 or no_pmids > 0:
+        print(f"questions with no concepts: {no_concepts}, questions with no pmids: {no_pmids}")
     print("Getting generated types")
-    generated_types = get_generated_dict(generated_xml, mode="type")
+    generated_types,_,_ = get_generated_dict(generated_xml, mode="type")
     return generated_concepts,generated_pubmed_ids,generated_types
 
 # f1_scores takes the form {id: (f1,precision,recall)}
@@ -183,16 +245,30 @@ def get_gold_dicts(golden_dataset):
 
 def get_average_scores(f1_list):
     if len(f1_list) == 0:
-        return
+        return 0,0,0
     f1_sum = 0.0
     precision_sum = 0.0
     recall_sum = 0.0
+    no_predictions = 0
+    no_golden_answers = 0
+    good_num = 0
     for key in f1_list.keys():
-        f1_sum += f1_list.get(key)[0]
-        precision_sum += f1_list.get(key)[1]
-        recall_sum += f1_list.get(key)[2]
+        if f1_list.get(key)[0] >= 0:
+            f1_sum += f1_list.get(key)[0]
+            precision_sum += f1_list.get(key)[1]
+            recall_sum += f1_list.get(key)[2]
+            good_num+=1
+        elif f1_list.get(key)[0] == -1:
+            no_predictions+=1
+        else:
+            no_golden_answers+=1
 
-    return (f1_sum / len(f1_list),  precision_sum / len(f1_list), recall_sum / len(f1_list))
+    print(f"number of successes = {good_num}")
+    print(f"number of no predictions = {no_predictions}")
+    print(f"number of no golden answers = {no_golden_answers}")
+    if good_num == 0:
+        return (-1,-1,-1)
+    return (f1_sum / good_num,  precision_sum / good_num, recall_sum / good_num)
 
 def exact_matching(gold, generated):
     num_correct = 0
@@ -232,14 +308,24 @@ def print_qu_ir_results(EVALUATING = False, TESTING = False):
     pubmed_scores = get_scores(gold_dict=gold_pubmed_ids, gen_dict=generated_pubmed_ids)
     type_em = exact_matching(gold=gold_question_types,generated=generated_types)
 
+    print("Getting Average concepts score")
     qu_concepts_scores_average = get_average_scores(concepts_scores)
+    print("Getting Average PMIDS score")
+
     ir_scores_average = get_average_scores(pubmed_scores)
 
     print(f"\033[95mAverage QU concepts f1, precision, recall score:\n{qu_concepts_scores_average}\033[0m")
     print(f"\033[95mNumber of question's with type correctly predicted {type_em}\033[0m")
     print(f"\033[95mAverage IR PMID f1, precision, recall score:\n{ir_scores_average}\033[0m")
 
+
+# do a manual calculation of the 
+def yes_no_evaluation(file):
+    print('placeholder')
+
+
 def print_qa_results(TESTING=False,EVALUATING=False):
+
     # QA module analysis
     if TESTING:
         yesno_file= "/home/daniels/dev/BioASQ-QA-System/tmp/debugging/generated_yesno.json"
@@ -254,10 +340,17 @@ def print_qa_results(TESTING=False,EVALUATING=False):
         factoid_file= "/home/daniels/dev/BioASQ-QA-System/tmp/qa/factoid/BioASQform_BioASQ-answer.json"
         list_file= "/home/daniels/dev/BioASQ-QA-System/tmp/qa/list/BioASQform_BioASQ-answer.json"
 
+    factoid_eval ="/home/daniels/dev/BioASQ-QA-System/testing_datasets/BioASQ-training8b/CLEAN/train_factoid.json"
+    list_eval ="/home/daniels/dev/BioASQ-QA-System/testing_datasets/BioASQ-training8b/CLEAN/train_list.json"
+    yesno_eval ="/home/daniels/dev/BioASQ-QA-System/testing_datasets/BioASQ-training8b/CLEAN/train_yesno.json"
+
+
     print("\n\n\033[95mQA module evaluation\033[0m")
-    print(run_evaluation_code(yesno_file))
-    print(run_evaluation_code(factoid_file))
-    print(run_evaluation_code(list_file))
+    # yes_no_evaluation(yesno_file)
+    #print(run_evaluation_code(factoid_file,factoid_eval))
+    print(run_evaluation_code(list_file,list_eval))
+    print(run_evaluation_code(yesno_file,yesno_eval))
+
     print("\033[31mEvaluation complete.\033[0m")
 
 if __name__ == "__main__":
@@ -267,11 +360,10 @@ if __name__ == "__main__":
     # files=['/home/daniels/dev/BioASQ-QA-System/testing_datasets/Task8BGoldenEnriched/8B2_golden.json','/home/daniels/dev/BioASQ-QA-System/testing_datasets/Task8BGoldenEnriched/8B3_golden.json','/home/daniels/dev/BioASQ-QA-System/testing_datasets/Task8BGoldenEnriched/8B4_golden.json','/home/daniels/dev/BioASQ-QA-System/testing_datasets/Task8BGoldenEnriched/8B5_golden.json']
     # generate_master_golden_json(files)
     # create_testing_csv()
-    EVALUATING = False
-    TESTING = False
+    #split_gold_train("/home/daniels/dev/BioASQ-QA-System/testing_datasets/BioASQ-training8b/CLEAN")
 
     print_qu_ir_results(TESTING=TESTING, EVALUATING=EVALUATING)
-    #print_qa_results(TESTING=TESTING, EVALUATING=EVALUATING)    
+    print_qa_results(TESTING=TESTING, EVALUATING=EVALUATING)    
 
 
 
