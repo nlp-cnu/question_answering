@@ -5,7 +5,6 @@ import json
 from lxml import etree as ET
 from collections import OrderedDict
 import re
-from googletrans import Translator
 """
 grep "GO:0005488" MRCONSO.RRF
 C1167622|ENG|S|L0216497|VC|S0415665|N|A11582442|||GO:0005488|GO|PT|GO:0005488|binding|0|N|256|
@@ -25,15 +24,9 @@ We should only pull PT representations of each mesh id and use it as the unique 
 
 """
 
-def force_english(unknown_text):
-    trans = Translator()
-    translated_text = trans.translate(text=unknown_text, to_lang='en').text
-    return translated_text
-
 def get_plaintext_from_umls(uid):
     get_concepts_regex = "(?=[|]*)+([\w\d\s\- \, \.])+(?=[|]\d[|]\w*[|]\d*[|])"
-    grep_out_path = "tmp/grep_out.txt"
-    command_str = f"grep 'PT|{uid}' umls/MRCONSO.RRF" 
+    command_str = f"grep '|ENG|.*|{uid}|.*|MH|' umls/MRCONSO.RRF" 
     print(command_str)
     try:
         output = subprocess.check_output(command_str,shell=True).decode("utf-8")
@@ -45,13 +38,12 @@ def get_plaintext_from_umls(uid):
     good_concept = None
     for concept in concepts_iter:
         good_concept = concept.group()
-    good_concept = force_english(good_concept)
     print(f"\033[33m{good_concept}\033[95m")
     return good_concept
 
 # pull the relavant concepts from their original format ex: ("http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0005154") -> ("GO:0005154")
 def get_readable_concepts(dirty_concept):
-    get_uid_regex = "(GO:\d{7})|(D\d{6})"
+    get_uid_regex = "(GO:\d{7})|(D\d{6})" # ALSO HANDLE disease ontology
     result = re.search(get_uid_regex,dirty_concept)
     if(result):
         clean_uid = result.group()

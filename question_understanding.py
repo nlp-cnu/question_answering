@@ -9,7 +9,7 @@ question_understanding.py :
 
 # This is to remove some errors related to dependency issues for better user-friendlyness
 import warnings
-warnings.filterwarnings('ignore')
+#warnings.filterwarnings('ignore')
 
 import json
 import pandas as pd
@@ -30,6 +30,7 @@ def preprocess(df, tokenizer):
     df.attention_mask = [tokenizer.encode_plus(text,add_special_tokens=True)['attention_mask'] for text in df['Question']]
     encoded_tokens = list(df.encoded_tokens)
     attention_mask = list(df.attention_mask)
+    
     return encoded_tokens,attention_mask
 
 # Convert indices to Torch tensor and dump into cuda
@@ -46,28 +47,29 @@ def feed_generator(device, encoded_tokens,attention_mask):
     for batch in batch_seq:
         maxlen_sent = max([len(i) for i in shuffled_encoded_tokens[batch*batch_size:(batch+1)*batch_size]])
         token_tensor = torch.tensor([tokens+[0]*(maxlen_sent-len(tokens)) for tokens in shuffled_encoded_tokens[batch*batch_size:(batch+1)*batch_size]])
-        attention_mask = torch.tensor([tokens+[0]*(maxlen_sent-len(tokens)) for tokens in shuffled_attention_mask[batch*batch_size:(batch+1)*batch_size]]) 
-        token_tensor = token_tensor.to(device)
-        attention_mask = attention_mask.to(device)
+        attention_mask = torch.tensor([tokens+[0]*(maxlen_sent-len(tokens)) for tokens in shuffled_attention_mask[batch*batch_size:(batch+1)*batch_size]])        
+        token_tensor = token_tensor.to('cpu')
+        attention_mask = attention_mask.to('cpu')
         yield token_tensor,attention_mask
 
 # Returns a prediction ( query, snippets, features)
 def predict(device, model,data):
     model.eval()
-    if device == "cuda:0":
+    if device =="cuda:0":
         model.cuda()
     preds = []
     batch_count = 0
     for token_tensor, attention_mask in data:
+        print(token_tensor.device, attention_mask.device)
         with torch.no_grad():
             logits = model(token_tensor,token_type_ids=None,attention_mask=attention_mask)[0]
-        tmp_preds = torch.argmax(logits,-1).detach().cpu().numpy().tolist()
+            tmp_preds = torch.argmax(logits,-1).detach().cpu().numpy().tolist()
         preds += tmp_preds             
     return preds
 
 # If we are in batch mode, append all generated queries and concepts to xml file,
 # Otherwise pass QU data (question type, concepts, query) back for transfer to IR module
-def ask_and_receive(testing_df, device, tokenizer, model, nlp , batch_mode = False):
+def ask_and_receive(testing_df, device, tokenizer, model, nlp , batch_mode = False, output_file=None):
     encoded_tokens_Test,attention_mask_Test = preprocess(testing_df,tokenizer)
     data_test = feed_generator(device, encoded_tokens_Test, attention_mask_Test)
     preds_test = predict(device,model,data_test)
@@ -80,7 +82,7 @@ def ask_and_receive(testing_df, device, tokenizer, model, nlp , batch_mode = Fal
     testing_df['type'] = predict_label
     if(batch_mode):
         print("\033[95mWriting QU results to xml file...\033[0m")
-        xml_tree(testing_df,nlp)
+        xml_tree(testing_df,nlp,output_file)
     else:
         return send_qu_data(testing_df,nlp)
 
@@ -98,7 +100,7 @@ def send_qu_data(df,nlp):
     return (id, question, type, entities, query)
 
 # Print the extracted information from BioBERT to an xml file we will append to later.
-def xml_tree(df,nlp):
+def xml_tree(df,nlp,output_file):
     root = ET.Element("Input")
     for ind in df.index:
         id = df['ID'][ind]
@@ -122,6 +124,6 @@ def xml_tree(df,nlp):
         # Create IR tag
         IR = ET.SubElement(q, "IR")
     tree = ET.ElementTree(root)
-    output_file = "tmp/ir/input/bioasq_qa.xml"
     os.makedirs(os.path.dirname(output_file), exist_ok=True)
     tree.write(output_file, pretty_print=True)
+    print(f"writing XML to {output_file}")

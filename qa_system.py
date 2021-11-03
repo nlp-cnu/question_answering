@@ -74,10 +74,16 @@ if __name__ == "__main__":
     is_batch_mode = batch_mode_answer in ['Y','y','Yes','yes','Yep','yep','Yup','yup']
     if is_batch_mode:
         while(True):
-            qu_input = "testing_datasets/input.csv"
-            ir_input_generated = "tmp/ir/input/bioasq_qa.xml"
-            ir_output_generated = "tmp/ir/output/bioasq_qa.xml"
-            qa_output_generated_dir = "tmp/qa/"
+            # qu_input = "testing_datasets/input.csv"
+            # ir_input_generated = "tmp/ir/input/bioasq_qa.xml"
+            # ir_output_generated = "tmp/ir/output/bioasq_qa.xml"
+            # qa_output_generated_dir = "tmp/qa/"
+            # For evaluation
+            qu_input = "testing_datasets/evaluation_input.csv"
+            ir_input_generated = "tmp/ir/input/bioasq_qa_EVAL.xml"
+            ir_output_generated = "tmp/ir/output/bioasq_qa_EVAL.xml"
+            qa_output_generated_dir = "tmp/qa_EVAL/"
+
             # User prompt
             batch_options = """\033[95m
             What part of the system do you want to test? (Any non-number input will Cancel) 
@@ -95,12 +101,12 @@ if __name__ == "__main__":
                     print(f"\033[95m{batch_options_dict.get(result)} selected.\033[0m")
                 if (result == "0"):
                     test_dataframe = pd.read_csv(qu_input,sep=',',header=0)
-                    question_understanding.ask_and_receive(test_dataframe,device,tokenizer,model,nlp,batch_mode=True)
+                    question_understanding.ask_and_receive(test_dataframe,device,tokenizer,model,nlp,batch_mode=True, output_file=ir_output_generated)
                     information_retrieval.batch_search(input_file=ir_input_generated, output_file=ir_output_generated, indexer=pubmed_article_ix, parser=qp)
                     question_answering.run_batch_mode(input_file=ir_output_generated,output_dir=qa_output_generated_dir)
                 elif(result == "1"):
                     test_dataframe = pd.read_csv(qu_input,sep=',',header=0)
-                    question_understanding.ask_and_receive(test_dataframe,device,tokenizer,model,nlp,batch_mode=True)
+                    question_understanding.ask_and_receive(test_dataframe,device,tokenizer,model,nlp,batch_mode=True, output_file=ir_output_generated)
                 elif(result == "2"):
                     if os.path.exists(ir_input_generated):
                         information_retrieval.batch_search(input_file=ir_input_generated, output_file=ir_output_generated, indexer=pubmed_article_ix, parser=qp)
@@ -113,7 +119,7 @@ if __name__ == "__main__":
                         print("\033[91mMake sure you run both the QU module and the IR module before running the QA module.\033[0m")
                 elif(result == "4"):
                     test_dataframe = pd.read_csv(qu_input,sep=',',header=0)
-                    question_understanding.ask_and_receive(test_dataframe,device,tokenizer,model,nlp,batch_mode=True)
+                    question_understanding.ask_and_receive(test_dataframe,device,tokenizer,model,nlp,batch_mode=True, output_file=ir_output_generated)
                     information_retrieval.batch_search(input_file=ir_input_generated, output_file=ir_output_generated, indexer=pubmed_article_ix, parser=qp)
                 elif(result == "5"):
                     if os.path.exists(ir_input_generated):
