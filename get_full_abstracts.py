@@ -13,7 +13,9 @@ def get_abstracts_from_db(document_urls,pubmed_db_dir,simple=False):
     guessed_ids = []
     db_files= os.listdir(pubmed_db_dir)
     for db_file in db_files:
-        pm_tree = ET.parse(db_file)
+        full_path = pubmed_db_dir+ "/" + db_file
+        print(f"opening db: {full_path}")
+        pm_tree = ET.parse(full_path)
         if not pm_tree:
             print(f"ERROR: failed to open pubmed file {str(db_file)}")
             return
@@ -21,12 +23,13 @@ def get_abstracts_from_db(document_urls,pubmed_db_dir,simple=False):
         pubmed_articles = root.findall("PubmedArticle") 
         for article in pubmed_articles:
             try:
-                id = article.find("PubmedData").find("ArticleIdList")[0].text
+                id = article.find("MedlineCitation").find("PMID").text
                 if id in ids:
                     try:
-                        full_abstracts.append(pubmed_articles[id].find('Abstract').text)
+                        full_abstracts.append(article.find('MedlineCitation').find('Article').find('Abstract').find('AbstractText').text)
                     except Exception as e:
                         # no abstract for this article
+                        print(f"no abstract for PMID {id}")
                         print(str(e))
                     guessed_ids.append(id)
                     ids.remove(id)
@@ -46,7 +49,7 @@ def get_full_abstracts(gold_dataset,augmented_dataset,pubmed_db_dir):
     n = 1
     for question in questions:
         documents = question.get("documents")
-        print(f"({n} / {len(questions)})")
+        print(f"question ({n} / {len(questions)})")
         if documents:
             print(f"num documents: {len(documents)}")
             extracted_abstracts = get_abstracts_from_db(documents,pubmed_db_dir)
@@ -60,8 +63,5 @@ if __name__ == "__main__":
     gold_dataset = "testing_datasets/BioASQ-training8b/training8b.json"
     augmented_dataset = "testing_datasets/BioASQ-training8b/augmented_test_FULL_ABSTRACTS.json"
 
-    gold_dataset = "testing_datasets/small/small.json" # FOR TESTING
-
-    pubmed_db = "umls/pubmed21n0001.xml" # change this only
     pubmed_db_dir = "umls/pubmed"
     get_full_abstracts(gold_dataset, augmented_dataset, pubmed_db_dir)
