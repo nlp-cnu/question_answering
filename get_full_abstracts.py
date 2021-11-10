@@ -78,7 +78,7 @@ def add_full_abstracts(old_dataset, pmid_map, new_dataset):
 if __name__ == "__main__":
     gold_dataset = "testing_datasets/BioASQ-training8b/training8b.json"
     augmented_dataset = "testing_datasets/BioASQ-training8b/augmented_test_FULL_ABSTRACTS.json"
-    pubmed_db_dir = "umls/pubmed"
+    pubmed_db_dir = "/media/sam/DATA/pubmed_2021/"
     pmids_path = "testing_datasets/pmids.txt"
     pmid_abstract_path = "testing_datasets/pmids_and_abstracts.txt"
 
