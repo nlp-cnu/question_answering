@@ -42,10 +42,13 @@ def map_abstracts_to_ids(pmids,database_dir,pmid_abstract_path):
                 id = article.find("MedlineCitation").find("PMID").text
                 if id in pmids_set:
                     try:
-                        pmid_abstract_dict[id] = article.find('MedlineCitation').find('Article').find('Abstract').find('AbstractText').text
+                        art_ref = article.find('MedlineCitation').find('Article')
+                        abstract = art_ref.find('Abstract').find('AbstractText').text
+                        title = art_ref.find('ArticleTitle').text
+                        pmid_abstract_dict[id] = (title,abstract)
                     except Exception as e:
                         # no abstract for this article
-                        print(f"no abstract for PMID {id}")
+                        print(f"no abstract OR title for PMID {id}")
                         print(str(e))
             except Exception as e:
                 print(str(e)) 
@@ -67,9 +70,12 @@ def add_full_abstracts(old_dataset, pmid_map, new_dataset):
         print(f"question ({n} / {len(questions)})")
         if documents:
             ids = [url.rsplit('/', 1)[-1] for url in documents]
-            full_abs = [pmid_abstract_dict[id] for id in ids if id in pmid_abstract_dict.keys()]
+            title_and_full_abs = [pmid_abstract_dict[id] for id in ids if id in pmid_abstract_dict.keys()]
+            titles = [ta[0] for ta in title_and_full_abs]
+            full_abs = [ta[1] for ta in title_and_full_abs]
             question["full_abstracts"] = full_abs
-            print(f"found ({len(full_abs)} / {len(ids)}) full_abstracts")
+            question["titles"] = titles
+            print(f"found ({len(full_abs)} / {len(ids)}) full_abstracts for question {n}")
         n=n+1
     with open(new_dataset,'w') as outfile:
         json.dump(dataset,outfile,indent=4)
