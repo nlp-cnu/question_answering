@@ -19,7 +19,7 @@ from sklearn import metrics as m
 '''
 DEBUG VARIABLES
 '''
-EVALUATING = True
+EVALUATING = False
 TESTING = False
 
 # make master json for eval purposes
@@ -363,7 +363,7 @@ if __name__ == "__main__":
     #split_gold_train("/home/daniels/dev/BioASQ-QA-System/testing_datasets/BioASQ-training8b/CLEAN")
 
     print_qu_ir_results(TESTING=TESTING, EVALUATING=EVALUATING)
-    print_qa_results(TESTING=TESTING, EVALUATING=EVALUATING)    
+    #print_qa_results(TESTING=TESTING, EVALUATING=EVALUATING)    
 
 
 

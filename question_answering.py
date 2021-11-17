@@ -25,7 +25,6 @@ warnings.filterwarnings('ignore')
 import json
 from json import loads
 import os
-import shutil
 import time
 from bs4 import BeautifulSoup as bs
 

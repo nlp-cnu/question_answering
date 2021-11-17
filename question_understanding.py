@@ -7,22 +7,9 @@ question_understanding.py :
     for use in the Information Retrieval portion of the pipeline.
 """
 
-# This is to remove some errors related to dependency issues for better user-friendlyness
-import warnings
-#warnings.filterwarnings('ignore')
-
-import json
-import pandas as pd
-import numpy as np
 import os
 import torch
-import torch.nn.functional as F
-from transformers import BertTokenizer,BertForSequenceClassification,AdamW,BertConfig,get_linear_schedule_with_warmup
 from lxml import etree as ET
-import spacy
-import scispacy
-import en_core_sci_lg
-from bs4 import BeautifulSoup as bs
 
 #map the original question to tokens utilizing a tokenizer
 def preprocess(df, tokenizer):
@@ -58,9 +45,7 @@ def predict(device, model,data):
     if device =="cuda:0":
         model.cuda()
     preds = []
-    batch_count = 0
     for token_tensor, attention_mask in data:
-        print(token_tensor.device, attention_mask.device)
         with torch.no_grad():
             logits = model(token_tensor,token_type_ids=None,attention_mask=attention_mask)[0]
             tmp_preds = torch.argmax(logits,-1).detach().cpu().numpy().tolist()
