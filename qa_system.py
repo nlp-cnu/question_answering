@@ -5,28 +5,13 @@ This is the main file for the QA pipeline.
     Finally it utilizes question_answering.py to generate an answer to the original question utilizing the information gathered in the previous two steps.
 """
 
-import warnings
-
-#warnings.simplefilter(action='ignore',category=UserWarning)
-
-import json
 import pandas as pd
-import numpy as np
 import torch
-import torch.nn.functional as F
-from transformers import BertTokenizer,BertForSequenceClassification,AdamW,BertConfig,get_linear_schedule_with_warmup
-from lxml import etree as ET
+from transformers import BertTokenizer,BertForSequenceClassification
 import spacy
-import scispacy
 import en_core_sci_lg
-from bs4 import BeautifulSoup as bs
-
-import requests
-import re
 import os
 import shutil
-from tqdm import tqdm
-import json
 
 from whoosh import index
 from whoosh.fields import Schema, TEXT, IDLIST, ID, NUMERIC
@@ -37,8 +22,6 @@ import setup
 import question_understanding
 import information_retrieval
 import question_answering
-
-import PubmedA
 
 if __name__ == "__main__":
     # This ensures that all the packages are installed so that the system can work with the modules
@@ -79,10 +62,16 @@ if __name__ == "__main__":
             # ir_output_generated = "tmp/ir/output/bioasq_qa.xml"
             # qa_output_generated_dir = "tmp/qa/"
             # For evaluation
-            qu_input = "testing_datasets/evaluation_input.csv"
-            ir_input_generated = "tmp/ir/input/bioasq_qa_EVAL.xml"
-            ir_output_generated = "tmp/ir/output/bioasq_qa_EVAL.xml"
-            qa_output_generated_dir = "tmp/qa_EVAL/"
+            # qu_input = "testing_datasets/evaluation_input.csv"
+            # ir_input_generated = "tmp/ir/input/bioasq_qa_EVAL.xml"
+            # ir_output_generated = "tmp/ir/output/bioasq_qa_EVAL.xml"
+            # qa_output_generated_dir = "tmp/qa_EVAL/"
+
+            # golden testing
+            qu_input = "testing_datasets/input.csv"
+            ir_input_generated = "tmp/ir/input/bioasq_qa_GOLD.xml"
+            ir_output_generated = "tmp/ir/output/bioasq_qa_GOLD.xml"
+            qa_output_generated_dir = "tmp/qa_GOLD/"
 
             # User prompt
             batch_options = """\033[95m
