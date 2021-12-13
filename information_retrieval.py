@@ -1,13 +1,15 @@
 # Based on code from https://github.com/masonnlp/bioasqir
+
 import lxml.etree as ET
 import os
+from utils import *
 
 import PubmedA
 
 # Here we receive input of the form (id, question, type, entities, query).
 # We use this input to query the PubMed database index which has been specially indexed to improve query times.
 def search(indexer, parser, query, max_results = 5, batch_mode=False):
-    print("\033[95mSearching....\033[0m")
+    print(f"{MAGENTA}Searching....{OFF}")
     res = []
     if batch_mode:
         q = parser.parse(query)
@@ -35,7 +37,7 @@ def batch_search(input_file, output_file, indexer, parser, write_buffer_size=500
         questions = root.findall('Q')
         index = 1
         num_questions = str((len(questions)))
-        print(f"\033[95m{num_questions} questions found\033[0m")
+        print(f"{MAGENTA}{num_questions} questions found{OFF}")
         for question in questions:
             # Question ID and question processing tags
             qid = question.get("id")
@@ -44,13 +46,13 @@ def batch_search(input_file, output_file, indexer, parser, write_buffer_size=500
             if qp.find("Query").text:
                 query = qp.find("Query").text
             else:
-                print("\033[95mNo query found, using original question\033[0m")
+                print(f"{MAGENTA}No query found, using original question{OFF}")
                 query = question.text
-            print(f"\033[95m{query} [{index}/{num_questions}]\033[0m")
+            print(f"{MAGENTA}{query} [{index}/{num_questions}]{OFF}")
             # use search method to find a result
             results = search(indexer,parser,query,batch_mode=True)
             if results:
-                print("\033[95mResults found.\033[0m")
+                print(f"{MAGENTA}Results found.{OFF}")
                 ir = question.find("IR")
                 # create subelements for each result
                 for result in results:
@@ -76,14 +78,14 @@ def batch_search(input_file, output_file, indexer, parser, write_buffer_size=500
                 tree = ET.ElementTree(root)
                 # save current progress to file every n documents (controlled by write_buffer_size)
                 if(index % write_buffer_size-1 == 0):   
-                    print(f"\033[95mWriting data to {output_file}\033[0m")
+                    print(f"{MAGENTA}Writing data to {output_file}{OFF}")
                     tree.write(output_file, pretty_print=True)
             else:
-                print("\033[95mNo results\033[0m")
+                print(f"{MAGENTA}No results{OFF}")
             index=index+1
-        print(f"\033[95mWriting data to {output_file}\033[0m")
+        print(f"{MAGENTA}Writing data to {output_file}{OFF}")
         tree.write(output_file, pretty_print=True)
     else:
-        print(f"\033[95mError loading {input_file}\033[0m")
+        print(f"{MAGENTA}Error loading {input_file}{OFF}")
 
 

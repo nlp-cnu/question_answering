@@ -6,7 +6,7 @@ question_understanding.py :
     and outputs an xml file containing the original question as well as relevant snippets, features, and a predicted query
     for use in the Information Retrieval portion of the pipeline.
 """
-
+from utils import *
 import os
 import torch
 from lxml import etree as ET
@@ -66,7 +66,7 @@ def ask_and_receive(testing_df, device, tokenizer, model, nlp , batch_mode = Fal
                 predict_label.append(indices_to_label[j])
     testing_df['type'] = predict_label
     if(batch_mode):
-        print("\033[95mWriting QU results to xml file...\033[0m")
+        print(f"{MAGENTA}Writing QU results to xml file...{OFF}")
         xml_tree(testing_df,nlp,output_file)
     else:
         return send_qu_data(testing_df,nlp)
@@ -98,7 +98,7 @@ def xml_tree(df,nlp,output_file):
         qp_type = ET.SubElement(qp,'Type')
         qp_type.text = qtype
         doc = nlp(question)
-        print(f"\033[95mdoc: {doc.ents}\033[0m")
+        print(f"{MAGENTA}doc: {doc.ents}{OFF}")
         ent_list = []
         for ent in doc.ents:
             ent_list.append(str(ent))

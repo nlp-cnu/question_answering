@@ -2,6 +2,7 @@ from re import L, S
 import re
 from lxml import etree as ET
 
+from utils import *
 import numpy as np
 import pandas as pd
 import json
@@ -239,7 +240,7 @@ def get_gold_dicts(golden_dataset):
                 concepts_dict[id] = []
             pubmed_ids_dict[id] = documents
             type_dict[id] = (question_type,question["body"])
-    print(f"\033[95mConcepts -> empty: {empty} | found: {found}\033[0m")
+    print(f"{MAGENTA}Concepts -> empty: {empty} | found: {found}{OFF}")
     print(f" {len(concepts_dict)} concepts {len(pubmed_ids_dict)} ids {len(type_dict)} types")
     return concepts_dict, pubmed_ids_dict, type_dict
 
@@ -284,7 +285,7 @@ def exact_matching(gold, generated):
 
 def print_qu_ir_results(EVALUATING = False, TESTING = False):
 
-    print("\033[31m -- Analysis Module --\033[0m")
+    print(f"{RED} -- Analysis Module --{OFF}")
 
     if EVALUATING or TESTING:
         golden_dataset = "testing_datasets/Task8BGoldenEnriched/master_golden.json"
@@ -298,11 +299,11 @@ def print_qu_ir_results(EVALUATING = False, TESTING = False):
         generated_xml= "tmp/ir/output/bioasq_qa.xml"
     print("Getting golden data")
     gold_concepts, gold_pubmed_ids, gold_question_types = get_gold_dicts(golden_dataset)
-    print(f"\033[31mNum gold concepts: {len(gold_concepts)}, pmids: {len(gold_pubmed_ids)}, types: {len(gold_question_types)}\033[0m")
+    print(f"{RED}Num gold concepts: {len(gold_concepts)}, pmids: {len(gold_pubmed_ids)}, types: {len(gold_question_types)}{OFF}")
 
     generated_concepts, generated_pubmed_ids, generated_types= get_generated_dicts(generated_xml)
-    print(f"\033[31mNum generated concepts: {len(generated_concepts)}, pmids: {len(generated_pubmed_ids)}, types: {len(generated_types)}\033[0m")
-    print("\033[95mgetting f1 scores\033[0m")
+    print(f"{RED}Num generated concepts: {len(generated_concepts)}, pmids: {len(generated_pubmed_ids)}, types: {len(generated_types)}{OFF}")
+    print(f"{MAGENTA}getting f1 scores{OFF}")
     concepts_scores = get_scores(gold_dict=gold_concepts, gen_dict=generated_concepts)
 
     pubmed_scores = get_scores(gold_dict=gold_pubmed_ids, gen_dict=generated_pubmed_ids)
@@ -314,9 +315,9 @@ def print_qu_ir_results(EVALUATING = False, TESTING = False):
 
     ir_scores_average = get_average_scores(pubmed_scores)
 
-    print(f"\033[95mAverage QU concepts f1, precision, recall score:\n{qu_concepts_scores_average}\033[0m")
-    print(f"\033[95mNumber of question's with type correctly predicted {type_em}\033[0m")
-    print(f"\033[95mAverage IR PMID f1, precision, recall score:\n{ir_scores_average}\033[0m")
+    print(f"{MAGENTA}Average QU concepts f1, precision, recall score:\n{qu_concepts_scores_average}{OFF}")
+    print(f"{MAGENTA}Number of question's with type correctly predicted {type_em}{OFF}")
+    print(f"{MAGENTA}Average IR PMID f1, precision, recall score:\n{ir_scores_average}{OFF}")
 
 
 # do a manual calculation of the 
@@ -345,13 +346,13 @@ def print_qa_results(TESTING=False,EVALUATING=False):
     yesno_eval ="/home/daniels/dev/BioASQ-QA-System/testing_datasets/BioASQ-training8b/CLEAN/train_yesno.json"
 
 
-    print("\n\n\033[95mQA module evaluation\033[0m")
+    print(f"\n\n{MAGENTA}QA module evaluation{OFF}")
     # yes_no_evaluation(yesno_file)
     #print(run_evaluation_code(factoid_file,factoid_eval))
     print(run_evaluation_code(list_file,list_eval))
     print(run_evaluation_code(yesno_file,yesno_eval))
 
-    print("\033[31mEvaluation complete.\033[0m")
+    print(f"{RED}Evaluation complete.{OFF}")
 
 if __name__ == "__main__":
     '''

@@ -22,6 +22,7 @@ fields for input json for factoid/list/yesno:
 import warnings
 warnings.filterwarnings('ignore')
 
+from utils import *
 import json
 from json import loads
 import os
@@ -30,11 +31,11 @@ from bs4 import BeautifulSoup as bs
 
 # pass formatted json into file that generates answer
 def run_qa_file(filename, output_dir,predict_file):
-    print(f"\033[95mRunning {filename}\033[0m")
+    print(f"{MAGENTA}Running {filename}{OFF}")
     vocab_file_path = f'data_modules{os.path.sep}model{os.path.sep}vocab.txt'
     bert_config_file = f'data_modules{os.path.sep}model{os.path.sep}config.json'
     command = f"python {filename} --do_train=False --do_predict=True --vocab_file={vocab_file_path} --bert_config_file={bert_config_file} --output_dir={output_dir} --predict_file={predict_file}"
-    print(f"\033[95mRunning command: {command}\033[0m")
+    print(f"{MAGENTA}Running command: {command}{OFF}")
     os.system(command)
 
 # prints json to file ;)
@@ -50,7 +51,7 @@ def print_json_to_file(file, json_data, batch_mode = False):
                     old_data.append(new_data)
                     json_data['data'] = old_data
         except:
-            print("\033[95mFirst run\033[0m")
+            print(f"{MAGENTA}First run{OFF}")
     with open(file,'w') as outfile:
         json.dump(json_data,outfile,indent=4)
         outfile.close()
@@ -73,14 +74,14 @@ def transform_to_bioasq(file_paths):
     list_command = f"python ./biocodes/transform_n2b_list.py --nbest_path={list_old} --output_path={os.path.dirname(list_old)}"
     yesno_command = f"python ./biocodes/transform_n2b_yesno.py --nbest_path={yesno_old} --output_path={os.path.dirname(yesno_old)}"
     if os.path.exists(factoid_old):
-        print("\033[95mChanging Factoid!\033[0m")
+        print(f"{MAGENTA}Changing Factoid!{OFF}")
         os.system(factoid_command)
     #commenting this out until List question formatting 
     if os.path.exists(list_old): 
-        print("\033[95mChanging List!\033[0m")
+        print(f"{MAGENTA}Changing List!{OFF}")
         os.system(list_command)
     if os.path.exists(yesno_old):
-        print("\033[95mChanging yesno!\033[0m")
+        print(f"{MAGENTA}Changing yesno!{OFF}")
         os.system(yesno_command)
     
 #ensure temp directory and subdirectories exist
@@ -123,11 +124,11 @@ def get_answer(json_data, output_dir, batch_mode = False):
         else: # We don't handle the summary case
             return 
     else:
-        print(f'\033[95mQuestion answering json: {json_data}\033[0m ')
+        print(f'{MAGENTA}Question answering json: {json_data}{OFF} ')
         # Write data in BioASQ format to json file
         good_json_data = get_json_from_data(json_data)
         print_json_to_file(inputfile_path, good_json_data)
-        print(f"\033[95mQuestion type <{type}>\033[0m")
+        print(f"{MAGENTA}Question type <{type}>{OFF}")
         if type == 'yesno':
             run_qa_file('run_yesno.py',output_dir, predict_file=inputfile_path)
         elif type == 'factoid':
@@ -149,7 +150,7 @@ def get_answer(json_data, output_dir, batch_mode = False):
                 return results
 
 def run_batch_mode(input_file,output_dir):
-    print(f"\033[95mreading {input_file} for input\033[0m")
+    print(f"{MAGENTA}reading {input_file} for input{OFF}")
     with open(input_file, "rU") as file:
         content = file.readlines()
         content = "".join(content)
@@ -165,7 +166,7 @@ def run_batch_mode(input_file,output_dir):
                 # If IR was unsuccessful when it came to retrieving documents for the given question
                 abstract_text = ""
             data = (id, type, original_question, abstract_text)
-            print(f"\033[95mGetting answer for \'{original_question}\'\033[0m")
+            print(f"{MAGENTA}Getting answer for \'{original_question}\'{OFF}")
             # write all questions to a general file
             json_data = get_json_from_data(data)
             print_json_to_file(output_dir+ "qa_all.json", json_data, batch_mode=True)
@@ -193,7 +194,7 @@ def run_batch_mode(input_file,output_dir):
     while not os.path.exists(list_nbest):
         time.sleep(1)
     if os.path.isfile(list_nbest):
-        print("\033[95mMigrating jsons to correct bioasq format!!\033[0m")
+        print(f"{MAGENTA}Migrating jsons to correct bioasq format!!{OFF}")
         file_paths = (factoid_nbest, list_nbest, yesno_preds)
         transform_to_bioasq(file_paths)
 

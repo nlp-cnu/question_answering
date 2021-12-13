@@ -4,6 +4,7 @@ This is the main file for the QA pipeline.
     It then utilizes information_retrieval.py to retrieve a list of PubMed articles pertaining to the query formed previously.
     Finally it utilizes question_answering.py to generate an answer to the original question utilizing the information gathered in the previous two steps.
 """
+from utils import *
 
 import pandas as pd
 import torch
@@ -33,16 +34,16 @@ if __name__ == "__main__":
     # This is for cpu support for non-NVIDEA cuda-capable machines.
     spacy.prefer_gpu()
     # initialize model
-    print("\033[95mInitializing model...\033[0m")
+    print(f"{MAGENTA}Initializing model...{OFF}")
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
     model = BertForSequenceClassification.from_pretrained(data_folder + os.path.sep + model_folder_name, cache_dir=None)
     # load in BioBERT
-    print("\033[95mLoading BioBERT...\033[0m")
+    print(f"{MAGENTA}Loading BioBERT...{OFF}")
     nlp = en_core_sci_lg.load()
     # load index
     index_var = 'full_index'
-    print("\033[95mLoading index...\033[0m")
+    print(f"{MAGENTA}Loading index...{OFF}")
     # This is the schema for each query retrieved from 
     pubmed_article_ix = index.open_dir(data_folder + os.path.sep + index_folder_name + os.path.sep + index_var, indexname=pubmed_official_index_name)
     qp = QueryParser("abstract_text", schema=Schema(
@@ -53,7 +54,7 @@ if __name__ == "__main__":
         year=NUMERIC(stored=True),
         abstract_text=TEXT(stored=True, analyzer=StemmingAnalyzer())))
 
-    batch_mode_answer = input("\033[95m Would you like to run batch mode? (y/n): \033[0m")
+    batch_mode_answer = input(f"{MAGENTA} Would you like to run batch mode? (y/n): {OFF}")
     is_batch_mode = batch_mode_answer in ['Y','y','Yes','yes','Yep','yep','Yup','yup']
     if is_batch_mode:
         while(True):
@@ -76,20 +77,20 @@ if __name__ == "__main__":
             # qa_output_generated_dir = "tmp/qa_EVAL/"
             
             # User prompt
-            batch_options = """\033[95m
+            batch_options = f"""{MAGENTA}
             What part of the system do you want to test? (Any non-number input will Cancel) 
             0) Whole system
             1) Question Understanding (QU)
             2) Information Retrieval (IR)
             3) Question Answering (QA)
             4) QU + IR
-            5) IR + QA\033[0m
+            5) IR + QA{OFF}
             """
             batch_options_dict = {"0":"Whole system", "1": "Question Understanding", "2": "Information Retrieval", "3": "Question Answering", "4": "QU + IR", "5": "IR + QU"}
             result = input(batch_options)
             if(result):
                 if result in batch_options_dict.keys():
-                    print(f"\033[95m{batch_options_dict.get(result)} selected.\033[0m")
+                    print(f"{MAGENTA}{batch_options_dict.get(result)} selected.{OFF}")
                 if (result == "0"):
                     test_dataframe = pd.read_csv(qu_input,sep=',',header=0)
                     question_understanding.ask_and_receive(test_dataframe,device,tokenizer,model,nlp,batch_mode=True, output_file=ir_output_generated)
@@ -102,12 +103,12 @@ if __name__ == "__main__":
                     if os.path.exists(ir_input_generated):
                         information_retrieval.batch_search(input_file=ir_input_generated, output_file=ir_output_generated, indexer=pubmed_article_ix, parser=qp)
                     else:
-                        print("\033[91mMake sure you run the QU module before running the IR module.\033[0m")
+                        print(f"{RED}Make sure you run the QU module before running the IR module.{OFF}")
                 elif(result == "3"):
                     if os.path.exists(ir_output_generated):
                         question_answering.run_batch_mode(input_file=ir_output_generated,output_dir=qa_output_generated_dir)
                     else:
-                        print("\033[91mMake sure you run both the QU module and the IR module before running the QA module.\033[0m")
+                        print(f"{RED}Make sure you run both the QU module and the IR module before running the QA module.{OFF}")
                 elif(result == "4"):
                     test_dataframe = pd.read_csv(qu_input,sep=',',header=0)
                     question_understanding.ask_and_receive(test_dataframe,device,tokenizer,model,nlp,batch_mode=True, output_file=ir_output_generated)
@@ -117,15 +118,15 @@ if __name__ == "__main__":
                         information_retrieval.batch_search(input_file=ir_input_generated, output_file=ir_output_generated, indexer=pubmed_article_ix, parser=qp)
                         question_answering.run_batch_mode(input_file=ir_output_generated,output_dir=qa_output_generated_dir)
                     else:
-                        print("\033[91mMake sure you run the QU module before running the IR module.\033[0m")
+                        print(f"{RED}Make sure you run the QU module before running the IR module.{OFF}")
                 else:
-                    print("\033[95mShutting down...\033[0m")
+                    print(f"{MAGENTA}Shutting down...{OFF}")
                     quit()
     # If the user responds with anything not affirmative, send them to the live question answering
     else:
         n = 0
         while(True):
-            user_question = input("\033[95m:: Please enter your question for the BioASQ QA system or \'quit\' ::\n\033[0m")
+            user_question = input(f"{MAGENTA}:: Please enter your question for the BioASQ QA system or \'quit\' ::\n{OFF}")
             # handle end loop
             if user_question  == 'quit': 
                 quit()
@@ -134,13 +135,13 @@ if __name__ == "__main__":
             qu_output = question_understanding.ask_and_receive(df,device,tokenizer,model,nlp)
             id, question, type, concepts, query = qu_output
             if type == 'summary':
-                print("\u001b[31mSummary type questions are currently not supported. \nPlease try asking a question that can be answered with a list, yes/no, or factoid style answer.\033[0m")
+                print(f"{RED}Summary type questions are currently not supported. \nPlease try asking a question that can be answered with a list, yes/no, or factoid style answer.{OFF}")
             else:
-                print(f"\033[95m <QU>\nID: {id}\nQuestion: {question}\nType: {type}\nConcepts:{concepts}\nQuery: {query}\n</QU> \033[0m")
+                print(f"{MAGENTA} <QU>\nID: {id}\nQuestion: {question}\nType: {type}\nConcepts:{concepts}\nQuery: {query}\n</QU> {OFF}")
                 query_results = information_retrieval.search(pubmed_article_ix,qp,qu_output)
                 if query_results:
                     top_result = query_results[0]
-                    print(f"\033[95m Top result\n{top_result}\033[0m")
+                    print(f"{MAGENTA} Top result\n{top_result}{OFF}")
                     # Pass in the question ID, type, user question, and top abstract for the result  
                     data_for_qa = (n, type, user_question,top_result.abstract_text)
                     # all temporary data will be stored in tmp/live_qa/
@@ -152,17 +153,17 @@ if __name__ == "__main__":
                             index = list(results.keys())[0]
                             top_three_answers = f"1) {results[index][0]['text']}\n\t 2) {results[index][1]['text']}\n\t 3) {results[index][2]['text']}"
                             results = top_three_answers ## give more answers for list-style questions
-                        print(f"\u001b[33m****************************************************************************************\033[0m\n\n \033[92m [<QUESTION>]\033[0m\n\t\033[95m\'{user_question}\' \033[0m \n  \033[92m[<ANSWER>]\033[0m\n\t\033[95m {results} \033[0m \n\n\u001b[33m****************************************************************************************\033[0m")
+                        print(f"{YELLOW}****************************************************************************************{OFF}\n\n \033[92m [<QUESTION>]{OFF}\n\t{MAGENTA}\'{user_question}\' {OFF} \n  \033[92m[<ANSWER>]{OFF}\n\t{MAGENTA} {results} {OFF} \n\n{YELLOW}****************************************************************************************{OFF}")
                         #Cleaning up all generated temp files
                         #clear_tmp_dir("tmp")
                     else:
-                        print("\033[91mThe Question Answering model encountered an error when trying to answer your question.\033[0m")
+                        print(f"{RED}The Question Answering model encountered an error when trying to answer your question.{OFF}")
                 else:
-                    print("\033[91mUnfortunately I do not know the answer to your question.\033[0m")
+                    print(f"{RED}Unfortunately I do not know the answer to your question.{OFF}")
             n += 1
 
 def clear_tmp_dir(dir):
-    print("tmp dir cleaning")
+    print(f"{WHITE}tmp dir cleaning{OFF}")
     for files in os.listdir(dir):
         path = os.path.join(dir,files)
         try:
