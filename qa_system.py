@@ -57,22 +57,24 @@ if __name__ == "__main__":
     is_batch_mode = batch_mode_answer in ['Y','y','Yes','yes','Yep','yep','Yup','yup']
     if is_batch_mode:
         while(True):
-            # qu_input = "testing_datasets/input.csv"
-            # ir_input_generated = "tmp/ir/input/bioasq_qa.xml"
-            # ir_output_generated = "tmp/ir/output/bioasq_qa.xml"
-            # qa_output_generated_dir = "tmp/qa/"
-            # For evaluation
-            # qu_input = "testing_datasets/evaluation_input.csv"
-            # ir_input_generated = "tmp/ir/input/bioasq_qa_EVAL.xml"
-            # ir_output_generated = "tmp/ir/output/bioasq_qa_EVAL.xml"
-            # qa_output_generated_dir = "tmp/qa_EVAL/"
-
             # golden testing
             qu_input = "testing_datasets/input.csv"
             ir_input_generated = "tmp/ir/input/bioasq_qa_GOLD.xml"
             ir_output_generated = "tmp/ir/output/bioasq_qa_GOLD.xml"
             qa_output_generated_dir = "tmp/qa_GOLD/"
+            
+            # NORMAL VALUES
+            # qu_input = "testing_datasets/input.csv"
+            # ir_input_generated = "tmp/ir/input/bioasq_qa.xml"
+            # ir_output_generated = "tmp/ir/output/bioasq_qa.xml"
+            # qa_output_generated_dir = "tmp/qa/"
 
+            # For evaluation
+            # qu_input = "testing_datasets/evaluation_input.csv"
+            # ir_input_generated = "tmp/ir/input/bioasq_qa_EVAL.xml"
+            # ir_output_generated = "tmp/ir/output/bioasq_qa_EVAL.xml"
+            # qa_output_generated_dir = "tmp/qa_EVAL/"
+            
             # User prompt
             batch_options = """\033[95m
             What part of the system do you want to test? (Any non-number input will Cancel) 
