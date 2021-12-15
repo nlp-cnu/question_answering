@@ -1,4 +1,4 @@
-from re import L, S
+from re import DEBUG, L, S
 import re
 from lxml import etree as ET
 
@@ -22,6 +22,7 @@ DEBUG VARIABLES
 '''
 EVALUATING = False
 TESTING = False
+DEBUG = False
 
 # make master json for eval purposes
 def generate_master_golden_json(filenames):
@@ -39,7 +40,7 @@ def generate_master_golden_json(filenames):
 
 # create train_factoid.json, train_yesno.json, and train_list.json
 def split_gold_train(path_to_files):
-    input_file = open("/home/daniels/dev/BioASQ-QA-System/testing_datasets/BioASQ-training8b/CLEAN/training8b.json")
+    input_file = open("/home/danubuntu/dev/BioASQ-QA-System/testing_datasets/BioASQ-training8b/augmented_test_FULL_ABSTRACTS.json")
     master_json = json.load(input_file)
     input_file.close()
 
@@ -52,7 +53,7 @@ def split_gold_train(path_to_files):
     lst = [q for q in master_json['questions'] if q['type']=='list']
     fct = [q for q in master_json['questions'] if q['type']=='factoid']
 
-    # put in json format all happy and stuff
+    # put in json format
     for q in yn: 
         yn_j['questions'].append(q)
     for q in lst: 
@@ -60,11 +61,11 @@ def split_gold_train(path_to_files):
     for q in fct:   
         fct_j['questions'].append(q)
 
-    with open(f"{path_to_files}/train_yesno.json","w") as yesno_file:
+    with open(f"{path_to_files}gold_yesno.json","w+") as yesno_file:
         json.dump(yn_j,yesno_file,indent=2)
-    with open(f"{path_to_files}/train_factoid.json","w") as factoid_file:
+    with open(f"{path_to_files}gold_factoid.json","w+") as factoid_file:
         json.dump(fct_j,factoid_file,indent=2)
-    with open(f"{path_to_files}/train_list.json","w") as list_file:
+    with open(f"{path_to_files}gold_list.json","w+") as list_file:
         json.dump(lst_j,list_file,indent=2)
 
 # This is so that our system can actually use the golden test datapoints..... of course we can't test with training questions, there would be no overlap.
@@ -210,7 +211,8 @@ def get_scores(gold_dict, gen_dict):
     for key in gold_dict.keys():
         # only take duplicates to not penalize for hitting same document multiple times
         eval_scores[key] = eval_score(set(gen_dict[key]), set(gold_dict[key]))
-    return eval_scores
+    return eval_scores # (f1,precision,recall)
+
 
 def get_gold_dicts(golden_dataset):
     # Here we are going to be opening files and retrieving a dict of features with keys taken from question IDs
@@ -265,8 +267,9 @@ def get_average_scores(f1_list):
             no_golden_answers+=1
 
     print(f"number of successes = {good_num}")
-    print(f"number of no predictions = {no_predictions}")
-    print(f"number of no golden answers = {no_golden_answers}")
+    if(DEBUG):
+        print(f"number of no predictions = {no_predictions}")
+        print(f"number of no golden answers = {no_golden_answers}")
     if good_num == 0:
         return (-1,-1,-1)
     return (f1_sum / good_num,  precision_sum / good_num, recall_sum / good_num)
@@ -320,37 +323,117 @@ def print_qu_ir_results(EVALUATING = False, TESTING = False):
     print(f"{MAGENTA}Average IR PMID f1, precision, recall score:\n{ir_scores_average}{OFF}")
 
 
-# do a manual calculation of the 
-def yes_no_evaluation(file):
-    print('placeholder')
+# Returns a a dict of answers keyed on their question id, with their value being their answer
+def get_answer_list(a_json):
+    answers = {}
+    for question in a_json['questions']:
+        id = question["id"]
+        # trim ids which are too long by 4 chars
+        if len(id) == 24:
+            id = id[0:20]
+        answers[id] = question["exact_answer"]
+    return answers
+
+# match the ids of guessed questions to the correct one (used for yes vs no f1 and combo yesno f1)
+def get_matching_golden(guesses_dict,golden_dict):
+    matched_ids = {}
+    for q in guesses_dict:
+        if golden_dict.get(q):
+            matched_ids[q] = golden_dict[q]
+    return matched_ids
+
+def split_yes_no(a_json):
+    yes = {}
+    no = {}
+    for question in a_json:
+        answer = a_json.get(question)
+        if answer == 'yes':
+            yes[question] = answer
+        else:
+            no[question] = answer
+    return yes,no
+
+# do a manual calculation of the yes/no 
+def yes_no_evaluation(generated_yesno, golden_dataset):
+    generated_answers = get_answer_list(generated_yesno)
+    generated_yes, generated_no = split_yes_no(generated_answers)
+
+    golden_answers = get_answer_list(golden_dataset)
+    print(len(generated_answers),len(golden_answers)) 
+    
+    golden_yes = get_matching_golden(generated_yes,golden_answers)
+    golden_no = get_matching_golden(generated_no,golden_answers)
+
+    # macro averaged f1 score
+    yes_scores = get_scores(golden_yes,generated_yes)
+    no_scores = get_scores(golden_no,generated_no)
+
+    # f1, precision, recall
+    average_yes_scores = get_average_scores(yes_scores)
+    average_no_scores = get_average_scores(no_scores) 
+    final_scores = ((average_no_scores[0] + average_yes_scores[0])/2, (average_no_scores[1] + average_yes_scores[1])/2, (average_no_scores[2] + average_yes_scores[2])/2) 
+
+    print(f"{MAGENTA}Average F1,precision,recall scores for Yes Questions\n {CYAN}{average_yes_scores}{OFF}")
+    print(f"{MAGENTA}Average F1,precision,recall scores for No Questions\n {CYAN}{average_no_scores}{OFF}")
+    print(f"{MAGENTA}Average F1,precision,recall scores for ALL Yes/No Questions\n {CYAN}{final_scores}{OFF}")
+
+def factoid_evaluation(generated_factoid, golden_dataset):
+    # Mean Reciprocal Rank.
+    generated_answers = get_answer_list(generated_factoid)
+    golden_answers = get_answer_list(golden_dataset)
+    print('factoid')
+
+def list_evaluation(generated_list,golden_dataset):
+    # Mean F-measure List of returned items compared to list of gold terms, average over each question. (Exact word matching) 
+    generated_answers = get_answer_list(generated_list)
+    golden_answers = get_answer_list(golden_dataset)
+    print("list ")
 
 
 def print_qa_results(TESTING=False,EVALUATING=False):
-
     # QA module analysis
     if TESTING:
-        yesno_file= "/home/daniels/dev/BioASQ-QA-System/tmp/debugging/generated_yesno.json"
-        factoid_file= "/home/daniels/dev/BioASQ-QA-System/tmp/debugging/generated_factoid.json"
-        list_file= "/home/daniels/dev/BioASQ-QA-System/tmp/debugging/generated_list.json"
+        yesno_file= "tmp/debugging/generated_yesno.json"
+        factoid_file= "tmp/debugging/generated_factoid.json"
+        list_file= "tmp/debugging/generated_list.json"
     elif EVALUATING:
-        yesno_file= "/home/daniels/dev/BioASQ-QA-System/tmp/qa_EVAL/yesno/BioASQform_BioASQ-answer.json"
-        factoid_file= "/home/daniels/dev/BioASQ-QA-System/tmp/qa_EVAL/factoid/BioASQform_BioASQ-answer.json"
-        list_file= "/home/daniels/dev/BioASQ-QA-System/tmp/qa_EVAL/list/BioASQform_BioASQ-answer.json"
+        yesno_file= "tmp/qa_EVAL/yesno/BioASQform_BioASQ-answer.json"
+        factoid_file= "tmp/qa_EVAL/factoid/BioASQform_BioASQ-answer.json"
+        list_file= "tmp/qa_EVAL/list/BioASQform_BioASQ-answer.json"
     else:
-        yesno_file= "/home/daniels/dev/BioASQ-QA-System/tmp/qa/yesno/BioASQform_BioASQ-answer.json"
-        factoid_file= "/home/daniels/dev/BioASQ-QA-System/tmp/qa/factoid/BioASQform_BioASQ-answer.json"
-        list_file= "/home/daniels/dev/BioASQ-QA-System/tmp/qa/list/BioASQform_BioASQ-answer.json"
+        yesno_file= "tmp/qa/yesno/BioASQform_BioASQ-answer.json"
+        factoid_file= "tmp/qa/factoid/BioASQform_BioASQ-answer.json"
+        list_file= "tmp/qa/list/BioASQform_BioASQ-answer.json"
 
-    factoid_eval ="/home/daniels/dev/BioASQ-QA-System/testing_datasets/BioASQ-training8b/CLEAN/train_factoid.json"
-    list_eval ="/home/daniels/dev/BioASQ-QA-System/testing_datasets/BioASQ-training8b/CLEAN/train_list.json"
-    yesno_eval ="/home/daniels/dev/BioASQ-QA-System/testing_datasets/BioASQ-training8b/CLEAN/train_yesno.json"
+    print("generated files: ",yesno_file,factoid_file,list_file)
 
+    # factoid_eval ="/home/daniels/dev/BioASQ-QA-System/testing_datasets/BioASQ-training8b/CLEAN/train_factoid.json"
+    # list_eval ="/home/daniels/dev/BioASQ-QA-System/testing_datasets/BioASQ-training8b/CLEAN/train_list.json"
+    # yesno_eval ="/home/daniels/dev/BioASQ-QA-System/testing_datasets/BioASQ-training8b/CLEAN/train_yesno.json"
+    # golden_dataset ="testing_datasets/BioASQ-training8b/augmented_test_FULL_ABSTRACTS.json"
+    
+    with open(f"testing_datasets/BioASQ-training8b/gold_yesno.json","r") as yn_file:
+        yn_json_gold = json.load(yn_file)
+    with open(f"testing_datasets/BioASQ-training8b/gold_factoid.json","r") as ft_file:
+        ft_json_gold= json.load(ft_file)
+    with open(f"testing_datasets/BioASQ-training8b/gold_list.json","r") as ls_file:
+        ls_json_gold = json.load(ls_file)
+
+    with open(yesno_file,"r") as yn_file:
+        yn_json_gen = json.load(yn_file)
+    with open(factoid_file,"r") as ft_file:
+        ft_json_gen= json.load(ft_file)
+    with open(list_file,"r") as ls_file:
+        ls_json_gen = json.load(ls_file)
 
     print(f"\n\n{MAGENTA}QA module evaluation{OFF}")
-    # yes_no_evaluation(yesno_file)
+    yes_no_evaluation(yn_json_gen,yn_json_gold)
+    factoid_evaluation(ft_json_gen,ft_json_gold)
+    list_evaluation(ls_json_gen,ls_json_gold)
+
     #print(run_evaluation_code(factoid_file,factoid_eval))
-    print(run_evaluation_code(list_file,list_eval))
-    print(run_evaluation_code(yesno_file,yesno_eval))
+    #print(run_evaluation_code(list_file,ft_json))
+    #print(run_evaluation_code(yesno_file,ls_json))
 
     print(f"{RED}Evaluation complete.{OFF}")
 
@@ -361,10 +444,8 @@ if __name__ == "__main__":
     # files=['/home/daniels/dev/BioASQ-QA-System/testing_datasets/Task8BGoldenEnriched/8B2_golden.json','/home/daniels/dev/BioASQ-QA-System/testing_datasets/Task8BGoldenEnriched/8B3_golden.json','/home/daniels/dev/BioASQ-QA-System/testing_datasets/Task8BGoldenEnriched/8B4_golden.json','/home/daniels/dev/BioASQ-QA-System/testing_datasets/Task8BGoldenEnriched/8B5_golden.json']
     # generate_master_golden_json(files)
     # create_testing_csv()
-    #split_gold_train("/home/daniels/dev/BioASQ-QA-System/testing_datasets/BioASQ-training8b/CLEAN")
-
+    #split_gold_train("/home/danubuntu/dev/BioASQ-QA-System/testing_datasets/BioASQ-training8b/")
+    print("done")
     print_qu_ir_results(TESTING=TESTING, EVALUATING=EVALUATING)
-    #print_qa_results(TESTING=TESTING, EVALUATING=EVALUATING)    
-
-
+    print_qa_results(TESTING=TESTING, EVALUATING=EVALUATING)    
 
