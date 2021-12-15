@@ -22,7 +22,7 @@ DEBUG VARIABLES
 """
 EVALUATING = False
 TESTING = False
-DEBUG = False
+DEBUG = True
 
 # make master json for eval purposes
 def generate_master_golden_json(filenames):
@@ -167,7 +167,7 @@ def eval_score(predicted, actual):
 
 
 def get_generated_dict(file_location, mode="concepts"):
-    dict = {}
+    gen_dict = {}
     no_concepts = 0
     no_pmids = 0
     with open(file_location, "r") as xml_file:
@@ -187,18 +187,18 @@ def get_generated_dict(file_location, mode="concepts"):
                     if concepts == []:
                         no_concepts += 1
                         print(f"NO CONCEPTS QUESTION = {qid}")
-                    dict[qid] = concepts
+                    gen_dict[qid] = concepts
                 elif mode == "pubmed_ids":
                     ir = question.find("IR")
                     result_pmids = [e.get("PMID") for e in ir.findall("Result")]
                     if result_pmids == []:
                         no_pmids += 1
-                    dict[qid] = result_pmids
+                    gen_dict[qid] = result_pmids
                 elif mode == "type":
                     qp = question.find("QP")
                     result_type = qp.find("Type").text
-                    dict[qid] = (result_type, question.text)
-    return dict, no_concepts, no_pmids
+                    gen_dict[qid] = (result_type, question.text)
+    return gen_dict, no_concepts, no_pmids
 
 
 def get_generated_dicts(generated_xml):
@@ -229,12 +229,14 @@ def get_scores(gold_dict, gen_dict):
     eval_scores = {}
     for key in gold_dict.keys():
         # only take duplicates to not penalize for hitting same document multiple times
-        eval_scores[key] = eval_score(set(gen_dict[key]), set(gold_dict[key]))
+        if key in gen_dict.keys(): # handle questions not being identified as correct type
+            eval_scores[key] = eval_score(set(gen_dict[key]), set(gold_dict[key]))
     return eval_scores  # (f1,precision,recall)
 
 
 def get_gold_dicts(golden_dataset):
     # Here we are going to be opening files and retrieving a dict of features with keys taken from question IDs
+    print(f"gold xml file is {golden_dataset}")
     concepts_dict = {}
     pubmed_ids_dict = {}
     type_dict = {}
@@ -269,6 +271,8 @@ def get_gold_dicts(golden_dataset):
 
 
 def get_average_scores(f1_list):
+    print(f"len(f1_list): {len(f1_list)}")
+    print(f"num keys: {len(f1_list.keys())}")
     if len(f1_list) == 0:
         return 0, 0, 0
     f1_sum = 0.0
@@ -278,7 +282,7 @@ def get_average_scores(f1_list):
     no_golden_answers = 0
     good_num = 0
     for key in f1_list.keys():
-        if f1_list.get(key)[0] >= 0:
+        if f1_list.get(key)[0] >= 0: # f1 score
             f1_sum += f1_list.get(key)[0]
             precision_sum += f1_list.get(key)[1]
             recall_sum += f1_list.get(key)[2]
@@ -288,7 +292,7 @@ def get_average_scores(f1_list):
         else:
             no_golden_answers += 1
 
-    print(f"number of successes = {good_num}")
+    print(f"number of successful f1 score calculations = {good_num}")
     if DEBUG:
         print(f"number of no predictions = {no_predictions}")
         print(f"number of no golden answers = {no_golden_answers}")
@@ -317,7 +321,7 @@ def print_qu_ir_results(EVALUATING=False, TESTING=False):
     if EVALUATING or TESTING:
         golden_dataset = "testing_datasets/Task8BGoldenEnriched/master_golden.json"
     else:
-        golden_dataset = "testing_datasets/BioASQ-training8b/training8b.json"
+        golden_dataset = "testing_datasets/BioASQ-training8b/augmented_test_FULL_ABSTRACTS.json"
     if TESTING:
         generated_xml = "tmp/debugging/generated_ir.xml"
     elif EVALUATING:
@@ -349,11 +353,11 @@ def print_qu_ir_results(EVALUATING=False, TESTING=False):
     ir_scores_average = get_average_scores(pubmed_scores)
 
     print(
-        f"{MAGENTA}Average QU concepts f1, precision, recall score:\n{qu_concepts_scores_average}{OFF}"
+        f"{MAGENTA}Average QU concepts f1, precision, recall score:\n{CYAN}{qu_concepts_scores_average}{OFF}"
     )
-    print(f"{MAGENTA}Number of question's with type correctly predicted {type_em}{OFF}")
+    print(f"{MAGENTA}Number of question's with type correctly predicted\n {CYAN}{type_em}{OFF}")
     print(
-        f"{MAGENTA}Average IR PMID f1, precision, recall score:\n{ir_scores_average}{OFF}"
+        f"{MAGENTA}Average IR PMID f1, precision, recall score:\n{CYAN}{ir_scores_average}{OFF}"
     )
 
 
@@ -365,7 +369,11 @@ def get_answer_list(a_json):
         # trim ids which are too long by 4 chars
         if len(id) == 24:
             id = id[0:20]
-        answers[id] = question["exact_answer"]
+        answer = question['exact_answer']
+        if isinstance(answer,list): 
+            if isinstance(answer[0],list): # handle list in list
+                answer = [e[0] for e in answer]
+        answers[id] = answer
     return answers
 
 
@@ -389,6 +397,41 @@ def split_yes_no(a_json):
             no[question] = answer
     return yes, no
 
+# MRR is 1/n * SIGMA <i=1 --> n> ( 1/r(i))
+def calculate_mrr(gen,gold):
+    mrrs = []
+    for question in gen:
+        mrr = 0
+        generated_answers = gen.get(question)
+        if generated_answers:
+            n = len(generated_answers)
+            r = 0
+            gold_answer = gold.get(question)
+            if gold_answer:
+                for i in range(1,n+1):
+                    if generated_answers[i-1][0] == gold_answer:
+                        r = i
+                        break
+            if r ==0:
+                mrr = 0
+            else:
+                mrr = 1/n * 1/r 
+        mrrs.append(mrr)
+    return mrrs
+
+def get_accuracy(gen,gold,strict=True):
+    num_right = 0
+    for question in gen:
+        generated_answers = gen.get(question)
+        gold_answer = gold.get(question)
+        if(gold_answer):
+            if strict:
+                if generated_answers[0][0] == gold_answer:
+                    num_right +=1
+            else:
+                if [gold_answer] in generated_answers: # factoid is a list of lists instead of a list of strings (this could be causing the evaluation measures repo issue)
+                    num_right +=1
+    return num_right/len(gen)
 
 # do a manual calculation of the yes/no
 def yes_no_evaluation(generated_yesno, golden_dataset):
@@ -424,36 +467,18 @@ def yes_no_evaluation(generated_yesno, golden_dataset):
         f"{MAGENTA}Average F1,precision,recall scores for ALL Yes/No Questions\n {CYAN}{final_scores}{OFF}"
     )
 
-# MRR is 1/n * SIGMA <i=1 --> n> ( 1/r(i))
-def calculate_mrr(gen,gold):
-    mrrs = {}
-    for question in gen:
-        mrr = 0
-        generated_answers = gen.get(question)
-        if generated_answers:
-            n = len(generated_answers)
-            r = 0
-            gold_answer = gold.get(question)
-            if gold_answer:
-                for i in range(1,n+1):
-                    if generated_answers[i-1] == gold_answer:
-                        r = i
-                        break
-            if r ==0:
-                mrr = 0
-            else:
-                mrr = 1/n * 1/r 
-        mrrs[question] = mrr
-    return mrrs
-
 # Mean Reciprocal Rank
 def factoid_evaluation(generated_factoid, golden_dataset):
     generated_answers = get_answer_list(generated_factoid)
     golden_answers = get_answer_list(golden_dataset)
 
-    #calculate strict accuracy
+    # calculate strict accuracy
+    strict_accuracy = get_accuracy(generated_answers,golden_answers)
+    # calculate lenient accuracy
+    lenient_accuracy = get_accuracy(generated_answers,golden_answers,strict=False)
 
-    # calculate leniant accuracy
+    print(f"{MAGENTA}Strict Accuracy for factoid questions:\n {CYAN}{strict_accuracy}{OFF}")
+    print(f"{MAGENTA}Lenient Accuracy for factoid questions:\n {CYAN}{lenient_accuracy}{OFF}")
 
     mrr = calculate_mrr(generated_answers,golden_answers)
     average_mrr = sum(mrr) / len(mrr)
@@ -461,9 +486,16 @@ def factoid_evaluation(generated_factoid, golden_dataset):
 
 # Mean F-measure List of returned items compared to list of gold terms, average over each question. (Exact word matching)
 def list_evaluation(generated_list, golden_dataset):
-    generated_answers_list = get_answer_list(generated_list)
+    generated_answers = get_answer_list(generated_list)
     golden_answers = get_answer_list(golden_dataset)
-    print("list ")
+
+    list_scores = get_scores(golden_answers, generated_answers)
+    # f1, precision, recall
+    average_list_scores = get_average_scores(list_scores)
+
+    print(
+        f"{MAGENTA}Average F1,precision,recall scores for ALL List Questions\n {CYAN}{average_list_scores}{OFF}"
+    )
 
 def print_qa_results(TESTING=False, EVALUATING=False):
     # QA module analysis
@@ -510,7 +542,6 @@ def print_qa_results(TESTING=False, EVALUATING=False):
     # print(run_evaluation_code(list_file,ft_json))
     # print(run_evaluation_code(yesno_file,ls_json))
 
-    print(f"{RED}Evaluation complete.{OFF}")
 
 
 if __name__ == "__main__":
@@ -523,3 +554,4 @@ if __name__ == "__main__":
     # split_gold_train("/home/danubuntu/dev/BioASQ-QA-System/testing_datasets/BioASQ-training8b/")
     print_qu_ir_results(TESTING=TESTING, EVALUATING=EVALUATING)
     print_qa_results(TESTING=TESTING, EVALUATING=EVALUATING)
+    print(f"{RED}Evaluation complete.{OFF}")
