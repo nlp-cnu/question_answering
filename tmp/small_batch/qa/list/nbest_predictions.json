@@ -1,0 +1,213 @@
+{
+    "55046d5ff8aee20f27000007": [
+        {
+            "text": "lation. We found that EGFR is predominantly phosphorylated at multiple sites,",
+            "probability": 0.3549867195460152,
+            "start_logit": 0.7237393856048584,
+            "end_logit": 0.9876450300216675,
+            "question_text": "List signaling molecules (ligands) that interact with the receptor EGFR?"
+        },
+        {
+            "text": "lation. We found that EGFR is predominantly phos",
+            "probability": 0.32757004374599763,
+            "start_logit": 0.7237393856048584,
+            "end_logit": 0.9072665572166443,
+            "question_text": "List signaling molecules (ligands) that interact with the receptor EGFR?"
+        },
+        {
+            "text": "lation. We found that EGFR is predominantly phosphorylated at",
+            "probability": 0.31744323670798713,
+            "start_logit": 0.7237393856048584,
+            "end_logit": 0.8758636713027954,
+            "question_text": "List signaling molecules (ligands) that interact with the receptor EGFR?"
+        }
+    ],
+    "553fa78b1d53b76422000007": [
+        {
+            "text": "coding RNAs (lncRNAs) have recently considered",
+            "probability": 0.13186708746392234,
+            "start_logit": 0.8598932027816772,
+            "end_logit": 0.9171496629714966,
+            "question_text": "Which miRNAs could be used as potential biomarkers for epithelial ovarian cancer?"
+        },
+        {
+            "text": "cancer cells, such as breast, liver, glioma, colorectal, cervical,",
+            "probability": 0.12757452352423088,
+            "start_logit": 0.7797309160232544,
+            "end_logit": 0.9642181396484375,
+            "question_text": "Which miRNAs could be used as potential biomarkers for epithelial ovarian cancer?"
+        },
+        {
+            "text": "NAs. On the other hand, previous studies have also suggested that MEG3 mediates epithelial-me",
+            "probability": 0.11233905175980169,
+            "start_logit": 0.7463334798812866,
+            "end_logit": 0.870436429977417,
+            "question_text": "Which miRNAs could be used as potential biomarkers for epithelial ovarian cancer?"
+        },
+        {
+            "text": "coding RNAs (lncRNAs) have recently considered as central regulators in diverse biological processes and emerged as",
+            "probability": 0.11182180718652433,
+            "start_logit": 0.8598932027816772,
+            "end_logit": 0.752261757850647,
+            "question_text": "Which miRNAs could be used as potential biomarkers for epithelial ovarian cancer?"
+        },
+        {
+            "text": "cancer cells, such as breast, liver, glioma, colorect",
+            "probability": 0.10498035506986485,
+            "start_logit": 0.7797309160232544,
+            "end_logit": 0.7692906856536865,
+            "question_text": "Which miRNAs could be used as potential biomarkers for epithelial ovarian cancer?"
+        },
+        {
+            "text": "cancer cells, such as",
+            "probability": 0.10483857874766621,
+            "start_logit": 0.7797309160232544,
+            "end_logit": 0.7679392695426941,
+            "question_text": "Which miRNAs could be used as potential biomarkers for epithelial ovarian cancer?"
+        },
+        {
+            "text": "cancer cells, such as breast, liver, glioma, colorectal, cervical, gastric, lung,",
+            "probability": 0.1038388023905841,
+            "start_logit": 0.7797309160232544,
+            "end_logit": 0.7583571672439575,
+            "question_text": "Which miRNAs could be used as potential biomarkers for epithelial ovarian cancer?"
+        },
+        {
+            "text": "NAs. On the other hand, previous studies have also suggested that MEG3 mediates epithelial-mesenchymal transition (EMT)",
+            "probability": 0.10339776554114424,
+            "start_logit": 0.7463334798812866,
+            "end_logit": 0.7874982357025146,
+            "question_text": "Which miRNAs could be used as potential biomarkers for epithelial ovarian cancer?"
+        },
+        {
+            "text": "NAs. On the other hand, previous studies have also suggested that MEG3 mediates epithelial-",
+            "probability": 0.09934202831626136,
+            "start_logit": 0.7463334798812866,
+            "end_logit": 0.7474836111068726,
+            "question_text": "Which miRNAs could be used as potential biomarkers for epithelial ovarian cancer?"
+        }
+    ],
+    "5149199dd24251bc05000040": [
+        {
+            "text": "empty",
+            "probability": 1.0,
+            "start_logit": 0.0,
+            "end_logit": 0.0,
+            "question_text": "question"
+        }
+    ],
+    "5709e4b2cf1c32585100001c": [
+        {
+            "text": "Nlk gene, consisting of 11 exons, was mapped to rat chromosome 10q25. Rat Nlk gene encoded 515",
+            "probability": 0.08701397972387988,
+            "start_logit": 0.6067447662353516,
+            "end_logit": 1.0609692335128784,
+            "question_text": "List the human genes encoding for the dishevelled proteins?"
+        },
+        {
+            "text": "Nmo) are implicated in the PCP signaling",
+            "probability": 0.0798295500999689,
+            "start_logit": 0.47083666920661926,
+            "end_logit": 1.1107022762298584,
+            "question_text": "List the human genes encoding for the dishevelled proteins?"
+        },
+        {
+            "text": "Nlk gene, consisting of 11 exons, was mapped to rat chromosome 10q25. Rat Nl",
+            "probability": 0.07654824001613346,
+            "start_logit": 0.6067447662353516,
+            "end_logit": 0.9328215718269348,
+            "question_text": "List the human genes encoding for the dishevelled proteins?"
+        },
+        {
+            "text": "bioinformatics. Nlk gene, consisting of 11 exons, was mapped to rat chromosome 10q25. Rat Nl",
+            "probability": 0.07026352420909776,
+            "start_logit": 0.5210764408111572,
+            "end_logit": 0.9328215718269348,
+            "question_text": "List the human genes encoding for the dishevelled proteins?"
+        },
+        {
+            "text": "Diego (Dgo) and Nemo (Nmo) are implicated in the PCP signaling",
+            "probability": 0.06861275698129281,
+            "start_logit": 0.3194214105606079,
+            "end_logit": 1.1107022762298584,
+            "question_text": "List the human genes encoding for the dishevelled proteins?"
+        },
+        {
+            "text": "tract, which showed 100, 99.8, 97.1 and",
+            "probability": 0.06599869090980348,
+            "start_logit": 0.6318544745445251,
+            "end_logit": 0.7594256401062012,
+            "question_text": "List the human genes encoding for the dishevelled proteins?"
+        },
+        {
+            "text": "et al identified mouse Nemo-like kinase (Nlk) in 1998. Nlk positively regulates the PCP pathway,",
+            "probability": 0.06383251015644138,
+            "start_logit": 0.39723271131515503,
+            "end_logit": 0.9606751203536987,
+            "question_text": "List the human genes encoding for the dishevelled proteins?"
+        },
+        {
+            "text": "Nemo-like kinase (Nlk) in 1998. Nlk positively regulates the PCP pathway,",
+            "probability": 0.05934802268297045,
+            "start_logit": 0.32438889145851135,
+            "end_logit": 0.9606751203536987,
+            "question_text": "List the human genes encoding for the dishevelled proteins?"
+        },
+        {
+            "text": "cell polar",
+            "probability": 0.05758550542877352,
+            "start_logit": 0.37025442719459534,
+            "end_logit": 0.8846616744995117,
+            "question_text": "List the human genes encoding for the dishevelled proteins?"
+        },
+        {
+            "text": "His) tracts and poly(Ala) tract, which showed 100, 99.8, 97.1 and",
+            "probability": 0.05591519253509628,
+            "start_logit": 0.466055691242218,
+            "end_logit": 0.7594256401062012,
+            "question_text": "List the human genes encoding for the dishevelled proteins?"
+        },
+        {
+            "text": "Vang), Dishevelled (Dsh), Prickle (Pk",
+            "probability": 0.05485817689549291,
+            "start_logit": 0.3270304203033447,
+            "end_logit": 0.8793660402297974,
+            "question_text": "List the human genes encoding for the dishevelled proteins?"
+        },
+        {
+            "text": "Vang), Dishevelled (Dsh)",
+            "probability": 0.05409776423560756,
+            "start_logit": 0.3270304203033447,
+            "end_logit": 0.8654076457023621,
+            "question_text": "List the human genes encoding for the dishevelled proteins?"
+        },
+        {
+            "text": "cell polarity (PCP)",
+            "probability": 0.054038761079861636,
+            "start_logit": 0.37025442719459534,
+            "end_logit": 0.8210923671722412,
+            "question_text": "List the human genes encoding for the dishevelled proteins?"
+        },
+        {
+            "text": "cell polarity (PCP) pathway or the beta-catenin pathway. Drosophila Frizzled (Fz),",
+            "probability": 0.052313379607000096,
+            "start_logit": 0.37025442719459534,
+            "end_logit": 0.788642942905426,
+            "question_text": "List the human genes encoding for the dishevelled proteins?"
+        },
+        {
+            "text": "Vang), Dishevelled (Dsh), Prickle (Pk),",
+            "probability": 0.05016253079670543,
+            "start_logit": 0.3270304203033447,
+            "end_logit": 0.7898831367492676,
+            "question_text": "List the human genes encoding for the dishevelled proteins?"
+        },
+        {
+            "text": "onine kinase domain, poly(His) tracts and poly(Ala) tract, which showed 100, 99.8, 97.1 and",
+            "probability": 0.04958141464187448,
+            "start_logit": 0.3458356261253357,
+            "end_logit": 0.7594256401062012,
+            "question_text": "List the human genes encoding for the dishevelled proteins?"
+        }
+    ]
+}

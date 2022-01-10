@@ -1,0 +1,52 @@
+{
+  "questions": [
+    {
+      "type": "list",
+      "id": "5149199dd24251bc0500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "empty"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "55046d5ff8aee20f2700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "lation. We found that EGFR is predominantly phos"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "553fa78b1d53b7642200",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "coding RNAs (lncRNAs) have recently considered"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5709e4b2cf1c32585100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Nlk gene, consisting of 11 exons, was mapped to rat chromosome 10q25. Rat Nlk gene encoded 515"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+    "data": [
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "56bc751eac7ad10019000013",
+                            "question": "Name synonym of Acrokeratosis paraneoplastica."
+                        }
+                    ],
+                    "context": "Bazex disease is one of the rarer cutaneous paraneoplastic syndromes. It is characterized by psoriasiform changes on the digits, and in some patients spread to the ears, nose and in later stages to the limbs and trunk. The associated malignancy is typically a squamous cell carcinoma of the upper aerodigestive tract. We review the literature regarding acrokeratosis paraneoplastica of Bazex and report three cases which illustrate both the typical and some of the less common changes that are seen in the condition."
+                }
+            ]
+        }
+    ]
+}

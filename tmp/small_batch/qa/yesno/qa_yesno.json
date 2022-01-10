@@ -1,0 +1,30 @@
+{
+    "data": [
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "535d292a9a4572de6f000003",
+                            "question": "Are long non coding RNAs spliced?"
+                        }
+                    ],
+                    "context": "Polyomavirus late pre-mRNAs contain one 5' splice site and two message body 3' splice sites, which are not used at equal frequencies. As a result of alternative splicing, the total late mRNA population consists of about 5% mVP2 (no message body splice chosen), about 15% mVP3 (promoter-proximal 3' splice site chosen), and about 80% mVP1 (promoter-distal 3' splice site chosen). To determine whether it is splice site strength that determines the ratio of spliced products, constructs containing duplicated or rearranged 3' splice sites were created. In construct VP1,1, 160 bp surrounding the VP3 3' splice site was substituted with the corresponding region of the VP1 3' splice site. This construct resulted in the duplication of the VP1 3' splicing signal. VP3,3 (two identical VP3 3' splice sites) and VP1,3 (VP1 and VP3 3' splice sites reversed) were similarly created. Each construct maintained wild-type spacing between the 3' splice sites. Analysis of RNAs from transfections showed that in each construct, the 3' splice closest to the polyadenylation site was used preferentially. Analysis of a number of additional constructs indicated that there are no strong cis-acting positive or negative regulators of polyomavirus late splicing; rather, splicing choices appear to be determined largely by relative position of splice sites."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "55262a9787ecba3764000009",
+                            "question": "Is RANKL secreted from the cells?"
+                        }
+                    ],
+                    "context": "Melanoma is the deadliest form of skin cancer; a primary driver of this high level of morbidity is the propensity of melanoma cells to metastasize. When malignant tumours develop distant metastatic lesions the new local tissue niche is known to impact on the biology of the cancer cells. However, little is known about how different metastatic tissue sites impact on frontline targeted therapies. Intriguingly, melanoma bone lesions have significantly lower response to BRAF or MEK inhibitor therapies. Here, we have investigated how the cellular niche of the bone can support melanoma cells by stimulating growth and survival via paracrine signalling between osteoblasts and cancer cells. Melanoma cells can enhance the differentiation of osteoblasts leading to increased production of secreted ligands, including RANKL. Differentiated osteoblasts in turn can support melanoma cell proliferation and survival via the secretion of RANKL that elevates the levels of the transcription factor MITF, even in the presence of BRAF inhibitor. By blocking RANKL signalling, either via neutralizing antibodies, genetic alterations or the RANKL receptor inhibitor SPD304, the survival advantage provided by osteoblasts could be overcome."
+                }
+            ]
+        }
+    ]
+}

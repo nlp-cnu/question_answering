@@ -1,0 +1,147 @@
+{
+    "data": [
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "55031181e9bde69634000014",
+                            "question": "Is Hirschsprung disease a mendelian or a multifactorial disorder?"
+                        }
+                    ],
+                    "context": ""
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "55046d5ff8aee20f27000007",
+                            "question": "List signaling molecules (ligands) that interact with the receptor EGFR?"
+                        }
+                    ],
+                    "context": "Differential epidermal growth factor receptor (EGFR) phosphorylation is thought to couple receptor activation to distinct signaling pathways. However, the molecular mechanisms responsible for biased signaling are unresolved due to a lack of insight into the phosphorylation patterns of full-length EGFR. We extended a single-molecule pull-down technique previously used to study protein-protein interactions to allow for robust measurement of receptor phosphorylation. We found that EGFR is predominantly phosphorylated at multiple sites, yet phosphorylation at specific tyrosines is variable and only a subset of receptors share phosphorylation at the same site, even with saturating ligand concentrations. We found distinct populations of receptors as soon as 1 min after ligand stimulation, indicating early diversification of function. To understand this heterogeneity, we developed a mathematical model. The model predicted that variations in phosphorylation are dependent on the abundances of signaling partners, while phosphorylation levels are dependent on dimer lifetimes. The predictions were confirmed in studies of cell lines with different expression levels of signaling partners, and in experiments comparing low- and high-affinity ligands and oncogenic EGFR mutants. These results reveal how ligand-regulated receptor dimerization dynamics and adaptor protein concentrations play critical roles in EGFR signaling."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "54e25eaaae9738404b000017",
+                            "question": "Is the protein Papilin secreted?"
+                        }
+                    ],
+                    "context": ""
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "535d292a9a4572de6f000003",
+                            "question": "Are long non coding RNAs spliced?"
+                        }
+                    ],
+                    "context": "Polyomavirus late pre-mRNAs contain one 5' splice site and two message body 3' splice sites, which are not used at equal frequencies. As a result of alternative splicing, the total late mRNA population consists of about 5% mVP2 (no message body splice chosen), about 15% mVP3 (promoter-proximal 3' splice site chosen), and about 80% mVP1 (promoter-distal 3' splice site chosen). To determine whether it is splice site strength that determines the ratio of spliced products, constructs containing duplicated or rearranged 3' splice sites were created. In construct VP1,1, 160 bp surrounding the VP3 3' splice site was substituted with the corresponding region of the VP1 3' splice site. This construct resulted in the duplication of the VP1 3' splicing signal. VP3,3 (two identical VP3 3' splice sites) and VP1,3 (VP1 and VP3 3' splice sites reversed) were similarly created. Each construct maintained wild-type spacing between the 3' splice sites. Analysis of RNAs from transfections showed that in each construct, the 3' splice closest to the polyadenylation site was used preferentially. Analysis of a number of additional constructs indicated that there are no strong cis-acting positive or negative regulators of polyomavirus late splicing; rather, splicing choices appear to be determined largely by relative position of splice sites."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "55262a9787ecba3764000009",
+                            "question": "Is RANKL secreted from the cells?"
+                        }
+                    ],
+                    "context": "Melanoma is the deadliest form of skin cancer; a primary driver of this high level of morbidity is the propensity of melanoma cells to metastasize. When malignant tumours develop distant metastatic lesions the new local tissue niche is known to impact on the biology of the cancer cells. However, little is known about how different metastatic tissue sites impact on frontline targeted therapies. Intriguingly, melanoma bone lesions have significantly lower response to BRAF or MEK inhibitor therapies. Here, we have investigated how the cellular niche of the bone can support melanoma cells by stimulating growth and survival via paracrine signalling between osteoblasts and cancer cells. Melanoma cells can enhance the differentiation of osteoblasts leading to increased production of secreted ligands, including RANKL. Differentiated osteoblasts in turn can support melanoma cell proliferation and survival via the secretion of RANKL that elevates the levels of the transcription factor MITF, even in the presence of BRAF inhibitor. By blocking RANKL signalling, either via neutralizing antibodies, genetic alterations or the RANKL receptor inhibitor SPD304, the survival advantage provided by osteoblasts could be overcome."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "51406e6223fec90375000009",
+                            "question": "Does metformin interfere thyroxine absorption?"
+                        }
+                    ],
+                    "context": ""
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "553fa78b1d53b76422000007",
+                            "question": "Which miRNAs could be used as potential biomarkers for epithelial ovarian cancer?"
+                        }
+                    ],
+                    "context": "Long noncoding RNAs (lncRNAs) have recently considered as central regulators in diverse biological processes and emerged as vital players controlling tumorigenesis. Several lncRNAs can be classified into oncogenes and tumor suppressor genes depending on their function in cancer. A maternally expressed gene 3 (MEG3) gene transcripts a 1.6\u00a0kb lncRNA whose act as an antitumor\u00a0component in different cancer cells, such as breast, liver, glioma, colorectal, cervical, gastric, lung, ovarian and osteosarcoma cancer cells. The present review highlights biological function of MEG3 to repress tumor through regulating the major tumor suppressor genes p53 and Rb, inhibiting angiogenesis-related factor, or controlling miRNAs. On the other hand, previous studies have also suggested that MEG3 mediates epithelial-mesenchymal transition (EMT). However, deregulation of MEG3 is associated with the\u00a0 development and progression of cancer, suggesting that MEG3 may function as a potential biomarker and therapeutic target for human cancers."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5149199dd24251bc05000040",
+                            "question": "Which acetylcholinesterase inhibitors are used for treatment of myasthenia gravis?"
+                        }
+                    ],
+                    "context": "The co-existence of myasthenia gravis and other inflammatory myopathies has been reported in the literature before, but no clinical cases involving inclusion body myositis have been reported. We report a case of a 67-year-old patient who presented with dysphagia, exhibiting the typical electrophysiological features of postsynaptic neuromuscular junction defect with positive muscle acetylcholine receptor antibodies, consistent with the diagnosis of myasthenia gravis. Nevertheless, response to acetylcholinesterase inhibitors and immunomodulatory treatment was unexpectedly poor. As the disease progressed, the patient developed asymmetric muscle weakness, initially affecting mainly the quadriceps and the finger flexors. Muscle MRI imaging supported the presence of an inflammatory myopathy and muscle biopsy confirmed the diagnosis of inclusion body myositis. Thus, our patient represents the first reported overlap case of myasthenia gravis and inclusion body myositis."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "52bf1db603868f1b06000011",
+                            "question": "Has Denosumab (Prolia) been approved by FDA?"
+                        }
+                    ],
+                    "context": ""
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5709e4b2cf1c32585100001c",
+                            "question": "List the human genes encoding for the dishevelled proteins?"
+                        }
+                    ],
+                    "context": "WNT signals are transduced to the planar cell polarity (PCP) pathway or the beta-catenin pathway. Drosophila Frizzled (Fz), Starry night (Stan), Van Gogh (Vang), Dishevelled (Dsh), Prickle (Pk), Diego (Dgo) and Nemo (Nmo) are implicated in the PCP signaling pathway. Choi and Benzer identified Drosophila Nmo in 1994, and Brott et al identified mouse Nemo-like kinase (Nlk) in 1998. Nlk positively regulates the PCP pathway, and negatively regulates the beta-catenin pathway. Here, we identified and characterized rat Nlk gene, Nlk2 gene and Nlkp pseudogene by using bioinformatics. Nlk gene, consisting of 11 exons, was mapped to rat chromosome 10q25. Rat Nlk gene encoded 515-aa Nlk protein with the serine/threonine kinase domain, poly(His) tracts and poly(Ala) tract, which showed 100, 99.8, 97.1 and 89.5% total-amino-acid identity with mouse Nlk, human NLK, Xenopus nlk and zebrafish nlk, respectively. Rat Nlk2 gene and Nlkp pseudogene were mapped to rat chromosome 13p13 and 2q44, respectively. Nlk2 gene and Nlkp pseudogene, consisting of a single exon, were not evolutionarily conserved. Nlk2 gene and Nlkp pseudogene were predicted as retrotransposed Nlk homologs within the rat genome. Nlk2 gene encoded a 480-aa Nlk2 protein with partial deletion within the kinase domain, which was predicted as the dominant negative Nlk homolog. This is the first report on the Nlk gene and retrotransposed Nlk homologs within the rat genome."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "56bc751eac7ad10019000013",
+                            "question": "Name synonym of Acrokeratosis paraneoplastica."
+                        }
+                    ],
+                    "context": "Bazex disease is one of the rarer cutaneous paraneoplastic syndromes. It is characterized by psoriasiform changes on the digits, and in some patients spread to the ears, nose and in later stages to the limbs and trunk. The associated malignancy is typically a squamous cell carcinoma of the upper aerodigestive tract. We review the literature regarding acrokeratosis paraneoplastica of Bazex and report three cases which illustrate both the typical and some of the less common changes that are seen in the condition."
+                }
+            ]
+        }
+    ]
+}

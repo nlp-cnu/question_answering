@@ -1,0 +1,20 @@
+{
+  "questions": [
+    {
+      "type": "yesno",
+      "id": "535d292a9a4572de6f00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "55262a9787ecba376400",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    }
+  ]
+}

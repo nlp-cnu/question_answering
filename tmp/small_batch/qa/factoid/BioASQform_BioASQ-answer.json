@@ -1,0 +1,14 @@
+{
+  "questions": [
+    {
+      "type": "factoid",
+      "id": "56bc751eac7ad1001900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "empty"
+      ]
+    }
+  ]
+}
