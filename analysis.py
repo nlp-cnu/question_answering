@@ -1,557 +1,839 @@
-from re import DEBUG, L, S
-import re
-from lxml import etree as ET
-
-from utils import *
-import numpy as np
+from lxml import etree as et
+from sklearn.metrics import classification_report
+import numpy
+import os
 import pandas as pd
 import json
-import os
-import csv
-import subprocess
-from sklearn import metrics as m
+import time
 
-"""
-    for QU we are doing f1 score on concepts
-    for IR we are doing f1 score on document ids
-    for QA we use the BioASQ testing repo
-"""
+from utils import *
 
-"""
-DEBUG VARIABLES
-"""
-EVALUATING = False
-TESTING = False
-DEBUG = True
-
-# make master json for eval purposes
-def generate_master_golden_json(filenames):
-    input_file = open(
-        "/home/daniels/dev/BioASQ-QA-System/testing_datasets/Task8BGoldenEnriched/8B1_golden.json"
-    )
-    master_json = json.load(input_file)
-    for json_location in filenames:
-        json_file = open(json_location)
-        raw_json = json.load(json_file)
-        for question in raw_json["questions"]:
-            master_json["questions"].append(question)
-        json_file.close()
-    input_file.close()
-    output_file = open(
-        "/home/daniels/dev/BioASQ-QA-System/testing_datasets/Task8BGoldenEnriched/master_golden.json",
-        "w",
-    )
-    json.dump(master_json, output_file, indent=2)
+DEBUG = False
 
 
-# create train_factoid.json, train_yesno.json, and train_list.json
-def split_gold_train(path_to_files):
-    input_file = open(
-        "/home/danubuntu/dev/BioASQ-QA-System/testing_datasets/BioASQ-training8b/augmented_test_FULL_ABSTRACTS.json"
-    )
-    master_json = json.load(input_file)
-    input_file.close()
-
-    empty_q = '{"questions":[]}'
-
-    yn_j = json.loads(empty_q)
-    lst_j = json.loads(empty_q)
-    fct_j = json.loads(empty_q)
-    yn = [q for q in master_json["questions"] if q["type"] == "yesno"]
-    lst = [q for q in master_json["questions"] if q["type"] == "list"]
-    fct = [q for q in master_json["questions"] if q["type"] == "factoid"]
-
-    # put in json format
-    for q in yn:
-        yn_j["questions"].append(q)
-    for q in lst:
-        lst_j["questions"].append(q)
-    for q in fct:
-        fct_j["questions"].append(q)
-
-    with open(f"{path_to_files}gold_yesno.json", "w+") as yesno_file:
-        json.dump(yn_j, yesno_file, indent=2)
-    with open(f"{path_to_files}gold_factoid.json", "w+") as factoid_file:
-        json.dump(fct_j, factoid_file, indent=2)
-    with open(f"{path_to_files}gold_list.json", "w+") as list_file:
-        json.dump(lst_j, list_file, indent=2)
+def get_pmid(docs):
+    documents = [document.split("/")[-1] for document in docs]
+    return documents
 
 
-# This is so that our system can actually use the golden test datapoints..... of course we can't test with training questions, there would be no overlap.
-def create_testing_csv():
-    input_file = open(
-        "/home/daniels/dev/BioASQ-QA-System/testing_datasets/Task8BGoldenEnriched/master_golden.json"
-    )
-    master_json = json.load(input_file)
-    input_file.close()
-
-    output_csv = open(
-        "/home/daniels/dev/BioASQ-QA-System/testing_datasets/evaluation_input.csv", "w"
-    )
-    csv_writer = csv.writer(output_csv)
-    csv_writer.writerow(["ID", "Question"])
-    for question in master_json["questions"]:
-        csv_writer.writerow([question["id"], question["body"]])
-    output_csv.close()
-
-
-def run_evaluation_code(file_to_evaluate, golden_file):
-    # now to check our stats from the evaluation measures repo (user will need to write in path to repo)
-    # java -Xmx10G -cp flat/BioASQEvaluation/dist/BioASQEvaluation.jar evaluation.EvaluatorTask1b -phaseB -e 5 "/home/daniels/dev/BioASQ-QA-System/testing_datasets/BioASQ-training8b/CLEAN/training8b.json" "/home/daniels/dev/BioASQ-QA-System/tmp/qa/yesno/BioASQform_BioASQ-answer.json" -verbose
-    print(f"file to evaluate: {file_to_evaluate}")
-    eval_measures_repo_path = "/home/daniels/dev/Evaluation-Measures"
-    if EVALUATING or TESTING:
-        golden_file_path = "/home/daniels/dev/BioASQ-QA-System/testing_datasets/Task8BGoldenEnriched/master_golden.json"
-    else:
-        golden_file_path = golden_file
-        # golden_file_path = "/home/daniels/dev/BioASQ-QA-System/testing_datasets/BioASQ-training8b/CLEAN/training8b.json"
-        # golden_file_path = "/home/daniels/dev/BioASQ-QA-System/testing_datasets/BioASQ-training8b/training8b.json"
-    # file_to_evaluate = golden_file_path
-    print(f"golden file : {golden_file_path}")
-
-    path_to_jar = "/home/daniels/dev/Evaluation-Measures/flat/BioASQEvaluation/dist/BioASQEvaluation.jar"
-    evaluation_process = subprocess.Popen(
-        [
-            "java",
-            "-Xmx10G",
-            "-cp",
-            path_to_jar,
-            "evaluation.EvaluatorTask1b",
-            "-phaseB",
-            "-e",
-            "5",
-            golden_file_path,
-            file_to_evaluate,
-            "-verbose",
-        ],
-        cwd=eval_measures_repo_path,
-        stdout=subprocess.PIPE,
-    )
-    stdout, _ = evaluation_process.communicate()
-    return stdout.decode("utf-8")
+def get_answers(answers_files):
+    all_answers = dict()
+    for a in answers_files:
+        with open(a, "r") as f:
+            d = json.loads(f.read())
+            if DEBUG:
+                print(f"{len(d)} answers found in {a}")
+            for key, value in d.items():
+                if key in all_answers.keys():
+                    print(f"MULTIPLE ANSWERS FOR {key}")
+                if isinstance(value, list):
+                    all_answers[key] = value[
+                        0
+                    ]  # get the first value which is answer not prediction for the yes/no
+                else:
+                    all_answers[key] = value
+    return all_answers
 
 
-def eval_score(predicted, actual):
-    # precision = true predicted positives / all predicted positives
-    # recall = true predicted positives/ all actual positives
-    # f1 = 2 * (precision * recall) / (precision + recall)
-    # force lowercase to help out here
-    predicted = set([ele.lower() for ele in predicted])
-    actual = set([ele.lower() for ele in actual])
-
-    # correctly predicted positives
-    true_positives = [ele for ele in predicted if ele in actual]
-    # elements that were predicted incorrectly
-    false_positives = [ele for ele in predicted if ele not in actual]
-    # important elements which were not predicted
-    false_negatives = [ele for ele in actual if ele not in predicted]
-    if len(predicted) == 0 and len(actual) == 0:
-        print("No predicted or golden values???")
-        return (-99, -99, -99)
-    if len(predicted) == 0:
-        # print("No predicted values")
-        return (-1, -1, -1)
-    if len(actual) == 0:
-        # print("No golden values")
-        return (-5, -5, -5)
-    else:
-        precision = len(true_positives) / (len(true_positives) + len(false_positives))
-        recall = len(true_positives) / (len(true_positives) + len(false_negatives))
-    if precision == 0 or recall == 0:  # shortcut
-        f1 = 0
-    else:
-        f1 = 2 * (precision * recall) / (precision + recall)
-    # print(f"\n---\nF1: [{len(predicted)} predicted] {predicted} | [{len(actual)} actual] {actual} \n{len(true_positives)} correct answers : {true_positives}\n{len(false_positives)} incorrect answers: {false_positives}\n{len(false_negatives)} missed answers: {false_negatives}\n")
-    # print(f"f1: {f1}, precision: {precision}, recall: {recall}")
-    return (f1, precision, recall)
+def get_three_files(a_dir):
+    return [
+        a_dir + "/factoid/predictions.json",
+        a_dir + "/list/predictions.json",
+        a_dir + "/yesno/predictions.json",
+    ]
 
 
-def get_generated_dict(file_location, mode="concepts"):
-    gen_dict = {}
-    no_concepts = 0
-    no_pmids = 0
-    with open(file_location, "r") as xml_file:
-        fileTree = ET.parse(xml_file)
-        if fileTree:
-            root = fileTree.getroot()
-            questions = root.findall("Q")
-            print(f"{len(questions)} {mode} found")
+def get_col_list(gold_df, gen_df, col):
+    gold_col = gold_df.loc[:, ["id", col]].copy()
+    gen_col = gen_df.loc[:, ["id", col]].copy()
 
-            for question in questions:
-                qid = question.get("id")
-                if mode == "concepts":
-                    qp = question.find("QP")
-                    concepts = [
-                        e.text for e in qp.findall("Entities")
-                    ]  # entities are the same as concepts
-                    if concepts == []:
-                        no_concepts += 1
-                        print(f"NO CONCEPTS QUESTION = {qid}")
-                    gen_dict[qid] = concepts
-                elif mode == "pubmed_ids":
-                    ir = question.find("IR")
-                    result_pmids = [e.get("PMID") for e in ir.findall("Result")]
-                    if result_pmids == []:
-                        no_pmids += 1
-                    gen_dict[qid] = result_pmids
-                elif mode == "type":
-                    qp = question.find("QP")
-                    result_type = qp.find("Type").text
-                    gen_dict[qid] = (result_type, question.text)
-    return gen_dict, no_concepts, no_pmids
+    gold = gold_col.to_dict(orient="list")
+    gen = gen_col.to_dict(orient="list")
+    gen_ids = gen["id"]
+    gen_vals = gen[col]
+    gold_ids = gold["id"]
+    gold_vals = gold[col]
+    return gold_ids, gold_vals, gen_ids, gen_vals
 
 
-def get_generated_dicts(generated_xml):
-    print(f"generated xml file is {generated_xml}")
-    print("Getting generated concepts")
-    generated_concepts, no_concepts, no_pmids = get_generated_dict(
-        generated_xml, mode="concepts"
-    )
-    if no_concepts > 0 or no_pmids > 0:
-        print(
-            f"questions with no concepts: {no_concepts}, questions with no pmids: {no_pmids}"
+def parse_xml(xml_file, dir_for_qa):
+    no_answers = 0
+    # get answers
+    qa_answers = get_answers(get_three_files(dir_for_qa))
+    # get ir and qu
+    df_cols = [
+        "id",
+        "human_concepts",
+        "documents",
+        "full_abstracts",
+        "titles",
+        "type",
+        "exact_answer",
+    ]
+    xtree = et.parse(xml_file)
+    xroot = xtree.getroot()
+    rows = []
+    for question in xroot:
+        id = question.attrib.get("id")
+        ir = question.find("IR")
+        qp = question.find("QP")
+        concepts = [e.text for e in qp.findall("Entities")]
+        qa_type = qp.find("Type").text
+        titles = [e.find("Title").text for e in ir.findall("Result")]
+        abstracts = [e.find("Abstract").text for e in ir.findall("Result")]
+        pmids = [e.get("PMID") for e in ir.findall("Result")]
+        exact_answer = qa_answers[id] if id in qa_answers else None
+        if DEBUG and not exact_answer:
+            print(f"id [{id}] has no answer")
+            no_answers += 1
+        rows.append(
+            {
+                "id": id,
+                "human_concepts": concepts,
+                "documents": pmids,
+                "full_abstracts": abstracts,
+                "titles": titles,
+                "type": qa_type,
+                "exact_answer": exact_answer,
+            }
         )
-    print("Getting generated pmids")
-    generated_pubmed_ids, no_concepts, no_pmids = get_generated_dict(
-        generated_xml, mode="pubmed_ids"
-    )
-    if no_concepts > 0 or no_pmids > 0:
-        print(
-            f"questions with no concepts: {no_concepts}, questions with no pmids: {no_pmids}"
-        )
-    print("Getting generated types")
-    generated_types, _, _ = get_generated_dict(generated_xml, mode="type")
-    return generated_concepts, generated_pubmed_ids, generated_types
-
-
-# f1_scores takes the form {id: (f1,precision,recall)}
-def get_scores(gold_dict, gen_dict):
-    eval_scores = {}
-    for key in gold_dict.keys():
-        # only take duplicates to not penalize for hitting same document multiple times
-        if key in gen_dict.keys(): # handle questions not being identified as correct type
-            eval_scores[key] = eval_score(set(gen_dict[key]), set(gold_dict[key]))
-    return eval_scores  # (f1,precision,recall)
-
-
-def get_gold_dicts(golden_dataset):
-    # Here we are going to be opening files and retrieving a dict of features with keys taken from question IDs
-    print(f"gold xml file is {golden_dataset}")
-    concepts_dict = {}
-    pubmed_ids_dict = {}
-    type_dict = {}
-    with open(golden_dataset, "r") as file:
-        empty = 0
-        found = 0
-        data = json.load(file)
-        questions = data["questions"]
-        for question in questions:
-            id = question.get("id")
-            question_type = question.get("type")
-            human_concepts = question.get("human_concepts")
-            if not human_concepts:
-                empty += 1
-            else:
-                found += 1
-            documents = [
-                document.split("/")[-1] for document in question.get("documents")
-            ]
-            # print(f"documents found: for question ({id}) : {len(documents)}")
-            if human_concepts:
-                concepts_dict[id] = human_concepts
-            else:
-                concepts_dict[id] = []
-            pubmed_ids_dict[id] = documents
-            type_dict[id] = (question_type, question["body"])
-    print(f"{MAGENTA}Concepts -> empty: {empty} | found: {found}{OFF}")
-    print(
-        f" {len(concepts_dict)} concepts {len(pubmed_ids_dict)} ids {len(type_dict)} types"
-    )
-    return concepts_dict, pubmed_ids_dict, type_dict
-
-
-def get_average_scores(f1_list):
-    print(f"len(f1_list): {len(f1_list)}")
-    print(f"num keys: {len(f1_list.keys())}")
-    if len(f1_list) == 0:
-        return 0, 0, 0
-    f1_sum = 0.0
-    precision_sum = 0.0
-    recall_sum = 0.0
-    no_predictions = 0
-    no_golden_answers = 0
-    good_num = 0
-    for key in f1_list.keys():
-        if f1_list.get(key)[0] >= 0: # f1 score
-            f1_sum += f1_list.get(key)[0]
-            precision_sum += f1_list.get(key)[1]
-            recall_sum += f1_list.get(key)[2]
-            good_num += 1
-        elif f1_list.get(key)[0] == -1:
-            no_predictions += 1
-        else:
-            no_golden_answers += 1
-
-    print(f"number of successful f1 score calculations = {good_num}")
+    out_df = pd.DataFrame(rows, columns=df_cols)
     if DEBUG:
-        print(f"number of no predictions = {no_predictions}")
-        print(f"number of no golden answers = {no_golden_answers}")
-    if good_num == 0:
-        return (-1, -1, -1)
-    return (f1_sum / good_num, precision_sum / good_num, recall_sum / good_num)
+        print(
+            f"{GREEN}[{no_answers}/{len(out_df)}]{OFF} {WHITE}questions had answers{OFF}"
+        )
+    return out_df
 
 
-def exact_matching(gold, generated):
-    num_correct = 0
-    for id in generated:
-        if id in gold:
-            if generated[id][0] == gold[id][0]:
-                num_correct += 1
-            # else:
-            # print(f"Question [{id}], {generated[id][1]}, Guessed <{generated[id][0]}> when it should have been <{gold[id][0]}>")
-        else:
-            print(f"question {id} not in evalation set")
-    return f"{num_correct}/{len(generated)}"
+def print_yes_no_info(df, tag):
+    print(tag)
+    print(f" [{len(df)}] {tag} Yes/No Questions")
+    yes_df = df[df["exact_answer"] == "yes"]
+    no_df = df[df["exact_answer"] == "no"]
+    print(f" [{len(yes_df)}] {tag} Yes Questions")
+    print(f" [{len(no_df)}] {tag} No Questions")
 
 
-def print_qu_ir_results(EVALUATING=False, TESTING=False):
+""" f1 Yes
+    tp is gen 'yes' | gold 'yes'
+    fp is gen 'yes' | gold 'no'
+    fn is gen 'no' |  gold 'yes'
 
-    print(f"{RED} -- Analysis Module --{OFF}")
+    f1 No
+    tp is gen 'no' | gold 'no'
+    fp is gen 'no' | gold 'yes'
+    fn is gen 'yes' |  gold 'no'
 
-    if EVALUATING or TESTING:
-        golden_dataset = "testing_datasets/Task8BGoldenEnriched/master_golden.json"
-    else:
-        golden_dataset = "testing_datasets/BioASQ-training8b/augmented_test_FULL_ABSTRACTS.json"
-    if TESTING:
-        generated_xml = "tmp/debugging/generated_ir.xml"
-    elif EVALUATING:
-        generated_xml = "tmp/ir/output/bioasq_qa_EVAL.xml"
-    else:
-        generated_xml = "tmp/ir/output/bioasq_qa.xml"
-    print("Getting golden data")
-    gold_concepts, gold_pubmed_ids, gold_question_types = get_gold_dicts(golden_dataset)
+    IGNORE if the predicted type is yes/no but gold type is different
+"""
+
+
+def do_yes_no_eval(gold_df, gen_df):
+    print(f"{CYAN}Yes/No Evaluation{OFF}")
+    yes_no_gold_df = gold_df[gold_df["type"] == "yesno"]
+    yes_no_gen_df = gen_df[gen_df["type"] == "yesno"]
+
+    if DEBUG:
+        # Gold stats
+        print_yes_no_info(yes_no_gold_df, "Gold")
+        # Gen Stats
+        print_yes_no_info(yes_no_gen_df, "Generated")
+
+    gold_ids, gold_ans, gen_ids, gen_ans = get_col_list(
+        yes_no_gold_df, gen_df, "exact_answer"
+    )
+
+    # YES
+    ytp = 0
+    yfp = 0
+    yfn = 0
+
+    for i in range(len(gold_ids)):
+        gold_val = gold_ans[i]
+        try:
+            gen_val = gen_ans[gen_ids.index(gold_ids[i])]
+        except ValueError as e:
+            if DEBUG:
+                print(e)
+            continue
+        if gen_val:
+            if gold_val == "yes":
+                if gen_val == "yes":
+                    ytp += 1
+                elif gen_val == "no":
+                    yfn += 1
+                else:
+                    if DEBUG:
+                        print(
+                            f"yes question [{gold_ids[i]}] had generated answer {gen_val}"
+                        )
+            elif gold_val == "no":
+                if gen_val == "yes":
+                    yfp += 1
+                elif gen_val == "no":
+                    pass  # handled by no f1
+                else:
+                    if DEBUG:
+                        print(
+                            f"no question [{gold_ids[i]}] had generated answer {gen_val}"
+                        )
+            else:
+                print(
+                    f"GOLDEN answer to yes/no question [{gold_ids[i]}] was {gold_val}"
+                )
+
+        else:  # not identified as yes/no question by generated
+            pass
+    # sanity check
     print(
-        f"{RED}Num gold concepts: {len(gold_concepts)}, pmids: {len(gold_pubmed_ids)}, types: {len(gold_question_types)}{OFF}"
+        f"Yes | True Posative: {GREEN}{ytp}{OFF}, False Posative: {GREEN}{yfp}{OFF}, False Negative: {GREEN}{yfn}{OFF}"
+    )
+    try:
+        yp = ytp / (ytp + yfp)
+    except:
+        yp = 0
+    try:
+        yr = ytp / (ytp + yfn)
+    except:
+        yr = 0
+    try:
+        yf1 = 2 * ((yp * yr) / (yp + yr))
+    except:
+        yf1 = 0
+    print(
+        f"Yes | f1 {GREEN}{yf1}{OFF}, precision {GREEN}{yp}{OFF}, recall {GREEN}{yr}{OFF}"
     )
 
-    generated_concepts, generated_pubmed_ids, generated_types = get_generated_dicts(
-        generated_xml
+    # NO SIDE
+    ntp = 0
+    nfp = 0
+    nfn = 0
+
+    for i in range(len(gold_ids)):
+        gold_val = gold_ans[i]
+        try:
+            gen_val = gen_ans[gen_ids.index(gold_ids[i])]
+        except ValueError as e:
+            if DEBUG:
+                print(e)
+            continue
+        if gen_val:
+            if gold_val == "no":
+                if gen_val == "no":
+                    ntp += 1
+                elif gen_val == "yes":
+                    nfn += 1
+                else:
+                    if DEBUG:
+                        print(
+                            f"no question [{gold_ids[i]}] had generated answer {gen_val}"
+                        )
+            elif gold_val == "yes":
+                if gen_val == "no":
+                    nfp += 1
+                elif gen_val == "yes":
+                    pass  # handled by no f1
+                else:
+                    print(
+                        f"yes question [{gold_ids[i]}] had generated answer {gen_val}"
+                    )
+            else:
+                if DEBUG:
+                    print(
+                        f"GOLDEN answer to yes/no question [{gold_ids[i]}] was {gold_val}"
+                    )
+
+        else:  # not identified as yes/no question by generated
+            pass
+
+    # sanity check
+    print(
+        f"No | True Posative: {GREEN}{ntp}{OFF}, False Posative: {GREEN}{nfp}{OFF}, False Negative: {GREEN}{nfn}{OFF}"
+    )
+    try:
+        np = ntp / (ntp + nfp)
+    except:
+        np = 0
+    try:
+        nr = ntp / (ntp + nfn)
+    except:
+        nr = 0
+    try:
+        nf1 = 2 * ((np * nr) / (np + nr))
+    except:
+        nf1 = 0
+    print(
+        f"No | f1 {GREEN}{nf1}{OFF}, precision {GREEN}{np}{OFF}, recall {GREEN}{nr}{OFF}"
+    )
+
+    f1 = (yf1 + nf1) / 2
+    p = (yp + np) / 2
+    r = (yr + nr) / 2
+    print(
+        f"Overall Yes/No | f1 {GREEN}{f1}{OFF}, precision {GREEN}{p}{OFF}, recall {GREEN}{r}{OFF}"
+    )
+    print("\n")
+    return yf1, yp, yr, nf1, np, nr, f1, p, r
+
+
+# yes_no_report = do_yes_no_eval(gold_df,gen_df)
+# Compute [[Mean average precision, Geometric mean average precision]], precision, recall, f1 score
+def do_concepts_eval(gold_df, gen_df):
+    print(f"{CYAN}Concepts Evaluation{OFF}")
+    gold_ids, gold_cons, gen_ids, gen_cons = get_col_list(
+        gold_df, gen_df, "human_concepts"
+    )
+    num_gen_q_without_cons = 0
+    num_gold_q_without_cons = 0
+    tp = 0
+    fp = 0
+    fn = 0
+
+    scores = []
+    # for each question
+    for i in range(len(gold_ids)):
+        gold_val = gold_cons[i]
+        if not isinstance(gold_val, list) or gold_val == []:
+            num_gold_q_without_cons += 1
+            continue
+        try:
+            gen_val = gen_cons[gen_ids.index(gold_ids[i])]
+        except ValueError as e:
+            if DEBUG:
+                print(e)
+            continue
+        # if concepts are found
+        if gen_val != []:
+            # TP is concept in Gold AND Gen
+            # FP is concept NOT IN GOLD, but YES IN GEN
+            # FN is concept IN Gold but NOT GEN
+
+            # get unique concepts from both gold and gen
+            unique_gold_cons = set(gold_val[0])
+            unique_gen_cons = set(gen_val[0])
+            for val in unique_gold_cons:
+                if val in unique_gen_cons:
+                    tp += 1
+                elif val not in unique_gen_cons:
+                    fn += 1
+            for val in unique_gen_cons:
+                if val not in unique_gold_cons:
+                    fp += 1
+
+            f1, p, r = get_f1_p_r(tp, fp, fn, tag="Concepts")
+            scores.append((f1, p, r))
+        else:  # There are no concepts retrieved for this document
+            num_gen_q_without_cons += 1
+            pass
+    # sanity check
+    print(
+        f"{GREEN}[{len(gold_ids) - num_gold_q_without_cons}/{len(gold_ids)}]{OFF} Questions have human readable concepts in gold dataset"
     )
     print(
-        f"{RED}Num generated concepts: {len(generated_concepts)}, pmids: {len(generated_pubmed_ids)}, types: {len(generated_types)}{OFF}"
+        f"{GREEN}[{len(gen_ids) - num_gen_q_without_cons}/{len(gen_ids)}]{OFF} Questions have human readable concepts in generated dataset"
     )
-    print(f"{MAGENTA}getting f1 scores{OFF}")
-    concepts_scores = get_scores(gold_dict=gold_concepts, gen_dict=generated_concepts)
 
-    pubmed_scores = get_scores(gold_dict=gold_pubmed_ids, gen_dict=generated_pubmed_ids)
-    type_em = exact_matching(gold=gold_question_types, generated=generated_types)
-
-    print("Getting Average concepts score")
-    qu_concepts_scores_average = get_average_scores(concepts_scores)
-    print("Getting Average PMIDS score")
-
-    ir_scores_average = get_average_scores(pubmed_scores)
+    # OVERALL SCORES
+    f1_sum = p_sum = r_sum = 0
+    for f1, p, r in scores:
+        f1_sum += f1
+        p_sum += p
+        r_sum += r
+    f1_sum /= len(scores)
+    p_sum /= len(scores)
+    r_sum /= len(scores)
 
     print(
-        f"{MAGENTA}Average QU concepts f1, precision, recall score:\n{CYAN}{qu_concepts_scores_average}{OFF}"
+        f"Concepts mean f1 {GREEN}{f1_sum}{OFF}, precision {GREEN}{p_sum}{OFF}, recall {GREEN}{r_sum}{OFF}"
     )
-    print(f"{MAGENTA}Number of question's with type correctly predicted\n {CYAN}{type_em}{OFF}")
+    print("\n")
+    return f1_sum, p_sum, r_sum, scores
+
+
+# concepts_report = do_concepts_eval(gold_df,gen_df)
+def get_f1_p_r(tp, fp, fn, tag="calculated"):
+    if DEBUG:
+        print(f"{tag} tp: {tp}, fp: {fp}, fn: {fn}")
+    try:
+        p = tp / (tp + fp)
+    except:
+        p = 0
+    try:
+        r = tp / (tp + fn)
+    except:
+        r = 0
+    try:
+        f1 = 2 * ((p * r) / (p + r))
+    except:
+        f1 = 0
+    if DEBUG:
+        print(f"{tag} f1 {f1}, precision {p}, recall {r}")
+    return f1, p, r
+
+
+def do_pmids_eval(gold_df, gen_df):
+    print(f"{CYAN}PubMed Documents Evaluation{OFF}")
+    # pmids are the pubmed document ids
+    gold_ids, gold_pmids, gen_ids, gen_pmids = get_col_list(
+        gold_df, gen_df, "documents"
+    )
+    num_gen_q_without_docs = 0
+    num_gold_q_without_docs = 0
+    tp = 0
+    fp = 0
+    fn = 0
+
+    scores = []
+    # for each question
+    for i in range(len(gold_ids)):
+        gold_val = gold_pmids[i]
+        if gold_val == []:
+            num_gold_q_without_docs += 1
+            continue
+        try:
+            gen_val = gen_pmids[gen_ids.index(gold_ids[i])]
+        except ValueError as e:
+            if DEBUG:
+                print(e)
+            continue
+        # if documents are found
+        if gen_val != []:
+            # TP is pmid in Gold AND Gen
+            # FP is pmid NOT IN GOLD, but YES IN GEN
+            # FN is pmid IN Gold but NOT GEN
+
+            # get unique PMIDs from both gold and gen
+            unique_gold_pmids = set(gold_val[0])
+            unique_gen_pmids = set(gen_val[0])
+            for val in unique_gold_pmids:
+                if val in unique_gen_pmids:
+                    tp += 1
+                elif val not in unique_gen_pmids:
+                    fn += 1
+            for val in unique_gen_pmids:
+                if val not in unique_gold_pmids:
+                    fp += 1
+
+            f1, p, r = get_f1_p_r(tp, fp, fn, tag="PubMed Documents")
+            scores.append((f1, p, r))
+        else:  # There are no documents retrieved for this document
+            num_gen_q_without_docs += 1
+            pass
+    # sanity check
     print(
-        f"{MAGENTA}Average IR PMID f1, precision, recall score:\n{CYAN}{ir_scores_average}{OFF}"
+        f"{GREEN}[{len(gold_ids) - num_gold_q_without_docs}/{len(gold_ids)}]{OFF} Questions have documents in gold dataset"
+    )
+    print(
+        f"{GREEN}[{len(gen_ids) - num_gen_q_without_docs}/{len(gen_ids)}]{OFF} Questions have documents in generated dataset"
     )
 
+    # OVERALL SCORES
+    f1_sum = p_sum = r_sum = 0
+    for f1, p, r in scores:
+        f1_sum += f1
+        p_sum += p
+        r_sum += r
+    f1_sum /= len(scores)
+    p_sum /= len(scores)
+    r_sum /= len(scores)
 
-# Returns a a dict of answers keyed on their question id, with their value being their answer
-def get_answer_list(a_json):
-    answers = {}
-    for question in a_json["questions"]:
+    print(
+        f"PubMed Documents mean f1 {GREEN}{f1_sum}{OFF}, precision {GREEN}{p_sum}{OFF}, recall {GREEN}{r_sum}{OFF}"
+    )
+    print("\n")
+    return f1_sum, p_sum, r_sum, scores
+
+
+# pmid_report = do_pmids_eval(gold_df,gen_df)
+# We use strict and leniant accuracy  (first result, or any result)
+def do_factoid_eval(gold_df,gen_df, gen_factoid_path):
+    print(f"{CYAN}Factoid Evaluation{OFF}")
+    factoid_gold_df = gold_df[gold_df["type"] == "factoid"]
+    factoid_gen_df = gen_df[gen_df["type"] == "factoid"]
+
+    if DEBUG:
+        print(f" [{len(factoid_gold_df)}] Gold Factoid Questions")
+        print(f" [{len(factoid_gen_df)}] Generated Factoid Questions")
+    gold_ids, gold_ans, gen_ids, gen_ans = get_col_list(
+        factoid_gold_df, gen_df, "exact_answer"
+    )
+
+    # Use alternative strategy to handle ranked factoid preds
+    with open(gen_factoid_path, "r") as ft_file:
+        factoid_gen_json = json.load(ft_file)
+
+    gen_factoid_answers = {}
+    for question in factoid_gen_json["questions"]:
         id = question["id"]
-        # trim ids which are too long by 4 chars
         if len(id) == 24:
             id = id[0:20]
-        answer = question['exact_answer']
-        if isinstance(answer,list): 
-            if isinstance(answer[0],list): # handle list in list
+        answer = question["exact_answer"]
+        if isinstance(answer, list):
+            if isinstance(answer[0], list):  # handle list in list
                 answer = [e[0] for e in answer]
-        answers[id] = answer
-    return answers
+        gen_factoid_answers[id] = answer
 
-
-# match the ids of guessed questions to the correct one (used for yes vs no f1 and combo yesno f1)
-def get_matching_golden(guesses_dict, golden_dict):
-    matched_ids = {}
-    for q in guesses_dict:
-        if golden_dict.get(q):
-            matched_ids[q] = golden_dict[q]
-    return matched_ids
-
-
-def split_yes_no(a_json):
-    yes = {}
-    no = {}
-    for question in a_json:
-        answer = a_json.get(question)
-        if answer == "yes":
-            yes[question] = answer
-        else:
-            no[question] = answer
-    return yes, no
-
-# MRR is 1/n * SIGMA <i=1 --> n> ( 1/r(i))
-def calculate_mrr(gen,gold):
+    num_gold_q_without_ans = 0
+    num_strict = 0
+    num_leniant = 0
+    num_total = 0
     mrrs = []
-    for question in gen:
+    # for each question
+    for i in range(len(gold_ids)):
+        gold_val = gold_ans[i][0]
+        if gold_val == []:
+            num_gold_q_without_ans += 1
+            continue
+        # trim last 4 digits which get removed for the final bioasq form answers
+        trimmed_id = gold_ids[i][0:20]
+        if trimmed_id not in gen_factoid_answers.keys():
+            if DEBUG:
+                print(f"{trimmed_id} wasn't correctly identified as factoid")
+            continue
+        gen_vals = gen_factoid_answers[trimmed_id]
+        gen_vals_clean = [e.lower().strip() for e in gen_vals]
+        if DEBUG:
+            print(gold_val, " | ", gen_vals)
+        # accuracy calculations
+        gold_val_clean = gold_val
+        num_total += 1
+        if (
+            gold_val_clean == gen_vals_clean[0]
+        ):  # force lowercase / strip whitespace to help
+            num_strict += 1
+            num_leniant += 1
+        elif gold_val_clean in gen_vals_clean:
+            num_leniant += 1
+
+        # mrr calculations
         mrr = 0
-        generated_answers = gen.get(question)
-        if generated_answers:
-            n = len(generated_answers)
-            r = 0
-            gold_answer = gold.get(question)
-            if gold_answer:
-                for i in range(1,n+1):
-                    if generated_answers[i-1][0] == gold_answer:
-                        r = i
-                        break
-            if r ==0:
-                mrr = 0
-            else:
-                mrr = 1/n * 1/r 
+        r = 0
+        n = len(gen_vals_clean)
+        for i in range(1, n + 1):
+            if gen_vals_clean[i - 1] == gold_val_clean:
+                r = i
+                break
+        if r != 0:
+            mrr = 1 / n * 1 / r
+            if DEBUG:
+                print(f"{trimmed_id} MRR: {mrr}")
         mrrs.append(mrr)
-    return mrrs
 
-def get_accuracy(gen,gold,strict=True):
-    num_right = 0
-    for question in gen:
-        generated_answers = gen.get(question)
-        gold_answer = gold.get(question)
-        if(gold_answer):
-            if strict:
-                if generated_answers[0][0] == gold_answer:
-                    num_right +=1
+    average_mrr = sum(mrrs) / len(mrrs)
+    leniant_acc = num_leniant / num_total
+    strict_acc = num_strict / num_total
+
+    # sanity check
+    print(
+        f"{GREEN}[{len(gold_ids) - num_gold_q_without_ans}/{len(gold_ids)}]{OFF} Factoid questions have answers in gold dataset"
+    )
+    print(
+        f"{GREEN}[{num_total}/{len(gen_factoid_answers)}]{OFF} Factoid questions have answers in generated dataset"
+    )
+    print(
+        f"Leniant Accuracy: {GREEN}{leniant_acc}{OFF}, Strict Accuracy: {GREEN}{strict_acc}{OFF}, Mean Reciprocal Rank (MRR): {GREEN}{average_mrr}{OFF}"
+    )
+    print("\n")
+    return leniant_acc, strict_acc, average_mrr, mrrs
+
+
+def do_list_eval(gold_df, gen_df):
+    print(f"{CYAN}List Evaluation{OFF}")
+    list_gold_df = gold_df[gold_df["type"] == "list"]
+    list_gen_df = gen_df[gen_df["type"] == "list"]
+
+    if DEBUG:
+        print(f" [{len(list_gold_df)}] Gold List Questions")
+        print(f" [{len(list_gen_df)}] Generated List Questions")
+
+    gold_ids, gold_ans, gen_ids, gen_ans = get_col_list(
+        list_gold_df, gen_df, "exact_answer"
+    )
+    num_gen_q_without_ans = 0
+    num_gold_q_without_ans = 0
+    tp = 0
+    fp = 0
+    fn = 0
+
+    num_gen = 0
+    scores = []
+    # for each question
+    for i in range(len(gold_ids)):
+        gold_val = gold_ans[i]
+        if gold_val == []:
+            num_gold_q_without_ans += 1
+            continue
+        try:
+            gen_val = gen_ans[gen_ids.index(gold_ids[i])]
+        except ValueError as e:
+            if DEBUG:
+                print(e)
+            continue
+        # if answers are found
+        if gen_val != None:  # List is only able to find a single item list
+            # TP is answer in Gold AND Gen
+            # FP is answer NOT IN GOLD, but YES IN GEN
+            # FN is answer IN Gold but NOT GEN
+            gold_list = gold_val[0]
+            for val in gold_list:
+                if val in gen_val:
+                    tp += 1
+                elif val not in gen_val:
+                    fn += 1
+            for val in gen_val:
+                if val not in gold_list:
+                    fp += 1
+            num_gen += 1
+            f1, p, r = get_f1_p_r(tp, fp, fn, tag="List Questions")
+            scores.append((f1, p, r))
+    # sanity check
+    print(
+        f"{GREEN}[{len(gold_ids) - num_gold_q_without_ans}/{len(gold_ids)}]{OFF} List questions have answers in gold dataset"
+    )
+    print(
+        f"{GREEN}[{num_gen}/{len(list_gen_df)}]{OFF} List questions have answers in generated dataset"
+    )
+
+    # OVERALL SCORES
+    f1_sum = p_sum = r_sum = 0
+    for f1, p, r in scores:
+        f1_sum += f1
+        p_sum += p
+        r_sum += r
+    f1_sum /= len(scores)
+    p_sum /= len(scores)
+    r_sum /= len(scores)
+
+    print(
+        f"List Questions mean f1 {GREEN}{f1_sum}{OFF}, precision {GREEN}{p_sum}{OFF}, recall {GREEN}{r_sum}{OFF}"
+    )
+    print("\n")
+    return f1_sum, p_sum, r_sum, scores
+
+
+def gen_gold_qu_output(gold_df, gen_folder):
+    qu_generated = gen_folder + "/ir/input/bioasq_qa.xml"
+    new_file_name = qu_generated.replace(".xml", "_GOLD.xml")
+
+    fileTree = et.parse(qu_generated)
+    if fileTree:
+        root = fileTree.getroot()
+        questions = root.findall("Q")
+        for question in questions:
+            id = question.attrib.get("id")
+            qp = question.find("QP")
+            # remove type and entities
+            qp.clear()
+            # type is the fifth element in the row
+            gold_type = gold_df.loc[gold_df["id"] == id].values[0][4]
+            type_ele = et.SubElement(qp, "Type")
+            type_ele.text = gold_type
+            gold_concepts = gold_df.loc[gold_df["id"] == id].values[0][7]
+            ent_list = []
+            qp_query = et.SubElement(qp, "Query")
+            if not isinstance(gold_concepts, list):
+                if DEBUG:
+                    print(
+                        f"Question [{id}] has no golden human_concepts [{type(gold_concepts)}]"
+                    )
+                continue
+            for ent in gold_concepts:
+                ent_list.append(str(ent))
+                qp_en = et.SubElement(qp, "Entities")
+                qp_en.text = str(ent)
+            qp_query.text = str(" ".join(ent_list))
+        tree = et.ElementTree(root)
+        os.makedirs(os.path.dirname(new_file_name), exist_ok=True)
+        print(f"Writing gold QU output / IR input to {new_file_name}")
+        tree.write(new_file_name, pretty_print=True)
+    return new_file_name
+
+
+def gen_gold_ir_output(gold_df, gen_folder):
+    ir_generated = gen_folder + "/ir/input/bioasq_qa.xml"
+    new_file_name = ir_generated.replace(".xml", "_GOLD.xml")
+
+    fileTree = et.parse(ir_generated)
+    if fileTree:
+        root = fileTree.getroot()
+        questions = root.findall("Q")
+        for question in questions:
+            id = question.attrib.get("id")
+            original_question = question.text
+            if DEBUG:
+                print(original_question)
+            ir = question.find("IR")
+            # remove original generated articles
+            ir.clear()
+
+            gold_abstracts = gold_df.loc[gold_df["id"] == id].values[0][8]
+            gold_titles = gold_df.loc[gold_df["id"] == id].values[0][9]
+            # system just using top abstract atm
+            if isinstance(gold_abstracts, list):
+                gold_abstract = gold_abstracts[0]
             else:
-                if [gold_answer] in generated_answers: # factoid is a list of lists instead of a list of strings (this could be causing the evaluation measures repo issue)
-                    num_right +=1
-    return num_right/len(gen)
+                gold_abstract = ""
+            if isinstance(gold_titles, list):
+                gold_title = gold_titles[0]
+            else:
+                gold_title = ""
+            # fill result
+            result_tag = et.SubElement(ir, "Result")
+            title = et.SubElement(result_tag, "Title")
+            title.text = gold_title
+            abstract = et.SubElement(result_tag, "Abstract")
+            abstract.text = gold_abstract
+        tree = et.ElementTree(root)
+        os.makedirs(os.path.dirname(new_file_name), exist_ok=True)
+        print(f"Writing gold QA input / IR output to {new_file_name}")
+        tree.write(new_file_name, pretty_print=True)
+    return new_file_name
 
-# do a manual calculation of the yes/no
-def yes_no_evaluation(generated_yesno, golden_dataset):
-    generated_answers = get_answer_list(generated_yesno)
-    generated_yes, generated_no = split_yes_no(generated_answers)
 
-    golden_answers = get_answer_list(golden_dataset)
-    print(len(generated_answers), len(golden_answers))
+def generate_intermediary_datasets(gold_df, qu_output, ir_output):
+    # QU: replace concepts with human_concepts and type with gold type
+    gold_qu_output = gen_gold_qu_output(gold_df, qu_output)
+    # IR: Replace IR with full_abstract in document format
+    gold_ir_output = gen_gold_ir_output(gold_df, ir_output)
+    return gold_qu_output, gold_ir_output
 
-    golden_yes = get_matching_golden(generated_yes, golden_answers)
-    golden_no = get_matching_golden(generated_no, golden_answers)
+def get_gold_df(gold_dataset_path):
+    with open(gold_dataset_path, "r") as f:
+        gold_data = json.loads(f.read())
+    # load and flatten data
+    gold_df = pd.json_normalize(gold_data, record_path="questions")
+    # get gold df
+    gold_df["documents"] = gold_df["documents"].apply(get_pmid)
+    return gold_df
 
-    # macro averaged f1 score
-    yes_scores = get_scores(golden_yes, generated_yes)
-    no_scores = get_scores(golden_no, generated_no)
+def run_all_the_tests(gold_dataset_path, generation_folder_path):
+    factoid_path = generation_folder_path + "/qa/factoid/BioASQform_BioASQ-answer.json"
+    generated_qu = generation_folder_path + "/ir/output/bioasq_qa.xml"
 
-    # f1, precision, recall
-    average_yes_scores = get_average_scores(yes_scores)
-    average_no_scores = get_average_scores(no_scores)
-    final_scores = (
-        (average_no_scores[0] + average_yes_scores[0]) / 2,
-        (average_no_scores[1] + average_yes_scores[1]) / 2,
-        (average_no_scores[2] + average_yes_scores[2]) / 2,
+    with open(gold_dataset_path, "r") as f:
+        gold_data = json.loads(f.read())
+    # load and flatten data
+    gold_df = pd.json_normalize(gold_data, record_path="questions")
+    # get gold df
+    gold_df["documents"] = gold_df["documents"].apply(get_pmid)
+    # get generated df
+    gen_df = parse_xml(generated_qu, generation_folder_path + "/qa")
+
+    # do tests
+    concepts_report = do_concepts_eval(gold_df, gen_df)
+    pmids_report = do_pmids_eval(gold_df, gen_df)
+    gold_type = gold_df["type"].to_numpy()
+    gen_type = gen_df["type"].to_numpy()
+    try:
+        print(f"{CYAN}Type Evaluation{OFF}")
+        print(classification_report(gold_type, gen_type))
+        type_report = classification_report(gold_type, gen_type, output_dict=True)
+    except:
+        type_report = f"TypeReport: Found input variables with inconsistent numbers of samples: [{len(gold_type)}] [{len(gen_type)}]"
+    yes_no_report = do_yes_no_eval(gold_df, gen_df)
+    factoid_report = do_factoid_eval(gold_df,gen_df, factoid_path)
+    list_report = do_list_eval(gold_df, gen_df)
+
+    test_results = (
+        concepts_report,
+        pmids_report,
+        type_report,
+        yes_no_report,
+        factoid_report,
+        list_report,
     )
+    save_results(test_results, generation_folder_path)
+    return test_results
 
-    print(
-        f"{MAGENTA}Average F1,precision,recall scores for Yes Questions\n {CYAN}{average_yes_scores}{OFF}"
-    )
-    print(
-        f"{MAGENTA}Average F1,precision,recall scores for No Questions\n {CYAN}{average_no_scores}{OFF}"
-    )
-    print(
-        f"{MAGENTA}Average F1,precision,recall scores for ALL Yes/No Questions\n {CYAN}{final_scores}{OFF}"
-    )
+def save_results(test_results, save_path):
+    t = time.localtime()
+    date = time.strftime("%b-%d-%Y", t)
+    (
+        concepts_report,
+        pmids_report,
+        type_report,
+        yes_no_report,
+        factoid_report,
+        list_report,
+    ) = test_results
+    results_folder = save_path + "/test_results/" + date
+    timestamp = time.strftime("%H%M%S", t)
+    if not os.path.exists(results_folder):
+        os.makedirs(results_folder)
 
-# Mean Reciprocal Rank
-def factoid_evaluation(generated_factoid, golden_dataset):
-    generated_answers = get_answer_list(generated_factoid)
-    golden_answers = get_answer_list(golden_dataset)
+    # Save concepts
+    con_name = results_folder + f"/concepts-{timestamp}.csv"
+    with open(con_name, "w+") as f:
+        f1_sum, p_sum, r_sum, scores = concepts_report
+        f.write("Average f1 score,Average precision,Average Recall\n")
+        f.write(f"{f1_sum},{p_sum},{r_sum}\n")
+        f.write("f1,precision,recall\n")
+        for f1, p, r in scores:
+            f.write(f"{f1},{p},{r}\n")
+    print(f"Saved concepts info to {con_name}")
 
-    # calculate strict accuracy
-    strict_accuracy = get_accuracy(generated_answers,golden_answers)
-    # calculate lenient accuracy
-    lenient_accuracy = get_accuracy(generated_answers,golden_answers,strict=False)
+    # Save pmids
+    pmid_name = results_folder + f"/pmids-{timestamp}.csv"
+    with open(pmid_name, "w+") as f:
+        f1_sum, p_sum, r_sum, scores = pmids_report
+        f.write("Average f1 score,Average precision,Average Recall\n")
+        f.write(f"{f1_sum},{p_sum},{r_sum}\n")
+        f.write("f1,precision,recall\n")
+        for f1, p, r in scores:
+            f.write(f"{f1},{p},{r}\n")
+    print(f"Saved pmid info to {pmid_name}")
 
-    print(f"{MAGENTA}Strict Accuracy for factoid questions:\n {CYAN}{strict_accuracy}{OFF}")
-    print(f"{MAGENTA}Lenient Accuracy for factoid questions:\n {CYAN}{lenient_accuracy}{OFF}")
+    # Save type report
+    type_name = results_folder + f"/type-{timestamp}.json"
+    with open(type_name, "w+") as f:
+        json.dump(type_report, f, indent=2)
+    print(f"Saved type info to {type_name}")
 
-    mrr = calculate_mrr(generated_answers,golden_answers)
-    average_mrr = sum(mrr) / len(mrr)
-    print(f"{MAGENTA}Average MRR for factoid questions:\n {CYAN}{average_mrr}{OFF}")
+    # Save yes/no
+    yesno_name = results_folder + f"/yesno-{timestamp}.csv"
+    with open(yesno_name, "w+") as f:
+        yf1, yp, yr, nf1, np, nr, f1, p, r = yes_no_report
+        f.write("Yes/No f1 score,Yes/No precision ,Yes/No recall\n")
+        f.write(f"{f1},{p},{r}\n")
+        f.write("Yes f1 score,Yes precision ,Yes recall\n")
+        f.write(f"{yf1},{yp},{yr}\n")
+        f.write("No f1 score,No precision ,No recall\n")
+        f.write(f"{nf1},{np},{nr}\n")
+    print(f"Saved yes/no info to {yesno_name}")
 
-# Mean F-measure List of returned items compared to list of gold terms, average over each question. (Exact word matching)
-def list_evaluation(generated_list, golden_dataset):
-    generated_answers = get_answer_list(generated_list)
-    golden_answers = get_answer_list(golden_dataset)
+    # Save factoids
+    fact_name = results_folder + f"/factoid-{timestamp}.csv"
+    with open(fact_name, "w+") as f:
+        leniant_acc, strict_acc, average_mrr, mrrs = factoid_report
+        f.write(
+            "Factoid leniant accuracy,Factoid strict accuracy,Factoid average mrr\n"
+        )
+        f.write(f"{leniant_acc},{strict_acc},{average_mrr}\n")
+        f.write("mrr\n")
+        for mrr in mrrs:
+            f.write(f"{mrr}\n")
+    print(f"Saved factoid info to {fact_name}")
 
-    list_scores = get_scores(golden_answers, generated_answers)
-    # f1, precision, recall
-    average_list_scores = get_average_scores(list_scores)
-
-    print(
-        f"{MAGENTA}Average F1,precision,recall scores for ALL List Questions\n {CYAN}{average_list_scores}{OFF}"
-    )
-
-def print_qa_results(TESTING=False, EVALUATING=False):
-    # QA module analysis
-    if TESTING:
-        yesno_file = "tmp/debugging/generated_yesno.json"
-        factoid_file = "tmp/debugging/generated_factoid.json"
-        list_file = "tmp/debugging/generated_list.json"
-    elif EVALUATING:
-        yesno_file = "tmp/qa_EVAL/yesno/BioASQform_BioASQ-answer.json"
-        factoid_file = "tmp/qa_EVAL/factoid/BioASQform_BioASQ-answer.json"
-        list_file = "tmp/qa_EVAL/list/BioASQform_BioASQ-answer.json"
-    else:
-        yesno_file = "tmp/qa/yesno/BioASQform_BioASQ-answer.json"
-        factoid_file = "tmp/qa/factoid/BioASQform_BioASQ-answer.json"
-        list_file = "tmp/qa/list/BioASQform_BioASQ-answer.json"
-
-    print("generated files: ", yesno_file, factoid_file, list_file)
-
-    # factoid_eval ="/home/daniels/dev/BioASQ-QA-System/testing_datasets/BioASQ-training8b/CLEAN/train_factoid.json"
-    # list_eval ="/home/daniels/dev/BioASQ-QA-System/testing_datasets/BioASQ-training8b/CLEAN/train_list.json"
-    # yesno_eval ="/home/daniels/dev/BioASQ-QA-System/testing_datasets/BioASQ-training8b/CLEAN/train_yesno.json"
-    # golden_dataset ="testing_datasets/BioASQ-training8b/augmented_test_FULL_ABSTRACTS.json"
-
-    with open(f"testing_datasets/BioASQ-training8b/gold_yesno.json", "r") as yn_file:
-        yn_json_gold = json.load(yn_file)
-    with open(f"testing_datasets/BioASQ-training8b/gold_factoid.json", "r") as ft_file:
-        ft_json_gold = json.load(ft_file)
-    with open(f"testing_datasets/BioASQ-training8b/gold_list.json", "r") as ls_file:
-        ls_json_gold = json.load(ls_file)
-
-    with open(yesno_file, "r") as yn_file:
-        yn_json_gen = json.load(yn_file)
-    with open(factoid_file, "r") as ft_file:
-        ft_json_gen = json.load(ft_file)
-    with open(list_file, "r") as ls_file:
-        ls_json_gen = json.load(ls_file)
-
-    print(f"\n\n{MAGENTA}QA module evaluation{OFF}")
-    yes_no_evaluation(yn_json_gen, yn_json_gold)
-    factoid_evaluation(ft_json_gen, ft_json_gold)
-    list_evaluation(ls_json_gen, ls_json_gold)
-
-    # print(run_evaluation_code(factoid_file,factoid_eval))
-    # print(run_evaluation_code(list_file,ft_json))
-    # print(run_evaluation_code(yesno_file,ls_json))
+    # Save list
+    list_name = results_folder + f"/list-{timestamp}.csv"
+    with open(list_name, "w+") as f:
+        f1_sum, p_sum, r_sum, scores = list_report
+        f.write("Average f1 score,Average precision,Average Recall\n")
+        f.write(f"{f1_sum},{p_sum},{r_sum}\n")
+        f.write("f1,precision,recall\n")
+        for f1, p, r in scores:
+            f.write(f"{f1},{p},{r}\n")
+    print(f"Saved list info to {list_name}")
 
 
+# Set up the golden answer dataframe
+"""
+golden_dataset_path = "testing_datasets/augmented_concepts_abstracts_titles.json"
+gen_folder = "tmp"
+xml_name = "bioasq_qa.xml"
 
-if __name__ == "__main__":
-    """
-    Various dataset manipulation scripts will be left in comments here
-    """
-    # files=['/home/daniels/dev/BioASQ-QA-System/testing_datasets/Task8BGoldenEnriched/8B2_golden.json','/home/daniels/dev/BioASQ-QA-System/testing_datasets/Task8BGoldenEnriched/8B3_golden.json','/home/daniels/dev/BioASQ-QA-System/testing_datasets/Task8BGoldenEnriched/8B4_golden.json','/home/daniels/dev/BioASQ-QA-System/testing_datasets/Task8BGoldenEnriched/8B5_golden.json']
-    # generate_master_golden_json(files)
-    # create_testing_csv()
-    # split_gold_train("/home/danubuntu/dev/BioASQ-QA-System/testing_datasets/BioASQ-training8b/")
-    print_qu_ir_results(TESTING=TESTING, EVALUATING=EVALUATING)
-    print_qa_results(TESTING=TESTING, EVALUATING=EVALUATING)
-    print(f"{RED}Evaluation complete.{OFF}")
+test_results = run_all_the_tests(golden_dataset_path, gen_folder, xml_name)
+save_results(test_results, gen_folder)
+"""
+
+

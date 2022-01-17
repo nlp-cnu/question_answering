@@ -23,6 +23,7 @@ import setup
 import question_understanding
 import information_retrieval
 import question_answering
+import analysis
 
 if __name__ == "__main__":
     # This ensures that all the packages are installed so that the system can work with the modules
@@ -59,10 +60,10 @@ if __name__ == "__main__":
     if is_batch_mode:
         while(True):
             # golden testing
-            qu_input = "testing_datasets/input.csv"
-            ir_input_generated = "tmp/ir/input/bioasq_qa_GOLD.xml"
-            ir_output_generated = "tmp/ir/output/bioasq_qa_GOLD.xml"
-            qa_output_generated_dir = "tmp/qa_GOLD/"
+            # qu_input = "testing_datasets/input.csv"
+            # ir_input_generated = "tmp/ir/input/bioasq_qa_GOLD.xml"
+            # ir_output_generated = "tmp/ir/output/bioasq_qa_GOLD.xml"
+            # qa_output_generated_dir = "tmp/qa_GOLD/"
             
             # NORMAL VALUES
             # qu_input = "testing_datasets/input.csv"
@@ -75,6 +76,12 @@ if __name__ == "__main__":
             # ir_input_generated = "tmp/ir/input/bioasq_qa_EVAL.xml"
             # ir_output_generated = "tmp/ir/output/bioasq_qa_EVAL.xml"
             # qa_output_generated_dir = "tmp/qa_EVAL/"
+
+            # SMALL BATCH
+            qu_input = "tmp/small_batch/qu/input/small_input.csv"
+            ir_input_generated = "tmp/small_batch/ir/input/bioasq_qa_SMALL.xml"
+            ir_output_generated = "tmp/small_batch/ir/output/bioasq_qa_SMALL.xml"
+            qa_output_generated_dir = "tmp/small_batch/qa/"
             
             # User prompt
             batch_options = f"""{MAGENTA}
@@ -92,13 +99,35 @@ if __name__ == "__main__":
                 if result in batch_options_dict.keys():
                     print(f"{MAGENTA}{batch_options_dict.get(result)} selected.{OFF}")
                 if (result == "0"):
+                    # Run Full System
                     test_dataframe = pd.read_csv(qu_input,sep=',',header=0)
-                    question_understanding.ask_and_receive(test_dataframe,device,tokenizer,model,nlp,batch_mode=True, output_file=ir_output_generated)
+                    question_understanding.ask_and_receive(test_dataframe,device,tokenizer,model,nlp,batch_mode=True, output_file=ir_input_generated)
                     information_retrieval.batch_search(input_file=ir_input_generated, output_file=ir_output_generated, indexer=pubmed_article_ix, parser=qp)
                     question_answering.run_batch_mode(input_file=ir_output_generated,output_dir=qa_output_generated_dir)
+                    # Run tests
+                    golden_dataset_path = "testing_datasets/augmented_concepts_abstracts_titles.json"
+                    gen_folder = "tmp"
+                    raw_test_results = analysis.run_all_the_tests(golden_dataset_path, gen_folder)
+                    # Convert QU output / IR input to gold
+                    gold_df = analysis.get_gold_df(golden_dataset_path)
+                    gold_ir_input = analysis.gen_gold_qu_output(gold_df,gen_folder)
+                    # Run IR and QA
+                    information_retrieval.batch_search(input_file=gold_ir_input, output_file=ir_output_generated, indexer=pubmed_article_ix, parser=qp)
+                    question_answering.run_batch_mode(input_file=ir_output_generated,output_dir=qa_output_generated_dir)
+                    # Run tests
+                    gold_qu_test_results = analysis.run_all_the_tests(golden_dataset_path, gen_folder)
+                    # Convert IR output
+                    gold_ir_output = analysis.gen_gold_qu_output(gold_df,gen_folder)
+                    # Run QA
+                    question_answering.run_batch_mode(input_file=gold_ir_output,output_dir=qa_output_generated_dir)
+                    # Run tests
+                    gold_qu_ir_test_results = analysis.run_all_the_tests(golden_dataset_path, gen_folder)
+                    # Finished with system analysis
+                    print(f"{CYAN}Finished full system analysis!{OFF}")
+
                 elif(result == "1"):
                     test_dataframe = pd.read_csv(qu_input,sep=',',header=0)
-                    question_understanding.ask_and_receive(test_dataframe,device,tokenizer,model,nlp,batch_mode=True, output_file=ir_output_generated)
+                    question_understanding.ask_and_receive(test_dataframe,device,tokenizer,model,nlp,batch_mode=True, output_file=ir_input_generated)
                 elif(result == "2"):
                     if os.path.exists(ir_input_generated):
                         information_retrieval.batch_search(input_file=ir_input_generated, output_file=ir_output_generated, indexer=pubmed_article_ix, parser=qp)
@@ -111,7 +140,7 @@ if __name__ == "__main__":
                         print(f"{RED}Make sure you run both the QU module and the IR module before running the QA module.{OFF}")
                 elif(result == "4"):
                     test_dataframe = pd.read_csv(qu_input,sep=',',header=0)
-                    question_understanding.ask_and_receive(test_dataframe,device,tokenizer,model,nlp,batch_mode=True, output_file=ir_output_generated)
+                    question_understanding.ask_and_receive(test_dataframe,device,tokenizer,model,nlp,batch_mode=True, output_file=ir_input_generated)
                     information_retrieval.batch_search(input_file=ir_input_generated, output_file=ir_output_generated, indexer=pubmed_article_ix, parser=qp)
                 elif(result == "5"):
                     if os.path.exists(ir_input_generated):
