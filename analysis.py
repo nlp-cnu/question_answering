@@ -397,7 +397,7 @@ def do_pmids_eval(gold_df, gen_df):
                 print(e)
             continue
         # if documents are found
-        if gen_val != []:
+        if isinstance(gen_val, list) and gen_val != []:
             # TP is pmid in Gold AND Gen
             # FP is pmid NOT IN GOLD, but YES IN GEN
             # FN is pmid IN Gold but NOT GEN
@@ -446,7 +446,7 @@ def do_pmids_eval(gold_df, gen_df):
 
 # pmid_report = do_pmids_eval(gold_df,gen_df)
 # We use strict and leniant accuracy  (first result, or any result)
-def do_factoid_eval(gold_df,gen_df, gen_factoid_path):
+def do_factoid_eval(gold_df, gen_df, gen_factoid_path):
     print(f"{CYAN}Factoid Evaluation{OFF}")
     factoid_gold_df = gold_df[gold_df["type"] == "factoid"]
     factoid_gen_df = gen_df[gen_df["type"] == "factoid"]
@@ -611,8 +611,8 @@ def do_list_eval(gold_df, gen_df):
     return f1_sum, p_sum, r_sum, scores
 
 
-def gen_gold_qu_output(gold_df, gen_folder):
-    qu_generated = gen_folder + "/ir/input/bioasq_qa.xml"
+def gen_gold_qu_output(gold_df, gen_folder, gen_xml_name="bioasq_qa.xml"):
+    qu_generated = gen_folder + "/ir/input/" + gen_xml_name
     new_file_name = qu_generated.replace(".xml", "_GOLD.xml")
 
     fileTree = et.parse(qu_generated)
@@ -649,8 +649,8 @@ def gen_gold_qu_output(gold_df, gen_folder):
     return new_file_name
 
 
-def gen_gold_ir_output(gold_df, gen_folder):
-    ir_generated = gen_folder + "/ir/input/bioasq_qa.xml"
+def gen_gold_ir_output(gold_df, gen_folder, gen_xml_name="bioasq_qa.xml"):
+    ir_generated = gen_folder + "/ir/output/" + gen_xml_name
     new_file_name = ir_generated.replace(".xml", "_GOLD.xml")
 
     fileTree = et.parse(ir_generated)
@@ -679,6 +679,8 @@ def gen_gold_ir_output(gold_df, gen_folder):
                 gold_title = ""
             # fill result
             result_tag = et.SubElement(ir, "Result")
+            pmid = gold_df.loc[gold_df['id'] == id].values[0][1][0]
+            result_tag.set("PMID", pmid)
             title = et.SubElement(result_tag, "Title")
             title.text = gold_title
             abstract = et.SubElement(result_tag, "Abstract")
@@ -697,6 +699,7 @@ def generate_intermediary_datasets(gold_df, qu_output, ir_output):
     gold_ir_output = gen_gold_ir_output(gold_df, ir_output)
     return gold_qu_output, gold_ir_output
 
+
 def get_gold_df(gold_dataset_path):
     with open(gold_dataset_path, "r") as f:
         gold_data = json.loads(f.read())
@@ -706,9 +709,10 @@ def get_gold_df(gold_dataset_path):
     gold_df["documents"] = gold_df["documents"].apply(get_pmid)
     return gold_df
 
-def run_all_the_tests(gold_dataset_path, generation_folder_path):
+
+def run_all_the_tests(gold_dataset_path, generation_folder_path, gen_xml_name):
     factoid_path = generation_folder_path + "/qa/factoid/BioASQform_BioASQ-answer.json"
-    generated_qu = generation_folder_path + "/ir/output/bioasq_qa.xml"
+    generated_qu = generation_folder_path + "/ir/output/" + gen_xml_name
 
     with open(gold_dataset_path, "r") as f:
         gold_data = json.loads(f.read())
@@ -731,7 +735,7 @@ def run_all_the_tests(gold_dataset_path, generation_folder_path):
     except:
         type_report = f"TypeReport: Found input variables with inconsistent numbers of samples: [{len(gold_type)}] [{len(gen_type)}]"
     yes_no_report = do_yes_no_eval(gold_df, gen_df)
-    factoid_report = do_factoid_eval(gold_df,gen_df, factoid_path)
+    factoid_report = do_factoid_eval(gold_df, gen_df, factoid_path)
     list_report = do_list_eval(gold_df, gen_df)
 
     test_results = (
@@ -744,6 +748,7 @@ def run_all_the_tests(gold_dataset_path, generation_folder_path):
     )
     save_results(test_results, generation_folder_path)
     return test_results
+
 
 def save_results(test_results, save_path):
     t = time.localtime()
@@ -835,5 +840,3 @@ xml_name = "bioasq_qa.xml"
 test_results = run_all_the_tests(golden_dataset_path, gen_folder, xml_name)
 save_results(test_results, gen_folder)
 """
-
-
