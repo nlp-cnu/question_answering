@@ -29,9 +29,11 @@ def search(indexer, parser, query, max_results = 5, batch_mode=False):
 
 #Query the the PubMed index with every query generated in the QU module, writing the result articles fetched by query to a file every <write_buffer_size> iterations 
 def batch_search(input_file, output_file, indexer, parser, write_buffer_size=500):
-    fileTree = ET.parse(output_file)
+    fileTree = ET.parse(input_file)
     if fileTree:
+        os.makedirs(os.path.dirname(input_file), exist_ok=True)
         os.makedirs(os.path.dirname(output_file), exist_ok=True)
+
         root = fileTree.getroot()
         # get all questions from the output file and parse in batch format
         questions = root.findall('Q')
