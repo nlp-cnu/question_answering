@@ -102,26 +102,30 @@ if __name__ == "__main__":
                     # Run Full System
                     print("Running full system")
                     test_dataframe = pd.read_csv(qu_input,sep=',',header=0)
-                    question_understanding.ask_and_receive(test_dataframe,device,tokenizer,model,nlp,batch_mode=True, output_file=ir_input_generated)
-                    information_retrieval.batch_search(input_file=ir_input_generated, output_file=ir_output_generated, indexer=pubmed_article_ix, parser=qp)
-                    question_answering.run_batch_mode(input_file=ir_output_generated,output_dir=qa_output_generated_dir)
-                    # Run tests
+                    # question_understanding.ask_and_receive(test_dataframe,device,tokenizer,model,nlp,batch_mode=True, output_file=ir_input_generated)
+                    # information_retrieval.batch_search(input_file=ir_input_generated, output_file=ir_output_generated, indexer=pubmed_article_ix, parser=qp)
+                    # question_answering.run_batch_mode(input_file=ir_output_generated,output_dir=qa_output_generated_dir)
+                    # # Run tests
                     print("Running tests")
                     golden_dataset_path = "testing_datasets/augmented_concepts_abstracts_titles.json"
-                    gen_folder = "tmp"
-                    xml_name = "bioasq_qa.xml"
-                    raw_test_results = analysis.run_all_the_tests(golden_dataset_path, gen_folder,xml_name)
+                    # gen_folder = "tmp"
+                    gen_folder = "tmp/small_batch"
+
+                    # xml_name = "bioasq_qa.xml"
+                    xml_name = "bioasq_qa_SMALL.xml"
+
+                    raw_test_results = analysis.run_all_the_tests(golden_dataset_path, gen_folder,xml_name,'gen')
                     # Convert QU output / IR input to gold
-                    print("Convert QU output / IR input to gold")
+                    # print("Convert QU output / IR input to gold")
                     gold_df = analysis.get_gold_df(golden_dataset_path)
-                    gold_ir_input = analysis.gen_gold_qu_output(gold_df,gen_folder,xml_name)
+                    # gold_ir_input = analysis.gen_gold_qu_output(gold_df,gen_folder,xml_name)
                     # Run IR and QA
-                    print("Run IR and QA")
-                    information_retrieval.batch_search(input_file=gold_ir_input, output_file=ir_output_generated, indexer=pubmed_article_ix, parser=qp)
-                    question_answering.run_batch_mode(input_file=ir_output_generated,output_dir=qa_output_generated_dir)
-                    # Run tests
-                    print("Run tests")
-                    gold_qu_test_results = analysis.run_all_the_tests(golden_dataset_path, gen_folder,xml_name)
+                    # print("Run IR and QA")
+                    # information_retrieval.batch_search(input_file=gold_ir_input, output_file=ir_output_generated, indexer=pubmed_article_ix, parser=qp)
+                    # question_answering.run_batch_mode(input_file=ir_output_generated,output_dir=qa_output_generated_dir)
+                    # # Run tests
+                    # print("Run tests with gold QU output")
+                    # gold_qu_test_results = analysis.run_all_the_tests(golden_dataset_path, gen_folder,xml_name,'mixed')
                     # Convert IR output
                     print("Convert IR output")
                     gold_ir_output = analysis.gen_gold_ir_output(gold_df,gen_folder,xml_name)
@@ -129,9 +133,11 @@ if __name__ == "__main__":
                     print("Run QA")
                     question_answering.run_batch_mode(input_file=gold_ir_output,output_dir=qa_output_generated_dir)
                     # Run tests
-                    print("Run tests")
-                    xml_name = "bioasq_qa_GOLD.xml"
-                    gold_qu_ir_test_results = analysis.run_all_the_tests(golden_dataset_path, gen_folder,xml_name)
+                    print("Run tests with all gold input")
+                    # xml_name = "bioasq_qa_GOLD.xml"
+                    xml_name = "bioasq_qa_SMALL_GOLD.xml"
+
+                    gold_qu_ir_test_results = analysis.run_all_the_tests(golden_dataset_path, gen_folder,xml_name,'gold-snippets')
                     # Finished with system analysis
                     print(f"{CYAN}Finished full system analysis!{OFF}")
 

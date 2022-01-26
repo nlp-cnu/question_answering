@@ -186,7 +186,7 @@ def do_yes_no_eval(gold_df, gen_df):
             pass
     # sanity check
     print(
-        f"Yes | True Posative: {GREEN}{ytp}{OFF}, False Posative: {GREEN}{yfp}{OFF}, False Negative: {GREEN}{yfn}{OFF}"
+        f"Yes | True Positive: {GREEN}{ytp}{OFF}, False Positive: {GREEN}{yfp}{OFF}, False Negative: {GREEN}{yfn}{OFF}"
     )
     try:
         yp = ytp / (ytp + yfp)
@@ -468,6 +468,8 @@ def do_factoid_eval(gold_df, gen_df, gen_factoid_path):
         if len(id) == 24:
             id = id[0:20]
         answer = question["exact_answer"]
+        if answer == []:
+            answer = "empty"
         if isinstance(answer, list):
             if isinstance(answer[0], list):  # handle list in list
                 answer = [e[0] for e in answer]
@@ -669,11 +671,11 @@ def gen_gold_ir_output(gold_df, gen_folder, gen_xml_name="bioasq_qa.xml"):
             gold_abstracts = gold_df.loc[gold_df["id"] == id].values[0][8]
             gold_titles = gold_df.loc[gold_df["id"] == id].values[0][9]
             # system just using top abstract atm
-            if isinstance(gold_abstracts, list):
+            if isinstance(gold_abstracts, list) and gold_abstracts != []:
                 gold_abstract = gold_abstracts[0]
             else:
                 gold_abstract = ""
-            if isinstance(gold_titles, list):
+            if isinstance(gold_titles, list) and gold_titles != []:
                 gold_title = gold_titles[0]
             else:
                 gold_title = ""
@@ -710,7 +712,7 @@ def get_gold_df(gold_dataset_path):
     return gold_df
 
 
-def run_all_the_tests(gold_dataset_path, generation_folder_path, gen_xml_name):
+def run_all_the_tests(gold_dataset_path, generation_folder_path, gen_xml_name,tag = 'gen'):
     factoid_path = generation_folder_path + "/qa/factoid/BioASQform_BioASQ-answer.json"
     generated_qu = generation_folder_path + "/ir/output/" + gen_xml_name
 
@@ -746,11 +748,53 @@ def run_all_the_tests(gold_dataset_path, generation_folder_path, gen_xml_name):
         factoid_report,
         list_report,
     )
-    save_results(test_results, generation_folder_path)
+    save_results(test_results, generation_folder_path,tag)
     return test_results
 
+def gen_gold_ir_output_FROM_SNIPPETS(gold_df, gen_folder, gen_xml_name="bioasq_qa.xml"):
+    ir_generated = gen_folder + "/ir/output/" + gen_xml_name
+    new_file_name = ir_generated.replace(".xml", "_GOLD.xml")
 
-def save_results(test_results, save_path):
+    fileTree = et.parse(ir_generated)
+    if fileTree:
+        root = fileTree.getroot()
+        questions = root.findall("Q")
+        for question in questions:
+            id = question.attrib.get("id")
+            original_question = question.text
+            if DEBUG:
+                print(original_question)
+            ir = question.find("IR")
+            # remove original generated articles
+            ir.clear()
+            gold_snippet =  gold_df.loc[gold_df["id"] == id].values[0][6][0].get("text")
+            # gold_abstracts = gold_df.loc[gold_df["id"] == id].values[0][8]
+            gold_titles = gold_df.loc[gold_df["id"] == id].values[0][9]
+            # system just using top abstract atm
+            # if isinstance(gold_abstracts, list):
+            #     gold_abstract = gold_abstracts[0]
+            # else:
+            #     gold_abstract = ""
+            if isinstance(gold_titles, list):
+                gold_title = gold_titles[0]
+            else:
+                gold_title = ""
+            # fill result
+            result_tag = et.SubElement(ir, "Result")
+            pmid = gold_df.loc[gold_df['id'] == id].values[0][1][0]
+            result_tag.set("PMID", pmid)
+            title = et.SubElement(result_tag, "Title")
+            title.text = gold_title
+            abstract = et.SubElement(result_tag, "Abstract")
+            abstract.text = gold_snippet # pass in the snippet instead of the abstract for those with abstracts
+        tree = et.ElementTree(root)
+        os.makedirs(os.path.dirname(new_file_name), exist_ok=True)
+        print(f"Writing gold QA input / IR output to {new_file_name}")
+        tree.write(new_file_name, pretty_print=True)
+    return new_file_name
+
+
+def save_results(test_results, save_path, tag):
     t = time.localtime()
     date = time.strftime("%b-%d-%Y", t)
     (
@@ -767,7 +811,7 @@ def save_results(test_results, save_path):
         os.makedirs(results_folder)
 
     # Save concepts
-    con_name = results_folder + f"/concepts-{timestamp}.csv"
+    con_name = results_folder + f"/concepts-{timestamp}-{tag}.csv"
     with open(con_name, "w+") as f:
         f1_sum, p_sum, r_sum, scores = concepts_report
         f.write("Average f1 score,Average precision,Average Recall\n")
@@ -778,7 +822,7 @@ def save_results(test_results, save_path):
     print(f"Saved concepts info to {con_name}")
 
     # Save pmids
-    pmid_name = results_folder + f"/pmids-{timestamp}.csv"
+    pmid_name = results_folder + f"/pmids-{timestamp}-{tag}.csv"
     with open(pmid_name, "w+") as f:
         f1_sum, p_sum, r_sum, scores = pmids_report
         f.write("Average f1 score,Average precision,Average Recall\n")
@@ -789,13 +833,13 @@ def save_results(test_results, save_path):
     print(f"Saved pmid info to {pmid_name}")
 
     # Save type report
-    type_name = results_folder + f"/type-{timestamp}.json"
+    type_name = results_folder + f"/type-{timestamp}-{tag}.json"
     with open(type_name, "w+") as f:
         json.dump(type_report, f, indent=2)
     print(f"Saved type info to {type_name}")
 
     # Save yes/no
-    yesno_name = results_folder + f"/yesno-{timestamp}.csv"
+    yesno_name = results_folder + f"/yesno-{timestamp}-{tag}.csv"
     with open(yesno_name, "w+") as f:
         yf1, yp, yr, nf1, np, nr, f1, p, r = yes_no_report
         f.write("Yes/No f1 score,Yes/No precision ,Yes/No recall\n")
@@ -807,7 +851,7 @@ def save_results(test_results, save_path):
     print(f"Saved yes/no info to {yesno_name}")
 
     # Save factoids
-    fact_name = results_folder + f"/factoid-{timestamp}.csv"
+    fact_name = results_folder + f"/factoid-{timestamp}-{tag}.csv"
     with open(fact_name, "w+") as f:
         leniant_acc, strict_acc, average_mrr, mrrs = factoid_report
         f.write(
@@ -820,7 +864,7 @@ def save_results(test_results, save_path):
     print(f"Saved factoid info to {fact_name}")
 
     # Save list
-    list_name = results_folder + f"/list-{timestamp}.csv"
+    list_name = results_folder + f"/list-{timestamp}-{tag}.csv"
     with open(list_name, "w+") as f:
         f1_sum, p_sum, r_sum, scores = list_report
         f.write("Average f1 score,Average precision,Average Recall\n")
