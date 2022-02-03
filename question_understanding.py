@@ -54,22 +54,22 @@ def predict(device, model,data):
 
 # If we are in batch mode, append all generated queries and concepts to xml file,
 # Otherwise pass QU data (question type, concepts, query) back for transfer to IR module
-def ask_and_receive(testing_df, device, tokenizer, model, nlp , batch_mode = False, output_file=None):
-    encoded_tokens_Test,attention_mask_Test = preprocess(testing_df,tokenizer)
+def ask_and_receive(questions_df, device, tokenizer, model, nlp , batch_mode = False, output_file=None):
+    encoded_tokens_Test,attention_mask_Test = preprocess(questions_df,tokenizer)
     data_test = feed_generator(device, encoded_tokens_Test, attention_mask_Test)
     preds_test = predict(device,model,data_test)
     indices_to_label = {0: 'factoid', 1: 'list', 2: 'summary', 3: 'yesno'}
     predict_label = []
-    for i in preds_test[0:len(testing_df['Question'])]:
+    for i in preds_test[0:len(questions_df['Question'])]:
         for j in indices_to_label:
             if i == j:
                 predict_label.append(indices_to_label[j])
-    testing_df['type'] = predict_label
+    questions_df['type'] = predict_label
     if(batch_mode):
         print(f"{MAGENTA}Writing QU results to xml file...{OFF}")
-        xml_tree(testing_df,nlp,output_file)
+        xml_tree(questions_df,nlp,output_file)
     else:
-        return send_qu_data(testing_df,nlp)
+        return send_qu_data(questions_df,nlp)
 
 #instead of using the xml, just pass the data
 def send_qu_data(df,nlp):

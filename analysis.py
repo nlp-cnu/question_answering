@@ -1,3 +1,4 @@
+from asyncio.subprocess import DEVNULL
 from lxml import etree as et
 from sklearn.metrics import classification_report
 import numpy
@@ -54,6 +55,34 @@ def get_col_list(gold_df, gen_df, col):
     gold_ids = gold["id"]
     gold_vals = gold[col]
     return gold_ids, gold_vals, gen_ids, gen_vals
+
+
+def parse_qu_output(xml_file):
+    df_cols = [
+        "id",
+        "human_concepts",
+        "documents",
+        "full_abstracts",
+        "titles",
+        "type",
+        "exact_answer",
+    ]
+    xtree = et.parse(xml_file)
+    xroot = xtree.getroot()
+    rows = []
+    for question in xroot:
+        id = question.attrib.get("id")
+        qp = question.find("QP")
+        concepts = [e.text for e in qp.findall("Entities")]
+        qa_type = qp.find("Type").text
+        rows.append(
+            {
+                "id": id,
+                "human_concepts": concepts,
+                "type": qa_type,
+            }
+            )
+    return pd.DataFrame(rows, columns=df_cols)
 
 
 def parse_xml(xml_file, dir_for_qa):
@@ -613,8 +642,8 @@ def do_list_eval(gold_df, gen_df):
     return f1_sum, p_sum, r_sum, scores
 
 
-def gen_gold_qu_output(gold_df, gen_folder, gen_xml_name="bioasq_qa.xml"):
-    qu_generated = gen_folder + "/ir/input/" + gen_xml_name
+def gen_gold_qu_output(gold_df, gen_folder, xml_name="bioasq_qa.xml"):
+    qu_generated = gen_folder + "/ir/input/" + xml_name
     new_file_name = qu_generated.replace(".xml", "_GOLD.xml")
 
     fileTree = et.parse(qu_generated)
@@ -712,16 +741,32 @@ def get_gold_df(gold_dataset_path):
     return gold_df
 
 
-def run_all_the_tests(gold_dataset_path, generation_folder_path, gen_xml_name,tag = 'gen'):
-    factoid_path = generation_folder_path + "/qa/factoid/BioASQform_BioASQ-answer.json"
-    generated_qu = generation_folder_path + "/ir/output/" + gen_xml_name
+def run_qu_tests(gold_dataset_path,generation_folder_path,qu_output,tag = 'gen'):
 
-    with open(gold_dataset_path, "r") as f:
-        gold_data = json.loads(f.read())
-    # load and flatten data
-    gold_df = pd.json_normalize(gold_data, record_path="questions")
+    gold_df = get_gold_df(gold_dataset_path=gold_dataset_path)
+    gen_df = parse_qu_output(qu_output)
+    concepts_report = do_concepts_eval(gold_df, gen_df)
+    gold_type = gold_df["type"].to_numpy()
+    gen_type = gen_df["type"].to_numpy()
+    try:
+        print(f"{CYAN}Type Evaluation{OFF}")
+        print(classification_report(gold_type, gen_type))
+        type_report = classification_report(gold_type, gen_type, output_dict=True)
+    except:
+        type_report = f"TypeReport: Found input variables with inconsistent numbers of samples: [{len(gold_type)}] [{len(gen_type)}]"
+    test_results = (
+        concepts_report,
+        type_report,
+    )
+    save_results(test_results, generation_folder_path,tag)
+
+
+def run_all_the_tests(gold_dataset_path, generation_folder_path, xml_name,tag = 'gen'):
+    factoid_path = generation_folder_path + "/qa/factoid/BioASQform_BioASQ-answer.json"
+    generated_qu = generation_folder_path + "/ir/output/" + xml_name
+
     # get gold df
-    gold_df["documents"] = gold_df["documents"].apply(get_pmid)
+    gold_df = get_gold_df(gold_dataset_path=gold_dataset_path)
     # get generated df
     gen_df = parse_xml(generated_qu, generation_folder_path + "/qa")
 
@@ -751,8 +796,8 @@ def run_all_the_tests(gold_dataset_path, generation_folder_path, gen_xml_name,ta
     save_results(test_results, generation_folder_path,tag)
     return test_results
 
-def gen_gold_ir_output_FROM_SNIPPETS(gold_df, gen_folder, gen_xml_name="bioasq_qa.xml"):
-    ir_generated = gen_folder + "/ir/output/" + gen_xml_name
+def gen_gold_ir_output_FROM_SNIPPETS(gold_df, gen_folder, xml_name="bioasq_qa.xml"):
+    ir_generated = gen_folder + "/ir/output/" + xml_name
     new_file_name = ir_generated.replace(".xml", "_GOLD.xml")
 
     fileTree = et.parse(ir_generated)
@@ -767,7 +812,17 @@ def gen_gold_ir_output_FROM_SNIPPETS(gold_df, gen_folder, gen_xml_name="bioasq_q
             ir = question.find("IR")
             # remove original generated articles
             ir.clear()
-            gold_snippet =  gold_df.loc[gold_df["id"] == id].values[0][6][0].get("text")
+            snippets = gold_df.loc[gold_df["id"] == id].values[0][6]
+            gold_snippet = ""
+            for i in range (0,5):
+                try:
+                    gold_snippet += snippets[i].get("text")
+                except Exception as e:
+                    if DEBUG: 
+                        print(e)
+                    gold_snippet += ""
+
+            #gold_snippet =  gold_df.loc[gold_df["id"] == id].values[0][6][0].get("text")
             # gold_abstracts = gold_df.loc[gold_df["id"] == id].values[0][8]
             gold_titles = gold_df.loc[gold_df["id"] == id].values[0][9]
             # system just using top abstract atm
@@ -775,7 +830,7 @@ def gen_gold_ir_output_FROM_SNIPPETS(gold_df, gen_folder, gen_xml_name="bioasq_q
             #     gold_abstract = gold_abstracts[0]
             # else:
             #     gold_abstract = ""
-            if isinstance(gold_titles, list):
+            if isinstance(gold_titles, list) and gold_titles != []:
                 gold_title = gold_titles[0]
             else:
                 gold_title = ""
