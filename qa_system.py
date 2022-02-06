@@ -255,20 +255,21 @@ if __name__ == "__main__":
                         qu_output=ir_input_generated,
                         tag="gen",
                     )
-                    # campare to golden output
-                    gold_df = analysis.get_gold_df(golden_dataset_path)
-                    gold_ir_input = analysis.gen_gold_qu_output(
-                        gold_df=gold_df, gen_folder=gen_folder, xml_name=xml_name
-                    )
-                    xml_name = os.path.basename(gold_ir_input)
-                    raw_test_results = analysis.run_qu_tests(
-                        gold_dataset_path=golden_dataset_path,
-                        generation_folder_path=gen_folder,
-                        qu_output=ir_input_generated,
-                        tag="gold",
-                    )
+                    # compare to golden output
+                    # gold_df = analysis.get_gold_df(golden_dataset_path)
+                    # gold_ir_input = analysis.gen_gold_qu_output(
+                    #     gold_df=gold_df, gen_folder=gen_folder, xml_name=xml_name
+                    # )
+                    # xml_name = os.path.basename(gold_ir_input)
+                    # raw_test_results = analysis.run_qu_tests(
+                    #     gold_dataset_path=golden_dataset_path,
+                    #     generation_folder_path=gen_folder,
+                    #     qu_output=ir_input_generated,
+                    #     tag="gold",
+                    # )
 
                 elif result == "2":
+                    ir_input_generated = args.input
                     if os.path.exists(ir_input_generated):
                         information_retrieval.batch_search(
                             input_file=ir_input_generated,
@@ -276,22 +277,52 @@ if __name__ == "__main__":
                             indexer=pubmed_article_ix,
                             parser=qp,
                         )
+                        raw_test_results = analysis.run_ir_tests(
+                            gold_dataset_path=golden_dataset_path,
+                            generation_folder_path=gen_folder,
+                            ir_output=ir_output_generated,
+                            tag="gen",
+                        )
+
+                        # compare to golden output
+                        # gold_df = analysis.get_gold_df(golden_dataset_path)
+                        # gold_ir_input = analysis.gen_gold_ir_output(
+                        #     gold_df=gold_df, gen_folder=gen_folder, xml_name=xml_name
+                        # )
+                        # xml_name = os.path.basename(gold_ir_input)
+                        # raw_test_results = analysis.run_ir_tests(
+                        #     gold_dataset_path=golden_dataset_path,
+                        #     generation_folder_path=gen_folder,
+                        #     ir_output=ir_output_generated,
+                        #     tag="gold",
+                        # )
                     else:
                         print(
                             f"{RED}Make sure you run the QU module before running the IR module.{OFF}"
                         )
                 elif result == "3":
+                    ir_output_generated = args.input
                     if os.path.exists(ir_output_generated):
                         question_answering.run_batch_mode(
                             input_file=ir_output_generated,
                             output_dir=qa_output_generated_dir,
                         )
+
+                        raw_test_results = analysis.run_qa_tests(
+                            gold_dataset_path=golden_dataset_path,
+                            generation_folder_path=gen_folder,
+                            qa_input=ir_output_generated,
+                            tag="gen",
+                        )
+                        # compare to gold
                     else:
                         print(
                             f"{RED}Make sure you run both the QU module and the IR module before running the QA module.{OFF}"
                         )
                 elif result == "4":
+                    qu_input = args.input
                     questions_df = pd.read_csv(qu_input, sep=",", header=0)
+                    # run with user input
                     question_understanding.ask_and_receive(
                         questions_df=questions_df,
                         device=device,
@@ -301,13 +332,52 @@ if __name__ == "__main__":
                         batch_mode=True,
                         output_file=ir_input_generated,
                     )
+                    raw_test_results = analysis.run_qu_tests(
+                        gold_dataset_path=golden_dataset_path,
+                        generation_folder_path=gen_folder,
+                        qu_output=ir_input_generated,
+                        tag="gen",
+                    )
+                    # compare to golden output
+                    # gold_df = analysis.get_gold_df(golden_dataset_path)
+                    # gold_ir_input = analysis.gen_gold_qu_output(
+                    #     gold_df=gold_df, gen_folder=gen_folder, xml_name=xml_name
+                    # )
+                    # xml_name = os.path.basename(gold_ir_input)
+                    # raw_test_results = analysis.run_qu_tests(
+                    #     gold_dataset_path=golden_dataset_path,
+                    #     generation_folder_path=gen_folder,
+                    #     qu_output=ir_input_generated,
+                    #     tag="gold",
+                    # )
                     information_retrieval.batch_search(
                         input_file=ir_input_generated,
                         output_file=ir_output_generated,
                         indexer=pubmed_article_ix,
                         parser=qp,
                     )
+
+                    raw_test_results = analysis.run_ir_tests(
+                        gold_dataset_path=golden_dataset_path,
+                        generation_folder_path=gen_folder,
+                        ir_output=ir_output_generated,
+                        tag="gen",
+                    )
+
+                    # compare to golden output
+                    # gold_df = analysis.get_gold_df(golden_dataset_path)
+                    # gold_ir_input = analysis.gen_gold_ir_output(
+                    #     gold_df=gold_df, gen_folder=gen_folder, xml_name=xml_name
+                    # )
+                    # xml_name = os.path.basename(gold_ir_input)
+                    # raw_test_results = analysis.run_ir_tests(
+                    #     gold_dataset_path=golden_dataset_path,
+                    #     generation_folder_path=gen_folder,
+                    #     ir_output=ir_output_generated,
+                    #     tag="gold",
+                    # )
                 elif result == "5":
+                    ir_input_generated = args.input
                     if os.path.exists(ir_input_generated):
                         information_retrieval.batch_search(
                             input_file=ir_input_generated,
@@ -315,14 +385,43 @@ if __name__ == "__main__":
                             indexer=pubmed_article_ix,
                             parser=qp,
                         )
+                        raw_test_results = analysis.run_ir_tests(
+                            gold_dataset_path=golden_dataset_path,
+                            generation_folder_path=gen_folder,
+                            ir_output=ir_output_generated,
+                            tag="gen",
+                        )
+
+                        # # compare to golden output
+                        # gold_df = analysis.get_gold_df(golden_dataset_path)
+                        # gold_ir_input = analysis.gen_gold_ir_output(
+                        #     gold_df=gold_df, gen_folder=gen_folder, xml_name=xml_name
+                        # )
+                        # xml_name = os.path.basename(gold_ir_input)
+                        # raw_test_results = analysis.run_ir_tests(
+                        #     gold_dataset_path=golden_dataset_path,
+                        #     generation_folder_path=gen_folder,
+                        #     ir_output=ir_output_generated,
+                        #     tag="gold",
+                        # )
+
                         question_answering.run_batch_mode(
                             input_file=ir_output_generated,
                             output_dir=qa_output_generated_dir,
                         )
+
+                        raw_test_results = analysis.run_qa_tests(
+                            gold_dataset_path=golden_dataset_path,
+                            generation_folder_path=gen_folder,
+                            qa_input=ir_output_generated,
+                            tag="gen",
+                        )
+
                     else:
                         print(
                             f"{RED}Make sure you run the QU module before running the IR module.{OFF}"
                         )
+                        
                 else:
                     print(f"{MAGENTA}Shutting down...{OFF}")
                     quit()

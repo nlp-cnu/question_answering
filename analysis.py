@@ -61,11 +61,7 @@ def parse_qu_output(xml_file):
     df_cols = [
         "id",
         "human_concepts",
-        "documents",
-        "full_abstracts",
-        "titles",
         "type",
-        "exact_answer",
     ]
     xtree = et.parse(xml_file)
     xroot = xtree.getroot()
@@ -81,7 +77,50 @@ def parse_qu_output(xml_file):
                 "human_concepts": concepts,
                 "type": qa_type,
             }
-            )
+        )
+    return pd.DataFrame(rows, columns=df_cols)
+
+
+def parse_ir_output(xml_file):
+    df_cols = [
+        "id",
+        "documents",
+    ]
+    xtree = et.parse(xml_file)
+    xroot = xtree.getroot()
+    rows = []
+    for question in xroot:
+        id = question.attrib.get("id")
+        ir = question.find("IR")
+        pmids = [e.get("PMID") for e in ir.findall("Result")]
+        rows.append(
+            {
+                "id": id,
+                "documents": pmids,
+            }
+        )
+    return pd.DataFrame(rows, columns=df_cols)
+
+
+def parse_qa_output(xml_file, qa_folder):
+    # get answers
+    qa_answers = get_answers(get_three_files(qa_folder))
+    df_cols = [
+        "id",
+        "exact_answer",
+    ]
+    xtree = et.parse(xml_file)
+    xroot = xtree.getroot()
+    rows = []
+    for question in xroot:
+        id = question.attrib.get("id")
+        exact_answer = qa_answers[id] if id in qa_answers else None
+        rows.append(
+            {
+                "id": id,
+                "exact_answer": exact_answer,
+            }
+        )
     return pd.DataFrame(rows, columns=df_cols)
 
 
@@ -710,7 +749,7 @@ def gen_gold_ir_output(gold_df, gen_folder, gen_xml_name="bioasq_qa.xml"):
                 gold_title = ""
             # fill result
             result_tag = et.SubElement(ir, "Result")
-            pmid = gold_df.loc[gold_df['id'] == id].values[0][1][0]
+            pmid = gold_df.loc[gold_df["id"] == id].values[0][1][0]
             result_tag.set("PMID", pmid)
             title = et.SubElement(result_tag, "Title")
             title.text = gold_title
@@ -741,8 +780,7 @@ def get_gold_df(gold_dataset_path):
     return gold_df
 
 
-def run_qu_tests(gold_dataset_path,generation_folder_path,qu_output,tag = 'gen'):
-
+def run_qu_tests(gold_dataset_path, generation_folder_path, qu_output, tag="gen"):
     gold_df = get_gold_df(gold_dataset_path=gold_dataset_path)
     gen_df = parse_qu_output(qu_output)
     concepts_report = do_concepts_eval(gold_df, gen_df)
@@ -758,10 +796,36 @@ def run_qu_tests(gold_dataset_path,generation_folder_path,qu_output,tag = 'gen')
         concepts_report,
         type_report,
     )
-    save_results(test_results, generation_folder_path,tag)
+    save_results(test_results, generation_folder_path, tag)
 
 
-def run_all_the_tests(gold_dataset_path, generation_folder_path, xml_name,tag = 'gen'):
+def run_ir_tests(gold_dataset_path, generation_folder_path, ir_output, tag="gen"):
+    gold_df = get_gold_df(gold_dataset_path=gold_dataset_path)
+    gen_df = parse_ir_output(ir_output)
+
+    pmids_report = do_pmids_eval(gold_df, gen_df)
+    test_results = pmids_report
+    save_results(test_results, generation_folder_path, tag)
+
+
+def run_qa_tests(gold_dataset_path, generation_folder_path, qa_input, tag="gen"):
+    factoid_path = generation_folder_path + "/qa/factoid/BioASQform_BioASQ-answer.json"
+    gold_df = get_gold_df(gold_dataset_path=gold_dataset_path)
+    gen_df = parse_qa_output(qa_input, generation_folder_path + "/qa")
+
+    yes_no_report = do_yes_no_eval(gold_df, gen_df)
+    factoid_report = do_factoid_eval(gold_df, gen_df, factoid_path)
+    list_report = do_list_eval(gold_df, gen_df)
+
+    test_results = (
+        yes_no_report,
+        factoid_report,
+        list_report,
+    )
+    save_results(test_results, generation_folder_path, tag)
+
+
+def run_all_the_tests(gold_dataset_path, generation_folder_path, xml_name, tag="gen"):
     factoid_path = generation_folder_path + "/qa/factoid/BioASQform_BioASQ-answer.json"
     generated_qu = generation_folder_path + "/ir/output/" + xml_name
 
@@ -793,8 +857,9 @@ def run_all_the_tests(gold_dataset_path, generation_folder_path, xml_name,tag = 
         factoid_report,
         list_report,
     )
-    save_results(test_results, generation_folder_path,tag)
+    save_results(test_results, generation_folder_path, tag)
     return test_results
+
 
 def gen_gold_ir_output_FROM_SNIPPETS(gold_df, gen_folder, xml_name="bioasq_qa.xml"):
     ir_generated = gen_folder + "/ir/output/" + xml_name
@@ -814,15 +879,15 @@ def gen_gold_ir_output_FROM_SNIPPETS(gold_df, gen_folder, xml_name="bioasq_qa.xm
             ir.clear()
             snippets = gold_df.loc[gold_df["id"] == id].values[0][6]
             gold_snippet = ""
-            for i in range (0,5):
+            for i in range(0, 5):
                 try:
                     gold_snippet += snippets[i].get("text")
                 except Exception as e:
-                    if DEBUG: 
+                    if DEBUG:
                         print(e)
                     gold_snippet += ""
 
-            #gold_snippet =  gold_df.loc[gold_df["id"] == id].values[0][6][0].get("text")
+            # gold_snippet =  gold_df.loc[gold_df["id"] == id].values[0][6][0].get("text")
             # gold_abstracts = gold_df.loc[gold_df["id"] == id].values[0][8]
             gold_titles = gold_df.loc[gold_df["id"] == id].values[0][9]
             # system just using top abstract atm
@@ -836,12 +901,12 @@ def gen_gold_ir_output_FROM_SNIPPETS(gold_df, gen_folder, xml_name="bioasq_qa.xm
                 gold_title = ""
             # fill result
             result_tag = et.SubElement(ir, "Result")
-            pmid = gold_df.loc[gold_df['id'] == id].values[0][1][0]
+            pmid = gold_df.loc[gold_df["id"] == id].values[0][1][0]
             result_tag.set("PMID", pmid)
             title = et.SubElement(result_tag, "Title")
             title.text = gold_title
             abstract = et.SubElement(result_tag, "Abstract")
-            abstract.text = gold_snippet # pass in the snippet instead of the abstract for those with abstracts
+            abstract.text = gold_snippet  # pass in the snippet instead of the abstract for those with abstracts
         tree = et.ElementTree(root)
         os.makedirs(os.path.dirname(new_file_name), exist_ok=True)
         print(f"Writing gold QA input / IR output to {new_file_name}")
