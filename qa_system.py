@@ -22,7 +22,7 @@ from whoosh.qparser import QueryParser
 
 import setup
 import question_understanding
-import information_retrieval
+import information_retrieval2
 import question_answering
 import analysis
 
@@ -171,7 +171,7 @@ if __name__ == "__main__":
                         batch_mode=True,
                         output_file=ir_input_generated,
                     )
-                    information_retrieval.batch_search(
+                    information_retrieval2.batch_search(
                         input_file=ir_input_generated,
                         output_file=ir_output_generated,
                         indexer=pubmed_article_ix,
@@ -194,7 +194,7 @@ if __name__ == "__main__":
                     )
                     # Run IR and QA
                     print("Run IR and QA")
-                    information_retrieval.batch_search(
+                    information_retrieval2.batch_search(
                         input_file=gold_ir_input,
                         output_file=ir_output_generated,
                         indexer=pubmed_article_ix,
@@ -271,7 +271,7 @@ if __name__ == "__main__":
                 elif result == "2":
                     ir_input_generated = args.input
                     if os.path.exists(ir_input_generated):
-                        information_retrieval.batch_search(
+                        information_retrieval2.batch_search(
                             input_file=ir_input_generated,
                             output_file=ir_output_generated,
                             indexer=pubmed_article_ix,
@@ -350,7 +350,7 @@ if __name__ == "__main__":
                     #     qu_output=ir_input_generated,
                     #     tag="gold",
                     # )
-                    information_retrieval.batch_search(
+                    information_retrieval2.batch_search(
                         input_file=ir_input_generated,
                         output_file=ir_output_generated,
                         indexer=pubmed_article_ix,
@@ -379,7 +379,7 @@ if __name__ == "__main__":
                 elif result == "5":
                     ir_input_generated = args.input
                     if os.path.exists(ir_input_generated):
-                        information_retrieval.batch_search(
+                        information_retrieval2.batch_search(
                             input_file=ir_input_generated,
                             output_file=ir_output_generated,
                             indexer=pubmed_article_ix,
@@ -453,7 +453,7 @@ if __name__ == "__main__":
                 print(
                     f"{MAGENTA} <QU>\nID: {id}\nQuestion: {question}\nType: {type}\nConcepts:{concepts}\nQuery: {query}\n</QU> {OFF}"
                 )
-                query_results = information_retrieval.search(
+                query_results = information_retrieval2.search(
                     pubmed_article_ix, qp, qu_output
                 )
                 if query_results:

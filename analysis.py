@@ -107,6 +107,7 @@ def parse_qa_output(xml_file, qa_folder):
     qa_answers = get_answers(get_three_files(qa_folder))
     df_cols = [
         "id",
+        "type",
         "exact_answer",
     ]
     xtree = et.parse(xml_file)
@@ -114,10 +115,13 @@ def parse_qa_output(xml_file, qa_folder):
     rows = []
     for question in xroot:
         id = question.attrib.get("id")
+        qp = question.find("QP")
+        qa_type = qp.find("Type").text
         exact_answer = qa_answers[id] if id in qa_answers else None
         rows.append(
             {
                 "id": id,
+                "type":qa_type,
                 "exact_answer": exact_answer,
             }
         )
@@ -794,8 +798,13 @@ def run_qu_tests(gold_dataset_path, generation_folder_path, qu_output, tag="gen"
         type_report = f"TypeReport: Found input variables with inconsistent numbers of samples: [{len(gold_type)}] [{len(gen_type)}]"
     test_results = (
         concepts_report,
+        None,
         type_report,
+        None,
+        None,
+        None
     )
+    
     save_results(test_results, generation_folder_path, tag)
 
 
@@ -804,7 +813,8 @@ def run_ir_tests(gold_dataset_path, generation_folder_path, ir_output, tag="gen"
     gen_df = parse_ir_output(ir_output)
 
     pmids_report = do_pmids_eval(gold_df, gen_df)
-    test_results = pmids_report
+    test_results = (None,pmids_report,None,None,None,None)
+
     save_results(test_results, generation_folder_path, tag)
 
 
@@ -818,10 +828,14 @@ def run_qa_tests(gold_dataset_path, generation_folder_path, qa_input, tag="gen")
     list_report = do_list_eval(gold_df, gen_df)
 
     test_results = (
+        None,
+        None,
+        None,
         yes_no_report,
         factoid_report,
         list_report,
     )
+
     save_results(test_results, generation_folder_path, tag)
 
 
@@ -925,74 +939,81 @@ def save_results(test_results, save_path, tag):
         factoid_report,
         list_report,
     ) = test_results
+
     results_folder = save_path + "/test_results/" + date
     timestamp = time.strftime("%H%M%S", t)
     if not os.path.exists(results_folder):
         os.makedirs(results_folder)
 
     # Save concepts
-    con_name = results_folder + f"/concepts-{timestamp}-{tag}.csv"
-    with open(con_name, "w+") as f:
-        f1_sum, p_sum, r_sum, scores = concepts_report
-        f.write("Average f1 score,Average precision,Average Recall\n")
-        f.write(f"{f1_sum},{p_sum},{r_sum}\n")
-        f.write("f1,precision,recall\n")
-        for f1, p, r in scores:
-            f.write(f"{f1},{p},{r}\n")
-    print(f"Saved concepts info to {con_name}")
+    if concepts_report:
+        con_name = results_folder + f"/concepts-{timestamp}-{tag}.csv"
+        with open(con_name, "w+") as f:
+            f1_sum, p_sum, r_sum, scores = concepts_report
+            f.write("Average f1 score,Average precision,Average Recall\n")
+            f.write(f"{f1_sum},{p_sum},{r_sum}\n")
+            f.write("f1,precision,recall\n")
+            for f1, p, r in scores:
+                f.write(f"{f1},{p},{r}\n")
+        print(f"Saved concepts info to {con_name}")
 
     # Save pmids
-    pmid_name = results_folder + f"/pmids-{timestamp}-{tag}.csv"
-    with open(pmid_name, "w+") as f:
-        f1_sum, p_sum, r_sum, scores = pmids_report
-        f.write("Average f1 score,Average precision,Average Recall\n")
-        f.write(f"{f1_sum},{p_sum},{r_sum}\n")
-        f.write("f1,precision,recall\n")
-        for f1, p, r in scores:
-            f.write(f"{f1},{p},{r}\n")
-    print(f"Saved pmid info to {pmid_name}")
+    if pmids_report:
+        pmid_name = results_folder + f"/pmids-{timestamp}-{tag}.csv"
+        with open(pmid_name, "w+") as f:
+            f1_sum, p_sum, r_sum, scores = pmids_report
+            f.write("Average f1 score,Average precision,Average Recall\n")
+            f.write(f"{f1_sum},{p_sum},{r_sum}\n")
+            f.write("f1,precision,recall\n")
+            for f1, p, r in scores:
+                f.write(f"{f1},{p},{r}\n")
+        print(f"Saved pmid info to {pmid_name}")
 
     # Save type report
-    type_name = results_folder + f"/type-{timestamp}-{tag}.json"
-    with open(type_name, "w+") as f:
-        json.dump(type_report, f, indent=2)
-    print(f"Saved type info to {type_name}")
+    if type_report:
+        type_name = results_folder + f"/type-{timestamp}-{tag}.json"
+        with open(type_name, "w+") as f:
+            json.dump(type_report, f, indent=2)
+        print(f"Saved type info to {type_name}")
 
     # Save yes/no
-    yesno_name = results_folder + f"/yesno-{timestamp}-{tag}.csv"
-    with open(yesno_name, "w+") as f:
-        yf1, yp, yr, nf1, np, nr, f1, p, r = yes_no_report
-        f.write("Yes/No f1 score,Yes/No precision ,Yes/No recall\n")
-        f.write(f"{f1},{p},{r}\n")
-        f.write("Yes f1 score,Yes precision ,Yes recall\n")
-        f.write(f"{yf1},{yp},{yr}\n")
-        f.write("No f1 score,No precision ,No recall\n")
-        f.write(f"{nf1},{np},{nr}\n")
-    print(f"Saved yes/no info to {yesno_name}")
+    if yes_no_report:
+        yesno_name = results_folder + f"/yesno-{timestamp}-{tag}.csv"
+        with open(yesno_name, "w+") as f:
+            yf1, yp, yr, nf1, np, nr, f1, p, r = yes_no_report
+            f.write("Yes/No f1 score,Yes/No precision ,Yes/No recall\n")
+            f.write(f"{f1},{p},{r}\n")
+            f.write("Yes f1 score,Yes precision ,Yes recall\n")
+            f.write(f"{yf1},{yp},{yr}\n")
+            f.write("No f1 score,No precision ,No recall\n")
+            f.write(f"{nf1},{np},{nr}\n")
+        print(f"Saved yes/no info to {yesno_name}")
 
     # Save factoids
-    fact_name = results_folder + f"/factoid-{timestamp}-{tag}.csv"
-    with open(fact_name, "w+") as f:
-        leniant_acc, strict_acc, average_mrr, mrrs = factoid_report
-        f.write(
-            "Factoid leniant accuracy,Factoid strict accuracy,Factoid average mrr\n"
-        )
-        f.write(f"{leniant_acc},{strict_acc},{average_mrr}\n")
-        f.write("mrr\n")
-        for mrr in mrrs:
-            f.write(f"{mrr}\n")
-    print(f"Saved factoid info to {fact_name}")
+    if factoid_report:
+        fact_name = results_folder + f"/factoid-{timestamp}-{tag}.csv"
+        with open(fact_name, "w+") as f:
+            leniant_acc, strict_acc, average_mrr, mrrs = factoid_report
+            f.write(
+                "Factoid leniant accuracy,Factoid strict accuracy,Factoid average mrr\n"
+            )
+            f.write(f"{leniant_acc},{strict_acc},{average_mrr}\n")
+            f.write("mrr\n")
+            for mrr in mrrs:
+                f.write(f"{mrr}\n")
+        print(f"Saved factoid info to {fact_name}")
 
     # Save list
-    list_name = results_folder + f"/list-{timestamp}-{tag}.csv"
-    with open(list_name, "w+") as f:
-        f1_sum, p_sum, r_sum, scores = list_report
-        f.write("Average f1 score,Average precision,Average Recall\n")
-        f.write(f"{f1_sum},{p_sum},{r_sum}\n")
-        f.write("f1,precision,recall\n")
-        for f1, p, r in scores:
-            f.write(f"{f1},{p},{r}\n")
-    print(f"Saved list info to {list_name}")
+    if list_report:
+        list_name = results_folder + f"/list-{timestamp}-{tag}.csv"
+        with open(list_name, "w+") as f:
+            f1_sum, p_sum, r_sum, scores = list_report
+            f.write("Average f1 score,Average precision,Average Recall\n")
+            f.write(f"{f1_sum},{p_sum},{r_sum}\n")
+            f.write("f1,precision,recall\n")
+            for f1, p, r in scores:
+                f.write(f"{f1},{p},{r}\n")
+        print(f"Saved list info to {list_name}")
 
 
 # Set up the golden answer dataframe
