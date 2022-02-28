@@ -39,17 +39,17 @@ Here is the original [BioBERT paper](http://dx.doi.org/10.1093/bioinformatics/bt
 }
 ```
 ## Requirements
-This system can be used in a python 3.7.9 environment with the appropriate dependencies running on a Linux machine.
-### ensure you have python3.7
-sudo apt install python3.7
-sudo apt install python3.7-venv
+> This system can be used in a python 3.7.9 environment with the appropriate dependencies running on a Linux machine.
+### Ensure you have python3.7
+`sudo apt install python3.7`
+`sudo apt install python3.7-venv`
 
-### create and activate the virtual environment
-python3.7 -m venv <dir_name>
-source <dir_name>/bin/activate
+### Create and activate the virtual environment
+`python3.7 -m venv <dir_name>`
+`source <dir_name>/bin/activate`
 
-### install the requirements
-pip install -r requirements.txt
+### Install the requirements
+`pip install -r requirements.txt`
 
 ## License and Disclaimer
 Please see and agree to `LICENSE` file for details. Downloading data indicates your acceptance of the disclaimer.
