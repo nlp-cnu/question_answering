@@ -42,10 +42,12 @@ Here is the original [BioBERT paper](http://dx.doi.org/10.1093/bioinformatics/bt
 > This system can be used in a python 3.7.9 environment with the appropriate dependencies running on a Linux machine.
 ### Ensure you have python3.7
 `sudo apt install python3.7`
+
 `sudo apt install python3.7-venv`
 
 ### Create and activate the virtual environment
 `python3.7 -m venv <dir_name>`
+
 `source <dir_name>/bin/activate`
 
 ### Install the requirements
