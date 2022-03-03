@@ -30,11 +30,14 @@ import time
 from bs4 import BeautifulSoup as bs
 
 # pass formatted json into file that generates answer
-def run_qa_file(filename, output_dir,predict_file):
+def run_qa_file(filename, output_dir,predict_file, model_num):
     print(f"{MAGENTA}Running {filename}{OFF}")
-    vocab_file_path = f'data_modules{os.path.sep}model{os.path.sep}vocab.txt'
-    bert_config_file = f'data_modules{os.path.sep}model{os.path.sep}config.json'
-    command = f"python {filename} --do_train=False --do_predict=True --vocab_file={vocab_file_path} --bert_config_file={bert_config_file} --output_dir={output_dir} --predict_file={predict_file}"
+    # if list/factoid run 1, else run biobert 2
+
+    vocab_file_path = f'bert_models/BERT_squad_{model_num}/vocab.txt'
+    bert_config_file = f'bert_models/BERT_squad_{model_num}/config.json'
+    checkpoint_folder = f'bert_models/BERT_squad_{model_num}'
+    command = f"python {filename} --do_train=False --do_predict=True --vocab_file={vocab_file_path} --bert_config_file={bert_config_file} --init_checkpoint={checkpoint_folder} --output_dir={output_dir} --predict_file={predict_file}"
     print(f"{MAGENTA}Running command: {command}{OFF}")
     os.system(command)
 
@@ -130,11 +133,11 @@ def get_answer(json_data, output_dir, batch_mode = False):
         print_json_to_file(inputfile_path, good_json_data)
         print(f"{MAGENTA}Question type <{type}>{OFF}")
         if type == 'yesno':
-            run_qa_file('run_yesno.py',output_dir, predict_file=inputfile_path)
+            run_qa_file('run_yesno.py',output_dir, predict_file=inputfile_path,model_num=2)
         elif type == 'factoid':
-            run_qa_file('run_factoid.py',output_dir, predict_file=inputfile_path)
+            run_qa_file('run_factoid.py',output_dir, predict_file=inputfile_path,model_num=1)
         elif type == 'list':
-            run_qa_file('run_list.py',output_dir, predict_file=inputfile_path)
+            run_qa_file('run_list.py',output_dir, predict_file=inputfile_path,model_num=1)
             list_nbest = output_dir + "nbest_predictions.json"
             # allow for getting multiple predictions
             outfile_path = list_nbest
@@ -156,7 +159,7 @@ def run_batch_mode(input_file,output_dir):
         content = "".join(content)
         soup = bs(content,"lxml")
         result = soup.find_all("q") # get all the questions
-        for item in result:
+        for i, item in enumerate(result):
             type = item.find("qp").find("type").get_text()
             id = item.attrs['id']
             original_question = str(item.find('qp').previousSibling)
@@ -166,10 +169,10 @@ def run_batch_mode(input_file,output_dir):
                 # If IR was unsuccessful when it came to retrieving documents for the given question
                 abstract_text = ""
             data = (id, type, original_question, abstract_text)
-            print(f"{MAGENTA}Getting answer for \'{original_question}\'{OFF}")
+            print(f"{MAGENTA}({i+1}/{len(result)}) Getting answer for \'{original_question}\'{OFF}")
             # write all questions to a general file
-            json_data = get_json_from_data(data)
-            print_json_to_file(output_dir+ "qa_all.json", json_data, batch_mode=True)
+            # json_data = get_json_from_data(data)
+            # print_json_to_file(output_dir+ "qa_all.json", json_data, batch_mode=True)
             if abstract_text != "":
                 # get the answers for questions with relevant concepts
                 get_answer(data,output_dir,batch_mode=True)
@@ -186,9 +189,9 @@ def run_batch_mode(input_file,output_dir):
     # We use predictions instead of nbest since yesno only has 2 options
     yesno_preds = yesno_path+"predictions.json" 
     # Run the biobert question answering code on our extracted question dataframes
-    run_qa_file('run_yesno.py',yesno_path, predict_file= yesno_file_path)
-    run_qa_file('run_factoid.py',factoid_path, predict_file= factoid_file_path)
-    run_qa_file('run_list.py',list_path, predict_file= list_file_path)
+    run_qa_file('run_yesno.py',yesno_path, predict_file= yesno_file_path,model_num=2)
+    run_qa_file('run_factoid.py',factoid_path, predict_file= factoid_file_path,model_num=1)
+    run_qa_file('run_list.py',list_path, predict_file= list_file_path,model_num=1)
     
     # Run the nbest predictions through a file type transformer, then into BioASQ evaluation repo
     while not os.path.exists(list_nbest):

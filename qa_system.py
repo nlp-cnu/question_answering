@@ -53,55 +53,17 @@ if __name__ == "__main__":
     args = parser.parse_args()
     # Used for logging
     DEBUG = args.verbose
-    if args.evaluate:
-        if not args.input:
-            raise Exception(
-                "You must define an input file with qa_system.py -E -i <file_name> if you want to run evaluations"
-            )
-
+    if args.evaluate and not args.input:
+        raise argparse.ArgumentError(
+            "You must define an input file with qa_system.py -E -i <file_name> if you want to run evaluations"
+        )
     # This ensures that all the packages are installed so that the system can work with the modules
     data_folder = "data_modules"
     setup.setup_system(data_folder)
     index_folder_name = "index"
     model_folder_name = "model"
     pubmed_official_index_name = "pubmed_articles"
-    # This is for cpu support for non-NVIDEA cuda-capable machines.
-    spacy.prefer_gpu()
-    # initialize model
-    print(f"{MAGENTA}Initializing model...{OFF}")
-    device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-    tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
-    model = BertForSequenceClassification.from_pretrained(
-        data_folder + os.path.sep + model_folder_name, cache_dir=None
-    )
-    # load in BioBERT
-    print(f"{MAGENTA}Loading BioBERT...{OFF}")
-    nlp = en_core_sci_lg.load()
-    # load index
-    index_var = "full_index"
-    print(f"{MAGENTA}Loading index...{OFF}")
-    # This is the schema for each query retrieved from
-    pubmed_article_ix = index.open_dir(
-        data_folder + os.path.sep + index_folder_name + os.path.sep + index_var,
-        indexname=pubmed_official_index_name,
-    )
-    qp = QueryParser(
-        "abstract_text",
-        schema=Schema(
-            pmid=ID(stored=True),
-            title=TEXT(stored=True),
-            journal=TEXT(stored=True),
-            mesh_major=IDLIST(stored=True),
-            year=NUMERIC(stored=True),
-            abstract_text=TEXT(stored=True, analyzer=StemmingAnalyzer()),
-        ),
-    )
-
     if args.evaluate:
-        if not args.input:
-            raise Exception(
-                "You must define an input file with qa_system.py -E -i <file_name> if you want to run evaluations."
-            )
         print(f"System is in EVAL mode <{GREEN}{args.evaluate}{OFF}>")
 
         while True:
@@ -139,7 +101,7 @@ if __name__ == "__main__":
                 "2": "Information Retrieval",
                 "3": "Question Answering",
                 "4": "QU + IR",
-                "5": "IR + QU",
+                "5": "IR + QA",
             }
             result = input(batch_options)
             if result:
@@ -155,6 +117,43 @@ if __name__ == "__main__":
 
                 if result in eval_options_dict.keys():
                     print(f"{MAGENTA}{eval_options_dict.get(result)} selected.{OFF}")
+
+                # do setup for modules using QU
+                if result in ["0","1","4"]:
+                    # This is for cpu support for non-NVIDEA cuda-capable machines.
+                    spacy.prefer_gpu()
+                    # initialize model
+                    print(f"{MAGENTA}Initializing model...{OFF}")
+                    device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+                    tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
+                    model = BertForSequenceClassification.from_pretrained(
+                        data_folder + os.path.sep + model_folder_name, cache_dir=None
+                    )
+                    # load in BioBERT
+                    print(f"{MAGENTA}Loading BioBERT...{OFF}")
+                    nlp = en_core_sci_lg.load()
+                # do setup for IR
+                if result in ["0","2", "4", "5"]:
+                    # load index
+                    index_var = "full_index"
+                    print(f"{MAGENTA}Loading index...{OFF}")
+                    # This is the schema for each query retrieved from Pubmed
+                    pubmed_article_ix = index.open_dir(
+                        data_folder + os.path.sep + index_folder_name + os.path.sep + index_var,
+                        indexname=pubmed_official_index_name,
+                    )
+                    qp = QueryParser(
+                        "abstract_text",
+                        schema=Schema(
+                            pmid=ID(stored=True),
+                            title=TEXT(stored=True),
+                            journal=TEXT(stored=True),
+                            mesh_major=IDLIST(stored=True),
+                            year=NUMERIC(stored=True),
+                            abstract_text=TEXT(stored=True, analyzer=StemmingAnalyzer()),
+                        ),
+                    )
+                
                 if result == "0":
                     # Run Full System
                     print("Running full system")
@@ -427,6 +426,39 @@ if __name__ == "__main__":
                     quit()
     # If the user responds with anything not affirmative, send them to the live question answering
     else:
+        #LOAD ALL THE MODELS
+
+        # This is for cpu support for non-NVIDEA cuda-capable machines.
+        spacy.prefer_gpu()
+        # initialize model
+        print(f"{MAGENTA}Initializing model...{OFF}")
+        device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+        tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
+        model = BertForSequenceClassification.from_pretrained(
+            data_folder + os.path.sep + model_folder_name, cache_dir=None
+        )
+        # load in BioBERT
+        print(f"{MAGENTA}Loading BioBERT...{OFF}")
+        nlp = en_core_sci_lg.load()
+        # load index
+        index_var = "full_index"
+        print(f"{MAGENTA}Loading index...{OFF}")
+        # This is the schema for each query retrieved from Pubmed
+        pubmed_article_ix = index.open_dir(
+            data_folder + os.path.sep + index_folder_name + os.path.sep + index_var,
+            indexname=pubmed_official_index_name,
+        )
+        qp = QueryParser(
+            "abstract_text",
+            schema=Schema(
+                pmid=ID(stored=True),
+                title=TEXT(stored=True),
+                journal=TEXT(stored=True),
+                mesh_major=IDLIST(stored=True),
+                year=NUMERIC(stored=True),
+                abstract_text=TEXT(stored=True, analyzer=StemmingAnalyzer()),
+            ),
+        )
         n = 0
         while True:
             user_question = input(
