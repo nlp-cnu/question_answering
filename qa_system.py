@@ -22,9 +22,24 @@ from whoosh.qparser import QueryParser
 
 import setup
 import question_understanding
-import information_retrieval2
+import information_retrieval
 import question_answering
 import analysis
+
+def cleanup():
+    clear_tmp_dir("tmp/qu")
+    clear_tmp_dir("tmp/ir")
+    clear_tmp_dir("tmp/qa")
+
+def clear_tmp_dir(dir):
+    print(f"{WHITE}cleaning {dir}{OFF}")
+    for files in os.listdir(dir):
+        path = os.path.join(dir, files)
+        try:
+            shutil.rmtree(path)
+        except OSError:
+            os.remove(path)
+
 
 if __name__ == "__main__":
     # Define args for system
@@ -44,6 +59,13 @@ if __name__ == "__main__":
         type=str,
     )
     parser.add_argument(
+        "-g",
+        "--gold",
+        dest="gold",
+        help="This defines the golden dataset for the system. Point this at testing_datasets/augmented_concepts_abstracts_titles.json by default",
+        type=str,
+    )
+    parser.add_argument(
         "-v",
         "--verbose",
         dest="verbose",
@@ -57,6 +79,10 @@ if __name__ == "__main__":
         raise argparse.ArgumentError(
             "You must define an input file with qa_system.py -E -i <file_name> if you want to run evaluations"
         )
+    if args.evaluate and not args.gold:
+        raise argparse.ArgumentError(
+            "You must define an golden dataset along with a input file with qa_system.py -E -g <gold_file_name> -i <input_file_name> if you want to run evaluations"
+        )
     # This ensures that all the packages are installed so that the system can work with the modules
     data_folder = "data_modules"
     setup.setup_system(data_folder)
@@ -68,6 +94,7 @@ if __name__ == "__main__":
 
         while True:
             # NORMAL VALUES
+            # xml_name = "bioasq_qa.xml"
             qu_input = "testing_datasets/input.csv"
             ir_input_generated = "tmp/ir/input/bioasq_qa.xml"
             ir_output_generated = "tmp/ir/output/bioasq_qa.xml"
@@ -105,16 +132,21 @@ if __name__ == "__main__":
             }
             result = input(batch_options)
             if result:
-                golden_dataset_path = (
-                    "testing_datasets/augmented_concepts_abstracts_titles.json"
-                )
+                golden_dataset_path = args.gold 
+                # (
+                #     "testing_datasets/augmented_concepts_abstracts_titles.json"
+                # )
+                # eval gold
+                # golden_dataset_path = (
+                #     "eval/augmented_concepts_abstracts_titles.json"
+                # )
+
                 # folder where intermediary datasets are stored
                 gen_folder = "tmp"
                 xml_name = os.path.basename(
                     args.input
                 )  # set the name for storing the intermediary datasets
-                # xml_name = "bioasq_qa.xml"
-
+                
                 if result in eval_options_dict.keys():
                     print(f"{MAGENTA}{eval_options_dict.get(result)} selected.{OFF}")
 
@@ -170,7 +202,7 @@ if __name__ == "__main__":
                         batch_mode=True,
                         output_file=ir_input_generated,
                     )
-                    information_retrieval2.batch_search(
+                    information_retrieval.batch_search(
                         input_file=ir_input_generated,
                         output_file=ir_output_generated,
                         indexer=pubmed_article_ix,
@@ -193,7 +225,7 @@ if __name__ == "__main__":
                     )
                     # Run IR and QA
                     print("Run IR and QA")
-                    information_retrieval2.batch_search(
+                    information_retrieval.batch_search(
                         input_file=gold_ir_input,
                         output_file=ir_output_generated,
                         indexer=pubmed_article_ix,
@@ -270,7 +302,7 @@ if __name__ == "__main__":
                 elif result == "2":
                     ir_input_generated = args.input
                     if os.path.exists(ir_input_generated):
-                        information_retrieval2.batch_search(
+                        information_retrieval.batch_search(
                             input_file=ir_input_generated,
                             output_file=ir_output_generated,
                             indexer=pubmed_article_ix,
@@ -302,6 +334,7 @@ if __name__ == "__main__":
                 elif result == "3":
                     ir_output_generated = args.input
                     if os.path.exists(ir_output_generated):
+
                         question_answering.run_batch_mode(
                             input_file=ir_output_generated,
                             output_dir=qa_output_generated_dir,
@@ -314,6 +347,28 @@ if __name__ == "__main__":
                             tag="gen",
                         )
                         # compare to gold
+                        # Convert IR output
+                        # print("Convert IR output")
+                        # gold_df = analysis.get_gold_df(golden_dataset_path)
+                        # gold_ir_output = analysis.gen_gold_ir_output(
+                        #     gold_df=gold_df, gen_folder=gen_folder, xml_name=xml_name
+                        # )
+                        # the new naming scheme is based off the new filename with _GOLD
+                        # xml_name = os.path.basename(gold_ir_output)
+
+                        # Run QA
+                        # print("Run QA")
+                        # question_answering.run_batch_mode(
+                        #     input_file=gold_ir_output, output_dir=qa_output_generated_dir
+                        # )
+                        # # Run tests
+                        # print("Run tests with all gold input")
+                        # gold_qu_ir_test_results = analysis.run_all_the_tests(
+                        #     gold_dataset_path=golden_dataset_path,
+                        #     gen_folder=gen_folder,
+                        #     xml_name=xml_name,
+                        #     tag="-GOLD_ABSTRACTS",
+                        # )
                     else:
                         print(
                             f"{RED}Make sure you run both the QU module and the IR module before running the QA module.{OFF}"
@@ -349,7 +404,7 @@ if __name__ == "__main__":
                     #     qu_output=ir_input_generated,
                     #     tag="gold",
                     # )
-                    information_retrieval2.batch_search(
+                    information_retrieval.batch_search(
                         input_file=ir_input_generated,
                         output_file=ir_output_generated,
                         indexer=pubmed_article_ix,
@@ -378,7 +433,7 @@ if __name__ == "__main__":
                 elif result == "5":
                     ir_input_generated = args.input
                     if os.path.exists(ir_input_generated):
-                        information_retrieval2.batch_search(
+                        information_retrieval.batch_search(
                             input_file=ir_input_generated,
                             output_file=ir_output_generated,
                             indexer=pubmed_article_ix,
@@ -423,6 +478,10 @@ if __name__ == "__main__":
                         
                 else:
                     print(f"{MAGENTA}Shutting down...{OFF}")
+                    clear_tmp_dir("tmp/qa/list")
+                    clear_tmp_dir("tmp/qa/yesno")
+                    clear_tmp_dir("tmp/qa/factoid")
+
                     quit()
     # If the user responds with anything not affirmative, send them to the live question answering
     else:
@@ -466,6 +525,8 @@ if __name__ == "__main__":
             )
             # handle end loop
             if user_question == "quit":
+                print(f"{MAGENTA}Shutting down...{OFF}")
+                clear_tmp_dir("tmp/qa")
                 quit()
             df = pd.DataFrame({"ID": [n], "Question": user_question})
             # Retrieve the id,type, concepts, and query generated by QU module
@@ -485,7 +546,7 @@ if __name__ == "__main__":
                 print(
                     f"{MAGENTA} <QU>\nID: {id}\nQuestion: {question}\nType: {type}\nConcepts:{concepts}\nQuery: {query}\n</QU> {OFF}"
                 )
-                query_results = information_retrieval2.search(
+                query_results = information_retrieval.search(
                     pubmed_article_ix, qp, qu_output
                 )
                 if query_results:
@@ -508,7 +569,7 @@ if __name__ == "__main__":
                             f"{YELLOW}****************************************************************************************{OFF}\n\n \033[92m [<QUESTION>]{OFF}\n\t{MAGENTA}'{user_question}' {OFF} \n  \033[92m[<ANSWER>]{OFF}\n\t{MAGENTA} {results} {OFF} \n\n{YELLOW}****************************************************************************************{OFF}"
                         )
                         # Cleaning up all generated temp files
-                        # clear_tmp_dir("tmp")
+                        clear_tmp_dir("tmp/live_qa")
                     else:
                         print(
                             f"{RED}The Question Answering model encountered an error when trying to answer your question.{OFF}"
@@ -520,11 +581,4 @@ if __name__ == "__main__":
             n += 1
 
 
-def clear_tmp_dir(dir):
-    print(f"{WHITE}tmp dir cleaning{OFF}")
-    for files in os.listdir(dir):
-        path = os.path.join(dir, files)
-        try:
-            shutil.rmtree(path)
-        except OSError:
-            os.remove(path)
+

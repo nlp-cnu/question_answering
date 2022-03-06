@@ -517,7 +517,7 @@ def do_pmids_eval(gold_df, gen_df):
 
 
 # pmid_report = do_pmids_eval(gold_df,gen_df)
-# We use strict and leniant accuracy  (first result, or any result)
+# We use strict and lenient accuracy  (first result, or any result)
 def do_factoid_eval(gold_df, gen_df, gen_factoid_path):
     print(f"{CYAN}Factoid Evaluation{OFF}")
     factoid_gold_df = gold_df[gold_df["type"] == "factoid"]
@@ -549,7 +549,7 @@ def do_factoid_eval(gold_df, gen_df, gen_factoid_path):
 
     num_gold_q_without_ans = 0
     num_strict = 0
-    num_leniant = 0
+    num_lenient = 0
     num_total = 0
     mrrs = []
     # for each question
@@ -575,9 +575,9 @@ def do_factoid_eval(gold_df, gen_df, gen_factoid_path):
             gold_val_clean == gen_vals_clean[0]
         ):  # force lowercase / strip whitespace to help
             num_strict += 1
-            num_leniant += 1
+            num_lenient += 1
         elif gold_val_clean in gen_vals_clean:
-            num_leniant += 1
+            num_lenient += 1
 
         # mrr calculations
         mrr = 0
@@ -594,7 +594,7 @@ def do_factoid_eval(gold_df, gen_df, gen_factoid_path):
         mrrs.append(mrr)
 
     average_mrr = sum(mrrs) / len(mrrs)
-    leniant_acc = num_leniant / num_total
+    lenient_acc = num_lenient / num_total
     strict_acc = num_strict / num_total
 
     # sanity check
@@ -605,10 +605,10 @@ def do_factoid_eval(gold_df, gen_df, gen_factoid_path):
         f"{GREEN}[{num_total}/{len(gen_factoid_answers)}]{OFF} Factoid questions have answers in generated dataset"
     )
     print(
-        f"Leniant Accuracy: {GREEN}{leniant_acc}{OFF}, Strict Accuracy: {GREEN}{strict_acc}{OFF}, Mean Reciprocal Rank (MRR): {GREEN}{average_mrr}{OFF}"
+        f", Mean Reciprocal Rank (MRR): {GREEN}{average_mrr}{OFF},  Strict Accuracy: {GREEN}{strict_acc}{OFF}, Lenient Accuracy: {GREEN}{lenient_acc}{OFF},"
     )
     print("\n")
-    return leniant_acc, strict_acc, average_mrr, mrrs
+    return lenient_acc, strict_acc, average_mrr, mrrs
 
 
 def do_list_eval(gold_df, gen_df):
@@ -723,16 +723,16 @@ def gen_gold_qu_output(gold_df, gen_folder, xml_name="bioasq_qa.xml"):
     return new_file_name
 
 
-def gen_gold_ir_output(gold_df, gen_folder, gen_xml_name="bioasq_qa.xml"):
-    ir_generated = gen_folder + "/ir/output/" + gen_xml_name
-    new_file_name = ir_generated.replace(".xml", "_GOLD.xml")
+def gen_gold_ir_output(gold_df, gen_folder, xml_name="bioasq_qa.xml"):
+    ir_generated = gen_folder + "/ir/output/" + xml_name
+    new_file_name = ir_generated.replace(".xml", "_GOLD_ABSTRACTS.xml")
 
-    fileTree = et.parse(ir_generated)
-    if fileTree:
-        root = fileTree.getroot()
+    file_tree = et.parse(ir_generated)
+    if file_tree:
+        root = file_tree.getroot()
         questions = root.findall("Q")
         for question in questions:
-            id = question.attrib.get("id")
+            q_id = question.attrib.get("id")
             original_question = question.text
             if DEBUG:
                 print(original_question)
@@ -740,8 +740,8 @@ def gen_gold_ir_output(gold_df, gen_folder, gen_xml_name="bioasq_qa.xml"):
             # remove original generated articles
             ir.clear()
 
-            gold_abstracts = gold_df.loc[gold_df["id"] == id].values[0][8]
-            gold_titles = gold_df.loc[gold_df["id"] == id].values[0][9]
+            gold_abstracts = gold_df.loc[gold_df["id"] == q_id].values[0][8]
+            gold_titles = gold_df.loc[gold_df["id"] == q_id].values[0][9]
             # system just using top abstract atm
             if isinstance(gold_abstracts, list) and gold_abstracts != []:
                 gold_abstract = gold_abstracts[0]
@@ -753,7 +753,7 @@ def gen_gold_ir_output(gold_df, gen_folder, gen_xml_name="bioasq_qa.xml"):
                 gold_title = ""
             # fill result
             result_tag = et.SubElement(ir, "Result")
-            pmid = gold_df.loc[gold_df["id"] == id].values[0][1][0]
+            pmid = gold_df.loc[gold_df["id"] == q_id].values[0][1][0]
             result_tag.set("PMID", pmid)
             title = et.SubElement(result_tag, "Title")
             title.text = gold_title
@@ -993,11 +993,11 @@ def save_results(test_results, save_path, tag):
     if factoid_report:
         fact_name = results_folder + f"/factoid-{timestamp}-{tag}.csv"
         with open(fact_name, "w+") as f:
-            leniant_acc, strict_acc, average_mrr, mrrs = factoid_report
+            lenient_acc, strict_acc, average_mrr, mrrs = factoid_report
             f.write(
-                "Factoid leniant accuracy,Factoid strict accuracy,Factoid average mrr\n"
+                "Factoid average MRR, Factoid strict accuracy, Factoid lenient accuracy,\n"
             )
-            f.write(f"{leniant_acc},{strict_acc},{average_mrr}\n")
+            f.write(f"{average_mrr},{lenient_acc},{strict_acc}\n")
             f.write("mrr\n")
             for mrr in mrrs:
                 f.write(f"{mrr}\n")

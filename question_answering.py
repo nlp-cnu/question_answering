@@ -30,13 +30,13 @@ import time
 from bs4 import BeautifulSoup as bs
 
 # pass formatted json into file that generates answer
-def run_qa_file(filename, output_dir,predict_file, model_num):
+def run_qa_file(filename, output_dir,predict_file, question_type):
     print(f"{MAGENTA}Running {filename}{OFF}")
     # if list/factoid run 1, else run biobert 2
 
-    vocab_file_path = f'bert_models/BERT_squad_{model_num}/vocab.txt'
-    bert_config_file = f'bert_models/BERT_squad_{model_num}/config.json'
-    checkpoint_folder = f'bert_models/BERT_squad_{model_num}'
+    vocab_file_path = f'bert_models/vocab.txt'
+    bert_config_file = f'bert_models/config.json'
+    checkpoint_folder = f'bert_models/new_weights/{question_type}'
     command = f"python {filename} --do_train=False --do_predict=True --vocab_file={vocab_file_path} --bert_config_file={bert_config_file} --init_checkpoint={checkpoint_folder} --output_dir={output_dir} --predict_file={predict_file}"
     print(f"{MAGENTA}Running command: {command}{OFF}")
     os.system(command)
@@ -110,7 +110,7 @@ def setup_file_system(output_dir,batch_mode = False):
     return inputfile_path, outfile_path, factoid_path,yesno_path,list_path
 
 def get_answer(json_data, output_dir, batch_mode = False):
-    id, type, question,abstract = json_data
+    q_id, q_type, question,abstract = json_data
     inputfile_path,outfile_path,factoid_path,yesno_path,list_path = setup_file_system(output_dir)
     # list nbest is used to respond with multiple results
     if(batch_mode):
@@ -118,11 +118,11 @@ def get_answer(json_data, output_dir, batch_mode = False):
         yesno_file_path = yesno_path + "qa_yesno.json"
         list_file_path = list_path + "qa_list.json"
         printing_json = get_json_from_data(json_data)
-        if type == 'yesno':
+        if q_type == 'yesno':
             print_json_to_file(yesno_file_path, printing_json, batch_mode=True)
-        elif type == 'factoid':
+        elif q_type == 'factoid':
             print_json_to_file(factoid_file_path, printing_json, batch_mode=True)
-        elif type == 'list':
+        elif q_type == 'list':
             print_json_to_file(list_file_path, printing_json, batch_mode=True)
         else: # We don't handle the summary case
             return 
@@ -131,13 +131,13 @@ def get_answer(json_data, output_dir, batch_mode = False):
         # Write data in BioASQ format to json file
         good_json_data = get_json_from_data(json_data)
         print_json_to_file(inputfile_path, good_json_data)
-        print(f"{MAGENTA}Question type <{type}>{OFF}")
-        if type == 'yesno':
-            run_qa_file('run_yesno.py',output_dir, predict_file=inputfile_path,model_num=2)
-        elif type == 'factoid':
-            run_qa_file('run_factoid.py',output_dir, predict_file=inputfile_path,model_num=1)
-        elif type == 'list':
-            run_qa_file('run_list.py',output_dir, predict_file=inputfile_path,model_num=1)
+        print(f"{MAGENTA}Question type <{q_type}>{OFF}")
+        if q_type == 'yesno':
+            run_qa_file('run_yesno.py',output_dir, predict_file=inputfile_path,question_type=q_type)
+        elif q_type == 'factoid':
+            run_qa_file('run_factoid.py',output_dir, predict_file=inputfile_path,question_type=q_type)
+        elif q_type == 'list':
+            run_qa_file('run_list.py',output_dir, predict_file=inputfile_path,question_type=q_type)
             list_nbest = output_dir + "nbest_predictions.json"
             # allow for getting multiple predictions
             outfile_path = list_nbest
@@ -189,9 +189,9 @@ def run_batch_mode(input_file,output_dir):
     # We use predictions instead of nbest since yesno only has 2 options
     yesno_preds = yesno_path+"predictions.json" 
     # Run the biobert question answering code on our extracted question dataframes
-    run_qa_file('run_yesno.py',yesno_path, predict_file= yesno_file_path,model_num=2)
-    run_qa_file('run_factoid.py',factoid_path, predict_file= factoid_file_path,model_num=1)
-    run_qa_file('run_list.py',list_path, predict_file= list_file_path,model_num=1)
+    run_qa_file('run_yesno.py',yesno_path, predict_file= yesno_file_path,question_type="yesno")
+    run_qa_file('run_factoid.py',factoid_path, predict_file= factoid_file_path,question_type="factoid")
+    run_qa_file('run_list.py',list_path, predict_file= list_file_path,question_type="list")
     
     # Run the nbest predictions through a file type transformer, then into BioASQ evaluation repo
     while not os.path.exists(list_nbest):
