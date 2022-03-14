@@ -605,7 +605,7 @@ def do_factoid_eval(gold_df, gen_df, gen_factoid_path):
         f"{GREEN}[{num_total}/{len(gen_factoid_answers)}]{OFF} Factoid questions have answers in generated dataset"
     )
     print(
-        f", Mean Reciprocal Rank (MRR): {GREEN}{average_mrr}{OFF},  Strict Accuracy: {GREEN}{strict_acc}{OFF}, Lenient Accuracy: {GREEN}{lenient_acc}{OFF},"
+        f"Mean Reciprocal Rank (MRR): {GREEN}{average_mrr}{OFF}, Strict Accuracy: {GREEN}{strict_acc}{OFF}, Lenient Accuracy: {GREEN}{lenient_acc}{OFF},"
     )
     print("\n")
     return lenient_acc, strict_acc, average_mrr, mrrs
