@@ -1,0 +1,7723 @@
+{
+  "questions": [
+    {
+      "type": "list",
+      "id": "511a20f3df1ebcce7d00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "corneal endothelial deposits"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "511a4d391159fa821200",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "MET"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5131bef65274a5fb0700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "H3K4me2"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5131fa145274a5fb0700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "cystic fibrosis"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "513ce3c8bee46bd34c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "MSX2"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "513f3d1fbee46bd34c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "levothyroxine"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "513f45abbee46bd34c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "orbital"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "514168ab23fec9037500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "bFGF"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5141bcd423fec9037500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "gastrin-17"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "514241fcd24251bc0500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "PSP1"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "51434c74d24251bc0500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Hidden Markov Models"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "51477de5d24251bc0500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "parathyroid and pituitary glands and the endocrine pancreas"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "51486f7dd24251bc0500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Depression"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "51487ef9d24251bc0500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "entacapone"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5148885ad24251bc0500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "ORM1"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5149199dd24251bc0500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "pyridostigmine"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "51492168d24251bc0500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Signs of Depression Scale"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5149a61ed24251bc0500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Hidden Markov Models"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5149aafcd24251bc0500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "PPInterFinder"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5149af96d24251bc0500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "STRING"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "514a11add24251bc0500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "breast cancer"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5150f401d24251bc0500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "categorise online suppliers of Viagra based on their legal status"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "51542dc3d24251bc0500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "enanthema"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5156be75d24251bc0500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "stromal keratitis"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "515870cdd24251bc0500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "OXA-48"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "51595fb0d24251bc0500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Bcl-xL"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "515993f3d24251bc0500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "thyronamines"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "515a7ffdd24251bc0500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "inhibition of cell growth"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "515bd543298dcd4e5100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "16"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "515bf6d6298dcd4e5100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "T-cell lymphoma"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "515c4f05298dcd4e5100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "KCND2"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "515c4f1f298dcd4e5100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "KCND3"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "515d1ff7298dcd4e5100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "pluripotency"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "515d7693298dcd4e5100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "keratin"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "515db020298dcd4e5100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "recent clinical trial results"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "515db20e298dcd4e5100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "sertraline"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "515db70c298dcd4e5100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "partial seizures"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "515de748298dcd4e5100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "imatinib"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "515de993298dcd4e5100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "conflict management"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "515deafd298dcd4e5100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "lymphoid nodular hyperplasia"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "515df86a298dcd4e5100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "epilepsy"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "515ffc2b298dcd4e5100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Aspergillus terreus"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "51600ab3298dcd4e5100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "amyotrophic lateral sclerosis"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "51601071298dcd4e5100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "pathogens where conventional approaches had failed. Bexsero"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5160412d298dcd4e5100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "H4 Lys 20"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "516281e6298dcd4e5100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "titanium dioxide in addition to antiphosphotyrosine antibodies"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5162c8a8298dcd4e5100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "CNOT7"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "51630226298dcd4e5100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "directly"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5165932e298dcd4e5100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "5-methylcytosine"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5166f41a298dcd4e5100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "suramin"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "516c0ebc298dcd4e5100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "iodine nutrition"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "516c0ed3298dcd4e5100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "D1"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "516c3960298dcd4e5100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "DNMT1"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "516e5f25298dcd4e5100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "F14512"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "516ec97f298dcd4e5100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "INDELible"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "517137c18ed59a060a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "CHD7"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5171651e8ed59a060a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Human kallikrein-related peptidase 3"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "51716a438ed59a060a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Softberry"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5171a1498ed59a060a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "BCL6"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "517295c18ed59a060a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "ncRNAs"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5172f8118ed59a060a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "metazoan"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5173b5ea8ed59a060a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "H3K9me2 and H3K27me3"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5173eb428ed59a060a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Alagille syndrome"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "51740da48ed59a060a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "spliced alignment"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "517539af8ed59a060a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "c-MYC, MAX"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "517539ca8ed59a060a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "TRalpha1"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "517539e68ed59a060a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "DNA"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "51766e438ed59a060a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "tRNA(Sec) gene"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "517775c78ed59a060a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "rivastigmine"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "517843638ed59a060a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Long Interspersed Element-1"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "517a8bab8ed59a060a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "type 3"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "517a8bef8ed59a060a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "D1"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "517a8c238ed59a060a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "deiodinases"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "517a8c918ed59a060a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Enteroviruses"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "518ba4b5310faafe0800",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "corticosteroids"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "518cb4b5310faafe0800",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "antiarrhytmic drugs"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "518cb5ab310faafe0800",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "rifabutin and levofloxacin"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "518cca6f310faafe0800",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "miR-23"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "51bdb644047fa84d1d00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "gp210 homodimer or a heterodimer of gp210"
+        ],
+        [
+          "gp210"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "51bdf045047fa84d1d00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "MAP1LC3"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "51be411b047fa84d1d00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "We have developed a novel algorithm"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "52b2d405f828ad283c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "MSC"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "52bf1af803868f1b0600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "familial hypertrophic cardiomyopathy"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "52bf1cb303868f1b0600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "syndactyly, symbrachyphalangism"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "52bf1d6003868f1b0600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Pfeiffer syndrome type 1"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "52bf1dea03868f1b0600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Nalmefene Stimulation of the HPA Axis"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "52bf1f4503868f1b0600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "delusions"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "52bf202003868f1b0600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "epilepsy"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "52bf209303868f1b0600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "ischaemic stroke"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "52d2818403868f1b0600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "transcription activator-like effector nucleases"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "52d832dd98d023950500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "SerP/ThrP-Xaa-Xaa-Ser/Thr"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "52df8ce798d023950500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "vitamins and minerals"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "52e0141498d023950500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "post-embryonic growth retardation"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "52e0c9a298d023950500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "trimethylated histone H3 lysine 9"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "52e203bc98d023950500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "CpG"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "52e6c92598d023950500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "BREAST CANCER"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "52e7b7cb98d023950500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "alcohol"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "52ea605098d023950500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "congenital heart defects"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "52ebb2c698d023950500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "progressive dyspnea"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "52ecf2dd98d023950500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "DIO1"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "52ee065d98d023950500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Breast lesion segmentation"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "52eea509c8da89891000",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "KVLQT1"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "52eeddfcc8da89891000",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "periodic paralysis"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "52ef7754c8da89891000",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "HU"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "52f112bb2059c6d71c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "hMTr1"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "52f129d92059c6d71c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Myotonic dystrophy"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "52f4f1d62059c6d71c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "arrhythmia"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "52f509232059c6d71c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "KCNH2"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "52f5417b2059c6d71c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "BTBR T+ tf/J (BTBR) mice"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "52f893f92059c6d71c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "resistance training"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "52f895602059c6d71c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Fall"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "52f8995b2059c6d71c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "genetic risk factors"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "52f89f4f2059c6d71c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "NBEAL2"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "52f89fd32059c6d71c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "FOG-1"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "52fa73e82059c6d71c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "DOTAP-DOPC"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "52fb42752059c6d71c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "thyronamines"
+        ],
+        [
+          "thyronamine"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "52fb78d82059c6d71c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "BrS1"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "52fc8b772059c6d71c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "quinoline-3-carbonitriles"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "52fc94db2059c6d71c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "vasogenic edema"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5300aad02059c6d71c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "baseball"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5306158358348c0f5200",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "maternal chromosome 15 uniparental disomy"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "53061af558348c0f5200",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "atherosclerosis, osteoarthritis, macular degeneration, and Alzheimer dementia"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5309f8f5970c65fa6b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Nox1- and Nox4-generated ROS play an important role in Ras"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "530a3e18970c65fa6b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Geobacter"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "530c844e970c65fa6b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "DNA (mtDNA) disorders"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "530cefaaad0bf1360c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "alemtuzumab"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "530cf22aa177c6630c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "GINS"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "530cf4d5e2bfff940c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "network-based methods"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "530cf4e0c8a0b4a00c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Arg403-->Gln"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "530cf4fe960c95ad0c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "diuretic"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "530db83b38c132280600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Sef"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "530e0d6e5937551c0900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "endovascular coil embolization"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "530e1c985937551c0900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "mental retardation"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5311b99ae3eabad02100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "vancomycin"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5311bf53e3eabad02100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "flutemetamol"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5311d130e3eabad02100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "amyloid and tau"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5312280ce3eabad02100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "17"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "53137541e3eabad02100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Sox2, Oct3/4 (Pou5f1), Klf4, and c-Myc"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "531375a6e3eabad02100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "myocardial replacement fibrosis"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "531376c8e3eabad02100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "PLN"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5314a7a4dae131f84700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "C84Y"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5314b20bdae131f84700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "fava beans"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5314c7afdae131f84700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Spontaneous periodic hypothermia"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "531778ddb166e2b80600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "adrenocortical cancer"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5318367cb166e2b80600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "phosphatase and tensin homolog-induced putative kinase 1"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5318380bb166e2b80600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "LRPPRC"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "53188992b166e2b80600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "c-kit"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "53189b05b166e2b80600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "lacrimal"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5319a6c9b166e2b80600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "vatalanib"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5319a724b166e2b80600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Huntington disease"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5319abe4b166e2b80600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Twist"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5319abffb166e2b80600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Sonic Hedgehog"
+        ],
+        [
+          "CCN1"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "531b1e3cb166e2b80600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "histone modifications"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "531b3ff3b166e2b80600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "E-cadherin"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "531d7430267d7dd05300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "treatment"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "53215fca9b2d7acc7e00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "MIB"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5321badd9b2d7acc7e00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "prostate cancer"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5322d3cb9b2d7acc7e00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "HDAC6"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5322d9339b2d7acc7e00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "apoptosis"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5324cca79b2d7acc7e00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "diagnosis"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5324cf139b2d7acc7e00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "hot flashes"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5324d0169b2d7acc7e00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "hair loss"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5324d0429b2d7acc7e00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "pruritus"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5326300fd6d3ac6a3400",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "qualitative determination of beta-2-transferrin"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5326c6fed6d3ac6a3400",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "diabetic"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "532ad23ad6d3ac6a3400",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Standard numbering schemes"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "532b15ecd6d3ac6a3400",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "bortezomib"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "532c0ac4d6d3ac6a3400",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "new scaffold recognition"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "532c0c21d6d3ac6a3400",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "pharmacophore mapping"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "532c0d7fd6d3ac6a3400",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Catalyst/HypoGen"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "532f0b2cd6d3ac6a3400",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "cardiovascular"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5333f728d6d3ac6a3400",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "protein interaction networks"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "53355befd6d3ac6a3400",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "GalaxyDock"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "53357c98d6d3ac6a3400",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "gene expression profiles"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "53358cd2d6d3ac6a3400",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "trichothiodystrophy"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5335d4e8d6d3ac6a3400",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "endothelin type A and B"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "533675ced6d3ac6a3400",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "H2AX"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "533c2230c45e13371400",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "neural differentiation"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "533c2a55c45e13371400",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "merlin"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "533c3533c45e13371400",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Interleukin (IL)-17"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "533c384dc45e13371400",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "inactive X chromosome"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "533c3af6c45e13371400",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "familial cylindromatosis (FC), and multiple familial trichoepithelioma"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "533ec7abc45e13371400",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "NELF"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "534ab91eaeec6fbd0700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "VHL, and the mismatch repair gene hMLH1"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "534bb147aeec6fbd0700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "reduced serum cholesterol and serum triglycerides"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "534df8c9aeec6fbd0700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "rheumatoid arthritis"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5354f289288f4dae4700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Cufflinks"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5357b9bcf1005d6b5800",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "T68A, T68D"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5358e067f1005d6b5800",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "IRSp53"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "535d59349a4572de6f00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "sepsis"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "535d5bac7d100faa0900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "varenicline"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5363bad27d100faa0900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "RNCR2"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "54c225bcf693c3b16b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "calsequestrin"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "54c90dabf693c3b16b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "SERCA2a"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "54cf43abf693c3b16b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "sagittal and both lambdoid sutures"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "54cf6d40f693c3b16b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "icatibant and ecallantide"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "54cf705ff693c3b16b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "integrin"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "54d4e03a3706e8952800",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Class I"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "54d646403706e8952800",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "major depressive disorder"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "54d65b6b3706e8952800",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "myelin protein 22"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "54d670163706e8952800",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "melatonin receptor 1B"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "54d77bdf3706e8952800",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "5"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "54d8d60d014675820d00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "vemurafenib"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "54db7217c4c6ce8e1d00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "RyR2, expressed in cardiac muscle; and RyR3"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "54db7c4ac0bb8dce2300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "PKA and Thr17 by Ca(2+) /calmodulin-dependent protein kinase"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "54de15f91388e8454a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "APOBEC3F"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "54df69af1388e8454a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "epirubicin"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "54df6ed91388e8454a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "radiotherapy"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "54dfbed11388e8454a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "A3"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "54dfc6501388e8454a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "host-mediated defense"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "54e061ee1388e8454a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Everolimus"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "54e071e11388e8454a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "fludarabin Ara-C amsacrin"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "54e0ac041388e8454a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "non-LTR retrotransposons"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "54e0dfa91388e8454a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "CRSP130/Sur2"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "54e1252fae9738404b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "dystrophic scarring and joint hypermobility"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "54e22b62ae9738404b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "COL5A1, COL5A2"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "54ecb640445c3b5a5f00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "pancytopenia"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "54edaee3445c3b5a5f00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Rickettsia helvetica"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "54f0920f94afd6150400",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "dexamethasone, cytosine arabinoside and cisplatin"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "54f21b69c409818c3200",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "alcoholic cirrhosis"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "54f431d664850a585400",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "DKC1"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "54f9d3eedd3fc6254400",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "calsequestrin"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "54fb4b34d176fff44500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "c-JUN"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "54fb5720d176fff44500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Sox2, Klf4"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "54fb5c69d176fff44500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Gata4, Mef2c"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "54fb6fb5d176fff44500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "CSL"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "54fc9b236ad7dcbc1200",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "istradefylline"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "54fc9ca16ad7dcbc1200",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "orexin"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "54fe09036ad7dcbc1200",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "AFP"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "54ff30dc6ad7dcbc1200",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Beckwith-Wiedemann syndrome"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "550303a5e9bde6963400",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "chronic obstructive pulmonary disease"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "55031270e9bde6963400",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Shwachman-Diamond syndrome"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "55031286e9bde6963400",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "reticulocytopenia"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "550312b4e9bde6963400",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "RPL5"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5503145ee9bde6963400",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "gefitinib in patients with advanced thyroid cancer"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "55031628e9bde6963400",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Pheochromocytoma"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "550316a6e9bde6963400",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "rheumatoid arthritis"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "550320cbe9bde6963400",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "hypodontia"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5503263fe9bde6963400",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "facial dysmorphism"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "55046d5ff8aee20f2700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "amphiregulin"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5505b9ff8e1671127b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "LC3"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5505c9008e1671127b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Rictor"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5505db6a8e1671127b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "melanin granules"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5505eed08e1671127b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "trypsin"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5506a7a48e1671127b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "protein phosphatase 2B"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5506e2ff8e1671127b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "IKKalpha"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5506eca18e1671127b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "p65"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "550712739d0faaa52700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "RYR2-S4153R"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "55072c803b8a5dc04500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "NOTCH1"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5508685b4b2a315d4100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "ulcerative colitis"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "55086ea1098a1b487b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "non-small cell lung cancer"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5509b6d22e93f0133a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "irradiation"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "550b0408c2af5d5b7000",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "SELEX library"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "550e866271445a662f00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "melanoma"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "550e9d2cb305b40c5c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "pro-adrenomedullin"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5512c1ee6a8cde6b7200",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "p38\u03b3, and p38\u03b4"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "55152bd246478f2f2c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Ezrin"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5516757c46478f2f2c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Upf1, Upf2, and Upf3"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5517f9286487737b4300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "junctate"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "551829a76487737b4300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Pathogen-specific metabolic pathways"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "55184d46622b19434500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Coomassie Blue"
+        ],
+        [
+          "colloidal Coomassie Blue"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5518e817622b19434500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "K-Ras"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "551910d3622b19434500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "GDNF"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "55192f20622b19434500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "RelB"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "551adceb622b19434500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Blood pressure"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5523e47f7b523f212300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "green fluorescent protein"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5523f1a62c8b63434a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "PLN"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "55242d512c8b63434a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "5-HT(2) receptor antagonist"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "552435602c8b63434a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "p16"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5524562387ecba376400",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Sonic Hh, Indian Hh, and Desert Hh"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "552faa43bc4f83e82800",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "GSTM4"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5536554abc4f83e82800",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "D22S1 and D22S15"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5537766dbc4f83e82800",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "microcephaly and growth delay"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5539029cbc4f83e82800",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "PCDH10"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "55391825bc4f83e82800",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "sensorineural hearing loss and generalized cutaneous pigmentary defects"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "55391ce8bc4f83e82800",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Hedgehog"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "553a7a59f32186855800",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Gfi-1b"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "553babc0f32186855800",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "P. gingivalis"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "553c994af32186855800",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Anopheles gambiae"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "553d061cf32186855800",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "ancora"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "553e1aa5a3cf796f7100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "G x C to A x T transition, and a G x C to T x A transversion"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "553f7a71ab98a3711300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "nucleotide excision repair"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "553f96191d53b7642200",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "TUNEL"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "553fa78b1d53b7642200",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "MicroRNAs"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "553fac39c6a509855200",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "PolC"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "553fca6054168f6c7900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "MutY, MutM"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5540eda30083d1bf0e00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "MutL"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "554143ad182542114d00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "sequence"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "55414a763f2354b71300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "TMPDB"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "55414c65472cfd861700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "MedQA"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "55424745ed966d112c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "C/G to T/A"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5542644fed966d112c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "DNA"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "55439140ed966d112c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "C-Phycocyanin"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "554397f6ed966d112c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "azgA"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5543a1b2ee40ea110c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "crystalline PLBs"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "55451e53bf90a1305200",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Mfd"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5547a7e9f35db7552600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "UvrABC"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5547d700f35db7552600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "spastic-flaccid"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5548da00f35db7552600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Myosin 1 beta"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56a37e33496b62f23f00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "palindromic words"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56a39a32496b62f23f00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "ddgraph"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56a3a386496b62f23f00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "JASPAR phyloFACTS"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56a3bf0f496b62f23f00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "GenomicFeatures"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56a92be0a17756b72f00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "SoxB1"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56acc7ca0a360a5e4500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Insyght"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56ae40110a360a5e4500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "DEEP"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56b3a3ce8525abca1e00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "perilipin 1 and fat-specific protein 27"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56b739d976d8bf8d1300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Brainbow"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56bb616dac7ad1001900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "warfarin"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56bcc455d36b5da37800",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "NEABL2"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56bcdf1ad36b5da37800",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "prostate cancer"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56bdfa73ef6e39474100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "urinary impairment"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56be06cdef6e39474100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "retinochoroiditis"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56be0a18ef6e39474100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "pleural effusion"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56be0da3ef6e39474100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "thrombocytopenia"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56be0e4aef6e39474100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "chronic rhinosinusitis"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56be15ffef6e39474100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "atrial septal defect"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56be1723ef6e39474100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "otitis media"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56be2570ef6e39474100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "depressive symptoms postplacement. We know little about personality traits that may be associated with depression"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56bf487def6e39474100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Aip1, Ede1"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56c08702ef6e39474100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "erythropoietic protoporphyria"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56c1d84cef6e39474100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "brainstem reflexes, and respiration"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56c1f000ef6e39474100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "trifluorothymidine"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56c1f005ef6e39474100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "IL-4"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56c1f007ef6e39474100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "cancer treatment modality, termed Tumor Treating Fields (TTFields), with chemotherapeutic treatment"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56c1f030ef6e39474100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "neonatal diabetes"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56c1f034ef6e39474100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Parkinsonism"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56c1f038ef6e39474100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "photophobia"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56c1f043ef6e39474100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Insomnia"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56c3326750c68dd41600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "H3K36me3"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56c3327c50c68dd41600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "C"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56c33e5695c1e7cc5b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "pericentromeric heterochromatin"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56c6dc6f5795f9a73e00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "H3K9me3"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56c6dd275795f9a73e00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Methylation of histone H3 at lysine 9"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56c830635795f9a73e00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "FUS"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56c8605b5795f9a73e00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "JAK1 and JAK2"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56c9f9d95795f9a73e00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "amyotrophic lateral sclerosis"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56cd765b5795f9a73e00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "low ATP"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56cdf3745795f9a73e00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Raptor"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56cf2be73975bb303a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "monoclonal anti-IL-5 antibodies"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56cf4b623975bb303a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "dopamine"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56d06e043975bb303a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "advanced, oestrogen receptor-positive, HER2-negative"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56d094f33975bb303a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "cell division"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56d1d94667f0cb3d6600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "cancer development"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56d1e23c67f0cb3d6600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Vgll1"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56d1fd67f22319765a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Agromyces"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56d29d4df22319765a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "transcriptomics"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56d2ac03f22319765a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Pseudomonas aeruginosa"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56d8b47a51531f7e3300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "deafness and goitre"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56ddbbaf51531f7e3300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "H3K27me3"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56df03c751531f7e3300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "fate"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56e0447a51531f7e3300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "avocado sunblotch"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56e30dd551531f7e3300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "CLOCK"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56e460d051531f7e3300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "wheel-running activity cycles"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56e46ad951531f7e3300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Slit2"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56ebfa13107309bc2f00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Histone posttranslational modifications"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56ed27202ac5ed145900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "adipocyte progenitors into adipocytes"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56f3f0f02ac5ed145900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "CPModule"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56f5692f09dd18d46b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "TREX1"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56f56a8609dd18d46b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "SPINK5 gene"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56f802ea09dd18d46b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "AMPA"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56f8077a8b98c9884900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "cerebellar ataxia"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "56f96333cf1c32585100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "disulphide bonds"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "57090784cf1c32585100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "myelodisplastic syndrome"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "570921e4cf1c32585100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "primate genomes"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5709e4b2cf1c32585100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Dvl-1"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "570a5343cf1c32585100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "R151C, R160W"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "570a6d03cf1c32585100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "gremlin-1"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "570a922dcf1c32585100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "necroptosis"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5713b0a51174fb175500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "non-syndromic sensorineural deafness"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5713b29f1174fb175500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "distal hereditary motor neuropathy type V and Silver's syndrome"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5713bc991174fb175500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "GDAP1"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5713bf261174fb175500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "salivary glands"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "571529efcb4ef8864c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "mersacidin"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "571653aecb4ef8864c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "nanoplasmonics"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "57169b63cb4ef8864c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "GLAST"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5717ab7ccb4ef8864c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "stabilize and induce degradation"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5717cdd2070aa3d07200",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "cyclosporine A"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5718bbb37de986d80d00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Alpers syndrome"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "571cd9537de986d80d00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "caspase-5"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "571ce13f7de986d80d00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "differentiating cells"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "571e189dbb137a4b0c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "empagliflozin"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "571e1e11bb137a4b0c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "type 2 diabetes"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "571e417bbb137a4b0c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "conjugated hyperbilirubinemia"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "571f2b5bbb137a4b0c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "PDCD10"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "571f3b320fd6f91b6800",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "hirsutism, obesity"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "571f5d3e0fd6f91b6800",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Huntington's disease"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5720a8da0fd6f91b6800",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Kleine-Levin syndrome"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "57220e400fd6f91b6800",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "respiratory failure"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "587d2700fe8a08052f00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "dbSUPER"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "587d2b7efe8a08052f00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "130 transcription factor flexible models"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "587d30fb31b33e876000",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "DEEP"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5880b2a6c872c9556500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "interleukin-4 and interleukin-13"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5880b583c872c9556500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "percutaneous coronary intervention"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58839d892305cd7e2100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "protein-coding and microRNA genes related to reproduction"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5883bce3e56acf517600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "ChIP-nexus"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58846be0e56acf517600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Essential Tremor"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5884fe4ce56acf517600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "cervical cancer"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58850e50e56acf517600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "clinical"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "588f220e3b87a8a73800",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "CIRCexplorer"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "588fd8f3621ea6ff7e00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "DeepBlue"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58919aad621ea6ff7e00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "fulvestrant"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58932cd87d9090f35300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "myelodysplastic syndrome"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58948cb47d9090f35300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Mcidas"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5895b7157d9090f35300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "microcephaly"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5895bfdc7d9090f35300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "achalasia"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5895dd6a7d9090f35300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "idiopathic retinal vasculitis, aneurysms, and neuroretinitis"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5895dfc97d9090f35300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "tenofovir"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5895e4637d9090f35300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Metaphyseal dysplasia"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5895e9977d9090f35300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "macular dystrophy"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5895f9cf78275d0c4a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "lymphedema"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58962ed178275d0c4a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "valsartan"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5896deff78275d0c4a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "ledipasvir"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "589a245878275d0c4a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Tokuhashi"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "589a245a78275d0c4a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Migraine Prevention (CHAMP) study is to determine the most effective preventive agent"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "589a246178275d0c4a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "apixaban"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "589a246378275d0c4a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Epilepsy"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "589a246c78275d0c4a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "phentermine/topiramate"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "589aec4778275d0c4a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "viral meningitis"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "589c215778275d0c4a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "gluconolactonase"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "589c42b178275d0c4a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "heparin-induced extracorporeal LDL precipitation"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "589c4c9078275d0c4a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "myalgia"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "589dee3778275d0c4a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "BMP"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58a0c09778275d0c4a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "antidiabetic"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58a0da5278275d0c4a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "toxic epidermal necrolysis"
+        ],
+        [
+          "epidermal necrolysis"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58a2efec60087bc10a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "acidosis"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58a2fac960087bc10a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "hepatotoxicity"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58a326da60087bc10a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "sibutramine"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58a3275960087bc10a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "microcephaly"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58a45d6060087bc10a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Stevens-Johnson syndrome"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58a6c94860087bc10a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "K27M"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58a71f7460087bc10a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Cse4"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58a7fb2860087bc10a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "histamine decarboxylase (HDC) gene"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58a8071760087bc10a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "CID and HCD"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58a80bc838c171fb5b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Cdk1"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58a94483ee23e0236b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Porphyromonas gingivalis"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58adb9919ef3c3403300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "CHD3 and CHD4"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58adca6d9ef3c3403300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "MTREC"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58add1d79ef3c3403300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "sequencing"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58add7699ef3c3403300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Pti1p and Ref2p"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58b52c8822d300530900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Ascher's syndrome"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58b53bf722d300530900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "facial nerve paralysis"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58b548d722d300530900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Corynebacterium diphtheriae"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58bbb71f22d300530900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "RMBase"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58bbbe6822d300530900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Bacteroidetes and Proteobacteria"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58bc666702b8c6095300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Alzheimer's disease"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58bc9a5002b8c6095300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "elevated liver enzymes"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58bd645702b8c6095300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Gordon syndrome"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58bfcb8702b8c6095300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "psoriasis"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58c1b2f702b8c6095300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "antidepressant"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58c6665602b8c6095300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "diabetes"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58c66a4b02b8c6095300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "astrocytic proliferation"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58c6a6c502b8c6095300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "acoustic trauma"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58c99acf02b8c6095300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "surgical repair"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58ca6d3902b8c6095300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "congenital malformation or obstruction of intestinal lymphatic drainage"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58ca746d02b8c6095300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "pre-adipocytes"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58cd59cb02b8c6095300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "attention deficit hyperactivity disorder"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58ce5c7c1f5fb2b73400",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "hydroxamate molecules and siderophores"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58cea0768acda3452900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Tay-Sachs disease"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58d8d8108acda3452900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "ADAMTSL4"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58d8e9bd8acda3452900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "heart failure"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58da14178acda3452900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "22"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58da2a348acda3452900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "alpha-fetoprotein, human chorionic gonadotropin, and unconjugated estriol"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58da5b588acda3452900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "headache"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58da5dc58acda3452900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "CRS type I"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58dbb3f18acda3452900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "alirocumab"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58dcecf58acda3452900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Rix1"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58dd07488acda3452900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "thrombocytopenia"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58de71fa8acda3452900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "INO80"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58dfd83a6fddd3e83e00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "ANGPTL3"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58e0035f6fddd3e83e00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "actin filaments, microtubules, and intermediate filaments"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58e640573e8b6dc87c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "CIRCexplorer"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58e7a1393e8b6dc87c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "interferon-\u03b3"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58ea59273e8b6dc87c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Adenoviral vectors"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58eb2887eda5a5767200",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "variant detection, as well as an alignment at the best possible location in the reference genome"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58eb6061eda5a5767200",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "read error correction"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58ee2515eda5a5767200",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Prevotella intermedia"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58f4b73b70f9fc6f0f00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "mumps, rubella"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "58f8a08370f9fc6f0f00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "ocular ptosis"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "590c740d70f9fc6f0f00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Sterol delta 24-methyltransferase"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5925227670f9fc6f0f00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "HmdUGT"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5a43b2d7966455904c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "RNA-seq"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5a678d63b750ff445500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "redness, swelling, heat, and pain"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5a67a207b750ff445500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "American Academy of Pediatrics"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5a67afb7b750ff445500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "polyneuropathy, organomegaly"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5a68f965b750ff445500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Gardnerella vaginalis"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5a68fd01b750ff445500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "p24"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5a68ff52b750ff445500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "abductor pollicis longus"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5a6a2dcab750ff445500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "HCNEs"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5a6d0b2db750ff445500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "CDC48"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5a6d1143b750ff445500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Ufd1-Npl4"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5a6f7e6ab750ff445500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "beneficence, non-maleficence, respect for autonomy and justice"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5a70ce4ab750ff445500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "COL1A1 or COL1A2"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5a70d12899e2c3af2600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "facial nerve palsy, parotid gland enlargement, anterior uveitis"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5a70dbe599e2c3af2600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "SMAD4"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5a7238d32dc08e987e00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "SGLT2"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5a7240aa2dc08e987e00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Bezlotoxumab"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5a7244aa2dc08e987e00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "inflammation"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5a7339372dc08e987e00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "sofosbuvir/velpatasvir"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5a736efc3b9d13c70800",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "microcephaly"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5a736f0c3b9d13c70800",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "MCV/RBC"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5a737b483b9d13c70800",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Pembrolizumab"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5a7486a90384be955100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "fibroblast growth factor and vascular endothelial growth factor receptor"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5a75df9883b0d9ea6600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "chondromas"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5a75dff883b0d9ea6600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "CR Cistrome"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5a75ee7e83b0d9ea6600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "fatty liver degeneration"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5a75fbf383b0d9ea6600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Janus kinase inhibitor, was shown to have potential efficacy as induction therapy for ulcerative colitis"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5a7600b983b0d9ea6600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "NCT01186744"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5a76018c83b0d9ea6600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "parapagus twins must result from two nearly parallel notochords in close proximity; craniopagi and pygopagi"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5a760e5583b0d9ea6600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "colocalization of histones and transcription start sites"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5a76155c83b0d9ea6600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "assess baricitinib on patient-reported outcomes"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5a76196faacfb9cd4c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "autoimmune hemolytic anemia accompanied by immune thrombocytopenia"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5a76344e9e632bc06600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "NGC"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5a7636d39e632bc06600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "mutational signatures"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5a7723b79e632bc06600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "excessive weight gain"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5a7727f39e632bc06600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "steroid side effects"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5a7d5580faa1ab7d2e00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "[(18)F]THK523, [(18)F]THK5117"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5a82fc89faa1ab7d2e00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "macroH2A"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5a86c938faa1ab7d2e00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "EgrIAA4"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5a86ebf2faa1ab7d2e00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "CLOCK"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5a86f074faa1ab7d2e00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "chordoma"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5a882b5761bb38fb2400",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Aicardi-Gouti\u00e8res syndrome"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5a8842a261bb38fb2400",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "programmed cell death protein 1"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5a8861eb8cb19eca6b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "post-synaptic density (PSD)-95"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5a894f6abc7bade53a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "oesophageal cancer"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5a89a20ffcd1d6a10c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Vascular endothelial growth factors"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5a8a9abdfcd1d6a10c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "TAB3"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5a8afbf2fcd1d6a10c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "tiger"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5a8dc6b4fcd1d6a10c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Infliximab"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5a981bcffcd1d6a10c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "ataxia"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5a981e66fcd1d6a10c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "obesity"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5a99566e1d1251d03b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "antisocial behavior"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5a9d2dd21d1251d03b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "simian-human immunodeficiency\u00a0viruses"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5a9d96564e03427e7300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Hypertension"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5a9eb008d6d6b54f7900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Asian origin that is becoming widespread in North America and Europe"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5aa13fd3d6d6b54f7900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "buprenorphine"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5aa55b65d6d6b54f7900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "streptococcal pharyngotonsillitis"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5aa80873d6d6b54f7900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "rDNA"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5aa82388fcf456587200",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "NLRP3"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5aac5469fcf456587200",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "myalgia"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5aacdcf1fcf456587200",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Bdf1"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5aae6a86fcf456587200",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "UV-B"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5aaef38dfcf456587200",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "diabetes"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5abce6acfcf456587200",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "carbamazepine"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5abcf755fcf456587200",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "herpes zoster"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5abd2ce0fcf456587200",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Actinobacteria"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5abd44b1fcf456587200",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Crescerin"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5ac0f7b919833b0d7b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "TSOAC"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5ac2776195d006272400",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "dentatorubral-pallidoluysian atrophy"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5ac7185f0340b9f05800",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "osteogenic"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5ac721230340b9f05800",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "gastric cancer tumorigenesis"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5ace20fa0340b9f05800",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "PPARA"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5ace34eb0340b9f05800",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "keratins 5"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5ad303970340b9f05800",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "anorexia-cachexia"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5ad4eddf133db5eb7800",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "DNA methylation"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5be2a070133db5eb7800",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "duodenum"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5be44d8b133db5eb7800",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Streptococcus"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5be47df8133db5eb7800",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "16S rRNA sequencing"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5be94f3d133db5eb7800",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "breast cancer"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c0119f3133db5eb7800",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Streptococcus pneumoniae"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c0e82b2133db5eb7800",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "cytokines"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c34a029da8336e21a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Skin"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c34a761da8336e21a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "folate"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c34ad63da8336e21a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Tn916"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c5214207e3cb0e23100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "gene-specific bias"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c53131e7e3cb0e23100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "cough"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c5315727e3cb0e23100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "MERTK"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c544c1707647bbc4b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "AsCNAR"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c55de1607647bbc4b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "myelokathexis"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c561da707647bbc4b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "reference variants"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c56bbb107647bbc4b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "E6V"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c57041807647bbc4b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "adipogenesis"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c580fe107647bbc4b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "gynecological cancer"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c58282e07647bbc4b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "RNA sequencing"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c596ad686df2b917400",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "ITGA4"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c5f03371a4c55d80b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Pcp1"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c5f0f581a4c55d80b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "circulating T-cell subsets"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c5f11c31a4c55d80b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "polyadenylation specificity factor (CPSF) 160"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c5f2dc21a4c55d80b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "inulin"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c61bd04e842deac6700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "valsartan"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c61cdd7e842deac6700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "rilpivirine"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c61f379e842deac6700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "c.1482delinsGCCAGG"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c62a276e842deac6700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "C1QTNF4"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c63286ae842deac6700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Heterozygous mutations in"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c641179e842deac6700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "drastically reduced dbcAMP-induced neurite outgrowth"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c641c60e842deac6700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "MyGene2, matchbox"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c645313e842deac6700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "clustered protocadherin"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c654b3de842deac6700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Multiple Myeloma"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c6585287c78d6947100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Rydapt"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c658a8f7c78d6947100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Acute myeloid leukemia"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c6b15467c78d6947100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "PlantAPA"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c6b7daa7c78d6947100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "telangiectasias"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c6bda9d7c78d6947100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Cistrome"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c6c46677c78d6947100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "PCR"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c6c497d7c78d6947100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "FlatNJ"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c6d6b377c78d6947100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "graphical"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c6d783e7c78d6947100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "ArachnoServer"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c6dfdf27c78d6947100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Nivolumab"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c6e01af7c78d6947100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "cytomegalovirus"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c6e146a7c78d6947100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "glecaprevir"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c6f107c7c78d6947100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "FAK inhibitors PF-562271 or defactinib inhibited FAK"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c6ffa257c78d6947100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "NAGLU"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c6ffdd47c78d6947100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "miR-423-5p"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c7034ae7c78d6947100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "dolutegravir"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c7036127c78d6947100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "robotic cystectomy"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c72a9147c78d6947100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "trifluridine/tipiracil"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c72b6be7c78d6947100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "PI3K-\u03b4 and PI3K-\u03b3"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c72d4c77c78d6947100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Nup60p, Nup2p, and Nup1p"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c72fb4a7c78d6947100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "autosomal recessive syndrome with variable phenotype"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c73ace67c78d6947100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "dystrophic thumbs"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c73acf57c78d6947100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Car, Relax, Alone, Forget, Friends, Trouble"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c73ad057c78d6947100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "palonosetron"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c73ad087c78d6947100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "ivacaftor"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c73ad0f7c78d6947100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "ocular hypertension"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c76c1457c78d6947100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "psoriasis"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c76e6d27c78d6947100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Lysosomal Associated Membrane Protein 1, Cathepsin D, Rab9"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c78174b7c78d6947100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "OMSSA"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c7ab080d774d0424000",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "cyclic dinucleotide"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c7d520ed774d0424000",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "leptin"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c851a8175a4a5d21900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "toxin B"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c851c2675a4a5d21900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "bezlotoxumab"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c88550075a4a5d21900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Ac-hE18A"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c890ff475a4a5d21900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "bronchial asthma"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c8bfe25d558e5f23200",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "bone metabolism"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c8c095e0101eac87000",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "neutrophils"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c8d00980101eac87000",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "BZD9L1"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c8d0a980101eac87000",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "prostate cancer"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c9007460101eac87000",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "ATP/ADP"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c900983ecadf2e73f00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "patisiran"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c928958ecadf2e73f00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "single-reaction multiplexing"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c961281ecadf2e73f00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "rheumatoid arthritis"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c961603ecadf2e73f00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "multiple sclerosis"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c979ffcecadf2e73f00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Toxocara cani and T. cati"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c97f579ecadf2e73f00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "central nervous system"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c990afbecadf2e73f00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "UHRF1"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c9d170cecadf2e73f00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "obesity"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c9d18f1ecadf2e73f00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "MOP receptors"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c9f79c3ecadf2e73f00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "antidietary antibodies"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5c9fb583ecadf2e73f00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Does screening lead to diagnosis, treatment, and improved outcomes"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5ca60a77ecadf2e73f00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "lack the histone marks characteristic of enhancers"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5ca64b5becadf2e73f00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "moesin"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "5ca9f932ecadf2e73f00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "bacterial gene expression"
+        ]
+      ]
+    }
+  ]
+}
