@@ -866,6 +866,7 @@ def run_qa_tests(gold_dataset_path, generation_folder_path, qa_input, tag="gen")
 
 def run_all_the_tests(gold_dataset_path, generation_folder_path, xml_name, tag="gen"):
     factoid_path = generation_folder_path + "/qa/factoid/BioASQform_BioASQ-answer.json"
+    list_path = generation_folder_path + "/qa/list/BioASQform_BioASQ-answer.json"
     generated_qu = generation_folder_path + "/ir/output/" + xml_name
 
     # get gold df
@@ -886,7 +887,7 @@ def run_all_the_tests(gold_dataset_path, generation_folder_path, xml_name, tag="
         type_report = f"TypeReport: Found input variables with inconsistent numbers of samples: [{len(gold_type)}] [{len(gen_type)}]"
     yes_no_report = do_yes_no_eval(gold_df, gen_df)
     factoid_report = do_factoid_eval(gold_df, gen_df, factoid_path)
-    list_report = do_list_eval(gold_df, gen_df)
+    list_report = do_list_eval(gold_df, gen_df,list_path)
 
     test_results = (
         concepts_report,
