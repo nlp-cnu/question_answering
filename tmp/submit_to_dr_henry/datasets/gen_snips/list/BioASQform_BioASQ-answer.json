@@ -8,19 +8,19 @@
       ],
       "exact_answer": [
         [
-          "epidermal growth factor"
+          "single-molecule pull-down"
         ],
         [
-          "growth factor"
+          "low- and high-affinity ligands and oncogenic EGFR mutants.We extended a single-molecule pull-down"
         ],
         [
-          "epidermal growth factor receptor"
+          "pull-down"
         ],
         [
-          "factor"
+          "single-molecule pull"
         ],
         [
-          "epidermal growth"
+          "low- and high-affinity"
         ]
       ]
     },
@@ -38,13 +38,13 @@
           "MEG3 is associated with the\u00a0 development and progression of cancer, suggesting that MEG3"
         ],
         [
-          "MEG3 mediates epithelial-mesenchymal transition (EMT). However, deregulation of MEG3"
+          "MEG3 is associated with the\u00a0 development and progression of cancer"
         ],
         [
-          "MEG"
+          "MEG3 may function as a potential biomarker and therapeutic target"
         ],
         [
-          "epithelial-mesenchymal transition (EMT). However, deregulation of MEG3"
+          "deregulation of MEG3"
         ]
       ]
     },
@@ -56,19 +56,19 @@
       ],
       "exact_answer": [
         [
+          "response to acetylcholinesterase inhibitors and immunomodulatory treatment was unexpectedly poor"
+        ],
+        [
+          "acetylcholinesterase inhibitors and immunomodulatory treatment was unexpectedly poor"
+        ],
+        [
           "acetylcholinesterase inhibitors"
         ],
         [
           "response to acetylcholinesterase inhibitors"
         ],
         [
-          "acetylcholinesterase inhibitor"
-        ],
-        [
           "inhibitors"
-        ],
-        [
-          "acetylcholinesterase inhibitors and immunomodulatory treatment was unexpectedly poor"
         ]
       ]
     },
@@ -80,19 +80,19 @@
       ],
       "exact_answer": [
         [
-          "NLK"
+          "Nlk2"
         ],
         [
-          "Nlk2"
+          "nlk"
         ],
         [
           "NLK, Xenopus nlk"
         ],
         [
-          "NLK, Xenopus nlk and zebrafish nlk"
+          "Nemo"
         ],
         [
-          "Nlk, human NLK"
+          "mouse Nlk, human NLK, Xenopus nlk"
         ]
       ]
     },
@@ -104,19 +104,19 @@
       ],
       "exact_answer": [
         [
-          "cell-cycle arrest"
+          "Cell-Cycle Arrest"
+        ],
+        [
+          "Expansion and Cell-Cycle Arrest"
+        ],
+        [
+          "Expansion"
         ],
         [
           "cell expansion and cell-cycle arrest"
         ],
         [
           "cell expansion"
-        ],
-        [
-          "expansion and cell-cycle arrest"
-        ],
-        [
-          "expansion"
         ]
       ]
     },
@@ -128,19 +128,19 @@
       ],
       "exact_answer": [
         [
-          "reprogramming"
+          "Reprogramming"
         ],
         [
-          "induction of pluripotent stem cells (iPSC) reprogramming"
-        ],
-        [
-          "induction of pluripotent stem cells"
+          "iPSC Reprogramming"
         ],
         [
           "reprogramming legitimacy of a gene response to reprogramming"
         ],
         [
-          "pluripotent stem cells (iPSC) reprogramming"
+          "Reprogramming.We recently developed a concept of reprogramome"
+        ],
+        [
+          "Reprogramming) Response to the Yamanaka Factors in the Initial Stages of Human iPSC Reprogramming"
         ]
       ]
     },
@@ -152,19 +152,19 @@
       ],
       "exact_answer": [
         [
+          "ataxia-neuropathy syndrome"
+        ],
+        [
+          "ataxia-neuropathy syndromes"
+        ],
+        [
           "Alpers syndrome"
         ],
         [
           "Alpers syndrome, progressive external ophthalmoplegia"
         ],
         [
-          "ataxia-neuropathy syndromes"
-        ],
-        [
-          "Alpers syndrome, progressive external ophthalmoplegia, and ataxia-neuropathy syndromes"
-        ],
-        [
-          "ataxia-neuropathy syndrome"
+          "Alpers syndrome, progressive external ophthalmoplegia, and ataxia-neuropathy syndrome"
         ]
       ]
     },
@@ -179,16 +179,16 @@
           "epilepsy"
         ],
         [
-          "depression and anxiety have a high prevalence in adult patients with epilepsy"
+          "mood disorders in adult patients with epilepsy"
         ],
         [
-          "Mood disorders such as depression and anxiety have a high prevalence in adult patients with epilepsy"
+          "pilepsy"
         ],
         [
-          "anxiety have a high prevalence in adult patients with epilepsy"
+          "mood disorders"
         ],
         [
-          "epilepsy, and their evaluation is crucial in choosing the most appropriate antiepileptic"
+          "epile"
         ]
       ]
     },
@@ -236,7 +236,7 @@
           "RNA-decay elements, such as the regulatory elements in nanog and ccna1"
         ],
         [
-          "ccna"
+          "RNA-decay elements, such as the regulatory elements in nanog"
         ]
       ]
     },
@@ -260,7 +260,7 @@
           "superhelicity"
         ],
         [
-          "DNA topology"
+          "topology, in particular negative DNA superhelicity"
         ]
       ]
     },
@@ -272,19 +272,19 @@
       ],
       "exact_answer": [
         [
-          "K280N"
+          "mutations in sarcomere proteins"
         ],
         [
-          "K280"
+          "sarcomere proteins"
         ],
         [
-          "homozygous mutation (K280N)"
+          "Hypertrophic cardiomyopathy (HCM) is a genetic form of left ventricular hypertrophy"
         ],
         [
-          "N"
+          "Hypertrophic cardiomyopathy"
         ],
         [
-          "280N"
+          "mutations in sarcomere proteins.Hypertrophic cardiomyopathy"
         ]
       ]
     },
@@ -296,19 +296,19 @@
       ],
       "exact_answer": [
         [
-          "H3K9me3"
-        ],
-        [
           "tri-methylation of lysine 9"
         ],
         [
           "tri-methylation of lysine 9 on histone H3"
         ],
         [
+          "H3K9me3"
+        ],
+        [
           "tri-methylation of lysine 9 on histone H3 (H3K9me3)"
         ],
         [
-          "H3K9me3 to influence cell identity challenges the original concept of H3K9me3"
+          "tri-methylation"
         ]
       ]
     },
@@ -320,19 +320,19 @@
       ],
       "exact_answer": [
         [
-          "growth arrest, and apoptosis"
+          "c-KIT levels"
         ],
         [
-          "apoptosis"
+          "c-KIT"
         ],
         [
-          "reduced cell viability, growth arrest, and apoptosis"
+          "reduced c-KIT levels"
         ],
         [
-          "growth arrest"
+          "reduced c-KIT"
         ],
         [
-          "reduced cell viability"
+          "pigmented nodular adrenocortical disease"
         ]
       ]
     },
@@ -353,10 +353,10 @@
           "interleukin-4 and interleukin-13"
         ],
         [
-          "interleukin-13 signaling"
+          "4"
         ],
         [
-          "4"
+          "interleukin-13 signaling"
         ]
       ]
     },
@@ -371,16 +371,16 @@
           "CDC45"
         ],
         [
-          "CDC45 (Cell Division Cycle protein 45) gene"
+          "CDC45 (Cell Division Cycle protein 45) gene, located within the LCR22A-LCR22B"
         ],
         [
           "CDC45 (Cell Division Cycle protein 45)"
         ],
         [
-          "Cell Division Cycle protein 45"
+          "CDC45 (Cell Division Cycle protein 45) gene"
         ],
         [
-          "CDC45 (Cell Division Cycle protein 45) gene, located within the LCR22A-LCR22B"
+          "Cell Division Cycle protein 45"
         ]
       ]
     },
@@ -392,19 +392,19 @@
       ],
       "exact_answer": [
         [
-          "acute lymphoblastic leukemia"
+          "Acute Lymphoblastic Leukemia"
         ],
         [
-          "metastatic breast cancer"
+          "Lymphoblastic Leukemia"
         ],
         [
-          "advanced breast cancer"
+          "Leukemia"
         ],
         [
-          "lymphoblastic leukemia"
+          "advanced breast cancer.Here, for the first time, we present a case of acute lymphoblastic leukemia"
         ],
         [
-          "breast cancer"
+          "acute lymphoblastic leukemia that was diagnosed in a patient undergoing treatment with letrozole"
         ]
       ]
     },
@@ -416,19 +416,19 @@
       ],
       "exact_answer": [
         [
-          "weight loss"
+          "Valproate intoxication"
         ],
         [
-          "weight reduction"
+          "intoxication"
         ],
         [
-          "weight loss effect"
+          "Valproate"
         ],
         [
-          "hypoglycemic agents characterized by a weight loss"
+          "Valproate intoxication in a patient with bipolar I disorder"
         ],
         [
-          "weight"
+          "intoxication in a patient with bipolar I disorder"
         ]
       ]
     },
@@ -440,19 +440,19 @@
       ],
       "exact_answer": [
         [
-          "8th"
+          "JASPAR"
+        ],
+        [
+          "JASPAR 2020"
         ],
         [
           "8th release of JASPAR"
         ],
         [
-          "8th release"
+          "2020"
         ],
         [
-          "JASPAR"
-        ],
-        [
-          "In this 8th"
+          "JASPAR 2020: update of the open-access database of transcription factor binding profiles"
         ]
       ]
     },
@@ -470,10 +470,10 @@
           "penicillin antibiotics"
         ],
         [
-          "penicillin antibiotics, a phenotype that is exacerbated by the additional deletion of hbhA"
+          "penicillin anti"
         ],
         [
-          "pen"
+          "MSMEG_1285 enhances Mycobacterium smegmatis resistance to penicillin"
         ],
         [
           "llin"
@@ -491,16 +491,16 @@
           "Fibroblast-like synoviocytes"
         ],
         [
-          "synoviocytes"
+          "Fibroblast"
         ],
         [
-          "Fibroblast"
+          "synoviocytes"
         ],
         [
           "Fibroblast-like"
         ],
         [
-          "Fibroblast-like synoviocytes are the major cell types that make up the synovial intima structure"
+          "fibroblast-like synoviocyte"
         ]
       ]
     },
@@ -515,16 +515,16 @@
           "BCL11B"
         ],
         [
-          "SPRY1"
-        ],
-        [
-          "SPRY1, a repressed target of BCL11B"
-        ],
-        [
-          "SPRY"
-        ],
-        [
           "CL11B"
+        ],
+        [
+          "BCL11B is up-regulated by EWS/FLI and contributes to the transformed phenotype in Ewing sarcoma"
+        ],
+        [
+          "BCL11"
+        ],
+        [
+          "L11B"
         ]
       ]
     },
@@ -542,13 +542,13 @@
           "cutaneous syndrome"
         ],
         [
-          "CYLD cutaneous"
+          "amyotrophic lateral sclerosis"
         ],
         [
           "CYLD cutaneous syndrome, a skin tumour disorder"
         ],
         [
-          "amyotrophic lateral sclerosis"
+          "Frontotemporal dementia"
         ]
       ]
     },
@@ -596,7 +596,7 @@
           "duplication of the PMP22"
         ],
         [
-          "22"
+          "PMP22 gene and hereditary neuropathy with liability to pressure palsy"
         ]
       ]
     },
@@ -608,19 +608,19 @@
       ],
       "exact_answer": [
         [
-          "Polymerase chain reaction"
-        ],
-        [
           "Polymer"
         ],
         [
-          "Polymerase chain reaction analyses of cardiac tissues have detected viral sequences"
+          "Polymerase chain reaction"
         ],
         [
-          "Polymerase chain reaction analyses"
+          "Virome Sequencing in Patients With Myocarditis.Polymer"
         ],
         [
-          "Polymerase chain reaction analyses of cardiac tissues have detected viral"
+          "Virome Sequencing in Patients With Myocarditis.Polymerase chain reaction"
+        ],
+        [
+          "Virome Sequencing"
         ]
       ]
     },
@@ -632,19 +632,19 @@
       ],
       "exact_answer": [
         [
-          "three"
+          "CCM2"
         ],
         [
-          "There are three"
+          "CCMs,-A Novel CCM2"
         ],
         [
-          "three genes considered to be associated with CCMs"
+          "CCMs"
         ],
         [
-          "There are three genes considered to be associated with CCMs"
+          "CCM2 Gene"
         ],
         [
-          "three genes considered"
+          "CCMs,-A Novel CCM2 Gene"
         ]
       ]
     },
@@ -689,10 +689,10 @@
           "CDYL"
         ],
         [
-          "CDYL2 chromodomain"
+          "CDYL, and CDYL2"
         ],
         [
-          "CDY chromodomain"
+          "CDY, CDYL"
         ]
       ]
     },
@@ -716,7 +716,7 @@
           "drugs"
         ],
         [
-          "treatment with psychotropic drugs"
+          "psychotropic drugs.Assessment of oral health-related quality of life"
         ]
       ]
     },
@@ -731,16 +731,16 @@
           "cocoa flavanols"
         ],
         [
-          "cocoa"
+          "flavanols"
         ],
         [
-          "flavanols"
+          "cocoa"
         ],
         [
           "cocoa flavan"
         ],
         [
-          "avanols"
+          "coa flavanols"
         ]
       ]
     },
@@ -752,19 +752,19 @@
       ],
       "exact_answer": [
         [
+          "Atg7"
+        ],
+        [
+          "Atg7, Atg12"
+        ],
+        [
+          "Atg12"
+        ],
+        [
           "Atg5"
         ],
         [
           "Atg5, Atg7"
-        ],
-        [
-          "Atg7"
-        ],
-        [
-          "Atg5, Atg7, Atg12"
-        ],
-        [
-          "Atg7, Atg12"
         ]
       ]
     },
@@ -779,16 +779,16 @@
           "Weaver syndrome"
         ],
         [
-          "Weaver syndrome (OMIM #277590). EED-associated overgrowth (Cohen-Gibson syndrome"
-        ],
-        [
-          "Weaver"
+          "Weaver syndrome (OMIM #277590).EED-associated overgrowth (Cohen-Gibson syndrome"
         ],
         [
           "Cohen-Gibson syndrome"
         ],
         [
-          "Weaver syndrome (OMIM #277590)"
+          "Weaver"
+        ],
+        [
+          "overgrowth"
         ]
       ]
     },
@@ -800,19 +800,19 @@
       ],
       "exact_answer": [
         [
-          "topologically associating domains"
-        ],
-        [
-          "active"
-        ],
-        [
-          "active) and B- (inactive"
+          "higher order chromatin folding"
         ],
         [
           "folding"
         ],
         [
-          "inactive"
+          "chromatin folding"
+        ],
+        [
+          "higher order"
+        ],
+        [
+          "higher"
         ]
       ]
     },
@@ -824,16 +824,16 @@
       ],
       "exact_answer": [
         [
-          "autophagy"
+          "tumour suppression"
         ],
         [
           "apoptosis"
         ],
         [
-          "autophagy, apoptosis"
+          "autophagy"
         ],
         [
-          "tumour suppression"
+          "autophagy, apoptosis"
         ],
         [
           "apoptosis, DNA repair, and tumour suppression"
@@ -851,16 +851,16 @@
           "SFPQ"
         ],
         [
-          "SFPQ as novel regulators of RNA:DNA hybrid related telomere instability. NONO and SFPQ"
-        ],
-        [
           "TERRA binding proteins NONO and SFPQ"
         ],
         [
           "RNA binding proteins SFPQ"
         ],
         [
-          "S"
+          "SFPQ as novel regulators of RNA:DNA hybrid related telomere instability.Our data identify the RNA"
+        ],
+        [
+          "SFPQ as novel regulators of RNA:DNA"
         ]
       ]
     },
@@ -872,19 +872,19 @@
       ],
       "exact_answer": [
         [
-          "R9C PLN mutation"
+          "PLN"
         ],
         [
-          "R9C PLN"
+          "phospholamban (PLN)"
         ],
         [
-          "R9C"
+          "PLN)"
         ],
         [
-          "PLN mutation"
+          "phospholamban"
         ],
         [
-          "R9C PLN mutation showed activation of a hypertrophic phenotype"
+          "mutations in the cardiac protein phospholamban (PLN)"
         ]
       ]
     },
@@ -896,19 +896,19 @@
       ],
       "exact_answer": [
         [
+          "8"
+        ],
+        [
+          "17q.A novel susceptibility locus for moyamoya disease on chromosome 8"
+        ],
+        [
+          "6q, and 17q.A novel susceptibility locus for moyamoya disease on chromosome 8"
+        ],
+        [
+          "3p, 6q, and 17q.A novel susceptibility locus for moyamoya disease on chromosome 8"
+        ],
+        [
           "17"
-        ],
-        [
-          "6q, and 17"
-        ],
-        [
-          "6"
-        ],
-        [
-          "3"
-        ],
-        [
-          "3p, 6q, and 17"
         ]
       ]
     },
@@ -926,13 +926,13 @@
           "N2 numbering"
         ],
         [
-          "N2 numbering). From the location of these residues on the three-dimensional structure of the N8 NA"
-        ],
-        [
           "400"
         ],
         [
-          "numbering"
+          "150, 199, 367, 399, and 400"
+        ],
+        [
+          "N8"
         ]
       ]
     },
@@ -968,16 +968,16 @@
       ],
       "exact_answer": [
         [
+          "excitatory amino acid transporter 5"
+        ],
+        [
           "EAAT5"
         ],
         [
-          "hEAAT5"
+          "5 (hEAAT5v).We recently identified a human-specific splicing form of EAAT5"
         ],
         [
-          "EAAT5, hEAAT5"
-        ],
-        [
-          "hEAAT5v"
+          "excitatory amino acid transporter 5 (hEAAT5v)"
         ],
         [
           "5"
@@ -992,19 +992,19 @@
       ],
       "exact_answer": [
         [
+          "RAS"
+        ],
+        [
           "RAS/MAPK/ERK"
         ],
         [
           "RAS/MAPK"
         ],
         [
-          "RAS"
+          "AKT"
         ],
         [
-          "PI3K/AKT"
-        ],
-        [
-          "PI3K/AKT/mTOR and RAS/MAPK/ERK"
+          "AKT/mTOR and RAS"
         ]
       ]
     },
@@ -1019,16 +1019,16 @@
           "toxic epidermal necrolysis"
         ],
         [
-          "Stevens-Johnson syndrome (SJS)/toxic epidermal necrolysis"
-        ],
-        [
           "Stevens-Johnson syndrome"
         ],
         [
-          "eosinophilia"
+          "Stevens-Johnson syndrome (SJS)/toxic epidermal necrolysis"
         ],
         [
           "drug-induced hypersensitivity syndrome (DIHS) and Stevens-Johnson syndrome"
+        ],
+        [
+          "drug-induced hypersensitivity syndrome"
         ]
       ]
     },
@@ -1040,19 +1040,19 @@
       ],
       "exact_answer": [
         [
-          "D-3-phosphoglycerate dehydrogenase"
-        ],
-        [
-          "D-3-phosphoglycerate dehydrogenase (Phgdh)"
-        ],
-        [
           "Phgdh"
         ],
         [
-          "phosphoglycerate dehydrogenase"
+          "malignancy.Overexpression of Phgdh"
         ],
         [
-          "phosphoglycerate dehydrogenase (Phgdh)"
+          "Analysis"
+        ],
+        [
+          "Analysis of this database identified a number of proteins as being specifically overexpressed"
+        ],
+        [
+          "Overexpression of Phgdh"
         ]
       ]
     },
@@ -1064,19 +1064,19 @@
       ],
       "exact_answer": [
         [
+          "Childhood Dysarthria"
+        ],
+        [
           "Speech Motor Delay"
         ],
         [
           "Speech Motor Delay (26.7%), Childhood Dysarthria"
         ],
         [
-          "Speech Motor Delay (26.7%), Childhood Dysarthria and Childhood Apraxia of Speech"
-        ],
-        [
           "Childhood Dysarthria (37.8%), Speech Motor Delay"
         ],
         [
-          "Ataxia"
+          "Childhood Dysarthria (37.8%), Speech Motor Delay (26.7%), Childhood Dysarthria"
         ]
       ]
     },
@@ -1091,16 +1091,16 @@
           "H3K27me3"
         ],
         [
-          "met"
-        ],
-        [
           "H3K27me3 histone met"
         ],
         [
-          "methylation"
+          "H"
         ],
         [
-          "H"
+          "met"
+        ],
+        [
+          "K27me3"
         ]
       ]
     },
@@ -1112,19 +1112,19 @@
       ],
       "exact_answer": [
         [
-          "warfarin"
+          "Rivaroxaban"
         ],
         [
-          "rivaroxaban (15/10\u00a0mg/d) and warfarin"
+          "ban"
         ],
         [
-          "rivaroxaban"
+          "R"
         ],
         [
-          "rivaroxaban (20/15\u00a0mg/d) versus warfarin"
+          "Rivaroxaban Following Different Dosage Criteria"
         ],
         [
-          "warfarin in Japanese patients with atrial fibrillation. Data about rivaroxaban"
+          "Riva"
         ]
       ]
     },
@@ -1136,19 +1136,19 @@
       ],
       "exact_answer": [
         [
-          "perilipin 2"
+          "indirect immunofluorescent detection of lipid droplet-associated proteins"
         ],
         [
-          "perilipin"
+          "immunofluorescent detection of lipid droplet-associated proteins"
         ],
         [
-          "perilipin 2, a broadly expressed, lipid droplet-associated protein"
+          "Associated Proteins"
         ],
         [
-          "perilipin 2, a broadly expressed, lipid droplet-associated"
+          "indirect immunofluorescent"
         ],
         [
-          "per"
+          "Proteins"
         ]
       ]
     },
@@ -1160,19 +1160,19 @@
       ],
       "exact_answer": [
         [
-          "rheumatoid arthritis"
+          "iron deficiency"
         ],
         [
-          "Anaemia affects quality of life and radiographic outcome in rheumatoid arthritis"
+          "anaemia types, inflammatory activity, anti-cytokine-specific treatment effects and iron deficiency"
         ],
         [
-          "radiographic outcome in rheumatoid arthritis"
+          "inflammatory activity, anti-cytokine-specific treatment effects and iron deficiency"
         ],
         [
-          "arthritis"
+          "iron"
         ],
         [
-          "Anaemia"
+          "anaemia"
         ]
       ]
     },
@@ -1184,19 +1184,19 @@
       ],
       "exact_answer": [
         [
-          "heart"
+          "micro-fluid channel networks complex three-dimensional tissue structures"
         ],
         [
-          "valentine heart"
+          "micro-fluid channel networks"
         ],
         [
-          "micro-fluid channel networks valentine heart"
+          "three-dimensional tissue structures"
         ],
         [
-          "a micro-fluid channel networks valentine heart"
+          "micro-fluid channel"
         ],
         [
-          "heart-like constructs"
+          "micro-fluid channel networks complex three-dimensional tissue"
         ]
       ]
     },
@@ -1211,7 +1211,7 @@
           "KRAS"
         ],
         [
-          "RAS. In the context of pancreatic ductal adenocarcinoma (PDAC), oncogenic KRAS"
+          "RAS.In the context of pancreatic ductal adenocarcinoma (PDAC), oncogenic KRAS"
         ],
         [
           "RAS"
@@ -1232,19 +1232,19 @@
       ],
       "exact_answer": [
         [
-          "glia scars"
-        ],
-        [
           "development"
         ],
         [
-          "glia scars after spinal cord injury"
-        ],
-        [
-          "formation of glia scars"
+          "size of multiple organs, such as liver during development"
         ],
         [
           "liver during development"
+        ],
+        [
+          "controlling the size of multiple organs, such as liver during development"
+        ],
+        [
+          "the size of multiple organs, such as liver during development"
         ]
       ]
     },
@@ -1259,16 +1259,16 @@
           "metabolomics"
         ],
         [
-          "metabolomics, and meta-omics"
+          "proteomics"
         ],
         [
           "proteomics, metabolomics"
         ],
         [
-          "transcriptomics, proteomics, metabolomics"
+          "transcriptomics"
         ],
         [
-          "proteomics"
+          "transcriptomics, proteomics"
         ]
       ]
     },
@@ -1280,19 +1280,19 @@
       ],
       "exact_answer": [
         [
+          "DJ-1"
+        ],
+        [
+          "PINK1, DJ-1"
+        ],
+        [
+          "PINK1"
+        ],
+        [
           "SNCA, LRRK2"
         ],
         [
           "LRRK2"
-        ],
-        [
-          "DJ-1"
-        ],
-        [
-          "DJ-1, and Parkin"
-        ],
-        [
-          "SNCA, LRRK2, and VPS35"
         ]
       ]
     },
@@ -1304,16 +1304,16 @@
       ],
       "exact_answer": [
         [
-          "cancer"
-        ],
-        [
           "cancer cell killing system that kills the cancer cells"
         ],
         [
-          "cancer cell killing system that kills the cancer"
+          "cancer"
         ],
         [
           "cancer cells"
+        ],
+        [
+          "cancer cell killing system that kills the cancer"
         ],
         [
           "cancer cell killing"
@@ -1328,19 +1328,19 @@
       ],
       "exact_answer": [
         [
+          "Osteosarcoma"
+        ],
+        [
           "osteoblasts"
         ],
         [
-          "osteoblast"
+          "Osteosarcoma Cells.Here, we wanted to investigate the role of lamin A in normal osteoblasts"
         ],
         [
-          "osteosarcoma (OS). Here, we wanted to investigate the role of lamin A in normal osteoblasts"
+          "osteoblasts (OBs) and OS"
         ],
         [
-          "osteosarcoma"
-        ],
-        [
-          "osteosarcoma (OS). Here, we wanted to investigate the role of lamin A in normal osteoblast"
+          "osteoblasts (OBs)"
         ]
       ]
     },
@@ -1355,16 +1355,16 @@
           "troponin T"
         ],
         [
-          "aortic root dilatation"
+          "fibrillin 1 (FBN1) gene"
         ],
         [
-          "dolichostenomelia"
-        ],
-        [
-          "cardiac troponin T"
+          "fibrillin 1"
         ],
         [
           "Mutations in the genes for beta-myosin heavy chain, myosin binding protein-C, and cardiac troponin T"
+        ],
+        [
+          "cardiac troponin T"
         ]
       ]
     },
@@ -1376,19 +1376,19 @@
       ],
       "exact_answer": [
         [
+          "VPS35"
+        ],
+        [
+          "VPS35 steers N-Ras"
+        ],
+        [
+          "VPS35 steers N-Ras through the cytosol. Ras"
+        ],
+        [
           "Three RAS genes encode 4 isoforms"
         ],
         [
-          "Three"
-        ],
-        [
-          "RAS genes encode 4 isoforms"
-        ],
-        [
-          "N-Ras"
-        ],
-        [
-          "Three RAS genes encode 4"
+          "VPS35 steers N-Ras through the cytosol"
         ]
       ]
     },
@@ -1400,10 +1400,10 @@
       ],
       "exact_answer": [
         [
-          "SNAI1 interacted with HDAC1"
+          "SNAI1"
         ],
         [
-          "SNAI1"
+          "SNAI1 interacted with HDAC1"
         ],
         [
           "HDAC1"
@@ -1424,19 +1424,19 @@
       ],
       "exact_answer": [
         [
+          "diseases"
+        ],
+        [
           "various diseases"
         ],
         [
           "Genomic imprinting"
         ],
         [
-          "diseases"
+          "underlies various diseases"
         ],
         [
           "imprinting"
-        ],
-        [
-          "Genomic imprint"
         ]
       ]
     },
@@ -1451,16 +1451,16 @@
           "cervical small-cell carcinoma"
         ],
         [
-          "Small-cell carcinoma"
+          "small-cell carcinoma"
+        ],
+        [
+          "cervical small-cell carcinoma associated with Cushing's syndrome"
         ],
         [
           "carcinoma"
         ],
         [
-          "cervical"
-        ],
-        [
-          "cervical small-cell carcinoma associated with Cushing's syndrome"
+          "small-cell carcinoma associated with Cushing's syndrome"
         ]
       ]
     },
@@ -1475,16 +1475,16 @@
           "IRX"
         ],
         [
-          "IRX genes in the etiology of AIS. This study aimed to validate the relationship between the IRX"
+          "IRX Family"
         ],
         [
-          "IRX family"
+          "IRX genes in the etiology of AIS.This study aimed to validate the relationship between the IRX"
         ],
         [
           "IRX genes"
         ],
         [
-          "IRX family may have functional roles in the development of adolescent idiopathic scoliosis (AIS)"
+          "IRX Family in Development of Female Adolescent Idiopathic Scoliosis"
         ]
       ]
     },
@@ -1496,19 +1496,19 @@
       ],
       "exact_answer": [
         [
+          "bupropion"
+        ],
+        [
+          "depression, but off-label bupropion"
+        ],
+        [
+          "depression"
+        ],
+        [
           "selective serotonin reuptake inhibitors"
         ],
         [
-          "selective serotonin reuptake inhibitors (SSRIs) and bupropion"
-        ],
-        [
-          "inhibitors"
-        ],
-        [
-          "selective serotonin reuptake inhibitor"
-        ],
-        [
-          "selective serotonin reuptake inhibitors (SSRIs) and bupropion in overdose"
+          "bupropion prescriptions are common"
         ]
       ]
     },
@@ -1526,10 +1526,10 @@
           "ascites"
         ],
         [
-          "myocarditis"
+          "ascites and pleural effusion"
         ],
         [
-          "ascites and pleural effusion"
+          "myocarditis"
         ],
         [
           "myocarditis with the formation of secondary cardiomyopathy"
@@ -1544,19 +1544,19 @@
       ],
       "exact_answer": [
         [
-          "blood urea nitrogen and creatinine"
+          "blood urea nitrogen"
         ],
         [
           "creatinine"
         ],
         [
-          "blood urea nitrogen"
-        ],
-        [
-          "potassium and chloride as well as blood urea nitrogen and creatinine"
+          "blood urea nitrogen and creatinine"
         ],
         [
           "potassium and chloride as well as blood urea nitrogen"
+        ],
+        [
+          "potassium and chloride as well as blood urea nitrogen and creatinine"
         ]
       ]
     },
@@ -1598,13 +1598,13 @@
           "tryps"
         ],
         [
+          "trypsin dig"
+        ],
+        [
           "trypsin digestion parameters and comparison to in-solution protease"
         ],
         [
           "try"
-        ],
-        [
-          "trypsin dig"
         ]
       ]
     },
@@ -1616,19 +1616,19 @@
       ],
       "exact_answer": [
         [
-          "Hypermobile"
+          "classification"
         ],
         [
           "Hypermobile Ehlers-Danlos syndrome"
         ],
         [
-          "H"
+          "revised Ehlers-Danlos syndrome classification"
         ],
         [
-          "classification, an update much needed since Villefranche nosology, in 1998. Hypermobile"
+          "Hypermobile"
         ],
         [
-          "Hypermobile Ehlers-Danlos syndrome is the only subtype"
+          "classification, an update much needed since Villefranche nosology"
         ]
       ]
     },
@@ -1640,19 +1640,19 @@
       ],
       "exact_answer": [
         [
-          "Dlk1"
+          "Dlk1-Dio3"
         ],
         [
-          "Dlk1-Dio3"
+          "Dlk1"
         ],
         [
           "Dio3"
         ],
         [
-          "Dlk"
+          "iodothyronine deiodinase"
         ],
         [
-          "Dlk1-Dio"
+          "iodothyronine"
         ]
       ]
     },
@@ -1664,19 +1664,19 @@
       ],
       "exact_answer": [
         [
-          "VKORC1 genes. Studies implicate that polymorphisms in VKORC1"
+          "VKORC1 and CYP2C9"
         ],
         [
-          "VKORC1 genes. Studies implicate that polymorphisms in VKORC1 and CYP2C9"
+          "VKORC1 genes.Studies implicate that polymorphisms in VKORC1 and CYP2C9"
         ],
         [
           "VKORC1"
         ],
         [
-          "CYP2C9 and VKORC1 genes. Studies implicate that polymorphisms in VKORC1"
+          "VKORC1 genes.Studies implicate that polymorphisms in VKORC1"
         ],
         [
-          "VKORC1 and CYP2C9"
+          "CYP2C9"
         ]
       ]
     },
@@ -1688,19 +1688,19 @@
       ],
       "exact_answer": [
         [
-          "type-2 diabetes mellitus"
+          "acute kidney injury"
         ],
         [
-          "Sodium-glucose co-transporter-2 (SGLT2)"
+          "acute kidney injury, including need for dialysis and death"
         ],
         [
-          "Sodium-glucose co-transporter-2 (SGLT2) inhibitor drugs"
+          "numerous reports of acute kidney injury"
         ],
         [
-          "Sodium-glucose co-transporter-2 (SGLT2) inhibitor"
+          "acute kidney injury, including need for dialysis"
         ],
         [
-          "Sodium"
+          "reports of acute kidney injury"
         ]
       ]
     },
@@ -1712,19 +1712,19 @@
       ],
       "exact_answer": [
         [
-          "psychosis"
+          "deep venous thrombosis"
         ],
         [
-          "acute psychosis"
+          "schizophrenic"
         ],
         [
-          "osis"
+          "deep venous thrombosis and pulmonary embolism"
         ],
         [
-          "ps"
+          "schizophrenic patients"
         ],
         [
-          "acute ps"
+          "pulmonary embolism"
         ]
       ]
     },
@@ -1766,13 +1766,13 @@
           "ABCA12 gene"
         ],
         [
+          "12"
+        ],
+        [
           "BCA12"
         ],
         [
-          "the ABCA12"
-        ],
-        [
-          "12"
+          "A"
         ]
       ]
     },
@@ -1835,16 +1835,16 @@
           "PGC-1\u03b1"
         ],
         [
-          "PGC-1"
-        ],
-        [
-          "PGC-1\u03b1 transcription"
-        ],
-        [
           "SENP1"
         ],
         [
-          "mitochondrial"
+          "SENP1 regulated mitochondrial"
+        ],
+        [
+          "PGC-1"
+        ],
+        [
+          "SENP1 regulated mitochondrial gene"
         ]
       ]
     },
@@ -1859,16 +1859,16 @@
           "Kymriah"
         ],
         [
+          "(e.g.Kymriah, for B-cell Acute lymphoblastic leukemia treatment; LentiGlobin\u2122"
+        ],
+        [
           "K"
         ],
         [
-          "Kymriah, for B-cell Acute lymphoblastic leukemia treatment; LentiGlobin\u2122"
-        ],
-        [
-          "h"
-        ],
-        [
           "Kymriah, for B-cell Acute lymphoblastic leukemia treatment"
+        ],
+        [
+          "Kymriah, for B-cell Acute lymphoblastic leukemia treatment;"
         ]
       ]
     },
@@ -1880,19 +1880,19 @@
       ],
       "exact_answer": [
         [
+          "gasdermin D reveals a region recognized by inflammatory caspase-11"
+        ],
+        [
           "caspase-11"
         ],
         [
-          "caspase-1 and the noncanonical pathway regulated by mouse caspase-11"
-        ],
-        [
-          "caspase-11 and human caspases-4/5"
-        ],
-        [
-          "caspases-4/5. All inflammatory caspases activate the pyroptosis effector protein gasdermin D"
-        ],
-        [
           "gasdermin D"
+        ],
+        [
+          "gasdermin"
+        ],
+        [
+          "11"
         ]
       ]
     },
@@ -1934,13 +1934,13 @@
           "melatonin"
         ],
         [
-          "receptor"
+          "MT1"
         ],
         [
-          "melatonin receptor agonist"
+          "melatonin receptor agonists.Selective melatonin receptor"
         ],
         [
-          "melatonin receptor agonists"
+          "MT2"
         ]
       ]
     },
@@ -1955,16 +1955,16 @@
           "RBR family"
         ],
         [
+          "phosphoubiquitin"
+        ],
+        [
           "RBR"
         ],
         [
-          "E3 ubiquitin ligase of the RBR family"
+          "phosphoubiquitin-binding interface, provide a model for the phosphoubiquitin"
         ],
         [
-          "E3 ubiquitin ligase of the RBR"
-        ],
-        [
-          "the RBR family"
+          "phosphoubiquitin-parkin"
         ]
       ]
     },
@@ -1976,19 +1976,19 @@
       ],
       "exact_answer": [
         [
-          "RNA splicing and histone modifications is beginning to be recognized"
-        ],
-        [
-          "RNA"
+          "HDACs"
         ],
         [
           "RNA splicing"
         ],
         [
-          "HDACs"
+          "HDACs in splicing.Emerging roles of histone modifications and HDACs in RNA splicing"
         ],
         [
-          "RNA splicing and histone modifications is beginning to be recognized, a lack of knowledge"
+          "HDACs in splicing.Emerging roles of histone modifications and HDACs"
+        ],
+        [
+          "RNA splicing and histone modifications is beginning to be recognized"
         ]
       ]
     },
@@ -2003,16 +2003,16 @@
           "Otolaryngology"
         ],
         [
-          "Otolaryngology (ORL)"
+          "Otolaryngology: A Systematic Review of the Literature, Apple App"
         ],
         [
-          "smartphone applications (apps) disseminated in the field of Otolaryngology"
+          "Otolaryngology: A Systematic Review of the Literature, Apple App Store and the Google Play Store"
         ],
         [
           "Otolaryngo"
         ],
         [
-          "field of Otolaryngology"
+          "O"
         ]
       ]
     },
@@ -2027,16 +2027,16 @@
           "NPM1"
         ],
         [
-          "Npm1 inactivation in adult hematopoietic stem cells results in bone marrow failure. We identify NPM1"
+          "NPM1 mutations lead to altered rRNA"
         ],
         [
-          "nucleophosmin"
+          "NPM1 mutations"
         ],
         [
-          "nucleophosmin (NPM1)"
+          "NPM"
         ],
         [
-          "Npm1 mutation"
+          "NPM1 mutations lead to altered rRNA 2'-O-methylation and cause dyskeratosis congenita.Here"
         ]
       ]
     },
@@ -2051,16 +2051,16 @@
           "Val60Leu"
         ],
         [
-          "Val60Leu variant"
-        ],
-        [
           "'r' Val60Leu"
         ],
         [
-          "Val60"
+          "Val60Leu variant"
         ],
         [
-          "The Val60Leu"
+          "r' Val60Leu"
+        ],
+        [
+          "'r' Val60Leu variant"
         ]
       ]
     },
@@ -2078,13 +2078,13 @@
           "Navarix"
         ],
         [
-          "Na"
-        ],
-        [
           "antagonist Navarixin"
         ],
         [
-          "varixin"
+          "Na"
+        ],
+        [
+          "in"
         ]
       ]
     },
@@ -2096,19 +2096,19 @@
       ],
       "exact_answer": [
         [
+          "catecholaminergic polymorphic ventricular tachycardia"
+        ],
+        [
           "polymorphic ventricular tachycardia"
         ],
         [
-          "polymorphic ventricular tachycardia (CPVT)"
+          "ventricular tachycardia"
         ],
         [
-          "Catecholaminergic polymorphic ventricular tachycardia"
+          "catecholaminergic"
         ],
         [
-          "CPVT"
-        ],
-        [
-          "Catecholaminergic polymorphic ventricular tachycardia (CPVT)"
+          "tachycardia"
         ]
       ]
     },
@@ -2120,19 +2120,19 @@
       ],
       "exact_answer": [
         [
-          "allergic rhinoconjunctivitis"
+          "Seasonal Allergic Rhinitis"
         ],
         [
           "seasonal allergic rhinoconjunctivitis"
         ],
         [
-          "rhinoconjunctivitis"
+          "Allergic Rhinitis"
         ],
         [
-          "itis"
+          "Rhinitis"
         ],
         [
-          "allergic"
+          "allergic rhinoconjunctivitis"
         ]
       ]
     },
@@ -2192,19 +2192,19 @@
       ],
       "exact_answer": [
         [
-          "cancer"
-        ],
-        [
-          "U373 cancer"
-        ],
-        [
           "fractionated scheme"
         ],
         [
           "fractionated scheme, using tumor treating fields"
         ],
         [
-          "cancer cells"
+          "The fractionated scheme"
+        ],
+        [
+          "fraction"
+        ],
+        [
+          "radiotherapy"
         ]
       ]
     },
@@ -2225,10 +2225,10 @@
           "Hedgehog, Notch, WNT, bone morphogenetic protein (BMP), fibroblast growth factor"
         ],
         [
-          "WNT"
+          "fibroblast growth factor"
         ],
         [
-          "fibroblast growth factor"
+          "WNT"
         ]
       ]
     },
@@ -2249,10 +2249,10 @@
           "anti-IL-5"
         ],
         [
-          "IL-5 monoclonal antibodies"
+          "two anti-IL-5 monoclonal antibodies"
         ],
         [
-          "antibodies"
+          "IL-5 monoclonal antibodies"
         ]
       ]
     },
@@ -2267,16 +2267,16 @@
           "immunoglobulin mu-binding protein 2"
         ],
         [
-          "IGHMBP2"
-        ],
-        [
           "immunoglobulin mu-binding protein 2 (IGHMBP2)"
         ],
         [
-          "mu-binding protein 2"
+          "IGHMBP2"
         ],
         [
           "immunoglobulin mu-binding protein"
+        ],
+        [
+          "Rare variants (RV) in immunoglobulin mu-binding protein 2 (IGHMBP2"
         ]
       ]
     },
@@ -2288,19 +2288,19 @@
       ],
       "exact_answer": [
         [
-          "Guanfacin"
+          "tics"
         ],
         [
-          "guanfacin are similar in comorbid disorders and pure ADHD.<br/> CONCLUSION: Guanfacin"
+          "tics, autism spectrum disorder, anxiety and depression.On anxiety symptoms, no effect was reported"
         ],
         [
-          "Stimulants are the first pharmacological choice. Recently, long-acting guanfacin"
+          "tics, autism spectrum disorder, anxiety and depression.On anxiety symptoms, no effect"
         ],
         [
-          "long-acting guanfacin"
+          "oppositional defiant behavior, tics"
         ],
         [
-          "Stimulants"
+          "tics, autism spectrum disorder, anxiety and depression.On anxiety symptoms"
         ]
       ]
     },
@@ -2312,19 +2312,19 @@
       ],
       "exact_answer": [
         [
-          "A2A"
+          "Adenosine A2A Receptor as a Potential Drug Target - Current Status and Future Perspectives"
         ],
         [
-          "A2AAR"
+          "Adenosine A2A Receptor"
         ],
         [
-          "A2A receptor (A2AAR)"
+          "agonists"
         ],
         [
-          "A2A receptor"
+          "Adenosine A2A Receptor as a Potential Drug Target - Current Status and Future Perspectives.Therefore"
         ],
         [
-          "discuss the A2A"
+          "Adenosine A2A"
         ]
       ]
     },
@@ -2372,7 +2372,7 @@
           "Micro"
         ],
         [
-          "mi"
+          "MicroRNAs (miRNAs) are a class"
         ]
       ]
     },
@@ -2411,16 +2411,16 @@
           "abdominal obesity"
         ],
         [
-          "hyperglycemia, abdominal obesity"
-        ],
-        [
           "abdominal obesity, lipid abnormalities and high blood pressure"
         ],
         [
-          "hyperglycemia"
+          "hyperglycemia, abdominal obesity"
         ],
         [
-          "hyperglycemia, abdominal obesity, lipid abnormalities and high blood pressure"
+          "lipid abnormalities and high blood pressure"
+        ],
+        [
+          "type 2 diabetes mellitus"
         ]
       ]
     },
@@ -2432,19 +2432,19 @@
       ],
       "exact_answer": [
         [
-          "duvelisib"
+          "small molecule inhibitors"
         ],
         [
-          "pictilisib"
+          "small molecule"
         ],
         [
-          "GDC0941"
+          "small molecule inhibitor"
         ],
         [
-          "vincristine"
+          "small"
         ],
         [
-          "GDC0941 (pictilisib) and the tubulin inhibitor vincristine"
+          "inhibitors"
         ]
       ]
     },
@@ -2456,19 +2456,19 @@
       ],
       "exact_answer": [
         [
-          "word frequency"
-        ],
-        [
-          "word frequency with problems balancing word length and window size"
-        ],
-        [
-          "word frequency with problems balancing word length"
+          "triplets"
         ],
         [
           "triplets Markov model"
         ],
         [
-          "triplets"
+          "genome signature\" for bacterial genomes based on a triplets"
+        ],
+        [
+          "genome signature\" for bacterial genomes based on a triplets Markov model"
+        ],
+        [
+          "triplets Markov"
         ]
       ]
     },
@@ -2486,13 +2486,13 @@
           "chorioamniotic membrane"
         ],
         [
+          "membranes"
+        ],
+        [
           "chorioamniotic membranes from these patients"
         ],
         [
           "ch"
-        ],
-        [
-          "membranes"
         ]
       ]
     },
@@ -2504,19 +2504,19 @@
       ],
       "exact_answer": [
         [
-          "miR-96"
-        ],
-        [
-          "miR-27a, miR-96"
-        ],
-        [
-          "miR-22, miR-27a, miR-96"
-        ],
-        [
           "miR-223"
         ],
         [
           "miR-142, miR-223"
+        ],
+        [
+          "miR-96, miR-142, miR-223"
+        ],
+        [
+          "miR-96"
+        ],
+        [
+          "miR-142"
         ]
       ]
     },
@@ -2528,19 +2528,19 @@
       ],
       "exact_answer": [
         [
-          "METTL1"
+          "m7G"
         ],
         [
-          "METTL1 methyltransferase"
+          "m7G) is present at mRNA caps and at defined internal positions within tRNAs and rRNAs"
         ],
         [
-          "methyltransferase"
+          "caps and at defined internal positions within tRNAs and rRNAs"
         ],
         [
-          "METTL"
+          "caps"
         ],
         [
-          "METTL1 met"
+          "7-methylguanosine (m7G) is present at mRNA caps"
         ]
       ]
     },
@@ -2552,19 +2552,19 @@
       ],
       "exact_answer": [
         [
-          "Homer1b"
-        ],
-        [
-          "Homer1a antagonizes Homer1b"
-        ],
-        [
-          "Homer1a"
+          "Drebrin"
         ],
         [
           "Homer tetramer promotes actin bundling activity of Drebrin"
         ],
         [
-          "Homer"
+          "Homer1b in promoting Drebrin-stimulated actin bundling.Homer"
+        ],
+        [
+          "Homer1a antagonizes Homer1b in promoting Drebrin-stimulated actin bundling.Homer"
+        ],
+        [
+          "Homer1b"
         ]
       ]
     },
@@ -2576,19 +2576,19 @@
       ],
       "exact_answer": [
         [
-          "clinical trials for drugs to prevent or treat sarcopenia"
-        ],
-        [
-          "drugs to prevent or treat sarcopenia"
-        ],
-        [
-          "sarcopenia"
-        ],
-        [
-          "clinical trials for drugs"
+          "drugs aiming at the treatment of sarcopenia in older adults"
         ],
         [
           "drugs"
+        ],
+        [
+          "ESCEO recommendation for the conduct of clinical trials for drugs"
+        ],
+        [
+          "drugs aiming at the treatment of sarcopenia in older adults.In 2016"
+        ],
+        [
+          "drugs aiming at the treatment of sarcopenia"
         ]
       ]
     },
@@ -2600,19 +2600,19 @@
       ],
       "exact_answer": [
         [
-          "disulfide bonds"
-        ],
-        [
-          "disulfide"
-        ],
-        [
-          "disulfide crosslinks, which are insusceptible to water. Thus, the controlled cleavage of disulfide"
-        ],
-        [
           "hydrogen bonds"
         ],
         [
-          "disulfide crosslink"
+          "disulfide bonds"
+        ],
+        [
+          "ionic"
+        ],
+        [
+          "hydrogen bonds and ionic"
+        ],
+        [
+          "hydrogen"
         ]
       ]
     },
@@ -2627,16 +2627,16 @@
           "sarcoplasmic reticulum calcium-ATPase"
         ],
         [
-          "calcium-ATPase"
-        ],
-        [
-          "ATPase"
+          "intracoronary sarcoplasmic reticulum calcium-ATPase"
         ],
         [
           "sarcoplasmic reticulum calcium"
         ],
         [
-          "Intracoronary sarcoplasmic reticulum calcium-ATPase"
+          "calcium-ATPase"
+        ],
+        [
+          "ATPase"
         ]
       ]
     },
@@ -2651,16 +2651,16 @@
           "BTBD9"
         ],
         [
-          "BTBD9 to a higher risk of RLS. Knockout of BTBD9"
+          "BTBD9 and dopaminergic dysfunction in the pathogenesis of restless legs syndrome"
         ],
         [
-          "polymorphisms in BTBD9"
+          "BTBD9 and dopaminergic dysfunction"
         ],
         [
-          "BTBD9 to a higher risk of RLS"
+          "dop-1"
         ],
         [
-          "BTBD9 to a higher risk"
+          "dop-1, dop-3"
         ]
       ]
     },
@@ -2672,13 +2672,13 @@
       ],
       "exact_answer": [
         [
-          "anhedonia"
-        ],
-        [
           "sedation or anhedonia"
         ],
         [
           "sedation"
+        ],
+        [
+          "anhedonia"
         ],
         [
           "dation or anhedonia"
@@ -2696,19 +2696,19 @@
       ],
       "exact_answer": [
         [
-          "protein-protein interaction (PPI) networks"
-        ],
-        [
           "protein-protein interaction"
         ],
         [
-          "networks"
+          "protein-protein interaction (PPI) networks"
         ],
         [
           "protein-protein interaction (PPI)"
         ],
         [
-          "protein"
+          "(PPI) networks"
+        ],
+        [
+          "interaction"
         ]
       ]
     },
@@ -2723,16 +2723,16 @@
           "PBPs"
         ],
         [
-          "phycobiliproteins (PBPs)"
-        ],
-        [
           "phycobiliproteins"
         ],
         [
-          "(PBPs) are a class of water-soluble macromolecules of cyanobacteria"
+          "phycobiliproteins (PBPs)"
         ],
         [
-          "PBPs) are a class of water-soluble macromolecules of cyanobacteria with a wide range of applications"
+          "phycobiliproteins (PBPs) are a class of water-soluble macromolecules of cyanobacteria"
+        ],
+        [
+          "(PBPs) are a class of water-soluble macromolecules of cyanobacteria"
         ]
       ]
     },
@@ -2753,10 +2753,10 @@
           "consensus methods, topology prediction methods"
         ],
         [
-          "methods"
+          "consensus methods, topology prediction"
         ],
         [
-          "consensus methods, topology prediction"
+          "transmembrane helix prediction methods, consensus methods"
         ]
       ]
     },
@@ -2777,7 +2777,7 @@
           "transforming growth factor \u03b2"
         ],
         [
-          "transforming growth factor \u03b21 (TGF\u03b21). The majority of studies on TGF\u03b21"
+          "transforming growth factor \u03b21 (TGF\u03b21).The majority of studies on TGF\u03b21"
         ],
         [
           "transforming"
@@ -2792,19 +2792,19 @@
       ],
       "exact_answer": [
         [
-          "prostate cancer has recently been challenged due to poor sensitivity. In addition to prostate cancer"
-        ],
-        [
           "prostate cancer"
         ],
         [
-          "prostate cancer, a number of conditions elevate prostate specific antigen"
+          "prostate cancer has recently been challenged due to poor sensitivity. In addition to prostate cancer"
         ],
         [
-          "prostatic hyperplasia"
+          "Prostate Specific Antigen"
         ],
         [
-          "pro"
+          "Prostate specific antigen screening for prostate cancer"
+        ],
+        [
+          "Prostate Specific Antigen Monitoring after Holmium Laser Enucleation of the Prostate"
         ]
       ]
     },
@@ -2840,19 +2840,19 @@
       ],
       "exact_answer": [
         [
-          "coronary syndrome"
-        ],
-        [
           "coronary syndromes"
         ],
         [
-          "acute coronary syndrome"
+          "coronary syndrome"
         ],
         [
           "coronary"
         ],
         [
           "acute coronary syndromes"
+        ],
+        [
+          "acute coronary syndrome"
         ]
       ]
     },
@@ -2864,16 +2864,16 @@
       ],
       "exact_answer": [
         [
-          "Charcot-Marie-Tooth disease-5, and Arts Syndrome"
-        ],
-        [
           "nonsyndromic sensorineural deafness"
         ],
         [
-          "Arts Syndrome"
+          "Charcot-Marie-Tooth disease-5, and Arts Syndrome"
         ],
         [
           "nonsyndromic sensorineural deafness, Charcot-Marie-Tooth disease-5, and Arts Syndrome"
+        ],
+        [
+          "Charcot-Marie-Tooth disease-5"
         ],
         [
           "sensorineural deafness"
@@ -2900,7 +2900,7 @@
           "Janus kinase"
         ],
         [
-          "AAK1"
+          "Janus kinase (JAK)1/JAK"
         ]
       ]
     },
@@ -2921,10 +2921,10 @@
           "shell (coated with magnetic material), and solid"
         ],
         [
-          "shell (coated with magnetic material), and solid (magnetic material dispersed in matrix"
+          "shell (coated with magnetic material), and solid (magnetic material dispersed in matrix)"
         ],
         [
-          "solid"
+          "superparamagnetic/paramagnetic, shell"
         ]
       ]
     },
@@ -2936,19 +2936,19 @@
       ],
       "exact_answer": [
         [
-          "receptor tyrosine kinase inhibitor"
+          "2"
         ],
         [
-          "receptor"
+          "cyclo-oxygenase-2"
         ],
         [
-          "receptor tyrosine kinase"
+          "oxygenase-2"
         ],
         [
-          "kinase inhibitors (e.g. imatinib mesylate) and cyclo-oxygenase-2"
+          "clo-oxygenase-2"
         ],
         [
-          "kinase inhibitor"
+          "2 inhibitors are discussed in"
         ]
       ]
     },
@@ -2972,7 +2972,7 @@
           "lymphangioleiomyomatosis (PLAM)"
         ],
         [
-          "neoplastic senescence"
+          "Pulmonary lymph"
         ]
       ]
     },
@@ -2984,19 +2984,19 @@
       ],
       "exact_answer": [
         [
-          "fatigue"
+          "Thymic Small Cell Carcinoma"
         ],
         [
-          "ptosis, fatigue"
+          "thymic epithelial tumors"
         ],
         [
-          "ptosis"
+          "Anticholinesterase treatment alleviated his symptoms.Thymic Small Cell Carcinoma"
         ],
         [
-          "fatigue, and gait disorder"
+          "Small Cell Carcinoma"
         ],
         [
-          "ptosis, fatigue, and gait disorder"
+          "thymic small cell carcinoma.Based on radiologic findings thymoma"
         ]
       ]
     },
@@ -3008,19 +3008,19 @@
       ],
       "exact_answer": [
         [
-          "CCR4 deadenylase family members, PDE12"
+          "PDE12"
         ],
         [
-          "CCR4 deadenylase family members, PDE12 and CNOT6L"
+          "PDE12/CNOT6L"
         ],
         [
           "CNOT6L"
         ],
         [
-          "PDE12"
+          "NOCT"
         ],
         [
-          "PDE12 and CNOT6L"
+          "NOCT and absent in the deadenylases PDE12"
         ]
       ]
     },
@@ -3035,16 +3035,16 @@
           "CNVRanger"
         ],
         [
-          "CNVRanger R"
-        ],
-        [
-          "CNV"
+          "CNVs with gene expression and quantitative phenotypes.We present the CNVRanger"
         ],
         [
           "C"
         ],
         [
-          "the CNVRanger"
+          "CNVRanger R"
+        ],
+        [
+          "CNVRang"
         ]
       ]
     },
@@ -3068,7 +3068,7 @@
           "Histone H2B monoubiquitination"
         ],
         [
-          "H2Bub1"
+          "monoubiquitination"
         ]
       ]
     },
@@ -3083,16 +3083,16 @@
           "autoimmune diseases"
         ],
         [
-          "autoimmune diseases and cancer"
-        ],
-        [
           "autoimmune diseases and cancers"
         ],
         [
           "autoimmune"
         ],
         [
-          "cancer"
+          "cancers"
+        ],
+        [
+          "autoimmune diseases and cancer"
         ]
       ]
     },
@@ -3110,13 +3110,13 @@
           "circadian clock"
         ],
         [
-          "clock genes. Our results suggest a potential role of the core circadian clock"
+          "core circadian clock"
         ],
         [
-          "circadian clock genes. Our results suggest a potential role of the core circadian clock"
+          "clock gene"
         ],
         [
-          "Core circadian clock"
+          "clock genes.Our results suggest a potential role of the core circadian clock"
         ]
       ]
     },
@@ -3128,19 +3128,19 @@
       ],
       "exact_answer": [
         [
-          "Duchenne muscular dystrophy"
-        ],
-        [
-          "Duchenne muscular dystrophy (DMD). The deltaE50-MD dog model of DMD"
-        ],
-        [
           "deltaE50-MD dog model of DMD"
         ],
         [
-          "Duchenne muscular dystrophy (DMD). The deltaE50-MD dog model"
+          "DMD"
         ],
         [
-          "deltaE50-MD dog model"
+          "The deltaE50-MD dog model of DMD"
+        ],
+        [
+          "deltaE50"
+        ],
+        [
+          "dog model of DMD"
         ]
       ]
     },
@@ -3152,19 +3152,19 @@
       ],
       "exact_answer": [
         [
-          "Premenopausal breast cancer"
+          "239 patients diagnosed before 46 years and without Chompret criteria for LFS"
         ],
         [
-          "breast cancer"
+          "239 patients diagnosed before 46 years and without Chompret criteria for LFS or LFL"
         ],
         [
-          "Premenopausal"
+          "239"
         ],
         [
-          "Premenopausal breast cancer (BC)"
+          "LFL"
         ],
         [
-          "Premenopausal breast"
+          "315 patients unselected for age of diagnosis and family history (FH) and 2) 239"
         ]
       ]
     },
@@ -3182,13 +3182,13 @@
           "4,4'-ethylidenebisphenol, 4,4'-methylenediphenol"
         ],
         [
-          "4,4'-cyclohexylidenebisphenol"
-        ],
-        [
-          "4,4'-dihydroxydiphenyl sulfone"
+          "4,4'-(hexafluoroisopropylidene)diphenol"
         ],
         [
           "4,4'-ethylidenebisphenol"
+        ],
+        [
+          "methylenediphenol"
         ]
       ]
     },
@@ -3209,10 +3209,10 @@
           "minimally invasive surgery is a good choice"
         ],
         [
-          "Rectal locations are very rare, and minimally invasive surgery"
+          "minimal"
         ],
         [
-          "minimally invasive surgery is a good choice for the treatment of rectal GISTs"
+          "minimally invasive surgery is a good choice for the treatment"
         ]
       ]
     },
@@ -3233,10 +3233,10 @@
           "situs inversus"
         ],
         [
-          "sinusitis, bronchiectasis, and situs inversus"
+          "chronic sinusitis, bronchiectasis, and situs inversus"
         ],
         [
-          "sinusitis, bronchiectasis"
+          "chronic sinusitis, bronchiectasis"
         ]
       ]
     },
@@ -3248,19 +3248,19 @@
       ],
       "exact_answer": [
         [
-          "cell cycle"
-        ],
-        [
-          "cell cycle and DNA repair"
+          "antiviral and proliferative"
         ],
         [
           "antiviral"
         ],
         [
-          "antiviral and proliferative"
+          "cell cycle"
         ],
         [
-          "proliferative"
+          "innate immune protection from viral infections"
+        ],
+        [
+          "cell cycle and DNA repair"
         ]
       ]
     },
@@ -3278,13 +3278,13 @@
           "H3K9me2 and 3"
         ],
         [
-          "H3K9me2 and 3-modified chromatin. H3K9me2"
-        ],
-        [
           "3"
         ],
         [
-          "3-modified chromatin. H3K9me2"
+          "H3K9me"
+        ],
+        [
+          "H"
         ]
       ]
     },
@@ -3305,10 +3305,10 @@
           "Op"
         ],
         [
-          "Opicapo"
+          "ne"
         ],
         [
-          "Opicapone is"
+          "Opicapo"
         ]
       ]
     },
@@ -3323,10 +3323,10 @@
           "desmosoma"
         ],
         [
-          "desmosomal"
+          "des"
         ],
         [
-          "des"
+          "desmosomal"
         ],
         [
           "desmos"
@@ -3344,19 +3344,19 @@
       ],
       "exact_answer": [
         [
-          "ryanodine receptor"
-        ],
-        [
-          "ryanodine receptor (RYR2)"
-        ],
-        [
-          "ryanodine receptor (RYR2) gene"
+          "CASQ2"
         ],
         [
           "calsequestrin"
         ],
         [
-          "RYR2"
+          "ryanodine receptor"
+        ],
+        [
+          "calsequestrin (CASQ2) or Triadin"
+        ],
+        [
+          "Triadin"
         ]
       ]
     },
@@ -3374,13 +3374,13 @@
           "Flexi-pharma approach"
         ],
         [
-          "Fl"
-        ],
-        [
           "virtual screening protocol, Flexi-pharma"
         ],
         [
-          "pharmacophore-based virtual screening protocol, Flexi-pharma"
+          "Fl"
+        ],
+        [
+          "Flexi-pharma, that overcomes these limitations. The protocol uses molecular dynamics"
         ]
       ]
     },
@@ -3392,19 +3392,19 @@
       ],
       "exact_answer": [
         [
-          "Ophthalmoplegia and juvenile SpinoCerebellar Ataxia-Epilepsy syndrome"
+          "Mitochondrial neuro-gastro-intestinal encephalomyopathy"
         ],
         [
-          "SpinoCerebellar Ataxia-Epilepsy syndrome"
-        ],
-        [
-          "Epilepsy syndrome"
-        ],
-        [
-          "Ataxia-Epilepsy syndrome"
+          "neuro-gastro-intestinal encephalomyopathy"
         ],
         [
           "Alpers-Huttenlocher hepatopathic poliodystrophy"
+        ],
+        [
+          "mitochondrial DNA depletion syndrome"
+        ],
+        [
+          "Ataxia-Epilepsy syndrome.Mitochondrial neuro-gastro-intestinal encephalomyopathy"
         ]
       ]
     },
@@ -3416,19 +3416,19 @@
       ],
       "exact_answer": [
         [
-          "Detection of EGFR mutations"
+          "gefitinib"
         ],
         [
-          "Detection of EGFR mutations in tumour tissue"
+          "gefitinib as first-line treatment.Detection of EGFR mutations"
         ],
         [
-          "EGFR mutations"
+          "gefitinib as first-line treatment.Detection of EGFR mutations in plasma circulating tumour DNA"
         ],
         [
-          "mutations"
+          "gefitinib as first-line treatment.Detection of EGFR mutations in plasma"
         ],
         [
-          "Detection"
+          "plasma circulating tumour DNA as a selection criterion for first-line gefitinib"
         ]
       ]
     },
@@ -3440,19 +3440,19 @@
       ],
       "exact_answer": [
         [
-          "deiodinase gene single-nucleotide polymorphisms"
-        ],
-        [
           "deiodinase"
         ],
         [
-          "deiodinase gene single-nucleotide polymorphisms (SNPs)"
+          "deiodinase genes"
         ],
         [
-          "deiodinas"
+          "deiodinase genes and prognosis of brain tumor patients.Thyroid hormone"
         ],
         [
-          "deiodinase gene"
+          "deiodinase genes and prognosis of brain tumor patients"
+        ],
+        [
+          "deiodinase gene single-nucleotide polymorphisms"
         ]
       ]
     },
@@ -3467,16 +3467,16 @@
           "nuclear envelope"
         ],
         [
-          "euchromatin"
+          "the nuclear envelope"
         ],
         [
-          "nuclear interior"
-        ],
-        [
-          "interior"
+          "envelope"
         ],
         [
           "interior, whereas silent genomic loci are preferentially associated with the nuclear envelope"
+        ],
+        [
+          "interior"
         ]
       ]
     },
@@ -3494,13 +3494,13 @@
           "promoter"
         ],
         [
+          "cancer tissues"
+        ],
+        [
           "the promoter region"
         ],
         [
           "the promoter"
-        ],
-        [
-          "upstream of the promoter region"
         ]
       ]
     },
@@ -3512,19 +3512,19 @@
       ],
       "exact_answer": [
         [
-          "calreticulin"
+          "Myelofibrosis"
         ],
         [
-          "calreticulin-mutated primary myelofibrosis"
+          "Primary Myelofibrosis"
         ],
         [
-          "ca"
+          "Myelofibrosis.Therefore, this condition may be termed \"acquired gray platelet syndrome"
         ],
         [
-          "calreticulin-mutated"
+          "Primary Myelofibrosis.Therefore, this condition may be termed \"acquired gray platelet syndrome"
         ],
         [
-          "ulin"
+          "Myelo"
         ]
       ]
     },
@@ -3536,19 +3536,19 @@
       ],
       "exact_answer": [
         [
-          "MYEF2"
+          "LSD1 and MYEF2"
         ],
         [
-          "LSD1 and MYEF2"
+          "MYEF2"
         ],
         [
           "LSD1"
         ],
         [
-          "LDB1"
+          "RUNX1 interacts with two novel protein partners, LSD1 and MYEF2"
         ],
         [
-          "RUNX1 has been shown to be part of a large transcription factor complex, together with LDB1"
+          "RUNX1 interacts with two novel protein partners, LSD1"
         ]
       ]
     },
@@ -3560,19 +3560,19 @@
       ],
       "exact_answer": [
         [
-          "Tuberculosis"
+          "tuberculosis"
         ],
         [
           "Tuberculosis (TB)"
         ],
         [
+          "tuberculosis based upon mycobacterial CO dehydrogenase"
+        ],
+        [
+          "mycobacterial CO dehydrogenase. One of the major hurdles in treating tuberculosis"
+        ],
+        [
           "tuberculosis (TB) is the time-consuming and difficult methodology for diagnosis"
-        ],
-        [
-          "mycobacterial metabolism that could, with development, allow rapid point-of-care diagnosis"
-        ],
-        [
-          "mycobacterial conversion of labeled CO to labeled CO2"
         ]
       ]
     },
@@ -3608,19 +3608,19 @@
       ],
       "exact_answer": [
         [
+          "DG"
+        ],
+        [
           "\u03b1-DG and transmembrane \u03b2-DG"
         ],
         [
           "\u03b1-DG"
         ],
         [
-          "DG"
-        ],
-        [
           "\u03b2-DG"
         ],
         [
-          "DG and transmembrane \u03b2-DG"
+          "transmembrane \u03b2-DG"
         ]
       ]
     },
@@ -3635,16 +3635,16 @@
           "DNMT1"
         ],
         [
-          "DNMT1 and DNMT3s"
-        ],
-        [
           "DNMT1 and DNMT3"
         ],
         [
-          "DNMT3s"
+          "DNMT3"
         ],
         [
-          "DNMT3"
+          "DNMT1 and DNMT3s"
+        ],
+        [
+          "DNMT3s"
         ]
       ]
     },
@@ -3668,7 +3668,7 @@
           "L1 and class I, II, and III endogenous retroviruses"
         ],
         [
-          "class I, II, and III endogenous retroviruses"
+          "L1 and class I, II, and III endogenous retroviruses (ERVs)"
         ]
       ]
     },
@@ -3680,19 +3680,19 @@
       ],
       "exact_answer": [
         [
-          "p50"
+          "dimers"
         ],
         [
-          "p50 subunit of NF-kappaB"
+          "dimers amongst themselves in various combinations"
         ],
         [
-          "p50 subunit"
+          "five members forming dimers"
         ],
         [
-          "Nuclear Factor kappa-light-chain-enhancer of activated B cells"
+          "forming dimers"
         ],
         [
-          "NF-kappaB"
+          "family comprises of five members forming dimers"
         ]
       ]
     },
@@ -3710,13 +3710,13 @@
           "electroporation"
         ],
         [
-          "Bilateral in utero electroporation"
-        ],
-        [
-          "DNA plasmid to achieve a particular genetic manipulation. Bilateral in utero electroporation"
-        ],
-        [
           "In utero"
+        ],
+        [
+          "DNA plasmid"
+        ],
+        [
+          "In utero electroporation offers a relatively quick and easy method"
         ]
       ]
     },
@@ -3728,19 +3728,19 @@
       ],
       "exact_answer": [
         [
+          "NRTN"
+        ],
+        [
+          "NRTN, and ARTN"
+        ],
+        [
           "TRK"
         ],
         [
-          "ARTN"
+          "GDNF, NRTN"
         ],
         [
-          "GFR\u03b13 by ARTN"
-        ],
-        [
-          "GFR\u03b13 by ARTN resulted in RET phosphorylation. Interestingly, activation of TrkA"
-        ],
-        [
-          "NRTN"
+          "TrkA.This suggests a physical association between RET and TRK"
         ]
       ]
     },
@@ -3761,10 +3761,10 @@
           "a C5607T"
         ],
         [
-          "C"
+          "single missense mutation associated with Brugada syndrome in the family and detected a C5607T"
         ],
         [
-          "C5607T polymorphism in Korean subjects. A single nucleotide substitution of G"
+          "a C5607T polymorphism"
         ]
       ]
     },
@@ -3776,19 +3776,19 @@
       ],
       "exact_answer": [
         [
+          "hypocellular"
+        ],
+        [
+          "hypocellular bone marrow failure"
+        ],
+        [
+          "hypocellular bone marrow failure-A focus on genomics.Hypocellular"
+        ],
+        [
+          "hypocellular bone marrow failure-A focus on genomics.Hypocellular bone marrow failure (BMF)"
+        ],
+        [
           "Hypocellular bone marrow failure (BMF)"
-        ],
-        [
-          "Hypocellular bone marrow failure"
-        ],
-        [
-          "Hypocellular"
-        ],
-        [
-          "H"
-        ],
-        [
-          "BMF"
         ]
       ]
     },
@@ -3800,19 +3800,19 @@
       ],
       "exact_answer": [
         [
-          "HAIs"
-        ],
-        [
-          "HAIs) and admission swab positivity with ESKAPE or ESBL isolates"
-        ],
-        [
-          "Bokamoso hospital"
-        ],
-        [
           "ESBL isolates"
         ],
         [
-          "Bokamoso hospital, ESKAPE organisms were associated with 50-90% of clinical infections;"
+          "ESBL"
+        ],
+        [
+          "healthcare associated infections (HAIs) and admission swab positivity with ESKAPE or ESBL isolates"
+        ],
+        [
+          "ESKAPE organisms"
+        ],
+        [
+          "ESKAPE"
         ]
       ]
     },
@@ -3824,19 +3824,19 @@
       ],
       "exact_answer": [
         [
-          "Java"
+          "Comparative analysis"
         ],
         [
-          "Using Java"
+          "Comparative"
         ],
         [
-          "alignment"
+          "Comparative analysis of genomic sequences"
         ],
         [
-          "J"
+          "analysis"
         ],
         [
-          "Java, we have developed a new visualization tool"
+          "analysis of genomic sequences"
         ]
       ]
     },
@@ -3857,10 +3857,10 @@
           "cristae organizing system (MICOS)"
         ],
         [
-          "MICOS complex"
+          "cristae organizing system (MICOS) complex"
         ],
         [
-          "cristae organizing system (MICOS) complex"
+          "MICOS complex"
         ]
       ]
     },
@@ -3884,7 +3884,7 @@
           "de novo structure prediction framework"
         ],
         [
-          "chemical shift-based CS-Rosetta"
+          "de novo structure prediction"
         ]
       ]
     },
@@ -3899,16 +3899,16 @@
           "KCNQ1"
         ],
         [
+          "KCNQ1 gene in heterogeneous cardiovascular disorders in the Iranian population The KCNQ1"
+        ],
+        [
           "KCNQ1 gene"
         ],
         [
+          "KCNQ1 gene in heterogeneous cardiovascular disorders in the Iranian population The KCNQ1 gene"
+        ],
+        [
           "The KCNQ1"
-        ],
-        [
-          "The KCNQ1 gene"
-        ],
-        [
-          "KCNQ1 gene has a significant role in long QT syndrome, Jervell and Lange-Nielsen syndrome"
         ]
       ]
     },
@@ -3926,13 +3926,13 @@
           "headache, photophobia"
         ],
         [
-          "photophobia"
+          "fever, headache"
         ],
         [
           "headache, photophobia and irritability along with abducens nerve palsy"
         ],
         [
-          "photophobia and irritability along with abducens nerve palsy"
+          "headache, photophobia and irritability"
         ]
       ]
     },
@@ -3944,19 +3944,19 @@
       ],
       "exact_answer": [
         [
+          "phylogeny reconstruction"
+        ],
+        [
+          "phylogeny reconstruction methods"
+        ],
+        [
           "different genes and gene partitions"
         ],
         [
+          "phylogeny reconstruction methods.We also evaluate the phylogenetic utility of different genes"
+        ],
+        [
           "different genes"
-        ],
-        [
-          "concatenated dataset of four genes"
-        ],
-        [
-          "gene partitions"
-        ],
-        [
-          "genes and gene partitions"
         ]
       ]
     },
@@ -3995,16 +3995,16 @@
           "neonatal diabetes mellitus"
         ],
         [
-          "epilepsy"
+          "epilepsy and neonatal diabetes mellitus"
         ],
         [
-          "epilepsy and neonatal diabetes mellitus"
+          "epilepsy"
         ],
         [
           "diabetes mellitus"
         ],
         [
-          "developmental delay, epilepsy"
+          "developmental delay, epilepsy and neonatal diabetes mellitus"
         ]
       ]
     },
@@ -4022,13 +4022,13 @@
           "RPL35"
         ],
         [
-          "RPL"
-        ],
-        [
           "R"
         ],
         [
-          "heterozygous whole gene deletion in RPL35A"
+          "RPL35A in South Africa"
+        ],
+        [
+          "RPL"
         ]
       ]
     },
@@ -4046,13 +4046,13 @@
           "miyamotoi"
         ],
         [
-          "Lyme borreliosis and relapsing fever group Borrelia. Borrelia miyamotoi"
+          "B. miyamotoi"
         ],
         [
-          "relapsing fever group Borrelia. Borrelia miyamotoi"
+          "relapsing fever group Borrelia.Borrelia miyamotoi"
         ],
         [
-          "fever group Borrelia. Borrelia miyamotoi"
+          "Lyme borreliosis and relapsing fever group Borrelia.Borrelia miyamotoi"
         ]
       ]
     },
@@ -4064,19 +4064,19 @@
       ],
       "exact_answer": [
         [
-          "ETA"
-        ],
-        [
-          "ETA receptor"
-        ],
-        [
           "ETB"
         ],
         [
-          "ETA receptor (ambrisentan) or that block both receptor subtypes (bosentan"
+          "ETB receptor"
         ],
         [
-          "ETB receptor"
+          "ETB receptor, has led to the renaissance of the modified peptide agonist IRL1620"
+        ],
+        [
+          "ETB receptor, has led to the renaissance of the modified peptide agonist"
+        ],
+        [
+          "the ETB"
         ]
       ]
     },
@@ -4091,13 +4091,13 @@
           "corticosteroids"
         ],
         [
-          "topical corticosteroids"
-        ],
-        [
           "budesonide"
         ],
         [
-          "rticosteroids"
+          "topical corticosteroids"
+        ],
+        [
+          "budesonide effervescent tablet in Europe; (2) biologics"
         ],
         [
           "swallowed topical corticosteroids"
@@ -4121,10 +4121,10 @@
           "Paraneoplastic neurological autoimmunity is often associated with small-cell lung cancer"
         ],
         [
-          "small-cell lung cancer (SCLC)"
+          "neurological autoimmunity"
         ],
         [
-          "lung cancer"
+          "small-cell lung cancer (SCLC)"
         ]
       ]
     },
@@ -4160,19 +4160,19 @@
       ],
       "exact_answer": [
         [
-          "PPIN"
-        ],
-        [
           "protein-protein interaction"
         ],
         [
-          "protein-protein interaction network"
+          "in-silico methods predict protein complexes from the ever-increasing protein-protein interaction"
         ],
         [
           "protein"
         ],
         [
-          "protein-protein interaction network (PPIN) as input and output various sub-networks"
+          "protein-protein interaction (PPI) data"
+        ],
+        [
+          "computational"
         ]
       ]
     },
@@ -4187,16 +4187,16 @@
           "recombinant protein"
         ],
         [
-          "recombinant protein DNA technology and reverse vaccinology"
-        ],
-        [
           "recombinant protein DNA technology"
         ],
         [
-          "reverse vaccinology"
+          "recombinant protein DNA technology and reverse vaccinology"
         ],
         [
-          "chemical conjugation, as well as recombinant protein"
+          "vaccine development using chemical conjugation, as well as recombinant protein"
+        ],
+        [
+          "protein"
         ]
       ]
     },
@@ -4208,19 +4208,19 @@
       ],
       "exact_answer": [
         [
-          "thyrotropin"
-        ],
-        [
-          "thy"
-        ],
-        [
           "antibodies"
         ],
         [
-          "antibodies and small-molecule, drug-like compounds. In this review"
+          "TSH analogs, antibodies"
+        ],
+        [
+          "antibodies and small-molecule, drug-like compounds"
         ],
         [
           "A number of different TSHR ligands have been reported, including TSH analogs, antibodies"
+        ],
+        [
+          "TSH"
         ]
       ]
     },
@@ -4235,16 +4235,16 @@
           "multi-gene panel"
         ],
         [
-          "multi"
+          "multi-gene panels (MGPs) are commercially available"
         ],
         [
           "multi-gene"
         ],
         [
-          "a custom-designed multi-gene panel"
+          "multi-gene panels (MGPs)"
         ],
         [
-          "multi-gene panels (MGPs) are commercially available"
+          "a custom-designed multi-gene panel"
         ]
       ]
     },
@@ -4292,7 +4292,7 @@
           "Sox2, Klf4"
         ],
         [
-          "Klf4 and Myc"
+          "Oct4"
         ]
       ]
     },
@@ -4307,16 +4307,16 @@
           "RNA"
         ],
         [
-          "RNA (lincRNA) within the linkage region. The high abundance of lincRNA with respect to reduced Pi15"
-        ],
-        [
-          "Pi15"
+          "RNA (lincRNA) within the linkage region.The high abundance of lincRNA with respect to reduced Pi15"
         ],
         [
           "protease inhibitor 15 (Pi15) gene and a putative long intergenic noncoding RNA"
         ],
         [
-          "Pi15 expression, in conjunction with exertion of longitudinal strain, may be related to RIEL"
+          "Pi15"
+        ],
+        [
+          "protease inhibitor 15"
         ]
       ]
     },
@@ -4328,19 +4328,19 @@
       ],
       "exact_answer": [
         [
+          "narcolepsy"
+        ],
+        [
+          "Excessive daytime sleepiness in narcolepsy"
+        ],
+        [
           "Excessive daytime sleepiness"
         ],
         [
-          "Excessive daytime sleepiness (EDS) is the core complaint of central nervous system"
+          "narcolepsy and central nervous system hypersomnias.Excessive daytime sleepiness"
         ],
         [
-          "Excessive daytime sleepiness (EDS)"
-        ],
-        [
-          "daytime sleepiness"
-        ],
-        [
-          "sleepiness"
+          "central nervous system hypersomnias.Excessive daytime sleepiness"
         ]
       ]
     },
@@ -4355,16 +4355,16 @@
           "V600R"
         ],
         [
-          "Three patients demonstrated partial objective response to BRAF/MEK targeted therapy"
-        ],
-        [
-          "Four"
-        ],
-        [
-          "Four patients in our cohort received BRAF inhibitors"
-        ],
-        [
           "V600R, were not included in BRAF/MEK inhibitors clinical trials"
+        ],
+        [
+          "inhibitors.Patients with the third most common pathologic variant in the BRAF gene, V600R"
+        ],
+        [
+          "R"
+        ],
+        [
+          "V"
         ]
       ]
     },
@@ -4403,13 +4403,13 @@
           "TAZ"
         ],
         [
-          "TAZ (Yes-associated protein/transcriptional coactivator with PDZ binding motif)"
-        ],
-        [
           "PDZ binding motif"
         ],
         [
           "PDZ"
+        ],
+        [
+          "TAZ (Yes-associated protein/transcriptional coactivator with PDZ binding motif)"
         ],
         [
           "YAP/TAZ"
@@ -4427,16 +4427,16 @@
           "E-cadherin"
         ],
         [
-          "E-cadherin. Although silencing mutations and transcriptional repression of the E-cadherin"
+          "cadherin"
         ],
         [
-          "cadherin"
+          "the cell-adhesion protein E-cadherin"
         ],
         [
           "cell-adhesion protein E-cadherin"
         ],
         [
-          "E"
+          "loss of the cell-adhesion protein E-cadherin"
         ]
       ]
     },
@@ -4448,7 +4448,7 @@
       ],
       "exact_answer": [
         [
-          "PTEN"
+          "Pten"
         ],
         [
           "PTEN account for ~10% of cases of autism spectrum disorder (ASD) with coincident macrocephaly"
@@ -4457,10 +4457,10 @@
           "Germline mutations in PTEN"
         ],
         [
-          "macrocephaly"
+          "mouse model with predominantly cytoplasmic localization of Pten"
         ],
         [
-          "mouse"
+          "cytoplasmic localization of Pten"
         ]
       ]
     },
@@ -4472,19 +4472,19 @@
       ],
       "exact_answer": [
         [
-          "ketogenesis"
-        ],
-        [
           "mitophagy"
         ],
         [
-          "ketogenesis, inhibits mTORC1 activation and mitochondrial anabolic pathways"
+          "mitophagy block causes mitochondrial clustering"
         ],
         [
-          "reprograming of metabolic function. In the absence of CLUH, a mitophagy"
+          "mitochondrial clustering"
         ],
         [
-          "metabolic function. In the absence of CLUH, a mitophagy"
+          "signaling"
+        ],
+        [
+          "signaling roles"
         ]
       ]
     },
@@ -4502,13 +4502,13 @@
           "Leifsonia sp"
         ],
         [
-          "Leifsonia sp. on uranium immobilization in soil. The findings implied that Leifsonia"
-        ],
-        [
-          "Leifsonia sp. on uranium immobilization in soil. The findings implied that Leifsonia sp"
-        ],
-        [
           "Le"
+        ],
+        [
+          "Leifsonia s"
+        ],
+        [
+          "Leifson"
         ]
       ]
     },
@@ -4526,13 +4526,13 @@
           "programmed cell death pathway that associates with immune activation, RIP1/RIP3/MLKL necroptosis"
         ],
         [
+          "programmed cell death"
+        ],
+        [
           "MLKL necroptosis"
         ],
         [
-          "cell death pathway that associates with immune activation, RIP1/RIP3/MLKL necroptosis"
-        ],
-        [
-          "programmed cell death"
+          "immune activation, RIP1/RIP3/MLKL necroptosis"
         ]
       ]
     },
@@ -4556,7 +4556,7 @@
           "PNET"
         ],
         [
-          "TMEM209, a critical driver for lung cancer. A functional investigation revealed that PNET1"
+          "PNET1, is a homologue of human TMEM209, a critical driver for lung cancer"
         ]
       ]
     },
@@ -4568,19 +4568,19 @@
       ],
       "exact_answer": [
         [
-          "TGS2"
-        ],
-        [
-          "RGS2 promoter. DNA methylation analysis showed tumor-specific TGS2"
-        ],
-        [
-          "TGS2 promoter methylation in bladder tumors, which results in the loss of TGS2"
-        ],
-        [
           "RGS2"
         ],
         [
           "RGS2 expression by increasing the methylation of CpG nucleotides of the RGS2"
+        ],
+        [
+          "RGS2 by UHRF1 contributes to bladder cancer progression.In bladder cancer cells, UHRF1 inhibits RGS2"
+        ],
+        [
+          "RGS2 promoter"
+        ],
+        [
+          "RGS2 expression by increasing the methylation of CpG nucleotides of the RGS2 promoter"
         ]
       ]
     },
@@ -4592,19 +4592,19 @@
       ],
       "exact_answer": [
         [
+          "ExPasy ProtParam"
+        ],
+        [
           "ExPasy ProtParam tools, self-optimized prediction method with alignment (SOPMA), PSIPRED"
         ],
         [
           "PSIPRED"
         ],
         [
-          "ExPasy ProtParam"
+          "SOPMA"
         ],
         [
           "ExPasy ProtParam tools"
-        ],
-        [
-          "SOPMA"
         ]
       ]
     },
@@ -4628,7 +4628,7 @@
           "retinoblastoma protein (pRB) is required for activity of the CDK4/6 inhibitor, and that loss of pRB"
         ],
         [
-          "pRB"
+          "re"
         ]
       ]
     },
@@ -4652,7 +4652,7 @@
           "4"
         ],
         [
-          "Hem"
+          "DMT1 deficiency"
         ]
       ]
     },
@@ -4664,16 +4664,16 @@
       ],
       "exact_answer": [
         [
-          "TEBP"
-        ],
-        [
           "TEBPs"
         ],
         [
-          "telomere maintenance and protection. The nature of TEBPs"
+          "TE"
         ],
         [
-          "(TEBP) which plays an essential role in telomere maintenance and protection. The nature of TEBPs"
+          "Ps"
+        ],
+        [
+          "TEBPs is well known in higher and some primitive eukaryotes, but it remains undetermined"
         ],
         [
           "TEBPs is well known in higher and some primitive eukaryotes"
@@ -4691,16 +4691,16 @@
           "Neuroticism"
         ],
         [
-          "Neuroticism, Extraversion"
+          "Neuroticism, Extraversion, Openness, Agreeableness, and Conscientiousness"
         ],
         [
-          "Neuroticism, Extraversion, Openness, Agreeableness, and Conscientiousness"
+          "Neuroticism, Extraversion"
         ],
         [
           "Neuroticism, Extraversion, Openness, Agreeableness"
         ],
         [
-          "Neuroticism, Extraversion, Openness"
+          "Conscientiousness"
         ]
       ]
     },
@@ -4712,16 +4712,16 @@
       ],
       "exact_answer": [
         [
-          "tipiracil"
-        ],
-        [
           "trifluridine"
         ],
         [
-          "trifluridine, TFT) and a potent inhibitor of thymidine phosphorylase (tipiracil"
+          "fluoropyrimidine"
         ],
         [
-          "fluoropyrimidine"
+          "tipiracil"
+        ],
+        [
+          "trifluridine, TFT) and a potent inhibitor of thymidine phosphorylase (tipiracil"
         ],
         [
           "tipiracil hydrochloride"
@@ -4736,19 +4736,19 @@
       ],
       "exact_answer": [
         [
-          "bradykinin"
+          "aspirin"
         ],
         [
-          "bradykinin (BK) metabolism"
+          "aspirin or non-steroid anti-inflammatory drugs"
         ],
         [
-          "angiotensin converting enzyme"
+          "non-steroid anti-inflammatory drugs"
         ],
         [
-          "degradation of the bradykinin"
+          "anti-inflammatory drugs"
         ],
         [
-          "(BK) metabolism"
+          "as"
         ]
       ]
     },
@@ -4760,19 +4760,19 @@
       ],
       "exact_answer": [
         [
-          "cardiac function and reduces fibrosis"
+          "ischemic heart failure"
         ],
         [
-          "cardiac function"
+          "ischemic heart failure-induced cardiac remodeling"
+        ],
+        [
+          "heart failure"
         ],
         [
           "fibrosis"
         ],
         [
           "improves cardiac function and reduces fibrosis"
-        ],
-        [
-          "improves cardiac function"
         ]
       ]
     },
@@ -4787,16 +4787,16 @@
           "DDX3X"
         ],
         [
-          "DDX3"
+          "Hox gene expression and cell stress signaling.Thus, DDX3X"
         ],
         [
           "Ddx3x regulates hindbrain patterning and development by controlling Hox"
         ],
         [
-          "DDX3X) is frequently mutated in the Wingless (WNT) and Sonic hedghog"
+          "Hox"
         ],
         [
-          "DDX3X is a medulloblastoma tumor suppressor"
+          "DDX3"
         ]
       ]
     },
@@ -4811,10 +4811,10 @@
           "football, cricket, and rugby"
         ],
         [
-          "cricket, and rugby"
+          "rugby"
         ],
         [
-          "rugby"
+          "cricket, and rugby"
         ],
         [
           "football"
@@ -4838,13 +4838,13 @@
           "parkinsonism, hypoventilation"
         ],
         [
-          "parkinsonism, hypoventilation, weight loss"
-        ],
-        [
           "parkinsonism, hypoventilation, weight loss, and psychiatric symptoms"
         ],
         [
-          "hypoventilation"
+          "parkinsonism, hypoventilation, weight loss"
+        ],
+        [
+          "parkinsonism, hypoventilation, weight loss, and psychiatric"
         ]
       ]
     },
@@ -4859,13 +4859,13 @@
           "Methotrexate"
         ],
         [
-          "Pyrimethamine"
-        ],
-        [
           "Methotrexate (MTX)"
         ],
         [
-          "Pyrimethamine (Pyr)"
+          "Pyrimethamine"
+        ],
+        [
+          "MTX"
         ],
         [
           "Met"
@@ -4880,19 +4880,19 @@
       ],
       "exact_answer": [
         [
-          "IRAK4"
+          "inhibitors"
         ],
         [
-          "Inhibition"
+          "development of TPL2 inhibitors"
         ],
         [
-          "Inhibition of TPL2 blocked both MAPK and NF-kB signaling, and suppressed KRAS-mutant cell growth"
+          "RAS- and MAP3K8-mutant cancers and strongly prompts development of TPL2 inhibitors"
         ],
         [
-          "In"
+          "study"
         ],
         [
-          "Inhibition of TPL2"
+          "strongly prompts development of TPL2 inhibitors"
         ]
       ]
     },
@@ -4904,19 +4904,19 @@
       ],
       "exact_answer": [
         [
-          "photothermolysis"
+          "androgenetic alopecia"
         ],
         [
-          "Laser-induced photothermolysis"
+          "alopecia"
         ],
         [
-          "photothermolysis and the formation of effective routes for transdermal drug delivery"
+          "androgenetic"
         ],
         [
-          "photo"
+          "androgenetic alopecia (AGA)"
         ],
         [
-          "lysis"
+          "alopecia (AGA)"
         ]
       ]
     },
@@ -4952,19 +4952,19 @@
       ],
       "exact_answer": [
         [
-          "cytokinesis"
+          "cell division"
         ],
         [
-          "division machinery, and may generate constrictive forces necessary for cytokinesis"
+          "critical for cell division"
         ],
         [
-          "recruits the division machinery, and may generate constrictive forces necessary for cytokinesis"
+          "division"
         ],
         [
-          "division machinery"
+          "cell division in Caulobacter"
         ],
         [
-          "recruits the division machinery"
+          "functionally critical for cell division"
         ]
       ]
     },
@@ -4976,19 +4976,19 @@
       ],
       "exact_answer": [
         [
-          "Cranfield Genome Browser"
+          "web-based genome browsers"
         ],
         [
-          "CRAMER"
+          "genome browsers"
         ],
         [
-          "Cranfield Genome Browser (CRAMER)"
+          "web-based genome browser"
         ],
         [
-          "Cranfield"
+          "genome browser"
         ],
         [
-          "The Cranfield Genome Browser"
+          "browsers"
         ]
       ]
     },
@@ -5003,16 +5003,16 @@
           "melanoma"
         ],
         [
-          "non-small cell lung cancer"
-        ],
-        [
           "melanoma and non-small cell lung cancer"
         ],
         [
-          "non-small cell lung"
+          "non-small cell lung cancer"
         ],
         [
           "melanoma and non-small cell lung"
+        ],
+        [
+          "non-small cell lung"
         ]
       ]
     },
@@ -5024,19 +5024,19 @@
       ],
       "exact_answer": [
         [
-          "rapamycin"
+          "RHEB-mTOR"
         ],
         [
-          "mechanistic target of rapamycin"
+          "mTOR"
         ],
         [
-          "target of rapamycin"
+          "Sestin2-GATOR2, Rag A/C-mTOR, and RHEB-mTOR"
         ],
         [
-          "rapamycin complex 1"
+          "RHEB"
         ],
         [
-          "mechanistic target of rapamycin complex 1"
+          "Sestin2-GATOR2, Rag A/C-mTOR"
         ]
       ]
     },
@@ -5051,16 +5051,16 @@
           "Inflammatory bowel disease"
         ],
         [
+          "Inflammatory Bowel Disease.Inflammatory bowel disease"
+        ],
+        [
           "Inflammatory bowel disease (IBD)"
         ],
         [
+          "Inflammatory Bowel Disease.Inflammatory bowel disease (IBD)"
+        ],
+        [
           "Inflammatory bowel"
-        ],
-        [
-          "bowel disease"
-        ],
-        [
-          "disease"
         ]
       ]
     },
@@ -5078,13 +5078,13 @@
           "craniosynostosis, midfacial hypoplasia"
         ],
         [
-          "midfacial hypoplasia"
-        ],
-        [
           "craniosynostosis, midfacial hypoplasia, and broad thumbs and toes"
         ],
         [
-          "midfacial hypoplasia, and broad thumbs and toes. The syndrome has been divided into three"
+          "midfacial hypoplasia"
+        ],
+        [
+          "midfacial hypoplasia, and broad thumbs and toes"
         ]
       ]
     },
@@ -5096,19 +5096,19 @@
       ],
       "exact_answer": [
         [
-          "TUNEL"
+          "autophagic vacuole formation"
         ],
         [
-          "TUNEL assay"
+          "autophagic"
         ],
         [
-          "TUNEL ass"
+          "autophagic vacuole"
         ],
         [
-          "light microscopy, transmission electron microscopy, and TUNEL"
+          "auto"
         ],
         [
-          "transmission electron microscopy, and TUNEL"
+          "vacuole formation"
         ]
       ]
     },
@@ -5120,10 +5120,10 @@
       ],
       "exact_answer": [
         [
-          "deletions, uniparental disomy"
+          "deletions"
         ],
         [
-          "deletions"
+          "deletions, uniparental disomy"
         ],
         [
           "uniparental disomy"
@@ -5144,19 +5144,19 @@
       ],
       "exact_answer": [
         [
-          "breast cancer"
+          "recurrence score"
         ],
         [
-          "cancer"
+          "clinical and histopathologic features and recurrence score"
         ],
         [
-          "breast"
+          "clinical and histopathologic features"
         ],
         [
-          "breast cancer and treated at The Ohio State University Comprehensive Cancer"
+          "assessment of clinical and histopathologic features and recurrence score"
         ],
         [
-          "overall and distant disease-free survival in males diagnosed with breast cancer"
+          "clinical"
         ]
       ]
     },
@@ -5168,16 +5168,16 @@
       ],
       "exact_answer": [
         [
-          "met"
-        ],
-        [
           "methyltransferase inhibitors"
         ],
         [
-          "methyltransferases may serve as promising therapeutic targets, and DNA methyltransferase inhibitors"
+          "screening"
         ],
         [
-          "methyltransferases may serve as promising therapeutic targets, and DNA met"
+          "met"
+        ],
+        [
+          "methyltransferases may serve as promising therapeutic targets, and DNA methyltransferase inhibitors"
         ],
         [
           "methyltransferase inhibitor"
@@ -5192,19 +5192,19 @@
       ],
       "exact_answer": [
         [
-          "histone profiles"
-        ],
-        [
-          "accurate annotation of enhancers with detailed information on how histone profiles"
-        ],
-        [
-          "our model produced accurate annotation"
+          "histone marks"
         ],
         [
           "histone modification marks can represent enhancer regions in which histone marks"
         ],
         [
-          "histone marks"
+          "histone marks indicate active or repressed enhancers"
+        ],
+        [
+          "modification marks can represent enhancer regions in which histone marks"
+        ],
+        [
+          "histone modification marks"
         ]
       ]
     },
@@ -5222,13 +5222,13 @@
           "H3 lysine 37"
         ],
         [
-          "K37"
+          "K36"
+        ],
+        [
+          "H3 lysine 37 (H3K37)"
         ],
         [
           "K37, not the neighboring well-studied K36"
-        ],
-        [
-          "histone H3 lysine 37"
         ]
       ]
     },
@@ -5249,10 +5249,10 @@
           "transient ischaemic attack (TIA) or minor stroke need rapid treatment of risk factors"
         ],
         [
-          "risk"
+          "transient ischaemic attack (TIA) or minor stroke"
         ],
         [
-          "transient ischaemic attack (TIA) or minor stroke"
+          "risk"
         ]
       ]
     },
@@ -5273,10 +5273,10 @@
           "eyes, musculoskeletal"
         ],
         [
-          "autosomal dominant disorder of the connective tissue, whose cardinal features affect eyes"
+          "cardinal features affect eyes"
         ],
         [
-          "connective tissue, whose cardinal features affect eyes"
+          "autosomal dominant disorder of the connective tissue, whose cardinal features affect eyes"
         ]
       ]
     },
@@ -5291,16 +5291,16 @@
           "MKK6"
         ],
         [
-          "MAP kinase kinase 6"
+          "B-Raf, MKK6"
         ],
         [
-          "MAP kinase kinase 6 (MKK6)"
+          "M"
         ],
         [
-          "MKK6)"
+          "B-Raf"
         ],
         [
-          "6"
+          "MKK"
         ]
       ]
     },
@@ -5318,13 +5318,13 @@
           "Persistent bacterial bronchitis"
         ],
         [
-          "bronchitis"
+          "wet cough"
+        ],
+        [
+          "cough"
         ],
         [
           "bacterial bronchitis is a common and previously unrecognised cause of wet cough"
-        ],
-        [
-          "Persistent bacterial bronchitis is a common and previously unrecognised cause of wet cough"
         ]
       ]
     },
@@ -5336,16 +5336,16 @@
       ],
       "exact_answer": [
         [
-          "Gata4"
-        ],
-        [
           "Mef2C, Tbx5"
         ],
         [
-          "Gata4, Mef2C, Tbx5"
+          "Gata4"
         ],
         [
           "Tbx5"
+        ],
+        [
+          "Gata4, Mef2C, Tbx5"
         ],
         [
           "Mef2C"
@@ -5360,19 +5360,19 @@
       ],
       "exact_answer": [
         [
-          "pancreatic cells"
-        ],
-        [
           "pancreatic"
         ],
         [
+          "pancreatic cells"
+        ],
+        [
+          "Pancreatic Thyrotropin"
+        ],
+        [
+          "Pancre"
+        ],
+        [
           "pan"
-        ],
-        [
-          "creatic cells"
-        ],
-        [
-          "pancreatic cells. We used thyrotropin receptor (TSHR) knockout mice"
         ]
       ]
     },
@@ -5408,19 +5408,19 @@
       ],
       "exact_answer": [
         [
-          "LINE-1"
-        ],
-        [
           "Long interspersed element class 1"
-        ],
-        [
-          "LINE-1 or L1"
         ],
         [
           "Long interspersed element class 1 (LINE-1 or L1) retrotransposons"
         ],
         [
-          "class 1"
+          "LINE-1"
+        ],
+        [
+          "Long interspersed element"
+        ],
+        [
+          "in\u00a0vivo.Long interspersed element class 1"
         ]
       ]
     },
@@ -5432,19 +5432,19 @@
       ],
       "exact_answer": [
         [
-          "myelodysplastic syndrome"
+          "congenital erythroid aplasia"
         ],
         [
-          "myelodysplastic syndrome in 3 patients; breast cancer"
+          "erythroid aplasia"
         ],
         [
-          "myelodysplastic syndrome in 3 patients; breast cancer in 2 patients; colorectal cancer"
+          "rare congenital erythroid aplasia"
         ],
         [
-          "breast cancer"
+          "congenital erythroid aplasia, underlied by haploinsufficient mutations"
         ],
         [
-          "colorectal cancer plus ocular tumor, diffuse large B-cell lymphoma"
+          "congenital erythroid"
         ]
       ]
     },
@@ -5456,19 +5456,19 @@
       ],
       "exact_answer": [
         [
-          "transcription"
+          "M1BP"
         ],
         [
-          "transcription factors"
+          "Ubx and AbdA collaborate with the transcription pausing factor M1BP"
         ],
         [
-          "transcription factors play in transitioning paused Pol II into productive Pol II is, however, little"
+          "AbdA collaborate with the transcription pausing factor M1BP"
         ],
         [
-          "transcription factors play in transitioning paused Pol II into productive Pol II is"
+          "Ubx and AbdA"
         ],
         [
-          "transcription factors play in transitioning paused Pol II into productive Pol II"
+          "AbdA"
         ]
       ]
     },
@@ -5507,16 +5507,16 @@
           "hypothyroidism"
         ],
         [
-          "iatrogenic hypothyroidism"
+          "Levothyroxine malabsorption"
         ],
         [
-          "hypothyroidism treated with thyroxine"
+          "Levothyroxine malabsorption has been reported following gastric bypass"
         ],
         [
           "levothyroxine"
         ],
         [
-          "food, and other factors. We present a 35-year-old woman with longstanding iatrogenic hypothyroidism"
+          "iatrogenic hypothyroidism"
         ]
       ]
     },
@@ -5552,19 +5552,19 @@
       ],
       "exact_answer": [
         [
-          "FRODOCK, and HawkDock"
+          "MDockPeP, HPEPDOCK"
         ],
         [
-          "ZDOCK"
+          "HawkDock), three small molecule docking programs (GOLD, Surflex-Dock"
+        ],
+        [
+          "MDockPeP, HPEPDOCK, CABS-dock"
         ],
         [
           "FRODOCK"
         ],
         [
-          "FRODOCK, and HawkDock), three small molecule docking programs (GOLD, Surflex-Dock"
-        ],
-        [
-          "ZDOCK, FRODOCK, and HawkDock"
+          "ZDOCK"
         ]
       ]
     },
@@ -5588,7 +5588,7 @@
           "the human NBEAL2"
         ],
         [
-          "human NBEAL2"
+          "Mutations in the human NBEAL2"
         ]
       ]
     },
@@ -5603,16 +5603,16 @@
           "ryanodine receptor"
         ],
         [
+          "calcium release channel"
+        ],
+        [
           "calcium release channel/ryanodine receptor"
         ],
         [
-          "ryanodine receptor gene (RYR2)"
+          "ryanodine receptor gene"
         ],
         [
-          "ryanodine receptor gene (RYR2) are identified in the majority of patients with CPVT"
-        ],
-        [
-          "calcium release channel/ryanodine receptor gene (RYR2)"
+          "calcium release channel/ryanodine receptor gene"
         ]
       ]
     },
@@ -5624,19 +5624,19 @@
       ],
       "exact_answer": [
         [
-          "psychotic symptoms, and reports on steroid-induced psychosis"
+          "Psychosis"
         ],
         [
-          "psychosis"
+          "Steroid-induced Psychosis"
         ],
         [
-          "psychotic"
+          "Steroid"
         ],
         [
-          "psychotic symptoms"
+          "Ps"
         ],
         [
-          "steroid-induced psychosis"
+          "azathioprine is used as maintenance therapy.Steroid-induced Psychosis"
         ]
       ]
     },
@@ -5651,16 +5651,16 @@
           "IGF1/PI3K/AKT"
         ],
         [
-          "mTOR"
-        ],
-        [
           "IGF1"
         ],
         [
-          "IGF1/PI3K/AKT/mTOR"
+          "mTOR"
         ],
         [
           "AKT"
+        ],
+        [
+          "IGF1/PI3K/AKT/mTOR"
         ]
       ]
     },
@@ -5672,19 +5672,19 @@
       ],
       "exact_answer": [
         [
-          "cell fate"
-        ],
-        [
-          "translation, altering cell fate"
-        ],
-        [
-          "stability and translation, altering cell fate"
-        ],
-        [
           "stability"
         ],
         [
-          "translation"
+          "stability of two phosphodiesterase genes"
+        ],
+        [
+          "splicing pathways.By reducing m6A levels at the 3'UTR and the mRNA stability"
+        ],
+        [
+          "demethylase"
+        ],
+        [
+          "stability of two phosphodiesterase"
         ]
       ]
     },
@@ -5699,16 +5699,16 @@
           "rapamycin"
         ],
         [
-          "mTORC1 with rapamycin"
-        ],
-        [
           "Inhibition of mTORC1 with rapamycin"
         ],
         [
-          "mTORC1"
+          "mTORC1 with rapamycin"
         ],
         [
-          "with rapamycin"
+          "Inhibition of mTORC1"
+        ],
+        [
+          "mTORC1"
         ]
       ]
     },
@@ -5729,7 +5729,7 @@
           "LKB1 and MO25"
         ],
         [
-          "cytochrome c"
+          "LKB"
         ],
         [
           "MO25 content with subsequent activation of AMPK"
@@ -5750,10 +5750,10 @@
           "metronidazole-based treatment (quadruple therapy) may be used afterwards, and then a levofloxacin"
         ],
         [
-          "clarithromycin"
+          "metronidazole"
         ],
         [
-          "metronidazole"
+          "clarithromycin"
         ],
         [
           "clarithromycin-based regimen was used, a second-line metronidazole"
@@ -5771,16 +5771,16 @@
           "RYR2"
         ],
         [
-          "ryanodine receptor gene (RYR2) are identified in the majority of patients with CPVT. RyR2"
+          "2"
         ],
         [
-          "(RYR2) are identified in the majority of patients with CPVT. RyR2"
+          "RYR2) are identified in the majority of patients with CPVT"
         ],
         [
-          "RYR"
+          "ryanodine receptor gene (RYR2)"
         ],
         [
-          "RyR2 is also the major RyR isoform expressed in the brain"
+          "R"
         ]
       ]
     },
@@ -5828,7 +5828,7 @@
           "diabetic drugs"
         ],
         [
-          "anti-diabe"
+          "anti-obesity or anti-diabetic"
         ]
       ]
     },
@@ -5849,10 +5849,10 @@
           "ASH"
         ],
         [
-          "ASH1L, that was both de novo mutated"
+          "ASH1L, that was both de novo mutated and associated with TS based"
         ],
         [
-          "risk gene, ASH1L"
+          "ASH1L, that was both de novo mutated"
         ]
       ]
     },
@@ -5864,19 +5864,19 @@
       ],
       "exact_answer": [
         [
-          "Parkinson's disease"
+          "high-intensity focused ultrasound thalamotomy"
         ],
         [
-          "Parkinson's disease (PD)"
+          "gamma knife thalamotomy or high-intensity focused ultrasound thalamotomy"
         ],
         [
-          "Parkinson's"
+          "gamma knife thalamotomy"
         ],
         [
-          "disease"
+          "high-intensity focused ultrasound thalamotomy or sub-thalamotomy"
         ],
         [
-          "Park"
+          "focused ultrasound thalamotomy"
         ]
       ]
     },
@@ -5888,19 +5888,19 @@
       ],
       "exact_answer": [
         [
-          "chlorophenol"
+          "2-chlorophenol by enrichment cultures under denitrifying conditions"
+        ],
+        [
+          "enrichment cultures under denitrifying conditions"
         ],
         [
           "chlorophenol (CP) degradation has been studied"
         ],
         [
-          "chlorophenol (CP) degradation"
+          "chlorophenol"
         ],
         [
-          "0.0139 d(-1)"
-        ],
-        [
-          "Although chlorophenol"
+          ". Although chlorophenol (CP) degradation has been studied"
         ]
       ]
     },
@@ -5912,19 +5912,19 @@
       ],
       "exact_answer": [
         [
-          "sedb"
+          "super-enhancer databases"
         ],
         [
-          "SEdb, http://www.licpathway.net/sedb"
+          "unlike existing super-enhancer databases"
         ],
         [
-          "SEdb, http://www.licpathway"
+          "H3K27ac samples"
         ],
         [
-          "licpathway.net/sedb"
+          "H3K27ac"
         ],
         [
-          "SEdb, http://www.licpathway.net"
+          "we manually curated and classified 410 available H3K27ac samples"
         ]
       ]
     },
@@ -5936,19 +5936,19 @@
       ],
       "exact_answer": [
         [
-          "relocalization"
-        ],
-        [
           "subcellular relocalization"
         ],
         [
-          "relocalization driven by Tau phosphorylation and detachment from microtubules"
+          "relocalization"
+        ],
+        [
+          "detachment from microtubules"
         ],
         [
           "subcellular relocalization driven by Tau phosphorylation and detachment from microtubules"
         ],
         [
-          "detachment from microtubules"
+          "relocalization driven by Tau phosphorylation and detachment from microtubules"
         ]
       ]
     },
@@ -5960,19 +5960,19 @@
       ],
       "exact_answer": [
         [
-          "rheumatoid arthritis"
+          "cutaneous lupus erythematosus"
         ],
         [
-          "ankylosing spondylarthritis"
+          "cutaneous lupus erythematosus, and chronic graft-versus-host disease"
         ],
         [
-          "rheumatoid arthritis, ankylosing spondylarthritis"
+          "chronic graft-versus-host disease"
         ],
         [
-          "Crohn's disease, rheumatoid arthritis"
+          "lymphocytic skin infiltrations, cutaneous lupus erythematosus"
         ],
         [
-          "Crohn's disease, rheumatoid arthritis, ankylosing spondylarthritis"
+          "graft-versus-host disease"
         ]
       ]
     },
@@ -5984,19 +5984,19 @@
       ],
       "exact_answer": [
         [
-          "Middle East Respiratory"
-        ],
-        [
-          "Respiratory"
-        ],
-        [
           "Middle East Respiratory Syndrome"
         ],
         [
           "Respiratory Syndrome"
         ],
         [
-          "Middle East Respiratory Syndrome (MERS) is a respiratory disease caused by a novel coronavirus"
+          "Middle East Respiratory Syndrome-Coronavirus"
+        ],
+        [
+          "Middle East Respiratory"
+        ],
+        [
+          "Respiratory Syndrome-Coronavirus"
         ]
       ]
     },
@@ -6008,19 +6008,19 @@
       ],
       "exact_answer": [
         [
-          "antiobesity"
+          "antiobesity drugs"
         ],
         [
-          "antiobesity drugs"
+          "antiobesity"
         ],
         [
           "antiobesity drugs have been withdrawn from the market due to unanticipated adverse events"
         ],
         [
-          "anti"
+          "cardiotoxicity.Over the past several decades, many antiobesity drugs"
         ],
         [
-          "many antiobesity"
+          "cardiotoxicity"
         ]
       ]
     },
@@ -6032,19 +6032,19 @@
       ],
       "exact_answer": [
         [
-          "Neisseria meningitidis"
+          "bacterial"
         ],
         [
-          "Streptococcus pneumoniae"
+          "bacterial meningitis"
         ],
         [
-          "Streptococcus pneumoniae, and Neisseria meningitidis"
+          "bacterial and viral meningitis in children"
         ],
         [
-          "Haemophilus influenzae type b, Streptococcus pneumoniae"
+          "Cerebrospinal fluid analysis is irreplaceable in appropriately diagnosing and treating bacterial"
         ],
         [
-          "Haemophilus influenzae type b, Streptococcus pneumoniae, and Neisseria meningitidis"
+          "viral meningitis.This article provides an overview of acute bacterial"
         ]
       ]
     },
@@ -6056,16 +6056,16 @@
       ],
       "exact_answer": [
         [
+          "linagliptin"
+        ],
+        [
           "Dipeptidyl peptidase-4 (DPP-4) inhibitors"
         ],
         [
-          "(DPP-4) inhibitors"
+          "linagliptin, for which renal excretion is a minor elimination pathway.Thus, linagliptin"
         ],
         [
           "inhibitors"
-        ],
-        [
-          "linagliptin"
         ],
         [
           "Dipeptidyl peptidase-4 (DPP-4)"
@@ -6083,16 +6083,16 @@
           "breast cancer"
         ],
         [
-          "breast cancer. However, the biological function and regulatory mechanism of SPAG5 in breast cancer"
+          "breast cancer.However, the biological function and regulatory mechanism of SPAG5 in breast cancer"
         ],
         [
           "breast"
         ],
         [
-          "breast cancer. However, the biological function and regulatory mechanism of SPAG5 in breast"
+          "breast cancer.However, the biological function and regulatory mechanism of SPAG5 in breast"
         ],
         [
-          "various cancers. High expression of SPAG5 has been frequently detected in breast cancer"
+          "cancer"
         ]
       ]
     },
@@ -6110,13 +6110,13 @@
           "reproductive"
         ],
         [
+          "health outcomes, including reproductive effects"
+        ],
+        [
           "serious health outcomes, including reproductive effects"
         ],
         [
           "potentially serious health outcomes, including reproductive effects"
-        ],
-        [
-          "health outcomes, including reproductive effects"
         ]
       ]
     },
@@ -6131,16 +6131,16 @@
           "type V"
         ],
         [
-          "type V FimA showed a difference from other types of FimA. In addition, type V"
+          "fimbrillin"
         ],
         [
           "V"
         ],
         [
-          "V FimA showed a difference from other types of FimA. In addition, type V"
+          "fimbrillin (FimA)"
         ],
         [
-          "type V P. gingivalis"
+          "fimbrillin (FimA), was classified into four typeable variants"
         ]
       ]
     },
@@ -6158,13 +6158,13 @@
           "aggregation and disaggregation, as well as degradation"
         ],
         [
+          "targeting, aggregation and disaggregation, as well as degradation"
+        ],
+        [
           "aggregation and disaggregation"
         ],
         [
-          "Hsp100 AAA+ disaggregases"
-        ],
-        [
-          "Hsp100"
+          "aggregation"
         ]
       ]
     },
@@ -6182,13 +6182,13 @@
           "Characterization of Secondary Structure Motifs, RNA CoSSMos"
         ],
         [
-          "RNA Characterization of Secondary Structure Motifs, RNA CoSSMos"
-        ],
-        [
-          "CoSSMos"
+          "Characterization of Secondary Structure Motifs"
         ],
         [
           "The RNA Characterization of Secondary Structure Motifs, RNA CoSSMos"
+        ],
+        [
+          "RNA Characterization of Secondary Structure Motifs, RNA CoSSMos"
         ]
       ]
     },
@@ -6200,19 +6200,19 @@
       ],
       "exact_answer": [
         [
-          "elevated liver enzymes"
+          "Innate and Adaptive Immune Responses"
         ],
         [
-          "hemolysis, elevated liver enzymes"
+          "Adaptive Immune Responses"
         ],
         [
-          "elevated liver enzymes and low platelet"
+          "Innate and Adaptive Immune"
         ],
         [
-          "low platelet"
+          "immune responses"
         ],
         [
-          "hemolysis, elevated liver enzymes and low platelet"
+          "immune"
         ]
       ]
     },
@@ -6227,16 +6227,16 @@
           "valine"
         ],
         [
-          "\u03b3-aminobutyrate, taurine, and valine"
-        ],
-        [
           "taurine, and valine"
         ],
         [
-          "\u03b3-aminobutyrate"
+          "\u03b3-aminobutyrate, taurine, and valine"
         ],
         [
-          "\u03b3-aminobutyrate, taurine"
+          "taurine"
+        ],
+        [
+          "valine, were significantly less abundant in the feces of mice transplanted with microbiota"
         ]
       ]
     },
@@ -6248,19 +6248,19 @@
       ],
       "exact_answer": [
         [
-          "fissured tongue"
-        ],
-        [
           "facial palsy"
         ],
         [
-          "facial edema with peripheral facial palsy"
+          "facial"
         ],
         [
-          "facial palsy and fissured tongue"
+          "facial palsy should lead to suspicion of another possible aetiology"
         ],
         [
-          "peripheral facial palsy"
+          "the facial palsy"
+        ],
+        [
+          "palsy"
         ]
       ]
     },
@@ -6299,16 +6299,16 @@
           "RNase R"
         ],
         [
-          "RNase R treatment, have been developed to identify circular RNA. Multiple bioinformatics"
+          "RNase R treatment, have been developed to identify circular RNA.Multiple bioinformatics"
         ],
         [
-          "RNase R treatment, have been developed to identify circular RNA. Multiple bioinformatics tools"
+          "RNase R treatment, have been developed to identify circular RNA.Multiple bioinformatics tools"
         ],
         [
-          "bioinformatics"
+          "RNase R treatment"
         ],
         [
-          "RNase R treatment, have been developed to identify circular RNA. Multiple bio"
+          "RNase"
         ]
       ]
     },
@@ -6320,19 +6320,19 @@
       ],
       "exact_answer": [
         [
-          "visual analogue"
+          "METHODS From June 2008 to September 2015"
         ],
         [
-          "visual analogue scale"
+          "2015"
         ],
         [
-          "visual analogue scale (VAS)"
+          "grade"
         ],
         [
-          "visual"
+          "grade was improved 1 grade or 2 grades"
         ],
         [
-          "EORTC QLQ-C30"
+          "METHODS"
         ]
       ]
     },
@@ -6344,19 +6344,19 @@
       ],
       "exact_answer": [
         [
-          "adipose tissue, while CIDEB is expressed in the liver"
+          "mice"
         ],
         [
-          "liver"
+          "mice, the physiological roles of CIDE proteins remains elusive"
         ],
         [
-          "adipose tissue"
+          "studies in humans and gene-targeting studies in mice"
         ],
         [
-          "the liver"
+          "gene-targeting studies in mice"
         ],
         [
-          "fat-specific protein 27 (FSP27)). CIDEA and FSP27 are primarily expressed in adipose tissue"
+          "metabolic phenotype in humans.Despite various studies in humans and gene-targeting studies in mice"
         ]
       ]
     },
@@ -6368,19 +6368,19 @@
       ],
       "exact_answer": [
         [
-          "optic nerve hypoplasia"
+          "septo-optic dysplasia"
         ],
         [
-          "optic nerve hypoplasia, pituitary gland hypoplasia"
+          "optic dysplasia"
         ],
         [
-          "optic nerve hypoplasia, pituitary gland hypoplasia, and midline brain abnormalities"
+          "dysplasia"
         ],
         [
-          "pituitary gland hypoplasia"
+          "septo-optic dysplasia, is a rare, heterogeneous, complex condition with a highly variable phenotype"
         ],
         [
-          "pituitary gland hypoplasia, and midline brain abnormalities"
+          "septo-optic dysp"
         ]
       ]
     },
@@ -6392,19 +6392,19 @@
       ],
       "exact_answer": [
         [
-          "kernicterus"
+          "neurobehavioral disorders"
         ],
         [
-          "subtle kernicterus"
+          "disorders"
         ],
         [
-          "k"
+          "urobehavioral disorders"
         ],
         [
-          "kernicterus)"
+          "neurobehavioral"
         ],
         [
-          "erus"
+          "vioral disorders"
         ]
       ]
     },
@@ -6416,19 +6416,19 @@
       ],
       "exact_answer": [
         [
-          "Koebner phenomenon"
+          "lichen planus"
         ],
         [
-          "Koebner phenomenon is well described and well known in clinical practice"
+          "in lichen planus"
         ],
         [
-          "dermatoscopy"
+          "lichen plan"
         ],
         [
-          "Koebner phenomenon is well described"
+          "lichen"
         ],
         [
-          "dermatoscopy. In this case"
+          "lichen planus on light and dark skin"
         ]
       ]
     },
@@ -6446,13 +6446,13 @@
           "vertigo is the most unpleasant"
         ],
         [
-          "rtigo"
+          "ve"
         ],
         [
           "igo"
         ],
         [
-          "ve"
+          "rtigo"
         ]
       ]
     },
@@ -6464,19 +6464,19 @@
       ],
       "exact_answer": [
         [
-          "RNA"
+          "structure-activity relationships"
         ],
         [
-          "influenza RNA"
+          "lack of established structure-activity relationships"
         ],
         [
-          "RNA polymerase PA"
+          "structure"
         ],
         [
-          "RNA polymerase"
+          "structure-activity relationships (SARs)"
         ],
         [
-          "influenza RNA polymerase PA"
+          "lack of established structure"
         ]
       ]
     },
@@ -6488,19 +6488,19 @@
       ],
       "exact_answer": [
         [
-          "postoperative protection of external rotation"
+          "subscapularis tendon"
         ],
         [
-          "surgical treatment"
+          "subscapularis"
         ],
         [
-          "protection of external rotation"
+          "surgical repair"
         ],
         [
-          "adaptation of the surgical approach and postoperative protection of external rotation"
+          "surgical repair of a rotator cuff tear"
         ],
         [
-          "external rotation"
+          "surgical"
         ]
       ]
     },
@@ -6512,13 +6512,13 @@
       ],
       "exact_answer": [
         [
-          "Dengue viruses"
+          "dengue"
         ],
         [
-          "Dengue"
+          "dengue virus"
         ],
         [
-          "Dengue viruses (DENV)"
+          "dengue virus replication"
         ],
         [
           "DENV"
@@ -6548,7 +6548,7 @@
           "Corynebacterium dip"
         ],
         [
-          "Co"
+          "Corynebacteri"
         ]
       ]
     },
@@ -6608,19 +6608,19 @@
       ],
       "exact_answer": [
         [
-          "316 TFFMs"
+          "33"
         ],
         [
           "TFFMs"
         ],
         [
-          "316"
+          "33 PFMs"
         ],
         [
-          "316 TFFMs (95 for vertebrates, 218 for plants and 3 for insects)"
+          "PFMs"
         ],
         [
-          "TFFMs (95 for vertebrates, 218 for plants and 3 for insects)"
+          "322 new PFMs"
         ]
       ]
     },
@@ -6635,16 +6635,16 @@
           "Pnpla3"
         ],
         [
-          "NASH gene', Pnpla3"
+          "Pnpla3 as well as 'PCB"
+        ],
+        [
+          "PCB"
         ],
         [
           "hepatokines and Pnpla3"
         ],
         [
-          "3"
-        ],
-        [
-          "Pnpla"
+          "Pnpla3 as well as 'PCB pancreatopathy"
         ]
       ]
     },
@@ -6656,19 +6656,19 @@
       ],
       "exact_answer": [
         [
-          "hemolytic anemia"
+          "toxoplasmosis"
         ],
         [
-          "anemia"
+          "toxoplasmosis and glucose-6-phosphate dehydrogenase deficiency: a case report"
         ],
         [
-          "hemolytic"
+          "toxoplasmosis and glucose-6-phosphate dehydrogenase deficiency"
         ],
         [
-          "hem"
+          "is"
         ],
         [
-          "hemolytic an"
+          "xoplasmosis"
         ]
       ]
     },
@@ -6683,16 +6683,16 @@
           "heart failure, arrhythmias and sudden cardiac death"
         ],
         [
-          "sudden cardiac death"
-        ],
-        [
-          "arrhythmias and sudden cardiac death"
+          "heart failure"
         ],
         [
           "heart failure, arrhythmias"
         ],
         [
-          "heart failure"
+          "sudden cardiac death"
+        ],
+        [
+          "arrhythmias and sudden cardiac death"
         ]
       ]
     },
@@ -6728,10 +6728,10 @@
       ],
       "exact_answer": [
         [
-          "focal adhesions"
+          "slit diaphragm"
         ],
         [
-          "slit diaphragm"
+          "focal adhesions"
         ],
         [
           "slit diaphragm and focal adhesions"
@@ -6752,19 +6752,19 @@
       ],
       "exact_answer": [
         [
-          "treatment"
+          "Deintensification"
         ],
         [
           "treatment deintensification"
         ],
         [
-          "treatment deintensification for HPV-related OPSCC"
-        ],
-        [
-          "deintensification"
-        ],
-        [
           "deintensification for HPV-related OPSCC, summarize available results from published clinical trials"
+        ],
+        [
+          "treatment"
+        ],
+        [
+          "deintensification for HPV-related OPSCC"
         ]
       ]
     },
@@ -6785,10 +6785,10 @@
           "CPF"
         ],
         [
-          "Ysh1 endonuclease into an eight-subunit \"CPF"
+          "Ysh1"
         ],
         [
-          "Ysh1"
+          "Ysh1 endonuclease into an eight-subunit \"CPF"
         ]
       ]
     },
@@ -6800,19 +6800,19 @@
       ],
       "exact_answer": [
         [
-          "accelerated particle swarm optimization algorithm"
-        ],
-        [
-          "accelerated particle swarm optimization"
-        ],
-        [
-          "chaos-enhanced accelerated particle swarm optimization algorithm"
+          "chaos"
         ],
         [
           "chaos-enhanced accelerated particle swarm optimization"
         ],
         [
-          "accelerated particle swarm optimization algorithm and deep artificial neural network"
+          "chaos-enhanced accelerated particle swarm optimization algorithm"
+        ],
+        [
+          "chaos-enhanced accelerated particle swarm optimization algorithm and deep artificial neural network"
+        ],
+        [
+          "accelerated particle swarm optimization"
         ]
       ]
     },
@@ -6827,16 +6827,16 @@
           "H3K27M"
         ],
         [
+          "H3K27M Mutation Overrides Histological Grading in Pediatric Gliomas.Detection of H3K27M"
+        ],
+        [
           "H3K27M mutation"
         ],
         [
-          "H"
+          "H3K27M Mutation Overrides Histological Grading in Pediatric Gliomas.Detection of H3K27M mutation"
         ],
         [
-          "K27M"
-        ],
-        [
-          "M"
+          "(p-value\u2009=\u20090.003).Histone H3K27M"
         ]
       ]
     },
@@ -6860,7 +6860,7 @@
           "rob(13;15) and rob(13"
         ],
         [
-          "14"
+          "rob(13;22), rob(13;15) and rob(13"
         ]
       ]
     },
@@ -6881,10 +6881,10 @@
           "Viral vector-based therapeutic gene therapy"
         ],
         [
-          "Viral vector-based therapeutic"
+          ".Viral"
         ],
         [
-          "Viral vector-based"
+          "Viral vector-based therapeutic"
         ]
       ]
     },
@@ -6905,10 +6905,10 @@
           "microcephaly and a distinctive facial gestalt"
         ],
         [
-          "growth deficiency"
+          "intellectual disability, growth deficiency, microcephaly"
         ],
         [
-          "growth deficiency, microcephaly and a distinctive facial gestalt"
+          "growth deficiency"
         ]
       ]
     },
@@ -6950,13 +6950,13 @@
           "adrenal insufficiency"
         ],
         [
-          "adrenal insufficiency (AI) due to adrenocorticotropic hormone (ACTH) resistance, achalasia"
-        ],
-        [
           "achalasia"
         ],
         [
           "achalasia, and alacrima"
+        ],
+        [
+          "adrenal insufficiency (AI) due to adrenocorticotropic hormone (ACTH) resistance, achalasia"
         ]
       ]
     },
@@ -6998,13 +6998,13 @@
           "SAPHO"
         ],
         [
-          "imaging features in patients with SAPHO syndrome"
+          "SAPHO syndrome. The aim was to comparatively assess the clinical and imaging features"
         ],
         [
-          "imaging features in patients with SAPHO"
+          "radiological features in SAPHO syndrome"
         ],
         [
-          "clinical and imaging features in patients with SAPHO syndrome"
+          "SAPHO syndrome. The aim was to comparatively assess the clinical"
         ]
       ]
     },
@@ -7016,19 +7016,19 @@
       ],
       "exact_answer": [
         [
-          "inter-strand cross-links"
-        ],
-        [
-          "inter-strand cross-links (ICLs)"
-        ],
-        [
-          "inter-strand cross-links (ICLs) in S phase"
-        ],
-        [
-          "mitosis and inter-strand cross-links"
-        ],
-        [
           "mitosis"
+        ],
+        [
+          "replicative helicase"
+        ],
+        [
+          "mit"
+        ],
+        [
+          "DNA in mitosis"
+        ],
+        [
+          "under-replicated DNA in mitosis"
         ]
       ]
     },
@@ -7046,13 +7046,13 @@
           "enhance oxidative stress"
         ],
         [
-          "myocardial infarction"
+          "oxidative stress in vivo"
         ],
         [
-          "hypertension"
+          "xidative stress"
         ],
         [
-          "hypertension, and myocardial infarction"
+          "enhance oxidative stress in vivo"
         ]
       ]
     },
@@ -7070,13 +7070,13 @@
           "hemolytic anemia and immune thrombocytopenic purpura"
         ],
         [
-          "anemia and immune thrombocytopenic purpura"
+          "splenic infarction"
         ],
         [
-          "direct Coombs' positive hemolytic anemia and immune thrombocytopenic purpura"
+          "thrombocytopenic purpura"
         ],
         [
-          "hemolytic anemia"
+          "hemoperitoneum with splenic infarction"
         ]
       ]
     },
@@ -7091,16 +7091,16 @@
           "H2A.Z-rich\u00a0+1"
         ],
         [
-          "H2A.Z-rich\u00a0+1 nucleosomes"
-        ],
-        [
           "ZZ"
         ],
         [
-          "ZZ nucleosomes"
+          "H2A.Z-rich\u00a0+1 nucleosomes"
         ],
         [
-          "the\u00a0+1 nucleosome. How SWR accesses the opposite side of\u00a0+1 to generate a ZZ"
+          "nucleosomes"
+        ],
+        [
+          "Z"
         ]
       ]
     },
@@ -7112,19 +7112,19 @@
       ],
       "exact_answer": [
         [
-          "Type I"
+          "type I interferonopathies"
         ],
         [
-          "Type I interferonopathy"
+          "type I"
         ],
         [
-          "Type I interferonopathy is a group of autoinflammatory disorders"
+          "type I interferonopathies: a brief summary"
         ],
         [
-          "Type I interferonopathy is a group of autoinflammatory"
+          "interferonopathies"
         ],
         [
-          "Type I interferonopathy is a group"
+          "type I interferonopathies: a brief summary, update"
         ]
       ]
     },
@@ -7136,19 +7136,19 @@
       ],
       "exact_answer": [
         [
-          "computational"
+          "inductive matrix completion"
         ],
         [
-          "computational method to predict circRNA-disease associations is worthy of more studies"
+          "completion"
         ],
         [
-          "a feasible and effective computational"
+          "inductive matrix"
         ],
         [
-          "computational method"
+          "based on inductive matrix completion"
         ],
         [
-          "effective computational"
+          "matrix completion"
         ]
       ]
     },
@@ -7166,13 +7166,13 @@
           "LXR\u03b2 and STARD1"
         ],
         [
-          "Osh4) and some other sterol-binding proteins (human LXR\u03b2 and STARD1"
-        ],
-        [
           "STARD1; yeast START-kins Lam4S2"
         ],
         [
           "LXR\u03b2"
+        ],
+        [
+          "LXR\u03b2 and STARD1; yeast START-kins Lam4S2"
         ]
       ]
     },
@@ -7184,19 +7184,19 @@
       ],
       "exact_answer": [
         [
-          "polyneuropathy, organomegaly"
+          "electrophysiological features of POEMS syndrome to distinguish from CIDP"
         ],
         [
-          "polyneuropathy"
+          "electrophysiological"
         ],
         [
-          "polyneuropathy, organomegaly, endocrinopathy, M-protein, and skin changes"
+          "electrophysiological features"
         ],
         [
-          "organomegaly"
+          "electrophysiological features of POEMS syndrome"
         ],
         [
-          "polyneuropathy, organomegaly, endocrinopathy"
+          "clinical and electrophysiological features of POEMS syndrome to distinguish from CIDP"
         ]
       ]
     },
@@ -7208,19 +7208,19 @@
       ],
       "exact_answer": [
         [
-          "redness, swelling, and pain"
+          "hormones"
         ],
         [
-          "swelling, and pain"
+          "driven by very well-defined signals and hormones"
         ],
         [
-          "redness"
+          "inflammation resolves"
         ],
         [
-          "redness, swelling"
+          "resolves"
         ],
         [
-          "pain"
+          "inflammation resolves.When it does not, inflammation persists"
         ]
       ]
     },
@@ -7259,16 +7259,16 @@
           "WNT1"
         ],
         [
-          "osteoblast differentiation. Bi-allelic mutations in WNT1"
+          "Ptosis as a unique hallmark for autosomal recessive WNT1"
         ],
         [
-          "bone mineralization, or osteoblast differentiation. Bi-allelic mutations in WNT1"
+          "Ptosis"
         ],
         [
-          "WNT1 have been associated with a rare form of AR OI"
+          "WNT1-associated osteogenesis imperfecta"
         ],
         [
-          "Bi-allelic mutations in WNT1"
+          "WNT"
         ]
       ]
     },
@@ -7304,19 +7304,19 @@
       ],
       "exact_answer": [
         [
+          "DIAP2, IMD"
+        ],
+        [
           "IMD"
         ],
         [
-          "DIAP2, IMD"
+          "DIAP2, IMD is rapidly conjugated with K63"
         ],
         [
           "IMD is rapidly conjugated with K63"
         ],
         [
-          "DIAP2. Through its association with DIAP2, IMD"
-        ],
-        [
-          "DIAP2, IMD is rapidly conjugated with K63"
+          "DIAP2"
         ]
       ]
     },
@@ -7331,16 +7331,16 @@
           "deflazacort"
         ],
         [
-          "deflazacort)"
-        ],
-        [
-          "deflazacort). Deflazacort received FDA approval for DMD in 2016"
-        ],
-        [
-          "corticosteroids (prednisone, deflazacort). Deflazacort"
-        ],
-        [
           "Deflazacort received FDA approval for DMD in 2016"
+        ],
+        [
+          "def"
+        ],
+        [
+          "deflazacort).Deflazacort received FDA approval for DMD in 2016"
+        ],
+        [
+          "prednisone, deflazacort"
         ]
       ]
     },
@@ -7358,13 +7358,13 @@
           "chronic inflammation"
         ],
         [
+          "dystrophin in patient muscle while also targeting both chronic inflammation"
+        ],
+        [
           "inflammation and the fibrofatty replacement of muscle"
         ],
         [
-          "corticosteroid"
-        ],
-        [
-          "dystrophin in patient muscle while also targeting both chronic inflammation"
+          "chronic inflammation and the fibrofatty replacement of muscle"
         ]
       ]
     },
@@ -7385,10 +7385,10 @@
           "medullary carcinoma"
         ],
         [
-          "renal"
+          "carcinoma"
         ],
         [
-          "renal medullary carcin"
+          "renal"
         ]
       ]
     },
@@ -7400,19 +7400,19 @@
       ],
       "exact_answer": [
         [
-          "Tofacitinib"
-        ],
-        [
           "Tofacitinib, a pan-JAK inhibitor"
         ],
         [
-          "pan-JAK inhibitor"
+          "Tofacitinib"
+        ],
+        [
+          "Tofacitinib, a pan-JAK inhibitor, showed efficacy in ulcerative colitis"
         ],
         [
           "JAK inhibitor"
         ],
         [
-          "a pan-JAK inhibitor"
+          "Tofacitinib, a pan-JAK"
         ]
       ]
     },
@@ -7433,10 +7433,10 @@
           "tofacitinib, baricitinib, ruxolitinib"
         ],
         [
-          "ruxolitinib, peficitinib, filgotinib, upadacitinib"
+          "ruxolitinib, peficitinib"
         ],
         [
-          "filgotinib, upadacitinib"
+          "ruxolitinib, peficitinib, filgotinib, upadacitinib"
         ]
       ]
     },
@@ -7481,10 +7481,10 @@
           "The transcriptional clock"
         ],
         [
-          "transcription factors and enzymes"
+          "clock controls the levels of many antioxidant proteins and redox-active cofactors"
         ],
         [
-          "transcription factors"
+          "redox-sensitive transcription factors and enzymes"
         ]
       ]
     },
@@ -7496,19 +7496,19 @@
       ],
       "exact_answer": [
         [
-          "Oral-treatment Psoriasis Trial"
+          "Oral Psoriatic Arthritis triaL"
         ],
         [
-          "Psoriasis Trial"
+          "Psoriatic Arthritis triaL"
         ],
         [
-          "Oral-treatment Psoriasis"
+          "Oral Psoriatic Arthritis"
         ],
         [
-          "Psoriasis"
+          "Psoriatic Arthritis"
         ],
         [
-          "The Oral-treatment Psoriasis Trial"
+          "Oral Psoriatic Arthritis triaL (OPAL)"
         ]
       ]
     },
@@ -7544,19 +7544,19 @@
       ],
       "exact_answer": [
         [
-          "programmed cell death-1"
+          "tumour destruction"
         ],
         [
-          "cytotoxic T-lymphocyte antigen-4"
+          "immune cells capable of tumour destruction"
         ],
         [
-          "programmed cell death-1 (PD-1), programmed cell death ligand-1"
+          "inactivating immune cells capable of tumour destruction"
         ],
         [
-          "programmed cell death ligand-1"
+          "tumour"
         ],
         [
-          "programmed cell death-1 (PD-1)"
+          "immune response by inactivating immune cells capable of tumour destruction"
         ]
       ]
     },
@@ -7571,16 +7571,16 @@
           "ETTIN"
         ],
         [
-          "ARFs indirectly by facilitating degradation of Aux/IAA repressors, direct ETTIN"
+          "(ARF), ETTIN"
         ],
         [
-          "ETTIN-auxin"
+          "ARF"
         ],
         [
-          "Aux/IAA repressors, direct ETTIN"
+          "auxin response factor (ARF), ETTIN"
         ],
         [
-          "ARFs indirectly by facilitating degradation of Aux"
+          "auxin directly affects the activity of the atypical auxin response factor (ARF), ETTIN"
         ]
       ]
     },
@@ -7595,16 +7595,16 @@
           "thoracopagus"
         ],
         [
-          "thoracopagus. Conjoined twins are either symmetrical twins or asymmetrical or heteropagus"
+          "thoracopagus.Conjoined twins are either symmetrical twins or asymmetrical or heteropagus"
         ],
         [
-          "thoracopagus. Conjoined twins are either symmetrical twins"
+          "thoracopagus.Conjoined twins are either symmetrical twins"
         ],
         [
-          "thoracopagus. Conjoined twins are either symmetrical twins or asymmetrical"
+          "symmetrical twins or asymmetrical or heteropagus"
         ],
         [
-          "asymmetrical or heteropagus"
+          "heteropagus"
         ]
       ]
     },
@@ -7640,19 +7640,19 @@
       ],
       "exact_answer": [
         [
+          "hyper-low density lipoproteinaemia"
+        ],
+        [
           "hypertension"
         ],
         [
-          "dysglycaemia (88.4 cm), hypertension"
+          "dysglycaemia, hypertension"
         ],
         [
           "dysglycaemia"
         ],
         [
-          "hypertension (90.1 cm), hypo-high density lipoproteinaemia"
-        ],
-        [
-          "insulin resistance (89.0 cm), dysglycaemia (88.4 cm), hypertension"
+          "dysglycaemia (88.4 cm), hypertension"
         ]
       ]
     },
@@ -7667,16 +7667,16 @@
           "gap detection"
         ],
         [
-          "gap"
+          "two short markers"
         ],
         [
-          "gap termination response was evoked by the onset of the second marker"
+          "markers"
+        ],
+        [
+          "When a gap is bounded by two short markers"
         ],
         [
           "gap is bounded by two short markers"
-        ],
-        [
-          "two short markers"
         ]
       ]
     },
@@ -7691,16 +7691,16 @@
           "integrative literature review"
         ],
         [
+          "An Integrative Literature Review"
+        ],
+        [
+          "integrative literature review is to"
+        ],
+        [
+          "to identify facilitators, barriers, and outcomes of self-initiated HIV testing"
+        ],
+        [
           "in"
-        ],
-        [
-          "review"
-        ],
-        [
-          "review is to identify facilitators, barriers, and outcomes of self-initiated HIV testing"
-        ],
-        [
-          "testing is an essential tool for identifying people at risk for HIV infection"
         ]
       ]
     },
@@ -7715,10 +7715,10 @@
           "beneficence, justice and autonomy or individual freedom"
         ],
         [
-          "beneficence"
+          "beneficence, justice and autonomy"
         ],
         [
-          "beneficence, justice and autonomy"
+          "beneficence"
         ],
         [
           "beneficence, justice"
@@ -7742,10 +7742,10 @@
           "uveitis, or facial paralysis"
         ],
         [
-          "parotitis, and other major symptoms include fever, uveitis"
+          "fever, uveitis"
         ],
         [
-          "fever, uveitis"
+          "fever, uveitis, or facial paralysis"
         ],
         [
           "facial paralysis"
@@ -7772,7 +7772,7 @@
           "inflixima"
         ],
         [
-          "inflix"
+          "infliximab de-escalation"
         ]
       ]
     },
@@ -7784,19 +7784,19 @@
       ],
       "exact_answer": [
         [
-          "manually"
+          "manually curated repositories"
         ],
         [
-          "manually curated repositories"
+          "manually"
         ],
         [
           "manually curated repositories, (2) interactions derived from ChIP-seq binding data"
         ],
         [
-          "manually curated"
+          "manually curated repositories, (2) interactions"
         ],
         [
-          "manually curated repositories, (2) interactions"
+          "interactions derived from ChIP-seq binding data"
         ]
       ]
     },
@@ -7814,13 +7814,13 @@
           "gastric stromal sarcoma"
         ],
         [
-          "paragangliomas"
-        ],
-        [
           "paragangliomas and gastric stromal sarcomas"
         ],
         [
           "paragangliomas and gastric stromal sarcoma"
+        ],
+        [
+          "paragangliomas"
         ]
       ]
     },
@@ -7835,16 +7835,16 @@
           "lactic acidosis"
         ],
         [
-          "encephalopathy (Wernicke) and lactic acidosis"
-        ],
-        [
-          "encephalopathy"
-        ],
-        [
-          "Thiamine deficiency can cause encephalopathy (Wernicke) and lactic acidosis"
+          "lactic acidosis and neurological symptoms"
         ],
         [
           "acidosis"
+        ],
+        [
+          "lactic acidosis and neurological"
+        ],
+        [
+          "lactic acidosis and neurological symptoms due to improper vitamin replacement"
         ]
       ]
     },
@@ -7856,19 +7856,19 @@
       ],
       "exact_answer": [
         [
-          "bezlotoxumab"
+          "Fully"
         ],
         [
-          "actoxumab, the anti-toxin B monoclonal, bezlotoxumab"
+          "Fully human monoclonal antibodies"
         ],
         [
-          "actoxumab"
+          "monoclonal antibodies directed against the binding domains of these toxins were developed.Fully"
         ],
         [
-          "anti-toxin B monoclonal, bezlotoxumab"
+          "monoclonal antibodies"
         ],
         [
-          "be"
+          "Fully human"
         ]
       ]
     },
@@ -7886,13 +7886,13 @@
           "Rpl22, a ribosomal protein component of the large 60S subunit"
         ],
         [
-          "22"
-        ],
-        [
           "large 60S subunit, provides insight into this conundrum; Rpl22"
         ],
         [
           "Rpl22, a ribosomal protein component of the large 60S subunit, provides insight into this conundrum;"
+        ],
+        [
+          "ribosomal protein component of the large 60S subunit, provides insight into this conundrum; Rpl22"
         ]
       ]
     },
@@ -7904,19 +7904,19 @@
       ],
       "exact_answer": [
         [
-          "BRD4"
+          "protein partners of BET proteins have been described"
         ],
         [
-          "BRD3, and BRD4"
+          "BET proteins have been described"
         ],
         [
-          "BRD3"
+          "Genomic distributions and protein partners of BET proteins have been described"
         ],
         [
-          "bromodomain-containing protein 2 (BRD2), BRD3, and BRD4"
+          "protein partners of BET proteins"
         ],
         [
-          "bromodomain-containing protein 2 (BRD2), BRD3"
+          "protein partners"
         ]
       ]
     },
@@ -7934,13 +7934,13 @@
           "Izumi"
         ],
         [
-          "Izumi fever, a disease showing clinical symptoms characteristic of atypical scarlet fever"
-        ],
-        [
           "I"
         ],
         [
-          "fever"
+          "Izumi fever, a disease showing clinical symptoms characteristic of atypical scarlet fever"
+        ],
+        [
+          "pseudotuberculosis that were collected as the causative agent of an outbreak of Izumi fever"
         ]
       ]
     },
@@ -7952,19 +7952,19 @@
       ],
       "exact_answer": [
         [
-          "ferritin"
-        ],
-        [
           "iron"
         ],
         [
-          "TIBC"
+          "ferritin"
         ],
         [
           "iron, ferritin"
         ],
         [
-          "iron, TIBC"
+          "serum iron"
+        ],
+        [
+          "iron, TIBC, ferritin"
         ]
       ]
     },
@@ -7976,16 +7976,16 @@
       ],
       "exact_answer": [
         [
-          "buprenorphine"
-        ],
-        [
           "buprenorphine/naloxone"
         ],
         [
-          "methadone and buprenorphine"
+          "buprenorphine"
         ],
         [
-          "methadone and buprenorphine/naloxone"
+          "buprenorphine/naloxone and methadone"
+        ],
+        [
+          "methadone"
         ],
         [
           "naloxone"
@@ -8000,19 +8000,19 @@
       ],
       "exact_answer": [
         [
-          "mTOR"
+          "NFE2L2/NRF2 is a transcription factor and master regulator of cellular antioxidant response"
         ],
         [
-          "mTOR pathway. As a result, BRSK2 kinase activation suppressed ribosome-RNA"
+          "NFE2L2"
+        ],
+        [
+          "NRF2"
         ],
         [
           "antioxidant response"
         ],
         [
-          "NFE2L2/NRF2 is a transcription factor and master regulator of cellular antioxidant response"
-        ],
-        [
-          "mTOR pathway. As a result, BRSK2"
+          "RNA complexes, global protein synthesis, and NRF2"
         ]
       ]
     },
@@ -8048,19 +8048,19 @@
       ],
       "exact_answer": [
         [
-          "V3-glycan regions of the HIV-1 envelope glycoprotein (Env)"
-        ],
-        [
           "V3-glycan regions of the HIV-1 envelope glycoprotein"
         ],
         [
-          "envelope glycoprotein (Env)"
-        ],
-        [
-          "envelope glycoprotein"
-        ],
-        [
           "V3-glycan"
+        ],
+        [
+          "V2-glycan (apex) and V3-glycan regions of the HIV-1 envelope glycoprotein"
+        ],
+        [
+          "V3-glycan regions of the HIV-1 envelope glycoprotein (Env)"
+        ],
+        [
+          "V2-glycan (apex) and V3-glycan"
         ]
       ]
     },
@@ -8072,19 +8072,19 @@
       ],
       "exact_answer": [
         [
-          "11"
+          "EpCAM"
         ],
         [
-          "circRNAs"
+          "Epithelial cell adhesion molecule"
         ],
         [
-          "11 up\u2011regulated and 12"
+          "Epithelial cell adhesion molecule (EpCAM)"
         ],
         [
-          "12"
+          "Epithelial cell adhesion"
         ],
         [
-          "11 up\u2011regulated and 12 downregulated"
+          "adhesion molecule"
         ]
       ]
     },
@@ -8096,16 +8096,16 @@
       ],
       "exact_answer": [
         [
+          "CYP4F2"
+        ],
+        [
           "EPAS1"
         ],
         [
           "EPAS1, CYP4F2"
         ],
         [
-          "CYP4F2"
-        ],
-        [
-          "EPAS1, CYP4F2, and THSD7A"
+          "THSD7A"
         ],
         [
           "CYP4F2, and THSD7A"
@@ -8123,10 +8123,10 @@
           "Bacteroidetes"
         ],
         [
-          "Firmicutes"
+          "Firmicutes and Bacteroidetes"
         ],
         [
-          "Firmicutes and Bacteroidetes"
+          "Firmicutes"
         ],
         [
           "Bacteroidetes -"
@@ -8144,19 +8144,19 @@
       ],
       "exact_answer": [
         [
-          "liver failure"
+          "Perinatal Yellow Fever"
         ],
         [
-          "hepatitis. On the sixth day, the newborn developed liver failure"
+          "polymerase chain reaction"
         ],
         [
-          "liver failure and died 13 days later. Yellow fever polymerase chain reaction"
+          "Yellow fever polymerase chain reaction"
         ],
         [
-          "fulminant hepatitis. On the sixth day, the newborn developed liver failure"
+          "polymerase chain reaction was positive for both"
         ],
         [
-          "hepatitis"
+          "pregnant woman was admitted to hospital with yellow fever symptoms.Perinatal Yellow Fever"
         ]
       ]
     },
@@ -8168,19 +8168,19 @@
       ],
       "exact_answer": [
         [
-          "Several tracers have been designed for tracking the abnormal accumulation of tau pathology in vivo"
+          "imaging"
         ],
         [
-          "Several tracers have been designed"
+          "in vivo imaging"
         ],
         [
-          "Several tracers"
+          "monoamine oxidase B: evidence from in silico modelling and in vivo imaging"
         ],
         [
-          "designed for tracking the abnormal accumulation of tau pathology in vivo"
+          "in silico modelling and in vivo imaging"
         ],
         [
-          "Several"
+          "evidence from in silico modelling and in vivo imaging"
         ]
       ]
     },
@@ -8204,7 +8204,7 @@
           "Wheat gluten proteins are the known cause of celiac disease"
         ],
         [
-          "disease"
+          "Directed-Mutagenesis of Wheat gluten proteins are the known cause of celiac disease"
         ]
       ]
     },
@@ -8216,19 +8216,19 @@
       ],
       "exact_answer": [
         [
-          "\u03b2-catenin"
+          "MCFAs"
         ],
         [
-          "lysine myristoylated peptides"
+          "MCFAs and LCFAs"
         ],
         [
-          "proteins harboring HEAT and ARM repeats bind to lysine myristoylated peptides"
+          "LCFAs"
         ],
         [
-          "We discovered that proteins harboring HEAT and ARM repeats bind to lysine myristoylated peptides"
+          "lysine myristoylated peptides.Lipidomic experiments suggest that MCFAs"
         ],
         [
-          "myristoylated peptides"
+          "MCFAs and LCFAs interact with HEAT and ARM repeat proteins in mammalian cells"
         ]
       ]
     },
@@ -8240,19 +8240,19 @@
       ],
       "exact_answer": [
         [
+          "intraepidermal"
+        ],
+        [
           "16"
-        ],
-        [
-          "16 genes"
-        ],
-        [
-          "variants in at least 16"
         ],
         [
           "Pathogenic variants in at least 16"
         ],
         [
-          "variants"
+          "intraepidermal)"
+        ],
+        [
+          "in"
         ]
       ]
     },
@@ -8270,13 +8270,13 @@
           "A"
         ],
         [
-          "ultraviolet A (UV-A) band. The longer-wavelength limit for UV-A"
-        ],
-        [
           "ultraviolet radiation in the ultraviolet A"
         ],
         [
-          "A (UV-A) band. The longer-wavelength limit for UV-A"
+          "sunglasses to avoid delayed health effects from solar ultraviolet radiation in the ultraviolet A"
+        ],
+        [
+          "ultraviolet A (UV-A) band"
         ]
       ]
     },
@@ -8300,7 +8300,7 @@
           "sleep apnea are common conditions, but little is known about obstructive sleep apnea"
         ],
         [
-          "obstructive sleep apnea are common conditions, but little is known about obstructive sleep"
+          "Atrial fibrillation and obstructive sleep apnea"
         ]
       ]
     },
@@ -8315,16 +8315,16 @@
           "simvastatin"
         ],
         [
-          "atorvastatin"
-        ],
-        [
           "simvastatin, and atorvastatin"
         ],
         [
-          "atorvastatin, and many HIV antiretroviral"
+          "atorvastatin"
         ],
         [
           "simvas"
+        ],
+        [
+          "simvastatin, and atorvas"
         ]
       ]
     },
@@ -8339,16 +8339,16 @@
           "non-essential genes"
         ],
         [
-          "unique genomic positions"
-        ],
-        [
           "4-6 base pairs in non-essential genes"
         ],
         [
-          "unique"
+          "genes"
         ],
         [
-          "genes"
+          "6 base pairs in non-essential genes"
+        ],
+        [
+          "insertions occurring as frequently as every 4-6 base pairs in non-essential genes"
         ]
       ]
     },
@@ -8360,19 +8360,19 @@
       ],
       "exact_answer": [
         [
-          "APID, and HIPPIE"
+          "GPS-Prot, STRING, APID, and HIPPIE"
         ],
         [
           "GPS-Prot"
         ],
         [
-          "GPS-Prot, STRING, APID, and HIPPIE"
+          "APID, and HIPPIE"
         ],
         [
           "HIPPIE"
         ],
         [
-          "APID"
+          "125"
         ]
       ]
     },
@@ -8384,19 +8384,19 @@
       ],
       "exact_answer": [
         [
-          "tissues"
+          "autoimmune disease of uncertain etiology that affects multiple tissues"
         ],
         [
-          "multiple tissues"
+          "autoimmune disease of uncertain etiology that affects multiple tissues and organs"
+        ],
+        [
+          "tissues"
         ],
         [
           "tissues and organs"
         ],
         [
-          "tissues and organs. Tetra-arsenic tetra-sulfide"
-        ],
-        [
-          "Tetra-arsenic tetra-sulfide"
+          "multiple tissues"
         ]
       ]
     },
@@ -8417,7 +8417,7 @@
           "carcinoma"
         ],
         [
-          "cellular carcinoma"
+          "oma"
         ],
         [
           "he"
@@ -8432,19 +8432,19 @@
       ],
       "exact_answer": [
         [
-          "metabolism"
+          "immune cell metabolism signatures"
         ],
         [
           "immune cell metabolism"
         ],
         [
+          "immune cell"
+        ],
+        [
+          "oxidative stress in patients, are discussed herein.Recent insights into the immune cell metabolism"
+        ],
+        [
           "metabolism signatures"
-        ],
-        [
-          "immune cell metabolism signatures"
-        ],
-        [
-          "oxidative stress"
         ]
       ]
     },
@@ -8456,19 +8456,19 @@
       ],
       "exact_answer": [
         [
-          "lactic acid bacteria"
-        ],
-        [
-          "Streptococcus, lactic acid bacteria"
-        ],
-        [
           "Bifidobacterium"
         ],
         [
-          "Streptococcus"
+          "Corynebacterium, Propionibacterium, and Bifidobacterium"
         ],
         [
-          "Propionibacterium"
+          "Corynebacterium"
+        ],
+        [
+          "lactic acid bacteria"
+        ],
+        [
+          "Propionibacterium, and Bifidobacterium"
         ]
       ]
     },
@@ -8480,19 +8480,19 @@
       ],
       "exact_answer": [
         [
-          "senescence"
+          "CD8 Cellular senescence"
         ],
         [
           "CD8"
         ],
         [
-          "senescence is accompanied by a senescence-associated secretory phenotype"
+          "senescence-associated secretory phenotype (SASP).Human CD8 Cellular senescence"
         ],
         [
-          "senescence-associated secretory phenotype"
+          "senescence"
         ],
         [
-          "senescence is accompanied by a senescence-associated secretory phenotype (SASP)"
+          "Human CD8 Cellular senescence"
         ]
       ]
     },
@@ -8510,13 +8510,13 @@
           "c.1482delinsGCCAGG (p.Ile494MetfsTer23)"
         ],
         [
+          "c.1558C>T (p.Gln520Ter), and c.1482delinsGCCAGG"
+        ],
+        [
           "1482delinsGCCAGG"
         ],
         [
           "1482delinsGCCAGG (p.Ile494MetfsTer23)"
-        ],
-        [
-          "c.1558C>T (p.Gln520Ter), and c.1482delinsGCCAGG"
         ]
       ]
     },
@@ -8528,19 +8528,19 @@
       ],
       "exact_answer": [
         [
+          "clinical symptoms"
+        ],
+        [
           "clinical"
         ],
         [
-          "clinical symptoms"
+          "Elimination"
         ],
         [
           "symptoms"
         ],
         [
           "clinical symptoms while anticipating that weaker symptoms than those in typical cases would be seen;"
-        ],
-        [
-          "clinical symptoms while anticipating that weaker symptoms than those in typical cases would be seen"
         ]
       ]
     },
@@ -8579,16 +8579,16 @@
           "ivosidenib"
         ],
         [
-          "enasidenib, ivosidenib"
-        ],
-        [
           "ivosidenib, gilteritinib"
         ],
         [
-          "midostaurin, enasidenib, ivosidenib"
+          "ivosidenib, gilteritinib, glasdegib"
         ],
         [
-          "enasidenib, ivosidenib, gilteritinib"
+          "enasidenib, ivosidenib"
+        ],
+        [
+          "gilteritinib"
         ]
       ]
     },
@@ -8603,16 +8603,16 @@
           "inflammatory bowel disease"
         ],
         [
-          "MR1"
+          "inflammatory bowel disease (IBD)"
+        ],
+        [
+          "MHC class 1b-like related protein (MR1)-dependent and -independent stimulations was decreased"
+        ],
+        [
+          "autoimmune disorders"
         ],
         [
           "MR1)-dependent and -independent stimulations was decreased in IBD patients"
-        ],
-        [
-          "MHC class 1b-like related protein (MR1)"
-        ],
-        [
-          "MHC class 1b"
         ]
       ]
     },
@@ -8633,10 +8633,10 @@
           "limma package (R/Bioconductor)"
         ],
         [
-          "the limma"
+          "l"
         ],
         [
-          "l"
+          "the limma"
         ]
       ]
     },
@@ -8651,16 +8651,16 @@
           "acridine orange"
         ],
         [
-          "acridine orange (AO), the electronopaque colloidal Thorotrast"
-        ],
-        [
           "acridine orange (AO)"
         ],
         [
-          "Thorotrast"
+          "acridine orange (AO), the electronopaque colloidal Thorotrast"
         ],
         [
           "orange"
+        ],
+        [
+          "cridine orange"
         ]
       ]
     },
@@ -8672,19 +8672,19 @@
       ],
       "exact_answer": [
         [
-          "Large-scale investigation of the reasons why potentially important genes are ignored\""
-        ],
-        [
           "Large-scale investigation of the reasons why potentially important genes are ignored"
         ],
         [
-          "\"Large-scale investigation of the reasons why potentially important genes are ignored\""
-        ],
-        [
-          "investigation of the reasons why potentially important genes are ignored\""
-        ],
-        [
           "Large-scale investigation"
+        ],
+        [
+          "ignored"
+        ],
+        [
+          "investigation of the reasons why potentially important genes are ignored"
+        ],
+        [
+          "\"Large-scale investigation of the reasons why potentially important genes are ignored"
         ]
       ]
     },
@@ -8696,10 +8696,10 @@
       ],
       "exact_answer": [
         [
-          "cyclic GMP-AMP"
+          "cGAMP"
         ],
         [
-          "cGAMP"
+          "cyclic GMP-AMP"
         ],
         [
           "cyclic GMP-AMP (cGAMP)"
@@ -8720,19 +8720,19 @@
       ],
       "exact_answer": [
         [
-          "cytomegalovirus"
+          "Antiviral drugs including maribavir"
         ],
         [
-          "cytomegalovirus infection or cytomegalovirus"
+          "maribavir"
         ],
         [
-          "cytomegalovirus infection"
+          "viral drugs including maribavir"
         ],
         [
-          "cytomegalovirus disease"
+          "Antiviral"
         ],
         [
-          "cytomegalovirus infection or cytomegalovirus disease"
+          "drugs including maribavir"
         ]
       ]
     },
@@ -8768,19 +8768,19 @@
       ],
       "exact_answer": [
         [
-          "E6V'"
+          "standard (ST) mutation mentions"
         ],
         [
-          "E6V"
+          "standard (ST) mutation"
         ],
         [
-          "E6V')"
+          "methods primarily target standard (ST) mutation mentions"
         ],
         [
-          "'E6V'"
+          "Existing methods primarily target standard (ST) mutation mentions"
         ],
         [
-          "'E6V"
+          "methods primarily target standard (ST) mutation"
         ]
       ]
     },
@@ -8798,10 +8798,10 @@
           "FAK\u2011inhibitor"
         ],
         [
-          "FAK and PROX1 (the target of SOX18) by the transfection of respective siRNAs. FAK"
+          "FAK\u2011inhibitor defactinib and the NF\u2011\u03baB"
         ],
         [
-          "FAK, which transduced signals causing the retraction of LECs. The FAK"
+          "FAK\u2011inhibitor defactinib"
         ],
         [
           "FAK and PROX1"
@@ -8816,19 +8816,19 @@
       ],
       "exact_answer": [
         [
-          "Mucopolysaccharidosis (MPS) type III"
-        ],
-        [
           "Mucopolysaccharidosis (MPS) type III, Sanfilippo Syndrome"
         ],
         [
-          "Mucopolysaccharidosis"
+          "Mucopolysaccharidosis (MPS) type III"
         ],
         [
           "autosomal recessive lysosomal storage disorder"
         ],
         [
           "autosomal recessive"
+        ],
+        [
+          "Mucopolysaccharidosis"
         ]
       ]
     },
@@ -8846,10 +8846,10 @@
           "Bolt, a new cloud-based proteomics search engine"
         ],
         [
-          "Bolt, a new cloud-based proteomics search"
+          "Bolt, a new cloud"
         ],
         [
-          "Bolt, a new cloud"
+          "Bolt, a new cloud-based proteomics search"
         ],
         [
           "Bolt, a new cloud-based proteomics"
@@ -8864,13 +8864,13 @@
       ],
       "exact_answer": [
         [
-          "tumor necrosis factor alpha-induced protein 3"
-        ],
-        [
           "TNFAIP3"
         ],
         [
-          "tumor necrosis factor alpha"
+          "tumor necrosis factor alpha-induced protein 3"
+        ],
+        [
+          "TNFAIP"
         ],
         [
           "tumor necrosis factor alpha-induced protein 3 (TNFAIP3, A20)"
@@ -8891,10 +8891,10 @@
           "achalasia"
         ],
         [
-          "alacrimia"
+          "achalasia, and alacrimia"
         ],
         [
-          "achalasia, and alacrimia"
+          "alacrimia"
         ],
         [
           "adrenal insufficiency, achalasia"
@@ -8912,19 +8912,19 @@
       ],
       "exact_answer": [
         [
-          "Tenovin-1"
+          "Arboviruses"
         ],
         [
-          "tenovin-1 was antiviral against the flaviviruses Zika virus and dengue virus. Tenovin-1"
+          "Antiviral against Arboviruses"
         ],
         [
-          "Tenovin"
+          "Arboviruses.Sirtuin inhibitors block infection of arboviruses"
         ],
         [
-          "tenovin-1 was antiviral against the flaviviruses Zika virus and dengue virus. Tenovin"
+          "against Arboviruses"
         ],
         [
-          "Tenovin-1 is a sirtuin inhibitor"
+          "Sirtuin Inhibitors Are Broadly Antiviral against Arboviruses"
         ]
       ]
     },
@@ -8963,16 +8963,16 @@
           "peripheral blood"
         ],
         [
-          "CD4-positive T cells"
+          "peripheral blood lymphocytes was analyzed using an 8-color flow cytometer.The phenotype"
         ],
         [
           "peripheral blood lymphocytes"
         ],
         [
-          "CD4-positive T cells showed a tendency for higher proportions of effector and central memory T cells"
+          "phenotype of peripheral blood"
         ],
         [
-          "central memory T cells and a normal proportion of regulatory T (Treg) cells"
+          "phenotype of peripheral blood lymphocytes was analyzed using an 8-color flow cytometer.The phenotype"
         ]
       ]
     },
@@ -8987,16 +8987,16 @@
           "cytotoxin"
         ],
         [
-          "cytotoxin were produced in their intestinal tract"
+          "enterotoxin and cytotoxin"
         ],
         [
           "enterotoxin"
         ],
         [
-          "enterotoxin and cytotoxin"
+          "cytotoxin were produced in their intestinal tract"
         ],
         [
-          "both enterotoxin"
+          "c"
         ]
       ]
     },
@@ -9011,16 +9011,16 @@
           "Diabetes"
         ],
         [
-          "Diabetes\""
-        ],
-        [
           "Adipokines in Diabetes"
         ],
         [
-          "type 2 diabetes"
+          "Diabetes.The Special Issue \"Pathogenetic and Therapeutic Significance of Adipokines in Diabetes"
         ],
         [
-          "adipokines"
+          "Adipokines"
+        ],
+        [
+          "Diabetes.The Special Issue \"Pathogenetic and Therapeutic Significance of Adipokines in Diabetes\""
         ]
       ]
     },
@@ -9032,19 +9032,19 @@
       ],
       "exact_answer": [
         [
-          "blepharophimosis, hypertelorism"
-        ],
-        [
           "blepharophimosis"
         ],
         [
-          "hallux varus"
+          "blepharophimosis, hypertelorism"
         ],
         [
-          "hypertelorism"
+          "brachycephaly"
         ],
         [
-          "brachycephaly, ptosis, blepharophimosis, hypertelorism"
+          "brachycephaly, ptosis, blepharophimosis"
+        ],
+        [
+          "brachycephaly, ptosis"
         ]
       ]
     },
@@ -9056,10 +9056,7 @@
       ],
       "exact_answer": [
         [
-          "In\u00a0the\u00a0course\u00a0of\u00a0my\u00a0duties\u00a0as\u00a0a\u00a0curator\u00a0for\u00a0the\u00a0ArachnoServer\u00a0database\u00a0[1,2],\u00a0I\u00a0recently\u00a0came\u00a0"
-        ],
-        [
-          "across\u00a0the\u00a0article\u00a0published\u00a0by\u00a0Binda\u00a0et\u00a0al.\u00a0in\u00a0Toxins\u00a0[3].[...]"
+          "in\u00a0Toxins\u00a0[3].[.."
         ]
       ]
     },
@@ -9077,13 +9074,13 @@
           "actoxumab and bezlotoxumab"
         ],
         [
-          "bezlotoxumab bind to and neutralize TcdA and TcdB, respectively. Bezlotoxumab"
-        ],
-        [
           "actoxumab"
         ],
         [
-          "bezlotox"
+          "bezlotoxumab bind to and neutralize TcdA and TcdB, respectively.Bezlotoxumab"
+        ],
+        [
+          "Bezlotoxumab was recently approved by the FDA for reducing the recurrence of CDI.Bezlotoxumab"
         ]
       ]
     },
@@ -9104,10 +9101,10 @@
           "calcium ionophore-induced acrosome reaction and protein tyrosine phosphorylation"
         ],
         [
-          "decrease of calcium ionophore-induced acrosome reaction and protein tyrosine phosphorylation"
+          "protein tyrosine phosphorylation"
         ],
         [
-          "acrosome reaction"
+          "decrease of calcium ionophore-induced acrosome reaction and protein tyrosine phosphorylation"
         ]
       ]
     },
@@ -9128,10 +9125,10 @@
           "an"
         ],
         [
-          "givosir"
+          "2019 givosiran"
         ],
         [
-          "2019 givosiran"
+          "givosir"
         ]
       ]
     },
@@ -9149,13 +9146,13 @@
           "manually"
         ],
         [
-          "manually curated"
-        ],
-        [
           "manually curated repositories, (2) interactions derived from ChIP-seq binding data"
         ],
         [
           "manually curated repositories, (2) interactions"
+        ],
+        [
+          "manually curated"
         ]
       ]
     },
@@ -9167,19 +9164,19 @@
       ],
       "exact_answer": [
         [
-          "GAL80"
+          "tools for manipulating small groups of DA neurons"
         ],
         [
-          "GAL4 or GAL80"
+          "tools"
         ],
         [
-          "GAL4"
+          "manipulating small groups of DA neurons"
         ],
         [
-          "GAL4 line into Split GAL4 or GAL80"
+          "requires tools for manipulating small groups of DA neurons"
         ],
         [
-          "GAL4 line into Split GAL4"
+          "DA neurons"
         ]
       ]
     },
@@ -9200,10 +9197,10 @@
           "D-4F"
         ],
         [
-          "L"
+          "D"
         ],
         [
-          "D"
+          "L"
         ]
       ]
     },
@@ -9215,19 +9212,19 @@
       ],
       "exact_answer": [
         [
-          "heat"
+          "biochar"
         ],
         [
-          "Biochar"
+          "phase change material-biochar"
         ],
         [
-          "heat storage"
+          "bio"
         ],
         [
-          "heat storage biocomposite"
+          "heat storage biocomposites of phase change material-biochar"
         ],
         [
-          "biochar. Biochar"
+          "biochar as feasible eco-friendly building materials"
         ]
       ]
     },
@@ -9239,19 +9236,19 @@
       ],
       "exact_answer": [
         [
-          "LX-2"
+          "adipose derived stem cells"
         ],
         [
-          "LX-2 cells"
+          "LX-2"
         ],
         [
           "FGF21_ADSCs"
         ],
         [
-          "FGF21"
+          "adipose derived stem"
         ],
         [
-          "LX-2 cells. These results suggest that transplantation of FGF21_ADSCs"
+          "LX-2 cells"
         ]
       ]
     },
@@ -9263,19 +9260,19 @@
       ],
       "exact_answer": [
         [
-          "naproxen moiety (1a-o) was designed and synthesized to create naproxen"
+          "anti-inflammatory"
         ],
         [
-          "naproxen"
+          "inflammatory"
         ],
         [
           "naproxen analogs, with the aim of developing novel anti-inflammatory"
         ],
         [
-          "Mannich derivatives containing a naproxen"
+          "naproxen moiety (1a-o) was designed and synthesized to create naproxen"
         ],
         [
-          "1,2,4-triazole-5-thione Mannich derivatives containing a naproxen"
+          "naproxen"
         ]
       ]
     },
@@ -9293,13 +9290,13 @@
           "Nephropathy"
         ],
         [
-          "Me"
-        ],
-        [
-          "Membranous"
+          "Membranous Nephropathy Treated With Rituximab"
         ],
         [
           "phropathy"
+        ],
+        [
+          "Membranous"
         ]
       ]
     },
@@ -9311,19 +9308,19 @@
       ],
       "exact_answer": [
         [
-          "Toxocara canis"
+          "ocular toxocariasis (OT), or visceral larva"
         ],
         [
-          "T. canis"
+          "larva"
         ],
         [
-          "T. canis larvae"
+          "visceral larva"
         ],
         [
-          "canis"
+          "ocular toxocariasis (OT), or visceral larva migrans"
         ],
         [
-          "is"
+          "larva migrans"
         ]
       ]
     },
@@ -9335,19 +9332,19 @@
       ],
       "exact_answer": [
         [
-          "nerve cells, many neuroendocrine cells"
+          "neuroendocrine cells"
         ],
         [
-          "neuroendocrine cells"
+          "nerve cells, many neuroendocrine cells"
         ],
         [
           "nerve cells"
         ],
         [
-          "nerve cells, many neuroendocrine cells, and cells mediating inflammation and immune responses"
+          "neuroendocrine cells, and cells mediating inflammation and immune responses"
         ],
         [
-          "neuroendocrine cells, and cells mediating inflammation and immune responses"
+          "nerve cells, many neuroendocrine cells, and cells mediating inflammation and immune responses"
         ]
       ]
     },
@@ -9365,13 +9362,13 @@
           "disease states and quantitatively monitor the course of the disease"
         ],
         [
-          "diagnosis"
+          "quantitatively monitor the course of the disease"
         ],
         [
-          "immunology, diagnosis"
+          "monitor the course of the disease"
         ],
         [
-          "immunology"
+          "mimic human disease states and quantitatively monitor the course of the disease"
         ]
       ]
     },
@@ -9383,19 +9380,19 @@
       ],
       "exact_answer": [
         [
-          "KIAA0319"
-        ],
-        [
-          "DCDC2"
-        ],
-        [
           "ROBO1"
         ],
         [
           "ROBO1, DCDC2"
         ],
         [
-          "DCDC2, KIAA0319"
+          "DCDC2"
+        ],
+        [
+          "DYX1C1, ROBO1"
+        ],
+        [
+          "DYX1C1, ROBO1, DCDC2"
         ]
       ]
     },
@@ -9419,7 +9416,7 @@
           "ezrin/radixin"
         ],
         [
-          "moesin proteins"
+          "ezrin"
         ]
       ]
     },
@@ -9431,19 +9428,19 @@
       ],
       "exact_answer": [
         [
-          "Arp2/3"
+          "actin"
         ],
         [
-          "formin and Arp2/3"
+          "actin binding partners modulate the dynamics in active actin networks"
         ],
         [
-          "Arp2"
+          "actin binding partners"
         ],
         [
-          "Arp"
+          "actin binding"
         ],
         [
-          "A"
+          "act"
         ]
       ]
     },
@@ -9455,19 +9452,19 @@
       ],
       "exact_answer": [
         [
-          "Mdm2"
-        ],
-        [
           "Mdm2 and MdmX"
         ],
         [
           "MdmX"
         ],
         [
-          "MdmX mediated inhibition of p53 transactivation. To investigate the role of the RING domain of Mdm2"
+          "Mdm2"
         ],
         [
-          "MdmX RING domain in the cytoplasm. Mdm2"
+          "p53.To investigate the role of the RING domain of Mdm2"
+        ],
+        [
+          "p53.To investigate the role of the RING domain of Mdm2 and MdmX"
         ]
       ]
     },
@@ -9485,13 +9482,13 @@
           "non-Hodgkin lymphoma"
         ],
         [
-          "arthritis"
-        ],
-        [
           "lymphoma"
         ],
         [
-          "non-Hodgkin lymphoma orphan indication. It has since been approved for additional orphan indications"
+          "arthritis"
+        ],
+        [
+          "non-Hodgkin lymphoma orphan indication"
         ]
       ]
     }

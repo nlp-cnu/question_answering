@@ -46,7 +46,12 @@ def get_three_files(a_dir):
 
 def get_col_list(gold_df, gen_df, col):
     gold_col = gold_df.loc[:, ["id", col]].copy()
-    gen_col = gen_df.loc[:, ["id", col]].copy()
+    if gen_df == None:
+        gen_ids = None
+        gen_vals = None
+    else:
+        gen_col = gen_df.loc[:, ["id", col]].copy()
+
 
     gold = gold_col.to_dict(orient="list")
     gen = gen_col.to_dict(orient="list")
@@ -521,11 +526,11 @@ def do_pmids_eval(gold_df, gen_df):
 def do_factoid_eval(gold_df, gen_df, gen_factoid_path):
     print(f"{CYAN}Factoid Evaluation{OFF}")
     factoid_gold_df = gold_df[gold_df["type"] == "factoid"]
-    factoid_gen_df = gen_df[gen_df["type"] == "factoid"]
+    # factoid_gen_df = gen_df[gen_df["type"] == "factoid"]
 
-    if DEBUG:
-        print(f" [{len(factoid_gold_df)}] Gold Factoid Questions")
-        print(f" [{len(factoid_gen_df)}] Generated Factoid Questions")
+    # if DEBUG:
+    #     print(f" [{len(factoid_gold_df)}] Gold Factoid Questions")
+    #     print(f" [{len(factoid_gen_df)}] Generated Factoid Questions")
     gold_ids, gold_ans, gen_ids, gen_ans = get_col_list(
         factoid_gold_df, gen_df, "exact_answer"
     )
@@ -1051,3 +1056,19 @@ xml_name = "bioasq_qa.xml"
 test_results = run_all_the_tests(golden_dataset_path, gen_folder, xml_name)
 save_results(test_results, gen_folder)
 """
+
+if __name__ == "__main__":
+    print("Running manual analysis")
+    golden_dataset_path = "testing_datasets/augmented_concepts_abstracts_titles.json"
+    qa_input = "tmp/submit_to_dr_henry/datasets/gen_abs/bioasq_qa_GENERATED_ABSTRACTS.xml"
+    qa_output
+    gold_df = get_gold_df(golden_dataset_path)
+    gen_df = parse_qa_output(qa_input, generation_folder_path + "/qa")
+    do_factoid_eval(gold_df, gen_df, gen_factoid_path)
+
+    raw_test_results = analysis.run_qa_tests(
+                            gold_dataset_path=golden_dataset_path,
+                            generation_folder_path=gen_folder,
+                            qa_input=ir_output_generated,
+                            tag="gen",
+                        )
