@@ -74,7 +74,7 @@ def get_json_from_data(data):
 def transform_to_bioasq(file_paths):
     factoid_old, list_old, yesno_old = file_paths
     factoid_command = f"python ./biocodes/transform_n2b_factoid.py --nbest_path={factoid_old} --output_path={os.path.dirname(factoid_old)}"
-    list_command = f"python ./biocodes/transform_n2b_list.py --nbest_path={list_old} --output_path={os.path.dirname(list_old)}"
+    list_command = f"python ./biocodes/transform_n2b_factoid.py --nbest_path={list_old} --output_path={os.path.dirname(list_old)}"
     yesno_command = f"python ./biocodes/transform_n2b_yesno.py --nbest_path={yesno_old} --output_path={os.path.dirname(yesno_old)}"
     if os.path.exists(factoid_old):
         print(f"{MAGENTA}Changing Factoid!{OFF}")

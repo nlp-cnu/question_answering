@@ -565,6 +565,7 @@ def do_factoid_eval(gold_df, gen_df, gen_factoid_path):
                 print(f"{trimmed_id} wasn't correctly identified as factoid")
             continue
         gen_vals = gen_factoid_answers[trimmed_id]
+        # do some answer cleaning (helps with whitespace)
         gen_vals_clean = [e.lower().strip() for e in gen_vals]
         if DEBUG:
             print(gold_val, " | ", gen_vals)
@@ -611,7 +612,7 @@ def do_factoid_eval(gold_df, gen_df, gen_factoid_path):
     return lenient_acc, strict_acc, average_mrr, mrrs
 
 
-def do_list_eval(gold_df, gen_df):
+def do_list_eval(gold_df, gen_df,gen_list_path):
     print(f"{CYAN}List Evaluation{OFF}")
     list_gold_df = gold_df[gold_df["type"] == "list"]
     list_gen_df = gen_df[gen_df["type"] == "list"]
@@ -623,7 +624,23 @@ def do_list_eval(gold_df, gen_df):
     gold_ids, gold_ans, gen_ids, gen_ans = get_col_list(
         list_gold_df, gen_df, "exact_answer"
     )
-    num_gen_q_without_ans = 0
+
+    # handle the top 5 values for each list as list of answers
+    with open(gen_list_path, "r") as ft_file:
+        list_gen_json = json.load(ft_file)
+
+    gen_list_answers = {}
+    for question in list_gen_json["questions"]:
+        qid = question["id"]
+        if len(qid) == 24:
+            qid = qid[0:20]
+        answer = question["exact_answer"]
+        if answer == []:
+            answer = "empty"
+        if isinstance(answer, list) and isinstance(answer[0], list):  # handle list in list
+            answer = [e[0] for e in answer]
+        gen_list_answers[qid] = answer
+
     num_gold_q_without_ans = 0
     tp = 0
     fp = 0
@@ -638,23 +655,30 @@ def do_list_eval(gold_df, gen_df):
             num_gold_q_without_ans += 1
             continue
         try:
-            gen_val = gen_ans[gen_ids.index(gold_ids[i])]
+            trimmed_id = gold_ids[i][0:20]
         except ValueError as e:
             if DEBUG:
                 print(e)
             continue
+
+        if trimmed_id not in gen_list_answers.keys():
+            if DEBUG:
+                print(f"{trimmed_id} wasn't correctly identified as factoid")
+            continue
+        gen_vals = gen_list_answers[trimmed_id]
+        gen_vals_clean = [e.lower().strip() for e in gen_vals]
         # if answers are found
-        if gen_val != None:  # List is only able to find a single item list
+        if gen_vals != None: 
             # TP is answer in Gold AND Gen
             # FP is answer NOT IN GOLD, but YES IN GEN
             # FN is answer IN Gold but NOT GEN
             gold_list = gold_val[0]
             for val in gold_list:
-                if val in gen_val:
+                if val in gen_vals_clean:
                     tp += 1
-                elif val not in gen_val:
+                elif val not in gen_vals_clean:
                     fn += 1
-            for val in gen_val:
+            for val in gen_vals_clean:
                 if val not in gold_list:
                     fp += 1
             num_gen += 1
@@ -820,12 +844,13 @@ def run_ir_tests(gold_dataset_path, generation_folder_path, ir_output, tag="gen"
 
 def run_qa_tests(gold_dataset_path, generation_folder_path, qa_input, tag="gen"):
     factoid_path = generation_folder_path + "/qa/factoid/BioASQform_BioASQ-answer.json"
+    list_path = generation_folder_path + "/qa/list/BioASQform_BioASQ-answer.json"
     gold_df = get_gold_df(gold_dataset_path=gold_dataset_path)
     gen_df = parse_qa_output(qa_input, generation_folder_path + "/qa")
 
     yes_no_report = do_yes_no_eval(gold_df, gen_df)
     factoid_report = do_factoid_eval(gold_df, gen_df, factoid_path)
-    list_report = do_list_eval(gold_df, gen_df)
+    list_report = do_list_eval(gold_df, gen_df,list_path)
 
     test_results = (
         None,
