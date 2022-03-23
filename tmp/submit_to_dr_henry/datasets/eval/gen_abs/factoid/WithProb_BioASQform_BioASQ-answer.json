@@ -1,0 +1,5040 @@
+{
+  "questions": [
+    {
+      "type": "factoid",
+      "id": "5e48edb1f8b2df0d4900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "oxygen beams",
+          0.41776951692221237
+        ],
+        [
+          "oxygen",
+          0.39834146473485904
+        ],
+        [
+          "oxygen beams for hadron therapy, as an alternative to carbon ions",
+          0.1035574811309113
+        ],
+        [
+          "oxygen beams for hadron therapy, as an alternative to carbon",
+          0.055533695371269405
+        ],
+        [
+          "carbon ions",
+          0.015592481871523905
+        ],
+        [
+          "carbon",
+          0.00836161838699629
+        ],
+        [
+          "oxygen beams for hadron therapy",
+          0.00025060650904531985
+        ],
+        [
+          "beams",
+          0.00021506785804125417
+        ],
+        [
+          "use oxygen beams",
+          7.150639397806875e-05
+        ],
+        [
+          "use oxygen",
+          6.818104376063284e-05
+        ],
+        [
+          "beams for hadron therapy, as an alternative to carbon ions",
+          5.264062390317564e-05
+        ],
+        [
+          "the possibility to use oxygen beams",
+          4.3786060307182226e-05
+        ],
+        [
+          "the possibility to use oxygen",
+          4.174982302736908e-05
+        ],
+        [
+          "beams for hadron therapy, as an alternative to carbon",
+          2.8588761096320663e-05
+        ],
+        [
+          "oxygen beams for",
+          2.426304450729335e-05
+        ],
+        [
+          "investigates the possibility to use oxygen beams",
+          2.388350962114695e-05
+        ],
+        [
+          "to use oxygen beams",
+          2.3467954939798058e-05
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e29f666aa19d7443100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "PP2A",
+          0.6062475236992712
+        ],
+        [
+          "protein phosphatase 2A",
+          0.14134573659959473
+        ],
+        [
+          "PP2A inhibition on cell death in TRAIL-resistant TNBC cells. We found that the PP2A",
+          0.07758785890794379
+        ],
+        [
+          "protein phosphatase 2A (PP2A)",
+          0.028582291508565224
+        ],
+        [
+          "PP2",
+          0.005783079750914097
+        ],
+        [
+          "2A",
+          0.004460343712583501
+        ],
+        [
+          "phosphatase 2A",
+          0.0018765895784393861
+        ],
+        [
+          "(PP2A) plays an important role in TRAIL resistance. In this study, we evaluated the effects of PP2A",
+          0.0011696781874170248
+        ],
+        [
+          "2A (PP2A)",
+          0.0009019504039418138
+        ],
+        [
+          "PP2A inhibition on cell death in TRAIL-resistant TNBC cells. We found that the PP2",
+          0.0007419998699116245
+        ],
+        [
+          "protein phosphatase 2",
+          0.0007023983511804128
+        ],
+        [
+          "PP",
+          0.0005761035825056261
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e480da0d14c9f295d00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "craniopharyngiomas",
+          0.9900840324685698
+        ],
+        [
+          "mas",
+          0.001674964144323731
+        ],
+        [
+          "raniopharyngiomas",
+          0.0014649631390914336
+        ],
+        [
+          "patients with craniopharyngiomas",
+          0.0010849198550572225
+        ],
+        [
+          "craniopharyngiomas who underwent this treatment",
+          0.0009591183612032545
+        ],
+        [
+          "craniopharyngio",
+          0.0009563344447100567
+        ],
+        [
+          "giomas",
+          0.0008894840312206195
+        ],
+        [
+          "craniopharyngiomas are excellent",
+          0.0005723666900154073
+        ],
+        [
+          "craniopharyngiomas are excellent, but reports of long-term follow-up are rare",
+          0.00046289932627294954
+        ],
+        [
+          "c",
+          0.00039849045386864757
+        ],
+        [
+          "CyberKnife treatment in patients with craniopharyngiomas",
+          0.00033697958596637725
+        ],
+        [
+          "opharyngiomas",
+          0.0003315179967572605
+        ],
+        [
+          "results of CyberKnife treatment in patients with craniopharyngiomas",
+          0.00028287901601581166
+        ],
+        [
+          "craniop",
+          0.00023590827141118355
+        ],
+        [
+          "haryngiomas",
+          0.00013493504426592852
+        ],
+        [
+          "yngiomas",
+          9.015672010873216e-05
+        ],
+        [
+          "partial resection",
+          2.8953824839362823e-05
+        ],
+        [
+          "surgical resection",
+          7.420441922247772e-06
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2e136bfbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "OncoPPi Portal",
+          0.6311448344628169
+        ],
+        [
+          "the OncoPPi Portal",
+          0.13083431317653796
+        ],
+        [
+          "OncoPPi",
+          0.10504355903476567
+        ],
+        [
+          "OncoPPi network, is available through the OncoPPi Portal",
+          0.09052089926113908
+        ],
+        [
+          "the OncoPPi",
+          0.021775195089142975
+        ],
+        [
+          "OncoPPi network, is available through the OncoPPi",
+          0.015065697928923998
+        ],
+        [
+          "OncoPPi network using the OncoPPi Portal",
+          0.0036066538987182648
+        ],
+        [
+          "OncoPPi network using the OncoPPi",
+          0.0012520697724063426
+        ],
+        [
+          "the OncoPPi network, is available through the OncoPPi Portal",
+          0.00022462837424191788
+        ],
+        [
+          "Onco",
+          0.00018620184189332205
+        ],
+        [
+          "Portal",
+          0.00011268015138427729
+        ],
+        [
+          "PPi Portal",
+          6.566915811379874e-05
+        ],
+        [
+          "OncoPP",
+          4.827795312307427e-05
+        ],
+        [
+          "On",
+          4.155045139827048e-05
+        ],
+        [
+          "the OncoPPi network, is available through the OncoPPi",
+          3.7524027548562866e-05
+        ],
+        [
+          "the Onco",
+          2.0822309565296447e-05
+        ],
+        [
+          "coPPi Portal",
+          1.942310828038452e-05
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5c74266a7c78d6947100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "splicing",
+          0.9019357173802207
+        ],
+        [
+          "splicing processes",
+          0.04130857250744117
+        ],
+        [
+          "splicing machinery complexes and splicing",
+          0.027012885558950938
+        ],
+        [
+          "RNA splicing machinery complexes and splicing",
+          0.02390971375881865
+        ],
+        [
+          "RNA splicing",
+          0.0014190753555723586
+        ],
+        [
+          "splicing machinery complexes and splicing processes",
+          0.001237187662318434
+        ],
+        [
+          "RNA splicing machinery complexes and splicing processes",
+          0.0010950626806388666
+        ],
+        [
+          "splicing particle",
+          0.0006939775816257953
+        ],
+        [
+          "licing",
+          0.00031132421137371424
+        ],
+        [
+          "splicing processes within nuclear speckles (specific type of non-membrane-bound organelles)",
+          0.0002220920592330898
+        ],
+        [
+          "splicing machinery",
+          0.00017385865824278793
+        ],
+        [
+          "RNA splicing machinery",
+          0.0001538862164134816
+        ],
+        [
+          "licing machinery complexes and splicing",
+          0.00013103001628651735
+        ],
+        [
+          "sp",
+          9.580529785984171e-05
+        ],
+        [
+          "s",
+          8.062773094404883e-05
+        ],
+        [
+          "splicing particles",
+          1.6491138948110466e-05
+        ],
+        [
+          "licing processes",
+          1.4258620111206433e-05
+        ],
+        [
+          "splicing particle biogenesis",
+          1.1522698905910895e-05
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e355e20fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "lamin B1",
+          0.3037296019294015
+        ],
+        [
+          "LMNB1",
+          0.2817215139576229
+        ],
+        [
+          "lamin B1 (LMNB1)",
+          0.031208945696199423
+        ],
+        [
+          "LMNB",
+          0.006723411783873152
+        ],
+        [
+          "lamin",
+          0.0016038858593924329
+        ],
+        [
+          "lamin B",
+          0.0015264228236345299
+        ],
+        [
+          "B1",
+          0.00023424580544629208
+        ],
+        [
+          "lamin B1 (LMNB1) duplication",
+          8.124262528504567e-05
+        ],
+        [
+          "1",
+          7.851500936098883e-05
+        ],
+        [
+          "LM",
+          4.0871358015551804e-05
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e48f90bf8b2df0d4900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "eggs and nymphs",
+          0.3064986769975223
+        ],
+        [
+          "sterility of eggs and nymphs",
+          0.18842631085055495
+        ],
+        [
+          "eggs",
+          0.13051597524322273
+        ],
+        [
+          "The sterility of eggs and nymphs",
+          0.08357261993619354
+        ],
+        [
+          "sterility of eggs",
+          0.08023735685600243
+        ],
+        [
+          "eggs and nymphs from gamma-irradiated male",
+          0.06376852303453788
+        ],
+        [
+          "sterility of eggs and nymphs from gamma-irradiated male",
+          0.039202999704575366
+        ],
+        [
+          "The sterility of eggs",
+          0.035587631573012216
+        ],
+        [
+          "The sterility of eggs and nymphs from gamma-irradiated male",
+          0.017387685296602173
+        ],
+        [
+          "sterility",
+          0.016952835361939783
+        ],
+        [
+          "The sterility",
+          0.007519081916685962
+        ],
+        [
+          "gamma-irradiated male",
+          0.00643536658806553
+        ],
+        [
+          "male",
+          0.0061758317797049635
+        ],
+        [
+          "nymphs",
+          0.005360731739165711
+        ],
+        [
+          "ility of eggs and nymphs",
+          0.0029380339702529557
+        ],
+        [
+          "eggs and nymphs from gamma-irradiated",
+          0.002508542344142633
+        ],
+        [
+          "s",
+          0.001990663400443279
+        ],
+        [
+          "of eggs and nymphs",
+          0.0019366675752145184
+        ],
+        [
+          "sterility of eggs and nymphs from gamma-irradiated",
+          0.0015421775524434667
+        ],
+        [
+          "terility of eggs and nymphs",
+          0.0014422882797173965
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e46da9c3f5415952900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "pyrimidine dimers",
+          0.8517494405188016
+        ],
+        [
+          "UV-light-induced pyrimidine dimers",
+          0.1345251807934283
+        ],
+        [
+          "dimers",
+          0.0032511761682992085
+        ],
+        [
+          "pyrimidine dimers throughout the genome; however, it remains unknown how these lesions",
+          0.002097527465717973
+        ],
+        [
+          "pyrimidine dimers throughout the genome",
+          0.0017714813488987865
+        ],
+        [
+          "pyrimidine dimers throughout the genome;",
+          0.0012678908672550903
+        ],
+        [
+          "light-induced pyrimidine dimers",
+          0.0011021447908395406
+        ],
+        [
+          "pyr",
+          0.0008309382483966092
+        ],
+        [
+          "UV-light",
+          0.0005982554514930201
+        ],
+        [
+          "induced pyrimidine dimers",
+          0.0004733843899434964
+        ],
+        [
+          "detects UV-light-induced pyrimidine dimers",
+          0.00039524972544348504
+        ],
+        [
+          "pyrimidine dim",
+          0.00037011820813002234
+        ],
+        [
+          "UV-light-induced pyrimidine dimers throughout the genome",
+          0.000279787502516751
+        ],
+        [
+          "yrimidine dimers",
+          0.00020928887043577168
+        ],
+        [
+          "UV-light-induced pyrimidine dimers throughout the genome;",
+          0.000200250496249152
+        ],
+        [
+          "pyrimidine",
+          0.00016027746445951396
+        ],
+        [
+          "UV-light-induced",
+          0.00013250430309390176
+        ],
+        [
+          "UV-light-induced pyr",
+          0.00013123826418440828
+        ],
+        [
+          "p",
+          0.00012258194437824154
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2902688b3851296d00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "insulin-like growth factor-1",
+          0.5816388812282668
+        ],
+        [
+          "insulin-like growth factor-1 receptor",
+          0.40810752467517
+        ],
+        [
+          "insulin-like growth factor",
+          0.0029478617065491286
+        ],
+        [
+          "insulin",
+          0.0023143054997081624
+        ],
+        [
+          "1",
+          0.0016086943737272752
+        ],
+        [
+          "1 receptor",
+          0.0011287420769297862
+        ],
+        [
+          "insulin-like growth factor-",
+          0.0009531270882809903
+        ],
+        [
+          "insulin-like growth",
+          0.00039167730845106276
+        ],
+        [
+          "receptor",
+          0.00020611417989656485
+        ],
+        [
+          "like growth factor-1",
+          0.0001419183565864206
+        ],
+        [
+          "growth factor-1",
+          0.00010163138358958028
+        ],
+        [
+          "insulin-like growth factor-1 receptor inhibiting monoclonal antibody",
+          0.00010084254954200588
+        ],
+        [
+          "like growth factor-1 receptor",
+          9.957716219064463e-05
+        ],
+        [
+          "growth factor-1 receptor",
+          7.130976577506111e-05
+        ],
+        [
+          "-1",
+          5.956358660471719e-05
+        ],
+        [
+          "-1 receptor",
+          4.179285236003046e-05
+        ],
+        [
+          "insulin-like growth factor-1 receptor inhibiting",
+          3.501874861908384e-05
+        ],
+        [
+          "-like growth factor-1",
+          2.09126541435459e-05
+        ],
+        [
+          "insulin-like growth factor-1 receptor inhibit",
+          1.583141812502026e-05
+        ],
+        [
+          "-like growth factor-1 receptor",
+          1.4673385484284718e-05
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e46e74e3f5415952900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "ultraviolet radiation",
+          0.5366577757680047
+        ],
+        [
+          "ionizing and ultraviolet radiation",
+          0.19788400211258544
+        ],
+        [
+          "DNA damage by ionizing and ultraviolet radiation",
+          0.11636166771644742
+        ],
+        [
+          "complementation group C",
+          0.06622909994613814
+        ],
+        [
+          "ultraviolet",
+          0.012530801309807405
+        ],
+        [
+          "complementation group C produced only slightly more procollagenase than normal cells",
+          0.009045201955364957
+        ],
+        [
+          "ultraviolet radiation, respectively",
+          0.008394232770610409
+        ],
+        [
+          "DNA damage",
+          0.0050739546981633
+        ],
+        [
+          "complementation group C produced only slightly more procollagenase",
+          0.0048438672940356725
+        ],
+        [
+          "ionizing and ultraviolet",
+          0.00462053327991703
+        ],
+        [
+          "DNA",
+          0.0028057526334731315
+        ],
+        [
+          "DNA damage by ionizing and ultraviolet",
+          0.0027170107358380413
+        ],
+        [
+          "complementation groups A and D than in normal cells. In contrast, cells from xeroderma pigmentosum",
+          0.002682563652671768
+        ],
+        [
+          "ultraviolet radiation, respectively. In culture",
+          0.002269250234561149
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2902e48b3851296d00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "rheumatic diseases",
+          0.9269183871565426
+        ],
+        [
+          "rheumatic",
+          0.0645172298311642
+        ],
+        [
+          "rhe",
+          0.005946642378429889
+        ],
+        [
+          "r",
+          0.0009130956002975449
+        ],
+        [
+          "rheumatic diseases are discussed",
+          0.0008503905430052276
+        ],
+        [
+          "diseases",
+          0.0003292722415519533
+        ],
+        [
+          "umatic diseases",
+          0.00031891721522476926
+        ],
+        [
+          "heumatic diseases",
+          9.26866336340835e-05
+        ],
+        [
+          "umatic",
+          2.219791467821684e-05
+        ],
+        [
+          "anifrolumab",
+          2.060365235977363e-05
+        ],
+        [
+          "new-generation antibodies used to treat rheumatic diseases",
+          1.0133845799675268e-05
+        ],
+        [
+          "heumatic",
+          6.451360688605227e-06
+        ],
+        [
+          "sapelizumab, anifrolumab",
+          1.6161608549203976e-06
+        ],
+        [
+          "anifrolumab, and tanezumab",
+          1.490150261007805e-06
+        ],
+        [
+          "sapelizumab",
+          1.1391382175000987e-06
+        ],
+        [
+          "new-generation antibodies used to treat rheumatic",
+          7.0535622940535e-07
+        ],
+        [
+          "he",
+          5.946308446564034e-07
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2e11a1fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "FGFR3",
+          0.47502910474947624
+        ],
+        [
+          "fibroblast growth factor receptor-3",
+          0.045669711338686185
+        ],
+        [
+          "fibroblast growth factor receptor-3 (FGFR3)",
+          0.035505346389358636
+        ],
+        [
+          "FGFR",
+          0.03288145266745729
+        ],
+        [
+          "FGFR3) gene encoding one member of the FGFR subfamily of tyrosine kinase receptors",
+          0.01415585949379525
+        ],
+        [
+          "fibroblast growth factor receptor",
+          0.004963955320480305
+        ],
+        [
+          "F",
+          0.0035590642773528406
+        ],
+        [
+          "fibroblast growth factor receptor-3 (FGFR3) gene",
+          0.0033615616940831793
+        ],
+        [
+          "fibroblast growth factor receptor-3 (FGFR3) gene encoding one member of the FGFR",
+          0.002904394765245644
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5c74285c7c78d6947100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "cytoplasmic",
+          0.9766248025476885
+        ],
+        [
+          "nucleus",
+          0.005291019455692794
+        ],
+        [
+          "ytoplasmic",
+          0.002929131734553498
+        ],
+        [
+          "the nucleus",
+          0.0023072741527026437
+        ],
+        [
+          "cytoplasmic stress granules (SGs)",
+          0.002160273658980146
+        ],
+        [
+          "nucleus and cytoplasm",
+          0.0014162308356600835
+        ],
+        [
+          "cytoplasmic stress granules",
+          0.0014009078604393288
+        ],
+        [
+          "cytoplas",
+          0.0010871247334035183
+        ],
+        [
+          "lasmic",
+          0.0009727587634136359
+        ],
+        [
+          "nucleus and cytoplasm. Specifically, lncRNA and RBP localization to nuclear",
+          0.0007508541296357625
+        ],
+        [
+          "the nucleus and cytoplasm",
+          0.0007431889205664299
+        ],
+        [
+          "cyt",
+          0.0007353933766260905
+        ],
+        [
+          "nucleus to the cytoplasm",
+          0.0006791692102127914
+        ],
+        [
+          "cytoplasmic stress granules (SGs) that harbor mRNAs and RBPs",
+          0.0005810465301982983
+        ],
+        [
+          "cytoplasm",
+          0.0004850263386622058
+        ],
+        [
+          "mic",
+          0.0004678635893927637
+        ],
+        [
+          "c",
+          0.00042059391995324745
+        ],
+        [
+          "the nucleus and cytoplasm. Specifically, lncRNA and RBP localization to nuclear",
+          0.00039402225686376973
+        ],
+        [
+          "the nucleus to the cytoplasm",
+          0.00029616779472421326
+        ],
+        [
+          "cytoplasm. Specifically, lncRNA and RBP localization to nuclear",
+          0.0002571501906303929
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5c701f4f7c78d6947100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "autoimmune arthritis",
+          0.5329118552139769
+        ],
+        [
+          "collagen-induced arthritis",
+          0.26916909282131973
+        ],
+        [
+          "arthritis",
+          0.10820530434356614
+        ],
+        [
+          "murine collagen-induced arthritis",
+          0.0246970754227122
+        ],
+        [
+          "autoimmune arthritis. We demonstrated that dasatinib alleviated arthritis",
+          0.022355840728038447
+        ],
+        [
+          "Rheumatoid arthritis",
+          0.014070463074064937
+        ],
+        [
+          "collagen-induced arthritis (CIA)",
+          0.01282108650950931
+        ],
+        [
+          "arthritis. We demonstrated that dasatinib alleviated arthritis",
+          0.0036443571817724838
+        ],
+        [
+          "arthritis (CIA)",
+          0.0025233855882984984
+        ],
+        [
+          "autoimmune",
+          0.0023970365201864004
+        ],
+        [
+          "murine collagen-induced arthritis (CIA)",
+          0.0011763733243202034
+        ],
+        [
+          "autoimmune art",
+          0.000703151112635134
+        ],
+        [
+          "auto",
+          0.0006923616747596533
+        ],
+        [
+          "CIA mice and that FLS are an important target cell of dasatinib treatment in autoimmune arthritis",
+          0.0005809357379838524
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2daaa2fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "adenosine A(2A) receptors",
+          0.45828390107014383
+        ],
+        [
+          "adenosine A(2A)",
+          0.14233545239650833
+        ],
+        [
+          "selective antagonists of adenosine A(2A) receptors",
+          0.07900232307763848
+        ],
+        [
+          "inhibitor of adenosine A(2A) receptors",
+          0.026810012810623517
+        ],
+        [
+          "selective antagonists",
+          0.024847783185453196
+        ],
+        [
+          "selective antagonists of adenosine A(2A)",
+          0.018633962781210833
+        ],
+        [
+          "A(2A) receptors",
+          0.013995748971593945
+        ],
+        [
+          "selective",
+          0.01092261868701481
+        ],
+        [
+          "antagonists of adenosine A(2A) receptors",
+          0.009681006820912347
+        ],
+        [
+          "inhibitor of adenosine A(2A)",
+          0.00855296400870012
+        ],
+        [
+          "an inhibitor of adenosine A(2A) receptors",
+          0.007525251859062433
+        ],
+        [
+          "A(2A)",
+          0.00446494144088627
+        ],
+        [
+          "adenosine",
+          0.0043139032426068235
+        ],
+        [
+          "antagonists",
+          0.0030448668992495917
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e49032df8b2df0d4900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "miners",
+          0.6964295539598798
+        ],
+        [
+          "miners in 2016 alone. For this reason, the miners",
+          0.13886493087833016
+        ],
+        [
+          "the miners",
+          0.05634291779018245
+        ],
+        [
+          "miners' working hours, the dosimeters must be stored together with a reference dosimeter",
+          0.0037652536171721572
+        ],
+        [
+          "miners' exposures are determined",
+          0.0033081493860234565
+        ],
+        [
+          "miners are monitored with personal radon dosimetry",
+          0.0029279228478674246
+        ],
+        [
+          "22 miners in 2016 alone. For this reason, the miners",
+          0.0019992659684809054
+        ],
+        [
+          "After a 3 mo wearing period, the dosimeters are replaced and the miners",
+          0.001333585748425594
+        ],
+        [
+          "22 miners",
+          0.0012180200538633504
+        ],
+        [
+          "miners in 2016 alone. For this reason, the miners are monitored with personal radon dosimetry",
+          0.0011653101348028053
+        ],
+        [
+          "miners in 2016 alone",
+          0.0009512644152826073
+        ],
+        [
+          "miners stored their dosimeters in the boxes outside working hours",
+          0.0006049459240407409
+        ],
+        [
+          "the dosimeters are replaced and the miners",
+          0.000500540311393115
+        ],
+        [
+          "3 mo wearing period, the dosimeters are replaced and the miners",
+          0.0004978920688760319
+        ],
+        [
+          "the miners are monitored with personal radon dosimetry",
+          0.00047281176543261183
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2a1096aa19d7443100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "tetrahedrally coordinated",
+          0.4997776081729373
+        ],
+        [
+          "T molecules",
+          0.11003812701587747
+        ],
+        [
+          "T",
+          0.026065979506419503
+        ],
+        [
+          "coordinated",
+          0.02041561875334151
+        ],
+        [
+          "tetrahedrally",
+          0.015463265573969709
+        ],
+        [
+          "tetrahedrally coordinated (T molecules)",
+          0.012254949533605678
+        ],
+        [
+          "molecules are tetrahedrally coordinated",
+          0.005554477116363498
+        ],
+        [
+          "The majority of molecules are tetrahedrally coordinated",
+          0.004983339423442242
+        ],
+        [
+          "majority of molecules are tetrahedrally coordinated",
+          0.0028346600123325726
+        ],
+        [
+          "te",
+          0.0023721579789168137
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e29f6e0aa19d7443100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "non-Hodgkin's lymphoma",
+          0.6583374249337363
+        ],
+        [
+          "Cancer",
+          0.1883563240050086
+        ],
+        [
+          "lymphoma",
+          0.08235224652060015
+        ],
+        [
+          "Hodgkin's lymphoma",
+          0.036794820125289826
+        ],
+        [
+          "ymphoma",
+          0.005245167960415493
+        ],
+        [
+          "oma",
+          0.004397956558888407
+        ],
+        [
+          "kin's lymphoma",
+          0.0030023874510671494
+        ],
+        [
+          "lymphoma.\" (1). For almost half a century, the International Agency for Research on Cancer",
+          0.001788950960716845
+        ],
+        [
+          "non-Hodgkin's",
+          0.001784892975308402
+        ],
+        [
+          "Hodgkin's lymphoma.\" (1). For almost half a century, the International Agency for Research on Cancer",
+          0.0008024036209557578
+        ],
+        [
+          "non-Hodgkin's lymph",
+          0.0006087129520944436
+        ],
+        [
+          "public health",
+          0.00040510277476424333
+        ],
+        [
+          "Sarcevic",
+          0.00033376569986402933
+        ],
+        [
+          "gkin's lymphoma",
+          0.0002813776091709689
+        ],
+        [
+          "glyphosates-cancer",
+          0.0001940631939027688
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2dafccfbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "N-methyl-D-aspartate (NMDA) glutamate receptors",
+          0.3440803904327512
+        ],
+        [
+          "N-methyl-D-aspartate (NMDA)",
+          0.26397762368206085
+        ],
+        [
+          "N-methyl-D-aspartate",
+          0.07417070573423978
+        ],
+        [
+          "glutamate receptors",
+          0.04797631912670048
+        ],
+        [
+          "NMDA",
+          0.019230817417035438
+        ],
+        [
+          "N-methyl-D-aspartate (NMDA) glutamate",
+          0.01283288069063765
+        ],
+        [
+          "NMDA receptors",
+          0.004176537712956622
+        ],
+        [
+          "(NMDA) glutamate receptors",
+          0.003233946311666967
+        ],
+        [
+          "glutamate",
+          0.001792618138444524
+        ],
+        [
+          "N-methyl-D-aspartate (NMDA) g",
+          0.0015864158754708855
+        ],
+        [
+          "N",
+          0.0010301138298591278
+        ],
+        [
+          "Kir2) channels in striatal spiny projection neurons (SPNs) - not NMDA",
+          0.0005662757540868931
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e36dc8cb5b409ea5300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Acid Sphingomyelinase Deficiency",
+          0.18471061666614833
+        ],
+        [
+          "Arg610del mutation, have mild phenotype with normal linear growth",
+          0.15950400044687224
+        ],
+        [
+          "because of p.Arg610del mutation, have mild phenotype with normal linear growth",
+          0.09651258102847754
+        ],
+        [
+          "Acid Sphingomyelinase Deficiency (ASMD) because of p.Arg610del mutation",
+          0.09566182800078629
+        ],
+        [
+          "Acid Sphingomyelinase Deficiency (ASMD) because of p.Arg610del",
+          0.09197818634876233
+        ],
+        [
+          "Acid Sphingomyelinase Deficiency (ASMD)",
+          0.05394684846935902
+        ],
+        [
+          "Arg610del mutation",
+          0.04954766950555065
+        ],
+        [
+          "Arg610del",
+          0.04763974172530936
+        ],
+        [
+          "p.Arg610del mutation, have mild phenotype with normal linear growth",
+          0.03610701357175244
+        ],
+        [
+          "because of p.Arg610del mutation",
+          0.02998027293691275
+        ],
+        [
+          "because of p.Arg610del",
+          0.028825825186567115
+        ],
+        [
+          "Acid Sphingomyelinase Deficiency (ASMD) because of p.Arg610",
+          0.02840037871468156
+        ],
+        [
+          "Acid Sphingomyelinase",
+          0.024303763736026128
+        ],
+        [
+          "Acid Sphingomyelinase Deficiency (ASMD) because of p.Arg610del mutation, have mild phenotype",
+          0.023665808817677648
+        ],
+        [
+          "(ASMD) because of p.Arg610del mutation, have mild phenotype with normal linear growth",
+          0.020634304601955575
+        ],
+        [
+          "Arg610",
+          0.014709865029716463
+        ],
+        [
+          "Acid Sphingomyelinase Deficiency (ASMD) because of p",
+          0.013871295213444658
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e31cb85fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "JPH3",
+          0.6379791674410157
+        ],
+        [
+          "JPH3 gene",
+          0.35369867731646376
+        ],
+        [
+          "the JPH3",
+          0.0030539265907290392
+        ],
+        [
+          "JPH",
+          0.0023957976847862887
+        ],
+        [
+          "the JPH3 gene",
+          0.001690904479077777
+        ],
+        [
+          "(HDL2) is a rare autosomal dominant genetic disease caused by a mutation in the JPH3",
+          0.00019094542082352244
+        ],
+        [
+          "3",
+          0.00015384905137407723
+        ],
+        [
+          "J",
+          0.00015086033839336859
+        ],
+        [
+          "(HDL2) is a rare autosomal dominant genetic disease caused by a mutation in the JPH3 gene",
+          0.00010572306102905009
+        ],
+        [
+          "3 gene",
+          8.518346539829305e-05
+        ],
+        [
+          "mutation in the JPH3",
+          7.003091785803746e-05
+        ],
+        [
+          "gene",
+          6.47524168309245e-05
+        ],
+        [
+          "in the JPH3",
+          4.1987545991456815e-05
+        ],
+        [
+          "mutation in the JPH3 gene",
+          3.8774865459950374e-05
+        ],
+        [
+          "PH3",
+          3.230989989713498e-05
+        ],
+        [
+          "a mutation in the JPH3",
+          2.5722654125041654e-05
+        ],
+        [
+          "in the JPH3 gene",
+          2.3247752515717792e-05
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e30e689fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Ebola Virus Disease",
+          0.298251044321939
+        ],
+        [
+          "Ebola Hemorrhagic Fever",
+          0.2639249702500959
+        ],
+        [
+          "Ebola Virus Disease (EVD), also known as Ebola Hemorrhagic Fever",
+          0.2493471880194221
+        ],
+        [
+          "Ebola Hemorrhagic Fever (EHF)",
+          0.04638878609416794
+        ],
+        [
+          "Ebola Virus Disease (EVD), also known as Ebola Hemorrhagic Fever (EHF)",
+          0.043826521443781595
+        ],
+        [
+          "Ebola Virus Disease (EVD)",
+          0.03351664222874057
+        ],
+        [
+          "Ebola Virus",
+          0.016942251668638744
+        ],
+        [
+          "Ebola Virus Disease (EVD), also known as Ebola Hemorrhagic Fever (EHF",
+          0.011230721256825806
+        ],
+        [
+          "(EVD), also known as Ebola Hemorrhagic Fever",
+          0.006356961973360664
+        ],
+        [
+          "Virus Disease",
+          0.0036685472098433513
+        ],
+        [
+          "Virus Disease (EVD), also known as Ebola Hemorrhagic Fever",
+          0.0030670200433683746
+        ],
+        [
+          "EVD",
+          0.0019040924454897053
+        ],
+        [
+          "Hemorrhagic Fever",
+          0.0012194028343179284
+        ],
+        [
+          "Fever",
+          0.0011645142351999062
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e499e266d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Via",
+          0.4116996792969134
+        ],
+        [
+          "Viagra",
+          0.27982420085009396
+        ],
+        [
+          "sildenafil",
+          0.059575936513383
+        ],
+        [
+          "l",
+          0.00013751722638824165
+        ],
+        [
+          "gra",
+          2.06435782817651e-05
+        ],
+        [
+          "The World Health Organization has reported that counterfeit medicines",
+          1.9704303854311436e-09
+        ],
+        [
+          "counterfeit medicines",
+          1.1791982338432035e-09
+        ],
+        [
+          "The",
+          8.163332691752829e-10
+        ],
+        [
+          "counterfeit medicines potentially make up more than 50% of the global drug market",
+          7.494260653749152e-10
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e5b6f04b761aafe0900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "28",
+          0.5924208432320991
+        ],
+        [
+          "28 proteins",
+          0.09389782426244075
+        ],
+        [
+          "28 proteins in three distinct classes",
+          0.03152823450966987
+        ],
+        [
+          "16",
+          0.029898395016902
+        ],
+        [
+          "8,000 cases and 800 deaths. The SARS-CoV genome encodes 28",
+          0.028970847523385045
+        ],
+        [
+          "The SARS-CoV genome encodes 28",
+          0.020814012032952273
+        ],
+        [
+          "28 proteins in three",
+          0.011776355882214182
+        ],
+        [
+          "approximately 8,000 cases and 800 deaths. The SARS-CoV genome encodes 28",
+          0.008957454150647439
+        ],
+        [
+          "genome encodes 28",
+          0.006227957307709695
+        ],
+        [
+          "8,000 cases and 800 deaths. The SARS-CoV genome encodes 28 proteins",
+          0.004591836328113484
+        ],
+        [
+          "8,000",
+          0.0033143293796268204
+        ],
+        [
+          "The SARS-CoV genome encodes 28 proteins",
+          0.0032989900108912726
+        ],
+        [
+          "16 SARS-CoV proteins or functional domains have been determined to date",
+          0.0018989375448926302
+        ],
+        [
+          "8,000 cases and 800 deaths. The SARS-CoV genome",
+          0.0017127788068504574
+        ],
+        [
+          "SARS-CoV genome encodes 28",
+          0.0015713045660557872
+        ],
+        [
+          "approximately 8,000 cases and 800 deaths. The SARS-CoV genome encodes 28 proteins",
+          0.0014197431864274275
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e5b8b4e752ebcdc7a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Albright hereditary osteodystrophy",
+          0.6270291053265568
+        ],
+        [
+          "Albright hereditary osteodystrophy phenotype",
+          0.19679497210467742
+        ],
+        [
+          "the Albright hereditary osteodystrophy",
+          0.037744950084165854
+        ],
+        [
+          "hereditary osteodystrophy",
+          0.03344734268618872
+        ],
+        [
+          "osteodystrophy",
+          0.016692399552896697
+        ],
+        [
+          "the Albright hereditary osteodystrophy phenotype",
+          0.011846366198642964
+        ],
+        [
+          "hereditary osteodystrophy phenotype",
+          0.010497549180713151
+        ],
+        [
+          "Albright",
+          0.007801397926417422
+        ],
+        [
+          "osteodystrophy phenotype",
+          0.005238959844872939
+        ],
+        [
+          "Albright hereditary",
+          0.005141043294268702
+        ],
+        [
+          "brachydactyly was noted, the Albright hereditary osteodystrophy",
+          0.002507207423065504
+        ],
+        [
+          "pseudopseudohypoparathyroidism",
+          0.001036324220324
+        ],
+        [
+          "osteodystrophy phenotype was recognized, and a new diagnosis of pseudopseudohypoparathyroidism",
+          0.0009827607828079318
+        ],
+        [
+          "brachydactyly was noted, the Albright hereditary osteodystrophy phenotype",
+          0.0007868945965847156
+        ],
+        [
+          "the Albright",
+          0.0004696167575283193
+        ],
+        [
+          "Albright hereditary o",
+          0.00041258869207835933
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e4940f46d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "(lncRNAs) constitute the largest class of non-coding transcripts in the human genome",
+          0.19984841147874688
+        ],
+        [
+          "the largest class of non-coding transcripts in the human genome",
+          0.19910288216098398
+        ],
+        [
+          "largest class of non-coding transcripts in the human genome",
+          0.17647517535889595
+        ],
+        [
+          "lncRNAs",
+          0.05208538034127578
+        ],
+        [
+          "non-coding RNA genes than protein-coding genes",
+          0.031263829851857244
+        ],
+        [
+          "lncRNAs) constitute the largest class of non-coding transcripts in the human genome",
+          0.030949879268061805
+        ],
+        [
+          "(lncRNAs) constitute the largest class",
+          0.028251695902809668
+        ],
+        [
+          "the largest class",
+          0.0281463036836961
+        ],
+        [
+          "non-coding RNA genes",
+          0.025262338002775102
+        ],
+        [
+          "largest class",
+          0.024947523734331765
+        ],
+        [
+          "more non-coding RNA genes than protein-coding genes",
+          0.023339535720139172
+        ],
+        [
+          "Long non-coding RNAs (lncRNAs)",
+          0.018917382795937694
+        ],
+        [
+          "more non-coding RNA genes",
+          0.018859213441982464
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2dbc55fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Parkinson's disease psychosis",
+          0.3582838928729678
+        ],
+        [
+          "Parkinson's disease psychosis and other neurological disorders such as Alzheimer's disease",
+          0.29434938224815793
+        ],
+        [
+          "Parkinson's disease psychosis and other neurological disorders",
+          0.1317244156005321
+        ],
+        [
+          "psychosis",
+          0.051461207459596196
+        ],
+        [
+          "Alzheimer's disease",
+          0.04976086809619114
+        ],
+        [
+          "psychosis and other neurological disorders such as Alzheimer's disease",
+          0.042034051438958844
+        ],
+        [
+          "Parkinson's disease",
+          0.032915436134577016
+        ],
+        [
+          "psychosis and other neurological disorders",
+          0.0189199057327327
+        ],
+        [
+          "neurological disorders such as Alzheimer's disease",
+          0.007248415787665576
+        ],
+        [
+          "neurological disorders",
+          0.003262577332414307
+        ],
+        [
+          "Pimavanserin is a new drug approved by the FDA for Parkinson's disease psychosis",
+          0.003101154224764773
+        ],
+        [
+          "for Parkinson's disease psychosis",
+          0.0016956173839884903
+        ],
+        [
+          "for Parkinson's disease psychosis and other neurological disorders such as Alzheimer's disease",
+          0.0013849979792122877
+        ],
+        [
+          "for Parkinson's disease psychosis and other neurological disorders",
+          0.0006234000842096991
+        ],
+        [
+          "Parkinson's disease psychosis and other neurological",
+          0.0006065498281495394
+        ],
+        [
+          "Parkinson's disease psychosis and",
+          0.0005742640333116172
+        ],
+        [
+          "Parkinson's disease psychosis and other neurological disorders such",
+          0.00048648522777177625
+        ],
+        [
+          "Parkinson's",
+          0.0004272275649388371
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e5b8170b761aafe0900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "sudden smell loss\"",
+          0.35842876291195414
+        ],
+        [
+          "sudden smell loss",
+          0.2821114949642841
+        ],
+        [
+          "\"sudden smell loss\"",
+          0.18760923492344017
+        ],
+        [
+          "\"sudden smell loss",
+          0.14766315432770785
+        ],
+        [
+          "smell loss\"",
+          0.011663129279662905
+        ],
+        [
+          "smell loss",
+          0.009179795757227384
+        ],
+        [
+          "sudden smell loss\" for screening procedures",
+          0.000873148330010807
+        ],
+        [
+          "\"sudden smell loss\" for screening procedures",
+          0.00045702439959665307
+        ],
+        [
+          "loss\"",
+          0.0002704584259283994
+        ],
+        [
+          "evaluate the diagnostic value of the symptom \"sudden smell loss\"",
+          0.000248809045979113
+        ],
+        [
+          "loss",
+          0.00021287195325641415
+        ],
+        [
+          "evaluate the diagnostic value of the symptom \"sudden smell loss",
+          0.00019583219647762224
+        ],
+        [
+          "sudden smell",
+          0.00017539132143693631
+        ],
+        [
+          "to evaluate the diagnostic value of the symptom \"sudden smell loss\"",
+          0.00016942054505763836
+        ],
+        [
+          "diagnostic value of the symptom \"sudden smell loss\"",
+          0.00016223458984205896
+        ],
+        [
+          "to evaluate the diagnostic value of the symptom \"sudden smell loss",
+          0.00013334723155466988
+        ],
+        [
+          "sudden",
+          0.0001321251682780277
+        ],
+        [
+          "diagnostic value of the symptom \"sudden smell loss",
+          0.000127691322268418
+        ],
+        [
+          "the diagnostic value of the symptom \"sudden smell loss\"",
+          9.426975946973938e-05
+        ],
+        [
+          "\"sudden smell",
+          9.180354656715345e-05
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e319789fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "B-Raf and MEK",
+          0.5859802355340245
+        ],
+        [
+          "MEK",
+          0.20455020976102445
+        ],
+        [
+          "B-Raf",
+          0.18349511719758585
+        ],
+        [
+          "B-Raf and MEK inhibitors (dabrafenib and trametinib",
+          0.01090331885957911
+        ],
+        [
+          "MEK inhibitors (dabrafenib and trametinib",
+          0.003806060383223866
+        ],
+        [
+          "Raf and MEK",
+          0.0020886157118856006
+        ],
+        [
+          "BRAF-mutant melanomas. The best treatments include the combination of B-Raf and MEK",
+          0.0012746670475491213
+        ],
+        [
+          "MEK inhibitors (dabrafenib and trametinib, encorafenib and binimetinib",
+          0.0009209182056118195
+        ],
+        [
+          "Raf",
+          0.0006540336373016019
+        ],
+        [
+          "(dabrafenib and trametinib",
+          0.0004398753110827611
+        ],
+        [
+          "BRAF-mutant melanomas. The best treatments include the combination of B-Raf",
+          0.000399151993692705
+        ],
+        [
+          "MAP kinase",
+          0.0002194281892310406
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e3c6c9eb5b409ea5300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Helicobacter pylori",
+          0.4287191646931373
+        ],
+        [
+          "H. pylori",
+          0.14956833519423812
+        ],
+        [
+          "Helicobacter pylori (H. pylori)",
+          0.02212852843067392
+        ],
+        [
+          "pylori",
+          0.004969447427784895
+        ],
+        [
+          "Helicobacter pylori (H. pylori) are gram-negative bacteria",
+          0.0016357534690725406
+        ],
+        [
+          "ori",
+          0.0012928630245648129
+        ],
+        [
+          "licobacter pylori",
+          0.0010716092697475761
+        ],
+        [
+          "(H. pylori) are gram-negative bacteria",
+          0.0007737462879258254
+        ],
+        [
+          "ylori",
+          0.0005089848728341845
+        ],
+        [
+          "gram-negative bacteria that selectively colonizes the gastric mucosa. The prevalence of H. pylori",
+          0.0004408740599841222
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e540c866d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Src",
+          0.36728657600239084
+        ],
+        [
+          "AZD0530, an orally available Src",
+          0.24587896707178547
+        ],
+        [
+          "Src inhibitor",
+          0.17696031787713473
+        ],
+        [
+          "AZD0530, an orally available Src inhibitor",
+          0.11846558795016095
+        ],
+        [
+          "AZD0530",
+          0.06320493903476215
+        ],
+        [
+          "an orally available Src",
+          0.010562250640550334
+        ],
+        [
+          "an orally available Src inhibitor",
+          0.004836380693335701
+        ],
+        [
+          "A",
+          0.0038419456057792426
+        ],
+        [
+          "inhibitor",
+          0.0021569365211192787
+        ],
+        [
+          ", an orally available Src",
+          0.0016809667200629779
+        ],
+        [
+          "orally available Src",
+          0.0016541191804192296
+        ],
+        [
+          ", an orally available Src inhibitor",
+          0.000769702904023193
+        ],
+        [
+          "orally available Src inhibitor",
+          0.0007574096033985998
+        ],
+        [
+          "AZD0530, an",
+          0.000604178079026262
+        ],
+        [
+          "S",
+          0.0005677886221374406
+        ],
+        [
+          "AZD0530, an orally",
+          0.0003918289950075411
+        ],
+        [
+          "AZD0530, an orally available S",
+          0.00038010449890593716
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e4bed1c6d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "JDM",
+          0.9775309460261711
+        ],
+        [
+          "juvenile dermatomyositis",
+          0.011754929164630393
+        ],
+        [
+          "dermatomyositis",
+          0.00244859970960621
+        ],
+        [
+          "JCTM",
+          0.0014943393498273064
+        ],
+        [
+          "JDM was characterized by typical rashes, including Gottron papules, heliotrope rash",
+          0.0013905095024613213
+        ],
+        [
+          "myositis",
+          0.0013299051851241685
+        ],
+        [
+          "juvenile polymyositis",
+          0.0010621365646461538
+        ],
+        [
+          "JDM was characterized by typical rashes, including Gottron papules",
+          0.0007923525650109403
+        ],
+        [
+          "juvenile polymyositis (JPM) and juvenile myositis",
+          0.0004109985705097539
+        ],
+        [
+          "idiopathic inflammatory myopathies",
+          0.00032493696411203614
+        ],
+        [
+          "juvenile idiopathic inflammatory myopathies",
+          0.0002996852636623666
+        ],
+        [
+          "juvenile dermatomyositis (JDM)",
+          0.00019795412947506229
+        ],
+        [
+          "juvenile myositis",
+          0.00018888364449150141
+        ],
+        [
+          "polymyositis",
+          0.00018724394957047826
+        ],
+        [
+          "inflammatory myopathies",
+          0.00012722896466388405
+        ],
+        [
+          "polymyositis (JPM) and juvenile myositis",
+          7.245489720590207e-05
+        ],
+        [
+          "dermatomyositis (JDM)",
+          4.123465289832975e-05
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5d35ef017bc3fee31f00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "H3K27me3",
+          0.6770275657090408
+        ],
+        [
+          "H3K27me3 mark",
+          0.14642320457660005
+        ],
+        [
+          "H3K27me3 mark on histone H3",
+          0.09838529771998719
+        ],
+        [
+          "the H3K27me3",
+          0.04399901129153962
+        ],
+        [
+          "the H3K27me3 mark",
+          0.009515825584977673
+        ],
+        [
+          "histone H3",
+          0.0067163265837287805
+        ],
+        [
+          "the H3K27me3 mark on histone H3",
+          0.006393913696511986
+        ],
+        [
+          "H3K27",
+          0.004881449952296981
+        ],
+        [
+          "K27me3",
+          0.0013281247577264614
+        ],
+        [
+          "H3",
+          0.0010244979594307756
+        ],
+        [
+          "H3K27me3 mark on histone",
+          0.0007667527428537658
+        ],
+        [
+          "27me3",
+          0.0005735254118256446
+        ],
+        [
+          "3K27me3",
+          0.0005332002530117997
+        ],
+        [
+          "me3",
+          0.000505987653636442
+        ],
+        [
+          "H",
+          0.0005040935897660001
+        ],
+        [
+          "H3K27me",
+          0.00033469103441638687
+        ],
+        [
+          "the H3K27",
+          0.0003172381487085621
+        ],
+        [
+          "H3K27me3 mark on histone H3 at promoter and enhancer sites",
+          0.0002890525737863921
+        ],
+        [
+          "K27me3 mark",
+          0.0002872383532864949
+        ],
+        [
+          "K27me3 mark on histone H3",
+          0.0001930024068685552
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e460f823f5415952900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "calcitonin gene-related peptide",
+          0.5952665798707206
+        ],
+        [
+          "calcitonin gene-related peptide (CGRP)",
+          0.07209594731428244
+        ],
+        [
+          "CGRP",
+          0.03545139362275631
+        ],
+        [
+          "calcitonin gene-related peptide (CGRP) pathway",
+          0.024326117267481857
+        ],
+        [
+          "calcitonin",
+          0.004913977984184593
+        ],
+        [
+          "the calcitonin gene-related peptide",
+          0.004131269259466951
+        ],
+        [
+          "calcitonin gene",
+          0.0023569686408032274
+        ],
+        [
+          "calcitonin gene-related p",
+          0.0006512637740980781
+        ],
+        [
+          "the calcitonin gene-related peptide (CGRP)",
+          0.0005003603107305811
+        ],
+        [
+          "ca",
+          0.0002160131477462101
+        ],
+        [
+          "(CGRP) pathway",
+          0.00016729625800056467
+        ],
+        [
+          "the calcitonin gene-related peptide (CGRP) pathway",
+          0.00016224716303050201
+        ],
+        [
+          "CGRP) pathway",
+          0.00013663543533107205
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e4fd44a6d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "endocytosis",
+          0.6896068496644896
+        ],
+        [
+          "clathrin-mediated endocytosis",
+          0.2798901610118078
+        ],
+        [
+          "mediated endocytosis",
+          0.023344496416179777
+        ],
+        [
+          "In clathrin-mediated endocytosis",
+          0.0030819795521834915
+        ],
+        [
+          "-mediated endocytosis",
+          0.001291019699937435
+        ],
+        [
+          "endocyt",
+          0.00041829212190167177
+        ],
+        [
+          "endocytosis for example",
+          0.0003491267478082083
+        ],
+        [
+          "clathrin-mediated endocyt",
+          0.00016978119883684524
+        ],
+        [
+          "osis",
+          0.00016624249365002468
+        ],
+        [
+          "clathrin-mediated endocytosis for example",
+          0.00013536244046271628
+        ],
+        [
+          "clathrin",
+          7.757447247568295e-05
+        ],
+        [
+          "end",
+          6.55892426162851e-05
+        ],
+        [
+          "endoc",
+          3.1034750773899356e-05
+        ],
+        [
+          "clathrin-mediated end",
+          2.6622113253214197e-05
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e5409776d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Src",
+          0.9976985047833786
+        ],
+        [
+          "AZD0530, an orally available Src",
+          0.0009474693145420924
+        ],
+        [
+          "Src inhibitor",
+          0.0003801355726212577
+        ],
+        [
+          "S",
+          0.00037186545512861804
+        ],
+        [
+          "rc",
+          0.0003655312103136997
+        ],
+        [
+          ", an orally available Src",
+          0.00012417803283599983
+        ],
+        [
+          "an orally available Src",
+          4.252330121860935e-05
+        ],
+        [
+          "phosphorylation of Src",
+          2.4004692573174404e-05
+        ],
+        [
+          "Src substrates paxillin and FAK",
+          1.2728283392064309e-05
+        ],
+        [
+          "Src substrates paxillin and FAK in both growth-inhibition-resistant and -sensitive xenografts",
+          1.1858176961429897e-05
+        ],
+        [
+          "Src substrates paxillin",
+          1.1390218598598147e-05
+        ],
+        [
+          "Src substrates",
+          7.817579679024566e-06
+        ],
+        [
+          "AZD0530",
+          8.842055382122631e-07
+        ],
+        [
+          "AZD0530, an orally available S",
+          3.5314386679279774e-07
+        ],
+        [
+          "AZD0530, an orally available Src inhibitor",
+          3.020585880141874e-07
+        ],
+        [
+          "rc inhibitor",
+          1.1653342178773846e-07
+        ],
+        [
+          "paxillin and FAK",
+          1.1469572444874386e-07
+        ],
+        [
+          "paxillin and FAK in both growth-inhibition-resistant and -sensitive xenografts",
+          1.0685511591300483e-07
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5d35e421b3a638076300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "zygotic transition",
+          0.3579120972523285
+        ],
+        [
+          "maternal-to-zygotic transition",
+          0.1400411676362207
+        ],
+        [
+          "one third",
+          0.13275156603395286
+        ],
+        [
+          "at least one third",
+          0.10537696168243238
+        ],
+        [
+          "the maternal-to-zygotic transition",
+          0.09708984672750649
+        ],
+        [
+          "transition",
+          0.07573283347009747
+        ],
+        [
+          "During the maternal-to-zygotic transition",
+          0.04185885717132231
+        ],
+        [
+          "to-zygotic transition",
+          0.012030620049939033
+        ],
+        [
+          "one third of zygotically active genes",
+          0.007683295472660421
+        ],
+        [
+          "at least one third of zygotically active genes",
+          0.006098928674108954
+        ],
+        [
+          "zygotic",
+          0.004490751374887554
+        ],
+        [
+          "maternal-to-zygotic",
+          0.0017698491227185777
+        ],
+        [
+          "one third of zygotically active",
+          0.0017250865765100086
+        ],
+        [
+          "least one third",
+          0.001462655295578512
+        ],
+        [
+          "at least one third of zygotically active",
+          0.0013693577221174176
+        ],
+        [
+          "third",
+          0.0012840617524478085
+        ],
+        [
+          "the maternal-to-zygotic",
+          0.0012270276159216677
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e4f2aeb6d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "MAPK pathway",
+          0.5102133067221541
+        ],
+        [
+          "MAPK",
+          0.436346977634669
+        ],
+        [
+          "the MAPK pathway",
+          0.020455413006284225
+        ],
+        [
+          "the MAPK",
+          0.017493972665870997
+        ],
+        [
+          "MAPK pathway. Although diverse functions have been proposed for Raf kinases",
+          0.004093080932946049
+        ],
+        [
+          "pathway",
+          0.0024633978769238547
+        ],
+        [
+          "Raf proteins (A-Raf, B-Raf, and C-Raf) are key components of the MAPK pathway",
+          0.0014982986637819128
+        ],
+        [
+          "Raf proteins (A-Raf, B-Raf, and C-Raf) are key components of the MAPK",
+          0.0013866270258558373
+        ],
+        [
+          "MAPK pathway. Although diverse functions have been proposed for Raf kinase",
+          0.0010767834298955191
+        ],
+        [
+          "mammalian Raf proteins (A-Raf, B-Raf, and C-Raf) are key components of the MAPK",
+          0.0008934680257168516
+        ],
+        [
+          "(A-Raf, B-Raf, and C-Raf) are key components of the MAPK pathway",
+          0.0007942259994216732
+        ],
+        [
+          "(A-Raf, B-Raf, and C-Raf) are key components of the MAPK",
+          0.0007350305129790569
+        ],
+        [
+          "key components of the MAPK pathway",
+          0.0006710926526142327
+        ],
+        [
+          "key components of the MAPK",
+          0.0006210745770935471
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e7641a0c6a8763d2300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "cholera toxoid",
+          0.9493289153389997
+        ],
+        [
+          "Cholera",
+          0.016120193212334273
+        ],
+        [
+          "toxoid",
+          0.011761150125112828
+        ],
+        [
+          "cholera vaccine, cholera toxoid",
+          0.005115162918945968
+        ],
+        [
+          "Parenteral immunization of rabbits with cholera vaccine",
+          0.0026703527645835
+        ],
+        [
+          ". Cholera toxoid",
+          0.0024997026827124455
+        ],
+        [
+          "vaccine, cholera toxoid",
+          0.002379294635308802
+        ],
+        [
+          "cholera tox",
+          0.0022913446396268544
+        ],
+        [
+          "cholera vaccine",
+          0.0016618606651772306
+        ],
+        [
+          "vaccine",
+          0.000880287863849338
+        ],
+        [
+          "Parenteral immunization of rabbits",
+          0.0006921672912938732
+        ],
+        [
+          "rabbits with cholera vaccine",
+          0.0006534953520609
+        ],
+        [
+          "Parenteral immunization of rabbits with cholera",
+          0.0002452592590534942
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e42d1a748dab47f2600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "PARP",
+          0.9834747011609848
+        ],
+        [
+          "PARP1",
+          0.013959881992694607
+        ],
+        [
+          "PARP inhibitor",
+          0.000867478522332245
+        ],
+        [
+          "Olaparib, a PARP",
+          0.0008311189709521082
+        ],
+        [
+          "PAR",
+          0.0003036938802478848
+        ],
+        [
+          "a PARP",
+          0.00028101805153503504
+        ],
+        [
+          "P",
+          4.486249806531628e-05
+        ],
+        [
+          ", a PARP",
+          2.9684060337578225e-05
+        ],
+        [
+          "(BRCA1/2) mutations. Here, we report the development of a small molecule targeting PARP1",
+          7.242038583094835e-06
+        ],
+        [
+          "b, a PARP",
+          6.5035259819594814e-06
+        ],
+        [
+          "PARP1 based on the hydrophobic tagging (HyT) method",
+          3.1793636144151854e-06
+        ],
+        [
+          "PARP1 and shows enhanced antitumor effects compared to olaparib in TNBC cells",
+          2.4742980505849013e-06
+        ],
+        [
+          "1",
+          1.6787295950001758e-06
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2f4a8bfbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "camels",
+          0.9772342144192857
+        ],
+        [
+          "civets in China, and MERS coronavirus (MERS-CoV) has been transmitted from camels",
+          0.012259159050348627
+        ],
+        [
+          "MERS coronavirus (MERS-CoV) has been transmitted from camels",
+          0.003233465062545658
+        ],
+        [
+          "bats",
+          0.002996772613733855
+        ],
+        [
+          "ls",
+          0.0013266017731850303
+        ],
+        [
+          "humans from civets in China, and MERS coronavirus (MERS-CoV) has been transmitted from camels",
+          0.0007287722390275272
+        ],
+        [
+          "ts in China, and MERS coronavirus (MERS-CoV) has been transmitted from camels",
+          0.0003386824557889193
+        ],
+        [
+          "camels in the Middle East",
+          0.000335485637269384
+        ],
+        [
+          "(MERS-CoV) has been transmitted from camels",
+          0.0003028142182749803
+        ],
+        [
+          "China, and MERS coronavirus (MERS-CoV) has been transmitted from camels",
+          0.00018908376013866682
+        ],
+        [
+          "came",
+          0.00013829683052222995
+        ],
+        [
+          "coronavirus (MERS-CoV) has been transmitted from camels",
+          9.102225859225195e-05
+        ],
+        [
+          "a, and MERS coronavirus (MERS-CoV) has been transmitted from camels",
+          4.8265306329718854e-05
+        ],
+        [
+          "civets",
+          2.9219673746062117e-05
+        ],
+        [
+          "camels in the Middle East. Unlike SARS-CoV",
+          1.4722894658634022e-05
+        ],
+        [
+          "civets in China",
+          5.867437347467767e-06
+        ],
+        [
+          "humans. While bats",
+          3.8482529448018645e-06
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e6157cb1af46fc13000",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Rett Syndrome",
+          0.776576152838992
+        ],
+        [
+          "Rett Syndrome (RTT)",
+          0.13249570718296588
+        ],
+        [
+          "Rett",
+          0.025975712712494412
+        ],
+        [
+          "RTT",
+          0.0061597437715157225
+        ],
+        [
+          "RTT)",
+          0.004287251788624136
+        ],
+        [
+          "Rett Syndrome (RTT), a severe neurodevelopmental disability",
+          0.000996565887733507
+        ],
+        [
+          "MeCP2 is an X-linked gene; its mutation causes Rett Syndrome",
+          0.0009543431761906906
+        ],
+        [
+          "Syndrome",
+          0.000528243641040759
+        ],
+        [
+          "tt Syndrome",
+          0.0003618052747635058
+        ],
+        [
+          "mutation causes Rett Syndrome",
+          0.00024042307942010845
+        ],
+        [
+          "its mutation causes Rett Syndrome",
+          0.00020807667101534877
+        ],
+        [
+          "(RTT)",
+          0.0002034311236603786
+        ],
+        [
+          "MeCP2 is an X-linked gene; its mutation causes Rett Syndrome (RTT)",
+          0.0001299564410039127
+        ],
+        [
+          "Rett Syndrome (RTT), a severe neurodevelopmental disability that affects mainly girls",
+          0.0001075717501521233
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5d3852d07bc3fee31f00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "C-terminal domain",
+          0.5483248514226038
+        ],
+        [
+          "the C-terminal domain",
+          0.3452854843111886
+        ],
+        [
+          "in the C-terminal domain",
+          0.05309608447731615
+        ],
+        [
+          "yeast retrovirus-like element Ty3 can substitute for M-MuLV IN sequences in the C-terminal domain",
+          0.01627147605047752
+        ],
+        [
+          "retrovirus-like element Ty3 can substitute for M-MuLV IN sequences in the C-terminal domain",
+          0.00704218709745265
+        ],
+        [
+          "M-MuLV IN sequences in the C-terminal domain",
+          0.005181385071971172
+        ],
+        [
+          "IN sequences in the C-terminal domain",
+          0.003325203522957081
+        ],
+        [
+          "C",
+          0.0032718125894411077
+        ],
+        [
+          "the",
+          0.003009388444766662
+        ],
+        [
+          "Ty3 can substitute for M-MuLV IN sequences in the C-terminal domain",
+          0.0023718071569810255
+        ],
+        [
+          "domain",
+          0.002092195440681712
+        ],
+        [
+          "the C",
+          0.002060292163650139
+        ],
+        [
+          "in the",
+          0.0004627670445143355
+        ],
+        [
+          "in the C",
+          0.00031682028854282607
+        ],
+        [
+          "yeast retrovirus-like element",
+          0.0001509072849387739
+        ],
+        [
+          "yeast retrovirus-like element Ty3 can substitute for M-MuLV IN sequences in the",
+          0.00014181653799692559
+        ],
+        [
+          "yeast retrovirus-like element Ty3 can substitute for M-MuLV IN sequences in the C",
+          9.709065721281883e-05
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5d386fbfa1e159510500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "BlyS",
+          0.9841051568364689
+        ],
+        [
+          "CD20 antibody) and belimumab (anti-BlyS",
+          0.0064864060071065524
+        ],
+        [
+          "Bly",
+          0.0027866793009333267
+        ],
+        [
+          "anti-BlyS",
+          0.0027477671192898097
+        ],
+        [
+          "B",
+          0.0003347782678511418
+        ],
+        [
+          "S",
+          0.00022073951793585454
+        ],
+        [
+          "BlyS antibody)",
+          0.0001034023302973891
+        ],
+        [
+          "BlyS antibody",
+          9.412101827201911e-05
+        ],
+        [
+          "(anti-CD20 antibody) and belimumab (anti-BlyS",
+          8.488148722867725e-05
+        ],
+        [
+          "lyS",
+          7.76431052553721e-05
+        ],
+        [
+          "anti-CD20 antibody) and belimumab (anti-BlyS",
+          7.30545083636693e-05
+        ],
+        [
+          "20 antibody) and belimumab (anti-BlyS",
+          4.827642369539757e-05
+        ],
+        [
+          "rituximab (anti-CD20 antibody) and belimumab (anti-BlyS",
+          2.669281617375499e-05
+        ],
+        [
+          "CD20",
+          2.184936502795385e-05
+        ],
+        [
+          "CD20 antibody) and belimumab (anti-Bly",
+          1.8367481596742688e-05
+        ],
+        [
+          "antibody) and belimumab (anti-BlyS",
+          9.317776491940981e-06
+        ],
+        [
+          "anti-Bly",
+          7.780820679494228e-06
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e4601293f5415952900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "multiple sclerosis",
+          0.9903769490391086
+        ],
+        [
+          "multiple sclerosis (MS)",
+          0.005110758955931128
+        ],
+        [
+          "rosis",
+          0.0013148043517155145
+        ],
+        [
+          "multiple",
+          0.0010459818377287677
+        ],
+        [
+          "multiple scle",
+          0.0002852559954819653
+        ],
+        [
+          "clerosis",
+          0.00020362446532338124
+        ],
+        [
+          "sclerosis",
+          0.00011831732419020779
+        ],
+        [
+          "(MRI) has revolutionized the diagnosis and management of people living with multiple sclerosis",
+          9.481837944542301e-05
+        ],
+        [
+          "multiple s",
+          8.899907179661333e-05
+        ],
+        [
+          "rosis (MS)",
+          6.784939938623245e-06
+        ],
+        [
+          "MS)",
+          4.890475357686038e-06
+        ],
+        [
+          "MS",
+          4.300982733916987e-06
+        ],
+        [
+          "(MS)",
+          8.908233668480433e-07
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5d374c727bc3fee31f00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "titin (TTN) and lamin A/C (LMNA)",
+          0.37810922268187785
+        ],
+        [
+          "titin (TTN)",
+          0.1255014319420808
+        ],
+        [
+          "lamin A/C (LMNA)",
+          0.1235722690785613
+        ],
+        [
+          "titin",
+          0.10314070746314064
+        ],
+        [
+          "titin (TTN) and lamin A/C (LMNA) genes",
+          0.047833261965346
+        ],
+        [
+          "(TTN) and lamin A/C (LMNA)",
+          0.040756246323563845
+        ],
+        [
+          "LMNA",
+          0.026916187799702687
+        ],
+        [
+          "titin (TTN) and lamin A/C (LMNA",
+          0.0162221076405684
+        ],
+        [
+          "lamin A/C (LMNA) genes",
+          0.01563269120113516
+        ],
+        [
+          "TTN",
+          0.013527750626952852
+        ],
+        [
+          "titin (TTN) and lamin",
+          0.012717345354352191
+        ],
+        [
+          "TTN) and lamin A/C (LMNA)",
+          0.010421583366857182
+        ],
+        [
+          "Mutations in the titin (TTN) and lamin A/C (LMNA)",
+          0.005859483733497364
+        ],
+        [
+          "(TTN) and lamin A/C (LMNA) genes",
+          0.005155928737446889
+        ],
+        [
+          "lamin",
+          0.004156236155644347
+        ],
+        [
+          "titin (TTN) and lamin A/C",
+          0.003970574421854307
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e764440c6a8763d2300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "single dose",
+          0.3223051593214051
+        ],
+        [
+          "A single dose",
+          0.2562776784497786
+        ],
+        [
+          "single",
+          0.1655390095321699
+        ],
+        [
+          "A single",
+          0.13162666444775958
+        ],
+        [
+          "single dose of Vaxchora\u2122",
+          0.021949469931188063
+        ],
+        [
+          "103-HgR (Vaxchora\u2122), an oral live attenuated vaccine, was licensed by the US FDA. A single dose",
+          0.01977249048501433
+        ],
+        [
+          "A single dose of Vaxchora\u2122",
+          0.01745289839297499
+        ],
+        [
+          "103-HgR (Vaxchora\u2122), an oral live attenuated vaccine, was licensed by the US FDA. A single",
+          0.010155340044090166
+        ],
+        [
+          "dose",
+          0.008438625693534492
+        ],
+        [
+          "(Vaxchora\u2122), an oral live attenuated vaccine, was licensed by the US FDA. A single dose",
+          0.007019261676317455
+        ],
+        [
+          "A",
+          0.003662861068762034
+        ],
+        [
+          "(Vaxchora\u2122), an oral live attenuated vaccine, was licensed by the US FDA. A single",
+          0.003605159867720248
+        ],
+        [
+          "CVD 103-HgR (Vaxchora\u2122), an oral live attenuated vaccine, was licensed by the US FDA. A single",
+          0.002501407332233052
+        ],
+        [
+          "single dose of Vaxchora\u2122 protected US volunteers against experimental challenge 10\u00a0days and 3\u00a0months",
+          0.0018751230568916663
+        ],
+        [
+          "oral live attenuated vaccine, was licensed by the US FDA. A single dose",
+          0.0016095928908497878
+        ],
+        [
+          "Vaxchora\u2122",
+          0.0008769119328940424
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e30fa32fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Streptobacillus moniliformis",
+          0.9960651088613712
+        ],
+        [
+          "Streptobacillus",
+          0.0011538242350501964
+        ],
+        [
+          "treptobacillus moniliformis",
+          0.0010597840299921332
+        ],
+        [
+          "moniliformis",
+          0.0006181998234130482
+        ],
+        [
+          "Streptobacillus moniliformis, the causative organism of streptobacillary rat bite fever",
+          0.00025614704900479336
+        ],
+        [
+          "Streptobacillus moniliformis, the causative organism of streptobacillary",
+          0.00010067299687235451
+        ],
+        [
+          "Streptobac",
+          9.649406858299577e-05
+        ],
+        [
+          "S",
+          8.594857132983674e-05
+        ],
+        [
+          "obacillus moniliformis",
+          8.458215647131488e-05
+        ],
+        [
+          "Streptobacill",
+          8.294656521679728e-05
+        ],
+        [
+          "ptobacillus moniliformis",
+          6.648298656804399e-05
+        ],
+        [
+          "is",
+          6.178088271223976e-05
+        ],
+        [
+          "formis",
+          5.98477714498235e-05
+        ],
+        [
+          "Streptob",
+          5.3184422397430954e-05
+        ],
+        [
+          "acillus moniliformis",
+          4.5356994400819904e-05
+        ],
+        [
+          "us moniliformis",
+          4.397626645228406e-05
+        ],
+        [
+          "Stre",
+          3.597200337419401e-05
+        ],
+        [
+          "Streptobacillus moniliform",
+          2.9690315340328457e-05
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e30b870fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "STRING database",
+          0.61121481467859
+        ],
+        [
+          "the STRING database",
+          0.19320469921414152
+        ],
+        [
+          "STRING",
+          0.11493114351964163
+        ],
+        [
+          "the STRING",
+          0.03632967735856732
+        ],
+        [
+          "bipartite graph",
+          0.012424263728784146
+        ],
+        [
+          "STRING database as a benchmark dataset",
+          0.00912943921053029
+        ],
+        [
+          "the evidence channels in the STRING database",
+          0.0050485404878144015
+        ],
+        [
+          "database",
+          0.003285154216674287
+        ],
+        [
+          "bipartite",
+          0.0030339722902752854
+        ],
+        [
+          "the STRING database as a benchmark dataset",
+          0.0028858111981330545
+        ],
+        [
+          "evidence channels in the STRING database",
+          0.0026713495929962636
+        ],
+        [
+          "in the STRING database",
+          0.0017101577511868602
+        ],
+        [
+          "the evidence channels in the STRING",
+          0.0009493135922676179
+        ],
+        [
+          "use the evidence channels in the STRING database",
+          0.0009267809204249804
+        ],
+        [
+          "evidence channels in the STRING",
+          0.0005023131902083203
+        ],
+        [
+          "compound graph or bipartite graph",
+          0.0004351553903898551
+        ],
+        [
+          "compound graph",
+          0.0004268038942521066
+        ],
+        [
+          "bipartite graph, and poorly connected as a hypergraph",
+          0.0003947671094123153
+        ],
+        [
+          "in the STRING",
+          0.0003215733343214881
+        ],
+        [
+          "use the evidence channels in the STRING",
+          0.00017426932138848907
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e6de3f21af46fc13000",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "RNA-dependent RNA polymerases",
+          0.3147198444492787
+        ],
+        [
+          "RNA polymerases",
+          0.2794577800388549
+        ],
+        [
+          "viral RNA-dependent RNA polymerases",
+          0.10901656161848355
+        ],
+        [
+          "RNA-dependent RNA",
+          0.10251302673988684
+        ],
+        [
+          "RNA",
+          0.0910271893655869
+        ],
+        [
+          "viral RNA-dependent RNA",
+          0.03550973315915967
+        ],
+        [
+          "viral RNA",
+          0.028104404632210905
+        ],
+        [
+          "coronavirus infection. Remdesivir is a phosphoramidate prodrug and is known to target viral RNA",
+          0.013906139535765815
+        ],
+        [
+          "polymerases",
+          0.01195084607803002
+        ],
+        [
+          "coronavirus",
+          0.005169377053819592
+        ],
+        [
+          "Remdesivir is a phosphoramidate prodrug and is known to target viral RNA-dependent RNA polymerases",
+          0.001581205748117764
+        ],
+        [
+          "human coronavirus",
+          0.0012637559513959478
+        ],
+        [
+          "RNA-dependent R",
+          0.0007191938146096928
+        ],
+        [
+          "R",
+          0.00063861339026841
+        ],
+        [
+          "Remdesivir is a phosphoramidate prodrug and is known to target viral RNA-dependent RNA",
+          0.0005188516064210117
+        ],
+        [
+          "coronavirus infection",
+          0.0005038473431657987
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e36d5b9b5b409ea5300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "exSTRa",
+          0.6121168842706258
+        ],
+        [
+          "exSTRa (expanded short tandem repeat algorithm)",
+          0.010145422155377384
+        ],
+        [
+          "expanded short tandem repeat algorithm",
+          0.0004170160483959811
+        ],
+        [
+          "ex",
+          0.00016251539543046212
+        ],
+        [
+          "expanded short tandem repeat",
+          6.35743948872673e-05
+        ],
+        [
+          "STRa",
+          5.329591846709423e-05
+        ],
+        [
+          "We developed exSTRa",
+          4.728017772595357e-05
+        ],
+        [
+          "exSTRa demonstrated more robust and superior performance for WES",
+          3.710940686985603e-05
+        ],
+        [
+          "expanded short tandem repeat algorithm)",
+          3.469483077991333e-05
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e764647c6a8763d2300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "HIV",
+          0.253485528821946
+        ],
+        [
+          "HIV, malaria and tuberculosis and emerging diseases",
+          0.20055913066646258
+        ],
+        [
+          "HIV, malaria and tuberculosis",
+          0.15033896757050183
+        ],
+        [
+          "HIV, malaria",
+          0.1328867265771906
+        ],
+        [
+          "malaria and tuberculosis and emerging diseases",
+          0.03594948434045766
+        ],
+        [
+          "malaria and tuberculosis",
+          0.02694770535989406
+        ],
+        [
+          "tuberculosis and emerging diseases",
+          0.026089061789748843
+        ],
+        [
+          "malaria",
+          0.023819455540451423
+        ],
+        [
+          "tuberculosis",
+          0.01955634032377534
+        ],
+        [
+          "provides new hope to producing prophylactic vaccines against HIV",
+          0.007571344904464309
+        ],
+        [
+          "genetically-modified organism (GMO)-containing vaccines in Europe",
+          0.005148256380654758
+        ],
+        [
+          "genetically-modified organism",
+          0.005079157894736785
+        ],
+        [
+          "provides new hope to producing prophylactic vaccines against HIV, malaria and tuberculosis",
+          0.004490466108054986
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5d3826427bc3fee31f00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "cell percentage of T regulator (Treg) cells",
+          0.14054267931357442
+        ],
+        [
+          "cell percentage of T regulator (Treg)",
+          0.07659776971264741
+        ],
+        [
+          "(Treg) cells",
+          0.06889832794579666
+        ],
+        [
+          "Treg",
+          0.06533603038972213
+        ],
+        [
+          "T regulator (Treg) cells",
+          0.06079383476262743
+        ],
+        [
+          "cell percentage",
+          0.05355275386295197
+        ],
+        [
+          "T regulator (Treg)",
+          0.0331335091791345
+        ],
+        [
+          "the cell percentage of T regulator (Treg) cells",
+          0.03264943118899669
+        ],
+        [
+          "cell",
+          0.025313697228150623
+        ],
+        [
+          "cell percentage of T regulator",
+          0.020885080867520306
+        ],
+        [
+          "the cell percentage of T regulator (Treg)",
+          0.01779440682131743
+        ],
+        [
+          "percentage of T regulator (Treg) cells",
+          0.01454452812546359
+        ],
+        [
+          "the cell percentage",
+          0.012440825525523124
+        ],
+        [
+          "T regulator",
+          0.009034153621273019
+        ],
+        [
+          "percentage of T regulator (Treg)",
+          0.00792697578681908
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e6399dd1af46fc13000",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "cellular signaling cascades orchestrating a variety of biological processes",
+          0.209430866101177
+        ],
+        [
+          "biological processes",
+          0.14634568520777236
+        ],
+        [
+          "signaling cascades orchestrating a variety of biological processes",
+          0.05404865746008258
+        ],
+        [
+          "cellular signaling cascades orchestrating a variety of biological",
+          0.051301798639998834
+        ],
+        [
+          "immune",
+          0.03984123614443969
+        ],
+        [
+          "cellular signaling cascades",
+          0.036658606926081125
+        ],
+        [
+          "biological",
+          0.03584856909647092
+        ],
+        [
+          "NF-\u03baB pathways are conserved cellular signaling cascades orchestrating a variety of biological",
+          0.027725417139061376
+        ],
+        [
+          "JAK-STAT and NF-\u03baB",
+          0.02580632971099327
+        ],
+        [
+          "NF-\u03baB",
+          0.024517548597819468
+        ],
+        [
+          "orchestrating a variety of biological processes",
+          0.023595761512002437
+        ],
+        [
+          "JAK-STAT and NF-\u03baB pathways are conserved cellular signaling cascades",
+          0.020853101221458552
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e776845835f4e477700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Modified vaccinia virus Ankara expressing antigen 85A",
+          0.389689993127248
+        ],
+        [
+          "Modified vaccinia virus Ankara",
+          0.19811664661582623
+        ],
+        [
+          "vaccinia virus Ankara expressing antigen 85A",
+          0.1013702455100961
+        ],
+        [
+          "antigen 85A",
+          0.07133804536455661
+        ],
+        [
+          "Modified vaccinia virus",
+          0.0626906849540635
+        ],
+        [
+          "Modified vaccinia virus Ankara expressing antigen",
+          0.05280114614000688
+        ],
+        [
+          "vaccinia virus Ankara",
+          0.05153617865810935
+        ],
+        [
+          "vaccinia virus",
+          0.01630775805658006
+        ],
+        [
+          "vaccinia virus Ankara expressing antigen",
+          0.013735187564026531
+        ],
+        [
+          "Modified vaccinia virus Ankara expressing antigen 85A (MVA85A)",
+          0.011165598148398233
+        ],
+        [
+          "antigen",
+          0.009665966858446938
+        ],
+        [
+          "vaccinia virus Ankara expressing antigen 85A (MVA85A)",
+          0.002904512421494514
+        ],
+        [
+          "Modified vaccinia",
+          0.0027590841326239277
+        ],
+        [
+          "85A",
+          0.002285363934053114
+        ],
+        [
+          "antigen 85A (MVA85A)",
+          0.0020440143736838163
+        ],
+        [
+          "Modified vaccinia virus Ankara expressing antigen 85",
+          0.0009660690579424002
+        ],
+        [
+          "expressing antigen 85A",
+          0.0008806461074893668
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e822615835f4e477700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "ferrochelatase",
+          0.9800719133450679
+        ],
+        [
+          "GLRX5",
+          0.005126622771249727
+        ],
+        [
+          "MnSOD",
+          0.004966886890904595
+        ],
+        [
+          "f",
+          0.004619938800493923
+        ],
+        [
+          "fer",
+          0.0017492192545214263
+        ],
+        [
+          "ferrochelatase activity",
+          0.0016499194666885024
+        ],
+        [
+          "aconitase activity, and increased MnSOD",
+          0.00017807227462409705
+        ],
+        [
+          "MnSOD protein",
+          0.00017568659879113463
+        ],
+        [
+          "ALAS2 substrate. Herein we explored a new case of cSA with two mutations in GLRX5",
+          6.420603884355949e-05
+        ],
+        [
+          "GLRX",
+          4.459380222573609e-05
+        ],
+        [
+          "GLRX5 (p.Cys67Tyr and p.Met128Lys)",
+          4.214210012834807e-05
+        ],
+        [
+          "glycine, an ALAS2 substrate. Herein we explored a new case of cSA with two mutations in GLRX5",
+          2.7208055583298222e-05
+        ],
+        [
+          "GLRX5 in modulating ALAS2",
+          7.376545801566649e-06
+        ],
+        [
+          "aconitase activity, and increased MnSOD protein",
+          6.298696337337112e-06
+        ],
+        [
+          "GLRX5 in modulating ALAS2 and ferrochelatase",
+          6.024593208556975e-06
+        ],
+        [
+          "SLC25A38",
+          5.354961412831918e-06
+        ],
+        [
+          "aconitase",
+          3.6640317675232742e-06
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e52a4ec6d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "M-Exo",
+          0.7711700920222097
+        ],
+        [
+          "M-Exo and 134 glycoproteins and 10 phosphoproteins from S-Exo",
+          0.1273084951096181
+        ],
+        [
+          "M",
+          0.03690717524133054
+        ],
+        [
+          "L-Exo, 156 glycoproteins and 46 phosphoproteins from M-Exo",
+          0.03503562257274438
+        ],
+        [
+          "L-Exo",
+          0.009246299733510422
+        ],
+        [
+          "Exo",
+          0.003558998255909878
+        ],
+        [
+          "LC-MS/MS",
+          0.0028058159085544753
+        ],
+        [
+          "M-Exo and S-Exo",
+          0.001872195624215087
+        ],
+        [
+          "LC",
+          0.0017656924179524282
+        ],
+        [
+          "L-Exo, 156 glycoproteins and 46 phosphoproteins from M",
+          0.0016767583122818416
+        ],
+        [
+          "LC-MS/MS) combined with database search was used to characterize PTM protein contents",
+          0.0014186086537563776
+        ],
+        [
+          "S-Exo",
+          0.001215086030597905
+        ],
+        [
+          "MS/MS",
+          0.0008697657007898135
+        ],
+        [
+          "LC-MS",
+          0.0008685076785001546
+        ],
+        [
+          "CFMZOF",
+          0.0008564217024857099
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e3eba5548dab47f2600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "tumor necrosis factor family",
+          0.8260667940164538
+        ],
+        [
+          "tumor necrosis factor family (BAFF)",
+          0.06328198944562163
+        ],
+        [
+          "tumor necrosis factor",
+          0.0475452691213249
+        ],
+        [
+          "the tumor necrosis factor family",
+          0.0437292058574374
+        ],
+        [
+          "the tumor necrosis factor family (BAFF)",
+          0.0033374179829407575
+        ],
+        [
+          "the tumor necrosis factor",
+          0.0025168871040617885
+        ],
+        [
+          "BAFF",
+          0.0007575176514396989
+        ],
+        [
+          "B-cell-activating factor belonging to the tumor necrosis factor family",
+          0.0004779715218123873
+        ],
+        [
+          "tumor",
+          0.000299886469654358
+        ],
+        [
+          "tumor necrosis",
+          0.00024767960641718735
+        ],
+        [
+          "family",
+          0.00020345274353705345
+        ],
+        [
+          "belonging to the tumor necrosis factor family",
+          9.471370925803966e-05
+        ],
+        [
+          "B-cell-activating factor belonging to the tumor necrosis factor family (BAFF)",
+          3.647884110749097e-05
+        ],
+        [
+          "tumor necrosis factor family (BAFF), was enhanced in macrophages in cats with FIP",
+          3.5335437316587856e-05
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e807578835f4e477700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "cytokines",
+          0.32394261106418504
+        ],
+        [
+          "proinflammatory cytokines",
+          0.27786441788404714
+        ],
+        [
+          "excessive or uncontrolled release of proinflammatory cytokines",
+          0.18634434739430236
+        ],
+        [
+          "an excessive or uncontrolled release of proinflammatory cytokines",
+          0.16413184437864967
+        ],
+        [
+          "release of proinflammatory cytokines",
+          0.03273952512308814
+        ],
+        [
+          "lammatory cytokines",
+          0.0017940071947027958
+        ],
+        [
+          "cytokines is well known, the concept of a cytokine storm and the biological consequences of cytokine",
+          0.001612803705148934
+        ],
+        [
+          "excessive or uncontrolled release",
+          0.0015667758641446214
+        ],
+        [
+          "proinflammatory",
+          0.0014029035457044762
+        ],
+        [
+          "an excessive or uncontrolled release",
+          0.0013800140219218274
+        ],
+        [
+          "nes",
+          0.0012109595045803304
+        ],
+        [
+          "excessive or uncontrolled release of proinflammatory",
+          0.0009408298754918139
+        ],
+        [
+          "an excessive or uncontrolled release of proinflammatory",
+          0.0008286816577497551
+        ],
+        [
+          "okines",
+          0.0007668754868730384
+        ],
+        [
+          "while the general notion of an excessive or uncontrolled release of proinflammatory cytokines",
+          0.0006808601445105056
+        ],
+        [
+          "uncontrolled release of proinflammatory cytokines",
+          0.000663682379403662
+        ],
+        [
+          "the general notion of an excessive or uncontrolled release of proinflammatory cytokines",
+          0.0005844553190115821
+        ],
+        [
+          "cytokines is well known, the concept of a cytokine storm",
+          0.0005644584364972851
+        ],
+        [
+          "cytokine",
+          0.0004957781903235581
+        ],
+        [
+          "proinflammatory cytokines is well known, the concept of a cytokine storm",
+          0.0004841688296634158
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5d38577b7bc3fee31f00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "less organized",
+          0.8373348703155348
+        ],
+        [
+          "nascent chromatin is inherently less organized",
+          0.07070656505566773
+        ],
+        [
+          "inherently less organized",
+          0.04943697390003271
+        ],
+        [
+          "organized",
+          0.02300158934536346
+        ],
+        [
+          "less",
+          0.009721371829620698
+        ],
+        [
+          "is inherently less organized",
+          0.0032682281958662453
+        ],
+        [
+          "less organized than",
+          0.00188303925548141
+        ],
+        [
+          "less organized than mature chromatin",
+          0.0015810633334064406
+        ],
+        [
+          "nascent chromatin is inherently less",
+          0.0008208959570050993
+        ],
+        [
+          "Although nascent chromatin is inherently less organized",
+          0.0007241832502528551
+        ],
+        [
+          "inherently less",
+          0.0005739581885946871
+        ],
+        [
+          "ly less organized",
+          0.00020708720418996602
+        ],
+        [
+          "nascent chromatin is inherently less organized than",
+          0.00015900835178391627
+        ],
+        [
+          "nascent chromatin is inherently less organized than mature chromatin",
+          0.0001253070754696521
+        ],
+        [
+          "inherently less organized than",
+          0.00011117626391325553
+        ],
+        [
+          "chromatin is inherently less organized",
+          9.948061447390736e-05
+        ],
+        [
+          "inherently less organized than mature chromatin",
+          8.761283502607446e-05
+        ],
+        [
+          "nascent",
+          8.324454307237351e-05
+        ],
+        [
+          "nascent chromatin",
+          7.434448524478136e-05
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e4025f148dab47f2600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "connectivity and excitability of the human cerebral cortex",
+          0.4475634736037361
+        ],
+        [
+          "connectivity",
+          0.2751114837304788
+        ],
+        [
+          "connectivity and excitability",
+          0.150551501953186
+        ],
+        [
+          "cerebral cortex",
+          0.06379398063568359
+        ],
+        [
+          "human cerebral cortex",
+          0.02999941497119208
+        ],
+        [
+          "the human cerebral cortex",
+          0.011268449808583419
+        ],
+        [
+          "excitability of the human cerebral cortex",
+          0.010974584440079935
+        ],
+        [
+          "excitability",
+          0.0036972839620006775
+        ],
+        [
+          "cortex",
+          0.0009570385761284155
+        ],
+        [
+          "Transcranial magnetic stimulation",
+          0.0006440303557144245
+        ],
+        [
+          "in vivo measurements of connectivity and excitability of the human cerebral cortex",
+          0.00048725006285802515
+        ],
+        [
+          "(PET) is a novel technique for in vivo measurements of connectivity",
+          0.00043499273264590335
+        ],
+        [
+          "in vivo measurements of connectivity",
+          0.00029996477129019713
+        ],
+        [
+          "(PET) is a novel technique for in vivo measurements of connectivity and excitability",
+          0.000238044622312893
+        ],
+        [
+          "magnetic stimulation",
+          0.00020532681363467028
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e3c69c9b5b409ea5300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "esophageal cancer",
+          0.3456442437529173
+        ],
+        [
+          "breast cancer",
+          0.1642743185191631
+        ],
+        [
+          "esophagus to ionizing radiation, but no study has evaluated esophageal cancer",
+          0.07201284145716312
+        ],
+        [
+          "esophageal cancer risk after breast cancer",
+          0.042961260389265656
+        ],
+        [
+          "Radiotherapy for breast cancer",
+          0.017810254582276017
+        ],
+        [
+          "breast cancer may expose the esophagus to ionizing radiation",
+          0.01178129051469865
+        ],
+        [
+          "no study has evaluated esophageal cancer",
+          0.011776391633329431
+        ],
+        [
+          "esophageal",
+          0.010574221658648408
+        ],
+        [
+          "but no study has evaluated esophageal cancer",
+          0.009457294005933252
+        ],
+        [
+          "breast",
+          0.007021598796811572
+        ],
+        [
+          "breast cancer may expose the esophagus to ionizing radiation, but no study has evaluated esophageal",
+          0.006771729788064181
+        ],
+        [
+          "cancer",
+          0.006514492681561155
+        ],
+        [
+          "ionizing radiation, but no study has evaluated esophageal cancer",
+          0.004570867857655468
+        ],
+        [
+          "the esophagus to ionizing radiation, but no study has evaluated esophageal cancer",
+          0.003965153554323244
+        ],
+        [
+          "expose the esophagus to ionizing radiation, but no study has evaluated esophageal cancer",
+          0.0030520992925079727
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e47681b35b8f0833c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "CD19",
+          0.7939816417729548
+        ],
+        [
+          "CD19-expressing B cells. Inebilizumab targets and depletes CD19",
+          0.20397067029692453
+        ],
+        [
+          "Inebilizumab targets and depletes CD19",
+          0.0003596770615306964
+        ],
+        [
+          "19",
+          0.0003258519028673063
+        ],
+        [
+          "CD",
+          0.00023908793988165836
+        ],
+        [
+          "B cells. Inebilizumab targets and depletes CD19",
+          0.00021916630498112157
+        ],
+        [
+          "anti-CD19",
+          0.00021270552499175747
+        ],
+        [
+          "CD19-expressing B cells",
+          0.00020447817950526687
+        ],
+        [
+          "D19",
+          9.455909378482936e-05
+        ],
+        [
+          "C",
+          8.435108412579492e-05
+        ],
+        [
+          "19-expressing B cells. Inebilizumab targets and depletes CD19",
+          6.553809713576105e-05
+        ],
+        [
+          "CD19-expressing B cells. Inebilizumab targets and depletes CD",
+          4.628672469149873e-05
+        ],
+        [
+          "D19-expressing B cells. Inebilizumab targets and depletes CD19",
+          3.0163656882581233e-05
+        ],
+        [
+          "CD19-expressing B cells. Inebilizumab targets and depletes CD19-expressing B cells",
+          2.8913647603049653e-05
+        ],
+        [
+          "CD19-expressing B cells through antibody-dependent cell-mediated cytotoxicity",
+          2.4654184299631462e-05
+        ],
+        [
+          "CD19-expressing B cells. Inebilizumab targets and depletes C",
+          2.118523150941972e-05
+        ],
+        [
+          ". Inebilizumab targets and depletes CD19",
+          1.6025194991104826e-05
+        ],
+        [
+          "aquaporin-4",
+          2.9297755250754125e-06
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e6e8f92c6a8763d2300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "long ncRNAs",
+          0.7419779213175507
+        ],
+        [
+          "Many long ncRNAs",
+          0.08404448287155716
+        ],
+        [
+          "ncRNAs",
+          0.06410710260764874
+        ],
+        [
+          "long ncRNAs (lncRNA)",
+          0.034337571698700595
+        ],
+        [
+          "Many long ncRNAs (lncRNA)",
+          0.003889446536842721
+        ],
+        [
+          "lncRNA",
+          0.0034588548523655374
+        ],
+        [
+          "ncRNAs (lncRNA)",
+          0.0029667759227622525
+        ],
+        [
+          "long ncRNAs (lncRNA) make their effort by interacting with the corresponding RNA-binding proteins",
+          0.0023704606033405472
+        ],
+        [
+          "long ncRNA",
+          0.0016622275545970008
+        ],
+        [
+          "long",
+          0.0010058875254125989
+        ],
+        [
+          "s",
+          0.0003657365798747492
+        ],
+        [
+          "Many long ncRNA",
+          0.00018828195722170134
+        ],
+        [
+          "ncRNA",
+          0.00014361693163401462
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e80caeb835f4e477700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "coronavirus disease",
+          0.6979936243425512
+        ],
+        [
+          "coronavirus",
+          0.08064893093177239
+        ],
+        [
+          "coronavirus disease 2019 (COVID-19)",
+          0.056477126938203864
+        ],
+        [
+          "treat coronavirus disease",
+          0.013024284816591531
+        ],
+        [
+          "coronavirus disease 2019",
+          0.007232028380068341
+        ],
+        [
+          "Chloroquine",
+          0.004394801831130348
+        ],
+        [
+          "chloroquine/hydroxychloroquine to treat COVID-19",
+          0.0035263682349082983
+        ],
+        [
+          "Chloroquine and hydroxychloroquine",
+          0.003350852363248268
+        ],
+        [
+          "treat coronavirus",
+          0.0015048771363755677
+        ],
+        [
+          "disease",
+          0.0011638169640247119
+        ],
+        [
+          "ronavirus disease",
+          0.0011321118405706572
+        ],
+        [
+          "corona",
+          0.0007679496492299585
+        ],
+        [
+          "hydroxychloroquine have garnered considerable attention for their potential to treat coronavirus",
+          0.0007530466036876083
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e80489b835f4e477700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "transport activity and uromodulin",
+          0.23850189605918903
+        ],
+        [
+          "transport activity",
+          0.1765774034956108
+        ],
+        [
+          "transport",
+          0.1600931002022441
+        ],
+        [
+          "uromodulin",
+          0.12221987086623853
+        ],
+        [
+          "uromodulin in the TAL, relevant for blood pressure control and urinary concentrating ability",
+          0.035385742711045415
+        ],
+        [
+          "transport activity and uromodulin in the TAL, relevant for blood pressure control",
+          0.01537543924944705
+        ],
+        [
+          "regulates processing and release of uromodulin",
+          0.011002381138743519
+        ],
+        [
+          "regulates processing and release of uromodulin by TAL cells",
+          0.010873704338425239
+        ],
+        [
+          "ROMK directly regulates processing and release of uromodulin",
+          0.009520458583895672
+        ],
+        [
+          "ROMK directly regulates processing and release of uromodulin by TAL cells",
+          0.00940911340027678
+        ],
+        [
+          "functional link between transport activity and uromodulin",
+          0.008287414451299267
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e805e62835f4e477700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "CFTR",
+          0.40499375971459056
+        ],
+        [
+          "CFTR gene",
+          0.36689740600610155
+        ],
+        [
+          "CFTR gene resulting in impaired cystic fibrosis transmembrane conductance regulator (CFTR)",
+          0.02229704980685594
+        ],
+        [
+          "CFTR gene resulting in impaired cystic fibrosis transmembrane conductance regulator",
+          0.02150545963073032
+        ],
+        [
+          "cystic fibrosis transmembrane conductance regulator (CFTR)",
+          0.0009493479262313155
+        ],
+        [
+          "cystic fibrosis transmembrane conductance regulator",
+          0.0009156441627899805
+        ],
+        [
+          "CFTR gene resulting in impaired cystic fibrosis",
+          0.0008437367952974914
+        ],
+        [
+          "C",
+          0.0002958574315339079
+        ],
+        [
+          "CFT",
+          0.00014497011684663742
+        ],
+        [
+          "mutations in CFTR",
+          6.069681146645799e-05
+        ],
+        [
+          "mutations in CFTR gene",
+          5.499326213475032e-05
+        ],
+        [
+          "R",
+          4.315877865814373e-05
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e5438c3b761aafe0900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "neurokinin 3 receptor",
+          0.350081331177295
+        ],
+        [
+          "neurokinin 3",
+          0.220216440140023
+        ],
+        [
+          "saporin toxin conjugated to a selective NK3R agonist",
+          0.06836174692468715
+        ],
+        [
+          "neurokinin",
+          0.06573683404217137
+        ],
+        [
+          "neurokinin 3 receptor (NK3R)-expressing neurons in the median preoptic nucleus (MnPO)",
+          0.0440674777698179
+        ],
+        [
+          "saporin toxin",
+          0.04023903872564051
+        ],
+        [
+          "neurokinin 3 receptor (NK3R)",
+          0.03770250915456996
+        ],
+        [
+          "neurokinin 3 receptor (NK3R)-expressing neurons in the median preoptic nucleus",
+          0.02501007074921373
+        ],
+        [
+          "neurokinin 3 receptor (NK3R)-expressing neurons in the median preoptic nucleus (MnPO",
+          0.02269542889390553
+        ],
+        [
+          "saporin toxin conjugated to a selective NK3R",
+          0.01308421043341877
+        ],
+        [
+          "saporin",
+          0.005797860862869185
+        ],
+        [
+          "saporin toxin conjugated to a selective NK3R agonist. Loss of MnPO",
+          0.0054834364126722344
+        ],
+        [
+          "MnPO NK3R neurons in female mice, we ablated these neurons using injections of saporin toxin",
+          0.004373526541703807
+        ],
+        [
+          "saporin toxin conjugated to a selective NK3R agonist. Loss of MnPO NK3R",
+          0.004157683455187259
+        ],
+        [
+          "a selective NK3R agonist",
+          0.003456778482698975
+        ],
+        [
+          "NK3R agonist",
+          0.003175532470778323
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e808ef4835f4e477700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "medoxomil is more effective in lowering BP than monotherapy with either of these agents",
+          0.20120555362963014
+        ],
+        [
+          "medoxomil",
+          0.17923876954449822
+        ],
+        [
+          "medoxomil is more effective in lowering BP",
+          0.09785941283638738
+        ],
+        [
+          "amlodipine-olmesartan medoxomil",
+          0.09010300042975875
+        ],
+        [
+          "amlodipine-olmesartan medoxomil is more effective in lowering BP",
+          0.04919374719688598
+        ],
+        [
+          "amlodipine-olmesartan",
+          0.04324446878492832
+        ],
+        [
+          "medoxomi",
+          0.03978416019144627
+        ],
+        [
+          "amlodipine",
+          0.03871787149834399
+        ],
+        [
+          "amlodipine-olmesartan medoxomi",
+          0.01999942429831028
+        ],
+        [
+          "omil is more effective in lowering BP than monotherapy with either of these agents",
+          0.015985629453596537
+        ],
+        [
+          "olmesartan medoxomil is more effective in lowering BP than monotherapy with either of these agents",
+          0.014253727512734567
+        ],
+        [
+          "omil",
+          0.014240385028989515
+        ],
+        [
+          "blood pressure (BP) goal of <140/90 mmHg",
+          0.012776861285283844
+        ],
+        [
+          "olmesartan medoxomil",
+          0.012697564926601875
+        ],
+        [
+          "l is more effective in lowering BP than monotherapy with either of these agents",
+          0.010825896731146393
+        ],
+        [
+          "the fixed-dose combination of amlodipine-olmesartan medoxomil",
+          0.010476090990591642
+        ],
+        [
+          "l",
+          0.009643970428760236
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5d38767ca1e159510500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "plasmacytoid dendritic cells",
+          0.4047983003996716
+        ],
+        [
+          "monocytes, and B lymphocytes",
+          0.18236903770690022
+        ],
+        [
+          "pDCs, monocytes, and B lymphocytes",
+          0.13511187944006653
+        ],
+        [
+          "plasmacytoid dendritic cells (pDC)",
+          0.03400757696178656
+        ],
+        [
+          "plasmacytoid dendritic",
+          0.03193909305531141
+        ],
+        [
+          "B lymphocytes",
+          0.029684312855081604
+        ],
+        [
+          "monocytes",
+          0.025291619080100455
+        ],
+        [
+          "dendritic cells",
+          0.02525050989131423
+        ],
+        [
+          "plasmacytoid dendritic cells (pDC), monocytes/macrophages, and B cells",
+          0.019163629256909703
+        ],
+        [
+          "pDCs",
+          0.01898360221304805
+        ],
+        [
+          "pDCs, monocytes",
+          0.018737819922517055
+        ],
+        [
+          "monocytes, and B lymphocytes from women and Klinefelter syndrome men",
+          0.018308085055437774
+        ],
+        [
+          "monocytes, and B lymphocytes from women",
+          0.010881832489112384
+        ],
+        [
+          "lymphocytes",
+          0.010820175401674102
+        ],
+        [
+          "plasmacytoid dendritic cells (pDC), monocytes/macrophages",
+          0.009443709690163365
+        ],
+        [
+          "pDCs, monocytes, and B lymphocytes from women and Klinefelter syndrome men",
+          0.00880649032426403
+        ],
+        [
+          "in pDCs, monocytes, and B lymphocytes",
+          0.008340295235131079
+        ],
+        [
+          "pDCs, monocytes, and B lymphocytes from women",
+          0.008062031021509973
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e7644a2c6a8763d2300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "2016",
+          0.9461597507310328
+        ],
+        [
+          "In 2016",
+          0.0534499580848317
+        ],
+        [
+          "2016, the United States (U.S.) Food and Drug Administration (FDA)",
+          0.00023447624764162667
+        ],
+        [
+          "2016, the United States (U.S.) Food and Drug Administration (FDA) licensed Vaxchora\u00ae",
+          6.69159952042734e-05
+        ],
+        [
+          "2016, the United States (U.S.) Food and Drug Administration (FDA) licensed Vaxchora",
+          1.9868081695311052e-05
+        ],
+        [
+          "In 2016, the United States (U.S.) Food and Drug Administration (FDA)",
+          1.324590863081036e-05
+        ],
+        [
+          "2016, the United States (U.S.)",
+          8.910971441073363e-06
+        ],
+        [
+          "In",
+          8.273813341447152e-06
+        ],
+        [
+          "2016, the United States (U.S.) Food and Drug Administration",
+          6.80160970254626e-06
+        ],
+        [
+          "2016, the United States (U.S.) Food and Drug Administration (",
+          6.0426240514430555e-06
+        ],
+        [
+          "2016, the United States (U.S.) Food and Drug Administration (FDA",
+          5.972982906132437e-06
+        ],
+        [
+          "01",
+          3.987893422220032e-06
+        ],
+        [
+          "2016, the United States",
+          3.936535392399656e-06
+        ],
+        [
+          "In 2016, the United States (U.S.) Food and Drug Administration (FDA) licensed Vaxchora\u00ae",
+          3.780183141493574e-06
+        ],
+        [
+          "2016, the United States (U.S",
+          3.6532714368784184e-06
+        ],
+        [
+          "Vaxchora\u00ae for active immunization against disease caused by Vibrio cholerae serogroup 01",
+          1.3995626731943434e-06
+        ],
+        [
+          "In 2016, the United States (U.S.) Food and Drug Administration (FDA) licensed Vaxchora",
+          1.1223772021795402e-06
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2b00bc76af17375100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "DL",
+          0.4372201753651638
+        ],
+        [
+          "DL. We review the use of DL",
+          0.16210139475661714
+        ],
+        [
+          "Deep learning (DL)",
+          0.04104045276818478
+        ],
+        [
+          "(DL) methodology",
+          0.003515652573727177
+        ],
+        [
+          "Deep learning",
+          0.0020941195765073477
+        ],
+        [
+          "pharmacogenomics data. We introduce the fundamentals and typical model architectures of DL",
+          0.00168181093719685
+        ],
+        [
+          "pharmacogenomics, is a key area in the development of precision oncology. Deep learning (DL)",
+          0.0009479192116307566
+        ],
+        [
+          "Deep learning (DL) methodology",
+          0.0005069101207668864
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,680 @@
+{
+    "data": [
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e2b109cfbd6abf43b000002",
+                            "question": "What is included in the LACE Index?"
+                        }
+                    ],
+                    "context": "The LACE index scoring tool (Length of stay, Acuity of admission, Co-morbidities and Emergency department visits) has been designed to predict hospital readmissions. We evaluated the ability of the LACE index to predict age-specific frequent admissions and mortality."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e2f906ffbd6abf43b00002c",
+                            "question": "Which drugs are included in GI cocktail?"
+                        }
+                    ],
+                    "context": "Lipid-based delivery systems have been vastly investigated as a pharmaceutical method to enhance the oral absorption of lipophilic drugs. However, these vehicles affect not only drug bioavailability, but may also have an impact on gastric emptying, drug disposition, lymphatic absorption and are affected by lipid digestion mechanisms. The work presented here compared pharmacokinetic (PK) behavior of the non-intoxicating cannabinoid cannabidiol (CBD) in sesame oil vs. a self-emulsifying drug delivery system (SNEDDS). This investigation was conducted with a unique tool termed the \"absorption cocktail approach\". In this concept, selected molecules: metoprolol, THC and ibuprofen were co-administered with CBD in SNEDDS and sesame oil. This method was used to shed light on the complex absorption process of poorly soluble drugs in-vivo, specifically assessing absorption kinetics of CBD. It was found that the concentration vs. time curve following CBD-sesame oil oral administration showed extended input of the drug with delayed Tmax compared to CBD-SNEDDS. Using the \"cocktail\" approach, a unique finding was observed when the less lipophilic compounds (metoprolol and ibuprofen) exited the stomach much earlier than the lipophilic cannabinoids in sesame oil, proving differential absorption kinetics. Findings of the absorption cocktail approach reflected the physiological process of the GI e.g gastric retention, stomach content separation, lipid digestion, drug precipitation and more, demonstrating its utility. Nonetheless, the search for more compounds as suitable molecule probes is underway."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e48136dd14c9f295d000008",
+                            "question": "Which cells are affected in radiation-induced leukemias?"
+                        }
+                    ],
+                    "context": "Exposure to ionizing radiation increases the incidence of acute myeloid leukemia (AML), which has been diagnosed in Japanese atomic bombing survivors, as well as patients treated with radiotherapy. The genetic basis for susceptibility to radiation-induced AML is not well characterized. We previously identified a candidate murine gene for susceptibility to radiation-induced AML (rAML): C-terminal binding protein (CTBP)-interacting protein (CTIP)/retinoblastoma binding protein 8 (RBBP8). This gene is essential for embryonic development, double-strand break (DSB) resection in homologous recombination (HR) and tumor suppression. In the 129S2/SvHsd mouse strain, a nonsynonymous single nucleotide polymorphism (nsSNP) in Ctip, Q418P, has been identified. We investigated the role of Q418P in radiation-induced carcinogenesis and its effect on CTIP function in HR. After whole-body exposure to 3 Gy of X rays, 11 out of 113 (9.7%) 129S2/SvHsd mice developed rAML. Furthermore, 129S2/SvHsd mouse embryonic fibroblasts (MEFs) showed lower levels of recruitment of HR factors, Rad51 and replication protein A (RPA) to radiation-induced foci, compared to CBA/H and C57BL/6 MEFs, isolated from rAML-sensitive and resistant strains, respectively. Mitomycin C and alpha particles induced lower levels of sister chromatid exchanges in 129S2/SvHsd cells compared to CBA/H and C57BL/6. Our data demonstrate that Q418P nsSNP influences the efficiency of CTIP function in HR repair of DNA DSBs in vitro and in vivo, and appears to affect susceptibility to rAML."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e482160d14c9f295d00000c",
+                            "question": "List five proteins with antioxidant properties?"
+                        }
+                    ],
+                    "context": "Enzymatic hydrolysis has been employed to modify protein functional properties and discover new sources of antioxidants. In this study, the effect of different enzymatic treatments on antioxidant activity of "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5c72c9207c78d6947100007b",
+                            "question": "Which methods are used for genome segmentation of gene expression data?"
+                        }
+                    ],
+                    "context": "High-throughput gene expression is an important aspect of modern post-genomic research. Microarray technology is the driving force of this revolution, a technology that allows the simultaneous monitoring of expression for thousands of genes. The need for accurate and reproducible research has driven the development of robust analysis frameworks for maximizing the information content of biological data. In microarray imaging technologies, several non-linearities in the experimental process render the measured expression values prone to variability and often, to poor reproducibility. Accurate segmentation of the true signal is a very important task, not least because a single value per spot needs to be derived for further knowledge discovery analysis. In this paper, we present a fully automatic segmentation method for improving the spot segmentation result. The method doesn't make any assumptions concerning the number of classes present in each image spot, and it isn't driven only by the most intense features, since it takes into account the underlying \"hybridization ground truth\" derived from both information channels of the spotted arrays. Our method is compared to widely used, state-of-the-art segmentation methods in microarray image analysis in a study of a metabolic disorder in yeast, where replicates of reporters are present. Initial results indicate that our method yields more reproducible log ratio measurements across replicates."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e369ecfb5b409ea53000002",
+                            "question": "List T-UCRs that have been implicated in breast cancer"
+                        }
+                    ],
+                    "context": "Long non-coding RNAs (lncRNAs) play crucial roles in human physiology, and have been found to be associated with various cancers. Transcribed ultraconserved regions (T-UCRs) are a subgroup of lncRNAs conserved in several species, and are often located in cancer-related regions. Breast cancer is the most common cancer in women worldwide and the leading cause of female cancer deaths. We investigated the association of genetic variants in lncRNA and T-UCR regions with breast cancer risk to uncover candidate loci for further analysis. Our focus was on low-penetrance variants that can be discovered in a large dataset. We selected 565 regions of lncRNAs and T-UCRs that are expressed in breast or breast cancer tissue, or show expression correlation to major breast cancer associated genes. We studied the association of single nucleotide polymorphisms (SNPs) in these regions with breast cancer risk in the 122970 case samples and 105974 controls of the Breast Cancer Association Consortium's genome-wide data, and also by "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e36ad01b5b409ea53000006",
+                            "question": "Which T-UCRs have been implicated in gastric cancer?"
+                        }
+                    ],
+                    "context": "The transcribed ultraconserved regions (T-UCRs) are a novel class of long non-coding RNAs and are involved in the development of several types of cancer. Although several different papers have described the oncogenic role of Uc.63+, there are no reports mentioning its importance in gastric cancer (GC) biology."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e46e8c13f5415952900000c",
+                            "question": "List types of DNA lesions caused by UV light."
+                        }
+                    ],
+                    "context": "Access to DNA packaged in nucleosomes is critical for gene regulation, DNA replication and DNA repair. In humans, the UV-damaged DNA-binding protein (UV-DDB) complex detects UV-light-induced pyrimidine dimers throughout the genome; however, it remains unknown how these lesions are recognized in chromatin, in which nucleosomes restrict access to DNA. Here we report cryo-electron microscopy structures of UV-DDB bound to nucleosomes bearing a 6-4 pyrimidine-pyrimidone dimer or a DNA-damage mimic in various positions. We find that UV-DDB binds UV-damaged nucleosomes at lesions located in the solvent-facing minor groove without affecting the overall nucleosome architecture. In the case of buried lesions that face the histone core, UV-DDB changes the predominant translational register of the nucleosome and selectively binds the lesion in an accessible, exposed position. Our findings explain how UV-DDB detects occluded lesions in strongly positioned nucleosomes, and identify slide-assisted site\u00a0exposure as a mechanism by which high-affinity DNA-binding proteins can access otherwise occluded sites in nucleosomal DNA."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5cd96eb2a49efeb44c000003",
+                            "question": "Which software are used for the detection of selective sweeps?"
+                        }
+                    ],
+                    "context": "Open source software has been widely used in various industries due to its openness and flexibility, but it also brings potential security problems. Therefore, security analysis is required before using open source software. The current mainstream open source software vulnerability analysis technology is based on source code, and there are problems such as false positives, false negatives and restatements. In order to solve the problems, based on the further study of behavior feature extraction and vulnerability detection technology, a method of using dynamic behavior features to detect open source software vulnerabilities is proposed. Firstly, the relationship between open source software vulnerability and API call sequence is studied. Then, the behavioral risk vulnerability database of open source software is proposed as a support for vulnerability detection. In addition, the CNN-IndRNN classification model is constructed by improving the Independently Recurrent Neural Net-work (IndRNN) algorithm and applies to open source software security vulnerability detection. The experimental results verify the effectiveness of the proposed open source software security vulnerability detection method based on dynamic behavior features."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5c70273c7c78d69471000061",
+                            "question": "Which organs are primarily damaged in SLE?"
+                        }
+                    ],
+                    "context": "At least half of patients with systemic lupus erythematosus (SLE) develop organ damage as a consequence of autoimmune disease or long-term therapeutic steroid use. This study synthesised evidence on the association between organ damage and mortality in patients with SLE."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5c7a4ed5d774d04240000008",
+                            "question": "What are the advantages of liquid biopsy in NSCLC?"
+                        }
+                    ],
+                    "context": "With advances in target therapy, molecular analysis of tumors is routinely required for treatment decisions in patients with advanced non-small cell lung cancer (NSCLC). Liquid biopsy refers to the sampling and analysis of circulating cell-free tumor DNA (ctDNA) in various body fluids, primarily blood. Because the technique is minimally invasive, liquid biopsies are the future in cancer management. Epidermal growth factor receptor (EGFR) ctDNA tests have been performed in routine clinical practice in advanced NSCLC patients to guide tyrosine kinase inhibitor treatment. In the near future, liquid biopsy will be a crucial prognostic, predictive, and diagnostic method in NSCLC. Here we present the current status and future perspectives of liquid biopsy in NSCLC."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5c7006037c78d6947100005d",
+                            "question": "Which characteristics are used in the SLEDAI index for SLE patients?"
+                        }
+                    ],
+                    "context": "BACKGROUND This study aimed to investigate the association between levels of serum amyloid A (SAA) and the activity of systemic lupus erythematosus (SLE). MATERIAL AND METHODS The study included 135 patients with SLE, including 52 patients with active SLE and 83 patients with inactive SLE and 149 healthy controls. The degree of activity of SLE was assessed using the SLE Disease Activity Index 2000 (SLEDAI-2K). Serum SAA levels were measured using a Cobas 8000 c702 modular analyzer. RESULTS The levels of SAA were significantly increased in patients with active SLE compared with patients with inactive SLE (median IQR, 16.65 mg/L; range, 9.35-39.68 mg/L, and median IQR, 2.30 mg/L, range, 1.30-4.80 mg/L) (p<0.001). Levels of SAA were significantly correlated with the SLEDAI-2K scores, the erythrocyte sedimentation rate (ESR), and hypersensitive C-reactive protein (Hs-CRP) in patients with SLE (r=0.726, p<0.001; r=0.631, p<0.001; r=0.774, p<0.001, respectively). Multivariate logistic regression analysis showed that the SAA values were independently associated with active SLE when controlled for white blood cell (WBC) count, red blood cell distribution width (RDW), ESR, and Hs-CRP (OR=1.772; p=0.01; 95% CI, 1.101-2.851). Receiver operating characteristic (ROC) curve analysis for SAA was used to identify patients with active SLE with an area under the curve of 0.971, a sensitivity of 90.4%, and a specificity of 94.0%. CONCLUSIONS SAA levels were significantly correlated with disease activity in patients with SLE."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5c74305d7c78d694710000a4",
+                            "question": "Which mRNAs are sequestered in stress granules?"
+                        }
+                    ],
+                    "context": "G3BP RNA-binding proteins are important components of stress granules (SGs). Here, we analyze the role of the Drosophila G3BP Rasputin (RIN) in unstressed cells, where RIN is not SG associated. Immunoprecipitation followed by microarray analysis identifies over 550 mRNAs that copurify with RIN. The mRNAs found in SGs are long and translationally silent. In contrast, we find that RIN-bound mRNAs, which encode core components of the transcription, splicing, and translation machinery, are short, stable, and highly translated. We show that RIN is associated with polysomes and provide evidence for a direct role for RIN and its human homologs in stabilizing and upregulating the translation of their target mRNAs. We propose that when cells are stressed, the resulting incorporation of RIN/G3BPs into SGs sequesters them away from their short target mRNAs. This would downregulate the expression of these transcripts, even though they are not incorporated into stress granules."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5c7a4a31d774d04240000006",
+                            "question": "Which are the problems associated with the use of PD-L1 as immunotherapy biomarker?"
+                        }
+                    ],
+                    "context": "Current clinically approved biomarkers for the PD-1 blockade cancer immunotherapy are based entirely on the properties of tumour cells. With increasing awareness of clinical responses, more precise biomarkers for the efficacy are required based on immune properties. In particular, expression levels of immune checkpoint-associated molecules such as PD-1, PD-L1, and CTLA-4 would be critical to evaluate the immune state of individuals. Although quantification of their soluble form leased from the membrane will provide quick evaluation of patients' immune status, available methods such as enzyme-linked immunosorbent assays to measure these soluble factors have limitations in sensitivity and reproducibility for clinical use. To overcome these problems, we developed a rapid and sensitive immunoassay system based on chemiluminescent magnetic technology. The system is fully automated, providing high reproducibility. Application of this system to plasma of patients with several types of tumours demonstrated that soluble PD-1, PD-L1, and CTLA-4 levels were increased compared to those of healthy controls and varied among tumour types. The sensitivity and detection range were sufficient for evaluating plasma concentrations before and after the surgical ablation of cancers. Therefore, our newly developed system shows potential for accurate detection of soluble PD-1, PD-L1, and CTLA-4 levels in the clinical practice."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e360f3d158f994d3a000009",
+                            "question": "What are 3 symptoms of Waardenburg Syndrome?"
+                        }
+                    ],
+                    "context": "Waardenburg syndrome (WS) is a genetic disorder characterized by hearing loss and pigmentary abnormalities with variable penetrance. Though heterozygous mutations in MITF are a major cause for Waardenburg syndrome type 2 (WS2), homozygous mutations in this gene and the associated phenotype have been rarely characterized. In this study, we identified a novel p.R223H mutation in MITF in a Chinese Han family with variable WS features. Both parents carried a heterozygous p.R223H mutation. They had normal hearing, and premature greying of the hair is their only pigmentary abnormality. In contrast, their two children both carried a homozygous p.R223H mutation and had classic WS features including profound hearing loss, heterochromia irides and marked pigmentary abnormalities in hair and skin. Interestingly, the two affected children also have persistent chronic constipation since the neonatal period, symptoms suggestive of Waardenburg syndrome type 4 (WS4). Our study revealed a likely association between homozygous mutations in MITF and WS4, which implies a dosage effect for the underlying pathogenesis mechanism."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e493bc06d0a277941000003",
+                            "question": "List types of cancer where Long intergenic nonprotein coding RNA p53-induced transcript (LINC-PINT) is involved"
+                        }
+                    ],
+                    "context": "Long intergenic nonprotein coding RNA p53-induced transcript (LINC-PINT) has been reported to participate in various cancers. Here, we investigated the effects of LINC-PINT on lung cancer progression. Firstly, in our study, we implied that LINC-PINT was obviously decreased in NSCLC. Thereafter, in A549 and H1299 cells, LINC-PINT was upregulated via transfecting LV-LINC-PINT. As exhibited, LINC-PINT repressed cell proliferation and cell colony formation of A549 and H1299 cells. Subsequently, flow cytometry evidenced that A549 and H1299 cell apoptosis was obviously triggered and the cell cycle was arrested in G1 phase. Then, migration and transwell invasion experiments were carried out to detect the cell migration and invasion capacity. We found A549 and H1299 cell migration and invasion capacity were restrained by the upregulation of LINC-PINT. Meanwhile, we predicted that miR-543 could function as the target of LINC-PINT and the association was verified. Moreover, we exhibited that miR-543 was remarkably increased in lung cancer, which could be regulated by LINC-PINT negatively. Furthermore, PTEN could act as the downstream target of miR-543 and upregulation of miR-543 repressed PTEN, which was reversed by LV-PINT in A549 and H1299 cells. Finally, xenografts were utilized to confirm the function of LINC-PINT on lung cancer. All these findings concluded that LINC-PINT exerted crucial biological roles in NSCLC through sponging miR-543 and inducing PTEN."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e2f43bafbd6abf43b000029",
+                            "question": "Please list 2 human diseases caused by a coronavirus."
+                        }
+                    ],
+                    "context": "Human coronaviruses continue to pose a threat to human health. The emergence of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) in December 2019 which causes coronavirus disease-2019 (COVID-19), an acute respiratory disease marked the third introduction of a highly pathogenic coronavirus into the human population in the twenty-first century. This recent emergence of a previously unknown coronavirus in China leads to huge impacts on humans globally. Covid-19 is a challenge to global public health. Here, we discuss the COVID-19 outbreak in a one health context, highlighting the need for the implementation of one health measures and practices to improve human health and reduce the emergence of pandemic viruses."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e5cbf4e1af46fc130000004",
+                            "question": "List approved radioprotective compounds"
+                        }
+                    ],
+                    "context": "Numerous amino acids and their analogs are capable of protecting biological systems from the toxic effects of ionizing radiation. These radioprotective agents can be classified into two broad groups, depending upon the presence or absence of a free or potentially free sulfhydryl group. The sulfhydryl-containing compounds have been studied extensively and are thought to exert their radioprotective effects by several mechanisms, including free radical scavenging and hydrogen atom donation. Several non-sulfhydryl-containing amino acids are also being investigated for their radioprotective effects. These agents are less well known than the familiar sulfhydryl compounds, but possess very interesting protective qualities. In short, the study of amino acids and their derivatives as radioprotective agents continues to contribute to an understanding of processes involved in radiation toxicity and to offer new compounds with potential application to situations of human exposure. "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e48100bd14c9f295d000007",
+                            "question": "List the most common cancers after a radiation exposure?"
+                        }
+                    ],
+                    "context": "Radiation exposure is related to risk of numerous types of cancer, but relatively little is known about its effect on risk of multiple primary cancers. Using follow-up data through 2002 from 77,752 Japanese atomic bomb survivors, we identified 14,048 participants diagnosed with a first primary cancer, of whom 1,088 were diagnosed with a second primary cancer. Relationships between radiation exposure and risks of first and second primary cancers were quantified using Poisson regression. There was a similar linear dose-response relationship between radiation exposure and risks of both first and second primary solid tumors [excess relative risk (ERR)/Gy = 0.65; 95% confidence interval (CI), 0.57-0.74 and ERR/Gy = 0.56; 95% CI, 0.33-0.80, respectively] and risk of both first and second primary leukemias (ERR/Gy = 2.65; 95% CI, 1.78-3.78 and ERR/Gy = 3.65; 95% CI, 0.96-10.70, respectively). Background incidence rates were higher for second solid cancers, compared with first solid cancers, until about age 70 years for men and 80 years for women (P < 0.0001), but radiation-related ERRs did not differ between first and second primary solid cancers (P = 0.70). Radiation dose was most strongly related to risk of solid tumors that are radiation-sensitive including second primary lung, colon, female breast, thyroid, and bladder cancers. Radiation exposure confers equally high relative risks of second primary cancers as first primary cancers. Radiation is a potent carcinogen and those with substantial exposures who are diagnosed with a first primary cancer should be carefully screened for second primary cancers, particularly for cancers that are radiation-sensitive."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5cf0f567a49efeb44c00000b",
+                            "question": "Which are the main G1/S transcription factors in yeast?"
+                        }
+                    ],
+                    "context": "The yeast E2F functional homologs MBF (Mbp1/Swi6) and SBF (Swi4/Swi6) complexes are critical transcription factors for G1/S transition. The target of rapamycin complex 1 (TORC1) kinase promotes G1/S transition via upregulation of the G1 cyclin Cln3 that activates MBF and SBF in favorable nutrient conditions. Here, we show evidence that TORC1 directly regulates G1/S transition via MBF and SBF. Various proteins involved in G1/S transition, including Mbp1 and Swi4, but not Swi6, were largely lost after rapamycin treatment. TORC1 inactivation facilitated degradation of Mbp1 and Swi4. Mbp1 degradation was dependent on Skp1-Cullin1-F-box (SCF)-Grr1 and proteasomes. We identified a PEST-like degron in Mbp1. Mutant cells with an unstable Mbp1 protein were hypersensitive to rapamycin and more accumulated G1 cells in the absence and presence of rapamycin. This study revealed that TORC1 directly controls MBF/SBF-mediated G1/S transition in response to nutrient availability."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e30ee25fbd6abf43b00003f",
+                            "question": "List features of the SAM syndrome."
+                        }
+                    ],
+                    "context": "Desmoplakin (DSP) and Desmoglein 1 (DSG1) variants result in skin barrier defects leading to erythroderma, palmoplantar keratoderma and variable [AQ4] other features. Some DSG1 variant carriers present with SAM syndrome (Severe dermatitis, multiple Allergies, Metabolic wasting) and a SAM-like phenotype has been reported in 4 subjects with different heterozygous DSP variants. We report here a patient with a novel DSP spectrin region (SR) 6 variant c.1756C>T, p.(His586Tyr), novel features of brain lesions and severe recurrent mucocutaneous herpes simplex virus infections, with a favourable response to ustekinumab. Through a review of reported cases of heterozygous variants in DSP SR6 (n\u2009=\u200915) and homozygous or compound heterozygous variants in DSG1 (n\u2009=\u200912) and SAM-like phenotype, we highlight phenotypic variability. Woolly hair, nail abnormalities and cardiomyopathy characterize patients with DSP variants, while elevated immunoglobulin E and food allergies are frequent in patients with DSG1 variants. Clinicians should be aware of the diverse manifestations of desmosomopathies."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e46f9683f54159529000010",
+                            "question": "List side effects of radiation therapy?"
+                        }
+                    ],
+                    "context": "As radiation therapy is needed by approximately 50% of patients with cancer there needs to be ongoing research to ensure that radiation therapy targets the tumour effectively and minimises potential side effects. Major advances in radiation therapy, due to improvements in engineering and computing, have made it more precise, reducing side effects and improving cancer control. Patients need to be informed of its risks, both short and long term, to enable them to be active participants in their cancer treatment path."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e4027f948dab47f2600000d",
+                            "question": "List diseases that are caused by the Meningococcus B?"
+                        }
+                    ],
+                    "context": "A considerable percentage of patients with meningococcus infection displayed an increase in the actibody titres to meningococcus, group A, detectable in the passive hemagglutination test (PHAT). An increase in the antibody titre was mose frequent in the patients with clinical manifestations of meningococciemia and meningitis. The PHAT can be used as an auxiliary method of diagnosis permitting to establish the meningococcus etiology of the disease in a number of cases."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e5015436d0a277941000037",
+                            "question": "Which are the databases for intrinsic protein disorders?"
+                        }
+                    ],
+                    "context": "Nowadays, it is well established that many proteins or regions under physiological conditions lack a fixed three-dimensional structure and are intrinsically disordered. MobiDB is the main repository of protein disorder and mobility annotations, combining different data sources to provide an exhaustive overview of intrinsic disorder. MobiDB includes curated annotations from other databases, indirect disorder evidence from structural data, and disorder predictions from protein sequences. It provides an easy-to-use web server to visualize and explore disorder information. This chapter describes the data available in MobiDB, emphasizing how to use and access the intrinsic disorder data. MobiDB is available at URL http://mobidb.bio.unipd.it ."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e4f0a4f6d0a277941000031",
+                            "question": "List the 5 different human immunoglobulin heavy chains."
+                        }
+                    ],
+                    "context": "Even though immunoglobulins are critical for immune responses and human survival, the diversity of the immunoglobulin heavy chain gene ("
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e55046fb761aafe09000004",
+                            "question": "List 3 NK3R antagonists."
+                        }
+                    ],
+                    "context": "Neurokinin-3 receptor (NK3R) plays a pivotal role in the release of gonadotropin-releasing hormone in the hypothalamus-pituitary-gonadal (HPG) axis. To develop novel NK3R antagonists with less environmental toxicity, a series of heterocyclic scaffolds for the triazolopiperazine substructure in an NK3R antagonist fezolinetant were designed and synthesized. An isoxazolo[3,4-c]piperidine derivative exhibited moderate NK3R antagonistic activity and favorable properties that were decomposable under environmental conditions."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e494b0e6d0a277941000007",
+                            "question": "List 3 PD-L1 inhibitors on the market as of 2018."
+                        }
+                    ],
+                    "context": "Programmed cell death protein 1 (PD-1)/programmed death-ligand 1 (PD-L1) is a negative immune checkpoint pathway that inhibit immune responses, and upregulation of this pathway has implications in many malignancies. The search for effective PD-1/PD-L1 inhibitors has been at the forefront of academic and industrial medicinal chemistry, leading to 16 clinical candidates and the launch of six monoclonal antibodies (mAbs) drugs. Despite the unprecedented success achieved, the limitations of mAbs, including poor tissue and tumor penetration, long half-life time, poor oral bioavailability, and expensive production costs, impelled researchers to turn their attention to the development of peptide-based and non-peptide small-molecule inhibitors as potential alternatives or supplements to mAbs. However, no small-molecule inhibitors have been approved so far, indicating a challenging process of developing marketable small-molecule PD-1/PD-L1 targeted therapeutics. This review will summarize and provide insight into recent advances in the PD-1/PD-L1 pathway, including its structural basis and biology, along with the crystal structures with mAbs, peptides and small molecules. We place great emphasis on design strategies underlying reported small-molecule inhibitors and attempt to provide an outlook at the future of small-molecule PD-1/PD-L1inhibitors."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e4be9496d0a27794100002a",
+                            "question": "Please list 3 drugs that have EGFR as their primary target."
+                        }
+                    ],
+                    "context": "Although a variety of tyrosine kinase inhibitors (TKIs) have been developed to target human epidermal growth factor receptor (EGFR) for lung cancer therapy, many patients treated with first-line small-molecule TKIs are clinically observed to eventually establish drug-resistant mutations T790\u202fM and C797S around kinase active site, which play a primary role in development of acquired drug resistance to first-generation reversible and second-generation irreversible TKIs, respectively. Here, instead of developing small-molecule drugs to directly target the active site, we attempt to derive self-inhibitory peptides (SIPs) from the EGFR:EGFR asymmetric dimerization interface, where is separated from kinase active site and has a relatively low conservation as compared to the active site. It is found that the dimerization is a typical peptide-mediated protein interaction, where the first EGFR N-lobe adopts an N-terminal binding sequence (nBS) to interact with the dimerization interface of second EGFR C-lobe. A core binding sequence (nCBS, "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5d36a9507bc3fee31f000005",
+                            "question": "Which cells mature in the human thymus?"
+                        }
+                    ],
+                    "context": "Here, we describe the NeoThy humanized mouse model created using non-fetal human tissue sources, cryopreserved neonatal thymus and umbilical cord blood hematopoietic stem cells (HSCs). Conventional humanized mouse models are made by engrafting human fetal thymus and HSCs into immunocompromised mice. These mice harbor functional human T\u00a0cells that have matured in the presence of human self-peptides and human leukocyte antigen molecules. Neonatal thymus tissue is more abundant and developmentally mature and allows for creation of up to \u223c50-fold more mice per donor compared with fetal tissue models. The NeoThy has equivalent frequencies of engrafted human immune cells compared with fetal tissue humanized mice and exhibits T\u00a0cell function in assays of ex\u00a0vivo cell proliferation, interferon \u03b3 secretion, and in\u00a0vivo graft infiltration. The NeoThy model may provide significant advantages for induced pluripotent stem cell immunogenicity studies, while bypassing the requirement for fetal tissue."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e30f8abfbd6abf43b000047",
+                            "question": "Which molecules are inhibited by Gilteritinib?"
+                        }
+                    ],
+                    "context": "Leukemic stem cells (LSCs) are a major cause of treatment failure and recurrence of acute myeloid leukemia (AML). Targeting LSC is essential to developing a potential cure for patients with relapsed/refractory AML. Here we investigated the effect of aryl hydrocarbon receptor (AhR) signaling on AML stem/progenitor proportion and examined the combined effect of AhR agonist and tyrosine kinase inhibitor. The AhR agonist, 6-formylindolo[3,2-b]carbazole (FICZ), significantly decreased the LSC proportion and clonogenicity and increased differentiation markers in AML primary cells. Synergistic/additive effects of FICZ and gilteritinib, FMS-like tyrosine kinase 3 (FLT3) inhibitor, were confirmed in AML cells with FLT3-ITD. We present evidence that combination of both agents inhibits FLT3 downstream molecules and degrades clonogenicity. Collectively, our results suggest that FICZ not only compels LSC differentiation, but also enhances the efficacy of gilteritinib when combined. Clinical application of this combined approach may pave a new therapeutic strategy for patients with FLT3 mutated AML."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e4163b848dab47f2600000f",
+                            "question": "List 3 human diseases caused by  viruses in the family Paramyxoviridae."
+                        }
+                    ],
+                    "context": "This chapter discusses the agents with activity primarily against RNA viruses. The communicable diseases of the respiratory tract are probably the most common cause of symptomatic human infections. The viruses that are causative agents for human respiratory disease comprise the five taxonomically distinct families: orthomyxoviridae, paramyxoviridae, picornaviridae, coronaviridae, and adenoviridae. The influenza viruses, which consist of types A, B, and C, belong to the family orthomyxoviridae. Types A and B have been associated with significant increases in mortality during epidemics. The disease may be asymptomatic or cause symptoms ranging from the common cold to fatal pneumonia. Immunization against influenza has been recommended for high-risk groups and antiviral chemotherapy (amantadine) is available for the treatment and prophylaxis of all influenza A infections. There is both a great need for and interest in developing a chemotherapeutic agent for the treatment of these two viral, respiratory tract pathogens. The family picornaviridae contains the genus "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e342175fbd6abf43b000064",
+                            "question": "List features of the Currarino triad."
+                        }
+                    ],
+                    "context": "Currarino syndrome (CS) is a rare autosomal dominant disease that has been described as a triad of partial sacral agenesis, anorectal anomalies, and a presacral mass. Mutations in the HLXB9 gene have been suggested to be the genetic background of CS. In this study, sequence analysis of the HLXB9 gene was performed in two familial and two sporadic Korean patients showing the clinical features of CS, and two mutations in the HLXB9 gene were identified only in the two familial cases. One mutation (R295W) has been reported previously, and the other (H260_Q261delinsLELLELE) is novel. Consistent with previous observations, the phenotypic expression of the mutation carriers in the CS families varies from mild to severe, including the complete triad. This study confirms that familial CS patients in Korea have the same genetic background as other ethnicities and reaffirms the phenotype variability among CS patients with the same mutation."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e36a901b5b409ea53000005",
+                            "question": "Which T-UCRs have been implicated in lung cancer?"
+                        }
+                    ],
+                    "context": "Lung cancer in Xuanwei (LCXW), China, is known worldwide for occurring frequently with high morbidity and mortality, which necessitates research to determine its pathogenesis. This study attempted to screen potential transcribed ultraconserved region (T-UCR) biomarkers related to LCXW."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e3a6a4eb5b409ea53000016",
+                            "question": "List symptoms of the One-and-a-half syndrome."
+                        }
+                    ],
+                    "context": "Eight-and-a-half syndrome is a rare condition that is described as a combination of one-and-a-half syndrome and an ipsilateral facial nucleus lesion. We present a clinical case of occurrence of eight-and-a-half syndrome that was caused by a demyelinating lesion in the dorsal pontine tegmentum. A 44-year-old man presented to the hospital with a subacute onset of horizontal diplopia and left-sided facial weakness. MRI revealed a T2 hyperintense lesion in his dorsal pons, which was consistent with a demyelinating pathology. Treatment with intravenous steroids showed significant improvement in his symptoms. In our case, it occurred due to a suspected demyelinating lesion that was this patient's first and only demyelinating event, leaving him with a diagnosis of clinically isolated syndrome. His responsiveness to steroids represents the first case report of an adult patient presenting with an eight-and-a-half syndrome secondary to a suspected demyelinating pathology."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e475d3035b8f0833c000002",
+                            "question": "Which factors are included in the the APPEND score?"
+                        }
+                    ],
+                    "context": "Outpatient appendectomy for acute appendicitis is a feasible, yet not widely performed procedure, as there are no universally accepted criteria for patient selection. The aim of this study was to assess preoperative clinical factors associated with successful short-stay appendectomy (SSA) and establish a predictive score to help with patient selection."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e493a3e6d0a277941000002",
+                            "question": "Which lncRNAS are regulated by SAM68?"
+                        }
+                    ],
+                    "context": "Super resolution microscopy has changed our capability to visualize and understand spatial arrangements of RNA- and protein-containing domains in individual cells. In a previous study, we described a novel lncRNA, Tumor-associated NBL2 transcript (TNBL), which originates from a primate specific macrosatellite repeat. We aimed to describe several aspects of TNBL lncRNA, with one focus being pinpointing its precise location in the nucleus, as well as visualizing its interactions with proteins to deduce its functionality. Using a combination of STimulated Emission Depletion (STED) super resolution microscopy, single molecule RNA (smRNA) FISH against TNBL, and immunofluorescence against SAM68 perinucleolar body, we resolved the spatial complexity of the interaction between TNBL aggregates and SAM68 bodies at the perinucleolar region. Here, we describe protocols for a step-by-step optimized smRNA FISH/IF and STED imaging, detailing parameter settings, and three-dimensional data analysis of spatial positioning of subnuclear structures. These protocols can be employed for single-cell imaging of complex nuclear RNA-protein structures."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e6e4a6c51b80c9423000002",
+                            "question": "List the components of the COMPASS complex"
+                        }
+                    ],
+                    "context": "Expression of Runx2/p57 is a hallmark of the osteoblast-lineage identity. Although several regulators that control the expression of Runx2/p57 during osteoblast-lineage commitment have been identified, the epigenetic mechanisms that sustain this expression in differentiated osteoblasts remain to be completely determined. Here, we assess epigenetic mechanisms associated with Runx2/p57 gene transcription in differentiating MC3T3 mouse osteoblasts. Our results show that an enrichment of activating histone marks at the Runx2/p57 P1 promoter is accompanied by the simultaneous interaction of Wdr5 and Utx proteins, both are components of COMPASS complexes. Knockdown of Wdr5 and Utx expression confirms the activating role of both proteins at the Runx2-P1 promoter. Other chromatin modifiers that were previously described to regulate Runx2/p57 transcription in mesenchymal precursor cells (Ezh2, Prmt5, and Jarid1b proteins) were not found to contribute to Runx2/p57 transcription in full-committed osteoblasts. We also determined the presence of additional components of COMPASS complexes at the Runx2/p57 promoter, evidencing that the Mll2/COMPASS-\u00a0and Mll3/COMPASS-like complexes bind to the P1 promoter in osteoblastic cells expressing Runx2/p57 to modulate the H3K4me1 to H3K4me3 transition."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e6e5d1d51b80c9423000003",
+                            "question": "List psychiatric diseases that are associated with Synaptosome Associated Protein 25 (snap25)."
+                        }
+                    ],
+                    "context": "Schizophrenia is a common psychiatric disorder with high heritability and complex genetic architecture. Genome-wide association studies (GWAS) have identified several significant loci associated with schizophrenia. However, the explained heritability is still low. Growing evidence has shown schizophrenia is attributable to multiple genes with moderate effects. In-depth mining and integration of GWAS data is urgently expected to uncover disease-related gene combination patterns. Network-based analysis is a promising strategy to better interpret GWAS to identify disease-related network modules. We performed a network-based analysis on three independent schizophrenia GWASs by using a refined analysis framework, which included a more accurate gene P-value calculation, dynamic network module searching algorithm and detailed functional analysis for the obtained modules genes. The result generated 79 modules including 238 genes, which form a highly connected subnetwork with more statistical significance than expected by chance. The result validated several reported disease genes, such as MAD1L1, MCC, SDCCAG8, VAT1L, MAPK14, MYH9 and FXYD6, and also obtained several novel candidate genes and gene-gene interactions. Pathway enrichment analysis of the module genes suggested they were enriched in several neural and immune system related pathways/GO terms, such as neurotrophin signaling pathway, synaptosome, regulation of protein ubiquitination, and antigen processing and presentation. Further crosstalk analysis revealed these pathways/GO terms were cooperated with each other, and identified several important genes, which might play vital roles to connect these functions. Our network-based analysis of schizophrenia GWASs will facilitate the understanding of genetic mechanisms of schizophrenia. "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e44baaa48dab47f2600001a",
+                            "question": "Which kinases are inhibited by Pyrotinib?"
+                        }
+                    ],
+                    "context": "Human epidermal growth factor receptor 2 (HER2) is amplified in about 20% breast cancers. Treat of HER2 positive breast cancers has been greatly promoted in last few years, but the accompany HER2 blockade has hindered the therapeutic effect. Pyrotinib is a pan-HER kinase inhibitor that suppresses signaling through the RAS/RAF/MEK/MAPK and PI3K/AKT pathways. Palbociclib is a CDK4/6 inhibitor that inhibits cell cycle progression and cancer cell proliferation in ER+\u00a0breast cancers. We hypothesized that the combination of pan-HER kinase inhibitors and CDK4/6 inhibitors would show synergistic antitumor activity in vivo in vitro. Our data show that a combination of palbociclib and pyrotinib was highly synergistic in inhibiting cancer proliferation and colony formation. The combined treatment also induced significant decreases in pAKT and pHER3 activation, induced G0-G1 cell cycle arrest, and increased rates of apoptosis. In the xenograft model, the combination treatment demonstrated greater antitumor activity than either agent alone, with no apparent increase in toxicity. Our results offer a preclinical rationale clinical investigation of the effectiveness of a combination treatment of palbociclib with pyrotinib for breast cancer treatment."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e35c75d158f994d3a000001",
+                            "question": "List targeted genome editing methodologies"
+                        }
+                    ],
+                    "context": "Treat to target describes a management paradigm that involves choosing a clinically relevant target, assessment with validated measures at a prespecified frequency, and a change in therapy if the target is not met. Although guidelines recommend treating to target in axial spondyloarthritis (axSpA), ideal methods to reach this target remain controversial. This review focuses on background for a treat-to-target strategy in axSpA. Potential targets of treatment, association of targets with outcomes, evidence of treatment impact on outcomes, and how treat to target has been incorporated into treatment guidelines are discussed. Treat-to-target trials and the research agenda for studies in axSpA are discussed."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e3e8b1c48dab47f26000008",
+                            "question": "What are the effects of 14-3-3 dimers on Tau phosphorylation?"
+                        }
+                    ],
+                    "context": "Neurodegenerative diseases are characterized by the accumulation of specific phosphorylated protein aggregates in the brain, such as hyperphosphorylated tau (hp-tau) in tauopathies and phosphorylated \u03b1-synuclein (p-\u03b1Syn) in \u03b1-synucleinopathies. The simultaneous accumulation of different proteins is a common event in many neurodegenerative diseases. We herein describe the detection of the phosphorylation and dimerization of \u03b1Syn and activation of GSK-3\u03b2, a major kinase known to phosphorylate tau and \u03b1Syn, in the brains of rTg4510 mice that overexpress human P301L mutant tau. Immunohistochemistry showed p-\u03b1Syn aggregates in rTg4510 mice, which were suppressed by doxycycline-mediated decreases in mutant tau expression levels. A semi-quantitative analysis revealed a regional correlation between hp-tau and p-\u03b1Syn accumulation in rTg4510 mice. Furthermore, proteinase K-resistant \u03b1Syn aggregates were found in the region with excessive hp-tau accumulation in rTg4510 mice, and these aggregates were morphologically different from proteinase K-susceptible p-\u03b1Syn aggregates. Western blotting revealed decreases in p-\u03b1Syn monomers in TBS- and sarkosyl-soluble fractions and increases in ubiquitinated p-\u03b1Syn dimers in sarkosyl-soluble and insoluble fractions in rTg4510 mice. Furthermore, an activated form of GSK-3\u03b2 was immunohistochemically detected within cells containing both hp-tau and p-\u03b1Syn aggregates. A semi-quantitative analysis revealed that increased GSK-3\u03b2 activity strongly correlated with hp-tau and p-\u03b1Syn accumulation in rTg4510 mice. Collectively, the present results suggest that the overexpression of human P301L mutant tau promoted the phosphorylation and dimerization of endogenous \u03b1Syn by activating GSK-3\u03b2 in rTg4510 mice. This synergic effect between tau, \u03b1Syn, and GSK-3\u03b2 may be involved in the pathophysiology of several neurodegenerative diseases that show the accumulation of both tau and \u03b1Syn."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e47546d3f54159529000019",
+                            "question": "Rachmilewitz Index is used for which diseases?"
+                        }
+                    ],
+                    "context": "A limitation of currently used preclinical models of colitis is that disease and treatment assessment methods differ from clinically used methods. Thus, a modified Mayo score and an endoscopic index (EI) were developed for use in cynomolgus macaques with 0.25% dextran sulfate sodium (DSS)-induced ulcerative colitis. Macaques were treated with water with DSS for two weeks followed by water without DSS for two weeks. Disease activity was classified according to a modified Mayo score: stool consistency, rectal bleeding, colonoscopy examination and global assessment. Findings on colonoscopy were further graded according the Rachmilewitz EI. To demonstrate the sensitivity of the modified Mayo score and EI to therapeutic intervention, macaques were treated with the anti-inflammatory steroid prednisolone followed eight weeks later by the integrin antibody vedolizumab. Before DSS treatment, normal stool consistency and no rectal bleeding were observed. Colonoscopy demonstrated no mucosal abnormalities. Following the first DSS treatment, Mayo score and EI indicated signs of mild colitis. Following subsequent DSS treatments, mild to moderate colitis emerged with each DSS treatment and reduced signs of colitis were observed 2 weeks after DSS treatment termination. Prednisolone treatment during DSS treatment suppressed the emergence of colitis. Vedolizumab reduced signs of colitis during DSS treatment and further reduced signs of colitis that persisted after termination of DSS treatment. The current study demonstrated the potential of utilizing clinical outcome measures to assess experimentally-induced colitis in the macaque. Furthermore, signs of colitis, as assessed with the current methods, were reduced following therapeutic treatment. The current findings suggest that clinically relevant outcome measures in the macaque model of ulcerative colitis could be used to test novel treatments."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e80669e835f4e4777000025",
+                            "question": "List angiotensin-converting-enzyme inhibitors."
+                        }
+                    ],
+                    "context": "Potential but unconfirmed risk factors for coronavirus disease 2019 in adults and children may include hypertension, cardiovascular disease, and chronic kidney disease, as well as the medications commonly prescribed for these conditions, angiotensin-converting enzyme inhibitors and angiotensin II receptor blockers. Coronavirus binding to angiotensin-converting enzyme 2, a crucial component of the renin-angiotensin-aldosterone system, underlies much of this concern. Children are uniquely impacted by the coronavirus but the reasons are unclear. This review will highlight the relationship of coronavirus disease 2019 with hypertension, use of angiotensin-converting enzyme inhibitors and angiotensin II receptor blockers, and lifetime risk of cardiovascular disease from the pediatric perspective. We briefly summarize the renin-angiotensin-aldosterone system and comprehensively review the literature pertaining to the angiotensin-converting enzyme 2/angiotensin-(1-7) pathway in children and the clinical evidence for how angiotensin-converting enzyme inhibitors and angiotensin II receptor blockers affect this important pathway. Given the importance of the angiotensin-converting enzyme 2/angiotensin-(1-7) pathway and the potential differences between adults and children, it is crucial that children are included in coronavirus-related research, as this may shed light on potential mechanisms for why children are at decreased risk of severe coronavirus disease 2019."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5d387360a1e1595105000007",
+                            "question": "What are the effects of CAMK4 inhibition?"
+                        }
+                    ],
+                    "context": "This study was designed to investigate the mechanism by which miR-129-5p affects the biological function of liver cancer cells. The expression levels of miR-129-5p in liver cancer tissues and cells were, respectively, determined. Crystal violet staining and flow cytometry were used to detect cell proliferation and apoptosis. Wound healing assay and transwell assay were performed to test cell migration and invasion. The target gene of miR-129-5p was analyzed and verified by bioinformatics analysis and luciferase reporter assay. Tumorigenicity assays in nude mice were used to test the antitumor ability of calcium calmodulin-dependent protein kinase IV (CAMK4). miR-129-5p was found to be underexpressed in hepatocellular cancer tissues and cells and also to inhibit liver cells proliferation, migration, and invasion and promote apoptosis. CAMK4 was a direct target for miR-129-5p and was lowly expressed in liver cancer tissues and cells. CAMK4 was also found to inhibit liver cells proliferation, migration and invasion, and promote apoptosis. CAMK4 might exert an antitumor effect by inhibiting the activation of mitogen-activated protein kinase (MAPK). MiR-129-5p was a tumor suppressor with low expression in liver cancer tissues and cells. CAMK4, which is a direct target gene of miR-129-5p, could inhibit tumor by inhibiting the activation of MAPK signaling pathway."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e4949d36d0a277941000006",
+                            "question": "List cohesinopathies"
+                        }
+                    ],
+                    "context": "The 2019 International Skeletal Dysplasia Society nosology update lists 441 genes for which mutations result in rare human skeletal disorders. These genes code for enzymes (33%), scaffolding proteins (18%), signal transduction proteins (16%), transcription factors (14%), cilia proteins (8%), extracellular matrix proteins (5%), and membrane transporters (4%). Skeletal disorders include aggrecanopathies, channelopathies, ciliopathies, cohesinopathies, laminopathies, linkeropathies, lysosomal storage diseases, protein-folding and RNA splicing defects, and ribosomopathies. With the goal of evaluating the ability of mouse models to mimic these human genetic skeletal disorders, a PubMed literature search identified 260 genes for which mutant mice were examined for skeletal phenotypes. These mouse models included spontaneous and ENU-induced mutants, global and conditional gene knockouts, and transgenic mice with gene over-expression or specific base-pair substitutions. The human X-linked gene "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e3c841148dab47f26000002",
+                            "question": "Before 2019, what neurologic diseases are associated with the tau protein?"
+                        }
+                    ],
+                    "context": "The aggregation of tau, a microtubule-associated protein, is known to play an important role in several neurological disorders including Alzheimer's disease. Alzheimer's disease is considered to be associated with the dyshomeostasis of metal ions such as aluminum, zinc, copper, and ferric ions. Tau is predominately acetylated at the K274 residue in Alzheimer's disease, and the acetylation of the K274 residue is thought to be linked with dementia. Using acetyl mimicking K274Q mutation in tau, we have examined the effects of the acetylation at K274 residue of tau on the interactions of tau with metal ions and also on the ability of tau to protect DNA from the heat and other stressors. We found that Zn"
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e4703d13f54159529000016",
+                            "question": "List radioprotection agents."
+                        }
+                    ],
+                    "context": "We demonstrate a strategy for effective radioprotection by chitosan-based long-circulating nanocarriers with radio-protective agents. The stable encapsulation does not restrain its radioprotective capability, and exhibits prolonged retention time in blood with a half-life of \u223c10 h, thereby showing more beneficial effects than the pure agent in therapeutic efficacy for irradiated mice."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e52c5166d0a27794100004d",
+                            "question": "List the stages/types of Multiple Sclerosis."
+                        }
+                    ],
+                    "context": "People at early stages of multiple sclerosis have subtle balance problems that may affect gait stability. However, differences in methods of determining stability such as sensor type and placements, may lead to different results and affect their interpretation when comparing to controls and other studies."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e6e8897c6a8763d23000003",
+                            "question": "List Mcl-1 inhibitors."
+                        }
+                    ],
+                    "context": "Myeloid cell leukemia sequence 1 (MCL-1) is an antiapoptotic protein that plays a key role in promoting cell survival in multiple myeloma (MM), acute myeloid leukemia (AML), and non-Hodgkin lymphoma (NHL). Overexpression of MCL-1 is associated with treatment resistance and poor prognosis; thus, MCL-1 inhibitors are rational therapeutic options for malignancies depending on MCL-1. Several MCL-1 inhibitors have entered clinical trials, including AZD5991, S64315, AMG 176, and AMG 397. A key area of investigation is whether MCL-1 inhibitors will complement the activity of BCL-2 inhibitors, such as venetoclax, and synergistically enhance anti-tumor efficacy when given in combination with other anti-cancer drugs. Another important question is whether a safe therapeutic window can be found for this new class of inhibitors. In summary, inhibition of MCL-1 shows potential as a treatment for hematologic malignancies and clinical evaluation of MCL-1 inhibitors is currently underway."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e7659db835f4e4777000001",
+                            "question": "Name two rotavirus vaccines."
+                        }
+                    ],
+                    "context": "Despite the success of rotavirus vaccines over the last decade, rotavirus remains a leading cause of severe diarrheal disease among young children. Further progress in reducing the burden of disease is inhibited, in part, by vaccine underperformance in certain settings. Early trials suggested that oral poliovirus vaccine (OPV), when administered concomitantly with rotavirus vaccine, reduces rotavirus seroconversion rates after the first rotavirus dose with modest or nonsignificant interference after completion of the full rotavirus vaccine course. Our study aimed to identify a range of individual-level characteristics, including concomitant receipt of OPV, that affect rotavirus vaccine immunogenicity in high- and low-child-mortality settings, controlling for individual- and country-level factors. Our central hypothesis was that OPV administered concomitantly with rotavirus vaccine reduced rotavirus vaccine immunogenicity."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e80e449835f4e477700002c",
+                            "question": "Which tissues express the ACE2 protein?"
+                        }
+                    ],
+                    "context": "The outbreak of pneumonia caused by SARS-CoV-2 posed a great threat to global human health, which urgently requires us to understand comprehensively the mechanism of SARS-CoV-2 infection. Angiotensin-converting enzyme 2 (ACE2) was identified as a functional receptor for SARS-CoV-2, distribution of which may indicate the risk of different human organs vulnerable to SARS-CoV-2 infection. Previous studies investigating the distribution of ACE2 mRNA in human tissues only involved a limited size of the samples and a lack of determination for ACE2 protein. Given the heterogeneity among humans, the datasets covering more tissues with a larger size of samples should be analyzed. Indeed, ACE2 is a membrane and secreted protein, while the expression of ACE2 in blood and common blood cells remains unknown. Herein, the proteomic data in HIPED and the antibody-based immunochemistry result in HPA were collected to analyze the distribution of ACE2 protein in human tissues. The bulk RNA-seq profiles from three separate public datasets including HPA tissue Atlas, GTEx, and FANTOM5 CAGE were also obtained to determine the expression of ACE2 in human tissues. Moreover, the abundance of ACE2 in human blood and blood cells was determined by analyzing the data in the PeptideAtlas and the HPA Blood Atlas. We found that the mRNA expression cannot reflect the abundance of ACE2 factor due to the strong differences between mRNA and protein quantities of ACE2 within and across tissues. Our results suggested that ACE2 protein is mainly expressed in the small intestine, kidney, gallbladder, and testis, while the abundance of which in brain-associated tissues and blood common cells is low. HIPED revealed enrichment of ACE2 protein in the placenta and ovary despite a low mRNA level. Further, human secretome shows that the average concentration of ACE2 protein in the plasma of males is higher than those in females. Our research will be beneficial for understanding the transmission routes and sex-based differences in susceptibility of SARS-CoV-2 infection."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e7768f9835f4e477700000b",
+                            "question": "Name two inhalable insulin products."
+                        }
+                    ],
+                    "context": "A novel pure insulin spray-dried powder for DPI product (Ins_SD) was studied with respect to physico-chemical stability, in vitro respirability, bioavailability, activity and tolerability. Ins_SD powder exhibited a very high in vitro respirability, independently of the DPI product preparation (manual or semi-automatic). Physico-chemical characteristics of Ins_SD powder remained within the pharmacopoeia limits during 6\u202fmonths of storage at room temperature. PK/PD profiles were measured in rats that received the pulmonary powders by intratracheal insufflation and compared with Afrezza inhalation insulin. Due to the low drug powder mass to deliver, both insulin powders were diluted with mannitol. Insulin from Ins_SD was promptly absorbed (t"
+                }
+            ]
+        }
+    ]
+}

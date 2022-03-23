@@ -1,0 +1,1012 @@
+{
+  "questions": [
+    {
+      "type": "factoid",
+      "id": "5e48edb1f8b2df0d4900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "oxygen beams",
+        "oxygen",
+        "oxygen beams for hadron therapy, as an alternative to carbon ions",
+        "oxygen beams for hadron therapy, as an alternative to carbon",
+        "carbon ions"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e29f666aa19d7443100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "PP2A",
+        "protein phosphatase 2A",
+        "PP2A inhibition on cell death in TRAIL-resistant TNBC cells. We found that the PP2A",
+        "protein phosphatase 2A (PP2A)",
+        "PP2"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e480da0d14c9f295d00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "craniopharyngiomas",
+        "mas",
+        "raniopharyngiomas",
+        "patients with craniopharyngiomas",
+        "craniopharyngiomas who underwent this treatment"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2e136bfbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "OncoPPi Portal",
+        "the OncoPPi Portal",
+        "OncoPPi",
+        "OncoPPi network, is available through the OncoPPi Portal",
+        "the OncoPPi"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5c74266a7c78d6947100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "splicing",
+        "splicing processes",
+        "splicing machinery complexes and splicing",
+        "RNA splicing machinery complexes and splicing",
+        "RNA splicing"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e355e20fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "lamin B1",
+        "LMNB1",
+        "lamin B1 (LMNB1)",
+        "LMNB",
+        "lamin"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e48f90bf8b2df0d4900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "eggs and nymphs",
+        "sterility of eggs and nymphs",
+        "eggs",
+        "The sterility of eggs and nymphs",
+        "sterility of eggs"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e46da9c3f5415952900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "pyrimidine dimers",
+        "UV-light-induced pyrimidine dimers",
+        "dimers",
+        "pyrimidine dimers throughout the genome; however, it remains unknown how these lesions",
+        "pyrimidine dimers throughout the genome"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2902688b3851296d00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "insulin-like growth factor-1",
+        "insulin-like growth factor-1 receptor",
+        "insulin-like growth factor",
+        "insulin",
+        "1"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e46e74e3f5415952900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "ultraviolet radiation",
+        "ionizing and ultraviolet radiation",
+        "DNA damage by ionizing and ultraviolet radiation",
+        "complementation group C",
+        "ultraviolet"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2902e48b3851296d00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "rheumatic diseases",
+        "rheumatic",
+        "rhe",
+        "r",
+        "rheumatic diseases are discussed"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2e11a1fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "FGFR3",
+        "fibroblast growth factor receptor-3",
+        "fibroblast growth factor receptor-3 (FGFR3)",
+        "FGFR",
+        "FGFR3) gene encoding one member of the FGFR subfamily of tyrosine kinase receptors"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5c74285c7c78d6947100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "cytoplasmic",
+        "nucleus",
+        "ytoplasmic",
+        "the nucleus",
+        "cytoplasmic stress granules (SGs)"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5c701f4f7c78d6947100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "autoimmune arthritis",
+        "collagen-induced arthritis",
+        "arthritis",
+        "murine collagen-induced arthritis",
+        "autoimmune arthritis. We demonstrated that dasatinib alleviated arthritis"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2daaa2fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "adenosine A(2A) receptors",
+        "adenosine A(2A)",
+        "selective antagonists of adenosine A(2A) receptors",
+        "inhibitor of adenosine A(2A) receptors",
+        "selective antagonists"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e49032df8b2df0d4900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "miners",
+        "miners in 2016 alone. For this reason, the miners",
+        "the miners",
+        "miners' working hours, the dosimeters must be stored together with a reference dosimeter",
+        "miners' exposures are determined"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2a1096aa19d7443100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "tetrahedrally coordinated",
+        "T molecules",
+        "T",
+        "coordinated",
+        "tetrahedrally"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e29f6e0aa19d7443100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "non-Hodgkin's lymphoma",
+        "Cancer",
+        "lymphoma",
+        "Hodgkin's lymphoma",
+        "ymphoma"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2dafccfbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "N-methyl-D-aspartate (NMDA) glutamate receptors",
+        "N-methyl-D-aspartate (NMDA)",
+        "N-methyl-D-aspartate",
+        "glutamate receptors",
+        "NMDA"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e36dc8cb5b409ea5300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "Acid Sphingomyelinase Deficiency",
+        "Arg610del mutation, have mild phenotype with normal linear growth",
+        "because of p.Arg610del mutation, have mild phenotype with normal linear growth",
+        "Acid Sphingomyelinase Deficiency (ASMD) because of p.Arg610del mutation",
+        "Acid Sphingomyelinase Deficiency (ASMD) because of p.Arg610del"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e31cb85fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "JPH3",
+        "JPH3 gene",
+        "the JPH3",
+        "JPH",
+        "the JPH3 gene"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e30e689fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "Ebola Virus Disease",
+        "Ebola Hemorrhagic Fever",
+        "Ebola Virus Disease (EVD), also known as Ebola Hemorrhagic Fever",
+        "Ebola Hemorrhagic Fever (EHF)",
+        "Ebola Virus Disease (EVD), also known as Ebola Hemorrhagic Fever (EHF)"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e499e266d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "Via",
+        "Viagra",
+        "sildenafil",
+        "l",
+        "gra"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e5b6f04b761aafe0900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "28",
+        "28 proteins",
+        "28 proteins in three distinct classes",
+        "16",
+        "8,000 cases and 800 deaths. The SARS-CoV genome encodes 28"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e5b8b4e752ebcdc7a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "Albright hereditary osteodystrophy",
+        "Albright hereditary osteodystrophy phenotype",
+        "the Albright hereditary osteodystrophy",
+        "hereditary osteodystrophy",
+        "osteodystrophy"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e4940f46d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "(lncRNAs) constitute the largest class of non-coding transcripts in the human genome",
+        "the largest class of non-coding transcripts in the human genome",
+        "largest class of non-coding transcripts in the human genome",
+        "lncRNAs",
+        "non-coding RNA genes than protein-coding genes"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2dbc55fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "Parkinson's disease psychosis",
+        "Parkinson's disease psychosis and other neurological disorders such as Alzheimer's disease",
+        "Parkinson's disease psychosis and other neurological disorders",
+        "psychosis",
+        "Alzheimer's disease"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e5b8170b761aafe0900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "sudden smell loss\"",
+        "sudden smell loss",
+        "\"sudden smell loss\"",
+        "\"sudden smell loss",
+        "smell loss\""
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e319789fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "B-Raf and MEK",
+        "MEK",
+        "B-Raf",
+        "B-Raf and MEK inhibitors (dabrafenib and trametinib",
+        "MEK inhibitors (dabrafenib and trametinib"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e3c6c9eb5b409ea5300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "Helicobacter pylori",
+        "H. pylori",
+        "Helicobacter pylori (H. pylori)",
+        "pylori",
+        "Helicobacter pylori (H. pylori) are gram-negative bacteria"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e540c866d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "Src",
+        "AZD0530, an orally available Src",
+        "Src inhibitor",
+        "AZD0530, an orally available Src inhibitor",
+        "AZD0530"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e4bed1c6d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "JDM",
+        "juvenile dermatomyositis",
+        "dermatomyositis",
+        "JCTM",
+        "JDM was characterized by typical rashes, including Gottron papules, heliotrope rash"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5d35ef017bc3fee31f00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "H3K27me3",
+        "H3K27me3 mark",
+        "H3K27me3 mark on histone H3",
+        "the H3K27me3",
+        "the H3K27me3 mark"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e460f823f5415952900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "calcitonin gene-related peptide",
+        "calcitonin gene-related peptide (CGRP)",
+        "CGRP",
+        "calcitonin gene-related peptide (CGRP) pathway",
+        "calcitonin"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e4fd44a6d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "endocytosis",
+        "clathrin-mediated endocytosis",
+        "mediated endocytosis",
+        "In clathrin-mediated endocytosis",
+        "-mediated endocytosis"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e5409776d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "Src",
+        "AZD0530, an orally available Src",
+        "Src inhibitor",
+        "S",
+        "rc"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5d35e421b3a638076300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "zygotic transition",
+        "maternal-to-zygotic transition",
+        "one third",
+        "at least one third",
+        "the maternal-to-zygotic transition"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e4f2aeb6d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "MAPK pathway",
+        "MAPK",
+        "the MAPK pathway",
+        "the MAPK",
+        "MAPK pathway. Although diverse functions have been proposed for Raf kinases"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e7641a0c6a8763d2300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "cholera toxoid",
+        "Cholera",
+        "toxoid",
+        "cholera vaccine, cholera toxoid",
+        "Parenteral immunization of rabbits with cholera vaccine"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e42d1a748dab47f2600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "PARP",
+        "PARP1",
+        "PARP inhibitor",
+        "Olaparib, a PARP",
+        "PAR"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2f4a8bfbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "camels",
+        "civets in China, and MERS coronavirus (MERS-CoV) has been transmitted from camels",
+        "MERS coronavirus (MERS-CoV) has been transmitted from camels",
+        "bats",
+        "ls"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e6157cb1af46fc13000",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "Rett Syndrome",
+        "Rett Syndrome (RTT)",
+        "Rett",
+        "RTT",
+        "RTT)"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5d3852d07bc3fee31f00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "C-terminal domain",
+        "the C-terminal domain",
+        "in the C-terminal domain",
+        "yeast retrovirus-like element Ty3 can substitute for M-MuLV IN sequences in the C-terminal domain",
+        "retrovirus-like element Ty3 can substitute for M-MuLV IN sequences in the C-terminal domain"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5d386fbfa1e159510500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "BlyS",
+        "CD20 antibody) and belimumab (anti-BlyS",
+        "Bly",
+        "anti-BlyS",
+        "B"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e4601293f5415952900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "multiple sclerosis",
+        "multiple sclerosis (MS)",
+        "rosis",
+        "multiple",
+        "multiple scle"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5d374c727bc3fee31f00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "titin (TTN) and lamin A/C (LMNA)",
+        "titin (TTN)",
+        "lamin A/C (LMNA)",
+        "titin",
+        "titin (TTN) and lamin A/C (LMNA) genes"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e764440c6a8763d2300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "single dose",
+        "A single dose",
+        "single",
+        "A single",
+        "single dose of Vaxchora\u2122"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e30fa32fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "Streptobacillus moniliformis",
+        "Streptobacillus",
+        "treptobacillus moniliformis",
+        "moniliformis",
+        "Streptobacillus moniliformis, the causative organism of streptobacillary rat bite fever"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e30b870fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "STRING database",
+        "the STRING database",
+        "STRING",
+        "the STRING",
+        "bipartite graph"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e6de3f21af46fc13000",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "RNA-dependent RNA polymerases",
+        "RNA polymerases",
+        "viral RNA-dependent RNA polymerases",
+        "RNA-dependent RNA",
+        "RNA"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e36d5b9b5b409ea5300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "exSTRa",
+        "exSTRa (expanded short tandem repeat algorithm)",
+        "expanded short tandem repeat algorithm",
+        "ex",
+        "expanded short tandem repeat"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e764647c6a8763d2300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "HIV",
+        "HIV, malaria and tuberculosis and emerging diseases",
+        "HIV, malaria and tuberculosis",
+        "HIV, malaria",
+        "malaria and tuberculosis and emerging diseases"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5d3826427bc3fee31f00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "cell percentage of T regulator (Treg) cells",
+        "cell percentage of T regulator (Treg)",
+        "(Treg) cells",
+        "Treg",
+        "T regulator (Treg) cells"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e6399dd1af46fc13000",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "cellular signaling cascades orchestrating a variety of biological processes",
+        "biological processes",
+        "signaling cascades orchestrating a variety of biological processes",
+        "cellular signaling cascades orchestrating a variety of biological",
+        "immune"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e776845835f4e477700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "Modified vaccinia virus Ankara expressing antigen 85A",
+        "Modified vaccinia virus Ankara",
+        "vaccinia virus Ankara expressing antigen 85A",
+        "antigen 85A",
+        "Modified vaccinia virus"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e822615835f4e477700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "ferrochelatase",
+        "GLRX5",
+        "MnSOD",
+        "f",
+        "fer"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e52a4ec6d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "M-Exo",
+        "M-Exo and 134 glycoproteins and 10 phosphoproteins from S-Exo",
+        "M",
+        "L-Exo, 156 glycoproteins and 46 phosphoproteins from M-Exo",
+        "L-Exo"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e3eba5548dab47f2600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "tumor necrosis factor family",
+        "tumor necrosis factor family (BAFF)",
+        "tumor necrosis factor",
+        "the tumor necrosis factor family",
+        "the tumor necrosis factor family (BAFF)"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e807578835f4e477700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "cytokines",
+        "proinflammatory cytokines",
+        "excessive or uncontrolled release of proinflammatory cytokines",
+        "an excessive or uncontrolled release of proinflammatory cytokines",
+        "release of proinflammatory cytokines"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5d38577b7bc3fee31f00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "less organized",
+        "nascent chromatin is inherently less organized",
+        "inherently less organized",
+        "organized",
+        "less"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e4025f148dab47f2600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "connectivity and excitability of the human cerebral cortex",
+        "connectivity",
+        "connectivity and excitability",
+        "cerebral cortex",
+        "human cerebral cortex"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e3c69c9b5b409ea5300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "esophageal cancer",
+        "breast cancer",
+        "esophagus to ionizing radiation, but no study has evaluated esophageal cancer",
+        "esophageal cancer risk after breast cancer",
+        "Radiotherapy for breast cancer"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e47681b35b8f0833c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "CD19",
+        "CD19-expressing B cells. Inebilizumab targets and depletes CD19",
+        "Inebilizumab targets and depletes CD19",
+        "19",
+        "CD"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e6e8f92c6a8763d2300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "long ncRNAs",
+        "Many long ncRNAs",
+        "ncRNAs",
+        "long ncRNAs (lncRNA)",
+        "Many long ncRNAs (lncRNA)"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e80caeb835f4e477700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "coronavirus disease",
+        "coronavirus",
+        "coronavirus disease 2019 (COVID-19)",
+        "treat coronavirus disease",
+        "coronavirus disease 2019"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e80489b835f4e477700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "transport activity and uromodulin",
+        "transport activity",
+        "transport",
+        "uromodulin",
+        "uromodulin in the TAL, relevant for blood pressure control and urinary concentrating ability"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e805e62835f4e477700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "CFTR",
+        "CFTR gene",
+        "CFTR gene resulting in impaired cystic fibrosis transmembrane conductance regulator (CFTR)",
+        "CFTR gene resulting in impaired cystic fibrosis transmembrane conductance regulator",
+        "cystic fibrosis transmembrane conductance regulator (CFTR)"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e5438c3b761aafe0900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "neurokinin 3 receptor",
+        "neurokinin 3",
+        "saporin toxin conjugated to a selective NK3R agonist",
+        "neurokinin",
+        "neurokinin 3 receptor (NK3R)-expressing neurons in the median preoptic nucleus (MnPO)"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e808ef4835f4e477700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "medoxomil is more effective in lowering BP than monotherapy with either of these agents",
+        "medoxomil",
+        "medoxomil is more effective in lowering BP",
+        "amlodipine-olmesartan medoxomil",
+        "amlodipine-olmesartan medoxomil is more effective in lowering BP"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5d38767ca1e159510500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "plasmacytoid dendritic cells",
+        "monocytes, and B lymphocytes",
+        "pDCs, monocytes, and B lymphocytes",
+        "plasmacytoid dendritic cells (pDC)",
+        "plasmacytoid dendritic"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e7644a2c6a8763d2300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "2016",
+        "In 2016",
+        "2016, the United States (U.S.) Food and Drug Administration (FDA)",
+        "2016, the United States (U.S.) Food and Drug Administration (FDA) licensed Vaxchora\u00ae",
+        "2016, the United States (U.S.) Food and Drug Administration (FDA) licensed Vaxchora"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2b00bc76af17375100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "DL",
+        "DL. We review the use of DL",
+        "Deep learning (DL)",
+        "(DL) methodology",
+        "Deep learning"
+      ]
+    }
+  ]
+}

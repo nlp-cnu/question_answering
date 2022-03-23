@@ -1,0 +1,940 @@
+{
+    "data": [
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e48edb1f8b2df0d49000002",
+                            "question": "What particles is Hadron therapy using?"
+                        }
+                    ],
+                    "context": "The main advantages of charged particle radiotherapy compared to conventional X-ray external beam radiotherapy are a better tumor conformality coupled with the capability of treating deep-seated radio-resistant tumors. This work investigates the possibility to use oxygen beams for hadron therapy, as an alternative to carbon ions."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e29f666aa19d74431000001",
+                            "question": "Which phosphatase is inhibited by LB-100?"
+                        }
+                    ],
+                    "context": "Triple-negative breast cancer (TNBC) does not respond to widely used targeted/endocrine therapies because of the absence of progesterone and estrogen receptors and HER2 amplification. It has been shown that the majority of TNBC cells are highly sensitive to tumor necrosis factor-related apoptosis-inducing ligand (TRAIL)-induced apoptosis, but the development of TRAIL resistance limits its efficacy. We previously found that protein phosphatase 2A (PP2A) plays an important role in TRAIL resistance. In this study, we evaluated the effects of PP2A inhibition on cell death in TRAIL-resistant TNBC cells. We found that the PP2A inhibitor LB-100 effectively inhibits the growth of a panel of TNBC cell lines including lines that are intrinsically resistant to TRAIL. Using two TRAIL-resistant cell lines generated from TRAIL-sensitive parental cells (MDA231 and SUM159), we found that both TRAIL-sensitive and -resistant cell lines are equally sensitive to LB-100. We also found that LB-100 sensitizes TNBC cells to clinically used chemotherapeutical agents, including paclitaxel and cisplatin. Importantly, we found that LB-100 effectively inhibits the growth of MDA468 tumors in mice in vivo without apparent toxicity. Collectively, these data suggest that pharmacological inhibition of PP2A activity could be a novel therapeutic strategy for treating patients with TNBC in a clinical setting."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e480da0d14c9f295d000006",
+                            "question": "What is the cyberknife used for?"
+                        }
+                    ],
+                    "context": "Objective The results of CyberKnife treatment in patients with craniopharyngiomas are excellent, but reports of long-term follow-up are rare. Hence, considering the possibility of a long-term follow-up of five years or more, we examined the long-term prognoses of these patients. Materials and Methods Of 33 patients, 12 were males and 21 were females. On postoperative evaluation, three patients experienced recurrence after total resection and were treated using CyberKnife. Twenty-five patients were treated with\u00a0CyberKnife after partial resection. The mean age at treatment was 47 years, and the follow-up period was 61 to 129 months. Results Of the cases assessed as totally resected in the postoperative evaluation, three recurred after 18 months. CyberKnife treatment was administered immediately in recurrent cases; subsequently, no recurrences were observed for 25 months or more. No recurrences were observed in any patients treated with CyberKnife on the residual site after surgical treatment. Many cases had improved pituitary function, but none had deteriorated. In addition, no case of visual function deterioration was reported.\u00a0 Conclusion Twenty years have passed since the introduction of CyberKnife treatment; however, only a few reports have examined the long-term prognosis of patients with craniopharyngiomas who underwent this treatment. We have been aware of the efficacy of CyberKnife treatment for ten years or more; its long-term results are evident, and the good growth control and low adverse effects are impressive. We are confident that we can maintain good treatment results by combining conservative surgical resection with minimal complications and CyberKnife treatment for new patients in the future."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e2e136bfbd6abf43b000023",
+                            "question": "Which portal has been developed to explore protein-protein interactions in cancer cell lines?"
+                        }
+                    ],
+                    "context": "Protein-protein interactions (PPIs) control all functions and physiological states of the cell. Identification and understanding of novel PPIs would facilitate the discovery of new biological models and therapeutic targets for clinical intervention. Numerous resources and PPI databases have been developed to define a global interactome through the PPI data mining, curation, and integration of different types of experimental evidence obtained with various methods in different model systems. On the other hand, the recent advances in cancer genomics and proteomics have revealed a critical role of genomic alterations in acquisition of cancer hallmarks through a dysregulated network of oncogenic PPIs. Deciphering of cancer-specific interactome would uncover new mechanisms of oncogenic signaling for therapeutic interrogation. Toward this goal our team has developed a high-throughput screening platform to detect PPIs between cancer-associated proteins in the context of cancer cells. The established network of oncogenic PPIs, termed the OncoPPi network, is available through the OncoPPi Portal, an interactive web resource that allows to access and interpret a high-quality cancer-focused network of PPIs experimentally detected in cancer cell lines integrated with the analysis of mutual exclusivity of genomic alterations, cellular co-localization of interacting proteins, domain-domain interactions, and therapeutic connectivity. This chapter presents a guide to explore the OncoPPi network using the OncoPPi Portal to facilitate cancer biology."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5c74266a7c78d694710000a2",
+                            "question": "Which biological process takes place in nuclear speckles?"
+                        }
+                    ],
+                    "context": "Spatial organization is a characteristic of all cells, achieved in eukaryotic cells by utilizing both membrane-bound and membrane-less organelles. One of the key processes in eukaryotes is RNA splicing, which readies mRNA for translation. This complex and highly dynamical chemical process involves assembly and disassembly of many molecules in multiple cellular compartments and their transport among compartments. Our goal is to model the effect of spatial organization of membrane-less organelles (specifically nuclear speckles) and of organelle heterogeneity on splicing particle biogenesis in mammalian cells. Based on multiple sources of complementary experimental data, we constructed a spatial model of a HeLa cell to capture intracellular crowding effects. We then developed chemical reaction networks to describe the formation of RNA splicing machinery complexes and splicing processes within nuclear speckles (specific type of non-membrane-bound organelles). We incorporated these networks into our spatially-resolved human cell model and performed stochastic simulations for up to 15 minutes of biological time, the longest thus far for a eukaryotic cell. We find that an increase (decrease) in the number of nuclear pore complexes increases (decreases) the number of assembled splicing particles; and that compartmentalization is critical for the yield of correctly-assembled particles. We also show that a slight increase of splicing particle localization into nuclear speckles leads to a disproportionate enhancement of mRNA splicing and a reduction in the noise of generated mRNA. Our model also predicts that the distance between genes and speckles has a considerable effect on the mRNA production rate, with genes located closer to speckles producing mRNA at higher levels, emphasizing the importance of genome organization around speckles. The HeLa cell model, including organelles and sub-compartments, provides a flexible foundation to study other cellular processes that are strongly modulated by spatiotemporal heterogeneity."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e355e20fbd6abf43b000065",
+                            "question": "Which gene is frequently involved in autosomal dominant adult-onset demyelinating leukodystrophy (ADLD)?"
+                        }
+                    ],
+                    "context": "Allele-specific silencing by RNA interference (ASP-siRNA) holds promise as a therapeutic strategy for downregulating a single mutant allele with minimal suppression of the corresponding wild-type allele. This approach has been effectively used to target autosomal dominant mutations and single nucleotide polymorphisms linked with aberrantly expanded trinucleotide repeats. Here, we propose ASP-siRNA as a preferable choice to target duplicated disease genes, avoiding potentially harmful excessive downregulation. As a proof-of-concept, we studied autosomal dominant adult-onset demyelinating leukodystrophy (ADLD) due to lamin B1 (LMNB1) duplication, a hereditary, progressive and fatal disorder affecting myelin in the CNS. Using a reporter system, we screened the most efficient ASP-siRNAs preferentially targeting one of the alleles at rs1051644 (average minor allele frequency: 0.45) located in the 3' untranslated region of the gene. We identified four siRNAs with a high efficacy and allele-specificity, which were tested in ADLD patient-derived fibroblasts. Three of the small interfering RNAs were highly selective for the target allele and restored both LMNB1 mRNA and protein levels close to control levels. Furthermore, small interfering RNA treatment abrogates the ADLD-specific phenotypes in fibroblasts and in two disease-relevant cellular models: murine oligodendrocytes overexpressing human LMNB1, and neurons directly reprogrammed from patients' fibroblasts. In conclusion, we demonstrated that ASP-silencing by RNA interference is a suitable and promising therapeutic option for ADLD. Moreover, our results have a broad translational value extending to several pathological conditions linked to gene-gain in copy number variations."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e48f90bf8b2df0d49000006",
+                            "question": "What is gamma sterilization used for?"
+                        }
+                    ],
+                    "context": "The sterility of eggs and nymphs from gamma-irradiated male "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e46da9c3f5415952900000a",
+                            "question": "What is detected by the UV-damaged DNA-binding protein (UV-DDB) complex?"
+                        }
+                    ],
+                    "context": "Access to DNA packaged in nucleosomes is critical for gene regulation, DNA replication and DNA repair. In humans, the UV-damaged DNA-binding protein (UV-DDB) complex detects UV-light-induced pyrimidine dimers throughout the genome; however, it remains unknown how these lesions are recognized in chromatin, in which nucleosomes restrict access to DNA. Here we report cryo-electron microscopy structures of UV-DDB bound to nucleosomes bearing a 6-4 pyrimidine-pyrimidone dimer or a DNA-damage mimic in various positions. We find that UV-DDB binds UV-damaged nucleosomes at lesions located in the solvent-facing minor groove without affecting the overall nucleosome architecture. In the case of buried lesions that face the histone core, UV-DDB changes the predominant translational register of the nucleosome and selectively binds the lesion in an accessible, exposed position. Our findings explain how UV-DDB detects occluded lesions in strongly positioned nucleosomes, and identify slide-assisted site\u00a0exposure as a mechanism by which high-affinity DNA-binding proteins can access otherwise occluded sites in nucleosomal DNA."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e2902688b3851296d000005",
+                            "question": "Which receptor is inhibited by Teprotumumab?"
+                        }
+                    ],
+                    "context": "Thyroid eye disease (TED) is a complex, debilitating autoimmune disease that causes orbital inflammation and tissue remodeling, resulting in proptosis, diplopia, and in severe cases, loss of vision. TED can lead to facial disfigurement and severely impact patients' quality of life. Although the course of TED was identified over 60 years ago, effective treatment options have proved to be challenging. Current treatments such as glucocorticoid therapy and orbital radiation focus on reducing orbital inflammation. However, these therapies fail to modify the disease outcomes, including proptosis and diplopia. Recent advances in the understanding of the molecular basis of TED have facilitated the development of targeted molecular therapies such as teprotumumab, an insulin-like growth factor-1 receptor inhibiting monoclonal antibody. In recent phase 2 and phase 3 randomized placebo-controlled trials, teprotumumab rapidly achieved improvement in clinical endpoints defining TED, including improved proptosis and diplopia. Dramatic improvement in clinical outcomes achieved after teprotumumab therapy during active TED are heretofore singular and comparable only to surgical therapies achieved during the inactive phase of TED. The advent of effective medical therapy can lead to a paradigm shift in the clinical management of TED. This review will provide an overview of TED, its epidemiology, insight into the molecular biology of the disease, clinical characteristics and diagnosis, and current and emerging treatment modalities."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e46e74e3f5415952900000b",
+                            "question": "What is the cause of the disease Xeroderma Pigmentosum?"
+                        }
+                    ],
+                    "context": "Ataxia-telangiectasia and xeroderma pigmentosum are human hereditary diseases in which patients are cancer prone and demonstrate increased sensitivity to DNA damage by ionizing and ultraviolet radiation, respectively. In culture, both ataxia-telangiectasia and xeroderma pigmentosum skin fibroblasts show increased synthesis and secretion of the extracellular matrix proteins fibronectin and collagen. To determine whether these differences in protein production result from fundamental abnormalities in regulation of genes associated with cellular interactions, we compared the effects of trifluoperazine and 12-O-tetradecanoylphorbol-13-acetate on expression of the extracellular matrix-degrading metalloproteinases, procollagenase and prostromelysin, by normal, ataxia-telangiectasia, and xeroderma pigmentosum fibroblasts. After trifluoperazine treatment the overall levels of these metalloproteinases were much greater in three ataxia-telangiectasia cell strains and in cells from xeroderma pigmentosum complementation groups A and D than in normal cells. In contrast, cells from xeroderma pigmentosum complementation group C produced only slightly more procollagenase than normal cells. 12-O-tetradecanoylphorbol-13-acetate also induced higher than normal levels of procollagenase in some ataxia-telangiectasia and xeroderma pigmentosum strains, but less than that induced by trifluoperazine. Because increased extracellular accumulation of matrix-degrading enzymes has long been implicated in metastatic progression, this altered expression of procollagenase and prostromelysin in ataxia-telangiectasia and xeroderma pigmentosum cells could play an important role in the pathogenesis of various tumors in individuals with these genetic diseases."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e2902e48b3851296d000006",
+                            "question": "Which disease can be treated with Anifrolumab?"
+                        }
+                    ],
+                    "context": "Pharmaceutical companies strive continuously to develop better medications in order to remain competitive. In the arena of monoclonal antibodies and related biologics (fusion proteins containing an IgG Fc fragment), the thrust is not only toward identifying new targets, but also toward developing new molecular formats. Here, new-generation antibodies used to treat rheumatic diseases are discussed, with emphasis on relations linking structure to pharmacological effects and on the improvements expected from the new formats. Isotypic and allotypic antibody diversity has pharmacological implications and is already exploited in commercially available antibodies. Efforts to engineer the Fc fragment of the various immunoglobulin G subclasses are reviewed with reference to abatacept, ixekizumab, other mutated IgG4 antibodies currently in development, sapelizumab, anifrolumab, and tanezumab. Bispecific antibodies are a focus of increasing interest (particularly those binding to both IL-17 and TNF\u03b1) and may earn a place in the therapeutic armamentarium as a means of avoiding the use of antibody combinations. However, the construction and production of bispecific antibodies continues to raise major technological challenges. Other molecular formats involve the fusion of antibodies to cytokines or the use of nanobodies and peptibodies. These new formats are at the very early stages of development, and their clinical relevance remains unclear."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e2e11a1fbd6abf43b000021",
+                            "question": "Which de novo mutation in FGFR cause achondroplasia?"
+                        }
+                    ],
+                    "context": "This review focuses on the rheumatological features of achondroplasia, which is the most common skeletal dysplasia and the most frequent cause of short-limbed dwarfism. It is inherited in an autosomal dominant manner but results in the majority of cases of de novo mutations. The disease is related to a mutation in the fibroblast growth factor receptor-3 (FGFR3) gene encoding one member of the FGFR subfamily of tyrosine kinase receptors, which results in constitutive activation of the receptor. Biochemical studies of FGFR3 combined with experiments in knock-out mice have demonstrated that FGFR3 is a negative regulator of chondrocytes proliferation and differentiation in growth plate. This mutation induces a disturbance of endochondral bone formation. The diagnosis of achondroplasia is based on typical clinical and radiological features including short stature, macrocephaly with frontal bossing, midface hypoplasia and rhizomelic shortening of the limbs. The most common rheumatological complications of achondroplasia are medullar and radicular compressions due to spinal stenosis and deformities of the lower limbs. Current treatment and future therapies are discussed."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5c74285c7c78d694710000a3",
+                            "question": "In which cellular compartment do stress granules localize?"
+                        }
+                    ],
+                    "context": "Eukaryotic cells contain sub-cellular compartments that are not membrane bound. Some structures are always present, such as nuclear speckles that contain RNA-binding proteins (RBPs) and poly(A)+ RNAs. Others, like cytoplasmic stress granules (SGs) that harbor mRNAs and RBPs, are induced upon stress. When we examined the formation and composition of nuclear speckles during stress induction with tubercidin, an adenosine analogue previously shown to affect nuclear speckle composition, we unexpectedly found that it also led to the formation of SGs and to the inhibition of several crucial steps of RNA metabolism in cells, thereby serving as a potent inhibitor of the gene expression pathway. Although transcription and splicing persisted under this stress, RBPs and mRNAs were mislocalized in the nucleus and cytoplasm. Specifically, lncRNA and RBP localization to nuclear speckles was disrupted, exon junction complex (EJC) recruitment to mRNA was reduced, mRNA export was obstructed, and cytoplasmic poly(A)+ RNAs localized in SGs. Furthermore, nuclear proteins that participate in mRNA export, such as nucleoporins and mRNA export adaptors, were mislocalized to SGs. This study reveals structural aspects of granule assembly in cells, and describes how the flow of RNA from the nucleus to the cytoplasm is severed under stress."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5c701f4f7c78d69471000060",
+                            "question": "Which disease is Dasatinib used to treat?"
+                        }
+                    ],
+                    "context": "Rheumatoid arthritis (RA) is a multifactorial autoimmune disease that primarily manifests as persistent synovitis and progressive joint destruction. Imatinib exhibited a therapeutic effect in murine collagen-induced arthritis (CIA) via selective inhibition tyrosine kinases. The second-generation tyrosine kinase inhibitor dasatinib exhibits more durable hematological and cytogenetic effects and more potency compared to imatinib. However, the effect of dasatinib on CIA is poorly understood. The present study investigated the treatment effect of dasatinib on autoimmune arthritis. We demonstrated that dasatinib alleviated arthritis symptoms and histopathological destruction in CIA mice. Dasatinib treatment inhibited the production of proinflammatory cytokines including IL-1\u03b2, TNF-\u03b1, and IL-6, and promoted the production of the anti-inflammatory cytokine IL-10. Dasatinib treatment also suppressed the expression of anti-mouse CII antibodies including total IgG, IgG1, IgG2, and IgG2b, in CIA mice. We further demonstrated that dasatinib inhibited the migration and proliferation of fibroblast-like synoviocytes (FLS) from RA patients and promoted FLS apoptosis. The mRNA expression of MMP13, VEGF, FGF, and DKK1 was down-regulated in FLS treated with dasatinib. Our findings suggest that dasatinib exhibited treatment effects on CIA mice and that FLS are an important target cell of dasatinib treatment in autoimmune arthritis."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e2daaa2fbd6abf43b00000e",
+                            "question": "What type of antagonist is istradefylline?"
+                        }
+                    ],
+                    "context": "Latest results on the action of adenosine A(2A) receptor antagonists indicate their potential therapeutic usefulness in the treatment of Parkinson's disease. Basal ganglia possess high levels of adenosine A(2A) receptors, mainly on the external surfaces of neurons located at the indirect tracts between the striatum, globus pallidus, and substantia nigra. Experiments with animal models of Parkinson's disease indicate that adenosine A(2A) receptors are strongly involved in the regulation of the central nervous system. Co-localization of adenosine A(2A) and dopaminergic D2 receptors in striatum creates a milieu for antagonistic interaction between adenosine and dopamine. The experimental data prove that the best improvement of mobility in patients with Parkinson's disease could be achieved with simultaneous activation of dopaminergic D2 receptors and inhibition of adenosine A(2A) receptors. In animal models of Parkinson's disease, the use of selective antagonists of adenosine A(2A) receptors, such as istradefylline, led to the reversibility of movement dysfunction. These compounds might improve mobility during both monotherapy and co-administration with L-DOPA and dopamine receptor agonists. The use of adenosine A(2A) receptor antagonists in combination therapy enables the reduction of the L-DOPA doses, as well as a reduction of side effects. In combination therapy, the adenosine A(2A) receptor antagonists might be used in both moderate and advanced stages of Parkinson's disease. The long-lasting administration of adenosine A(2A) receptor antagonists does not decrease the patient response and does not cause side effects typical of L-DOPA therapy. It was demonstrated in various animal models that inhibition of adenosine A(2A) receptors not only decreases the movement disturbance, but also reveals a neuroprotective activity, which might impede or stop the progression of the disease. Recently, clinical trials were completed on the use of istradefylline (KW-6002), an inhibitor of adenosine A(2A) receptors, as an anti-Parkinson drug."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e49032df8b2df0d49000008",
+                            "question": "Who should wear dosimeters?"
+                        }
+                    ],
+                    "context": "In 1168, the first silver was found in the Saxon Erzgebirge. Mining began shortly thereafter and continues to this day at varying intensities. About 250 miners are permanently engaged in rehabilitation work at old mining sites so that houses and roads are safe and the mine water can drain through galleries. The radon potential in the Erzgebirge is high. Despite radiation protection measures, exposures to more than 6 mSv occurred among 22 miners in 2016 alone. For this reason, the miners are monitored with personal radon dosimetry. The dosimeters consist of diffusion chambers with CR-39 nuclear track detectors. Outside the miners' working hours, the dosimeters must be stored together with a reference dosimeter. After a 3 mo wearing period, the dosimeters are replaced and the miners' exposures are determined. For this purpose, the exposures of the reference dosimeters that have occurred outside working hours are subtracted from the exposures of the miners' dosimeters. In mining practices, this method has caused problems. The conditions of use (storing dosimeters along with a reference dosimeter) were often not met by the miners. To solve the problems, reference dosimeters were replaced by radonproof boxes with activated carbon cartridges inside. The miners stored their dosimeters in the boxes outside working hours. A uniform reference value for the radon activity concentration of 50 Bq m was used for all boxes to determine the exposure of miners during working hours. The associated error was small. In future, reference dosimeters and the measurement of a reference value will not be necessary."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e2a1096aa19d7443100000e",
+                            "question": "What kind of molecule is AZD8601?"
+                        }
+                    ],
+                    "context": "We introduce a parameter-free structural indicator to classify local environments of water molecules in stable and supercooled liquid states, which reveals a clear two-peak distribution of local properties. The majority of molecules are tetrahedrally coordinated (T molecules), via low-energy hydrogen bonds. The minority component, whose relative concentration decreases with a decrease in the temperature at constant pressure, is characterized by prevalently three-coordinated molecules, giving rise to a distorted local network around them (D molecules). The inter-conversion between T and D molecules explains the increasing specific heat at constant pressure on cooling. The local structure around a T molecule resembles the one found experimentally in low-density amorphous ice (a network structure mostly composed by T molecules), while the local structure around a D molecule is reminiscent of the structural properties of high-density amorphous ice (a network structure composed by a mixture of T and D molecules)."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e29f6e0aa19d74431000002",
+                            "question": "Which disease category is LB-100 mostly assessed for?"
+                        }
+                    ],
+                    "context": "\"Despite substantial evidence that Roundup weed killer is safe and non-carcinogenic if used properly, a federal judge last week appointed attorney Kenneth Feinberg to oversee court-mandated settlement talks between Bayer AG (the company that owns Roundup's producer, Monsanto) and plaintiffs who claim that the product caused their non-Hodgkin's lymphoma.\" (1). For almost half a century, the International Agency for Research on Cancer (IARC) has run a Monographs programme, which has been the premier global resource for the identification of agents that cause cancer (2). The Monographs apply rigorous procedures for the scientific review and evaluation of carcinogenic hazards by independent experts, free from conflict of interest. Since publishing Monograph conclusions on some pesticides (3), the IARC has been subject to intense efforts to undermine its evaluation and the whole organization. The conclusion in March 2015 that glyphosate is \"probably carcinogenic to humans\" in addition to being genotoxic and carcinogenic in animals led to unprecedented lobbying by the herbicide producer Monsanto, and resulted in high profile court cases in the USA (4). Monsanto's tactic has been to discredit the glyphosate evaluation, the scientists involved, the Monograph programme and the IARC in general (see the Monsanto papers, 5-7). This has manifested in an orchestrated exercise of damage-generation played out through a coordinated and repetitive misrepresentation of facts, planned already before the March 2015 meeting took place (5). The once-confidential Monsanto papers have exposed the \"cozy connections\" between the company leadership, some regulatory agencies, and the media to undermine and discredit the actions and evaluation report of the IARC. They have revealed company scientists casually discussing \"ghost-writing\" scientific papers and suppressing science that conflicts with corporate assertions of Roundup's safety. The Monsanto documents demonstrate the company's manipulation of science and regulators, which may have reflected on the conclusions around the safety of the herbicide (6-8). Evaluations of pesticides IARC has evaluated more than 60 of the 100s of active ingredients in pesticide formulations, less than 12 of which have been formally evaluated as either group 1 (human carcinogens) or 2A (probable human carcinogens) (2). Some of these, such as dichlorodiphenyltrichloromethane (DDT) and lindane, have now been banned in most countries. The evaluation of pesticides typifies the problems associated with research and regulation of commonly used consumer and agricultural products. IARC's evaluation of \"probably carcinogenic to humans\" (group 2A) is the second strongest category of evidence in a four-tier scale. The industry reaction to the evaluation of glyphosate was not foreseen. The two other chemicals evaluated in the same meeting as probably carcinogenic to humans (group 2A), diazinon and malathion, engendered no public debate. If a widely used herbicide turns out to be a putative cancer-causing chemical, the consequences for the producer can be potentially devastating. In May 2019, a court in California ordered Bayer AG to pay US$2 billion to a couple who claimed their cancers were caused by years of using Roundup. This was the third legal loss since August 2018 for Bayer AG, which has seen its market value plummet to $52 billion, cut nearly in half since it acquired Monsanto a year ago (9). More than 13 000 similar claims have been lodged (1). How is the herbicide used 'properly'? Ever since Monsanto introduced its line of Roundup weed-killers in 1974, the products have been touted as extremely safe. The company's statement that glyphosate is \"safe and non-carcinogenic if used properly\" is difficult to interpret in practice: even if you were dealing with a putative carcinogen, the cancer risk is not realized if you are not exposed to the agent, ie, the product is \"safe if used properly\". So what is the \"proper use\" of a herbicide? One would assume it is use that is according to instructions on the label and guidance given by the producer. But when spreading the weed killer, it may be difficult to avoid human exposure. The occupational exposure in agriculture is likely to carry the most significant risk, followed by environmental exposures and risks to the consumers. Occupational exposure of glyphosate may occur via inhalation, dermal contact, and/or ocular contact during manufacture, transport, use and disposal. The absorption through skin is a real possibility. The general population may be exposed to glyphosate through dermal contact with consumer products, crops, foliage, or soils containing residues of this chemical. As a result of the widespread usage, glyphosate is present at low levels in a wide range food items (10). The health risk is dependent on the level of exposure - it is the dose which makes the poison. The more intensively you are exposed, the longer the exposure period, and the higher the risk. The IARC evaluation does not take a position on the quantity or acceptability of the risk. This is not the task of the Agency but rather that of national decision-makers. The IARC evaluation constitutes a 'hazard evaluation' step in the risk assessment and management process - it is followed by an exposure analysis, quantitative risk assessment and risk-benefit analysis done in the policy-making process usually at the national regulatory level. What is evidence-informed policy-making? Simply put, evidence-informed policy is when decision-makers use the best available evidence to guide policy and regulations. Policy-makers in contemporary societies want to use evidence to make well-informed decisions, and scientists and scientific organizations are expected to provide the best evidence for their attention. A good supply of quality evidence and a healthy independent research community that is producing robust policy-relevant research is thus needed. A common issue is how to synthesize evidence that is more often than not sparse, full of gaps, and difficult to manage, to do it in a transparent fashion and to transfer the conclusions into reasonable policy decisions. Evidence-informed policy-making can be undermined by the manipulation or selective use of data, which is often driven by vested interests (11, 12). The point is well-taken in public health, with tobacco a prime example (13). Analysis of millions of internal tobacco industry documents has revealed the multiple strategies via which the tobacco industry has sought to, and often successfully, undermine public health policies (14). Tobacco is clearly an exceptional product; no other consumer product kills two in three users when used exactly as intended (15). But there is little to suggest that, as a corporate actor, \"Big Tobacco\" differs fundamentally from, eg., \"Big Booze\" or \"Big Food\" (16, 17). Disruptions of the scientific process and creation of doubt may lead to delays in translating evidence into policy, with the potential to cost lives (11). Consequently, scientists, toxicologists, epidemiologists, other health professionals, patients and populations have a collective responsibility not simply to be originators of scientific data but to be scrutinizers of their use, thereby protecting the interests of the many rather than the few. Some national regulatory bodies have asserted that glyphosate poses no public risk The regulatory European Food Safety Authority (EFSA) and the US Environmental Protection Agency (EPA) have asserted that glyphosate poses no public risk. But the US Agency for Toxic Substances & Disease Registry (ATSDR) has joined IARC in concluding that there is a potential cancer hazard with glyphosate and its formulations (3, 18). Several of the national health agencies in Europe, the USA, and elsewhere have sided with the interpretation of the producer - that the herbicide is safe when used properly. Campaigns against glyphosyte are the strongest in the European Union, where member nations in 2017 only narrowly reapproved a 5-year authorization of the compound. Why this discrepancy? As stated by Alfredo Morabia in a recent American Journal of Public Health editorial, \"to defend what they perceive as in their best interests, some corporations not only pressure governmental agencies, they fight them.\" (19) In the same journal, Jonathan Samet (20) describes how Monsanto has moved extremely aggressively against the science, the unpaid expert volunteers, and institutions such as the IARC. The independent assessment of risk by \"unpaid expert volunteers cannot be replaced by reviews from scientists paid by the industry.\" (20) The risk management may go beyond scientific evidence and imply the contribution of social values and social theory, in contrast to independent risk assessment (21). Through the Monsanto papers, it has become clear that while the company was not willing to conduct the proposed long-term product safety studies (eg, a long-term carcinogenicity bioassay on the formulated product), the company spent millions of dollars on secretive PR campaigns - including $17 million in one year after the IARC evaluation had been published - to finance \"ghost-written\" studies and editorials aimed at discrediting independent scientists whose work had found dangers with Monsanto's pesticides. These controversial \"ghost-written\" papers have been available as evidence for non-carcinogenicity in the regulatory processes. The EFSA has had apparent links with the pesticides industry, eg, through organizations such as International Life Sciences Institute (ILSI). A recent analysis of ILSI's activities concluded that the organisation \"should be regarded as an industry group - a private body - and regulated as such, not as a body acting for the greater good\" (22). While ILSI purports to be working for health and wellbeing of populations internationally, the authors of the analysis \"identified overt attempts by ILSI to influence individuals, positions, and policy, both at national and international levels, alongside clear statements that ILSI's corporate members deploy it as a tool to thwart policies or leaders who are hostile to their interests.\" (22) It is noteworthy that the chair of ILSI's Board of Trustees chaired the UN's joint Food and Agriculture Organization (FAO)/World Health Organization (WHO) meeting on glyphosate that found the herbicide to be \"probably not carcinogenic to humans\" (23). This was of great interest to ILSI major donors Monsanto and its industry representative CropLife International. The final meeting report included no conflict of interest statement, even though ILSI Europe had received donations worth more than US$1 million (from Monsanto and Croplife International) (23). The EU hazard-based approach Individuals connected to ILSI continue to play a role in the EU's advisory mechanisms. These activities have contributed to recommendations such as a slew of industry positions on pesticides (23). Their report recommended inter alia that the EU's precautionary hazard -based approach should be re-examined to determine whether it is delivering the intended levels of protection. The report recommended replacing current rules that outlaw any product that could harm with a US-style concept of \"acceptable risk\" (24). Unique to Europe, \"the hazards approach\" means that any pesticide found to be carcinogenic, mutagenic, reprotoxic, persistent or bioaccumulative, occurring even at low levels, can be regulated or even banned. Monsanto has been careful to ensure that the US EPA is on board (25). Ominously, EPA staff has been accused of collusion with Monsanto to downgrade the health hazards of glyphosate (26). Jess Rowland, formerly a manager in the EPA's pesticide division, is said to have boasted in an April 2015 conversation with a Monsanto regulatory affairs manager that \"If I can kill this, I should get a medal\" (27). In October 2015, the EPA's Cancer Assessment Review Committee (CARC), chaired by Rowland, produced an internal report claiming that glyphosate, contrary to the IARC findings, was \"not likely to be carcinogenic to humans\" (28). The US EPA has recently reconfirmed its position of \"no risks to public health when glyphosate is used in accordance with the its current label\" and \"glyphosate is not a carcinogen\" (29). Health risks are not the only concern with glyphosate. The vast increase in its use has also caused a substantial increase in glyphosate-tolerant weeds, dubbed \"superweeds\" by some (30). Conflict of interests As the proverb states: \"Who pays the piper, calls the tune\", most of us understand what is meant by \"conflict of interest\". The professional ethics codes have paid attention to conflicts of interest since 1970s, with better or worse consequences. Connected with conflict of interest, \"duty of loyalty\" is a term used in corporate law to describe a fiduciary's \"conflict of interest\". Accordingly, fiduciaries must put the corporation's interests ahead of their own (31). Indeed, the fiduciary responsibilities of all corporations require them to maximize their profits regardless of consequences to health, society, or the environment and thus to oppose policies that could reduce their profits (32). This obviously causes problems in evaluating evidence if the topic of evaluation - such as a particular pesticide - falls under the interest of the corporation. Corporations defend their rights and their primary interests, which most often are financial ones. In the case of public health, the health of the population is the primary interest. In some situations, corporations have meddled in public policy-making on chemicals and topics where they have vested interests in terms of financial profits, trade and market shares. This all means a strong conflict of interest situation: the primary interests in public health are displaced by the interests of the corporations (21). Corporations cannot be expected to assess impartially the potential toxicity of their own products. The independent creation of evidence requires specific procedures and skills necessary to draw conclusions based on the review and summary of a large body of evidence in order for it to be transparent and useful for policy decisions. As Morabia puts it: \"IARC Monographs are an ingenious way to do exactly that\" (19). Discussion Drawing conclusions on the causation of adverse health effects by environmental chemicals can have important societal consequences, leading to policy-making which can control, limit or even prevent the exposure to the pollutant through regulation and litigation. There are critical lessons to be learned from the Monsanto saga. The whole process of evidence-informed policy-making is under threat. The case of glyphosate is by no means over; further research is needed to cover the knowledge gaps, but this should be done independently and with full transparency. The IARC Monographs provide the scientific evaluation of the evidence based on comprehensive review of the scientific literature, but it remains the responsibility of individual governments and other international organizations to recommend, if any, regulations, legislation and other public health interventions. The IARC Monographs evaluate the hazard, but the societal decisions take also other factors into account while making the risk management decisions. The risk management philosophies for pesticides in various countries are different - in the EU, for example, the hazards (inherent properties) are emphasized while, in the US, the utilitarian acceptable risk approach prevails. The active ingredients for pesticide formulations are under constant development. Sometimes the dominant role of one ingredient may have a damping effect in the innovation paths. This seems to have been the case with the weed-killing chemical glyphosate. The company which produces glyphosate has a central role in the weed-killer and the associated genetically modified tolerant crops market. Glyphosate dominates the field of weed killers worldwide: no compound with a new way of attacking weeds, or mode of action, has been commercialized for more than 30 years (9). Glyphosate is at the center of a public herbicide debate. Cropping systems are currently very reliant on herbicides. If glyphosate is pulled out of the market, what are the alternatives? It is clear that companies need to ramp up their R&D efforts to develop new candidate chemicals - or nonchemical alternatives - and new technologies for sustainable weed control, such as targeted spraying of herbicides directly into weeds, use of lasers, blades or electricity to kill weeds, are needed. Evidence based on independent research provides the best tools to protect humans from harmful products, behaviors, and policies. Many responsible companies that market products that may have wide-spread exposure (such as pesticides) or potentially pose a risk to humans are collaborating internationally to gather the evidence. Instead of attacking the science, scientists, and science organizations and manipulating the media, such companies are working with the science community to secure human health and protect the environment. Disclosure statement In my past career, I served on the IARC Monographs program as a staff member from 1983 to the early 1990s. I have not been involved in the evaluation of glyphosate at any level. I currently have no employment links to the IARC or any financial interests in writing this commentary. While my spouse serves currently as the Director of IARC, she is in no way responsible for any part of the text. All the responsibility lies with me and me only. References 1. Braceras JC. Rounding Up the Science Behind the Roundup Nuisance Litigation. Independent Women's Forum, May 28, 2019. 2. International Agency for Research on Cancer (IARC). Agents Classified by the IARC Monographs, Volumes 1-124.Available from: https://Monographs.iarc.fr/agents-classified-by-the-iarc/ [Accessed May 30, 2019.] 3. Guyton KZ, Loomis D, Grosse Y, El Ghissassi F, Benbrahim-Tallaa L, Guha N et al. Carcinogenicity of tetrachlorvinphos, parathion, malathion, diazinon, and glyphosate. Lancet Oncol. 2015;16(5):490-1. https://doi.org/10.1016/S1470-2045(15)70134-8 4. Reuters. Monsanto ordered to pay $289 million in Roundup cancer trial. The New York Times; 10 August 2018. Available from: https://www.nytimes.com/2018/08/10/business/monsanto-roundup-cancer-trial.html. [Accessed May 30, 2019]. 5. Monsanto. Exhibit 42 - IARC Carcinogen Rating of Glyphosyte Preparedness and Engagement Plan. UCSF Library, Chemical Industry Documents. Available from: https://www.industrydocumentslibrary.ucsf.edu/chemical/docs/#id=xhmn0226. 2015. [Accessed May 31, 2019]. 6. Horel S, Foucart S. The Monsanto Papers, Part 1 - Operation: Intoxication. Environmental Health News. Available from: https://www.ehn.org/monsanto-glyphosyte-cancer-smear-campaign-250910888.html. 2017. [Accessed May 30, 2019]. 7. Horel S, Foucart S. The Monsanto Papers, Part 2 - Reaping a bitter harvest. Environmental health News. Available from: https://www.ehn.org/monsanto-takes-on-world-health-organization-2509721283.html. 2017. [Accessed May 30, 2019]. 8. McHenry LB. The Monsanto Papers: poisoning the scientific well. Int J Risk Saf Med 2018;29(3-4):193-205. https://doi.org/10.3233/JRS-180028. 9. Stokstad E. Costly cancer lawsuits may spur search to replace world's most common weed killer. Science 2019;(May):22. Available from: https://www.sciencemag.org/news/2019/05/costly-cancer-lawsuits-may-spur-search-replace-worlds-most-common-weed-killer 10. Food and Agriculture Organization (FAO) and World Health Organization. (WHO). Pesticides residues in food 2016. Special session of the joint FAO/WHO meeting on pesticide residues. FAO plant production and protection paper. Geneva: FAO and WHO; 2017;25(April). Available from: http://www.fao.org/3/a-i5693e.pdf 11. Michaels D. Doubt is their Product, How Industry's Assault on Science Threatens Your Health. 1st edition ed., New York: Oxford University Press; 2008. 12. Pearce N. Corporate influences on epidemiology. Int J Epidemiol 2008 Feb;37(1):46-53. https://doi.org/10.1093/ije/dym270. 13. Bero L. Implications of the tobacco industry documents for public health and policy. Annu Rev Public Health 2003;24:267-88. https://doi.org/10.1146/annurev.publhealth.24.100901.140813. 14. World Health Organization. Tobacco Industry Interference with Tobacco Control. Geneva: WHO; 2008. Available from: http://www.who.int/tobacco/resources/publications/Tobacco%20Interference-FINAJ. 15. Roberts M. Tobacco 'kills two in three smokers'. BBC News, 24 February 2015. Available from https://www.bbc.com/news/health-31600118 16. Bond L, Daube M, Chikritzhs T. Selling addictions: Similarities in approaches between Big Tobacco and Big Booze. AMJ 2010;3(6):325-32. https://doi.org/10.4066/AMJ.2010.363. 17. Petticrew M, Maani Hessari N, Knai C, Weiderpass E. How alcohol industry organisations mislead the public about alcohol and cancer. Drug Alcohol Rev 2018 Mar;37(3):293-303. https://doi.org/10.1111/dar.12596. 18. Agency for Toxic Substances & Disease Registry (ATSDR). Toxicological Profile for Glyphosate. (Draft for Public Comment). Atlanta, GA: U.S. Department of Health and Human Service; 2019. 19. Morabia A. Fighting independent risk assessment of talc and glyphosate: whose benefit is it anyway? [editorial]. Am J Public Health 2019 Jul;109(7):955-6. https://doi.org/10.2105/AJPH.2019.305144. 20. Samet JM. Expert review under attack: glyphosate, talc, and cancer [editorial]. Am J Public Health 2019 Jul;109(7):976-8. https://doi.org/10.2105/AJPH.2019.305131. 21. Vineis P. Public health and independent risk assessment. Am J Public Health 2019 Jul;109(7):978-80. https://doi.org/10.2105/AJPH.2019.305142. 22. Steele S, Ruskin G, Sarcevic L, McKee M, Stuckler D. Are industry-funded charities promoting \"advocacy-led studies\" or \"evidence-based science\"?: a case study of the International Life Sciences Institute. Globalization and Health 2019; 15: 36-44. https://globalizationandhealth.biomedcentral.com/track/pdf/10.1186/s12992-019-0478-6 23. Neslen A. UN/WHO panel in conflict of interest row over glyphosyte cancer risk. The Guardian. 2016. Available from: https://www.theguardian.com/environment/2016/may/17/unwho-panel-in-conflict-of-interest-row-over-glyphosates-cancer-risk. [Accessed June 2, 2019]. 24. The EC's Group of Chief Scientific Advisors: EU authorisation processes of plant protection products. Scientific Opinion 5/2018. Brussels: European Commission Unit RTD, Scientific Advice Mechanism. 25. Infante PF, Melnick R, Vainio H, Huff J. Commentary: IARC Monographs Program and public health under siege by corporate interests. Am J Ind Med 2018 Apr;61(4):277-81. https://doi.org/10.1002/ajim.22811. 26. Rosenblatt J, Mulvany L, Waldman P. EPA Official Accused of Helping Monsanto \"kill\" Cancer Study. Bloomberg. 2017: March 14. Available from: https://www.bloomberg.com/news/articles/2017-03-14/monsanto-accused-of-ghost-writing-papers-on-roundup-herbicide-cancer-allegations/. 27. Monsanto lawsuit document 189, case 3-16-md-02741. Filed 3/14/17. 28. US EPA. Glyphosate issue Paper: Evaluation of Carcinogenic Potential.EPA's Office of Pesticide Programs. 2016; Sept 12. Available from: https://www.epa.gov/sites/production/files/2016-09/documents_issue_paper_evaluation_of_carcinogenic_potential.pdf. 29. US EPA. Proposed Interim Registration Review Decision and Responses to Public Comments for Glyphosate. 2019. Available from: https://www.epa.gov/ingredients-used-pesticide-products/glyphosyte. 30. Sass J. Regulatory failures = Superweeds and Glyphosate Cancers. Expert blog. April 11, 2019. Available from: https://www.nrdc.org/experts/jennifer-sass/regulatory-failures-superweeds-and-glyphosate-cancers. 31. Wikipedia. 2019. Duty of Loyalty. Corporations. Fifth Edition. Examples and Explanations. Alan R. Palmiter. ASPEN. Retrieved 2009-03-17. 32. Gilmore AB, Savell E, Collin J. Public health, corporations and the new responsibility deal: promoting partnerships with vectors of disease? [editorial]. J Public Health (Oxf) 2011 Mar;33(1):2-4. https://doi.org/10.1093/pubmed/fdr008."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e2dafccfbd6abf43b000013",
+                            "question": "Which receptor does amantadine antagonize?"
+                        }
+                    ],
+                    "context": "Levodopa-induced dyskinesia (LID) poses a significant health care challenge for Parkinson's disease (PD) patients. Amantadine is currently the only drug proven to alleviate LID. Although its efficacy in treating LID is widely assumed to be mediated by blockade of N-methyl-D-aspartate (NMDA) glutamate receptors, our experiments demonstrate that at therapeutically relevant concentrations, amantadine preferentially blocks inward-rectifying K+ channel type 2 (Kir2) channels in striatal spiny projection neurons (SPNs) - not NMDA receptors. In so doing, amantadine enhances dendritic integration of excitatory synaptic potentials in SPNs and enhances - not antagonizes - the induction of long-term potentiation (LTP) at excitatory, axospinous synapses. Taken together, our studies suggest that the alleviation of LID in PD patients is mediated by diminishing the disparity in the excitability of direct- and indirect-pathway SPNs in the on state, rather than by disrupting LTP induction. This insight points to a pharmacological approach that could be used to effectively ameliorate LID and improve the quality of life for PD patients."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e36dc8cb5b409ea5300000d",
+                            "question": "What is another name for acid sphingomyelinase deficiency (ASMD)?"
+                        }
+                    ],
+                    "context": "Typically, patients with Acid Sphingomyelinase Deficiency (ASMD) because of p.Arg610del mutation, have mild phenotype with normal linear growth."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e31cb85fbd6abf43b00004e",
+                            "question": "What gene is mutated in Huntington's Disease patients?"
+                        }
+                    ],
+                    "context": "Huntington's Disease Like-2 (HDL2) is a rare autosomal dominant genetic disease caused by a mutation in the JPH3 gene. The Huntington's Disease (HD) phenocopy has the greatest clinical resemblance to HD, but its neurocognitive characterisation is poorly researched. This study reports on the neurocognitive profile of seven HDL2 patients including preserved functions, deficits and dissociations (classical and strong) and provides a general characterisation of the cognitive dysfunction of HDL2 in relation to the progression of the disease."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e30e689fbd6abf43b00003a",
+                            "question": "Which disease is treated with ZMapp?"
+                        }
+                    ],
+                    "context": "Ebola Virus Disease (EVD), also known as Ebola Hemorrhagic Fever (EHF), initially emerged over 40 years ago in the Democratic Republic of Congo. Endemic to Africa, outbreaks have been recorded in six African countries since its detection in 1976. Fruit bats are believed to be the natural hosts of Ebola viruses (EBoV), with humans and other mammals serving as accidental hosts. Transmission of EBoV has been reported in various ways, including human to human transmission through close contact with blood and bodily fluids. The virus has an incubation period ranging from two to twenty-one days, followed by a multitude of clinical manifestations such as the sudden onset of high fever, chills and myalgia depicting a flu-like syndrome. It is usually diagnosed based on several clinical symptoms such as the sudden onset of illness, high fevers for less than three weeks, and at least two hemorrhagic symptoms despite no predisposing factors. This generally provides enough evidence for clinicians to consider EHF and begin supportive treatment until the virus is confirmed through laboratory findings. Management of patients involves supportive care such as maintaining fluid along with electrolyte balance, blood pressure and oxygen saturation. This also includes treating complications arising from secondary infections. The main options include: prophylactic strategies, anti-viral therapy for EVD, immunotherapies, vaccines, and ZMapp. Finally, the key to managing EBoV epidemics is to stop the transmission of disease in the most severely affected population, as prevention has become of utmost importance to alleviate the significant physical and economic burden."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e499e266d0a27794100000c",
+                            "question": "What is the trade name of sildenafil?"
+                        }
+                    ],
+                    "context": "The World Health Organization has reported that counterfeit medicines potentially make up more than 50% of the global drug market, with a significant proportion of these fake products being encountered in developing countries. This occurrence is attributed to a lack of effective regulation and a weak enforcement capacity existing in these countries, with an increase in this trade resulting from the growing size and sophistication of drug counterfeiters. In addition, due to both cost and lack of availability of medicines, consumers in developing countries are more likely to seek out these inexpensive options. The World Health Organization is mindful of the impact of counterfeit drugs on consumer confidence in health care systems, health professionals, the supply chain, and genuine suppliers of medicines and medical devices. Antibiotics, antituberculosis drugs, and antimalarial and antiretroviral drugs are frequently targeted, with reports of 60% of the anti-infective drugs in Asia and Africa containing active pharmaceutical ingredients outside their pharmacopoeial limits. This has obvious public health implications of increasing drug resistance and negating all the efforts that have already gone into the provision of medicines to treat these life threatening conditions in the developing world. This review, while focusing on counterfeit medicines and medical devices in developing countries, will present information on their impact and how these issues can be addressed by regulation and control of the supply chain using technology appropriate to the developing world. The complexity of the problem will also be highlighted in terms of the definition of counterfeit and substandard medicines, including gray pharmaceuticals. Although this issue presents as a global public health problem, outcomes in developing countries where counterfeit drugs to treat malaria, tuberculosis, and human immunodeficiency virus/acquired immunodeficiency syndrome not only result in drug resistance, but a number of deaths from the untreated disease, is in stark contrast with the developed world, where lifestyle drugs such as sildenafil (Viagra"
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e5b6f04b761aafe0900000e",
+                            "question": "How large is the SARS-CoV  proteome?"
+                        }
+                    ],
+                    "context": "A number of structural genomics/proteomics initiatives are focused on bacterial or viral pathogens. In this article, we will review the progress of structural proteomics initiatives targeting the SARS coronavirus (SARS-CoV), the etiological agent of the 2003 worldwide epidemic that culminated in approximately 8,000 cases and 800 deaths. The SARS-CoV genome encodes 28 proteins in three distinct classes, many of them with unknown function and sharing low similarity to other proteins. The structures of 16 SARS-CoV proteins or functional domains have been determined to date. Remarkably, eight of these 16 proteins or functional domains have novel folds, indicating the uniqueness of the coronavirus proteins. The results of SARS-CoV structural proteomics initiatives will have several profound biological impacts, including elucidation of the structure-function relationships of coronavirus proteins; identification of targets for the design of anti-viral compounds against SARS-CoV and other coronaviruses; and addition of new protein folds to the fold space, with further understanding of the structure-function relationships for several new protein families. We discuss the use of structural proteomics in response to emerging infectious diseases such as SARS-CoV and to increase preparedness against future emerging coronaviruses."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e5b8b4e752ebcdc7a000001",
+                            "question": "Which is the phenotype of the disease fibrodysplasia ossificans progressiva?"
+                        }
+                    ],
+                    "context": "A patient who had previously been diagnosed with fibrodysplasia ossificans progressiva was seen for hip pain and progressive soft tissue ossifications. Through a careful clinical examination, by which a subtype of brachydactyly was noted, the Albright hereditary osteodystrophy phenotype was recognized, and a new diagnosis of pseudopseudohypoparathyroidism was established. This paucisymptomatic condition often remains unidentified; however, its transmission can lead to more potentially serious diseases."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e4940f46d0a277941000004",
+                            "question": "How many annotated conserved human lncRNAs come from ancestral protein-coding genes?"
+                        }
+                    ],
+                    "context": "Long non-coding RNAs (lncRNAs) constitute the largest class of non-coding transcripts in the human genome. Results from next-generation sequencing and bioinformatics advances indicate that the human genome contains more non-coding RNA genes than protein-coding genes. Validated functions of lncRNAs suggest that they are master regulators of gene expression and often exert their influences via epigenetic mechanisms by modulating chromatin structure. Specific lncRNAs can regulate transcription in gene clusters. Since the functions of protein-coding genes in clusters are often tied to specific pathways, lncRNAs constitute attractive pharmacological targets. Here we review the current knowledge of lncRNA functions in human cells and their roles in disease processes. We also present forward-looking perspectives on how they might be manipulated pharmacologically for the treatment of a variety of human diseases, in which regulation of gene expression by epigenetic mechanisms plays a major role."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e2dbc55fbd6abf43b000016",
+                            "question": "What has pimavanserin been approved for by the FDA (2018)?"
+                        }
+                    ],
+                    "context": "Pimavanserin is a new drug approved by the FDA for Parkinson's disease psychosis and other neurological disorders such as Alzheimer's disease. In this study, we developed a UPLC-MS/MS method to quantify pimavanserin disposition in the brain and its pharmacokinetics in mice. Vilazodone was used as the internal standard. Pimavanserin and IS were extracted by liquid-liquid extraction using tert-butyl methyl ether and separated using an Acquity UPLC BEH\u2122 C"
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e5b8170b761aafe09000010",
+                            "question": "Which diagnostic test is approved for coronavirus infection screening?"
+                        }
+                    ],
+                    "context": "Recent reports suggest that sudden smell loss might be a symptom of SARS-CoV-2 infection. The aim of this study was to investigate the frequency of olfactory loss in an outpatient population who presented to a coronavirus testing center during a 2-week period and to evaluate the diagnostic value of the symptom \"sudden smell loss\" for screening procedures."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e319789fbd6abf43b00004a",
+                            "question": "Which molecule is inhibited by encorafenib?"
+                        }
+                    ],
+                    "context": "ERK1 and ERK2 are key protein kinases that contribute to the Ras-Raf-MEK-ERK MAP kinase signalling module. This pathway participates in the control of numerous processes including apoptosis, cell proliferation, the immune response, nervous system function, and RNA synthesis and processing. MEK1/2 activate human ERK1/2 by first catalyzing the phosphorylation of Y204/187 and then T202/185, both residues of which occur within the activation segment. The phosphorylation of both residues is required for enzyme activation. The only Raf substrates are MEK1/2 and the only MEK1/2 substrates are ERK1/2. In contrast, ERK1/2 catalyze the phosphorylation of many cytoplasmic and nuclear substrates including transcription factors and regulatory molecules. The linear MAP kinase pathway branches extensively at the ERK1/2 node. ERK1/2 are proline-directed kinases that preferentially catalyze the phosphorylation of substrates containing a PxS/TP sequence. The dephosphorylation and inactivation of ERK1/2 is catalyzed by dual specificity phosphatases, protein-tyrosine specific phosphatases, and protein-serine/threonine phosphatases. The combined functions of kinases and phosphatases make the overall process reversible. To provide an idea of the complexities involved in these reactions, somatic cell cycle progression involves the strict timing of more than 32,000 phosphorylation and dephosphorylation events as determined by mass spectrometry. The MAP kinase cascade is perhaps the most important oncogenic driver of human cancers and the blockade of this signalling module by targeted inhibitors is an important anti-tumor strategy. Although numerous cancers are driven by MAP kinase pathway activation, thus far the only orally effective approved drugs that target this signaling module are used for the treatment of BRAF-mutant melanomas. The best treatments include the combination of B-Raf and MEK inhibitors (dabrafenib and trametinib, encorafenib and binimetinib, vemurafenib and cobimetanib). However, resistance to these antagonists occurs within one year and additional treatment options are necessary. Owing to the large variety of malignancies that are driven by dysregulation of the MAP kinase pathway, additional tumor types should be amenable to MAP kinase pathway inhibitor therapy. In addition to new B-Raf and MEK inhibitors, the addition of ERK inhibitors should prove helpful. Ulixertinib, MK-8353, and GDC-0994 are orally effective, potent, and specific inhibitors of ERK1/2 that are in early clinical trials for the treatment of various advanced/metastatic solid tumors. These agents are effective against cell lines that are resistant to B-Raf and MEK1/2 inhibitor therapy. Although MK-8353 does not directly inhibit MEK1/2, it decreases the phosphorylation of ERK1/2 as well as the phosphorylation of RSK, an ERK1/2 substrate. The decrease in RSK phosphorylation appears to be a result of ERK inhibition and the decrease in ERK1/2 phosphorylation is related to the inability of MEK to catalyze the phosphorylation of the ERK-MK-8353 complex; these decreases characterize the ERK dual mechanism inhibition paradigm. Additional work will be required to determine whether ERK inhibitors will be successful in the clinic and are able to forestall the development of drug resistance of the MAP kinase pathway."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e3c6c9eb5b409ea53000022",
+                            "question": "What bacteria is associated with Gastric cancer and peptic ulcers?"
+                        }
+                    ],
+                    "context": "Helicobacter pylori (H. pylori) are gram-negative bacteria that selectively colonizes the gastric mucosa. The prevalence of H. pylori infection varies from 20 to 50% in industrialized countries to over 80% in developing countries. The infection may persist lifelong without specific treatment. Prolonged infection and inflammation due to bacterial virulence and host genetic factors will lead to chronic gastritis. A certain portion of infected patients then develop more severe pathologies such as peptic ulcer (10-15%), gastric cancer (1%), and mucosa-associated lymphoid tissue lymphoma (50.01%). Although the majority of infected patients remain asymptomatic, much of the evidence has shown that eradication of H. pylori infection can reduce the recurrence of peptic ulcer and benefit a substantial portion of patients with nonulcer dyspepsia. Though controversial in population-based clinical trials, several cost-effectiveness analyses also reveal that H. pylori eradication is cost effective in the primary prevention of gastric cancer. Therefore, the discovery of H. pylori offers the chance to prevent several gastroduodenal diseases by means of their eradication. In other words, gastroenterologists could hit more than one bird with one stone. However, there are concerns regarding application of a 'test and treat' strategy in the general population. In this review, we will focus on current evidence of H. pylori eradication in the primary and secondary prophylaxis of gastric cancer and peptic ulcer disease."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e540c866d0a277941000052",
+                            "question": "What is another name for AZD0530?"
+                        }
+                    ],
+                    "context": "AZD0530, an orally available Src inhibitor, demonstrated potent antimigratory and anti-invasive effects in vitro, and inhibited metastasis in a murine model of bladder cancer. Antiproliferative activity of AZD0530 in vitro varied between cell lines (IC(50) 0.2 ->10\u03bcM). AZD0530 inhibited tumor growth in 4/10 xenograft models tested and dynamically inhibited in vivo phosphorylation of Src substrates paxillin and FAK in both growth-inhibition-resistant and -sensitive xenografts. The activity of AZD0530 in NBT-II bladder cancer cells in vitro was consistent with inhibition of cell migration and stabilization of cell-cell adhesion. These data suggest a dominant anti-invasive pharmacology for AZD0530 that may limit tumor progression in a range of cancers. AZD0530 is currently in Phase II clinical trials."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e4bed1c6d0a27794100002b",
+                            "question": "What disease is associated with a Malar rash?"
+                        }
+                    ],
+                    "context": "The juvenile idiopathic inflammatory myopathies (JIIM) are systemic autoimmune diseases characterized by skeletal muscle weakness, characteristic rashes, and other systemic features. Although juvenile dermatomyositis (JDM), the most common form of JIIM, has been well studied, the other major clinical subgroups of JIIM, including juvenile polymyositis (JPM) and juvenile myositis overlapping with another autoimmune or connective tissue disease (JCTM), have not been well characterized, and their similarity to the adult clinical subgroups is unknown. We enrolled 436 patients with JIIM, including 354 classified as JDM, 33 as JPM, and 49 as JCTM, in a nationwide registry study. The aim of the study was to compare demographics; clinical features; laboratory measures, including myositis autoantibodies; and outcomes among these clinical subgroups, as well as with published data on adult patients with idiopathic inflammatory myopathies (IIM) enrolled in a separate natural history study. We used random forest classification and logistic regression modeling to compare clinical subgroups, following univariate analysis. JDM was characterized by typical rashes, including Gottron papules, heliotrope rash, malar rash, periungual capillary changes, and other photosensitive and vasculopathic skin rashes. JPM was characterized by more severe weakness, higher creatine kinase levels, falling episodes, and more frequent cardiac disease. JCTM had more frequent interstitial lung disease, Raynaud phenomenon, arthralgia, and malar rash. Differences in autoantibody frequency were also evident, with anti-p155/140, anti-MJ, and anti-Mi-2 seen more frequently in patients with JDM, anti-signal recognition particle and anti-Jo-1 in JPM, and anti-U1-RNP, PM-Scl, and other myositis-associated autoantibodies more commonly present in JCTM. Mortality was highest in patients with JCTM, whereas hospitalizations and wheelchair use were highest in JPM patients. Several demographic and clinical features were shared between juvenile and adult IIM subgroups. However, JDM and JPM patients had a lower frequency of interstitial lung disease, Raynaud phenomenon, \"mechanic's hands\" and carpal tunnel syndrome, and lower mortality than their adult counterparts. We conclude that juvenile myositis is a heterogeneous group of illnesses with distinct clinical subgroups, defined by varying clinical and demographic characteristics, laboratory features, and outcomes."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5d35ef017bc3fee31f000001",
+                            "question": "Which epigenetic mark is deposited by PRC2?"
+                        }
+                    ],
+                    "context": "Epigenetic regulation of gene expression has a crucial role allowing for the self-renewal and differentiation of stem and progenitor populations during organogenesis. The mammalian kidney maintains a population of self-renewing stem cells that differentiate to give rise to thousands of nephrons, which are the functional units that carry out filtration to maintain physiological homeostasis. The polycomb repressive complex 2 (PRC2) epigenetically represses gene expression during development by placing the H3K27me3 mark on histone H3 at promoter and enhancer sites, resulting in gene silencing. To understand the role of PRC2 in nephron differentiation, we conditionally inactivated the "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e460f823f54159529000006",
+                            "question": "What is the target of galcanezumab?"
+                        }
+                    ],
+                    "context": "Galcanezumab, along with three other monoclonal antibodies targeting the calcitonin gene-related peptide (CGRP) pathway, represents the latest disease-specific and mechanism-based treatment for the prophylaxis of migraine. Galcanezumab shares data also for the prophylaxis of cluster headache."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e4fd44a6d0a277941000033",
+                            "question": "What cellular process is the protein clathrin involved in?"
+                        }
+                    ],
+                    "context": "Cellular membranes are anything but flat structures. They display a wide variety of complex and beautiful shapes, most of which have evolved for a particular physiological reason and are adapted to accommodate certain cellular demands. In membrane trafficking events, the dynamic remodelling of cellular membranes is apparent. In clathrin-mediated endocytosis for example, the plasma membrane undergoes heavy deformation to generate and internalize a highly curved clathrin-coated vesicle. This process has become a model system to study proteins with the ability to sense and induce membrane curvature and over the last two decades numerous membrane remodelling molecules and molecular mechanisms have been identified in this process. In this review, we discuss the interaction of epsin1 ENTH domain with membranes, which is one of the best-studied examples of a peripheral and transiently membrane bending protein important for clathrin-mediated endocytosis."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e5409776d0a277941000051",
+                            "question": "What is AZD0530 an inhibitor of?"
+                        }
+                    ],
+                    "context": "AZD0530, an orally available Src inhibitor, demonstrated potent antimigratory and anti-invasive effects in vitro, and inhibited metastasis in a murine model of bladder cancer. Antiproliferative activity of AZD0530 in vitro varied between cell lines (IC(50) 0.2 ->10\u03bcM). AZD0530 inhibited tumor growth in 4/10 xenograft models tested and dynamically inhibited in vivo phosphorylation of Src substrates paxillin and FAK in both growth-inhibition-resistant and -sensitive xenografts. The activity of AZD0530 in NBT-II bladder cancer cells in vitro was consistent with inhibition of cell migration and stabilization of cell-cell adhesion. These data suggest a dominant anti-invasive pharmacology for AZD0530 that may limit tumor progression in a range of cancers. AZD0530 is currently in Phase II clinical trials."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5d35e421b3a638076300000d",
+                            "question": "For how long do Drosophila embryos use maternal genome mRNA?"
+                        }
+                    ],
+                    "context": "During the maternal-to-zygotic transition, a developing embryo integrates post-transcriptional regulation of maternal mRNAs with transcriptional activation of its own genome. By combining chromosomal ablation in Drosophila with microarray analysis, we characterized the basis of this integration. We show that the expression profile for at least one third of zygotically active genes is coupled to the concomitant degradation of the corresponding maternal mRNAs. The embryo uses transcription and degradation to generate localized patterns of expression, and zygotic transcription to degrade distinct classes of maternal transcripts. Although degradation does not appear to involve a simple regulatory code, the activation of the zygotic genome starts from intronless genes sharing a common cis-element. This cis-element interacts with a single protein, the Bicoid stability factor, and acts as a potent enhancer capable of timing the activity of an exogenous transactivator. We propose that this regulatory mode links morphogen gradients with temporal regulation during the maternal-to-zygotic transition."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e4f2aeb6d0a277941000032",
+                            "question": "What is the function of a protein kinase?"
+                        }
+                    ],
+                    "context": "The three mammalian Raf proteins (A-Raf, B-Raf, and C-Raf) are key components of the MAPK pathway. Although diverse functions have been proposed for Raf kinases, it is still not clear how interacting proteins contribute to differences in the signaling functions of the three Raf kinases. Here, we report the comparative interactomes of the three Raf kinases under serum-starved and EGF-stimulated conditions. We identified nearly 400 novel interacting proteins; some interacted with all three isoforms while others interacted exclusively with one or two. Comparing the interactomes of the three Raf kinases under different conditions revealed Raf proteins perform distinct functions through specific interactions. Our interactome data help define the differences between the three Raf kinases and may uncover new functions or regulatory mechanisms. Knowledge of Raf kinase protein-protein interactions will help us to investigate the function of specific pathways in the future."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e7641a0c6a8763d23000011",
+                            "question": "Which was the first cholera vaccine approved in the US?"
+                        }
+                    ],
+                    "context": "Parenteral immunization of rabbits with cholera vaccine decreased the number of Vibrio cholerae adhering to the mucous membrane of the small intestine. Cholera toxoid and the complex preparation ensure protection from the local action of cholera toxin on the ligated loop of the rabbit intestine, while cholera vaccine produces no effect under the same conditions. The use of three preparations under study leads to the decrease of exudative reaction to the introduction of live V. cholerae, the effectiveness of these vaccines growing in the following order: cholera vaccine, cholera toxoid, the complex preparation."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e42d1a748dab47f26000010",
+                            "question": "What is drug target for olaparib?"
+                        }
+                    ],
+                    "context": "Triple-negative breast cancer (TNBC) has an aggressive phenotype and poor prognosis due to the lack of specific targeted treatments. The development of an effective therapeutic strategy with a novel mechanism is essential for TNBC management. Olaparib, a PARP inhibitor, has been approved for the treatment of breast or ovarian cancer patients with breast cancer gene 1/2 (BRCA1/2) mutations. Here, we report the development of a small molecule targeting PARP1 based on the hydrophobic tagging (HyT) method. Targeted protein misfolding and consequent degradation are caused by HyT. Hydrophobic-tagged olaparib induces the proteasome-dependent degradation of PARP1 and shows enhanced antitumor effects compared to olaparib in TNBC cells. In addition, hydrophobic-tagged olaparib causes ER stress-related unfolded protein response (UPR), autophagy, and apoptosis. These results point towards encouraging prospects for chemically modifying approved drugs that not only exhibit superior effects compared to those of the original drugs by triggering novel mechanisms but also provide great feasibility in the translational scenario."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e2f4a8bfbd6abf43b00002a",
+                            "question": "What animal is thought to be the host for the Coronavirus causing MERS?"
+                        }
+                    ],
+                    "context": "Two novel coronaviruses have emerged to cause severe disease in humans. While bats may be the primary reservoir for both viruses, SARS coronavirus (SARS-CoV) likely crossed into humans from civets in China, and MERS coronavirus (MERS-CoV) has been transmitted from camels in the Middle East. Unlike SARS-CoV that resolved within a year, continued introductions of MERS-CoV present an on-going public health threat. Animal models are needed to evaluate countermeasures against emerging viruses. With SARS-CoV, several animal species were permissive to infection. In contrast, most laboratory animals are refractory or only semi-permissive to infection with MERS-CoV. This host-range restriction is largely determined by sequence heterogeneity in the MERS-CoV receptor. We describe animal models developed to study coronaviruses, with a focus on host-range restriction at the level of the viral receptor and discuss approaches to consider in developing a model to evaluate countermeasures against MERS-CoV. "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e6157cb1af46fc13000000e",
+                            "question": "What disease is associated with mutations in the MECP2 transcription factor?"
+                        }
+                    ],
+                    "context": "MeCP2 is an X-linked gene; its mutation causes Rett Syndrome (RTT), a severe neurodevelopmental disability that affects mainly girls. Acting as a transcription factor, the MeCP2 protein is able to regulate several hormone-related genes, such as the thyroid hormones (TH), which are known to play an important role in the development of the central nervous system (CNS). Although only a few studies have associated RTT and TH, TH deficit can lead to neurological deregulation by triggering functional deficiencies during adulthood. Here, we used human-induced pluripotent stem cell (iPSC) to generate MeCP2-knockout neuronal progenitor cells and adult neurons. Using this cellular model, we then investigated the expression of genes associated with TH homeostasis, such as the TH transporters (LAT1, LAT2, MCT8, MCT10, and OATP4A1) and deiodinases (DIO1, 2, and 3). Then, we treated the neural cells with THs and analyzed the expression of several genes related to neurodevelopment and functional maintenance. Our results showed that several TH-related genes, such as deiodinases, are altered in RTT samples when compared to WT cells. Moreover, the treatment of the neural cells with THs increased the amount of MAP2 and synapsin-1 expression in RTT cells. Our work provided evidences that TH homeostasis is compromised in RTT-derived neural cells, which could be an important factor to contribute to the imbalance in the neurodevelopmental phenotype presented in this syndrome and can lead us to better understand other neurodevelopmental diseases."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5d3852d07bc3fee31f000014",
+                            "question": "Where is the yeast transpozable element Ty3 preferentially inserted?"
+                        }
+                    ],
+                    "context": "This report describes the results of experiments to determine whether chimeras between a retrovirus and portions of Ty3 are active in vivo. A chimera between Ty3 and a Neo(r)-marked Moloney murine leukemia virus (M-MuLV) was constructed. The C-terminal domain of M-MuLV integrase (IN) was replaced with the C-terminal domain of Ty3 IN. The chimeric retroviruses were expressed from an amphotrophic envelope packaging cell line. The virus generated was used to infect the human fibrosarcoma cell line HT1080, and cells in which integration had occurred were selected by G418 resistance. Three independently integrated viruses were rescued. In each case, the C-terminal Ty3 IN sequences were maintained and short direct repeats of the genomic DNA flanked the integration site. Sequence analysis of the genomic DNA flanking the insertion did not identify a tRNA gene; therefore, these integration events did not have Ty3 position specificity. This study showed that IN sequences from the yeast retrovirus-like element Ty3 can substitute for M-MuLV IN sequences in the C-terminal domain and contribute to IN function in vivo. It is also one of the first in vivo demonstrations of activity of a retrovirus encoding an integrase chimera. Studies of chimeras between IN species with distinctive integration patterns should complement previous work by expanding our understanding of the roles of nonconserved domains."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5d386fbfa1e1595105000005",
+                            "question": "Which is the target of belimumab in Systemic Lupus Erythematosus treatment?"
+                        }
+                    ],
+                    "context": "Obstacles facing therapeutic trials in systemic lupus erythematosus (SLE) include the low incidence, seriousness, complexity, and clinical polymorphism of the disease. A large-scale multicenter design has been required in most cases. Over the last few years, several biologics have been evaluated as treatments for lupus nephritis or for the skin and joint manifestations of SLE. The central role for the B-cell in SLE, together with improved knowledge of the targets on the B-cell surface, has prompted efforts to develop monoclonal antibodies as treatments for SLE. The two available monoclonal antibodies are rituximab (anti-CD20 antibody) and belimumab (anti-BlyS antibody). The results obtained with belimumab were used to develop a new measurement tool, the SLE Responder Index (SRI), and prompted an application for a license to use belimumab in SLE. Other targets identified on the B-cell surface are being evaluated."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e4601293f54159529000002",
+                            "question": "Central Vein Sign is characteristic to which disease?"
+                        }
+                    ],
+                    "context": "Magnetic resonance imaging (MRI) has revolutionized the diagnosis and management of people living with multiple sclerosis (MS). However, conventional MRI sequences and measures currently used in clinical practice have limitations in the appropriate diagnosis, prediction of future disability, and monitoring of disease activity in MS. A specific challenge is the accurate and timely diagnosis of progressive subtypes of MS. This article will summarize emerging MRI measures that may be of utility as clinical tools in diagnosis and prediction in MS. Although a wide range of MRI techniques have different strengths and weaknesses, those that will be discussed in this article include the \"central vein sign,\" leptomeningeal inflammation/enhancement, conventional and quantitative spinal cord imaging, susceptibility-weighted imaging, and high-field MRI techniques. There are a number of novel and emerging MRI techniques that hold promise in improving diagnosis, prediction, and disease monitoring in MS."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5d374c727bc3fee31f00000d",
+                            "question": "Which is the most mutated gene in dilated cardiomyopathy (DCM)?"
+                        }
+                    ],
+                    "context": "Dilated cardiomyopathy (DCM) is a condition characterized by dilatation and systolic dysfunction of the left ventricle in the absence of severe coronary artery disease or abnormal loading conditions. Mutations in the titin (TTN) and lamin A/C (LMNA) genes are the two most significant contributors in familial DCM. Previously mutations in the desmoplakin (DSP) gene have been associated with arrhythmogenic right ventricular cardiomyopathy (ARVC) and more recently with DCM."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e764440c6a8763d23000013",
+                            "question": "How many doses of vaxchora are required?"
+                        }
+                    ],
+                    "context": "Cholera remains a public health threat among the least privileged populations and regions affected by conflicts and natural disasters. Together with Water, Sanitation and Hygiene practices, use of oral cholera vaccines (OCVs) is a key tool to prevent cholera. Bivalent whole-cell killed OCVs have been extensively used worldwide and found effective in protecting populations against cholera in endemic and outbreak settings. No cholera vaccine had been available for United States (US) travelers at risk for decades until 2016 when CVD 103-HgR (Vaxchora\u2122), an oral live attenuated vaccine, was licensed by the US FDA. A single dose of Vaxchora\u2122 protected US volunteers against experimental challenge 10\u00a0days and 3\u00a0months after vaccination. However, use of Vaxchora\u2122 poses several challenges in resource poor settings as it requires reconstitution, is age-restricted to 18 to 64\u00a0years, has no data in populations endemic for cholera, and faces challenges related to cold chain and cost."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e30fa32fbd6abf43b000048",
+                            "question": "Which bacteria causes rat bite fever?"
+                        }
+                    ],
+                    "context": "The Leptotrichiaceae are a family of fairly unnoticed bacteria containing both microbiota on mucous membranes as well as significant pathogens such as Streptobacillus moniliformis, the causative organism of streptobacillary rat bite fever. Comprehensive genomic studies in members of this family have so far not been carried out. We aimed to analyze 47 genomes from 20 different member species to illuminate phylogenetic aspects, as well as genomic and discriminatory properties."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e30b870fbd6abf43b000038",
+                            "question": "Which graph database is used by the Reactome graph database?"
+                        }
+                    ],
+                    "context": "Characterizing cellular responses to different extrinsic signals is an active area of research, and curated pathway databases describe these complex signaling reactions. Here, we revisit a fundamental question in signaling pathway analysis: are two molecules \"connected\" in a network? This question is the first step towards understanding the potential influence of molecules in a pathway, and the answer depends on the choice of modeling framework. We examined the connectivity of Reactome signaling pathways using four different pathway representations. We find that Reactome is very well connected as a graph, moderately well connected as a compound graph or bipartite graph, and poorly connected as a hypergraph (which captures many-to-many relationships in reaction networks). We present a novel relaxation of hypergraph connectivity that iteratively increases connectivity from a node while preserving the hypergraph topology. This measure, B-relaxation distance, provides a parameterized transition between hypergraph connectivity and graph connectivity. B-relaxation distance is sensitive to the presence of small molecules that participate in many functionally unrelated reactions in the network. We also define a score that quantifies one pathway's downstream influence on another, which can be calculated as B-relaxation distance gradually relaxes the connectivity constraint in hypergraphs. Computing this score across all pairs of 34 Reactome pathways reveals pairs of pathways with statistically significant influence. We present two such case studies, and we describe the specific reactions that contribute to the large influence score. Finally, we investigate the ability for connectivity measures to capture functional relationships among proteins, and use the evidence channels in the STRING database as a benchmark dataset. STRING interactions whose proteins are B-connected in Reactome have statistically significantly higher scores than interactions connected in the bipartite graph representation. Our method lays the groundwork for other generalizations of graph-theoretic concepts to hypergraphs in order to facilitate signaling pathway analysis."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e6de3f21af46fc130000022",
+                            "question": "What is the target of the drug remdesivir?"
+                        }
+                    ],
+                    "context": "The nucleotide analogue remdesivir is an investigational drug for the treatment of human coronavirus infection. Remdesivir is a phosphoramidate prodrug and is known to target viral RNA-dependent RNA polymerases. In this issue, Gordon "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e36d5b9b5b409ea53000009",
+                            "question": "Which algorithm has been developed for detecting expansions of tandem repeats?"
+                        }
+                    ],
+                    "context": "Repeat expansions cause more than 30 inherited disorders, predominantly neurogenetic. These can present with overlapping clinical phenotypes, making molecular diagnosis challenging. Single-gene or small-panel PCR-based methods can help to identify the precise genetic cause, but they can be slow and costly and often yield no result. Researchers are increasingly performing genomic analysis via whole-exome and whole-genome sequencing (WES and WGS) to diagnose genetic disorders. However, until recently, analysis protocols could not identify repeat expansions in these datasets. We developed exSTRa (expanded short tandem repeat algorithm), a method that uses either WES or WGS to identify repeat expansions. Performance of exSTRa was assessed in a simulation study. In addition, four retrospective cohorts of individuals with eleven different known repeat-expansion disorders were analyzed with exSTRa. We assessed results by comparing the findings to known disease status. Performance was also compared to three other analysis methods (ExpansionHunter, STRetch, and TREDPARSE), which were developed specifically for WGS data. Expansions in the assessed STR loci were successfully identified in WES and WGS datasets by all four methods with high specificity and sensitivity. Overall, exSTRa demonstrated more robust and superior performance for WES data than did the other three methods. We demonstrate that exSTRa can be effectively utilized as a screening tool for detecting repeat expansions in WES and WGS data, although the best performance would be produced by consensus calling, wherein at least two out of the four currently available screening methods call an expansion."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e764647c6a8763d23000016",
+                            "question": "Which was the first genetically modified organism (GMO) to be used as vaccine?"
+                        }
+                    ],
+                    "context": "Recombinant technology has revolutionised the way novel vaccines are developed and manufactured. The possibility to genetically modify micro-organisms to bring immunogenic material (antigens/epitopes) to the human (or animal) immune system to provoke an immune response, provides new hope to producing prophylactic vaccines against HIV, malaria and tuberculosis and emerging diseases. Regulatory requirements associated with the development of genetically-modified organism (GMO)-containing vaccines in Europe add an additional burden to the clinical trial application procedure and to the preparation and initiation of a clinical trial of such vaccines. Moreover, the GMO regulatory framework is complex and only partially harmonised across Europe, which may hamper multi-country clinical trials with GMO-containing vaccines. This paper provides an overview of clinical trial applications with GMO-containing vaccines in Europe and reviews the regulatory framework in countries where GMO-containing vaccine clinical trial authorisation (CTA) applications were submitted between 2004 and 2017."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5d3826427bc3fee31f00000f",
+                            "question": "What percentage of patients of nasopharyngeal carcinoma (NPC) develop recurrent disease?"
+                        }
+                    ],
+                    "context": "To investigate the relationship between the cell percentage of T regulator (Treg) cells of patients' specimens and disease severity, survivability, recurrence and metastasis in patients who were diagnosed with nasopharyngeal carcinoma (NPC)."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e6399dd1af46fc13000000f",
+                            "question": "What cellular process is JAK/STAT involved in?"
+                        }
+                    ],
+                    "context": "The JAK-STAT and NF-\u03baB pathways are conserved cellular signaling cascades orchestrating a variety of biological processes. The regulatory interactions between these two pathways have been well studied in vertebrates but less concerned in invertebrates, hindering further understanding of immune signaling evolution. The Pacific white shrimp "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e776845835f4e477700000a",
+                            "question": "What does MVA85A stand for?"
+                        }
+                    ],
+                    "context": "A better understanding of the relationships between vaccine, immunogenicity and protection from disease would greatly facilitate vaccine development. Modified vaccinia virus Ankara expressing antigen 85A (MVA85A) is a novel tuberculosis vaccine candidate designed to enhance responses induced by BCG. Antigen-specific interferon-\u03b3 (IFN-\u03b3) production is greatly enhanced by MVA85A, however the variability between healthy individuals is extensive. In this study we have sought to characterize the early changes in gene expression in humans following vaccination with MVA85A and relate these to long-term immunogenicity. Two days post-vaccination, MVA85A induces a strong interferon and inflammatory response. Separating volunteers into high and low responders on the basis of T cell responses to 85A peptides measured during the trial, an expansion of circulating CD4+ CD25+ Foxp3+ cells is seen in low but not high responders. Additionally, high levels of Toll-like Receptor (TLR) 1 on day of vaccination are associated with an increased response to antigen 85A. In a classification model, combined expression levels of TLR1, TICAM2 and CD14 on day of vaccination and CTLA4 and IL2R\u03b1 two days post-vaccination can classify high and low responders with over 80% accuracy. Furthermore, administering MVA85A in mice with anti-TLR2 antibodies may abrogate high responses, and neutralising antibodies to TLRs 1, 2 or 6 or HMGB1 decrease CXCL2 production during in vitro stimulation with MVA85A. HMGB1 is released into the supernatant following atimulation with MVA85A and we propose this signal may be the trigger activating the TLR pathway. This study suggests an important role for an endogenous ligand in innate sensing of MVA and demonstrates the importance of pattern recognition receptors and regulatory T cell responses in determining the magnitude of the antigen specific immune response to vaccination with MVA85A in humans. "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e822615835f4e4777000034",
+                            "question": "Which protein is mutated in Erythropoietic Protoporphyria?"
+                        }
+                    ],
+                    "context": "Non-syndromic microcytic congenital sideroblastic anemia (cSA) is predominantly caused by defective genes encoding for either ALAS2, the first enzyme of heme biosynthesis pathway or SLC25A38, the mitochondrial importer of glycine, an ALAS2 substrate. Herein we explored a new case of cSA with two mutations in GLRX5, a gene for which only two patients have been reported so far. The patient was a young female with biallelic compound heterozygous mutations in GLRX5 (p.Cys67Tyr and p.Met128Lys). Three-D structure analysis confirmed the involvement of Cys67 in the coordination of the [2Fe2S] cluster and suggested a potential role of Met128 in partner interactions. The protein-level of ferrochelatase, the terminal-enzyme of heme process, was increased both in patient-derived lymphoblastoid and CD34+ cells, however, its activity was drastically decreased. The activity of ALAS2 was found altered and possibly related to a defect in the biogenesis of its co-substrate, the succinyl-CoA. Thus, the patient exhibits both a very low ferrochelatase activity without any accumulation of porphyrins precursors in contrast to what is reported in erythropoietic protoporphyria with solely impaired ferrochelatase activity. A significant oxidative stress was evidenced by decreased reduced glutathione and aconitase activity, and increased MnSOD protein expression. This oxidative stress depleted and damaged mtDNA, decreased complex I and IV activities and depleted ATP content. Collectively, our study demonstrates the key role of GLRX5 in modulating ALAS2 and ferrochelatase activities and in maintaining mitochondrial function."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e52a4ec6d0a277941000044",
+                            "question": "Which R package has been developed for MS-based label-free phosphoproteomics?"
+                        }
+                    ],
+                    "context": "The heterogeneous populations of exosomes with distinct nano-size have impeded our understanding of their corresponding function as intercellular communication agents. Profiling signaling proteins packaged in each size-dependent subtype can disclose this heterogeneity of exosomes. Herein, new strategy was developed for deconstructing heterogeneity of distinct-size urine exosome subpopulations by profiling N-glycoproteomics and phosphoproteomics simultaneously. Two-dimension size exclusion liquid chromatography (SEC) was utilized to isolate large exosomes (L-Exo), medium exosomes (M-Exo) and small exosomes (S-Exo) from human urine samples. Then, hydrophilic carbonyl functionalized magnetic zirconium-organic framework (CFMZOF) was developed as probe for capturing the two kinds of post-translational modification (PTM) peptides simultaneously. Finally, liquid chromatography-tandem mass spectrometry (LC-MS/MS) combined with database search was used to characterize PTM protein contents. We identified 144 glycoproteins and 44 phosphoproteins from L-Exo, 156 glycoproteins and 46 phosphoproteins from M-Exo and 134 glycoproteins and 10 phosphoproteins from S-Exo. The ratio of the proteins with simultaneous glycolation and phosphorylation is 11%, 9% and 3% in L-Exo, M-Exo and S-Exo, respectively. Based on label-free quantification intensity results, both principal component analysis and Pearson's correlation coefficients indicate distinct-size exosome subpopulations exist significant differences in PTM protein contents. Analysis of high abundance PTM proteins in each exosome subset reveals that the preferentially packaged PTM proteins in L-Exo, M-Exo and S-Exo are associated with immune response, biological metabolism and molecule transport processes, respectively. Our PTM proteomics study based on size-dependent exosome subtypes opens a new avenue for deconstructing the heterogeneity of exosomes."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e3eba5548dab47f26000009",
+                            "question": "The virus that causes FIP, Feline Infectious Peritonitis belongs to what family?"
+                        }
+                    ],
+                    "context": "It has been suggested that antibody overproduction plays a role in the pathogenesis of feline infectious peritonitis (FIP). However, only a few studies on the B-cell activation mechanism after FIP virus (FIPV) infection have been reported. The present study shows that: (1) the ratio of peripheral blood sIg(+) CD21(-) B-cells was higher in cats with FIP than in SPF cats, (2) the albumin-to-globulin ratio has negative correlation with the ratio of peripheral blood sIg(+) CD21(-) B-cell, (3) cells strongly expressing mRNA of the plasma cell master gene, B-lymphocyte-induced maturation protein 1 (Blimp-1), were increased in peripheral blood in cats with FIP, (4) mRNA expression of B-cell differentiation/survival factors, IL-6, CD40 ligand, and B-cell-activating factor belonging to the tumor necrosis factor family (BAFF), was enhanced in macrophages in cats with FIP, and (5) mRNAs of these B-cell differentiation/survival factors were overexpressed in antibody-dependent enhancement (ADE)-induced macrophages. These data suggest that virus-infected macrophages overproduce B-cell differentiation/survival factors, and these factors act on B-cells and promote B-cell differentiation into plasma cells in FIPV-infected cats."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e807578835f4e4777000028",
+                            "question": "What is a \"cytokine storm\"?"
+                        }
+                    ],
+                    "context": "The cytokine storm has captured the attention of the public and the scientific community alike, and while the general notion of an excessive or uncontrolled release of proinflammatory cytokines is well known, the concept of a cytokine storm and the biological consequences of cytokine overproduction are not clearly defined. Cytokine storms are associated with a wide variety of infectious and noninfectious diseases. The term was popularized largely in the context of avian H5N1 influenza virus infection, bringing the term into popular media. In this review, we focus on the cytokine storm in the context of virus infection, and we highlight how high-throughput genomic methods are revealing the importance of the kinetics of cytokine gene expression and the remarkable degree of redundancy and overlap in cytokine signaling. We also address evidence for and against the role of the cytokine storm in the pathology of clinical and infectious disease and discuss why it has been so difficult to use knowledge of the cytokine storm and immunomodulatory therapies to improve the clinical outcomes for patients with severe acute infections."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5d38577b7bc3fee31f000017",
+                            "question": "What is the main difference between nascent and mature chromatin?"
+                        }
+                    ],
+                    "context": "Proper regulation and maintenance of the epigenome is necessary to preserve genome function. However, in every cell division, the epigenetic state is disassembled and then reassembled in the wake of the DNA replication fork. Chromatin restoration on nascent DNA is a complex and regulated process that includes nucleosome assembly and remodeling, deposition of histone variants, and the re-establishment of transcription factor binding. To study the genome-wide dynamics of chromatin restoration behind the DNA replication fork, we developed nascent chromatin occupancy profiles (NCOPs) to comprehensively profile nascent and mature chromatin at nucleotide resolution. Although nascent chromatin is inherently less organized than mature chromatin, we identified locus-specific differences in the kinetics of chromatin maturation that were predicted by the epigenetic landscape, including the histone variant H2AZ, which marked loci with rapid maturation kinetics. The chromatin maturation at origins of DNA replication was dependent on whether the origin underwent initiation or was passively replicated from distal-originating replication forks, suggesting distinct chromatin assembly mechanisms surrounding activated and disassembled prereplicative complexes. Finally, we identified sites that were only occupied transiently by DNA-binding factors following passage of the replication fork, which may provide a mechanism for perturbations of the DNA replication program to shape the regulatory landscape of the genome."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e4025f148dab47f2600000b",
+                            "question": "What does a PET (Positron Excitation Tomography) measure?"
+                        }
+                    ],
+                    "context": "Transcranial magnetic stimulation (TMS) during positron emission tomography (PET) is a novel technique for in vivo measurements of connectivity and excitability of the human cerebral cortex. Here we describe tools that allow investigators to position the stimulating coil over a target region and to verify the actual position of the coil after the study. The former is achieved by coregistering the head of the subject with an MR image of his/her brain using frameless stereotaxy. The latter is accomplished by identifying the coil on a transmission scan and coregistering it, e.g., with a model of the electrical field induced in the brain."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e3c69c9b5b409ea53000021",
+                            "question": "As of 2019, what type of cancer is commonly associated with ionizing radiation"
+                        }
+                    ],
+                    "context": "Radiotherapy for breast cancer may expose the esophagus to ionizing radiation, but no study has evaluated esophageal cancer risk after breast cancer associated with radiation dose or systemic therapy use."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e47681b35b8f0833c000006",
+                            "question": "What is the target of Inebilizumab?"
+                        }
+                    ],
+                    "context": "Inebilizumab (Uplizna\u2122; inebilizumab-cdon in the USA) is a humanised anti-CD19 monoclonal antibody being developed by Viela Bio for the treatment of a range of autoimmune diseases associated with CD19-expressing B cells. Inebilizumab targets and depletes CD19-expressing B cells through antibody-dependent cell-mediated cytotoxicity. In June 2020, inebilizumab received its first global approval in the USA for the treatment of neuromyelitis optica spectrum disorder (NMOSD) in adult patients who are seropositive for immunoglobulin G autoantibodies against aquaporin-4 (AQP4-IgG). The drug is also undergoing clinical evaluation for kidney transplant desensitization, myasthenia gravis, and IgG4-related disease. This article summarizes the milestones in the development of inebilizumab leading to this first approval for the treatment of AQP4-IgG seropositive NMOSD."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e6e8f92c6a8763d23000004",
+                            "question": "How large is a lncRNAs?"
+                        }
+                    ],
+                    "context": "Many long ncRNAs (lncRNA) make their effort by interacting with the corresponding RNA-binding proteins, and identifying the interactions between lncRNAs and proteins is important to understand the functions of lncRNA. Compared with the time-consuming and laborious experimental methods, more and more computational models are proposed to predict lncRNA-protein interactions. However, few models can effectively utilize the biological network topology of lncRNA (protein) and combine its sequence structure features, and most models cannot effectively predict new proteins (lncRNA) that do not interact with any lncRNA (proteins). In this study, we proposed a projection-based neighborhood non-negative matrix decomposition model (PMKDN) to predict potential lncRNA-protein interactions by integrating multiple biological features of lncRNAs (proteins). First, according to lncRNA (protein) sequences and lncRNA expression profile data, we extracted multiple features of lncRNA (protein). Second, based on protein GO ontology annotation, lncRNA sequences, lncRNA(protein) feature information, and modified lncRNA-protein interaction network, we calculated multiple similarities of lncRNA (protein), and fused them to obtain a more accurate lncRNA(protein) similarity network. Finally, combining the similarity and various feature information of lncRNA (protein), as well as the modified interaction network, we proposed a projection-based neighborhood non-negative matrix decomposition algorithm to predict the potential lncRNA-protein interactions. On two benchmark datasets, PMKDN showed better performance than other state-of-the-art methods for the prediction of new lncRNA-protein interactions, new lncRNAs, and new proteins. Case study further indicates that PMKDN can be used as an effective tool for lncRNA-protein interaction prediction."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e80caeb835f4e477700002b",
+                            "question": "What is the drug chloroquine or hydroxychloroquine used for?"
+                        }
+                    ],
+                    "context": "Drugs that are specifically efficacious against SARS-CoV-2 have yet to be established. Chloroquine and hydroxychloroquine have garnered considerable attention for their potential to treat coronavirus disease 2019 (COVID-19). Increasing evidence obtained from completed clinical studies indicates the prospects for chloroquine/hydroxychloroquine to treat COVID-19. More randomized control clinical studies are warranted to determine the feasibility of these two drugs in treating COVID-19."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e80489b835f4e4777000022",
+                            "question": "What is the function of the protein encoded by the gene NKCC2?"
+                        }
+                    ],
+                    "context": "Uromodulin, the most abundant protein in normal urine, is produced by cells lining the thick ascending limb (TAL) of the loop of Henle. Uromodulin regulates the activity of the potassium channel ROMK in TAL cells. Common variants in KCNJ1, the gene encoding ROMK, are associated with urinary levels of uromodulin in population studies. Here, we investigated the functional link between ROMK and uromodulin in Kcnj1 knock-out mouse models, in primary cultures of mouse TAL (mTAL) cells, and in patients with Bartter syndrome due to KCNJ1 mutations. Both global and kidney-specific Kcnj1 knock-out mice showed reduced urinary levels of uromodulin paralleled by increased levels in the kidney, compared to wild-type controls. Pharmacological inhibition and genetic deletion of ROMK in mTAL cells caused a reduction in apical uromodulin excretion, reflected by cellular accumulation. In contrast, NKCC2 inhibition showed no effect on uromodulin processing. Patients with Bartter syndrome type 2 showed reduced urinary uromodulin levels compared to age and gender matched controls. These results demonstrate that ROMK directly regulates processing and release of uromodulin by TAL cells, independently from NKCC2. They support the functional link between transport activity and uromodulin in the TAL, relevant for blood pressure control and urinary concentrating ability."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e805e62835f4e4777000023",
+                            "question": "Which gene is mutated in the classic Bartter's syndrome?"
+                        }
+                    ],
+                    "context": "Cystic fibrosis (CF), an autosomal recessive disorder, occurs due to mutations in CFTR gene resulting in impaired cystic fibrosis transmembrane conductance regulator (CFTR) chloride channel function in various epithelia. In addition to the well-known pulmonary and pancreatic morbidities, CF is characterized by electrolyte and acid-base abnormalities- hypochloremia, hyponatremia, hypokalemia and metabolic alkalosis. These are collectively known as Pseudo-Bartter syndrome, as similar abnormalities are seen in Bartter syndrome- an inherited tubulopathy affecting thick ascending limb of loop of Henle. There may be a significant clinical overlap between the Classic Bartter syndrome, Gitelman syndrome and CF presenting as Pseudo-Bartter syndrome, especially in early childhood. This review focuses on Pseudo-Bartter syndrome in CF, its pathogenesis and differentiation from Bartter/Gitelman syndrome. Other causes of metabolic abnormalities resembling Bartter syndrome are also highlighted."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e5438c3b761aafe09000003",
+                            "question": "Name a selective NK3R agonist."
+                        }
+                    ],
+                    "context": "We have proposed that arcuate neurons coexpressing kisspeptin, neurokinin B, and dynorphin (KNDy neurons) contribute to hot flushes via projections to neurokinin 3 receptor (NK3R)-expressing neurons in the median preoptic nucleus (MnPO). To characterize the thermoregulatory role of MnPO NK3R neurons in female mice, we ablated these neurons using injections of saporin toxin conjugated to a selective NK3R agonist. Loss of MnPO NK3R neurons increased the core temperature (TCORE) during the light phase, with the frequency distributions indicating a regulated shift in the balance point. The increase in TCORE in the ablated mice occurred despite changes in the ambient temperature and regardless of estrogen status. We next determined whether an acute increase in ambient temperature or higher TCORE would induce Fos in preoptic enhanced green fluorescent protein (EGFP)-immunoreactive neurons in Tacr3-EGFP mice. Fos activation was increased in the MnPO but no induction of Fos was found in NK3R (EGFP-immunoreactive) neurons. Thus, MnPO NK3R neurons are not activated by warm thermosensors in the skin or viscera and are not warm-sensitive neurons. Finally, RNAscope was used to determine whether Tacr3 (NK3R) mRNA was coexpressed with vesicular glutamate transporter 2 or vesicular \u03b3-aminobutyric acid (GABA) transporter mRNA, markers of glutamatergic and GABAergic neurotransmission, respectively. In the MnPO, 94% of NK3R neurons were glutamatergic, but in the adjacent medial preoptic area, 97% of NK3R neurons were GABAergic. Thus, NK3R neurons in the MnPO are glutamatergic and play a role in reducing TCORE but are not activated by warm thermal stimuli (internal or external). These findings suggest that KNDy neurons modulate thermosensory pathways for heat defense indirectly via a subpopulation of glutamatergic MnPO neurons that express NK3R."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e808ef4835f4e477700002a",
+                            "question": "What is the target of the drug Olmesartan?"
+                        }
+                    ],
+                    "context": "Hypertension is a major health problem worldwide and remains underdiagnosed and undertreated. Although public awareness and control of hypertension have improved over the last decade, only one-third of hypertensive patients achieve the rather conservative blood pressure (BP) goal of <140/90 mmHg. Most hypertensive patients require more than one drug for optimum BP control. Expert panels recommend use of combination therapy with two or more medications for Stage 2 and higher hypertension and in high-risk patients. However, the use of multiple drugs reduces patient compliance. Fixed-dose combination therapy helps improve patient compliance and thus achieve the target BP. Dose titration of the individual constituent drugs is recommended before switching to an equivalent fixed-dose combination. Randomized, controlled trials have shown that the fixed-dose combination of amlodipine-olmesartan medoxomil is more effective in lowering BP than monotherapy with either of these agents, with a similar side effect profile."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5d38767ca1e159510500000b",
+                            "question": "In which cells does TLR7 escape X-chromosome inactivation?"
+                        }
+                    ],
+                    "context": "Women develop stronger immune responses than men, with positive effects on the resistance to viral or bacterial infections but magnifying also the susceptibility to autoimmune diseases like systemic lupus erythematosus (SLE). In SLE, the dosage of the endosomal Toll-like receptor 7 (TLR7) is crucial. Murine models have shown that TLR7 overexpression suffices to induce spontaneous lupus-like disease. Conversely, suppressing TLR7 in lupus-prone mice abolishes SLE development. TLR7 is encoded by a gene on the X chromosome gene, denoted TLR7 in humans and Tlr7 in the mouse, and expressed in plasmacytoid dendritic cells (pDC), monocytes/macrophages, and B cells. The receptor recognizes single-stranded RNA, and its engagement promotes B cell maturation and the production of pro-inflammatory cytokines and antibodies. In female mammals, each cell randomly inactivates one of its two X chromosomes to equalize gene dosage with XY males. However, 15 to 23% of X-linked human genes escape X chromosome inactivation so that both alleles can be expressed simultaneously. It has been hypothesized that biallelic expression of X-linked genes could occur in female immune cells, hence fostering harmful autoreactive and inflammatory responses. We review here the current knowledge of the role of TLR7 in SLE, and recent evidence demonstrating that TLR7 escapes from X chromosome inactivation in pDCs, monocytes, and B lymphocytes from women and Klinefelter syndrome men. Female B cells where TLR7 is thus biallelically expressed display higher TLR7-driven functional responses, connecting the presence of two X chromosomes with the enhanced immunity of women and their increased susceptibility to TLR7-dependent autoimmune syndromes."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e7644a2c6a8763d23000014",
+                            "question": "When was vaxchora first licensed by the FDA?"
+                        }
+                    ],
+                    "context": "In 2016, the United States (U.S.) Food and Drug Administration (FDA) licensed Vaxchora\u00ae for active immunization against disease caused by Vibrio cholerae serogroup 01 in adults. Vaxchora was the first US-licensed vaccine for which the primary evidence supporting effectiveness was derived from human challenge studies. Following this precedent, FDA has received numerous inquiries from manufacturers, academic researchers, funders and other stakeholders regarding how controlled human infection models (CHIMs) can be used to support the development of safe and effective vaccines to address public health needs. The aims of this article are to discuss: (1) Chemistry, Manufacturing and Controls (CMC) for challenge inocula, (2) conduct of controlled human infection studies under US IND and (3) use of CHIMs to support vaccine development. General concepts and regulatory considerations for the safe conduct of CHIMs and use of CHIMs to evaluate vaccine effectiveness are discussed."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e2b00bc76af173751000004",
+                            "question": "Which tool exist for predicting drug synergy with deep learning?"
+                        }
+                    ],
+                    "context": "The recent accumulation of cancer genomic data provides an opportunity to understand how a tumor's genomic characteristics can affect its responses to drugs. This field, called pharmacogenomics, is a key area in the development of precision oncology. Deep learning (DL) methodology has emerged as a powerful technique to characterize and learn from rapidly accumulating pharmacogenomics data. We introduce the fundamentals and typical model architectures of DL. We review the use of DL in classification of cancers and cancer subtypes (diagnosis and treatment stratification of patients), prediction of drug response and drug synergy for individual tumors (treatment prioritization for a patient), drug repositioning and discovery and the study of mechanism/mode of action of treatments. For each topic, we summarize current genomics and pharmacogenomics data resources such as pan-cancer genomics data for cancer cell lines (CCLs) and tumors, and systematic pharmacologic screens of CCLs. By revisiting the published literature, including our in-house analyses, we demonstrate the unprecedented capability of DL enabled by rapid accumulation of data resources to decipher complex drug response patterns, thus potentially improving cancer medicine. Overall, this review provides an in-depth summary of state-of-the-art DL methods and up-to-date pharmacogenomics resources and future opportunities and challenges to realize the goal of precision oncology."
+                }
+            ]
+        }
+    ]
+}

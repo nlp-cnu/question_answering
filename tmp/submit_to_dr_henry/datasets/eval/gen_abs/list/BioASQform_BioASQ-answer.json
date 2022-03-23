@@ -1,0 +1,732 @@
+{
+  "questions": [
+    {
+      "type": "factoid",
+      "id": "5e2b109cfbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "Length of stay, Acuity of admission",
+        "Length of stay, Acuity of admission, Co-morbidities and Emergency department visits",
+        "Length of stay, Acuity of admission, Co-morbidities",
+        "Length of stay",
+        "Co-morbidities and Emergency department visits"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2f906ffbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "ibuprofen",
+        "metoprolol and ibuprofen",
+        "metoprolol",
+        "metoprolol, THC and ibuprofen",
+        "THC and ibuprofen"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e48136dd14c9f295d00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "embryonic fibroblasts",
+        "129S2/SvHsd mouse embryonic fibroblasts",
+        "fibroblasts",
+        "mouse embryonic fibroblasts",
+        "embryonic fibroblasts (MEFs)"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e482160d14c9f295d00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "antioxidant activity",
+        "study",
+        "antioxidants. In this study",
+        "effect of different enzymatic treatments on antioxidant activity",
+        "In this study"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5c72c9207c78d6947100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "microarray",
+        "fully automatic",
+        "segmentation methods",
+        "segmentation method",
+        "microarray image analysis"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e369ecfb5b409ea5300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "Transcribed ultraconserved regions",
+        "565",
+        "Transcribed ultraconserved regions (T-UCRs) are a subgroup of lncRNAs",
+        "Trans",
+        "Transcribed ultraconserved"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e36ad01b5b409ea5300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "transcribed ultraconserved regions",
+        "Uc.63+",
+        "Uc.63",
+        "The transcribed ultraconserved regions",
+        "ultraconserved regions"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e46e8c13f5415952900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "pyrimidine dimers",
+        "dimers",
+        "buried lesions",
+        "buried",
+        "p"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5cd96eb2a49efeb44c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "CNN-IndRNN",
+        "IndRNN",
+        "CNN-IndRNN classification model is constructed by improving the Independently Recurrent Neural Net",
+        "Recurrent Neural Net",
+        "IndRNN classification model is constructed by improving the Independently Recurrent Neural Net"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5c70273c7c78d6947100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "systemic lupus erythematosus",
+        "systemic lupus",
+        "lupus erythematosus",
+        "At least half of patients with systemic lupus erythematosus",
+        "systemic lupus erythematosus (SLE) develop organ damage as a consequence of autoimmune disease"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5c7a4ed5d774d0424000",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "minimally invasive",
+        "predictive",
+        "prognostic, predictive",
+        "diagnostic",
+        "predictive, and diagnostic"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5c7006037c78d6947100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "amyloid A",
+        "erythrocyte sedimentation rate",
+        "serum amyloid A",
+        "erythrocyte sedimentation rate (ESR), and hypersensitive C-reactive protein",
+        "hypersensitive C-reactive protein"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5c74305d7c78d6947100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "RIN/G3BPs",
+        "G3BPs",
+        "RIN",
+        "RIN/G3BPs into SGs sequesters them away from their short target mRNAs",
+        "G3BPs into SGs sequesters them away from their short target mRNAs"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5c7a4a31d774d0424000",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "limitations in sensitivity and reproducibility",
+        "limitations",
+        "limitations in sensitivity",
+        "limitations in sensitivity and reproducibility for clinical use",
+        "enzyme-linked immunosorbent assays to measure these soluble factors have limitations"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e360f3d158f994d3a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "constipation",
+        "chronic constipation",
+        "hearing loss",
+        "hearing loss and pigmentary abnormalities",
+        "hearing"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e493bc06d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "lung cancer",
+        "lung",
+        "various cancers. Here, we investigated the effects of LINC-PINT on lung cancer",
+        "cancer",
+        "various cancers. Here, we investigated the effects of LINC-PINT on lung"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2f43bafbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "severe acute respiratory syndrome",
+        "COVID-19",
+        "SARS-CoV-2) in December 2019 which causes coronavirus disease-2019 (COVID-19",
+        "severe acute respiratory syndrome coronavirus 2",
+        "coronavirus disease-2019"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e5cbf4e1af46fc13000",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "amino acids and their analogs",
+        "amino acids",
+        "sulfhydryl compounds",
+        "sulfhydryl-containing compounds",
+        "non-sulfhydryl-containing amino acids"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e48100bd14c9f295d00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "thyroid",
+        "colon",
+        "colon, female breast",
+        "colon, female breast, thyroid",
+        "thyroid, and bladder cancer"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5cf0f567a49efeb44c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "MBF",
+        "MBF (Mbp1/Swi6) and SBF",
+        "SBF",
+        "MBF (Mbp1/Swi6) and SBF (Swi4",
+        "Mbp1/Swi6) and SBF (Swi4"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e30ee25fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "multiple Allergies",
+        "dermatitis",
+        "Severe dermatitis",
+        "multiple Allergies, Metabolic wasting",
+        "Metabolic wasting"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e46f9683f5415952900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "reducing side effects",
+        "tumour effectively and minimises potential side effects",
+        "cancer",
+        "minimises potential side effects",
+        "side effects"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e4027f948dab47f2600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "meningitis",
+        "meningococciemia and meningitis",
+        "meningococciemia",
+        "ingitis",
+        "itis"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e5015436d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "MobiDB",
+        "MobiDB is the main repository of protein disorder and mobility annotations",
+        "MobiDB, emphasizing how to use and access the intrinsic disorder data. MobiDB",
+        "MobiDB is",
+        "Mob"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e4f0a4f6d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "immunoglobulin heavy chain gene",
+        "diversity",
+        "diversity of the immunoglobulin heavy chain gene",
+        "the diversity",
+        "heavy chain gene"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e55046fb761aafe0900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "fezolinetant",
+        "f",
+        "fezolin",
+        "fezolineta",
+        "triazolopiperazine substructure in an NK3R antagonist fezolinetant"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e494b0e6d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "no small-molecule inhibitors have been approved so far",
+        "six",
+        "no",
+        "16 clinical candidates and the launch of six",
+        "16"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e4be9496d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "TKIs",
+        "tyrosine kinase inhibitors",
+        "tyrosine kinase inhibitor",
+        "inhibitors",
+        "kinase inhibitors"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5d36a9507bc3fee31f00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "human T\u00a0cells",
+        "T\u00a0cells",
+        "functional human T\u00a0cells",
+        "human T\u00a0cells that have matured in the presence of human self-peptides",
+        "T\u00a0cells that have matured in the presence of human self-peptides"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e30f8abfbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "FMS-like tyrosine kinase 3",
+        "FMS",
+        "FLT3",
+        "FMS-like tyrosine kinase 3 (FLT3)",
+        "FMS-like tyrosine kinase 3 (FLT3) inhibitor"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e4163b848dab47f2600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "influenza",
+        "coronaviridae, and adenoviridae. The influenza",
+        "picornaviridae, coronaviridae, and adenoviridae. The influenza",
+        "influenza viruses",
+        "adenoviridae. The influenza"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e342175fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "anorectal anomalies",
+        "anorectal anomalies, and a presacral mass",
+        "sacral agenesis, anorectal anomalies",
+        "sacral agenesis, anorectal anomalies, and a presacral mass",
+        "presacral mass"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e36a901b5b409ea5300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "transcribed ultraconserved region",
+        "transcribed ultraconserved region (T-UCR) biomarkers",
+        "transcribed ultraconserved region (T-UCR) biomarkers related to LCXW",
+        "potential transcribed ultraconserved region",
+        "transcribed ultraconserved region (T-UCR)"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e3a6a4eb5b409ea5300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "facial weakness",
+        "diplopia and left-sided facial weakness",
+        "diplopia",
+        "horizontal diplopia and left-sided facial weakness",
+        "left-sided facial weakness"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e475d3035b8f0833c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "clinical factors",
+        "clinical factors associated with successful short-stay appendectomy",
+        "clinical",
+        "preoperative clinical factors",
+        "preoperative clinical factors associated with successful short-stay appendectomy"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e493a3e6d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "NBL2",
+        "TNBL",
+        "NBL2 transcript (TNBL)",
+        "Tumor-associated NBL2",
+        "TNBL)"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e6e4a6c51b80c942300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "Wdr5",
+        "Runx2/p57 P1 promoter is accompanied by the simultaneous interaction of Wdr5",
+        "Wdr5 and Utx",
+        "Runx2/p57 P1 promoter is accompanied by the simultaneous interaction of Wdr5 and Utx",
+        "Utx"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e6e5d1d51b80c942300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "Schizophrenia",
+        "zophrenia",
+        "schizophrenia GWASs will facilitate the understanding of genetic mechanisms of schizophrenia",
+        "chizophrenia",
+        "S"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e44baaa48dab47f2600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "PI3K/AKT",
+        "AKT",
+        "MAPK and PI3K/AKT",
+        "RAS/RAF/MEK/MAPK and PI3K/AKT",
+        "MAPK"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e35c75d158f994d3a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "Treat-to-target",
+        "Treat to target",
+        "treat-to-target strategy in axSpA",
+        "treat-to-target strategy",
+        "Treat-to-target trials"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e3e8b1c48dab47f2600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "promoted",
+        "promoted the phosphorylation and dimerization",
+        "decreases",
+        "increases",
+        "decreases in p-\u03b1Syn monomers in TBS- and sarkosyl-soluble fractions and increases"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e47546d3f5415952900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "ulcerative colitis",
+        "colitis",
+        "ulcerative",
+        "colitis in the macaque. Furthermore, signs of colitis",
+        "ulcerative co"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e80669e835f4e477700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "angiotensin-converting enzyme 2",
+        "angiotensin II receptor blockers",
+        "angiotensin-converting enzyme inhibitors and angiotensin II receptor blockers",
+        "angiotensin II receptor blockers. Coronavirus binding to angiotensin-converting enzyme 2",
+        "angiotensin-converting enzyme inhibitors"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5d387360a1e159510500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "apoptosis",
+        "promote apoptosis",
+        "proliferation, migration and invasion, and promote apoptosis",
+        "proliferation, migration and invasion",
+        "migration and invasion, and promote apoptosis"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e4949d36d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "ciliopathies",
+        "aggrecanopathies, channelopathies, ciliopathies",
+        "aggrecanopathies",
+        "ciliopathies, cohesinopathies, laminopathies",
+        "ciliopathies, cohesinopathies"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e3c841148dab47f2600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "Alzheimer's disease",
+        "Alzheimer's disease. Alzheimer's disease",
+        "Alzheimer's",
+        "Alzheimer's disease, and the acetylation of the K274 residue is thought to be linked with dementia",
+        "Alzheimer's disease. Alzheimer's"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e4703d13f5415952900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "chitosan-based long-circulating nanocarriers",
+        "nanocarriers",
+        "chitosan",
+        "long-circulating nanocarriers",
+        "chitosan-based long-circulating nanocarriers with radio-protective agents"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e52c5166d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "early stages",
+        "early",
+        "stages",
+        "early stages of multiple sclerosis",
+        "early stages of multiple sclerosis have subtle balance problems that may affect gait stability"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e6e8897c6a8763d2300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "AZD5991, S64315",
+        "AMG 176, and AMG 397",
+        "AMG 397",
+        "AZD5991",
+        "AZD5991, S64315, AMG 176, and AMG 397"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e7659db835f4e477700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "oral poliovirus vaccine",
+        "oral poliovirus",
+        "poliovirus vaccine",
+        "poliovirus",
+        "oral poliovirus vaccine (OPV)"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e80e449835f4e477700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "gallbladder",
+        "gallbladder, and testis",
+        "small intestine, kidney, gallbladder",
+        "testis",
+        "small intestine, kidney, gallbladder, and testis"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e7768f9835f4e477700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "Afrezza",
+        "Afrezza inhalation insulin",
+        "frezza",
+        "Afrezza inhalation",
+        "A"
+      ]
+    }
+  ]
+}
