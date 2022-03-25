@@ -1,0 +1,1018 @@
+{
+    "data": [
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e2dadcffbd6abf43b000011",
+                            "question": "What are the most common side effects of amantadine ER?"
+                        }
+                    ],
+                    "context": "Levodopa is the most efficacious treatment for Parkinson's disease (PD). Long-term treatment with levodopa is limited due to dyskinesia. Dyskinesia in PD can be socially and functionally disabling. Extended-release amantadine (amantadine ER) is the first approved medication for the treatment of dyskinesia. When it is given at bedtime, it reaches plasma concentration approximately twice the level achieved by amantadine immediate release. Amantadine ER reduces the severity and duration of dyskinesia during the day, reduces OFF time and increases ON time without troublesome dyskinesia. The most common side effects are hallucination, dizziness, orthostatic hypotension and pedal edema. This review discusses the safety and efficacy of amantadine ER in dyskinesia in PD patients."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e2f93bbfbd6abf43b00002e",
+                            "question": "Which symptoms comprise Abdominal aortic aneurysm rupture Triad?"
+                        }
+                    ],
+                    "context": "This study aimed to conduct a multicentre retrospective review of cases to clarify how many ruptured abdominal aortic aneurysms (RAAAs) as the cause of death could be diagnosed without post-mortem computed tomography (PMCT) when autopsies cannot be performed."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e2f9596fbd6abf43b00002f",
+                            "question": "List symptoms of Allgrove syndrome."
+                        }
+                    ],
+                    "context": "Allgrove syndrome (or triple A syndrome) is a rare autosomal recessive disorder characterized by alacrima, achalasia, ACTH-resistant adrenal insufficiency and autonomic/neurological abnormalities. It is caused by mutations in the AAAS gene, located on chromosome 12q13. We describe a 42-year-old patient who presented with neuropathy and was found to have alacrima, achalasia, mild autonomic dysfunction with significant central and peripheral nervous system involvement. She was later diagnosed with oligosymptomatic triple A syndrome. Sequencing of the AAAS gene identified two heterozygous mutations within exon 14 and its donor splice site (p.L430F-c.1288C>T and c.1331+1G>T), one of which is novel. Allgrove syndrome should be suspected in patients with neurological impairment associated with two or more of the main symptoms (alacrima, achalasia or adrenal insufficiency)."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e2b109cfbd6abf43b000002",
+                            "question": "What is included in the LACE Index?"
+                        }
+                    ],
+                    "context": "Researchers are extensively searching for modifiable risk factors including high-risk medications such as anticoagulation to avoid rehospitalisation. The influence of oral anticoagulant therapy on hospital readmission is not known. We investigated the impact of warfarin and direct oral anticoagulants (DOACs) on all cause 30-day hospital readmission retrospectively in an academic centre. We study the eligible cohort of 1781 discharges over 2-year period. Data on age, gender, diagnoses, 30-day hospital readmission, discharge medications and variables in the HOSPITAL score (Haemoglobin level at discharge, Oncology at discharge, Sodium level at discharge, Procedure during hospitalisation, Index admission, number of hospital Admissions, Length of stay) and LACE index (Length of stay, Acute/emergent admission, Charlson comorbidity index score, Emergency department visits in previous 6 months), which have higher predictability for readmission were extracted and matched for analysis. Warfarin was the most common anticoagulant prescribed at discharge (273 patients) with a readmission rate of 20% (p<0.01). DOACs were used by 94 patients at discharge with a readmission rate of 4% (p=0.219). Multivariate logistic regression showed an increased risk of readmission with warfarin therapy (OR 1.36, p=0.045). Logistic regression did not show DOACs to be a risk factor for hospital readmission. Our data suggests that warfarin therapy is a risk factor for all-cause 30-day hospital readmission. DOAC therapy is not found to be associated with a higher risk of hospital readmission. Warfarin anticoagulation may be an important target for interventions to reduce hospital readmissions."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e2f906ffbd6abf43b00002c",
+                            "question": "Which drugs are included in GI cocktail?"
+                        }
+                    ],
+                    "context": "The treatment of dyspepsia in the emergency department often consists of antacid in combination with viscous lidocaine, even though the specific etiology of the pain is frequently unknown. The efficacy of lidocaine as a component of symptomatic therapy was evaluated in a randomized, patient-blinded protocol. Patients presenting to the ED with dyspeptic symptoms were randomized to receive 30 mL of antacid (Mylanta II), or 30 mL of antacid plus 15 mL of 2% viscous lidocaine (GI cocktail). Patients recorded their pain score on an 11-cm linear analog scale prior to and 30 minutes after treatment. Seventy-six patients were enrolled; three were excluded from analysis due to incomplete data. Thirty-four patients were randomized to receive antacid and 39 to receive GI cocktail. Patients rated their baseline pain at 6.4 +/- 2.8 cm in the antacid group and 6.7 +/- 2.7 cm in the cocktail group (P greater than .50). Improvement in pain score with treatment was 0.9 +/- 2.9 cm in the antacid group compared with 4.0 +/- 3.4 cm in the GI cocktail group (P less than .0001). Assessment of pain relief using a five-point rating scale also indicated greater relief with GI cocktail therapy compared with antacid alone (P = .004). No adverse effects were noted with either treatment. We conclude that a single dose of antacid and viscous lidocaine provides a significantly greater degree of immediate pain relief than antacid alone in patients with dyspepsia."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e307a05fbd6abf43b000036",
+                            "question": "Which algorithms have been developed for analysing CRISPR/Cas9 knockout screens data?"
+                        }
+                    ],
+                    "context": "We propose the Model-based Analysis of Genome-wide CRISPR/Cas9 Knockout (MAGeCK) method for prioritizing single-guide RNAs, genes and pathways in genome-scale CRISPR/Cas9 knockout screens. MAGeCK demonstrates better performance compared with existing methods, identifies both positively and negatively selected genes simultaneously, and reports robust results across different experimental conditions. Using public datasets, MAGeCK identified novel essential genes and pathways, including EGFR in vemurafenib-treated A375 cells harboring a BRAF mutation. MAGeCK also detected cell type-specific essential genes, including BCR and ABL1, in KBM7 cells bearing a BCR-ABL fusion, and IGF1R in HL-60 cells, which depends on the insulin signaling pathway for proliferation."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e48136dd14c9f295d000008",
+                            "question": "Which cells are affected in radiation-induced leukemias?"
+                        }
+                    ],
+                    "context": "Because many cancer patients are diagnosed earlier and live longer than in the past, second cancers induced by radiation therapy have become a clinically significant issue. An earlier biologically based model that was designed to estimate risks of high-dose radiation-induced solid cancers included initiation of stem cells to a premalignant state, inactivation of stem cells at high radiation doses, and proliferation of stem cells during cellular repopulation after inactivation. This earlier model predicted the risks of solid tumors induced by radiation therapy but overestimated the corresponding leukemia risks."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e482160d14c9f295d00000c",
+                            "question": "List five proteins with antioxidant properties?"
+                        }
+                    ],
+                    "context": "N\u2011acetylcysteine (NAC) is a thiol\u2011containing antioxidant that modulates the intracellular redox state. NAC can scavenge reactive oxygen species (ROS) and maintain reduced glutathione (GSH) levels, in order to protect cardiomyocytes from oxidative stress. The present study aimed to determine whether NAC protects cardiomyocytes from oxidative damage by regulating the redox status of intracellular antioxidant proteins. The results revealed that NAC pretreatment increased cell viability and inhibited the activation of caspase\u20113, \u20118 and \u20119 during hydrogen peroxide (H2O2)\u2011induced oxidative stress in H9c2 cells. Furthermore, decreased ROS levels, and increased total and reduced GSH levels were detected in response to NAC pretreatment. Non\u2011reducing redox western blotting was performed to detect the redox status of intracellular antioxidant proteins, including thioredoxin 1 (Trx1), peroxiredoxin 1 (Prx1), GSH reductase (GSR), and phosphatase and tensin homolog (PTEN). The results revealed that the reduced form of Trx1 was markedly increased, and the oxidized forms of Prx1, GSR and PTEN were decreased following NAC pretreatment. Furthermore, NAC pretreatment decreased H2O2\u2011induced phosphorylation of apoptosis signal\u2011regulating kinase 1, which depends on the redox state of Trx1, and increased H2O2\u2011induced phosphorylation of protein kinase B, which is essential to cell survival. To the best of our knowledge, the present study is the first to reveal that NAC pretreatment may alleviate oxidation of intracellular antioxidant proteins to inhibit oxidative stress\u2011induced cardiomyocyte apoptosis."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5c72c9207c78d6947100007b",
+                            "question": "Which methods are used for genome segmentation of gene expression data?"
+                        }
+                    ],
+                    "context": "We introduce Markov models for segmentation of symbolic sequences, extending a segmentation procedure based on the Jensen-Shannon divergence that has been introduced earlier. Higher-order Markov models are more sensitive to the details of local patterns and in application to genome analysis, this makes it possible to segment a sequence at positions that are biologically meaningful. We show the advantage of higher-order Markov-model-based segmentation procedures in detecting compositional inhomogeneity in chimeric DNA sequences constructed from genomes of diverse species, and in application to the E. coli K12 genome, boundaries of genomic islands, cryptic prophages, and horizontally acquired regions are accurately identified."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e2f972bfbd6abf43b000030",
+                            "question": "List Alkaptonuria Triad."
+                        }
+                    ],
+                    "context": "Alkaptonuria is a rare disorder of metabolism caused by deficiency of homogentisic acid oxidase enzyme and characterized by triad of homogentisic aciduria (dark urine), relentlessly progressive arthritis and ochronosis. We have documented a case with typical features of alkaptonuria along with intramedullary calcification which has not been reported in the literature before."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e369ecfb5b409ea53000002",
+                            "question": "List T-UCRs that have been implicated in breast cancer"
+                        }
+                    ],
+                    "context": "Long non-coding RNAs (lncRNAs) are transcripts longer than 200 bp with no protein-coding capacity. Transcribed ultraconserved regions (T-UCRs) are a type of lncRNA and are conserved among human, chick, dog, mouse and rat genomes. These sequences are involved in cancer biology and tumourigenesis. Nevertheless, the clinical significance and biological mechanism of T-UCRs in breast cancer remain largely unknown. The expression of uc.38, a T-UCR, was down-regulated in both breast cancer tissues and breast cancer cell lines. However, uc.38 was expressed at significantly lower levels in larger tumours and tumours of more advanced stages. Based on the results of in vitro and in vivo experiments, up-regulation of uc.38 expression inhibited cell proliferation and induced cell apoptosis. Thus, uc.38 suppressed breast cancer. Additional experiments revealed that uc.38 negatively regulated the expression of the pre-B-cell leukaemia homeobox 1 (PBX1) protein and subsequently affected the expression of Bcl-2 family members, ultimately inducing breast cancer cell apoptosis. Describing the uc.38/PBX1 axis has improved our understanding of the molecular mechanisms involved in breast cancer apoptosis and has suggested that this axis is a potential therapeutic target for breast cancer."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e36ad01b5b409ea53000006",
+                            "question": "Which T-UCRs have been implicated in gastric cancer?"
+                        }
+                    ],
+                    "context": "Transcribed ultraconserved regions (T-UCRs) are a novel class of noncoding RNAs that are highly conserved among the orthologous regions in most vertebrates. It has been reported that T-UCRs have distinct signatures in human cancers. We previously discovered the downregulation of T-UCR expression in gastric cancer (GC), indicating that T-UCRs could play an important role in GC biology. Uc.160+, a T-UCR reported to be downregulated in human cancer, has not been examined in GC."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e46e8c13f5415952900000c",
+                            "question": "List types of DNA lesions caused by UV light."
+                        }
+                    ],
+                    "context": "Photolyases (PHRs) and cryptochromes (CRYs) belong to the same family known as blue-light photoreceptors. Although their amino acid sequences and corresponding structures are similar to each other, they exert different functions. PHRs function as an enzyme to repair UV-induced deoxyribonucleic acid (DNA) lesions such as a cyclobutane pyrimidine dimer (CPD) and a (6-4) photoproduct ((6-4)pp), whereas CRYs are a circadian photoreceptor in plants and animals and at the same time they control the photoperiodic induction of flowering in plants. When a new type cryptochrome was identified, it was assumed that another type of CRYs, cryptochrome-DASH (CRY-DASH), which is categorized as a subfamily of photolyase/cryptochrome family, would possess the DNA photolyase activity. However, CRY-DASH had a weak DNA photolyase activity, but the reason for this is still unclear. To clarify the reason, we performed molecular dynamics (MD) simulations for a complex of CPD-PHR or CRY-DASH with damaged double-stranded DNA (dsDNA) and estimated the binding free energy, \u0394"
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5cd96eb2a49efeb44c000003",
+                            "question": "Which software are used for the detection of selective sweeps?"
+                        }
+                    ],
+                    "context": "Linkage disequilibrium is defined as the non-random associations of alleles at different loci, and it occurs when genotypes at the two loci depend on each other. The model of genetic hitchhiking predicts that strong positive selection affects the patterns of linkage disequilibrium around the site of a beneficial allele, resulting in specific motifs of correlation between neutral polymorphisms that surround the fixed beneficial allele. Increased levels of linkage disequilibrium are observed on the same side of a beneficial allele, and diminish between sites on different sides of a beneficial mutation. This specific pattern of linkage disequilibrium occurs more frequently when positive selection has acted on the population rather than under various neutral models. Thus, detecting such patterns could accurately reveal targets of positive selection along a recombining chromosome or a genome. Calculating linkage disequilibria in whole genomes is computationally expensive because allele correlations need to be evaluated for millions of pairs of sites. To analyze large datasets efficiently, algorithmic implementations used in modern population genetics need to exploit multiple cores of current workstations in a scalable way. However, population genomic datasets come in various types and shapes while typically showing SNP density heterogeneity, which makes the implementation of generally scalable parallel algorithms a challenging task."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5c70273c7c78d69471000061",
+                            "question": "Which organs are primarily damaged in SLE?"
+                        }
+                    ],
+                    "context": "To determine the accumulated end organ damage and health status in patients with SS and to compare with patients with SLE (with or without SS)."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5c7a4ed5d774d04240000008",
+                            "question": "What are the advantages of liquid biopsy in NSCLC?"
+                        }
+                    ],
+                    "context": "The isolation and analysis of circulating cell-free tumor DNA in plasma is a powerful tool with considerable potential to improve clinical outcomes across multiple cancer types, including NSCLC. Assays of this nature that use blood as opposed to tumor samples are frequently referred to as liquid biopsies. An increasing number of innovative platforms have been recently developed that improve not only the fidelity of the molecular analysis but also the number of tests performed on a single specimen. Circulating tumor DNA assays for detection of both EGFR sensitizing and resistance mutations have already entered clinical practice and many other molecular tests - such as detection of resistance mutations for Anaplastic Lymphoma Kinase (ALK) receptor tyrosine kinase rearrangements - are likely to do so in the near future. Due to an abundance of new evidence, an appraisal was warranted to review strengths and weaknesses, to describe what is already in clinical practice and what has yet to be implemented, and to highlight areas in need of further investigation. A multidisciplinary panel of experts in the field of thoracic oncology with interest and expertise in liquid biopsy and molecular pathology was convened by the International Association for the Study of Lung Cancer to evaluate current available evidence with the aim of producing a set of recommendations for the use of liquid biopsy for molecular analysis in guiding the clinical management of advanced NSCLC patients as well as identifying unmet needs. In summary, the panel concluded that liquid biopsy approaches have significant potential to improve patient care, and immediate implementation in the clinic is justified in a number of therapeutic settings relevant to NSCLC."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e2b0d167d50947c2f000002",
+                            "question": "Which disorders are caused by de novo mutations in ZSWIM6?"
+                        }
+                    ],
+                    "context": "Acromelic frontonasal dysostosis (AFND) is a distinctive and rare frontonasal malformation that presents in combination with brain and limb abnormalities. A single recurrent heterozygous missense substitution in ZSWIM6, encoding a protein of unknown function, was previously shown to underlie this disorder in four unrelated cases. Here we describe four additional individuals from three families, comprising two sporadic subjects (one of whom had no limb malformation) and a mildly affected female with a severely affected son. In the latter family we demonstrate parental mosaicism through deep sequencing of DNA isolated from a variety of tissues, which each contain different levels of mutation. This has important implications for genetic counselling."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e2f9ceefbd6abf43b000033",
+                            "question": "Which drugs are included in PolyIran?"
+                        }
+                    ],
+                    "context": "Cardiovascular disease (CVD) is among the most common causes of mortality in all populations. Nonalcoholic steatohepatitis is a common finding in patients with CVD. Prevention of CVD in individual patients typically requires periodic clinical evaluation, as well as diagnosis and management of risk factors such as hypertension and hyperlipidemia. However, this is resource consuming and hard to implement, especially in developing countries. We designed a study to investigate the effects of a simpler strategy: a fixed-dose combination pill consisting of aspirin, valsartan, atorvastatin and hydrochlorthiazide (PolyPill) in an unselected group of persons aged over 50 years."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e2a120c76af173751000001",
+                            "question": "What are the in vivo effects of AZD8601?"
+                        }
+                    ],
+                    "context": "Capable of mediating efficient transfection and protein production without eliciting innate immune responses, chemically modified mRNA holds great potential to produce paracrine factors at a physiologically beneficial level, in a spatiotemporally controlled manner, and with low toxicity. Although highly promising in cardiovascular medicine and wound healing, effects of this emerging therapeutic on the microvasculature and its bioactivity in disease settings remain poorly understood. Here, we longitudinally and comprehensively characterize microvascular responses to AZD8601, a modified mRNA encoding vascular endothelial growth factor A (VEGF-A), in vivo. Using multi-parametric photoacoustic microscopy, we show that intradermal injection of AZD8601 formulated in a biocompatible vehicle results in pronounced, sustained and dose-dependent vasodilation, blood flow upregulation, and neovessel formation, in striking contrast to those induced by recombinant human VEGF-A protein, a non-translatable variant of AZD8601, and citrate/saline vehicle. Moreover, we evaluate the bioactivity of AZD8601 in a mouse model of diabetic wound healing in vivo. Using a boron nanoparticle-based tissue oxygen sensor, we show that sequential dosing of AZD8601 improves vascularization and tissue oxygenation of the wound bed, leading to accelerated re-epithelialization during the early phase of diabetic wound healing."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5c7006037c78d6947100005d",
+                            "question": "Which characteristics are used in the SLEDAI index for SLE patients?"
+                        }
+                    ],
+                    "context": "To determine the frequency and the time to complete recovery identified by Systemic Lupus Erythematosus Disease Activity Index 2000 (SLEDAI-2K) and the time to partial recovery identified by the SLEDAI-2K Responder Index 50 (SRI-50) in three laboratory systems over 10 years."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e2f992cfbd6abf43b000031",
+                            "question": "Which medication are included in the Polycap polypill?"
+                        }
+                    ],
+                    "context": "The Polycap (polypill; aspirin [acetylsalicylic acid], ramipril, simvastatin, atenolol, and hydrochlorothiazide) was found to be safe and effective for reducing multiple cardiovascular risk factors in The Indian Polycap Study (TIPS)."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5c74305d7c78d694710000a4",
+                            "question": "Which mRNAs are sequestered in stress granules?"
+                        }
+                    ],
+                    "context": "Upon stress, cytoplasmic mRNA is sequestered to insoluble ribonucleoprotein (RNP) granules, such as the stress granule (SG). Partially due to the belief that translationally suppressed mRNAs are recruited to SGs in bulk, stress-induced dynamic redistribution of mRNA has not been thoroughly characterized. Here, we report that endoplasmic reticulum (ER) stress targets only a small subset of translationally suppressed mRNAs into the insoluble RNP granule\u00a0fraction (RG). This subset, characterized by extended length and adenylate-uridylate (AU)-rich motifs, is highly enriched with genes critical for cell survival and proliferation. This pattern of RG targeting was conserved for two other stress types, heat shock and arsenite toxicity, which induce distinct responses in the total cytoplasmic transcriptome. Nevertheless, stress-specific RG-targeting motifs, such as guanylate-cytidylate (GC)-rich motifs in heat shock, were also identified. Previously underappreciated, transcriptome profiling in the RG may contribute to understanding human diseases associated with RNP dysfunction, such as cancer and neurodegeneration."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5c7a4a31d774d04240000006",
+                            "question": "Which are the problems associated with the use of PD-L1 as immunotherapy biomarker?"
+                        }
+                    ],
+                    "context": "Therapies targeting immune checkpoints, in particular programmed death 1 (PD-1) and its ligand programmed death ligand 1 (PD-L1), are major new strategies for the treatment of several malignancies including mestatatic non-small cell lung cancer (NSCLC). The identification of predictive biomarkers of response is required, considering efficacy, cost and potential adverse events. Expression of PD-L1 by immunohistochemistry has been associated with higher response rate and overall survival in several clinical trials evaluating anti-PD-1 and anti-PD-L1 monoclonal antibodies. Thus, PD-L1 immunohistochemical companion assays could be required for treatment with some of these therapies in NSCLC. However, heterogeneity in methodologies of PD-L1 assays in terms of primary antibodies and scoring algorithms, and tumor heterogenity for PD-L1 expression are important issues to be considered. More studies are required to compare the different assays, ensure their harmonization and standardization and identify the optimal conditions for testing. PD-L1 expression is likely an imperfect predictive biomarker for patient selection and association with other markers of the tumor immune microenvironment will be probably necessary in the future."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e360f3d158f994d3a000009",
+                            "question": "What are 3 symptoms of Waardenburg Syndrome?"
+                        }
+                    ],
+                    "context": "Waardenburg syndrome is characterized by lateral displacement of the medial canthi and lacrimal puncta, a broad nasal root, poliosis, heterochromia iridis, hyperplasia of the medial portion of the eyebrows, and congenital sensorineural deafness. As a group, these symptoms rarely occur in one individual, so care must be taken not to confuse an isolated condition with the syndrome. Of all the manifestations, the authors believe the lateral displacement of the medial canthi is the key factor in making a diagnosis. Sensorineural deafness is the most handicapping symptom. Surgical treatment is indicated for the correction of dystopia canthorum. We present a technique based on a double Z-plasty and nasal transfixion, plus attachment of the medial canthal tendons according to the techniques of Callahan and Mustard\u00e9."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e493bc06d0a277941000003",
+                            "question": "List types of cancer where Long intergenic nonprotein coding RNA p53-induced transcript (LINC-PINT) is involved"
+                        }
+                    ],
+                    "context": "Breast cancer is a heterogeneous and polygenic disease that can be divided into different molecular subtypes based on histological and genomic features. To date, numerous susceptibility loci of breast cancer have been discovered by genome-wide association studies and may expand the genetic features. However, few loci have been further studied according to molecular subtypes."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e2f43bafbd6abf43b000029",
+                            "question": "Please list 2 human diseases caused by a coronavirus."
+                        }
+                    ],
+                    "context": "Middle East respiratory syndrome coronavirus (MERS-CoV) is a novel human coronavirus that can cause human respiratory disease. The development of a detection method for this virus that can lead to rapid and accurate diagnosis would be significant. In this study, we established a nucleic acid visualization technique that combines the reverse transcription loop-mediated isothermal amplification technique and a vertical flow visualization strip (RT-LAMP-VF) to detect the N gene of MERS-CoV. The RT-LAMP-VF assay was performed in a constant temperature water bath for 30 min, and the result was visible by the naked eye within 5 min. The RT-LAMP-VF assay was capable of detecting 2 \u00d7 10"
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e2f9e0dfbd6abf43b000034",
+                            "question": "List symptoms of the Hakim Triad?"
+                        }
+                    ],
+                    "context": "Developmental venous anomalies (DVAs) are generally asymptomatic; however, they can sometimes cause central nervous disorders. Aqueductal stenosis caused by DVAs is so rare that only 14 cases have been reported to date. Moreover, most patients are children or young adults, presenting with headaches or consciousness disturbances, associated with raised intracranial pressure. Here, we report on an 83-year-old man presenting with mimic symptoms of idiopathic normal pressure hydrocephalus (cognitive disorder, gait disturbance, and urinary urgency: Hakim's triad) because of obstructive hydrocephalus caused by a DVA located in the aqueduct. Endoscopic third ventriculostomy (ETV) was performed to relieve his symptoms, and the opening pressure of the lateral ventricle was recorded to be 10 cm-H"
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e36e093b5b409ea5300000f",
+                            "question": "List Cdk targets that are dephosphorylated during cytokinesis"
+                        }
+                    ],
+                    "context": "The final event of the eukaryotic cell cycle is cytokinesis, when two new daughter cells are born. How the timing and execution of cytokinesis is controlled is poorly understood. Here, we show that downregulation of cyclin-dependent kinase (Cdk) activity, together with upregulation of its counteracting phosphatase Cdc14, controls each of the sequential steps of cytokinesis, including furrow ingression, membrane resolution and cell separation in budding yeast. We use phosphoproteome analysis of mitotic exit to identify Cdk targets that are dephosphorylated at the time of cytokinesis. We then apply a new and widely applicable tool to generate conditionally phosphorylated proteins to identify those whose dephosphorylation is required for cytokinesis. This approach identifies Aip1, Ede1 and Inn1 as cytokinetic regulators. Our results suggest that cytokinesis is coordinately controlled by the master cell cycle regulator Cdk together with its counteracting phosphatase and that it is executed by concerted dephosphorylation of Cdk targets involved in several cell biological processes. "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5d2f3a5db3a6380763000001",
+                            "question": "Which drugs used in the treatment of Systemic Lupus Erythematosus are targeting granulocytes?"
+                        }
+                    ],
+                    "context": "Myelopathy manifested clinically as acute longitudinal or transverse myelitis constitutes one of the most severe and rare neuropsychiatric manifestations of systemic lupus erythematosus (SLE) (1-3% of patients). Myelitis has been observed less commonly in other connective tissue diseases, mostly in antiphospholipid syndrome, and rarely in Sj\u00f6gren's syndrome, Beh\u00e7et's disease and mixed connective tissue disease. Acute transverse myelitis (ATM) may also be present in diseases of various etiology, including multiple sclerosis, sarcoidosis, infectious diseases and malignancies. Myelitis in SLE is manifested as a dramatic spinal cord injury leading to paralysis or muscular paresis, sensory deficits, and smooth muscle dysfunction usually in the form of sphincter dysfunction. The imaging technique of choice in case of suspected ATM is magnetic resonance imaging with intravenous contrast agent (gadolinium diethylenetriamine-pentaacid). Cerebrospinal fluid (CSF) examination in patients with ATM in the course of SLE indicate usually pleocytosis with prevalence of granulocytes, increased protein levels, low glucose levels, significantly hindering differential diagnosis in the early stage of the disease. Observations made by the authors (2 female patients with SLE) show that antibodies specific to SLE can be found in the CSF collected in the acute phase of myelitis. These observations have not yet been confirmed by other researchers. Early introduction of intravenous immunosuppression with large doses of cyclophosphamide and glucocorticosteroids improves the long-term prognosis. Other therapeutic approaches have been also used in more severe cases. Even with appropriate therapy, prognosis in this disease is uncertain."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e49c88c6d0a277941000013",
+                            "question": "List the members of a network of noncoding regulatory RNAs that play a role in the mammalian brain"
+                        }
+                    ],
+                    "context": "Noncoding RNAs (ncRNAs) play increasingly appreciated gene-regulatory roles. Here, we describe a regulatory network centered on four ncRNAs-a long ncRNA, a circular RNA, and two microRNAs-using gene editing in mice to probe the molecular consequences of disrupting key components of this network. The long ncRNA Cyrano uses an extensively paired site to miR-7 to trigger destruction of this microRNA. Cyrano-directed miR-7 degradation is much more effective than previously described examples of target-directed microRNA degradation, which come primarily from studies of artificial and viral RNAs. By reducing miR-7 levels, Cyrano prevents repression of miR-7-targeted mRNAs and enables accumulation of Cdr1as, a circular RNA known to regulate neuronal activity. Without Cyrano, excess miR-7 causes cytoplasmic destruction of Cdr1as in neurons, in part through enhanced slicing of Cdr1as by a second miRNA, miR-671. Thus, several types of ncRNAs can collaborate to establish a sophisticated regulatory network."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e5cbf4e1af46fc130000004",
+                            "question": "List approved radioprotective compounds"
+                        }
+                    ],
+                    "context": "Only two radioprotective compounds, amifostine and palifermin, currently have the US FDA approval for use in radiation therapy. However, several agents have been reported that show therapeutic promise. Many of these agents are free radical scavengers/antioxidants. Superoxide dismutase and superoxide dismutase mimetics, nitroxides and dietary antioxidants are all being investigated. Recently, alternative strategies of drug development have been evolving, which focus on targeting the series of cellular insult recognition/repair responses initiated following radiation. These agents, which include cytokines/growth factors, angiotensin-converting enzyme inhibitors and apoptotic modulators, show promise of having significant impact on the mitigation of radiation injury. Herein, we review current literature on the development of radioprotectors with emphasis on compounds with proven or potential usefulness in radiation therapy."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e48100bd14c9f295d000007",
+                            "question": "List the most common cancers after a radiation exposure?"
+                        }
+                    ],
+                    "context": "To determine the possible late effects of atomic-bomb radiation, the Life Span Study (LSS) cohort of about 120,000 individuals, including 93,000 atomic bomb survivors and 27,000 non-exposed controls, was established by the Radiation Effects Research Foundation (RERF). Mortality in this cohort has been under study since 1950. Deaths are routinely identified through the family registry system and ascertainment is virtually complete. Cancer incidence data for the LSS cohort are also available from the Hiroshima and Nagasaki population-based tumour registry established in 1958. The central finding of the LSS is an increase in cancer risk. Besides the well-known increase in leukaemia, increases in solid cancer such as cancers of the lung, breast, stomach and thyroid have also been demonstrated. Radiation-induced leukaemia occurred 2 to 3 years after exposure, reached its peak within 6 to 8 years after the bombing, and has since declined steadily. However, this has not been true of solid cancer. Radiation-induced solid cancer begins to appear at later ages than such cancer is normally prone to develop, and continues to increase proportionally with the increase in mortality or incidence in the control group as it ages. Survivors who were exposed in the first or second decade of life have just entered the cancer-prone age and have so far exhibited a high relative risk in association with radiation dose. Whether the elevated risk will continue or will fail with time is not yet clear. It is important to continue long-term follow-up of this cohort to document the changes with time since exposure. Beyond cancer risk, increased risk of non-cancer mortality is also suggested, although it is not conclusive."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5cf0f567a49efeb44c00000b",
+                            "question": "Which are the main G1/S transcription factors in yeast?"
+                        }
+                    ],
+                    "context": "The G(1)/S transition is a critical control point for cell proliferation and involves essential transcription complexes termed SBF and MBF in Saccharomyces cerevisiae or MBF in Schizosaccharomyces pombe. In the fungal pathogen Candida albicans, G(1)/S regulation is not clear. To gain more insight into the G(1)/S circuitry, we characterized Swi6p, Swi4p and Mbp1p, the closest orthologues of SBF (Swi6p and Swi4p) and MBF (Swi6p and Mbp1p) components in S. cerevisiae. The mbp1\u0394/\u0394 cells showed minor growth defects, whereas swi4\u0394/\u0394 and swi6\u0394/\u0394 yeast cells dramatically increased in size, suggesting a G(1) phase delay. Gene set enrichment analysis (GSEA) of transcription profiles revealed that genes associated with G(1)/S phase were significantly enriched in cells lacking Swi4p and Swi6p. These expression patterns suggested that Swi4p and Swi6p have repressing as well as activating activity. Intriguingly, swi4\u0394/\u0394 swi6\u0394/\u0394 and swi4\u0394/\u0394 mbp1\u0394/\u0394 strains were viable, in contrast to the situation in S. cerevisiae, and showed pleiotropic phenotypes that included multibudded yeast, pseudohyphae, and intriguingly, true hyphae. Consistently, GSEA identified strong enrichment of genes that are normally modulated during C. albicans-host cell interactions. Since Swi4p and Swi6p influence G(1) phase progression and SBF binding sites are lacking in the C. albicans genome, these factors may contribute to MBF activity. Overall, the data suggest that the putative G(1)/S regulatory machinery of C. albicans contains novel features and underscore the existence of a relationship between G(1) phase and morphogenetic switching, including hyphal development, in the pathogen."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e5b626fb761aafe0900000c",
+                            "question": "What molecules are the multidrug transporter MDR3 targeting?"
+                        }
+                    ],
+                    "context": "Multidrug-resistant P-glycoprotein 3 (MDR3) is a phospholipid translocator encoded by the ABCB4 gene located on chromosome 7. MDR3 mediates the translocation of phosphatidylcholine across the canalicular membrane of the hepatocyte into bile. Severe MDR3 deficiency typically occurs during childhood with progressive cholestasis evolving to cirrhosis and liver failure, requiring liver transplantation. In this article, we report 2 pediatric cases of severe MDR3 deficiency with paucity of interlobular bile ducts. Both underwent living donor liver transplantation at our center for decompensated liver disease and portal hypertension. We diagnosed severe MDR3 deficiency in both the cases with negative MDR3 immunostaining in the explanted liver. Genetic studies revealed homozygous deletion single base pair deletion in exon 24 of the ABCB4 gene in the second child. The patients are on regular follow-up after liver transplant and are doing well. Our report highlights that cholangiopathy in MDR3 deficiency can lead to ductopenia in pediatric livers."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e30ee25fbd6abf43b00003f",
+                            "question": "List features of the SAM syndrome."
+                        }
+                    ],
+                    "context": "Severe dermatitis, multiple allergies and metabolic wasting (SAM) syndrome is a recently recognized syndrome caused by mutations in the desmoglein 1 (DSG1) and desmoplakin (DSP) genes. Only two cases of SAM-DSP have been reported. We report on a 2-year-old girl presenting with pustular lakes within areas of erythema and large accumulations of intraepidermal neutrophils, which initially led to our misdiagnosis of generalized pustular psoriasis. No mutation was found in either the IL36RN or CARD14 genes by Sanger sequencing. The distinctive manifestations of erythroderma with severe itching, hypotrichosis, enamel defects, onychodystrophy, palmoplantar keratoderma and the crucial result of de novo missense mutation in exon 14 of the DSP gene (c.1828T>C, p.S610P) discovered by next-generation sequencing finally confirmed the diagnosis of SAM syndrome. The eruptions significantly improved after a 4-week treatment with oral acitretin and topical pimecrolimus. Oral gabapentin was prescribed simultaneously for 4\u00a0months, relieving her skin pruritus and suggesting that early treatment with pimecrolimus, acitretin and gabapentin for SAM-DSP syndrome is effective. It may even inhibit multiple allergies induced by skin barrier injury. In this work we also review the clinical features, differential diagnoses and pathological manifestations of SAM-DSP syndrome."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e30f12afbd6abf43b000041",
+                            "question": "Which drugs were tested in the CheckMate 227 clinical trial?"
+                        }
+                    ],
+                    "context": "The first data from the phase III CheckMate-227 trial of ipilimumab plus nivolumab for the treatment of non-small cell lung cancer suggests that the two drugs boost progression-free survival in patients with a high tumor mutation burden. After 1 year, progression-free survival was 43% for patients treated with the checkpoint inhibitor combination, compared with 13% for patients treated with chemotherapy."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e46f9683f54159529000010",
+                            "question": "List side effects of radiation therapy?"
+                        }
+                    ],
+                    "context": "Radiation-induced fibrosis (RIF) is one of the severe long-term side effects of radiation therapy (RT) with a crucial impact on the development of postoperative wound healing disorders (WHD). The grades of fibrosis vary between mild to severe depending on individual radiosensitivity. In this study, we have investigated the molecular pathways that influence RIF and have correlated data from immunohistochemistry (IHC) for von -Willebrand Factor (vWF) and from Real-Time Polymerase Chain Reaction (RT-PCR) concerning markers such as Transforming Growth Factor (TGF)-\u03b2 1, and vWF, with clinical data concerning the occurrence of WHD during follow-up."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e4027f948dab47f2600000d",
+                            "question": "List diseases that are caused by the Meningococcus B?"
+                        }
+                    ],
+                    "context": "Sepsis and meningitis caused by serogroup B meningococcus are devastating diseases of infants and young adults, which cannot yet be prevented by vaccination. By genome mining, we discovered GNA1870, a new surface-exposed lipoprotein of Neisseria meningitidis that induces high levels of bactericidal antibodies. The antigen is expressed by all strains of N. meningitidis tested. Sequencing of the gene in 71 strains representative of the genetic and geographic diversity of the N. meningitidis population, showed that the protein can be divided into three variants. Conservation within each variant ranges between 91.6 to 100%, while between the variants the conservation can be as low as 62.8%. The level of expression varies between strains, which can be classified as high, intermediate, and low expressors. Antibodies against a recombinant form of the protein elicit complement-mediated killing of the strains that carry the same variant and induce passive protection in the infant rat model. Bactericidal titers are highest against those strains expressing high yields of the protein; however, even the very low expressors are efficiently killed. The novel antigen is a top candidate for the development of a new vaccine against meningococcus."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e52c1fd6d0a27794100004c",
+                            "question": "List types of cancer where TBC1 domain family member 16 (TBC1D16) is involved"
+                        }
+                    ],
+                    "context": "Epithelial ovarian cancer (EOC) is the most lethal gynecologic malignancy with high recurrence and poor prognosis duo to the lack of effective biomarkers. TBC1 domain family member 16 (TBC1D16), a GTPase-activating protein, is involved in regulating intracellular trafficking in tumorigenesis and metastasis. However, the clinical significance of TBC1D16 in EOC remains unknown. In the present study, we investigated the expression and prognostic significance of TBC1D16 in EOC and its relationship with the expression of vascular endothelial growth factor (VEGF). The tissue specimens included 156 histologically confirmed EOC and 30 normal ovarian tissues. The expression of TBC1D16 and VEGF was detected by immunohistochemistry (IHC), and the immunoreactive score was calculated with signal intensity and percentage of positive cells. IHC results showed that TBC1D16 and VEGF were both mainly localized in cytoplasm of epithelial cells in normal ovarian tissues and were expressed in cancer cells. Based on the immunoreactive score, TBC1D16 expression in EOC was categorized as \"high expression,\" compared with normal ovarian tissues (P < 0.05). The Chi-square test showed that high TBC1D16 expression was related to advanced pT stages (P = 0.029), but not correlated with other clinical features. Moreover, the TBC1D16 expression was significantly higher in EOC specimens with low VEGF expression (P < 0.001). Importantly, in both univariate and multivariate survival analyses, high expression of TBC1D16 was significantly correlated with good overall survival (OS). In conclusion, TBC1D16 is a predictive marker for favorable prognosis of EOC."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e36e254b5b409ea53000010",
+                            "question": "List SLC25A46-related pathologies"
+                        }
+                    ],
+                    "context": "The mitochondrial protein SLC25A46 has been recently identified as a novel pathogenic cause in a wide spectrum of neurological diseases, including inherited optic atrophy, Charcot-Marie-Tooth type 2, Leigh syndrome, progressive myoclonic ataxia and lethal congenital pontocerebellar hypoplasia. SLC25A46 is an outer membrane protein, member of the Solute Carrier 25 (SLC25) family of nuclear genes encoding mitochondrial carriers, with a role in mitochondrial dynamics and cristae maintenance. Here we identified a loss-of-function mutation in the Slc25a46 gene that causes lethal neuropathology in mice. Mutant mice manifest the main clinical features identified in patients, including ataxia, optic atrophy and cerebellar hypoplasia, which were completely rescued by expression of the human ortholog. Histopathological analysis revealed previously unseen lesions, most notably disrupted cytoarchitecture in the cerebellum and retina and prominent abnormalities in the neuromuscular junction. A distinct lymphoid phenotype was also evident. Our mutant mice provide a valid model for understanding the mechanistic basis of the complex SLC25A46-mediated pathologies, as well as for screening potential therapeutic interventions."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e5015436d0a277941000037",
+                            "question": "Which are the databases for intrinsic protein disorders?"
+                        }
+                    ],
+                    "context": "The MobiDB (URL: mobidb.bio.unipd.it) database of protein disorder and mobility annotations has been significantly updated and upgraded since its last major renewal in 2014. Several curated datasets for intrinsic disorder and folding upon binding have been integrated from specialized databases. The indirect evidence has also been expanded to better capture information available in the PDB, such as high temperature residues in X-ray structures and overall conformational diversity. Novel nuclear magnetic resonance chemical shift data provides an additional experimental information layer on conformational dynamics. Predictions have been expanded to provide new types of annotation on backbone rigidity, secondary structure preference and disordered binding regions. MobiDB 3.0 contains information for the complete UniProt protein set and synchronization has been improved by covering all UniParc sequences. An advanced search function allows the creation of a wide array of custom-made datasets for download and further analysis. A large amount of information and cross-links to more specialized databases are intended to make MobiDB the central resource for the scientific community working on protein intrinsic disorder and mobility."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e4f0a4f6d0a277941000031",
+                            "question": "List the 5 different human immunoglobulin heavy chains."
+                        }
+                    ],
+                    "context": "The neoplastic proliferation of single clones of plasma cells causes synthesis of very large amount of monoclonal immunoglobulins consisting of only one type of heavy either the gamma, alpha, mu, delta or epsilon chain or only kappa or lambda light chains. Each monoclonal immunolobulin differs idiotypically from each other. These monoclonal immunoglobulins are also called paraproteins and are frequently associated with a broad heterogeneous group of plasma cell dyscrasias. Occasionally their presence is observed in a few benign conditions and in old age. In the present review a detailed account of different types of monoclonal gammapathies are described."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e55046fb761aafe09000004",
+                            "question": "List 3 NK3R antagonists."
+                        }
+                    ],
+                    "context": "Loss-of-function or inactivating mutations in the genes coding for kisspeptin and its receptor (KISS1R) or neurokinin B (NKB) and the NKB receptor (NK3R) in humans result in a delay in or the absence of puberty. However, precise mechanisms of kisspeptin and NKB signaling in the regulation of the pubertal increase in gonadotropin-releasing hormone (GnRH) release in primates are unknown. In this study, we conducted a series of experiments infusing agonists and antagonists of kisspeptin and NKB into the stalk-median eminence, where GnRH, kisspeptin, and NKB neuroterminal fibers are concentrated, and measuring GnRH release in prepubertal and pubertal female rhesus monkeys. Results indicate that (1) similar to those previously reported for GnRH stimulation by the KISS1R agonist (i.e., human kisspeptin-10), the NK3R agonist senktide stimulated GnRH release in a dose-responsive manner in both prepubertal and pubertal monkeys; (2) the senktide-induced GnRH release was blocked in the presence of the KISS1R antagonist peptide 234 in pubertal but not prepubertal monkeys; and (3) the kisspeptin-induced GnRH release was blocked in the presence of the NK3R antagonist SB222200 in the pubertal but not prepubertal monkeys. These results are interpreted to mean that although, in prepubertal female monkeys, kisspeptin and NKB signaling to GnRH release is independent, in pubertal female monkeys, a reciprocal signaling mechanism between kisspeptin and NKB neurons is established. We speculate that this cooperative mechanism by the kisspeptin and NKB network underlies the pubertal increase in GnRH release in female monkeys."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e51c6036d0a27794100003c",
+                            "question": "List the clinical characteristics of the Smith-Kingsmore syndrome (SKS)"
+                        }
+                    ],
+                    "context": "Smith-Kingsmore syndrome (SKS) OMIM #616638, also known as MINDS syndrome (ORPHA 457485), is a rare autosomal dominant disorder reported so far in 23 patients. SKS is characterized by intellectual disability, macrocephaly/hemi/megalencephaly, and seizures. It is also associated with a pattern of facial dysmorphology and other non-neurological features. Germline or mosaic mutations of the mTOR gene have been detected in all patients. The mTOR gene is a key regulator of cell growth, cell proliferation, protein synthesis and synaptic plasticity, and the mTOR pathway (PI3K-AKT-mTOR) is highly regulated and critical for cell survival and apoptosis. Mutations in different genes in this pathway result in known rare diseases implicated in hemi/megalencephaly with epilepsy, as the tuberous sclerosis complex caused by mutations in TSC1 and TSC2, or the PIK3CA-related overgrowth spectrum (PROS). We here present 4 new cases of SKS, review all clinical and molecular aspects of this disorder, as well as some characteristics of the patients with only brain mTOR somatic mutations."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e494b0e6d0a277941000007",
+                            "question": "List 3 PD-L1 inhibitors on the market as of 2018."
+                        }
+                    ],
+                    "context": "Lung cancer is the leading cause of cancer death in France with low response rates to conventional chemotherapy. Nevertheless, new therapies have emerged recently, among which PD1 immune checkpoint inhibitors (ICI), such as nivolumab (OPDIVO"
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e4be9496d0a27794100002a",
+                            "question": "Please list 3 drugs that have EGFR as their primary target."
+                        }
+                    ],
+                    "context": "Lung cancer is the foremost cause of cancer-related deaths world-wide. Both, the major forms of lung cancer, Non-small cell lung cancer (NSCLC) and Small cell lung cancers (SCLC), have responded effectively to chemo-, radiation and adjuvant-therapies. Tumor removal through surgery also appeared as a good therapeutic strategy. However, these therapies demonstrated unfavourable side-effects, and hence novel drugs targeting lung cancer emerged essential. Activation of epidermal growth factor receptor (EGFR)-tyrosine kinases is a key reason for lung cancer progression. Two important strategies that have attenuated lung cancers were through treatments with EGFR-tyrosine kinase-inhibitors, erlotinib and gefitinib, or EGFR-neutralizing antibodies, cetuximab and bevacizumab. A major advantage with erlotinib and gefitinib was their role in second and third-line treatments following chemotherapies. Phase II/III clinical trials showed that combinatorial treatment of tyrosine kinase (TK)-inhibitors with chemotherapeutics, such as docetaxel and pemetrexed, caused significant improvements in progression-free survival and overall survival.Phase I and II clinical studies also revealed that combination of tyrosine kinase-inhibitors with the EGFR-targeted antibodies was an effective approach for treating lung cancer. However, patients having T790M-mutations within EGFR gene were resistant to erlotinib and gefitinib. Alternatively, another second-generation EGFR-tyrosine kinase-inhibitor, afatinib, that could circumvent the problem of drug resistance has been developed as lung cancer therapy. The current review focuses on the role of EGFR in lung cancer progression and apprises about the EGFR-targeted therapies. The review also informs on the adverse side-effects of these therapies and enlightens the need for safer therapeutic regimens to eradicate this dreaded disease."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5d36a9507bc3fee31f000005",
+                            "question": "Which cells mature in the human thymus?"
+                        }
+                    ],
+                    "context": "There is evidence for both physiological functions of the natural neurotransmitter, acetylcholine, and pharmacological actions of the plant alkaloid, nicotine, on the development and function of the immune system. The effects of continuous exposure to nicotine over a 12-day course of fetal thymus organ culture (FTOC) were studied, and thymocytes were analyzed by flow cytometry. In the presence of very low concentrations of nicotine many more immature T cells (defined by low or negative TCR expression) and fewer mature T cells (intermediate or high expression of TCR) were produced. In addition, the numbers of cells expressing CD69 and, to a lesser extent, CD95 (Fas) were increased. These effects took place when fetal thymus lobes from younger (13-14 days gestation) pups were used for FTOC. If FTOC were set up using tissue from older (15-16 days gestation pups), nicotine had little effect, suggesting that it may act only on immature T cell precursors. Consistent with an increase in immature cells, the expression of recombinase-activating genes was found to be elevated. Nicotine effects were partially blocked by the simultaneous addition of the nicotinic antagonist d-tubocurarine. Furthermore, d-tubocurarine alone blocked the development of both immature and mature murine thymocytes, suggesting the presence of an endogenous ligand that may engage nicotinic acetylcholine receptors on developing thymocytes and influence the course of normal thymic ontogeny."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e30f8abfbd6abf43b000047",
+                            "question": "Which molecules are inhibited by Gilteritinib?"
+                        }
+                    ],
+                    "context": "Therapeutic effects of FLT3 inhibitors have been reported in acute myeloid leukemia (AML) with constitutively activating "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e4163b848dab47f2600000f",
+                            "question": "List 3 human diseases caused by  viruses in the family Paramyxoviridae."
+                        }
+                    ],
+                    "context": "Mumps is a Paramyxoviridae virus. This disease was rampant prior to introduction of the measles, mumps, and rubella vaccine, resulting in decreased incidence. This disease has demonstrated several outbreaks."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e342175fbd6abf43b000064",
+                            "question": "List features of the Currarino triad."
+                        }
+                    ],
+                    "context": "Partial duplications of the long arm of chromosome 3, dup(3q), are a rare but well-described condition, sharing features of Cornelia de Lange syndrome. Around two thirds of cases are derived from unbalanced translocations, whereas pure dup(3q) have rarely been reported. Here, we provide an extensive review of the literature on dup(3q). This search revealed several patients with caudal malformations and anomalies, suggesting that caudal malformations or anomalies represent an inherent phenotypic feature of dup(3q). In this context, we report a patient with a pure de novo duplication 3q26.32-q27.2. The patient had the clinical diagnosis of Currarino syndrome (CS) (characterized by the triad of sacral anomalies, anorectal malformations and a presacral mass) and additional features, frequently detected in patients with a dup(3q). Mutations within the MNX1 gene were found to be causative in CS but no MNX1 mutation could be detected in our patient. Our comprehensive search for candidate genes located in the critical region of the duplication 3q syndrome, 3q26.3-q27, revealed a so far neglected phenotypic overlap of dup(3q) and the Pierpont syndrome, associated with a mutation of the TBL1XR1 gene on 3q26.32."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e36a901b5b409ea53000005",
+                            "question": "Which T-UCRs have been implicated in lung cancer?"
+                        }
+                    ],
+                    "context": "The transcribed ultraconserved regions (T-UCRs) encode long non-coding RNAs implicated in human carcinogenesis. Their mechanisms of action and the factors regulating their expression in cancers are poorly understood. Here we show that high expression of uc.339 correlates with lower survival in 210 non-small cell lung cancer (NSCLC) patients. We provide evidence from cell lines and primary samples that TP53 directly regulates uc.339. We find that transcribed uc.339 is upregulated in archival NSCLC samples, functioning as a decoy RNA for miR-339-3p, -663b-3p, and -95-5p. As a result, Cyclin E2, a direct target of all these microRNAs is upregulated, promoting cancer growth and migration. Finally, we find that modulation of uc.339 affects microRNA expression. However, overexpression or downregulation of these microRNAs causes no\u00a0significant variations in uc.339 levels, suggesting a type of interaction for uc.339 that we call \"entrapping\". Our results support a key role for uc.339 in lung cancer."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e3a6a4eb5b409ea53000016",
+                            "question": "List symptoms of the One-and-a-half syndrome."
+                        }
+                    ],
+                    "context": "One-and-a-half syndrome is a clinical disorder featuring extraocular movements characterized by horizontal conjugate gaze palsy with internuclear ophthalmoplegia. It usually results from a unilateral lesion of the midbrain, and the most common cause of this syndrome in young women is multiple sclerosis. We report the case of a 38-year-old woman diagnosed as having acute myeloblastic leukemia presenting with characteristic neurologic and imaging features of one-and-a-half syndrome. Hyperleukocytosis, cancer procoagulants, tissue factor expression, and the increased proteolysis of coagulation factors by leukemic cells may all contribute to the propensity for thrombotic vascular occlusion. The optimal treatment of acute brain infarction in acute leukemia patients with hyperleukocytosis remains unclear. However, this patient illustrates that leukapheresis alone can provide rapid and effective relief of visual symptoms without neurologic sequela. To achieve better outcomes and survival, clinicians must maintain a heightened awareness of this distinctly unusual manifestation."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e639b111af46fc130000012",
+                            "question": "List the cancers that are associated with SBLA syndrome."
+                        }
+                    ],
+                    "context": "Epidemiological data on the 14 cases of adrenal cortical tumour registered with the Manchester Children's Tumour Registry from 1954 and 1985 are presented. The incidence of adrenal cortical carcinomas was 0.3%, mainly in girls, most of whom presented with virilisation. The incidence of neoplastic disease among close relatives was ascertained, but, except in siblings, this was not significantly higher than would be expected. Evidence from extended pedigrees, however, indicates that at least four of the children could be members of families with the SBLA (sarcoma, breast and brain tumour, leukaemia, laryngeal and lung cancer, and adrenal cortical carcinoma) cancer family syndrome, and that other relatives may be at risk of developing such neoplasms."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e475d3035b8f0833c000002",
+                            "question": "Which factors are included in the the APPEND score?"
+                        }
+                    ],
+                    "context": "Although many clinical prediction rules (CPRs) for appendicitis exist, none have been developed for a New Zealand population presenting with right iliac fossa (RIF) pain. The aim of this study was to derive and validate an appendicitis CPR for our population."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e493a3e6d0a277941000002",
+                            "question": "Which lncRNAS are regulated by SAM68?"
+                        }
+                    ],
+                    "context": "The KH-type RNA binding protein Sam68 is required for adipogenesis. We have previously shown that Sam68-deficient mice have a lean phenotype and are protected against dietary-induced obesity due to defects in mTOR and S6K1 alternative splicing. Herein we profiled the transcriptome of Sam68 wild type and deficient 3T3-L1 mouse preadipocytes. We identified 652 protein-coding genes and 9 ncRNAs that were significantly altered with the loss of Sam68. As expected, downregulated genes were significantly associated with GO terms linked to cell migration, motility, and fat cell differentiation, while upregulated genes were mostly associated with GO terms linked to neurogenesis. Of the lncRNAs, we identified "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e6e4a6c51b80c9423000002",
+                            "question": "List the components of the COMPASS complex"
+                        }
+                    ],
+                    "context": "The lysine methyltransferase KMT2C (also known as MLL3), a subunit of the COMPASS complex, implements monomethylation of Lys4 on histone H3 (H3K4) at gene enhancers. KMT2C (hereafter referred to as MLL3) frequently incurs point mutations across a range of human tumor types, but precisely how these lesions alter MLL3 function and contribute to oncogenesis is unclear. Here we report a cancer mutational hotspot in MLL3 within the region encoding its plant homeodomain (PHD) repeats and demonstrate that this domain mediates association of MLL3 with the histone H2A deubiquitinase and tumor suppressor BAP1. Cancer-associated mutations in the sequence encoding the MLL3 PHD repeats disrupt the interaction between MLL3 and BAP1 and correlate with poor patient survival. Cancer cells that had PHD-associated MLL3 mutations or lacked BAP1 showed reduced recruitment of MLL3 and the H3K27 demethylase KDM6A (also known as UTX) to gene enhancers. As a result, inhibition of the H3K27 methyltransferase activity of the Polycomb repressive complex 2 (PRC2) in tumor cells harboring BAP1 or MLL3 mutations restored normal gene expression patterns and impaired cell proliferation in vivo. This study provides mechanistic insight into the oncogenic effects of PHD-associated mutations in MLL3 and suggests that restoration of a balanced state of Polycomb-COMPASS activity may have therapeutic efficacy in tumors that bear mutations in the genes encoding these epigenetic factors."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e6e5d1d51b80c9423000003",
+                            "question": "List psychiatric diseases that are associated with Synaptosome Associated Protein 25 (snap25)."
+                        }
+                    ],
+                    "context": "SNAP-25 protein is contributory to plasma membrane and synaptic vesicle fusions that are critical points in neurotransmission. SNAP-25 gene is associated with behavioral symptoms, personality and psychological disorders. In addition, SNAP-25 protein can be related to different neurotransmitter functions due to its association with vesicle membrane transition and fusion. This is important because neurologic, cognitive, and psychologic disorders in fibromyalgia syndrome (FMS) can be related to this function. This relationship may be enlightening for etiopathogenesis of FMS and treatment approaches. We aimed to study a SNAP-25 gene polymorphism, which is related to many psychiatric diseases, and FMS association in this prospective study."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e7f5a18835f4e4777000013",
+                            "question": "List the vaccine strains contained in Fluvirin."
+                        }
+                    ],
+                    "context": "Microneedle patches provide an alternative to conventional needle-and-syringe immunisation, and potentially offer improved immunogenicity, simplicity, cost-effectiveness, acceptability, and safety. We describe safety, immunogenicity, and acceptability of the first-in-man study on single, dissolvable microneedle patch vaccination against influenza."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e7f5b43835f4e4777000014",
+                            "question": "List the attenuated live viruses contained in the Fluzone intradermal quadrivalent vaccine."
+                        }
+                    ],
+                    "context": "An intradermal version of Fluzone\u00ae split-virion inactivated trivalent influenza vaccine, containing 9\u00a0\u00b5g hemagglutinin per strain of A/H1N1, A/H3N2, and one B lineage virus (Fluzone Intradermal, Sanofi Pasteur), became available in the US during the 2011-2012 influenza season for adults 18-64\u00a0years of age. In advance of the 2015-2016 season, Fluzone Intradermal was replaced with Fluzone Intradermal Quadrivalent vaccine, which contains 9\u00a0\u00b5g hemagglutinin per strain of the two A-strain viruses and both B-strain lineage viruses (Victoria and Yamagata)."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e44baaa48dab47f2600001a",
+                            "question": "Which kinases are inhibited by Pyrotinib?"
+                        }
+                    ],
+                    "context": "Purpose This phase I study assessed the safety, tolerability, pharmacokinetics, antitumor activity, and predictive biomarkers of pyrotinib, an irreversible pan-ErbB inhibitor, in patients with human epidermal growth factor receptor 2 (HER2)-positive metastatic breast cancer. Patients and Methods Pyrotinib was administered continuously, orally, once per day to patients who did not have prior exposure to tyrosine kinase inhibitors of HER2. Planned dose escalation was 80, 160, 240, 320, 400, and 480 mg. For pharmacokinetic analysis, timed blood samples were collected on day 1 and day 28. Next-generation sequencing was performed on circulating tumor DNA and genomic DNA from tumor samples. Results Thirty-eight patients were enrolled. The dose-limiting toxicity was grade 3 diarrhea, which occurred in two patients administered 480 mg of pyrotinib; thus, the maximum tolerated dose was 400 mg. Common pyrotinib-related adverse events included diarrhea (44.7% [17 of 38]), nausea (13.2% [five of 38]), oral ulceration (13.2% [five of 38]), asthenia (10.5% [four of 38]), and leukopenia (10.5% [four of 38]). The only grade 3 adverse event was diarrhea. Pharmacokinetic analyses indicated that pyrotinib exposure was dose dependent. The overall response rate was 50.0% (18 of 36), and the clinical benefit rate (complete response + partial response + stable disease \u2265 24 weeks) was 61.1% (22 of 36). The median progression-free survival was 35.4 weeks (95% CI, 23.3 to 40.0 weeks). The overall response rate was 83.3% (10 of 12) in trastuzumab-naive patients and 33.3% (eight of 24) in trastuzumab-pretreated patients. Preliminary results suggest that PIK3CA and TP53 mutations in circulating tumor DNA ( P = .013) rather than in archival tumor tissues ( P = .474) may predict the efficacy of pyrotinib. Conclusion Continuous once-per-day pyrotinib was well tolerated and demonstrated promising antitumor activity in HER2-positive patients with metastatic breast cancer. The maximum tolerated dose was established as 400 mg. Diarrhea was the dose-limiting toxicity. The promising antitumor activity and acceptable tolerability of pyrotinib warrant its further evaluation in a phase II study."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e35c75d158f994d3a000001",
+                            "question": "List targeted genome editing methodologies"
+                        }
+                    ],
+                    "context": "Non-bilaterian phyla represent key lineages for exploring the evolutionary history of early animals. However, despite an increasing number of sequenced genomes from early-branching metazoans, efficient and reproducible methodologies for analysis of gene function remain a major challenge. Here we report the utilization of the TALEN and CRISPR/Cas9 systems to induce targeted mutations and homologous recombination-mediated transgenesis in the sea anemone Nematostella vectensis. We also present a new method to isolate genetically modified animals using engineered selection cassettes introduced by homologous recombination. Taken together, these methods will permit sophisticated gain- and loss-of-function analyses in Nematostella and perhaps other early metazoan species that allow for zygotic injection. "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e3e8b1c48dab47f26000008",
+                            "question": "What are the effects of 14-3-3 dimers on Tau phosphorylation?"
+                        }
+                    ],
+                    "context": "Neurodegenerative dementias collectively known as Tauopathies involve aberrant phosphorylation and aggregation of the neuronal protein Tau. The largely neuronal 14-3-3 proteins are also elevated in the central nervous system (CNS) and cerebrospinal fluid of Tauopathy patients, suggesting functional linkage. We use the simplicity and genetic facility of the Drosophila system to investigate in vivo whether 14-3-3s are causal or synergistic with Tau accumulation in precipitating pathogenesis. Proteomic, biochemical and genetic evidence demonstrate that both Drosophila 14-3-3 proteins interact with human wild-type and mutant Tau on multiple sites irrespective of their phosphorylation state. 14-3-3 dimers regulate steady-state phosphorylation of both wild-type and the R406W mutant Tau, but they are not essential for toxicity of either variant. Moreover, 14-3-3 elevation itself is not pathogenic, but recruitment of dimers on accumulating wild-type Tau increases its steady-state levels ostensibly by occluding access to proteases in a phosphorylation-dependent manner. In contrast, the R406W mutant, which lacks a putative 14-3-3 binding site, responds differentially to elevation of each 14-3-3 isoform. Although excess 14-3-3\u03b6 stabilizes the mutant protein, elevated D14-3-3\u025b has a destabilizing effect probably because of altered 14-3-3 dimer composition. Our collective data demonstrate the complexity of 14-3-3/Tau interactions in vivo and suggest that 14-3-3 attenuation is not appropriate ameliorative treatment of Tauopathies. Finally, we suggest that 'bystander' 14-3-3s are recruited by accumulating Tau with the consequences depending on the composition of available dimers within particular neurons and the Tau variant."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e4b52e36d0a27794100001b",
+                            "question": "Which drugs are included in the drug LONSURF?"
+                        }
+                    ],
+                    "context": "Treatment-related adverse events (AEs) are common in patients with metastatic colorectal cancer (mCRC) receiving chemotherapy. These AEs may affect patient adherence, particularly with completely oral regimens, such as trifluridine/tipiracil (TAS-102, Lonsurf\u00ae), an antimetabolite agent for patients with mCRC refractory or intolerant to standard therapies.\u2029."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5d38673da1e1595105000002",
+                            "question": "Which micro-RNAs (miR) are associated with the human cycloxygenase-2 (COX-2) gene promoter?"
+                        }
+                    ],
+                    "context": "Mammalian folliculogenesis is a complex process in which primordial follicles develop into pre-ovulatory follicles, followed by ovulation to release mature oocytes. In this study, we explored the role of miR-144 in ovulation. miR-144 was one of the differentially expressed microRNAs, which showed 5.59-fold changes, in pre-ovulatory ovarian follicles between Large White and Chinese Taihu sows detected by Solexa deep sequencing. We demonstrated that overexpression of miR-144 significantly decreased the luciferase reporter activity under the control of the cyclooxygenase-2 (COX-2) or mothers against decapentaplegic homologue 4 (Smad4) 3'-untranslated region (3'-UTR) and suppressed COX-2 and Smad4 expression. In contrast, a miR-144 inhibitor increased COX-2 and Smad4 expression in mouse granulosa cells (mGCs). Meanwhile, Smad4 upregulated COX-2 expression, but this effect was abolished when the mGCs were treated with the transforming growth factor beta signalling pathway inhibitor SB431542. Moreover, luciferase reporter, chromatin immunoprecipitation and electrophoretic mobility shift assay results showed that the transcription factor CP2 upregulated miR-144 expression, which partially contributed to the suppression of COX-2 in mGCs. Both CP2 and miR-144 alter prostaglandin E2 (PGE2) production by regulating COX-2 expression. In addition, miR-144 regulated mGC apoptosis and affected follicular atresia, but these activities did not appear to be through COX-2 and Smad4. Taken together, we revealed an important CP2/miR-144/COX-2/PGE2/ovulation pathway in mGCs."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e5e50751af46fc13000000b",
+                            "question": "What classes of drugs does Retapamulin belong to?"
+                        }
+                    ],
+                    "context": "Retapamulin is a semisynthetic pleuromutilin derivative being developed as a topical antibiotic for treating bacterial infections of the skin. It is potent in vitro against susceptible and multidrug-resistant organisms commonly associated with bacterial skin infections. We report detailed mode of action studies demonstrating that retapamulin binds to the bacterial ribosome with high affinity, inhibits ribosomal peptidyl transferase activity, and partially inhibits the binding of the initiator tRNA substrate to the ribosomal P-site. Taken together, these data distinguish the mode of action of retapamulin from that of other classes of antibiotics. This unique mode of action may explain the lack of clinically relevant, target-specific cross-resistance of retapamulin with antibacterials in current use."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e47546d3f54159529000019",
+                            "question": "Rachmilewitz Index is used for which diseases?"
+                        }
+                    ],
+                    "context": "Inflammatory bowel disease (IBD) is considered a chronic condition characterized by mucosal or transmural inflammation in the gastrointestinal tract. Endoscopic diagnosis and surveillance in patients with IBD have become crucial. In addition, endoscopy is a useful modality in estimation and evaluation of the disease, treatment results, and efficacy of treatment delivery and surveillance. In relation to these aspects, endoscopic disease activity has been commonly estimated in clinical practices and trials.<br/> At present, many endoscopic indices of ulcerative colitis have been introduced, including the Truelove and Witts Endoscopy Index, Baron Index, Powell-Tuck Index, Sutherland Index, Mayo Clinic Endoscopic Sub-Score, Rachmilewitz Index, Modified Baron Index, Endoscopic Activity Index, Ulcerative Colitis Endoscopic Index of Severity, Ulcerative Colitis Colonoscopic Index of Severity, and Modified Mayo Endoscopic Score. Endoscopic indices have been also suggested for Crohn's disease, such as the Crohn's Disease Endoscopic Index of Severity, Simple Endoscopic Score for Crohn's Disease, and Rutgeerts Postoperative Endoscopic Index. However, most endoscopic indices have not been validated owing to the complexity of their parameters and inter-observer variations. Therefore, a chronological approach for understanding the various endoscopic indices relating to IBD is needed to improve the management."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e80669e835f4e4777000025",
+                            "question": "List angiotensin-converting-enzyme inhibitors."
+                        }
+                    ],
+                    "context": "The primary objective of NRG Oncology Radiation Therapy Oncology Group 0123 was to test the ability of the angiotensin-converting enzyme inhibitor captopril to alter the incidence of pulmonary damage after radiation therapy for lung cancer; secondary objectives included analyzing pulmonary cytokine expression, quality of life, and the long-term effects of captopril."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e4609b83f54159529000005",
+                            "question": "List characteristic features of the Revesz syndrome."
+                        }
+                    ],
+                    "context": "To inform about a case of Revesz syndrome (RS) with initial ophthalmological symptomatology of severe proliferative vitreoretinopathy of the left eye (LE). After the aplastic anemia had developed, RS was established. The exudative retinopathy was successfully treated with photocoagulation on the right eye (RE)."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5d387360a1e1595105000007",
+                            "question": "What are the effects of CAMK4 inhibition?"
+                        }
+                    ],
+                    "context": "Tissue inflammation in several autoimmune diseases, including SLE and MS, has been linked to an imbalance of IL-17-producing Th (Th17) cells and Tregs; however, the factors that promote Th17-driven autoimmunity are unclear. Here, we present evidence that the calcium/calmodulin-dependent protein kinase IV (CaMK4) is increased and required during Th17 cell differentiation. Isolation of naive T cells from a murine model of lupus revealed increased levels of CaMK4 following stimulation with Th17-inducing cytokines but not following Treg, Th1, or Th2 induction. Furthermore, naive T cells from mice lacking CaMK4 did not produce IL-17. Genetic or pharmacologic inhibition of CaMK4 decreased the frequency of IL-17-producing T cells and ameliorated EAE and lupus-like disease in murine models. Inhibition of CaMK4 reduced Il17 transcription through decreased activation of the cAMP response element modulator \u03b1 (CREM-\u03b1) and reduced activation of the AKT/mTOR pathway, which is known to enhance Th17 differentiation. Importantly, silencing CaMK4 in T cells from patients with SLE and healthy individuals inhibited Th17 differentiation through reduction of IL17A and IL17F mRNA. Collectively, our results suggest that CaMK4 inhibition has potential as a therapeutic strategy for Th17-driven autoimmune diseases. "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e4949d36d0a277941000006",
+                            "question": "List cohesinopathies"
+                        }
+                    ],
+                    "context": "A new study identifies homozygous missense mutations in SGOL1, which encodes a component of the cohesin complex, in a newly described disorder termed Chronic Atrial and Intestinal Dysrhythmia (CAID) syndrome. These findings implicate cohesin in the regulation of intrinsic cardiac and intestinal rhythm and further expand the growing group of disorders termed the cohesinopathies. "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e3c841148dab47f26000002",
+                            "question": "Before 2019, what neurologic diseases are associated with the tau protein?"
+                        }
+                    ],
+                    "context": "Alzheimer's disease (AD) is the most common cause of progressive dementia in the elderly. It is characterized by a progressive and irreversible loss of cognitive abilities and formation of senile plaques, composed mainly of amyloid \u03b2 (A\u03b2), and neurofibrillary tangles (NFTs), composed of tau protein, in the hippocampus and cortex of afflicted humans. In brains of AD patients the metabolism of A\u03b2 is dysregulated, which leads to the accumulation and aggregation of A\u03b2. Metabolism of A\u03b2 and tau proteins is crucially influenced by autophagy. Autophagy is a lysosome-dependent, homeostatic process, in which organelles and proteins are degraded and recycled into energy. Thus, dysfunction of autophagy is suggested to lead to the accretion of noxious proteins in the AD brain. In the present review, we describe the process of autophagy and its importance in AD. Additionally, we discuss mechanisms and genes linking autophagy and AD, i.e., the mTOR pathway, neuroinflammation, endocannabinoid system, "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e4703d13f54159529000016",
+                            "question": "List radioprotection agents."
+                        }
+                    ],
+                    "context": "There is a need for novel and effective prophylactic treatments and radioprotective materials to protect civilians and military personnel from ionizing radiation in contaminated environments. Melanin, a naturally occurring, ubiquitous pigment, has been shown to confer radioresistance, acting as a potential radioprotective agent. We have demonstrated that melanized Cryptococcus neoformans (CN) cells had improved survival post ionizing irradiation than non-melanized ones. The goal of this study was to identify morphological changes in melanized and non-melanized CN cells following irradiation with densely-ionizing deuterons and alpha particles relative to sparsely-ionizing gamma radiation. We observed significant differences between the melanized and non-melanized CN cellular ultrastructure following irradiation. Melanized CN cells were relatively resistant to mid and max-dose levels of alpha particles and deuterons irradiation. Following irradiation the capsule was stripped, but the cell wall was intact and structural integrity was maintained. At the maximum dose, cytoplasmic vacuolization, and mitochondrial swelling started to occur. In contrast, the non-melanized CN strain was sensitive to the mid-dose radiation. Non-melanized cells presented two morphologies: small condensed, and swollen, lacking structural integrity. This morphological investigation provides the first direct evidence of the radioprotective properties of melanin in CN cells subjected to high RBE and high LET ionizing radiation."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e52900d6d0a277941000041",
+                            "question": "PH motifs in which genes endow breast cancer growth?"
+                        }
+                    ],
+                    "context": "Despite the fact that G protein-coupled receptors (GPCRs) mediate numerous physiological processes and represent targets for therapeutics for a vast array of diseases, their role in tumor biology is under appreciated. Protease-activated receptors (PARs) form a family which belongs to GPCR class A. PAR1&2 emerge with a central role in epithelial malignancies. Although the part of PAR1&2 in cancer is on the rise, their underlying signaling events are poorly understood. We review hereby past, present, and future cancer-associated PAR biology. Mainly, their role in physiological (placenta-cytotophobalst) and patho-physiological invasion processes. The identification and characterization of signal pleckstrin homology (PH)-domain-binding motifs established critical sites for breast cancer growth in PAR1&2. Among the proteins found to harbor important PH-domains and are involved in PAR biology are Akt/PKB as also Etk/Bmx and Vav3. A point mutation in PAR2, H349A, but not R352A, abrogated PH-protein association and is sufficient to markedly reduce PAR2-instigated breast tumor growth in vivo as also placental extravillous trophoblast (EVT) invasion in vitro is markedly reduced. Similarly, the PAR1 mutant hPar1-7A, which is unable to bind PH-domain, inhibits mammary tumors and EVT invasion, endowing these motifs with physiological significance and underscoring the importance of these previously unknown PAR1 and PAR2 PH-domain-binding motifs in both pathological and physiological invasion processes. "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e52c5166d0a27794100004d",
+                            "question": "List the stages/types of Multiple Sclerosis."
+                        }
+                    ],
+                    "context": "To perform systematic transcriptomic analysis of multiple sclerosis (MS) risk genes in peripheral blood mononuclear cells (PBMCs) of subjects with distinct MS stages and describe the pathways characterized by dysregulated gene expressions."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e6e8897c6a8763d23000003",
+                            "question": "List Mcl-1 inhibitors."
+                        }
+                    ],
+                    "context": "There are number of studies which report that BCL-2 anti-apoptotic proteins (e.g. BCL-2, BCL-XL, and MCL-1) are highly expressed in cervical cancer tissues compared to the normal cervical epithelia. Despite these reports, targeting these proteins for cervical cancer treatment has not been explored extensively. BH3-mimetics that inhibit specific BCL-2 anti-apoptotic proteins may hold encouraging treatment outcomes for cervical cancer management. Hence, the aim of this pilot study is to investigate the sensitivity of cervical cancer cell lines to combination of two BH3-mimetics namely ABT-263 which selectively inhibits BCL-2, BCL-XL and BCL-w and A-1210477, a selective MCL-1 inhibitor."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e7659db835f4e4777000001",
+                            "question": "Name two rotavirus vaccines."
+                        }
+                    ],
+                    "context": "Two rotavirus vaccines, RotaTeq and Rotarix, are licensed for global use; however, the protection they confer to unvaccinated individuals through indirect effects remains unknown. We systematically reviewed the literature and quantified indirect rotavirus vaccine effectiveness (VE) for preventing rotavirus hospitalization in children aged less than 5 years. From 148 identified abstracts, 14 studies met our eligibility criteria. In our main analysis using a random-effects model, indirect rotavirus VE was 48% (95% confidence interval [CI]: 39-55%). In a subgroup analysis by country income level, indirect VE was greater in high-income countries (52%; 95% CI: 43-60%) than in low- and middle-income countries (LMICs) (25%; 95% CI: 5-41%). In a sensitivity analysis using a quality-effects model, the indirect VE in LMICs was not statistically significant (25%; 95% CI: 0-44%). Our findings highlight the importance of increasing rotavirus vaccine coverage, particularly in LMICs where evidence for indirect VE is limited and rotavirus burden is high."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e80e449835f4e477700002c",
+                            "question": "Which tissues express the ACE2 protein?"
+                        }
+                    ],
+                    "context": "Severe acute respiratory syndrome (SARS) is an emerging infectious disease associated with a new coronavirus, SARS-CoV. Pulmonary involvement is the dominant clinical feature but extra-pulmonary manifestations are also common. Factors that account for the wide spectrum of organ system involvement and disease severity are poorly understood and the pathogenesis of SARS-CoV infection remains unclear. Angiotensin converting enzyme 2 (ACE2) has recently been identified as the functional cellular receptor for SARS-CoV. Studies of the tissue and cellular distribution of SARS-CoV, and ACE2 protein expression, reveal new insights into the pathogenesis of this deadly disease. ACE2 is expressed at high level in the primary target cells of SARS-CoV, namely pneumocytes and surface enterocytes of the small intestine. Despite the fact that SARS-CoV can infect the lung and intestine, the tissue responses in these two organs are different. All other tissues and cell types expressing ACE2 may be potential targets of SARS-CoV infection. Remarkably, endothelial cells, which express ACE2 to a high level, have not been shown to be infected by SARS-CoV. There is also evidence that cell types without detectable ACE2 expression may also be infected by the virus. Furthermore, studies in a new human cell culture model have indicated that the presence of ACE2 alone is not sufficient for maintaining viral infection. Therefore, other virus receptors or co-receptors may be required in different tissues. Moreover, the interaction between SARS-CoV and the immunological or lymphoid system remains to be defined. It is clear that we are only at the dawn of our understanding of the pathogenesis of SARS. As our knowledge of the pathogenic mechanisms improves, a more rational approach to therapeutic and vaccine development can be designed in order to combat this new and fatal human disease."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e7768f9835f4e477700000b",
+                            "question": "Name two inhalable insulin products."
+                        }
+                    ],
+                    "context": "Delivery of therapeutic insulin via the pulmonary route has been the most investigated non-invasive alternative to the commonly used subcutaneous (SC) route for diabetes management. Despite discontinuation of the first inhalable insulin, Exubera\u00ae, due to suboptimal market acceptance, development of orally inhaled insulin delivery systems has been galvanized by the recent approval of Afrezza\u00ae and several others awaiting approval."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1260 @@
+{
+  "questions": [
+    {
+      "type": "yesno",
+      "id": "5e48e0e0f8b2df0d4900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5c7a4c35d774d0424000",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5c7019557c78d6947100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e36d924b5b409ea5300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e4adcbe6d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e30b56efbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e2b253ffbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e2b3784fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e480909d14c9f295d00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "no"
+    },
+    {
+      "type": "yesno",
+      "id": "5e2906948b3851296d00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5c72768a7c78d6947100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e29fe76aa19d7443100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e290a268b3851296d00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e36d807b5b409ea5300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e2b0d71fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e2db15cfbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e2a0eb1aa19d7443100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5ca61b14ecadf2e73f00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5cc011e2a49efeb44c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e29f959aa19d7443100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e2dac4efbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e2dad57fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e480ccfd14c9f295d00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5c7f806d617e120c3400",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "no"
+    },
+    {
+      "type": "yesno",
+      "id": "5e2a04feaa19d7443100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "no"
+    },
+    {
+      "type": "yesno",
+      "id": "5e30f638fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e2dfab2fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "no"
+    },
+    {
+      "type": "yesno",
+      "id": "5e3238bcfbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "no"
+    },
+    {
+      "type": "yesno",
+      "id": "5e2dbd0afbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "no"
+    },
+    {
+      "type": "yesno",
+      "id": "5e5b93a2752ebcdc7a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e30f417fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e46ece93f5415952900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e5b60adb761aafe0900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e3247f1fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5cebf83ea49efeb44c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "no"
+    },
+    {
+      "type": "yesno",
+      "id": "5cf4dec0a49efeb44c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e31cc22fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "no"
+    },
+    {
+      "type": "yesno",
+      "id": "5e371a1db5b409ea5300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e49c5336d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5d31daacb3a638076300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e5b5c6fb761aafe0900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e30f23cfbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e30f76afbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e49a1196d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "no"
+    },
+    {
+      "type": "yesno",
+      "id": "5e30e9e3fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e30f494fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e447f2448dab47f2600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e4705753f5415952900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "no"
+    },
+    {
+      "type": "yesno",
+      "id": "5e4af1d86d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e3234e0fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e3709a4b5b409ea5300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e2dbf48fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "no"
+    },
+    {
+      "type": "yesno",
+      "id": "5d35b9ecb3a638076300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e2e1d6afbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e3e843748dab47f2600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "no"
+    },
+    {
+      "type": "yesno",
+      "id": "5e31c4adfbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e4b4be26d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e46fda33f5415952900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e5b90b3752ebcdc7a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5d38826ea1e159510500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "no"
+    },
+    {
+      "type": "yesno",
+      "id": "5d38462b7bc3fee31f00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e2e1017fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e31d181fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e31cbd4fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e323780fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "no"
+    },
+    {
+      "type": "yesno",
+      "id": "5e41620648dab47f2600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e44bdba48dab47f2600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5d35c227b3a638076300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e44c18648dab47f2600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "no"
+    },
+    {
+      "type": "yesno",
+      "id": "5e4c06d96d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e4fd4d56d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "no"
+    },
+    {
+      "type": "yesno",
+      "id": "5e44caaf48dab47f2600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e36994092b3349b5500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e3c80abb5b409ea5300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e5d27531af46fc13000",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e3a6c49b5b409ea5300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e44c76f48dab47f2600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "no"
+    },
+    {
+      "type": "yesno",
+      "id": "5e47656935b8f0833c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "no"
+    },
+    {
+      "type": "yesno",
+      "id": "5e324167fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e540ed36d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e2e0fa2fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e338cf5fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5d36b4817bc3fee31f00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e46bf743f5415952900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e33904afbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "no"
+    },
+    {
+      "type": "yesno",
+      "id": "5e33916afbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e51a2d76d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "no"
+    },
+    {
+      "type": "yesno",
+      "id": "5e5437ffb761aafe0900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e5508e2b761aafe0900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e763645c6a8763d2300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "no"
+    },
+    {
+      "type": "yesno",
+      "id": "5e763c3fc6a8763d2300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "no"
+    },
+    {
+      "type": "yesno",
+      "id": "5e43090d48dab47f2600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e51dab06d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5d35eb01b3a638076300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "no"
+    },
+    {
+      "type": "yesno",
+      "id": "5e540db06d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "no"
+    },
+    {
+      "type": "yesno",
+      "id": "5e500d8c6d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e44c33a48dab47f2600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5d384ce87bc3fee31f00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e7f5cc5835f4e477700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "no"
+    },
+    {
+      "type": "yesno",
+      "id": "5e821ac5835f4e477700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e7f6090835f4e477700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "no"
+    },
+    {
+      "type": "yesno",
+      "id": "5e806ff7835f4e477700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e7744c3835f4e477700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e6e35b07fc1ee872b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e639a8b1af46fc13000",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e776c72835f4e477700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "no"
+    },
+    {
+      "type": "yesno",
+      "id": "5e8220e6835f4e477700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e36d498b5b409ea5300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e64ed381af46fc13000",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e57fa23b761aafe0900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e6df5b51af46fc13000",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5d387098a1e159510500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5d387721a1e159510500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "no"
+    },
+    {
+      "type": "yesno",
+      "id": "5e64f1921af46fc13000",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e2d7ceefbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e35d3c6158f994d3a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e36a4b7b5b409ea5300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "no"
+    },
+    {
+      "type": "yesno",
+      "id": "5e2b3d97fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "no"
+    },
+    {
+      "type": "yesno",
+      "id": "5e4946bf6d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "no"
+    },
+    {
+      "type": "yesno",
+      "id": "5e67bc121af46fc13000",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "no"
+    },
+    {
+      "type": "yesno",
+      "id": "5e776541835f4e477700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "no"
+    },
+    {
+      "type": "yesno",
+      "id": "5e6e2c1e7fc1ee872b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e476da1d14c9f295d00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e4b64126d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e3ab58db5b409ea5300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "no"
+    },
+    {
+      "type": "yesno",
+      "id": "5e46bdcd3f5415952900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e476b99d14c9f295d00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e80675d835f4e477700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e3ebaa348dab47f2600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "no"
+    },
+    {
+      "type": "yesno",
+      "id": "5d36bb777bc3fee31f00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5d371ec97bc3fee31f00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e3c6850b5b409ea5300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5d3856ca7bc3fee31f00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e4b5f9a6d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "no"
+    },
+    {
+      "type": "yesno",
+      "id": "5e52bc986d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e494cf96d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "no"
+    },
+    {
+      "type": "yesno",
+      "id": "5e4b5fd86d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e776a10835f4e477700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "no"
+    },
+    {
+      "type": "yesno",
+      "id": "5e3c6e15b5b409ea5300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e52c0c76d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e4b639c6d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "no"
+    },
+    {
+      "type": "yesno",
+      "id": "5e48b1ddd14c9f295d00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e52c9266d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "no"
+    },
+    {
+      "type": "yesno",
+      "id": "5d385f717bc3fee31f00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "no"
+    },
+    {
+      "type": "yesno",
+      "id": "5e7f69d2835f4e477700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e48b9abd14c9f295d00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "no"
+    },
+    {
+      "type": "yesno",
+      "id": "5e48af7ad14c9f295d00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "no"
+    },
+    {
+      "type": "yesno",
+      "id": "5e3d8edf48dab47f2600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5d387a51a1e159510500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "no"
+    },
+    {
+      "type": "yesno",
+      "id": "5e52ab626d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e4b5ef36d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "no"
+    },
+    {
+      "type": "yesno",
+      "id": "5e8101e3835f4e477700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e4b5f566d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "no"
+    },
+    {
+      "type": "yesno",
+      "id": "5e6e8600c6a8763d2300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e48bd2ed14c9f295d00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "no"
+    },
+    {
+      "type": "yesno",
+      "id": "5e4b62946d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    },
+    {
+      "type": "yesno",
+      "id": "5e7f64a5835f4e477700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": "yes"
+    }
+  ]
+}

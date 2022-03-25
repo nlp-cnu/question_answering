@@ -1,0 +1,2045 @@
+{
+    "data": [
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e48e0e0f8b2df0d49000001",
+                            "question": "Are gut microbiota profiles altered by irradiation?"
+                        }
+                    ],
+                    "context": "Specific Members of the Gut Microbiota are Reliable Biomarkers of Irradiation Intensity and Lethality in Large Animal Models of Human Health.Irradiation profoundly impacted gut microbiota profiles in both animals.Our findings suggest that gut symbiont-based probiotics can be used as agents for reversing radiation-induced ecological fitness decrease."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5c7a4c35d774d04240000007",
+                            "question": "Is TIM-3 a target for cancer immunotherapy in NSCLC?"
+                        }
+                    ],
+                    "context": " Our results imply that implementing combined treatment on CIK cells before transfusion via antibodies targeting PD-L1, LAG-3, TIM-3, and CEACAM-1 might improve the efficiency of CIK therapy for NSCLC patients.Furthermore, TIM-3 and CEACAM1 were strongly expressed simultaneously during long-term CIK culture and showed a significant and mutually positive correlation. In present study, we detected the dynamic expression of eight major checkpoint molecules (CTLA-4, PD-1, PD-L1, TIM- 3, CEACAM-1, LAG-3, TIGIT and BTLA) on CIK cells from NSCLC patients.Agents targeting other immune inhibitory (e.g., Tim-3) or immune stimulating (e.g., CD137) receptors on T cells and other approaches such as adoptive cell transfer are tested for clinical efficacy in melanoma as well.We found immune activation coexistent with elevation of multiple targetable immune checkpoint molecules, including PD-L1, PD-L2, PD-1, TIM-3, B7-H3, BTLA, and CTLA-4, along with increases in tumor infiltration by CD4(+)Foxp3(+) regulatory T cells in lung adenocarcinomas that displayed an EMT phenotype"
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5c7019557c78d6947100005f",
+                            "question": "Does an interferon (IFN) signature exist for SLE patients?"
+                        }
+                    ],
+                    "context": "Interferon regulatory factor 7 activation correlates with the IFN signature and recurrent disease.In SLE post-transplant, recurrent disease activity and induction of IRF7 protein expression correlated with activation of the IFN signature.JAK inhibitor has the amelioration effect in lupus-prone mice: the involvement of IFN signature gene downregulation.We also detected decreased expression of several IFN-signature genes Ifit3 and Isg15 in CD4+ from SLE-prone mice following TOFA and DEXA treatment, and IFIT3 in CD3+ T cells from human patients following immunosuppressant therapy including steroid, respectivelyWe found that cDCs from prediseased TCSle male mice express the IFN signature as female TCSle cDCs do. Estrogens are necessary but not sufficient to express this IFN signature, but high doses of E2 can compensate for other steroidal components."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e36d924b5b409ea5300000b",
+                            "question": "Is AND-1/Ctf4 essential for proliferation?"
+                        }
+                    ],
+                    "context": "AND-1 fork protection function prevents fork resection and is essential for proliferation.AND-1/Ctf4 bridges the CMG helicase and DNA polymerase alpha, facilitating replication. Using an inducible degron system in avian cells, we find that AND-1 depletion is incompatible with proliferation, owing to cells accumulating in G2 with activated DNA damage checkpoint. Replication without AND-1 causes fork speed slow-down and accumulation of long single-stranded DNA (ssDNA) gaps at the replication fork junction, with these regions being converted to DNA double strand breaks (DSBs) in G2. Strikingly, resected forks and DNA damage accumulation in G2, but not fork slow-down, are reverted by treatment with mirin, an MRE11 nuclease inhibitor. Domain analysis of AND-1 further revealed that the HMG box is important for fast replication but not for proliferation, whereas conversely, the WD40 domain prevents fork resection and subsequent DSB-associated lethality. Thus, our findings uncover a fork protection function of AND-1/Ctf4 manifested via the WD40 domain that is essential for proliferation and averts genome instability.Thus , our findings uncover a fork protection function of AND-1/Ctf4 manifested via the WD40 domain that is essential for proliferation and averts genome instabilityThus, our findings uncover a fork protection function of AND-1/Ctf4 manifested via the WD40 domain that is essential for proliferation and averts genome instability."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e4adcbe6d0a277941000017",
+                            "question": "Does the BRAFV600E mutation have an effect on clinical response to radioiodine therapy?"
+                        }
+                    ],
+                    "context": "Preclinical studies showed that BRAF mutation significantly reduced radioiodine uptake and decreased the sensitivity to radioactive iodine (RAI) therapy.The status of BRAF mutation may not affect the clinical response to RAI therapy for patients with PTMC with intermediate-risk to high-risk features. More trials examining the role of BRAF mutation in guiding postoperative RAI therapy are needed.our results suggest that the combination of BRAFV600E+ve mutation and MIBI-ve scintigraphy may be considered a negative prognostic clue, which predicts the absence of radioiodine uptake at pT-WBS in DTC patients with incomplete bio-chemical response to first RAITThe results indicate that BRAF(V600E) mutation is correlated with a lower expression of NIS in PTCs without HT, suggesting the radioiodine-refractory effects during RIA therapy in these patients."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e30b56efbd6abf43b000037",
+                            "question": "Is the BAGEL algorithm used for arrayed CRISPR screens?"
+                        }
+                    ],
+                    "context": "BAGEL: a computational framework for identifying essential genes from pooled library screens.The adaptation of the CRISPR-Cas9 system to pooled library gene knockout screens in mammalian cells represents a major technological leap over RNA interference, the prior state of the art. New methods for analyzing the data and evaluating results are needed.RESULTS: We offer BAGEL (Bayesian Analysis of Gene EssentiaLity), a supervised learning method for analyzing gene knockout screens. Coupled with gold-standard reference sets of essential and nonessential genes, BAGEL offers significantly greater sensitivity than current methods, while computational optimizations reduce runtime by an order of magnitude.CONCLUSIONS: Using BAGEL, we identify ~2000 fitness genes in pooled library knockout screens in human cell lines at 5 % FDR, a major advance over competing platforms. BAGEL shows high sensitivity and specificity even across screens performed by different labs using different libraries and reagents.CONCLUSIONS\n\nUsing BAGEL, we identify ~2000 fitness genes in pooled library knockout screens in human cell lines at 5 % FDR, a major advance over competing platforms.BAGEL: a computational framework for identifying essential genes from pooled library screensCONCLUSIONS\nUsing BAGEL, we identify ~2000 fitness genes in pooled library knockout screens in human cell lines at 5 % FDR, a major advance over competing platforms."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e2b253ffbd6abf43b000006",
+                            "question": "Is AZD5153 active in prostate cancer?"
+                        }
+                    ],
+                    "context": "AZD5153 Inhibits Prostate Cancer Cell Growth in Vitro and in Vivo.Bromodomain-containing protein 4 (BRD4) overexpression participates in prostate cancer progression by enhancing the transcriptional activity and expression of several key oncogenes. AZD5153 is a novel BRD4 inhibitor.METHODS: Prostate cancer cells were treated with AZD5153. Cell survival was tested by MTT assay and clonogenicity assay. Cell proliferation was tested by [H3] DNA incorporation assay. Cell apoptosis was tested by caspase-3/-9 activity assay, Histone DNA ELISA assay, Annexin V FACS assay and TUNEL staining assay. Cell cycle progression was tested by propidium iodide (PI) FACS assay. Signaling was tested by Western blotting assay. The nude mice PC-3 xenograft model was applied to test AZD5153's activity in vivo.RESULTS: AZD5153 inhibited proliferation and survival of established and primary prostate cancer cells. AZD5153 induced apoptosis activation and cell cycle arrest in prostate cancer cells. AZD5153 was non-cytotoxic to the prostate epithelial cells. AZD5153 downregulated BRD4 targets (cyclin D1, Myc, Bcl-2, FOSL1 and CDK4) in PC-3 and primary prostate cancer cells. Further studies show that AKT could be the primary resistance factor of AZD5153. Pharmacological inhibition or genetic depletion of AKT induced BRD4 downregulation, sensitizing AZD5153-induced cytotoxicity in PC-3 cells. In vivo, AZD5153 oral administration inhibited PC-3 xenograft tumor growth in nude mice. Its anti-tumor activity was further enhanced with co-treatment of the AKT specific inhibitor MK-2206.CONCLUSION: Together, our results indicate a promising therapeutic value of the novel BRD4 inhibitor AZD5153 against prostate cancer cells.AZD5153 induced apoptosis activation and cell cycle arrest in prostate cancer cells.CONCLUSION\n\nTogether, our results indicate a promising therapeutic value of the novel BRD4 inhibitor AZD5153 against prostate cancer cells.AZD5153 downregulated BRD4 targets (cyclin D1, Myc, Bcl-2, FOSL1 and CDK4) in PC-3 and primary prostate cancer cells."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e2b3784fbd6abf43b000009",
+                            "question": "Is GRG5 involved only in late embryonic mouse development?"
+                        }
+                    ],
+                    "context": "Groucho related gene 5 (GRG5) is a multifunctional protein that has been implicated in late embryonic and postnatal mouse development. Here, we describe a previously unknown role of GRG5 in early developmental stages by analyzing its function in stem cell fate decisions. By both loss and gain of function approaches we demonstrate that ablation of GRG5 deregulates the Embryonic Stem Cell (ESC) pluripotent state whereas its overexpression leads to enhanced self-renewal and acquisition of cancer cell-like properties. The malignant characteristics of teratomas generated by ESCs that overexpress GRG5 reveal its pro-oncogenic potential. "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e480909d14c9f295d000003",
+                            "question": "Are astronauts in higher risk for developing cancer?"
+                        }
+                    ],
+                    "context": "Understanding space radiation health effects is critical due to potential increased morbidity and mortality following spaceflight.  No significant associations between space radiation dose and mortality were found using logistic regression with an internal reference group, adjusting for medical radiation.Despite years of research, understanding of the space radiation environment and the risk it poses to long-duration astronauts remains limited. There is a disparity between research results and observed empirical effects seen in human astronaut crews"
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e2906948b3851296d00000a",
+                            "question": "Is Niraparib effective for ovarian cancer?"
+                        }
+                    ],
+                    "context": "Niraparib and olaparib have been approved by the US FDA for maintenance therapy after partial or complete remission in recurrent ovarian cancer.PURPOSE OF REVIEW: The recent United States Food and Drug Administration approvals of niraparib and olaparib as maintenance monotherapy for platinum-sensitive, high-grade ovarian cancers independent of BRCA status reflect a willingness to seek indications for poly-ADP-ribose polymerase (PARP) inhibitors beyond cancers with deleterious breast cancer 1 and breast cancer 2 mutations.PURPOSE: Niraparib is a highly selective inhibitor of PARP-1 and PARP-2 approved in the United States for maintenance treatment of adult patients with recurrent ovarian cancer in complete or partial response to platinum-based chemotherapy.Indeed, three PARP1 inhibitors (Olaparib, Rucaparib, and Niraparib) have recently been approved by the Food and Drug Administration for the treatment of ovarian cancer.Niraparib is an oral poly(ADP ribose) polymerase (PARP) inhibitor that is currently approved by the United States Food and Drug Administration (US FDA) as well as recently approved by the European Medicines Agency (EMA) for the maintenance treatment of women with recurrent ovarian cancer who are in complete or partial response to platinum-based chemotherapy. "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5c72768a7c78d6947100006c",
+                            "question": "Are genes that escape X-chromosome inactivation related to mental impairment?"
+                        }
+                    ],
+                    "context": "Mutation screening of the MECP2 gene in a large cohort of 613 fragile-X negative patients with mental retardation.The first one, the double nucleotide substitution c.1162_1163delinsTA leading to a premature stop codon (p.Pro388X) was found in a female patient with random X-inactivation, presenting with borderline mental impairment without any features of Rett syndrome. the c.679C>G substitution, changing a glutamine to a glutamate in the transcriptional repression functional domain (p.Gln227Glu), was found in a female patient with a moderately biased X-chromosome inactivation profile and presenting with mild intellectual delay and minor psychotic featuresGenes that escape X-inactivation in humans have high intraspecific variability in expression, are associated with mental impairment but are not slow evolving. The newly described escape genes cluster on the X chromosome in the same chromosomal regions as the previously known escapees. There is an excess of escaping genes associated with mental retardation, consistent with this being a common phenotype of polyX phenotypes."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e29fe76aa19d74431000007",
+                            "question": "Has LB-100 been tested in clinical trials?"
+                        }
+                    ],
+                    "context": "To determine the MTD and to assess the safety, tolerability, and potential activity of LB-100, a first-in-class small-molecule inhibitor of protein phosphatase 2A (PP2A) in adult patients with progressive solid tumors.Safety, Tolerability, and Preliminary Activity of LB-100, an Inhibitor of Protein Phosphatase 2A, in Patients with Relapsed Solid Tumors: An Open-Label, Dose Escalation, First-in-Human, Phase I Trial."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e290a268b3851296d00000d",
+                            "question": "Is palbociclib effective for glioblastoma?"
+                        }
+                    ],
+                    "context": "Although further research is needed, cyclin-dependent kinase 4/6 inhibitors represent intriguing developments in the treatment of various malignancies, including those with such poor prognoses as glioblastoma multiforme, mantle cell lymphoma, and metastatic melanoma.CONCLUSION: In this trial, despite adequate tissue PK, palbociclib monotherapy was not an effective treatment for recurrent glioblastoma.CONCLUSION\n\nIn this trial, despite adequate tissue PK, palbociclib monotherapy was not an effective treatment for recurrent glioblastoma.CONCLUSION In this trial, despite adequate tissue PK, palbociclib monotherapy was not an effective treatment for recurrent glioblastoma.CONCLUSION\nIn this trial, despite adequate tissue PK, palbociclib monotherapy was not an effective treatment for recurrent glioblastoma."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e36d807b5b409ea5300000a",
+                            "question": "Does the Mcm2-Ctf4-Pol\u03b1 axis play a role in transfer of histones to leading strand DNA at the replication forks?"
+                        }
+                    ],
+                    "context": "The Mcm2-Ctf4-Pol\u03b1 Axis Facilitates Parental Histone H3-H4 Transfer to Lagging Strands.Although essential for epigenetic inheritance, the transfer of parental histone (H3-H4)2 tetramers that contain epigenetic modifications to replicating DNA strands is poorly understood. Here, we show that the Mcm2-Ctf4-Pol\u03b1 axis facilitates the transfer of parental (H3-H4)2 tetramers to lagging-strand DNA at replication forks. Mutating the conserved histone-binding domain of the Mcm2 subunit of the CMG (Cdc45-MCM-GINS) DNA helicase, which translocates along the leading-strand template, results in a marked enrichment of parental (H3-H4)2 on leading strand, due to the impairment of the transfer of parental (H3-H4)2 to lagging strands. Similar effects are observed in Ctf4 and Pol\u03b1 primase mutants that disrupt the connection of the CMG helicase to Pol\u03b1 that resides on lagging-strand template. Our results support a model whereby parental (H3-H4)2 complexes displaced from nucleosomes by DNA unwinding at replication forks are transferred by the CMG-Ctf4-Pol\u03b1 complex to lagging-strand DNA for nucleosome assembly at the original location."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e2b0d71fbd6abf43b000001",
+                            "question": "Can discharge destinations be accurately predicted using the Risk Assessment and Prediction Tool (RAPT)?"
+                        }
+                    ],
+                    "context": "CONCLUSION: Our analysis identified age, lower lumbar/lumbosacral surgery, and RAPT walk score as independent predictors of discharge to SNF, and demonstrated superior predictive power compared with the total RAPT Score when combined in a novel grading scale. PURPOSE: The aim of this study was to evaluate the value of conventional factors, the Risk Assessment and Predictor Tool (RAPT) and performance-based functional tests as predictors of delayed recovery after total hip arthroplasty (THA).CONCLUSIONS: The RAPT accurately predicted discharge disposition for high- and low-risk patients in our cohort. The RAPT allows for identification of patients who are likely to be discharged home or to rehabilitation, which may facilitate preoperative planning of postoperative care. Additionally, it identifies intermediate-risk patients and could be used to implement targeted interventions to facilitate discharge home in this group of patients.RESULTS: Overall predictive accuracy was 78%. "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e2db15cfbd6abf43b000014",
+                            "question": "Has amantadine ER been approved by the FDA?"
+                        }
+                    ],
+                    "context": "ADS-5102 (amantadine) extended-release (ER) capsules (GOCOVRITM) is a recent US FDA-approved treatment for dyskinesia in PD patients. "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e2a0eb1aa19d7443100000c",
+                            "question": "Can PRL3-zumab inhibit PRL3+ cancer cells in vitro and in vivo?"
+                        }
+                    ],
+                    "context": "Here we show that PRL3-zumab specifically inhibits PRL3+ cancer cells in vivo, but not in vitro."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5ca61b14ecadf2e73f00004f",
+                            "question": "Does Estrogen lead to forkhead FoxA1 activation?"
+                        }
+                    ],
+                    "context": "We showed that CTCF acts upstream of the \"pioneer\" factor FOXA1 in determining the genomic response to estrogen. Almost all ER-chromatin interactions and gene expression changes depended on the presence of FOXA1 and FOXA1 influenced genome-wide chromatin accessibilityFOXA1 is a key determinant of estrogen receptor function and endocrine response.As such, FOXA1 is a major determinant of estrogen-ER activity and endocrine response in breast cancer cells.Location analysis of estrogen receptor alpha target promoters reveals that FOXA1 defines a domain of the estrogen response."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5cc011e2a49efeb44c000001",
+                            "question": "Does association with the nuclear pore promote gene silencing?"
+                        }
+                    ],
+                    "context": "Here, we show that the nucleoporin Nup358 plays an important role in this process. Nup358 localizes to the nuclear pore complex and to the cytoplasmic annulate lamellae (AL), and these structures dynamically associate with two mRNP granules: processing bodies (P bodies) and stress granules (SGs). MicroRNA (miRNA)-guided mRNA repression, mediated by the miRNA-induced silencing complex (miRISC), is an important component of post-transcriptional gene silencing.To assess Tpr's role as an architectural element of the NPC, we have studied the sequential disassembly and reassembly of NPCs in mitotic cells, paralleled by studies of cells depleted of Tpr as a result of posttranscriptional tpr gene silencing by RNA interference (RNAi).The results raise the possibility that NPC-localized protein desumoylation may be a key regulatory event preventing inappropriate pre-mRNA export.Silencing nuclear pore protein Tpr elicits a senescent-like phenotype in cancer cells."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e29f959aa19d74431000004",
+                            "question": "Can LB-100 sensitize ovarian carcinoma to cisplatin?"
+                        }
+                    ],
+                    "context": "The protein phosphatase 2A inhibitor LB100 sensitizes ovarian carcinoma cells to cisplatin-mediated cytotoxicity.LB100 sensitized ovarian carcinoma lines to cisplatin-mediated cell death. Our results suggest that LB100 sensitizes ovarian cancer cells to cisplatin in vitro and in vivo by modulation of the DDR pathway and cell-cycle checkpoint abrogation."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e2dac4efbd6abf43b00000f",
+                            "question": "Has istadefylline been considered as a treatment for Parkinson's disease?"
+                        }
+                    ],
+                    "context": "Istradefylline (ISD) is a new drug developed for the treatment of Parkinson's disease (PD). It is an adenosine receptor A2A antagonists that will represent an important option for patients with advanced PD where it has been demonstrated efficacy in decreasing daily OFF time and is well tolerated. The objective of this review is to summarize evidences emerged from clinical studies that have demonstrated the efficacy of ISD in advanced parkinsonian patients. ISD might represent an alternative option for patients with advanced PD."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e2dad57fbd6abf43b000010",
+                            "question": "Is amantadine ER the first approved treatment for akinesia?"
+                        }
+                    ],
+                    "context": "Extended-release amantadine (amantadine ER) is the first approved medication for the treatment of dyskinesia."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e480ccfd14c9f295d000005",
+                            "question": "Is g-H2AX a marker for double strand breaks?"
+                        }
+                    ],
+                    "context": "The specific phosphorylation of histone H2AX on serine residue 139, described as \u03b3-H2AX, is an excellent indicator or marker of DNA double-strand breaks (DSBs). expression of the DNA double-strand break marker gamma-H2AX (\u03b3H2AX) pH2AX, a marker of the DNA double-strand break (DSB)"
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5c7f806d617e120c34000001",
+                            "question": "Are tumour specific antigens originating from known protein coding genes?"
+                        }
+                    ],
+                    "context": "It is well established that MHC class I molecules present peptides from endogenous proteins, such as virus or tumour antigens, to CD8+ T lymphocytes. So far, human tumour specific antigens that can be presented by HLA molecules have not been identified on the molecular level.These CTLs recognize short peptides derived from tumour-associated antigens in conjunction with class I molecules expressed on tumour cells. The focus on cellular immune responses, combined with rapid biotechnological advances, resulted in the identification of tumour specific antigens, such as MART-1 and gp100, that could be recognised by autologous TIL Tumour antigens are mostly of weak immunogenicity, because the vast majority are tumour-associated differentiation antigens already 'seen' by the patient's immune system."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e2a04feaa19d74431000009",
+                            "question": "Can LB-100 downregulate miR-33?"
+                        }
+                    ],
+                    "context": "PP2A inhibition from LB100 therapy enhances daunorubicin cytotoxicity in secondary acute myeloid leukemia via miR-181b-1 upregulation.LB100 profoundly upregulates miR-181b-1, which we show directly binds to the 3' untranslated region of Bcl-2 mRNA leading to its translational inhibition. MiR-181b-1 ectopic overexpression further diminishes Bcl-2 expression leading to suppression of sAML cell growth, and enhancement of DNR cytotoxicity. "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e30f638fbd6abf43b000045",
+                            "question": "Does teplizumab hold promise for diabetes prevention?"
+                        }
+                    ],
+                    "context": "Anti-CD3 teplizumab and anti-CD3 otelixizumab have been shown to provide C-peptide preservation. Underway are secondary prevention studies with teplizumab and with abatacept.INTERPRETATION: Findings of exploratory analyses suggest that future studies of immunotherapeutic intervention with teplizumab might have increased success in prevention of a decline in \u03b2-cell function (measured by C-peptide) and provision of glycaemic control at reduced doses of insulin if they target patients early after diagnosis of diabetes and children.Teplizumab therapy for type 1 diabetes.Teplizumab for treatment of type 1 diabetes mellitus."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e2dfab2fbd6abf43b00001d",
+                            "question": "Does ProSavin use an adenoviral vector?"
+                        }
+                    ],
+                    "context": "Long-Term Follow-Up of a Phase I/II Study of ProSavin, a Lentiviral Vector Gene Therapy for Parkinson's Disease.ProSavin, a lentiviral vector based gene therapy that delivers local and continuous dopamine, was previously shown to be well tolerated in a Phase I/II first-in-human study, with significant improvements in motor behavior from baseline at 1 year. "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e3238bcfbd6abf43b000056",
+                            "question": "Does radiation for tinea capitis increases brain tumor risk?"
+                        }
+                    ],
+                    "context": "Emphasis is placed on meningiomas resulting from childhood treatment for primary brain tumor or tinea capitis, exposure to dental x-rays, and exposure to atomic explosions in Hiroshima and Nagasaki. It is well known that radiation can induce meningiomas. These tumors usually arise in patients with a history of low-dose radiation to the scalp for treatment of tinea capitis or high-dose radiation for a previous brain tumor. This paper describes six cases of radiation-associated intracranial meningiomas in patients previously treated with low-dose radiation to the scalp for tinea capitis.After a median follow-up of 40 years, an ERR/Gy of 4.63 and 1.98 (95% CI = 2.43-9.12 and 0.73-4.69) and an EAR/Gy per 10(4) PY of 0.48 and 0.31 (95% CI = 0.28-0.73 and 0.12-0.53) were observed for benign meningiomas and malignant brain tumors, respectively. The estimated ERR/Gy for malignant brain tumors decreased with increasing age at irradiation from 3.56 to 0.47 (P = 0.037), while no trend with age was seen for benign meningiomas. The ERR for both types of tumor remains elevated at 30-plus years after exposure."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e2dbd0afbd6abf43b000017",
+                            "question": "Is pimavanserin a typical antipsychotic?"
+                        }
+                    ],
+                    "context": "Pimavanserin is the first FDA-approved atypical antipsychotic drug indicated for the treatment of hallucinations and delusions associated with Parkinson's disease psychosis (PDP)."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e5b93a2752ebcdc7a000003",
+                            "question": "Can Flotillin be used as exosomal marker?"
+                        }
+                    ],
+                    "context": "Flotillin 1 and tumor susceptibility gene 101 (TSG101), two exosomal marker proteins, expressed exosomal marker tumor susceptibility gene (TSG) 101 and flotillin (Flot) 1."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e30f417fbd6abf43b000043",
+                            "question": "Is Apremilast effective for Beh\u00e7et\u2019s Syndrome?"
+                        }
+                    ],
+                    "context": "AREAS COVERED: This review provides a digest of all current experience and evidence about pharmacological agents recently described as having a role in the treatment of BS, including interleukin (IL)-1 inhibitors, tocilizumab, rituximab, alemtuzumab, ustekinumab, interferon-alpha-2a, and apremilast.CONCLUSIONS\n\nApremilast was effective in treating oral ulcers, which are the cardinal manifestation of Beh\u00e7et's syndrome.CONCLUSIONS Apremilast was effective in treating oral ulcers, which are the cardinal manifestation of Beh\u00e7et's syndrome.CONCLUSIONS\nApremilast was effective in treating oral ulcers, which are the cardinal manifestation of Beh\u00e7et's syndrome.Apremilast was effective in treating oral ulcers, which are the cardinal manifestation of Beh\u00e7et's syndrome."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e46ece93f5415952900000e",
+                            "question": "Is Rad4/XPC a DNA damage sensing protein?"
+                        }
+                    ],
+                    "context": "Twist-open mechanism of DNA damage recognition by the Rad4/XPC nucleotide excision repair complex.Kinetic gating mechanism of DNA damage recognition by Rad4/XPC. These findings indicate that the lesions recognized by Rad4/XPC thermodynamically destabilize the Watson-Crick double helix in a manner that facilitates the flipping-out of two base pairs."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e5b60adb761aafe0900000b",
+                            "question": "Is the protein ABCG2 transmembrane?"
+                        }
+                    ],
+                    "context": "the transmembrane ATP-binding cassette transporter G2ATP-binding cassette (ABC) transporters are transmembrane efflux transporters mediating the extrusion of an array of substrates ranging from amino acids and lipids to xenobiotics, and many therapeutic compounds, including anticancer drugs.The ATP-binding cassette (ABC) transporter family is a large class of ATP energy-dependent transmembrane proteins"
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e3247f1fbd6abf43b00005b",
+                            "question": "Can radiotherapy cause radiation induced osteosarcoma?"
+                        }
+                    ],
+                    "context": "A case of radiation-induced osteosarcoma of the skull presenting as a cutaneous epidermotropic tumor with a short latent period.Radiation-induced sarcoma (RIS) is an unusual but well documented tumor. We report a case of a 34-year-old female who developed an osteosarcoma of the scalp, over a previous craniotomy scar, 3 years after excision of a frontal anaplastic oligodendroglioma which had been followed by a course of 6\u2009weeks radiotherapy (58\u2009Gy) and 6 cycles of temozolomide. Radiation-induced osteosarcoma after Gamma Knife surgery for vestibular schwannoma: a case report and literature review.We present a rare case of radiation-induced osteosarcoma following Gamma Knife\u00ae surgery (GKS) for a vestibular schwannoma (VS). "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5cebf83ea49efeb44c00000a",
+                            "question": "Are male or female persons more prone to autoimmunity?"
+                        }
+                    ],
+                    "context": " Estrogens cause a marked acceleration of autoimmunity and a reduction in thymus weight. we found that a number of problems or variables arise in studying sex hormone effects, including: 1) X-linked genes, 2) metabolism of testosterone to estrogens, 3) dose of hormone, 4) age at which administration is initiated, 5) differential effects of sex hormones on different autoantibodies and various immune responses.Examples of this autoimmune dimorphism include (but are not limited to) lupus, rheumatoid arthritis and multiple sclerosis with the two former more prevalent in females than males and the latter more severe during pregnancy.Sex hormones have long been implicated in autoimmune diseases because women account for 80% of cases.Sex hormones have definitive roles in lymphocyte maturation, activation, and synthesis of antibodies and cytokines. Sex hormone expression is altered among patients with autoimmune disease, and this variation of expression contributes to immune dysregulation."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5cf4dec0a49efeb44c00000c",
+                            "question": "Are lamina-associated domains (LADs) associated with transcriptional activation?"
+                        }
+                    ],
+                    "context": "Regions of focal DNA hypermethylation and long-range hypomethylation in colorectal cancer coincide with nuclear lamina-associated domains.Extensive changes in DNA methylation are common in cancer and may contribute to oncogenesis through transcriptional silencing of tumor-suppressor genes.Such lamina-associated domains (LADs) are thought to help organize chromosomes inside the nucleus and have been associated with gene repression.The nuclear lamina contributes to the regulation of gene expression and to chromatin organization."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e31cc22fbd6abf43b000050",
+                            "question": "Is Hemochromatosis type 4 is caused by a mutation in a recessive gene?"
+                        }
+                    ],
+                    "context": " severely affect iron homeostasis causing type 4 hereditary hemochromatosis, an autosomal dominant iron overload condition with variable phenotypic manifestationsHemochromatosis type 4, also known as ferroportin disease, is an autosomal dominant genetic disorder caused by pathogenic mutations in the SLC40A1 gene, which encodes ferroportin 1 (FPN1).Hemochromatosis type 4 is a rare form of primary iron overload transmitted as an autosomal dominant trait caused by mutations in the gene encoding the iron transport protein ferroportin 1 (SLC40A1).Type 4 hemochromatosis follows an autosomal dominant trait; the corresponding mutation affects the basolateral iron carrier ferroportin 1.Type 4 hemochromatosis follows an autosomal dominant trait; the corresponding mutation affects the basolateral iron carrier ferroportin 1"
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e371a1db5b409ea53000015",
+                            "question": "Can Patient-derived organoids (PDOs) recapitulate patient responses in the clinic?"
+                        }
+                    ],
+                    "context": "Patient-derived organoids (PDOs) have recently emerged as robust preclinical models; however, their potential to predict clinical outcomes in patients has remained unclear. We report on a living biobank of PDOs from metastatic, heavily pretreated colorectal and gastroesophageal cancer patients recruited in phase 1/2 clinical trials. Phenotypic and genotypic profiling of PDOs showed a high degree of similarity to the original patient tumors. Molecular profiling of tumor organoids was matched to drug-screening results, suggesting that PDOs could complement existing approaches in defining cancer vulnerabilities and improving treatment responses. We compared responses to anticancer agents ex vivo in organoids and PDO-based orthotopic mouse tumor xenograft models with the responses of the patients in clinical trials. Our data suggest that PDOs can recapitulate patient responses in the clinic and could be implemented in personalized medicine programs.Our data suggest that PDOs can recapitulate patient responses in the clinic and could be implemented in personalized medicine programs.Molecular profiling of tumor organoids was matched to drug-screening results, suggesting that PDOs could complement existing approaches in defining cancer vulnerabilities and improving treatment responses.Phenotypic and genotypic profiling of PDOs showed a high degree of similarity to the original patient tumors.Patient-derived xenografts (PDX) and patient-derived organoids (PDO) serve as promising tools to identify new drugs with therapeutic potential in PDAC."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e49c5336d0a277941000011",
+                            "question": "Is overexpression of LY6K associated with better prognosis for non-small cell lung cancer patients?"
+                        }
+                    ],
+                    "context": "Gene expression profile analyses of non-small cell lung carcinomas (NSCLC) and esophageal squamous cell carcinomas (ESCC) revealed that lymphocyte antigen 6 complex locus K (LY6K) was specifically expressed in testis and transactivated in a majority of NSCLCs and ESCCs. Immunohistochemical staining using 406 NSCLC and 265 ESCC specimens confirmed that LY6K overexpression was associated with poor prognosis for patients with NSCLC (P = 0.0003), as well as ESCC (P = 0.0278), and multivariate analysis confirmed its independent prognostic value for NSCLC (P = 0.0035). Immunohistochemical staining using 406 NSCLC and 265 ESCC specimens confirmed that LY6K overexpression was associated with poor prognosis for patients with NSCLC (P = 0.0003), as well as ESCC (P = 0.0278), and multivariate analysis confirmed its independent prognostic value for NSCLC (P = 0.0035).Immunohistochemical staining using 406 NSCLC and 265 ESCC specimens confirmed that LY6K overexpression was associated with poor prognosis for patients with NSCLC (P = 0.0003), as well as ESCC (P = 0.0278), and multivariate analysis confirmed its independent prognostic value for NSCLC (P = 0.0035)."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5d31daacb3a6380763000003",
+                            "question": "Are the members of the KRAB-ZNF  gene family promoting gene repression?"
+                        }
+                    ],
+                    "context": " The proteins encoded by these genes, whose expression is often tissue-specific, act as epigenetic suppressors contributing to the addition of repressive chromatin marks and DNA methylation.Here, using a reporter system, we show that TRIM28/KRAB-ZNFs alter DNA methylation patterns in addition to H3K9me3 to cause stable gene repression during reprogramming. Using several expression datasets, we identified KRAB-ZNFs (ZNF114, ZNF483, ZNF589) in the human genome that maintain pluripotency.Further analyses of our data sets link GABPa to cognitive disorders, diabetes, KRAB zinc finger (KRAB-ZNF), and human-specific genes.The stem cell zinc finger 1 (SZF1)/ZNF589 protein belongs to the large family of Kr\u00fcppel-associated box domain-zinc finger (KRAB-ZNF) transcription factors, which are present only in higher vertebrates and epigenetically repress transcription by recruiting chromatin-modifying complexes to the promoter regions of their respective target genesBecause KAP1 is recruited to the DNA via interaction with KRAB-ZNF proteins, we suggest that expression of KRAB-ZNF genes may be controlled via an auto-regulatory mechanism involving KAP1."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e5b5c6fb761aafe0900000a",
+                            "question": "Is the protein ABCG2 (ATP-Binding Cassette, subfamily G, member 2, transporter) excreting uric acid?"
+                        }
+                    ],
+                    "context": "TP-binding cassette transporter, sub-family G, member 2 (ABCG2/BCRP) is a well-studied urate transporter expressed on apical membranes in several tissues, including the intestine, liver, and kidney.the discovery that ABCG2 plays a central role on extra-renal uric acid excretion,"
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e30f23cfbd6abf43b000042",
+                            "question": "Is modified vaccinia Ankara effective for smallpox?"
+                        }
+                    ],
+                    "context": "BACKGROUND: Modified Vaccinia Ankara (MVA) is a live, viral vaccine under advanced development as a non-replicating smallpox vaccine. The three MVA lots induced equivalent antibody titers two weeks after the second vaccination, with seroconversion rates of 99\u00b78% (PRNT) and 99\u00b77% (ELISA). INTRODUCTION: To guide the use of modified vaccinia Ankara (MVA) vaccine in response to a release of smallpox virus, the immunogenicity and safety of shorter vaccination intervals, and administration by jet injector (JI), were compared to the standard schedule of administration on Days 1 and 29 by syringe and needle (S&N).Erratum: Safety and Immunogenicity of Modified Vaccinia Ankara-Bavarian Nordic Smallpox Vaccine in Vaccinia-Naive and Experienced Human Immunodeficiency Virus-Infected Individuals: An Open-Label, Controlled Clinical Phase II Trial.Modified vaccinia Ankara virus (MVA) is a smallpox vaccine candidate. "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e30f76afbd6abf43b000046",
+                            "question": "Does nintedanib hold promise for lung disease associated with systemic sclerosis?"
+                        }
+                    ],
+                    "context": "The patient developed progressive lung fibrosis under several immunosuppressants and was started on nintedanib, with clinical and functional stabilization. Nintedanib is a tyrosine-kinase inhibitor that blocks several profibrotic pathways, inhibiting proliferation and migration of fibroblasts and decreasing the synthesis of extracellular matrix proteins. It is approved for idiopathic lung fibrosis and has demonstrated good results in inhibiting migration and proliferation of systemic sclerosis dermal fibroblasts, constituting a promising agent for systemic sclerosis-associated lung fibrosis.BACKGROUND: Nintedanib is an inhibitor targeting platelet-derived growth factor receptor, fibroblast growth factor receptor and vascular endothelial growth factor receptor tyrosine kinases that has recently been approved for the treatment of idiopathic pulmonary fibrosis. CONCLUSION: Nintedanib targets core features of SSc in Fra2-transgenic mice and ameliorates histological features of pulmonary arterial hypertension, destructive microangiopathy and pulmonary and dermal fibrosis. These data might have direct implications for the ongoing phase III clinical trial with nintedanib in SSc-associated interstitial lung disease.In light of the ongoing advances in our understanding of the pathogenic mechanisms underlying interstitial lung disease in systemic sclerosis, this review also summarizes novel treatment approaches, presenting clinical and preclinical evidence for rituximab, tocilizumab, pirfenidone, and nintedanib, as well as hematopoietic stem cell transplantation and lung transplantation.Pirfenidone and nintedanib are emerging agents that exert pleiotropic effects, reflective of the multiple mechanistic pathways of IPF. "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e49a1196d0a27794100000d",
+                            "question": "Is PF-05190457 an inverse agonist of the ghrelin receptor?"
+                        }
+                    ],
+                    "context": "Pharmacokinetics and pharmacodynamics of PF-05190457: The first oral ghrelin receptor inverse agonist to be profiled in healthy subjects.To evaluate safety, tolerability and pharmacokinetics of oral PF-05190457, an oral ghrelin receptor inverse agonist, in healthy adults. PF-05190457 is a well-tolerated first-in-class ghrelin receptor inverse agonist with acceptable pharmacokinetics for oral daily dosing."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e30e9e3fbd6abf43b00003c",
+                            "question": "Is Ubrogepant effective for migraine?"
+                        }
+                    ],
+                    "context": "CGRP receptor antagonists such as ubrogepant are effective for acute relief of migraine headache, whereas monoclonal antibodies against CGRP (eptinezumab, fremanezumab and galcanezumab) or the CGRP receptor (erenumab) effectively prevent migraine attacks. Despite the clear safety concerns, clinical trial data suggests that their intermittent use remains a viable and safe alternative, with 2 molecules remaining in clinical development (ubrogepant and rimegepant). Two gepants, ubrogepant and rimegepant, have completed positive pivotal trials for acute treatment of migraine, but have not yet been submitted to the FDA for this indication.Two gepants, ubrogepant and rimegepant, have completed positive pivotal trials for the acute treatment of migraine, but have not yet been submitted to the FDA for this indication. Area covered: This review reports on compounds currently under development for the oral treatment of acute migraine attacks, focusing on Calcitonin-Gene-Related-Peptide receptor antagonists, specifically ubrogepant and rimegepant. "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e30f494fbd6abf43b000044",
+                            "question": "Is Selinexor effective for multiple myeloma?"
+                        }
+                    ],
+                    "context": "Safety and efficacy of selinexor in relapsed or refractory multiple myeloma and Waldenstrom macroglobulinemia.Based on these findings, we conclude that selinexor in combination with dexamethasone is active in heavily pretreated MM and propose a RP2D of 45 mg/m2 (80 mg) plus 20 mg dexamethasone given twice weekly. Selinexor, an Exportin-1 inhibitor, yielded promising results in quad- or penta-refractory MM including patients resistant to daratumumab. Selective Inhibition of Nuclear Export With Oral Selinexor for Treatment of Relapsed or Refractory Multiple Myeloma.Conclusion The combination of selinexor and dexamethasone has an ORR of 21% in patients with heavily pretreated, refractory myeloma with limited therapeutic options."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e447f2448dab47f26000013",
+                            "question": "Are there lncRNAs that control the extent of neuronal outgrowth?"
+                        }
+                    ],
+                    "context": "Regulation of Neuroregeneration by Long Noncoding RNAs.Here, we profiled gene expression following sciatic nerve crush in mice and identified long noncoding RNAs (lncRNAs) that act in the regenerating neurons and which are typically not expressed in other contexts. We show that two of these lncRNAs regulate the extent of neuronal outgrowth. We then focus on one of these, Silc1, and show that it regulates neuroregeneration in cultured cells and in\u00a0vivo, through cis-acting activation of the transcription factor Sox11."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e4705753f54159529000017",
+                            "question": "Can the radiation of cellphones be dangerous?"
+                        }
+                    ],
+                    "context": " While cellphones were very popular for entertainment and social interaction via texting, cordless phones were most popular for calls. If their use continued at the reported rate, many would be at increased risk of specific brain tumours by their mid-teens, based on findings of the Interphone and Hardell-group studies.two sets of more recent studies with longer exposure duration: the Interphone studies and the Swedish studies led by Dr. Lennart Hardell. The recent studies reach very different conclusions. With four exceptions the industry-funded Interphone studies found no increased risk of brain tumors from cellphone use, while the Swedish studies, independent of industry funding, reported numerous findings of significant increased brain tumor risk from cellphone and cordless phone use. "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e4af1d86d0a277941000018",
+                            "question": "Does metformin has as an antitumor effect?"
+                        }
+                    ],
+                    "context": " an association between metformin and tumorigenesisMetformin, an antidiabetic drug, inhibits the endometrial cancer cell growth in vivo by improving the insulin resistance;There is no evidence of antitumor effect of metformin. A possible decrease only for breast, liver and prostate cancer, is compatible with random fluctuations.The anti-tumor effect of metformin is widely known, however, there is only limited evidence regarding the anti-angiogenesis effect and chemosensitization of metformin and its underlying mechanisms in PDAC"
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e3234e0fbd6abf43b000054",
+                            "question": "Can radiation induced meningiomas be treated with radiosurgery?"
+                        }
+                    ],
+                    "context": "This is a case report of a patient treated with radiosurgery for radiation induced\u00a0meningiomas, 30 years after childhood whole brain radiation. This article reviews the unique characteristics and unusual response to the radiation induced meningiomas to radiosurgery. Gamma knife stereotactic radiosurgery for radiation-induced meningiomas.RESULTS: We present our series of 12 patients with radiation-induced meningiomas treated with Gamma Knife stereotactic radiosurgery over a 12-year period at our institution. With a median follow-up of 35 months, local control was 100%.CONCLUSIONS: Gamma Knife radiosurgery is both a safe and effective treatment for radiation-induced meningiomas."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e3709a4b5b409ea53000012",
+                            "question": "Is there a BRCA mutation analysis in the Greek population?"
+                        }
+                    ],
+                    "context": "Comprehensive BRCA mutation analysis in the Greek population. Experience from a single clinical diagnostic center.Germline mutations in the BRCA1 and BRCA2 genes are associated with hereditary predisposition to breast and ovarian cancer. Sensitive and accurate detection of BRCA1 and BRCA2 mutations is crucial for personalized clinical management of individuals affected by breast or ovarian cancer, and for the identification of at-risk healthy relatives. We performed molecular analysis of the BRCA1 and BRCA2 genes in 898 Greek families, using Sanger sequencing or Next Generation Sequencing for the detection of small insertion/deletion frameshift, nonsynonymous, truncating and splice-site alterations and MLPA for the detection of large genomic rearrangements. In total, a pathogenic mutation was identified in 12.9% of 898 families analyzed. Of the 116 mutations identified in total 9% were novel and 14.7% were large genomic rearrangements. Our results indicate that different types of mutational events in the BRCA1 and BRCA2 genes are responsible for the hereditary component of breast/ovarian cancer in the Greek population. Therefore the methodology used in the analysis of Greek patients must be able to detect both point and small frameshift mutations in addition to large genomic rearrangements across the entire coding region of the two genes."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e2dbf48fbd6abf43b00001a",
+                            "question": "Has ProSavin undergone phase IV clinical trials by 2018?"
+                        }
+                    ],
+                    "context": "Long-term safety and tolerability of ProSavin, a lentiviral vector-based gene therapy for Parkinson's disease: a dose escalation, open-label, phase 1/2 trial.We undertook a phase 1/2 open-label trial with 12-month follow-up at two study sites (France and UK) to assess the safety and efficacy of ProSavin after bilateral injection into the putamen of patients with Parkinson's disease. "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5d35b9ecb3a6380763000004",
+                            "question": "Does deletion of cohesin change gene expression?"
+                        }
+                    ],
+                    "context": " The conditional deletion of cohesin from noncycling thymocytes preserved enhancer position, H3K27ac, H4K4me1, and enhancer transcription, but weakened interactions between enhancers.Interestingly, \u223c 50% of deregulated genes reside in the vicinity of enhancer elements, suggesting that cohesin regulates gene expression through spatial clustering of enhancer elements.We propose a model for cohesin-dependent gene regulation in which spatial clustering of enhancer elements acts as a unified mechanism for both enhancer-promoter \"connections\" and \"insulation.\""
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e2e1d6afbd6abf43b000026",
+                            "question": "Do MAIT cells have a role in multiple myeloma?"
+                        }
+                    ],
+                    "context": "hus, MAIT cells are reduced in MM patients, which may contribute to disease in these individuals, and moreover, MAIT cells may represent new immunotherapeutic targets for treatment of MM and other malignancies.Here we have analysed the frequency and function of MAIT cells in multiple myeloma (MM) patients. We show that MAIT cell frequency in blood is reduced compared to healthy adult donors, but comparable to elderly healthy control donorsNewly diagnosed MM patient MAIT cells had reduced IFN\u03b3 production and CD27 expression, suggesting an exhausted phenotype, although IFN\u03b3-producing capacity is restored in relapsed/refractory patient samples. We describe recent observations with regard to functional exhaustion of iNKT and MAIT cells in MM pathology and discuss the potential application of checkpoint inhibition as an attractive target for prolonged activation of these immunomodulatory T cells in the treatment of MM.Enumeration, functional responses and cytotoxic capacity of MAIT cells in newly diagnosed and relapsed multiple myeloma."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e3e843748dab47f26000007",
+                            "question": "Are stretch enhancers transcribed more than super-enhancers?"
+                        }
+                    ],
+                    "context": "Super-enhancers are transcriptionally more active and cell type-specific than stretch enhancers.We found that stretch enhancers are more abundant, more distal to transcription start sites, cover twice as much the genome, and are significantly less conserved than super-enhancers. In contrast, super-enhancers are significantly more enriched for active chromatin marks and cohesin complex, and more transcriptionally active than stretch enhancers. Importantly, a vast majority of super-enhancers (85%) overlap with only a small subset of stretch enhancers (13%), which are enriched for cell type-specific biological functions, and control cell identity genes. These results suggest that super-enhancers are transcriptionally more active and cell type-specific than stretch enhancers, and importantly, most of the stretch enhancers that are distinct from super-enhancers do not show an association with cell identity genes, are less active, and more likely to be poised enhancers.These results suggest that super-enhancers are transcriptionally more active and cell type-specific than stretch enhancers, and importantly, most of the stretch enhancers that are distinct from super-enhancers do not show an association with cell identity genes, are less active, and more likely to be poised enhancers."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e31c4adfbd6abf43b00004d",
+                            "question": "Is mesothelioma caused by asbestos exposure?"
+                        }
+                    ],
+                    "context": "Malignant mesothelioma is a rare and aggressive pleural or peritoneal tumour almost always caused by exposure to asbestos fibresExposure to asbestos can cause malignant mesothelioma 30-40\u2009years after exposure.Malignant peritoneal mesothelioma is a rare, aggressive tumor arising from the peritoneal lining, induced by asbestos, therapeutic radiation, or germline mutationsAccording to global estimates, at least 107,000 people die each year from asbestos-related lung cancer, mesothelioma, and asbestosis resulting from occupational exposureMalignant mesothelioma is caused by exposure to asbestos, which is known to have carcinogenic effects."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e4b4be26d0a27794100001a",
+                            "question": "Can nrf2 activation lead to resistance to radiotherapy?"
+                        }
+                    ],
+                    "context": "NRF2 appeared to play a role in CSC survival and anticancer drug resistance.Resistance to chemoradiotherapy is a major obstacle to successful treatment of glioblastoma. Recently, the role of NF-E2-related factor 2 (Nrf2) in enhancing chemoradiation sensitivity has been reported in several types of cancers. The activation of Nrf2 may be associate with enhancing chemoradiation sensitivity in human glioblastoma cell. Blocking Nrf2 activation may be a promising method enhancing chemoradiation sensitivity of glioblastoma cells.Our study confirmed the antagonistic roles of curcumin to counteract radiation-induced cerebral injury in vivo and suggested that the potent Nrf2 activation capability might be valuable for the protective effects of curcumin against radiation. This provides a potential useful radioprotection dietary component for human populations.We show that NUAK1 is activated by oxidative stress and that this activation is required to facilitate nuclear import of the antioxidant master regulator NRF2"
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e46fda33f54159529000012",
+                            "question": "Are there interactions between short and long noncoding RNAs?"
+                        }
+                    ],
+                    "context": "It is now evident that noncoding RNAs play key roles in regulatory networks determining cell fate and behavior, in a myriad of different conditions, and across all species. Among these noncoding RNAs are short RNAs, such as MicroRNAs, snoRNAs, and Piwi-interacting RNAs, and the functions of those are relatively well understood. Other noncoding RNAs are longer, and their modes of action and functions are also increasingly explored and deciphered. Short RNAs and long noncoding RNAs (lncRNAs) interact with each other with reciprocal consequences for their fates and functions. LncRNAs serve as precursors for many types of small RNAs and, therefore, the pathways for small RNA biogenesis can impinge upon the fate of lncRNAs. In addition, lncRNA expression can be repressed by small RNAs, and lncRNAs can affect small RNA activity and abundance through competition for binding or by triggering small RNA degradation. Here, I review the known types of interactions between small and long RNAs, discuss their outcomes, and bring representative examples from studies in mammals.Short RNAs and long noncoding RNAs (lncRNAs) interact with each other with reciprocal consequences for their fates and functions.Short RNAs and long noncoding RNAs (lncRNAs) interact with each other with reciprocal consequences for their fates and functions."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e5b90b3752ebcdc7a000002",
+                            "question": "Can brain derived exosomes carry APP molecules?"
+                        }
+                    ],
+                    "context": "Here, we show that small lipid vesicles called exosomes, secreted in the extracellular milieu by cortical neurons, carry endogenous APPthese exosomes contained APP and were capable of efficiently transferring APP to normal primary neurons. Accumulating evidence has demonstrated that exosomes are associated with amyloid precursor (APP) and Tau proteins and play a controversial role in Alzheimer's disease process.  Here we have investigated the role of exosomes in the processing of APP and show that these vesicles contain APP-CTFs, as well as Abeta"
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5d38826ea1e1595105000016",
+                            "question": "Is SATB1 positioned close to AT-rich sequences?"
+                        }
+                    ],
+                    "context": " Tryptic cleavage and peptide sequence analysis demonstrated that the 98-kD protein is identical to a recently cloned protein, special A-T-rich binding protein 1 (SATB1)Special AT-rich sequence-binding protein 1 (SATB1), a DNA-binding protein expressed predominantly in thymocytes, recognizes an ATC sequence context that consists of a cluster of sequence stretches with well-mixed A's, T's, and C's without G's on one strand.  We have purified and identified one of the core factors as the matrix attachment region (MAR) binding protein, SATB1, which is known to bind to AT-rich sequences with a high propensity to unwindSATB1 (special AT-rich sequence-binding protein-1) provides a key link between DNA loop organization, chromatin modification/remodeling, and association of transcription factors at matrix attachment regions (MARs).Over-expression of the special AT rich sequence binding protein 1 (SATB1) promotes the progression of nasopharyngeal carcinoma: association with EBV LMP-1 expression."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5d38462b7bc3fee31f000012",
+                            "question": "Does metformin alleviate atherosclerosis?"
+                        }
+                    ],
+                    "context": "Metformin and rosiglitazone both improve glycemic control in type 2 diabetes mellitus, however may possess different anti-inflammatory and anti-atherosclerotic properties. Demonstrating antiatherothrombotic properties of dipeptidyl peptidase-4 inhibitors on proven markers is of substantial clinical significance. Coupled with their proven good safety profile these findings could translate into a significant clinical benefit.pleiotropic benefits of metformin in attenuation of atherosclerosis.Pleiotropic effects of metformin ameliorate atherosclerosis and vascular senescence.Metformin inhibits monocyte-to-macrophage differentiation via AMPK-mediated inhibition of STAT3 activation: potential role in atherosclerosis."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e2e1017fbd6abf43b000020",
+                            "question": "Are CD8+ (cytotoxic) T cells and  CD4+ Helper T cells generated in the thyroid and express the T-cell receptor?"
+                        }
+                    ],
+                    "context": "A fundamental question in developmental immunology is how bipotential thymocyte precursors generate both CD4+ helper and CD8+ cytotoxic T cell lineages.CD4+CD8+ progenitor thymocytes undergo selection following interaction with MHC class I and class II molecules bearing peptide self-antigens, giving rise to CD8+ cytotoxic and CD4+ helper or regulatory T cell lineages, respectively.Through positive selection, double-positive cells in the thymus differentiate into CD4(+) or CD8(+) T single-positive cells that subsequently develop into different types of effective T cells, such as T-helper and cytotoxic T lymphocyte cells,Development, differentiation, and function of thymocytes and CD4(+) and CD8(+) T cells are controlled by a multitude of secreted and intracellular factors. The CD4(+) helper versus CD8(+) cytotoxic T-cell fate decision serves as an excellent model to study binary fate decision processes. These two cell types are derived from common precursors in the thymus."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e31d181fbd6abf43b000053",
+                            "question": "Is Huntington's disease is caused by expansion of a CTG repeat in the HTT gene on Chromosome 4?"
+                        }
+                    ],
+                    "context": "Huntington's disease (HD) is caused by a CAG repeat expansion that encodes a polyglutamine (polyQ) expansion in the HD disease protein, huntingtin (HTT).Huntington disease (HD) is a dominantly inherited disorder caused by a CAG expansion mutation in the huntingtin (HTT) gene, which results in the HTT protein that contains an expanded polyglutamine tract.In Huntington's disease (HD), expansion of CAG codons in the huntingtin gene (HTT) leads to the aberrant formation of protein aggregates and the differential degeneration of striatal medium spiny neurons (MSNs).Huntington disease (HD) is a progressive autosomal dominant neurodegenerative disorder, characterized by abnormal movements, cognitive decline, and psychiatric symptoms, caused by a CAG repeat expansion in the huntingtin (HTT) gene on chromosome 4p.Huntington's disease (HD) is a polyglutamine disorder caused by a CAG expansion in the Huntingtin (HTT) gene exon 1."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e31cbd4fbd6abf43b00004f",
+                            "question": "Is Huntington's disease caused by a dominate or recessive gene?"
+                        }
+                    ],
+                    "context": "Huntington's Disease (HD) is an autosomal dominant neurodegenerative disease characterized by gradual deterioration of motor and cognitive functions and development of psychiatric deficits. Animal models provide powerful means to study the pathologicalHuntington's disease (HD) is an inherited NDD caused by autosomal-dominant expanded CAG trinucleotide repeat mutation in the gene coding for Huntingtin (Htt).  Huntington's disease (HD) is an autosomal-dominant, progressive neurodegenerative disease characterized by movement disorder, psychiatric symptoms and cognitive decline.The D4S10 locus, defined by the probe G8 and linked to the gene for Huntington's disease (HD), has permitted us to identify individuals with a high probability of being homozygous for this autosomal dominant neurodegenerative disorder.Huntington's disease is a fatal autosomal dominant neurodegenerative disease caused by an abnormal CAG expansion in huntingtin's gene."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e323780fbd6abf43b000055",
+                            "question": "Is there an increased risk of meningiomas in atomic bomb survivors?"
+                        }
+                    ],
+                    "context": "RESULTS: Meningioma was the most common tumor among clinically diagnosed tumors, followed by neuroepithelial tumor, schwannoma, and pituitary tumor. The predominance of meningiomas over neuroepithelial tumors in the Japanese population was noteworthy and warrants further investigation. Risk increases, although not statistically significant, were seen for meningiomas (ERR(Sv) = 0.6, 95% CI = -0.01 to 1.8), gliomas (ERR(Sv) = 0.6, 95% CI = -0.2 to 2.0), other nervous system tumors (ERR(Sv) = 0.5, 95% CI = <-0.2 to 2.2), and pituitary tumors (ERR(Sv) = 1.0, 95% CI = <-0.2 to 3.5).High incidence of meningioma among Hiroshima atomic bomb survivors.The incidence of meningioma among Hiroshima atomic bomb survivors has increased since 1975. There was a significant correlation between the incidence and the dose of radiation to the brain. The present findings strongly suggest that meningioma is one of the tumors induced by atomic bombing in Hiroshima."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e41620648dab47f2600000e",
+                            "question": "Is poliosis circumscripta another term for a white or unpigmented patch of hair or skin?"
+                        }
+                    ],
+                    "context": "\"white forelock,\" poliosis circumscripta, defined as a localized patch of white hair in a group of hair follicleAlthough traditionally known as \"white forelock,\" poliosis circumscripta, defined as a localized patch of white hair in a group of hair follicles, can involve any hairy area on the body including the scalp, eyebrows, and eyelashes.Although traditionally known as \" white forelock , \" poliosis circumscripta , defined as a localized patch of white hair in a group of hair follicles , can involve any hairy area on the body including the scalp , eyebrows , and eyelashesAlthough traditionally known as \"white forelock,\" poliosis circumscripta, defined as a localized patch of white hair in a group of hair follicles, can involve any hairy area on the body including the scalp, eyebrows, and eyelashes."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e44bdba48dab47f2600001c",
+                            "question": "Is Selumetinib effective for low-grade glioma?"
+                        }
+                    ],
+                    "context": "Conclusion: Selumetinib has promising antitumor activity in children with LGG.INTERPRETATION\n\nSelumetinib is active in recurrent, refractory, or progressive pilocytic astrocytoma harbouring common BRAF aberrations and NF1-associated paediatric low-grade glioma.These results show that selumetinib could be an alternative to standard chemotherapy for these subgroups of patients, and have directly led to the development of two Children's Oncology Group phase 3 studies comparing standard chemotherapy to selumetinib in patients with newly diagnosed paediatric low-grade glioma both with and without NF1.Conclusion Selumetinib has promising antitumor activity in children with LGG.INTERPRETATION Selumetinib is active in recurrent, refractory, or progressive pilocytic astrocytoma harbouring common BRAF aberrations and NF1-associated paediatric low-grade glioma."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5d35c227b3a6380763000007",
+                            "question": "Is SATB1 expressed in thymocytes?"
+                        }
+                    ],
+                    "context": "A thymocyte factor SATB1 suppresses transcription of stably integrated matrix-attachment region-linked reporter genes.SATB1 is a homeodomain protein and is predominantly expressed in thymocytes. SATB1 is a cell-type specific nuclear protein that recruits chromatin-remodeling factors and regulates numerous genes during thymocyte differentiation. This was shown by fluorescence in situ hybridization on wild-type and Satb1-null thymocytes using in vivo SATB1-bound sequences as probes. By contrast, in Satb1-null thymocytes, this site is marked by methylation at H3 Lys9."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e44c18648dab47f2600001f",
+                            "question": "Does gavestinel improve outcomes of stroke patients?"
+                        }
+                    ],
+                    "context": "CONCLUSION: Consistent with the clinical outcomes in the GAIN trials, no effects of gavestinel on ischemic infarction was observed.No effects of gavestinel on infarct volume were observed in the primary or other analyses. Gavestinel does not improve outcome after acute intracerebral hemorrhage: an analysis from the GAIN International and GAIN Americas studies.Both trials reported that gavestinel was ineffective in ischemic stroke. CONCLUSIONS: These observations from the combined GAIN International and GAIN Americas trials suggest that gavestinel is not of substantial benefit or harm to patients with primary intracerebral hemorrhage. "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e4c06d96d0a27794100002e",
+                            "question": "Can Systemic Lupus Erythematosus cause seizures?"
+                        }
+                    ],
+                    "context": "The mean \u00b1 SD age at SLE diagnosis and at onset of PRES was 25.02 \u00b1 13.78 and 28.31 \u00b1 12.61\u00a0years, respectively. Seizure was the most common presenting symptom, as seen in 28 episodes, followed by acute severe headache in 17,Epilepsy is characterized by a relevant epidemiological and clinical burden. In the extant literature, an increased risk of seizures has been described in several inflammatory/autoimmune disorders, including systemic lupus erythematosus (SLE).Seizures are one of the most serious neuropsychiatric manifestations of systemic lupus erythematous (SLE). The aim of this study was to describe the frequency , attribution , outcome and predictors of seizures in systemic lupus erythematosus ( SLEOBJECTIVE\nTo evaluate the frequency and risk factors of epileptic seizures in a large cohort of patients with systemic lupus erythematosus (SLE)."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e4fd4d56d0a277941000034",
+                            "question": "Is Impetigo a viral infection that affects the skin?"
+                        }
+                    ],
+                    "context": "Importance: Ozenoxacin, a novel topical antibacterial agent with potent bactericidal activity against gram-positive bacteria, has been developed as a cream with 1% active drug for the treatment of impetigo, a highly contagious bacterial skin infection: To compare the in vitro activity of the anti-impetigo agent, ozenoxacin, and other antimicrobial agents against Gram-positive clinical isolates from skin and soft tissue infectionsStreptococcus pyogenes is responsible for a wide variety of cutaneous infections ranging from superficial impetigo to fulminant invasive necrotizing fasciitis.Impetigo is a highly contagious bacterial skin infection and is one of the most common skin infections in childrenImpetigo is a superficial bacterial infection that most commonly affects the face and extremities of children."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e44caaf48dab47f26000024",
+                            "question": "Should Lubeluzole be used for treatment of ischemic stroke?"
+                        }
+                    ],
+                    "context": "Lubeluzole showed promising neuroprotective effects in animal stroke models, but failed to show benefits in acute ischemic stroke in humans. However, clinical research on lubeluzole is now at a standstill, since lubeluzole seems to be associated with the acquired long QT syndrome and ventricular arrhythmias. Ten classes of neuroprotective agents have reached phase III efficacy trials but have shown mixed results. They included calcium channel antagonists, NMDA receptor antagonists, lubeluzole, CDP-choline, the free radical scavenger tirilazad and ebselen, enlimomab, GABA agonist clomethiazole, the sodium channel antagonist fosphenytoin, magnesium, glycine site antagonist GV150526 and piracetam. CONCLUSIONS: This study failed to show an efficacy of lubeluzole in the treatment of acute stroke. Overall, of all treated patients, 401 (22.5%) died: 203 (22.5%) in the lubeluzole group and 198 (22.4%) with placebo. Of all subjects treated, 853 (95%) on lubeluzole and 826 (93%) on placebo reported an adverse event during their treatment period or within the next 2 days after discontinuation of treatment."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e36994092b3349b55000002",
+                            "question": "Is there a role for TET proteins in invariant natural killer T cells (iNKT) cell fate?"
+                        }
+                    ],
+                    "context": "TET proteins regulate the lineage specification and TCR-mediated expansion of iNKT cells.We found that simultaneous deletion of Tet2 and Tet3 in mouse CD4+CD8+ double-positive thymocytes resulted in dysregulated development and proliferation of invariant natural killer T cells (iNKT cells). Tet2-Tet3 double-knockout (DKO) iNKT cells displayed pronounced skewing toward the NKT17 lineage, with increased DNA methylation and impaired expression of genes encoding the key lineage-specifying factors T-bet and ThPOK. Transfer of purified Tet2-Tet3 DKO iNKT cells into immunocompetent recipient mice resulted in an uncontrolled expansion that was dependent on the nonclassical major histocompatibility complex (MHC) protein CD1d, which presents lipid antigens to iNKT cells. Our data indicate that TET proteins regulate iNKT cell fate by ensuring their proper development and maturation and by suppressing aberrant proliferation mediated by the T cell antigen receptor (TCR).TET proteins regulate the lineage specification and TCR-mediated expansion of iNKT cells ."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e3c80abb5b409ea53000024",
+                            "question": "Thymoquinone is ineffective against radiation induced enteritis, yes or no?"
+                        }
+                    ],
+                    "context": "n this study, we found that thymoquinone (TQ) could mitigate intestinal damages induced by irradiation. In this study, we found that thymoquinone (TQ) could mitigate intestinal damages induced by irradiation.In this study, we found that thymoquinone (TQ) could mitigate intestinal damages induced by irradiation.TQ might be used for radiation enteritis treatment."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e5d27531af46fc130000007",
+                            "question": "Has the Spanich flu virus been reconstructed?"
+                        }
+                    ],
+                    "context": "Reconstruction of the 1918 influenza virus has facilitated considerable advancements in our understanding of this extraordinary pandemic virus.These viral RNA sequences eventually permitted reconstruction of the complete 1918 virus, which has yielded, almost a century after the deaths of its victims, novel insights into influenza virus biology and pathogenesis and has provided important information about how to prevent and control future pandemics.Reconstruction of the 1918 virus and studies elucidating the exceptional virulence and transmissibility of the virus are providing exciting new insights into this devastating pandemic strain. "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e3a6c49b5b409ea53000017",
+                            "question": "Is Verubecestat effective for Alzheimer's Disease?"
+                        }
+                    ],
+                    "context": "The lack of efficacy of verubecestat in mild-to-moderate AD raises important questions about the timing of intervention with BACE-1 inhibitors, and anti-amyloid therapies in general, in AD treatment. CONCLUSIONS: Verubecestat did not reduce cognitive or functional decline in patients with mild-to-moderate Alzheimer's disease and was associated with treatment-related adverse events.These results support the continued global development of verubecestat as a potential disease-modifying agent for Japanese and non-Japanese subjects who are at-risk for developing AD. CONCLUSIONS\n\nVerubecestat did not reduce cognitive or functional decline in patients with mild-to-moderate Alzheimer's disease and was associated with treatment-related adverse events.CONCLUSIONS\n\nVerubecestat did not improve clinical ratings of dementia among patients with prodromal Alzheimer's disease, and some measures suggested that cognition and daily function were worse among patients who received verubecestat than among those who received placebo."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e44c76f48dab47f26000022",
+                            "question": "Is Aptiganel effective for treatment of stroke?"
+                        }
+                    ],
+                    "context": "Trends for increased mortality with three NMDA antagonists were seen - selfotel (OR 1.19 [0.81-1.74]), aptiganel (OR 1.32 [0.91-1.93]) and gavestinel (OR 1.12 [0.95-1.32]) - but this did not achieve significance for the NMDA antagonists considered as a class (1.09 [0.96-1.23]). Aptiganel was also associated with a trend towards worse functional outcome (OR 1.20 [0.88-1.65]) although this was not the case for either of the other two compounds.No improvement in clinical outcome of stroke has been seen with competitive NMDA antagonists (selfotel) and non-competitive NMDA antagonists (dextrorphan, GV150526, aptiganel and eliprodil).Glutamate N-methyl-D-aspartate (NMDA) receptor antagonists (competitive receptor antagonists, ion channel blockers, and glycine antagonists)--such as selfotel, aptiganel, eliprodil, licostinel and gavestinel--failed to show efficacy in clinical trials of stroke or traumatic brain injury. There was no improvement in outcome for either aptiganel (low-dose or high-dose) group compared with the placebo group at 90 days (median Modified Rankin Scale score for all 3 treatment groups = 3; P =.31). At 7 days, placebo-treated patients exhibited slightly greater neurological improvement on the NIH Stroke Scale than high-dose aptiganel patients (mean improvement for placebo group, -0.8 points vs for high-dose aptiganel, 0.9 points; P =.04). The mortality rate at 120 days in patients treated with high-dose aptiganel was higher than that in patients who received placebo (26.3% vs 19.2%; P =.06).CONCLUSIONS: Aptiganel was not efficacious in patients with acute ischemic stroke at either of the tested doses, and m ay be harmful. The larger proportion of patients with favorable outcomes and lower mortality rate in the placebo group suggest that glutamate blockade with aptiganel may have detrimental effects in an undifferentiated population of stroke patients."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e47656935b8f0833c000004",
+                            "question": "Is indinavir effective for treatment of amyotrophic lateral sclerosis?"
+                        }
+                    ],
+                    "context": "Group differences in the rate of decline were not significant between the groups for the ALS Functional Rating Scale (p = 0.36) or for the secondary variables. The toxicity and negative efficacy trends discourage further indinavir trials in ALS."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e324167fbd6abf43b00005a",
+                            "question": "Is there an increased risk for meningiomas in childhood leukemia survivors?"
+                        }
+                    ],
+                    "context": "Cranial radiotherapy improves survival of the most common childhood cancers, including brain tumors and leukemia. Unfortunately, long-term survivors are faced with consequences of secondary neoplasia, including radiation-induced meningiomas (RIMs). Combined chemotherapy and prophylactic cranial irradiation has improved the prognosis of children with acute leukemia. However cranial irradiation carries a latent risk of the induction of secondary intracranial tumors. We encountered a patient who developed multiple intracranial radiation-induced meningiomas (RIMs) 25\u00a0years after prophylactic cranial irradiation for the treatment of acute leukemia in childhood. Focal cranial hyperostosis from meningioma: a complication from previous radiation treatment for childhood T-cell acute lymphoblastic leukemia.Presented is a case of a 20 year man with a history of T-cell lymphoblastic leukemia diagnosed at age 22 months, treated with chemotherapy and cranial irradiation. He had developed increasing prominence of the top of his head over several months. Plain radiograph showed frontal calvarium thickening with focal \"hair-on-end\" periosteal reaction. Magnetic resonance imaging revealed an enhancing dural-based mass with transcalvarial extension, confirmed after resection to be meningioma (World Health Organization Grade I). RESULTS: Acute myeloid leukemia (AML; n = 186), myelodysplastic syndrome (MDS; n = 69), and nonmeningioma brain tumor (n = 116) were the most common types of SMNs and had the poorest outcome (5-year survival rate, 18.1% \u00b1 2.9%, 31.1% \u00b1 6.2%, and 18.3% \u00b1 3.8%, respectively). "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e540ed36d0a277941000054",
+                            "question": "Does saracatinib promote oncogenesis?"
+                        }
+                    ],
+                    "context": "Antitumor activity of saracatinib (AZD0530), a c-Src/Abl kinase inhibitor, alone or in combination with chemotherapeutic agents in gastric cancer.We evaluated the antitumor effect of a c-Src/Abl kinase inhibitor, saracatinib (AZD0530), alone or combined with chemotherapeutic agents in gastric cancer cell lines and a NCI-N87 xenograft model. Among 10 gastric cancer cell lines, saracatinib specifically inhibited the growth and migration/invasion of SNU216 and NCI-N87 cells. Saracatinib blocked the Src/FAK, HER family, and oncogenic signaling pathways, and it induced G(1) arrest and apoptosis in SNU216 and NCI-N87 cells. Consistent with our in vitro findings, cotreatment with saracatinib and 5-FU resulted in enhanced antitumor activity in the NCI-N87 xenografts. These data indicate that the inhibition of Src kinase activity by saracatinib alone or in combination with other agents can be a strategy to target gastric cancer."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e2e0fa2fbd6abf43b00001f",
+                            "question": "Is BCL11B involved in schizophrenia?"
+                        }
+                    ],
+                    "context": "Interacting partners BCL11B and GATAD2A are also schizophrenia risk genes indicating that other genes interacting with or are regulated by SATB2 are making a contribution to schizophrenia and cognition . Interacting partners BCL11B and GATAD2A are also schizophrenia risk genes indicating that other genes interacting with or are regulated by SATB2 are making a contribution to schizophrenia and cognition."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e338cf5fbd6abf43b00005d",
+                            "question": "Are Chernobyl survivors at increased risk for breast cancer?"
+                        }
+                    ],
+                    "context": "Results: A more aggressive course of breast cancer is observed in patients exposed to radiation from the Chernobyl accident under the age of 30\u2009years (P\u2009<\u2009.01). A significant excess of multiple myeloma incidence [standardized incidence rate (SIR) 1.61 %, 95% confidence interval (CI) 1.01-2.21], thyroid cancer (SIR 4.18, 95% CI 3.76-4.59), female breast cancer (SIR 1.57 CI 1.40-1.73), and all cancers combined (SIR 1.07; 95% CI 1.05-1.09) was registered. Possible effects for further study include increased rates of thyroid, breast, and lung cancers and multiple myeloma; reduction of radiation risks of leukemia to population levels; and increased morbidity and mortality of cleanup workers from cardio- and cerebrovascular pathology.Furthermore, the upward trends of increases in a variety of other tumors including breast cancer, cancers of central nervous system and renal cancer have been reported in the persons exposed to Chornobyl fallout.Epidemiological cohort studies found increased incidence (1990-2012 gg.) of thyroid cancer in victims of Chernobyl accident (liquidators - in 4.6 times, evacuated - in 4.0 times, residents of contaminated areas - in 1.3 times) and increased incidence of breast cancer in female workers of 1986-1987."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5d36b4817bc3fee31f000007",
+                            "question": "Is SATB1 necessary for T-cell maturation?"
+                        }
+                    ],
+                    "context": "Special AT-rich binding protein 1 (SATB1) nuclear protein, expressed predominantly in T cells, regulates genes through targeting chromatin remodeling during T-cell maturation.the transcription factor SATB1 that regulates the T-cell maturationSATB1 is a transcriptional regulator controlling the gene expression that is essential in the maturation of the immune T-cell. Special AT-rich sequence binding protein 1 (SATB1) regulates gene expression essential in immune T-cell maturation and switching of fetal globin species, by binding to matrix attachment regions (MARs) of DNA and inducing a local chromatin remodeling. "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e46bf743f54159529000008",
+                            "question": "Have toll-like receptor 2 activators been found in food?"
+                        }
+                    ],
+                    "context": "Toll-like receptor 2 (TLR2) is a widely expressed pattern recognition receptor critical for innate immunity. TLR2 is also a key regulator of mucosal immunity implicated in the development of allergic disease. TLR2 activators are found in many common foods,TLR2 activators are found in many common foods, but the role of TLR2 in oral tolerance and allergic sensitization to foods is not well understood.TLR2 activators are found in many common foods, but the role of TLR2 in oral tolerance and allergic sensitization to foods is not well understood."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e33904afbd6abf43b00005f",
+                            "question": "Does radiotherapy for Hodgkin disease increases risk for lung cancer?"
+                        }
+                    ],
+                    "context": "Risks of lung, breast, and gastrointestinal (GI) cancers increase with higher radiation dose. CONCLUSIONS: RT treatment, especially with doses higher than 42 Gy, and smoking increase the risk of SN after HL. In this series, LC patients with early stages had a shorter elapsed time from HL diagnosis and longer OS, therefore the role of LC screening in HL survivors should be prospectively evaluated and smoking cessation counseling ought to be a key aspect during follow-up.BACKGROUND: Long-term Hodgkin lymphoma (HL) survivors have an increased risk of late cardiac morbidity and secondary lung cancer after chemotherapy and mediastinal radiotherapy. PURPOSE: Hodgkin lymphoma (HL) survivors have an increased risk of cardiovascular disease (CD), lung cancer, and breast cancer.Lung cancer (LC) represents the most common solid tumor in survivors of Hodgkin's disease (HD), and the assessment of the mutational status of oncogenic driver mutations in LC is now standard. "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e33916afbd6abf43b000061",
+                            "question": "Does radiotherapy for prostate cancer increase bladder cancer risk?"
+                        }
+                    ],
+                    "context": "External Beam Radiotherapy Increases the Risk of Bladder Cancer When Compared with Radical Prostatectomy in Patients Affected by Prostate Cancer: A Population-based Analysis.On multivariable competing risk regression analyses, treatment with EBRT was independently associated with the risk of developing a second primary BCa (hazard ratio: 1.35, CI: 1.18-1.55; p<0.001), but not RCa (p=0.4). CONCLUSIONS: Patients treated with EBRT are at increased risk of developing a second primary BCa compared with those treated with RP. However, no differences were found considering RCa incidence in patients treated with RP or EBRT within the first 5 yr after primary therapy. We found that those treated with external beam radiotherapy are at an increased risk of developing a second primary bladder cancer tumor.All radiation modalities were found to have an increased RR of developing BlCa after 10\u00a0years, with brachytherapy having a significantly higher RR than external beam radiation (EBRT) or combined EBRT and brachytherapy in Caucasian men and a significantly higher RR than EBRT in men of other/unknown ethnicity. "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e51a2d76d0a27794100003a",
+                            "question": "Do genes with monoallelic expression contribute proportionally to genetic diversity in humans?"
+                        }
+                    ],
+                    "context": "Genes with monoallelic expression contribute disproportionately to genetic diversity in humans.An unexpectedly large number of human autosomal genes are subject to monoallelic expression (MAE). Our analysis of 4,227 such genes uncovers surprisingly high genetic variation across human populations. This increased diversity is unlikely to reflect relaxed purifying selection. Remarkably, MAE genes exhibit an elevated recombination rate and an increased density of hypermutable sequence contexts. However, these factors do not fully account for the increased diversity. We find that the elevated nucleotide diversity of MAE genes is also associated with greater allelic age: variants in these genes tend to be older and are enriched in polymorphisms shared by Neanderthals and chimpanzees. Both synonymous and nonsynonymous alleles of MAE genes have elevated average population frequencies. We also observed strong enrichment of the MAE signature among genes reported to evolve under balancing selection. We propose that an important biological function of widespread MAE might be the generation of cell-to-cell heterogeneity; the increased genetic variation contributes to this heterogeneity.Genes with monoallelic expression contribute disproportionately to genetic diversity in humans"
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e5437ffb761aafe09000002",
+                            "question": "Has MLE4901 been tested in phase III clinical trials?"
+                        }
+                    ],
+                    "context": "METHODS\n\nThis phase 2, randomised, double-blind, placebo-controlled, single-centre, crossover trial assessed the effectiveness of an oral neurokinin 3 receptor antagonist (MLE4901) on menopausal hot flushes.Neurokinin 3 receptor antagonism as a novel treatment for menopausal hot flushes: a phase 2, randomised, double-blind, placebo-controlled trial."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e5508e2b761aafe09000006",
+                            "question": "Does ESN364 activate the hypothalamic-pituitary-gonadal axis?"
+                        }
+                    ],
+                    "context": "Oral administration of the NK3R antagonist, ESN364, suppressed the hypothalamic-pituitary-gonadal axis in healthy volunteers by selective modulation of gonadotropin secretion, leading to a restrained decrease in ovarian hormone levels in women."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e763645c6a8763d2300000d",
+                            "question": "Has ORMD-0801 been tested in patients?"
+                        }
+                    ],
+                    "context": "Glucose-reducing effect of the ORMD-0801 oral insulin preparation in patients with uncontrolled type 1 diabetes: a pilot study.In efforts to provide patients with a more compliable treatment method, Oramed Pharmaceuticals tested the capacity of its oral insulin capsule (ORMD-0801, 8 mg insulin) in addressing this resistant clinical state."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e763c3fc6a8763d23000010",
+                            "question": "Was vivotif licensed in Europe and the US at the same time?"
+                        }
+                    ],
+                    "context": "Vivotif\u00ae is an oral live attenuated vaccine which contains a mutated strain of Salmonella (Ty21a) and reproduces the natural infection. The vaccine was first licensed in Europe in 1983 and in the US in 1989, and over the years it has proved efficacious and safe."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e43090d48dab47f26000011",
+                            "question": "Are stem cell transplants used to treat acute kidney injury?"
+                        }
+                    ],
+                    "context": "Animal studies have shown that mesenchymal stromal cell (MSC) infusions improve acute kidney injury (AKI) outcomes when administered early after ischemic/reperfusion injury or within 24 hours after cisplatin administration.Early Diagnostic Markers for Detection of Acute Kidney Injury in Allogeneic Hematopoietic Stem Cell Transplant Recipients.Risk assessment for acute kidney injury after allogeneic hematopoietic stem cell transplantation based on Acute Kidney Injury Network criteria."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e51dab06d0a27794100003d",
+                            "question": "Is deletion at 6q24.2-26 associated with shorter survival for ovarian cancer patients?"
+                        }
+                    ],
+                    "context": "Deletion at 6q24.2-26 predicts longer survival of high-grade serous epithelial ovarian cancer patients.Standard treatments for advanced high-grade serous ovarian carcinomas (HGSOCs) show significant side-effects and provide only short-term survival benefits due to disease recurrence. Thus, identification of novel prognostic and predictive biomarkers is urgently needed. We have used 42 paraffin-embedded HGSOCs, to evaluate the utility of DNA copy number alterations, as potential predictors of clinical outcome. Copy number-based unsupervised clustering stratified HGSOCs into two clusters of different immunohistopathological features and survival outcome (HR = 0.15, 95%CI = 0.03-0.81; Padj = 0.03). We found that loss at 6q24.2-26 was significantly associated with the cluster of longer survival independently from other confounding factors (HR = 0.06, 95%CI = 0.01-0.43, Padj = 0.005). The prognostic value of this deletion was validated in two independent series, one consisting of 36 HGSOCs analyzed by fluorescent in situ hybridization (P = 0.04) and another comprised of 411 HGSOCs from the Cancer Genome Atlas study (TCGA) (HR = 0.67, 95%CI = 0.48-0.93, Padj = 0.019). In addition, we confirmed the association of low expression of the genes from the region with longer survival in 799 HGSOCs (HR = 0.74, 95%CI = 0.61-0.90, log-rank P = 0.002) and 675 high-FIGO stage HGSOCs (HR = 0.76, 95%CI = 0.61-0.96, log-rank P = 0.02) available from the online tool KM-plotter. Finally, by integrating copy number, RNAseq and survival data of 296 HGSOCs from TCGA we propose a few candidate genes that can potentially explain the association. Altogether our findings indicate that the 6q24.2-26 deletion is an independent marker of favorable outcome in HGSOCs with potential clinical value as it can be analyzed by FISH on tumor sections and guide the selection of patients towards more conservative therapeutic strategies in order to reduce side-effects and improve quality of life.We found that loss at 6q24.2-26 was significantly associated with the cluster of longer survival independently from other confounding factors (HR = 0.06, 95%CI = 0.01-0.43, Padj = 0.005).OBJECTIVE\n\nWe aimed to evaluate the prognostic and predictive value of the nucleotide excision repair-related gene GTF2H5, which is localized at the 6q24.2-26 deletion previously reported by our group to predict longer survival of high-grade serous ovarian cancer patients.We found that loss at 6q24.2-26 was significantly associated with the cluster of longer survival independently from other confounding factors (HR = 0.06, 95%CI = 0.01-0.43, Padj = 0.005)."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5d35eb01b3a638076300000f",
+                            "question": "Are there negative enhancers?"
+                        }
+                    ],
+                    "context": "Clones in which the transgene was down-regulated by dexamethasone survived and were designated AtT-20/NET (for negative enhancer trap).The E1a gene of adenovirus encodes two proteins, 289 and 243 amino acids long, which have positive (transactivator) and negative (enhancer repressor) RNA polymerase II transcriptional regulatory properties and cell transformation activities including cooperation with an activated ras gene.Tandemly reiterated negative enhancer-like elements regulate transcription of a human gene for the large subunit of calcium-dependent protease.Upstream of the promoter region are tandemly reiterated multiple regulatory regions (-2.5k to -690, -690 to -460, -460 to -260, and -260 to -202), each of which negatively regulates the CANP mL gene promoter as well as heterologous promoters in an orientation-independent manner.The presence of a cellular factor(s) mediating the action of these positive (promoter) and negative regulatory elements was suggested by an in vivo competition assay."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e540db06d0a277941000053",
+                            "question": "Has saracatinib been tested in clinical trials?"
+                        }
+                    ],
+                    "context": "Saracatinib as a metastasis inhibitor in metastatic castration-resistant prostate cancer: A University of Chicago Phase 2 Consortium and DOD/PCF Prostate Cancer Clinical Trials Consortium Study.A phase II study of saracatinib (AZD0530), a Src inhibitor, administered orally daily to patients with advanced thymic malignancies.Phase II study of saracatinib (AZD0530) in patients with previously treated metastatic colorectal cancer.Metastatic colorectal cancer patients who had received one prior treatment and had measurable disease were enrolled in this phase 2 study.A phase Ib multiple ascending dose study of the safety, tolerability, and central nervous system availability of AZD0530 (saracatinib) in Alzheimer's disease."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e500d8c6d0a277941000035",
+                            "question": "Is \u03b1CGRP a member of the CGRP family?"
+                        }
+                    ],
+                    "context": "\u03b1CGRP, another amyloidogenic member of the CGRP family.Therefore, in this work, we investigated the amyloidogenic profile of \u03b1CGRP, a 37-residue-long peptide hormone, utilizing both biophysical experimental techniques and Molecular Dynamics simulations. These efforts unravel a novel amyloidogenic member of the CGRP family and provide insights into the mechanism underlying the \u03b1CGRP polymerization.These efforts unravel a novel amyloidogenic member of the CGRP family and provide insights into the mechanism underlying the \u03b1CGRP polymerization.These efforts unravel a novel amyloidogenic member of the CGRP family and provide insights into the mechanism underlying the \u03b1CGRP polymerization."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e44c33a48dab47f26000020",
+                            "question": "Can Enlimomab improve stroke outcomes?"
+                        }
+                    ],
+                    "context": "Treatment with a murine anti-ICAM-1 antibody (enlimomab) has been investigated in patients with acute ischemic stroke in the Enlimomab Acute Stroke Trial (EAST). Unfortunately, the case fatality rate in this trial was significantly higher in the enlimomab patient group than in the placebo group.The two clinical trials of therapy aimed at limiting the inflammatory response in acute stroke that have been carried out to date, however, have not shown a benefit to such therapy. en classes of neuroprotective agents have reached phase III efficacy trials but have shown mixed results. They included calcium channel antagonists, NMDA receptor antagonists, lubeluzole, CDP-choline, the free radical scavenger tirilazad and ebselen, enlimomab, GABA agonist clomethiazole, the sodium channel antagonist fosphenytoin, magnesium, glycine site antagonist GV150526 and piracetam. BACKGROUND AND PURPOSE: Enlimomab, a murine monoclonal anti-human intercellular adhesion molecule (ICAM)-1 antibody, had a negative outcome in a multicenter acute-stroke trial. Examination of several potential mechanisms for the negative outcome in a clinical stroke trial of enlimomab, a murine anti-human intercellular adhesion molecule-1 antibody: a bedside-to-bench study."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5d384ce87bc3fee31f000013",
+                            "question": "Does GRHL2 over-expression lead to EMT?"
+                        }
+                    ],
+                    "context": "Grhl2 is down-regulated in disseminated cancer cells that have undergone EMT, and over-expression of Grhl2 is sufficient to induce epithelial gene expression. Grhl2 plays an essential role in the determination of epithelial phenotype of breast cancers, EMT and tumor progression.In breast cancer cell lines, shRNA-mediated knockdown of GRHL2 expression or functional inactivation of GRHL2 using dominant negative GRHL2 proteins induces down-regulation of ERBB3 gene expression, a striking reduction in cell proliferation, and morphological and phenotypical alterations characteristic of an epithelial-to-mesenchymal transition (EMT), thus implying contradictory roles of GRHL2 in breast carcinogenesis.Interestingly, we could further demonstrate that expression of GRHL2 is directly suppressed by the transcription factor zinc finger enhancer-binding protein 1 (ZEB1), which in turn is a direct target for repression by GRHL2, suggesting that the EMT transcription factors GRHL2 and ZEB1 form a double negative regulatory feedback loop in breast cancer cellsMesenchymal-Epithelial Transition in Sarcomas Is Controlled by the Combinatorial Expression of MicroRNA 200s and GRHL2."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e7f5cc5835f4e4777000015",
+                            "question": "Is the Fluzone intradermal and the Fluzone intradermal quadrivalent vaccine produced by different companies?"
+                        }
+                    ],
+                    "context": "An intradermal version of Fluzone\u00ae split-virion inactivated trivalent influenza vaccine, containing 9\u00a0\u00b5g hemagglutinin per strain of A/H1N1, A/H3N2, and one B lineage virus (Fluzone Intradermal, Sanofi Pasteur), became available in the US during the 2011-2012 influenza season for adults 18-64\u00a0years of age. In advance of the 2015-2016 season, Fluzone Intradermal was replaced with Fluzone Intradermal Quadrivalent vaccine, which contains 9\u00a0\u00b5g hemagglutinin per strain of the two A-strain viruses and both B-strain lineage viruses (Victoria and Yamagata)."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e821ac5835f4e4777000031",
+                            "question": "Is endotrophin derived from collagen?"
+                        }
+                    ],
+                    "context": "endotrophin production from type IV collagenHigh levels of COL6A3 and its cleaved product, endotrophin (ETP)Endotrophin is released from COL VI"
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e7f6090835f4e477700001a",
+                            "question": "Can Daptacel be used instead of IPOL?"
+                        }
+                    ],
+                    "context": "Our goal was to compare the safety and immunogenicity of a combination vaccine (DTaP(5)-IPV-Hib; Pentacel) with that of its separately administered, US-licensed equivalent vaccines (diphtheria, tetanus, 5-component acellular pertussis vaccine [DTaP(5); Daptacel], inactivated poliovirus vaccine [IPV; IPOL], and Haemophilus influenzae type b [Hib] vaccine [ActHIB]), when administered to infants and toddlers concomitantly with other routinely recommended vaccines and to assess antibody persistence from the fourth dose in toddlers to the fifth (preschool) DTaP(5) dose.DTaP(5)-IPV-Hib is a suitable replacement for separately administered DTaP, IPV, and Hib vaccines. In this randomized, multicenter study, 1939 healthy infants were immunized at 2, 4, and 6 months of age with 1 of 3 lots of DTaP(5) coadministered with IPV and Hib vaccines or 1 lot of DTaP(5)-IPV-Hib combination vaccine.DTaP(5)-IPV-Hib elicited similar or fewer solicited injection-site and systemic reactions as compared with the separate administration of US-licensed DTaP(5), IPV, and Hib vaccines. "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e806ff7835f4e4777000027",
+                            "question": "Is ACE2 expressed on cell surfaces?"
+                        }
+                    ],
+                    "context": " Recent studies reported that shedding of the enzymatically active ectodomain of ACE2 from the cell surfaceACE2 is a type 1 integral membrane protein and contains a catalytically active ectodomain that can be shed from the cell surface into the extracellular space,"
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e7744c3835f4e4777000005",
+                            "question": "Can leuprorelin acetate be used as androgen deprivation therapy?"
+                        }
+                    ],
+                    "context": "We investigated the health-related quality of life (HRQoL) of long-term prostate cancer patients who received leuprorelin acetate in microcapsules (LAM) for androgen-deprivation therapy (ADT).Long-term ADT with LAM is a well-accepted, tolerated, effective, and low-burden treatment option for patients with advanced, hormone-sensitive PCa."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e6e35b07fc1ee872b000004",
+                            "question": "Are astrocytes part of the blood brain barrier?"
+                        }
+                    ],
+                    "context": "The blood-brain barrier (BBB) is a tight boundary formed between endothelial cells and astrocytes, which separates and protects brain from most pathogens as well as neural toxins in circulation.The blood-brain barrier (BBB) consists of endothelial cells, astrocytes, and pericytes embedded in basal lamina (BL)."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e639a8b1af46fc130000011",
+                            "question": "Is Li\u2013Fraumeni syndrome a rare, autosomal recessive, hereditary disorder that predisposes carriers to cancer development?"
+                        }
+                    ],
+                    "context": "Li-Fraumeni syndrome (LFS) is a rare cancer predisposition syndrome inherited in an autosomal dominant fashion that involves a germline mutation of tumor protein 53 (TP53). Li-Fraumeni syndrome (LFS), a multiorgan cancer predisposition caused by germline TP53 mutations, confers significant cancer risks for young people (15-39 years). Yet evidence of how individuals experience this condition and the psychosocial implications are lacking. Therefore, this systematic review assessed the psychosocial implications of living with, or at risk of, an autosomal dominant condition as a young person, toLi-Fraumeni syndrome (LFS) is a rare autosomal dominant disorder caused by a mutation in the p53 gene.Li-Fraumeni syndrome (LFS) is an autosomal dominant disorder occurring at a young age that predisposes individuals to multiple forms of cancer and to a heterogeneous spectrum of malignancies.Li-Fraumeni syndrome (LFS) is a rare hereditary autosomal dominant cancer disorder."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e776c72835f4e477700000e",
+                            "question": "Has the drug Afrezza been approved by the FDA?"
+                        }
+                    ],
+                    "context": "In contrary, MannKind Corporation started developing its ultra-rapid-acting insulin Afrezza in a bold bid, probably by managing the issues in which Exubera was not successful. Afrezza has been marketed since February, 2015 by Sanofi after getting FDA approval in June 2014."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e8220e6835f4e4777000032",
+                            "question": "Is Protoporphyrinogen oxidase localized to the mitochondrium?"
+                        }
+                    ],
+                    "context": "We showed that 28 amino acids in the amino terminus of PPOX contain an independently functioning signal for mitochondrial targeting.Based on our results we propose a mechanism for protoporphyrinogen oxidase targeting to the mitochondrion.Mitochondrial targeting of human protoporphyrinogen oxidase.In the present study, PfPPO has been cloned, expressed and shown to be localized to the mitochondrion by immunofluorescence microscopy. "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e36d498b5b409ea53000008",
+                            "question": "Do de novo truncating mutations in WASF1 cause cancer?"
+                        }
+                    ],
+                    "context": "De Novo Truncating Mutations in WASF1 Cause Intellectual Disability with Seizures.Here, using exome sequencing and whole-genome sequencing, we identified three de novo truncating mutations in WAS protein family member 1 (WASF1) in five unrelated individuals with moderate to profound intellectual disability with autistic features and seizures. WASF1, also known as WAVE1, is part of the WAVE complex and acts as a mediator between Rac-GTPase and actin to induce actin polymerization. The three mutations connected by Matchmaker Exchange were c.1516C>T (p.Arg506Ter), which occurs in three unrelated individuals, c.1558C>T (p.Gln520Ter), and c.1482delinsGCCAGG (p.Ile494MetfsTer23). All three variants are predicted to partially or fully disrupt the C-terminal actin-binding WCA domain. Functional studies using fibroblast cells from two affected individuals with the c.1516C>T mutation showed a truncated WASF1 and a defect in actin remodeling. This study provides evidence that de\u00a0novo heterozygous mutations in WASF1 cause a rare form of intellectual disability."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e64ed381af46fc130000015",
+                            "question": "Are ICAMS, Intracellular Adhesion Molecules, part of the immunoglobulin superfamily?"
+                        }
+                    ],
+                    "context": "It has now been shown that adhesion molecules, particularly those of the immunoglobulin super family (e.g. ICAM-1, VCAM-1 and PECAM-1), Intercellular adhesion molecule 3 (ICAM-3, also known as CD50), a human leukocyte-restricted immunoglobulin super-family (IgSF) member, has previously been implicated in apoptotic cell clearance,Intercellular adhesion molecule-1 (ICAM-1), vascular cell adhesion molecule-1 (VCAM-1) and platelet-endothelial cell adhesion molecule-1 (PECAM-1) are members of the immunoglobulin super-family which are present on the surface of endothelial cells.Intracellular adhesion molecule 1 (ICAM-1) is an adhesion-related molecule belonging to the immunoglobulin superfamily.Immunologically important integrin ligands are the intercellular adhesion molecules (ICAMs), immunoglobulin superfamily members present on inflamed endothelium and antigen-presenting cells."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e57fa23b761aafe09000008",
+                            "question": "Is traditional Chinese medicine associated with a decreased risk of heart failure in breast cancer patients receiving doxorubicin treatment?"
+                        }
+                    ],
+                    "context": "Traditional Chinese medicine is associated with a decreased risk of heart failure in breast cancer patients receiving doxorubicin treatment Using TCM significantly decreased the incidence of CHF in patients with breast cancer who received conventional chemotherapy with or without radiotherapy.Traditional Chinese medicine is associated with a decreased risk of heart failure in breast cancer patients receiving doxorubicin treatment.CONCLUSION\n\nUsing TCM significantly decreased the incidence of CHF in patients with breast cancer who received conventional chemotherapy with or without radiotherapy.CONCLUSION\nUsing TCM significantly decreased the incidence of CHF in patients with breast cancer who received conventional chemotherapy with or without radiotherapy."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e6df5b51af46fc130000025",
+                            "question": "Is PTEN a tumour suppressor?"
+                        }
+                    ],
+                    "context": "PTEN is a potent tumour suppressorGenomic aberrations of the PTEN tumour suppressor gene are among the most common in prostate cancer."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5d387098a1e1595105000006",
+                            "question": "Is the tyrosine kinase BTK implicated in autoimmunity?"
+                        }
+                    ],
+                    "context": "Autoimmunity, hypersensitivity to B cell receptor (BCR) cross-linking, and splenomegaly caused by myeloerythroid hyperplasia were alleviated by Btk deficiency in lyn-/- mice.Augmented TLR9-induced Btk activation in PIR-B-deficient B-1 cells provokes excessive autoantibody production and autoimmunity.Autoimmunity was fully dependent on Btk kinase activity, because Btk inhibitor treatment (PCI-32765) could normalize B-cell activation and differentiation, and because autoantibodies were absent in Btk transgenic mice overexpressing a kinase inactive Btk mutant.Bruton's tyrosine kinase (Btk) is a proximal transducer of the BCR signal that allows for B-cell activation and differentiation. Recently, selective inhibition of Btk by PCI-32765 has shown promise in limiting activity of multiple cells types in various models of cancer and autoimmunity.Inhibitors of BTK and ITK: state of the new drugs for cancer, autoimmunity and inflammatory diseases."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5d387721a1e159510500000c",
+                            "question": "Is induction of interferon by TLR7 higher in males?"
+                        }
+                    ],
+                    "context": "ur results suggest that variations of TLR7 impair the immune response to HCV and imply a gender-specific effect of this X-chromosomal variation.The c.32A>T variation was over-represented in female patients with chronic HCV-infection compared to patients with other chronic liver diseases and to healthy controls (P < 0.05). In contrast, c.2403 G>A was less prevalent in male patients with chronic HCV-infection (P < 0.05). No association was observed for the third variant, c.1-120T>G. Haplotype analysis confirmed the differential distribution of TLR7 variants between the groups. Within the group of female patients with chronic HCV-infection, c.32T was predictive of an unfavourable outcome of interferon-alpha therapy (P < 0.05)"
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e64f1921af46fc130000018",
+                            "question": "Is there a vaccine for rotavirus?"
+                        }
+                    ],
+                    "context": "Safety and Immunogenicity of Pentavalent Rotavirus Vaccine (RV5)This study compares the safety and immunogenicity of pentavalent rotavirus vaccine (RV5)Effectiveness of rotavirus pentavalent vaccine rotavirus pentavalent vaccine (RotaTeq\u00ae) as a sole vaccineWe describe rotavirus vaccine coverage and missed opportunities for rotavirus vaccination."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e2d7ceefbd6abf43b00000b",
+                            "question": "Is BNN20 involved in Parkinson's disease?"
+                        }
+                    ],
+                    "context": "Neurotrophic factors are among the most promising treatments aiming at slowing or stopping and even reversing Parkinson's disease (PD). However, in most cases, they cannot readily cross the human blood-brain-barrier (BBB). Herein, we propose as a therapeutic for PD the small molecule 17-beta-spiro-[5-androsten-17,2'-oxiran]-3beta-ol (BNN-20), a synthetic analogue of DHEA, which crosses the BBB and is deprived of endocrine side-effects. Using the \"weaver\" mouse, a genetic model of PD, which exhibits progressive dopaminergic neurodegeneration in the Substantia Nigra (SN), we have shown that long-term administration (P1-P21) of BNN-20 almost fully protected the dopaminergic neurons and their terminals, via i) a strong anti-apoptotic effect, probably mediated through the Tropomyosin receptor kinase B (TrkB) neurotrophin receptor's PI3K-Akt-NF-\u03baB signaling pathway, ii) by exerting an efficient antioxidant effect, iii) by inducing significant anti-inflammatory activity and iv) by restoring Brain-Derived Neurotrophic Factor (BDNF) levels. By intercrossing \"weaver\" with NGL mice (dual GFP/luciferase-NF-\u03ba\u0392 reporter mice, NF-\u03ba\u0392.GFP.Luc), we obtained Weaver/NGL mice that express the NF-\u03baB reporter in all somatic cells. Acute BNN-20 administration to Weaver/NGL mice induced a strong NF-\u03baB-dependent transcriptional response in the brain as detected by bioluminescence imaging, which was abolished by co-administration of the TrkB inhibitor ANA-12. This indicates that BNN-20 exerts its beneficial action (at least in part) through the TrkB-PI3K-Akt-NF-\u03baB signaling pathway. These results could be of clinical relevance, as they suggest BNN-20 as an important neuroprotective agent acting through the TrkB neurotrophin receptor pathway, mimicking the action of the endogenous neurotrophin BDNF. Thus BNN-20 could be proposed for treatment of PD."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e35d3c6158f994d3a000003",
+                            "question": "Is there a role for MRPL53 in cancer?"
+                        }
+                    ],
+                    "context": "MRPL53, a New Candidate Gene for Orofacial Clefting, Identified Using an eQTL Approach.A valuable approach to understand how individual and population genetic differences can predispose to disease is to assess the impact of genetic variants on cellular functions (e.g., gene expression) of cell and tissue types related to pathological states. To understand the genetic basis of nonsyndromic cleft lip with or without cleft palate (NSCL/P) susceptibility, a complex and highly prevalent congenital malformation, we searched for genetic variants with a regulatory role in a disease-related tissue, the lip muscle (orbicularis oris muscle [OOM]), of affected individuals. From 46 OOM samples, which are frequently discarded during routine corrective surgeries on patients with orofacial clefts, we derived mesenchymal stem cells and correlated the individual genetic variants with gene expression from these cultured cells. Through this strategy, we detected significant cis-eQTLs (i.e., DNA variants affecting gene expression) and selected a few candidates to conduct an association study in a large Brazilian cohort (624 patients and 668 controls). This resulted in the discovery of a novel susceptibility locus for NSCL/P, rs1063588, the best eQTL for the MRPL53 gene, where evidence for association was mostly driven by the Native American ancestry component of our Brazilian sample. MRPL53 (2p13.1) encodes a 39S protein subunit of mitochondrial ribosomes and interacts with MYC, a transcription factor required for normal facial morphogenesis. "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e36a4b7b5b409ea53000003",
+                            "question": "Does Uc.63+ promote sensitivity to treatment in prostate cancer?"
+                        }
+                    ],
+                    "context": "Transcribed ultraconserved region Uc.63+ promotes resistance to docetaxel through regulation of androgen receptor signaling in prostate cancer.The transcribed ultraconserved regions (T-UCRs) are a novel class of non-coding RNAs that are absolutely conserved across species and are involved in carcinogenesis including prostate cancer (PC). In this study, we investigated the transcriptional levels of 26 representative T-UCRs and determined the regions that were differentially expressed in PC. Quantitative real-time polymerase chain reaction analysis revealed that the expression of T-UCR Uc.63+ was increased in PC tissues. MTT assay and wound healing assay revealed that Uc.63+ was involved in cell growth and cell migration. miR-130b was predicted to have binding sites within the Uc.63+ sequence. The expression of miR-130b was significantly disturbed by the overexpression or knockdown of Uc.63+. We also showed that Uc.63+ regulated the expression of MMP2 via miR-130b regulation. Furthermore, overexpression of Uc.63+ increased the expression of AR and its downstream molecule PSA and promoted resistance to docetaxel through AR regulation. In patients treated with docetaxel, the expression of serum Uc.63+ in the docetaxel-resistant patients was higher than that in the docetaxel-sensitive patients (P = 0.011). Moreover, Kaplan-Meier analysis showed that the high expression of serum Uc.63+ correlated with a worse prognosis (P = 0.020). These results substantially support the important role that Uc.63+ plays in PC progression by interacting with miR-130b and indicate that Uc.63+ could potentially be a promising serum marker for deciding the best treatment for patients with CRPC.Transcribed ultraconserved region Uc.63+ promotes resistance to docetaxel through regulation of androgen receptor signaling in prostate cancerThese results substantially support the important role that Uc.63+ plays in PC progression by interacting with miR-130b and indicate that Uc.63+ could potentially be a promising serum marker for deciding the best treatment for patients with CRPCFurthermore , overexpression of Uc.63+ increased the expression of AR and its downstream molecule PSA and promoted resistance to docetaxel through AR regulation"
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e2b3d97fbd6abf43b00000a",
+                            "question": "Does BNN27 promote memory loss?"
+                        }
+                    ],
+                    "context": "The novel dehydroepiandrosterone (DHEA) derivative BNN27 counteracts delay-dependent and scopolamine-induced recognition memory deficits in rats.BNN27 is a novel 17C spiroepoxy-DHEA derivative, which devoid of steroidogenic activity. The neuroprotective effects of BNN27 have been recently reported. The present study was designed to investigate the effects of BNN27 on recognition memory in rats. For this purpose, the novel object task (NOT), a procedure assessing non-spatial recognition memory and the novel location task (NLT), a procedure evaluating spatial recognition memory were used. Intraperitoneal (i.p.) administration of BNN27 (3 and 10mg/kg) antagonized delay-dependent deficits in the NOT in the normal rat, suggesting that this DHEA derivative affected acquisition, storage and retrieval of information. In addition, BNN27 (3 and 10mg/kg, i.p.) counteracted the scopolamine [0.2mg/kg, subcutaneously (s.c.)]-induced non-spatial and spatial recognition memory deficits. These findings suggest that BNN27 may modulate different aspects of recognition memory, potentially interacting with the cholinergic system, relevant to cognition."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e4946bf6d0a277941000005",
+                            "question": "Are genomic regulatory blocks (GRBs) any different than TADs?"
+                        }
+                    ],
+                    "context": "Topologically associating domains are ancient features that coincide with Metazoan clusters of extreme noncoding conservation.Clusters of CNEs define the span of regulatory inputs for many important developmental regulators and have been described previously as genomic regulatory blocks (GRBs). Their function and distribution around important regulatory genes raises the question of how they relate to 3D conformation of these loci. Here, we show that clusters of CNEs strongly coincide with topological organisation, predicting the boundaries of hundreds of topologically associating domains (TADs) in human and Drosophila. The set of TADs that are associated with high levels of noncoding conservation exhibit distinct properties compared to TADs devoid of extreme noncoding conservation. The close correspondence between extreme noncoding conservation and TADs suggests that these TADs are ancient, revealing a regulatory architecture conserved over hundreds of millions of years.Metazoan genomes contain many clusters of conserved noncoding elements. Here, the authors provide evidence that these clusters coincide with distinct topologically associating domains in humans and Drosophila, revealing a conserved regulatory genomic architecture."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e67bc121af46fc13000001c",
+                            "question": "Are Spinal Intradural Primary Malignant Peripheral Nerve Sheath Tumors(MPNST) rare in neurofibromatosis patients?"
+                        }
+                    ],
+                    "context": "Spinal intradural primary malignant peripheral nerve sheath tumors (MPNST) are rare in patients without neurofibromatosis.Primary malignant peripheral nerve sheath tumors (MPNSTs) are extremely rare in patients without a history of neurofibromatosis; only 18 cases have been reported in the English-language literature to this point."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e776541835f4e4777000009",
+                            "question": "Can MVA85A confer immunity against smallpox?"
+                        }
+                    ],
+                    "context": "We assessed the safety, immunogenicity, and efficacy of a candidate tuberculosis vaccine, modified vaccinia virus Ankara expressing antigen 85A (MVA85A), in adults infected with HIV-1.Safety, immunogenicity, and efficacy of the candidate tuberculosis vaccine MVA85A in healthy adults infected with HIV-1: a randomised, placebo-controlled, phase 2 trial."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e6e2c1e7fc1ee872b000002",
+                            "question": "Is MLL3 part of the ASCOM complex?"
+                        }
+                    ],
+                    "context": "MLL3 as part of ASCOM complexMLL3 as part of activating signal cointegrator-2 -containing complex (ASCOM)"
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e476da1d14c9f295d000002",
+                            "question": "Is marimastat effective for small-cell lung cancer?"
+                        }
+                    ],
+                    "context": "The phase III trial in small cell lung cancer was discontinued when the results of study 140 were released in February 2001 showing that marimastat was not significantly more effective than placebo in prolonging the survival of small cell lung cancer patients.CONCLUSION: Treatment with marimastat after induction therapy for SCLC did not result in improved survival and had a negative impact on quality of life.There were no significant differences in survival in a non-small cell lung cancer prinomastat study, and in a small cell lung cancer marimastat trial.There were no significant differences in survival in a non-small cell lung cancer prinomastat study , and in a small cell lung cancer marimastat trial. The phase III trial in small cell lung cancer was discontinued when the results of study 140 were released in February 2001 showing that marimastat was not significantly more effective than placebo in prolonging the survival of small cell lung cancer patients."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e4b64126d0a277941000028",
+                            "question": "Is Figitumumab effective for non-small cell lung cancer?"
+                        }
+                    ],
+                    "context": "A phase III study failed for carboplatin, paclitaxel, with or without figitumumab in first-line treating metastatic non-small cell lung cancer (NSCLC).CONCLUSION: Adding figitumumab to standard chemotherapy failed to increase OS in patients with advanced nonadenocarcinoma NSCLC.Median OS was 8.6 months for figitumumab plus chemotherapy and 9.8 months for chemotherapy alone (hazard ratio [HR], 1.18; 95% CI, 0.99 to 1.40; P = .06); median progression-free survival was 4.7 months (95% CI, 4.2 to 5.4) and 4.6 months (95% CI, 4.2 to 5.4), respectively (HR, 1.10; P = .27); the objective response rates were 33% and 35%, respectively. Phase III trials of the anti-insulin-like growth factor-1 receptor (IGF1R) antibody figitumumab in non-small cell lung cancer (NSCLC) patients have been discontinued owing to lack of survival benefit.Two phase III trials of the anti-IGF-1R monoclonal antibody, figitumumab (CP-751,871), were discontinued in 2010 as it was considered unlikely either trial would meet their primary endpoints. In light of disappointing clinical data with figitumumab and other targeted agents, it is likely that the use of molecular markers will become important in predicting response to treatment. "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e3ab58db5b409ea5300001c",
+                            "question": "The LINCS L1000 data set contains gene expression data for drug treated human cells, yes or no?"
+                        }
+                    ],
+                    "context": " Library of Integrated Network-based Cellular Signatures (LINCS) L1000 dataset that measured changes in GE before and after treatment of human cells with over 20 000 small-molecule compounds including most of the FDA-approved drugs.The Library of Integrated Network-based Cellular Signatures (LINCS) L1000 big data provide gene expression profiles induced by over 10\u2009000 compounds, shRNAs, and kinase inhibitors using the L1000 platform.The Library of Integrated Cellular Signatures (LINCS) project provides comprehensive transcriptome profiling of human cell lines before and after chemical and genetic perturbations. Recently, resources such as the Library of Integrated Network-Based Cellular Signatures (LINCS) L1000 database provide gene expression profiles induced by various chemical and genetic perturbationsThe library of integrated network-based cellular signatures (LINCS) L1000 data set currently comprises of over a million gene expression profiles of chemically perturbed human cell lines."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e46bdcd3f54159529000007",
+                            "question": "Is there a vaccine for peanut allergy?"
+                        }
+                    ],
+                    "context": "Currently, two forms of peanut immunotherapy, oral immunotherapy (OIT) and epicutaneous immunotherapy (EPIT), are in Phase III clinical trials and have shown promise to induce desensitization in many subjectsThis article presents an overview of potential treatments of food allergy, with an emphasis on various forms of immunotherapy (including oral immunotherapy, sublingual immunotherapy, epicutaneous immunotherapy, immunotherapy with modified food antigens, and immunotherapy with a recombinant peanut vaccine).Recent advances in immunotherapy and vaccine development for peanut allergy.Efforts have been made to develop a vaccine for peanut allergy.So far, results, especially from oral immunotherapy studies, have shown good efficacy in achieving desensitization to peanut with a good safety profile."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e476b99d14c9f295d000001",
+                            "question": "Is golimumab effective for sarcoidosis?"
+                        }
+                    ],
+                    "context": "Introduced monoclonal antibodies (infliximab, etanercept, adaluimumab, golimumab, rituximab), tested for efficacy in other pathologies associated with the formation of granulomas, have a limited application in patients with SA. Although treatment was well tolerated, neither ustekinumab nor golimumab demonstrated efficacy in pulmonary sarcoidosis. Although treatment was well tolerated, neither ustekinumab nor golimumab demonstrated efficacy in pulmonary sarcoidosis."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e80675d835f4e4777000026",
+                            "question": "Is SARS virus interacting with ACE2 encoded protein?"
+                        }
+                    ],
+                    "context": "The trimeric SARS coronavirus (SARS-CoV) surface spike (S) glycoprotein consisting of three S1-S2 heterodimers binds the cellular receptor angiotensin-converting enzyme 2 (ACE2) and mediates fusion of the viral and cellular membranes through a pre- to postfusion conformation transitionThe viral spike glycoprotein (S) utilizes angiotensin-converting enzyme 2 (ACE2) as a host protein receptor and mediates fusion of the viral and host membranes, making S essential to viral entry into host cells and host species tropism.Cell entry studies demonstrated that three newly identified SARSr-CoVs with different S protein sequences are all able to use human ACE2 as the receptorAngiotensin-converting enzyme 2 (ACE2), a relatively new member of the RAS, has drawn extensive attention since 2003, because of the findings that ACE2 is the receptor for SARS Corona virus and that maintenance of normal ACE2 levels in the lung is beneficial for the host to combat inflammatory lung disease.The infection of target cells by the SARS CoV is mediated through the interaction of the viral Spike (S) protein (1255 amino acids) and its cellular receptor, angiotensin-converting enzyme 2 (ACE2)."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e3ebaa348dab47f2600000a",
+                            "question": "Is the FIP virus thought to be a mutated strain for the Feline enteric Coronavirus?"
+                        }
+                    ],
+                    "context": "Feline infectious peritonitis (FIP) results from mutations in the viral genome during a common feline enteric coronavirus (FECV) infection.It is caused by FIP virus (FIPV), a virulent mutant strain of Feline Enteric Coronavirus (FECV).Feline infectious peritonitis virus (FIPV) was presumed to arise from mutations in the 3c of a ubiquitous and largely nonpathogenic feline enteric coronavirus (FECV).Feline enteric coronavirus (FECV) causes inapparent or mild enteritis in cats, but a highly fatal disease, called feline infectious peritonitis (FIP), can arise through mutation of FECV to FIP virus (FIPV).Feline infectious peritonitis (FIP) is a lethal systemic disease caused by FIP virus (FIPV), a virulent mutant of apathogenic feline enteric coronavirus (FECV)."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5d36bb777bc3fee31f00000a",
+                            "question": "Does SATB1 regulate the RAG1 and RAG2 genes?"
+                        }
+                    ],
+                    "context": "High level expression of the Xlr nuclear protein in immature thymocytes and colocalization with the matrix-associated region-binding SATB1 protein Its onset preceded the rearrangement of TCR genes, as Xlr expression was conserved in thymus cells from RAG1(0/0) mice. An anti-silencer- and SATB1-dependent chromatin hub regulates Rag1 and Rag2 gene expression during thymocyte development. SATB1 binds to the ASE and Rag promoters, facilitating inclusion of Rag2 in the chromatin hub and the loading of RNA polymerase II to both the Rag1 and Rag2 promoters.Our results provide a novel framework for understanding ASE function and demonstrate a novel role for SATB1 as a regulator of Rag locus organization and gene expression in DP thymocytes."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5d371ec97bc3fee31f00000c",
+                            "question": "Is CTCF bound at nucleosome free regions?"
+                        }
+                    ],
+                    "context": "Nucleosome depletion at 5'-HS4 was dependent on interaction of the insulator protein CCCTC-binding factor (CTCF) and was required for enhancer blocking. Here, we show that promoter classes are significantly differentiated by nucleosome organization and chromatin structure. Dispersed promoters display higher associations with well-positioned nucleosomes downstream of the TSS and a more clearly defined nucleosome free region upstream, while focused promoters have a less organized nucleosome structure, yet higher presence of RNA polymerase II.hese differences extend to histone variants (H2A.Z) and marks (H3K4 methylation), as well as insulator binding (such as CTCF), independent of the expression levels of affected genes.nucleosome occupancy at nucleosome-free regions (NFRs), many of which are located at sites occupied by the multivalent factors Ctcf and cohesin. This general architectural change correlates with enhanced binding of CTCF and cohesins and more pronounced insulation of contacts across chromatin boundaries in lineage-committed cells. "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e3c6850b5b409ea5300001f",
+                            "question": "Is bortezomib a Proteasome inhibitor?"
+                        }
+                    ],
+                    "context": "The proteasome-inhibitor bortezomibThe proteasome inhibitor bortezomib is effective for a variety of tumors, but not for GBM. Proteasome inhibitor bortezomib The proteasome inhibitor bortezomib, registered for Multiple Myeloma treatment, is currently explored for activity in solid tumors including non-small cell lung cancer (NSCLC).Regulation of osteoblastic differentiation by the proteasome inhibitor bortezomib."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5d3856ca7bc3fee31f000016",
+                            "question": "Is PRDM9 essential for meiosis?"
+                        }
+                    ],
+                    "context": "Our findings do not identify the nature of the underlying DNA sequences, but argue against the proposed role of Prdm9 as an essential transcription factor in mouse meiosisPRDM9 gene polymorphism may not be associated with defective spermatogenesis in the Chinese Han populationPRDM9 is essential for the progression through early meiotic prophase, including double strand break repair, homologous chromosome pairing, and sex body formation during spermatogenesis. PRDM9 (PR domain-containing protein 9) is a meiosis-specific protein that trimethylates H3K4 and controls the activation of recombination hot spots. It is an essential enzyme in the progression of early meiotic prophase.In many eukaryotes, sites of meiotic recombination, also called hotspots, are regions of accessible chromatin, but in many vertebrates, their location follows a distinct pattern and is specified by PR domain-containing protein 9 (PRDM9). "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e4b5f9a6d0a277941000021",
+                            "question": "Should Pentoxifylline be used for treatment of amyotrophic lateral sclerosis?"
+                        }
+                    ],
+                    "context": ".RESULTS: At the end of the study, after 547 days of follow-up, 103 patients (51.7%) in the pentoxifylline group and 120 (59.7%) in the placebo group were alive (unadjusted risk 1.28, p = 0.107; adjusted risk 1.43, p = 0.02). In contrast, analysis of secondary outcome functional variables did not show the same negative effect of the drug. CONCLUSIONS: Pentoxifylline is not beneficial in ALS and should be avoided in patients treated with riluzole. RESULTS: At the end of the study, after 547 days of follow-up, 103 patients (51.7%) in the pentoxifylline group and 120 (59.7%) in the placebo group were alive (unadjusted risk 1.28, p = 0.107; adjusted risk 1.43, p = 0.02)."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e52bc986d0a277941000049",
+                            "question": "Is the CADM2 gene associated with differences in information processing speed?"
+                        }
+                    ],
+                    "context": "GWAS for executive function and processing speed suggests involvement of the CADM2 gene.A significant association was observed in the discovery cohorts for the single-nucleotide polymorphism (SNP) rs17518584 (discovery P-value=3.12 \u00d7 10(-8)) and in the joint discovery and replication meta-analysis (P-value=3.28 \u00d7 10(-9) after adjustment for age, gender and education) in an intron of the gene cell adhesion molecule 2 (CADM2) for performance on the LDST/DSST. Rs17518584 is located about 170 kb upstream of the transcription start site of the major transcript for the CADM2 gene, but is within an intron of a variant transcript that includes an alternative first exon. The variant is associated with expression of CADM2 in the cingulate cortex (P-value=4 \u00d7 10(-4)). The protein encoded by CADM2 is involved in glutamate signaling (P-value=7.22 \u00d7 10(-15)), gamma-aminobutyric acid (GABA) transport (P-value=1.36 \u00d7 10(-11)) and neuron cell-cell adhesion (P-value=1.48 \u00d7 10(-13)). Our findings suggest that genetic variation in the CADM2 gene is associated with individual differences in information processing speed.Our findings suggest that genetic variation in the CADM2 gene is associated with individual differences in information processing speed.The CADM2 gene is associated with processing speed performance - evidence among elderly with type 2 diabetes.Our findings suggest that genetic variation in the CADM2 gene is associated with individual differences in information processing speed."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e494cf96d0a277941000008",
+                            "question": "Is Nivolumab (Opdivo) a PD-L1 inhibitor?"
+                        }
+                    ],
+                    "context": "Fatal Myocarditis Following Treatment with the PD-1 Inhibitor Nivolumab PD-1 inhibitor nivolumab (Opdivo)programmed cell death protein 1 (PD-1)-blocking antibodies nivolumab or pembrolizumab An improvement in the understanding of the role of the immune system in tumor immunosurveillance has led to the development of the programmed death-1 ( PD-1 ) immune checkpoint inhibitor nivolumab ( Opdivo) . Nivolumab (Opdivo(\u00ae); Nivolumab BMS\u2122) was the first programmed death (PD)-1 immune checkpoint inhibitor to be approved for use in advanced, squamous non-small cell lung cancer (NSCLC) following prior chemotherapy."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e4b5fd86d0a277941000022",
+                            "question": "Does clinical trial data support the use of minocycline for amyotrophic lateral sclerosis?"
+                        }
+                    ],
+                    "context": "Two double-blind, randomized, placebo-controlled feasibility trials of minocycline in ALS were conducted. This pilot study shows that minocycline and riluzole can be taken safely together. Further trials are needed to assess efficacy of such treatment.It reduces apoptosis in mouse models of Huntington's disease and familial amyotrophic lateral sclerosis (ALS) and is in clinical trial for sporadic ALS.Efficacy of minocycline in patients with amyotrophic lateral sclerosis: a phase III randomised trial.FINDINGS: ALSFRS-R score deterioration was faster in the minocycline group than in the placebo group (-1.30 vs -1.04 units/month, 95% CI for difference -0.44 to -0.08; p=0.005). Patients on minocycline also had non-significant tendencies towards faster decline in FVC (-3.48 vs -3.01, -1.03 to 0.11; p=0.11) and MMT score (-0.30 vs -0.26, -0.08 to 0.01; p=0.11), and greater mortality during the 9-month treatment phase (hazard ratio=1.32, 95% CI 0.83 to 2.10; p=0.23) than did patients on placebo. Quality-of-life scores did not differ between the treatment groups. "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e776a10835f4e477700000c",
+                            "question": "Is the drug Exubera currently (March 2020) available?"
+                        }
+                    ],
+                    "context": "Despite discontinuation of the first inhalable insulin, Exubera\u00ae, due to suboptimal market acceptance, development of orally inhaled insulin delivery systems has been galvanized by the recent approval of Afrezza\u00ae and several others awaiting approval."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e3c6e15b5b409ea53000023",
+                            "question": "Are breaks in double stranded DNA associated with ionizing radiation?"
+                        }
+                    ],
+                    "context": "DNA double-strand breaks (DSBs) are major DNA lesions that are constantly formed during physiological processes such as DNA replication, transcription, and recombination, or as a result of exogenous agents such as ionizing radiation, radiomimetic drugs, and genome editing nucleasesWhereas most endogenous and exogenous DNA damaging agents typically generate lesions that are relatively isolated and can be repaired easily, ionizing radiation (IR) also induces clustered lesions causing DNA double strand breaks (DSBs)The induction of DNA interstrand cross-links by ionizing radiation has been largely ignored in favour of studies on double-strand break formation and repair.While much is known about radiation-induced DNA double-strand breaks (DSBs) and their repair, Exposure of cells to ionizing radiation induces DNA double-strand breaks."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e52c0c76d0a27794100004b",
+                            "question": "Is KAT2A involved in Acute myeloid leukemia (AML)?"
+                        }
+                    ],
+                    "context": "Acute myeloid leukemia (AML) is an aggressive cancer with a poor prognosis, for which mainstream treatments have not changed for decades. To identify additional therapeutic targets in AML, we optimize a genome-wide clustered regularly interspaced short palindromic repeats (CRISPR) screening platform and use it to identify genetic vulnerabilities in AML cells. We identify 492 AML-specific cell-essential genes, including several established therapeutic targets such as DOT1L, BCL2, and MEN1, and many other genes including clinically actionable candidates. We validate selected genes using genetic and pharmacological inhibition, and chose KAT2A as a candidate for downstream study. KAT2A inhibition demonstrated anti-AML activity by inducing myeloid differentiation and apoptosis, and suppressed the growth of primary human AMLs of diverse genotypes while sparing normal hemopoietic stem-progenitor cells. Our results propose that KAT2A inhibition should be investigated as a therapeutic strategy in AML and provide a large number of genetic vulnerabilities of this leukemia that can be pursued in downstream studies.Our results propose that KAT2A inhibition should be investigated as a therapeutic strategy in AML and provide a large number of genetic vulnerabilities of this leukemia that can be pursued in downstream studies.KAT2A inhibition demonstrated anti-AML activity by inducing myeloid differentiation and apoptosis, and suppressed the growth of primary human AMLs of diverse genotypes while sparing normal hemopoietic stem-progenitor cells.Our results propose that KAT2A inhibition should be investigated as a therapeutic strategy in AML and provide a large number of genetic vulnerabilities of this leukemia that can be pursued in downstream studies.KAT2A inhibition demonstrated anti-AML activity by inducing myeloid differentiation and apoptosis, and suppressed the growth of primary human AMLs of diverse genotypes while sparing normal hemopoietic stem-progenitor cells."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e4b639c6d0a277941000027",
+                            "question": "Is NicVAX vaccine effective for smoking cessation?"
+                        }
+                    ],
+                    "context": "CONCLUSION: The nicotine vaccine, NicVAX, does not appear to improve the chances of stopping smoking when given in addition to varenicline and behavioural support. First efficacy results of the nicotine vaccine 3'-AmNic-rEPA (NicVAX) showed that only a subgroup of the top 30% antibody responders achieved higher abstinence rates than placebo. FINDINGS: There was no difference in abstinence rates between NicVAX and placebo from weeks 9 to 52 [27.7 versus 30.0%, odds ratio (OR)\u2009=\u20090.89, 95% confidence interval (CI)\u2009=\u20090.62-1.29] or weeks 37 to 52 (33.8 versus 33.2%, OR\u2009=\u20091.03, 95% CI\u2009=\u20090.73-1.46). The top 30% antibody responders, compared to the placebo group, showed a non-significant tendency towards higher abstinence rates from weeks 37 to 52 (42.2 versus 33.2%, OR\u2009=\u20091.47, 95% CI\u2009=\u20090.89-2.42)Unfortunately, the only vaccine tested in two large, randomized Phase\u00a0III trials, 3'-amino-methyl-nicotine r-exoprotein A conjugate vaccine (NicVAX(\u00ae), Nabi Biopharmaceuticals, MD, USA), did not demonstrate efficacy.The RR for 12 month cessation in active and placebo groups was 1.35 (95% Confidence Interval (CI) 0.82 to 2.22) in\u00a0the trial of NIC002\u00a0and 1.74 (95% CI 0.73 to 4.18) in one NicVAX trial. Two Phase III NicVAX trials, for which full results were not available, reported similar quit rates of approximately 11% in both groups."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e48b1ddd14c9f295d000012",
+                            "question": "Does natalizumab improve disease course of secondary progressive multiple sclerosis?"
+                        }
+                    ],
+                    "context": "INTERPRETATION: Natalizumab treatment for secondary progressive multiple sclerosis did not reduce progression on the primary multicomponent disability endpoint in part 1, but it did reduce progression on its upper-limb component.In this review, we summarize the pathophysiological mechanisms involved in the development of SPMS and the rationale and clinical potential for natalizumab, which is currently approved for the treatment of relapsing forms of MS, to exert beneficial effects in reducing disease progression unrelated to relapses in SPMS. INTERPRETATION\n\nNatalizumab treatment for secondary progressive multiple sclerosis did not reduce progression on the primary multicomponent disability endpoint in part 1, but it did reduce progression on its upper-limb component.Natalizumab did not achieve a statistically significant primary composite disability outcome in a trial of 887 patients with secondary progressive MS , but it did demonstrate a benefit on a prespecified component of the 9-Hole Peg Test . INTERPRETATION\nNatalizumab treatment for secondary progressive multiple sclerosis did not reduce progression on the primary multicomponent disability endpoint in part 1, but it did reduce progression on its upper-limb component."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e52c9266d0a27794100004e",
+                            "question": "AhR ligands are attractive drug targets for pharmaceutical development due to their induction of Cyp1a1, yes or no?"
+                        }
+                    ],
+                    "context": " Based on our review of the data, there is little evidence to support the indiscriminate exclusion of AhR activators/Cyp1a1 inducers from early drug developmental pipelines. We also found no evidence that short-term treatment with RMAhRLs produce \"dioxin-like toxicity\"However, recent discoveries of new AhR ligands with potential therapeutic applications have been reported, inviting reconsideration of this policy.Based on our review of the data, there is little evidence to support the indiscriminate exclusion of AhR activators/Cyp1a1 inducers from early drug developmental pipelines.Based on our review of the data , there is little evidence to support the indiscriminate exclusion of AhR activators/Cyp1a1 inducers from early drug developmental pipelinesHowever , recent discoveries of new AhR ligands with potential therapeutic applications have been reported , inviting reconsideration of this policy"
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5d385f717bc3fee31f00001a",
+                            "question": "Does the chromatin remodeling complex, RSC target H2A.Z nucleosomes?"
+                        }
+                    ],
+                    "context": "In contrast, the upstream nucleosome which covers the TATA box under repressed conditions is shifted approximately 50 bp further upstream by the ATP-dependent chromatin remodeler RSC upon activation. It is marked with the histone variant H2A.Z and H4K16 acetylation in active stateIn RSC-depleted cells, NFRs shrink such that the average positions of flanking nucleosomes move toward predicted sites.In contrast, H2A.Z deposition is dispensable for nucleosome positioning. Emerging lines of evidence indicate that histone variants (H2AX and H2A.Z), histone post-translational modifications (acetylation, phosphorylation, methylation and ubiquitination) and chromatin-remodeling complexes (INO80, SWR1, SWI/SNF, RSC and NuRD) are important and direct players in the DNA double-strand break (DSB) response as well.H2A.Z probably helps RSC in keeping the gene nucleosome-fre"
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e7f69d2835f4e4777000021",
+                            "question": "Has ZP-PTH been tested in a phase II clinical trial?"
+                        }
+                    ],
+                    "context": "This system was successfully tested in a Phase 2 clinical trial for the treatment of post-menopausal women with osteoporosis."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e48b9abd14c9f295d000015",
+                            "question": "Are multipotent adult progenitor cells effective for treatment of stroke?"
+                        }
+                    ],
+                    "context": "There was no difference between the multipotent adult progenitor cell group and placebo groups in global stroke recovery at day 90 (odds ratio 1\u00b708 [95% CI 0\u00b755-2\u00b709], p=0\u00b783).INTERPRETATION: Administration of multipotent adult progenitor cells was safe and well tolerated in patients with acute ischaemic stroke. Although no significant improvement was observed at 90 days in neurological outcomes with multipotent adult progenitor cells treatment, further clinical trials evaluating the efficacy of the intervention in an earlier time window after stroke (<36 h) are planned.INTERPRETATION\n\nAdministration of multipotent adult progenitor cells was safe and well tolerated in patients with acute ischaemic stroke.Although no significant improvement was observed at 90 days in neurological outcomes with multipotent adult progenitor cells treatment, further clinical trials evaluating the efficacy of the intervention in an earlier time window after stroke (<36 h) are planned.INTERPRETATION Administration of multipotent adult progenitor cells was safe and well tolerated in patients with acute ischaemic stroke.Although no significant improvement was observed at 90 days in neurological outcomes with multipotent adult progenitor cells treatment, further clinical trials evaluating the efficacy of the intervention in an earlier time window after stroke (<36 h) are planned."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e48af7ad14c9f295d000011",
+                            "question": "Is eculizumab effective for Guillain-Barr\u00e9 syndrome?"
+                        }
+                    ],
+                    "context": "INTERPRETATION: The primary outcome measure did not reach the predefined response rate. However, because this is a small study without statistical comparison with the placebo group, the efficacy and safety of eculizumab could be investigated in larger, randomised controlled trials.At week 4, the proportion of the patients able to walk independently (functional grade \u22642) was 61% (90% CI 42-78; n=14) in the eculizumab group, and 45% (20-73; n=5) in the placebo group. Adverse events occurred in all 34 patients. Three patients had serious adverse events: two in the eculizumab group (anaphylaxis in one patient and intracranial haemorrhage and abscess in another patient) and one in the placebo group (depression).For the primary efficacy outcome at 4 weeks after recruitment, two of two placebo- and two of five eculizumab-treated subjects had improved by one or more grades on the GBS DS.However, because this is a small study without statistical comparison with the placebo group, the efficacy and safety of eculizumab could be investigated in larger, randomised controlled trials.At week 4, the proportion of the patients able to walk independently (functional grade \u22642) was 61% (90% CI 42-78; n=14) in the eculizumab group, and 45% (20-73; n=5) in the placebo group."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e3d8edf48dab47f26000003",
+                            "question": "Autophagy is the process where a virus obtains nutrients from it's host, yes or no?"
+                        }
+                    ],
+                    "context": "In this study, we demonstrate that autophagy is a critical mediator of the viral degradation pathway and that this pathway is not HIV-1 specific.Autophagy is important in cellular homeostasis for the cell survival mechanism.Autophagy is a cellular survival pathway that is necessary for the degradation of cellular constituents such as long-lived proteins and damaged organelles.Autophagy-related genes (ATGs) regulate the autophagy and also control the crosstalk with autophagy-associated cell death and apoptosis in some condition. Autophagy is an evolutionarily conserved cellular process in which intracellular components are eliminated via lysosomal degradation to supply nutrients for organelle biogenesis and metabolic homeostasis."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5d387a51a1e159510500000e",
+                            "question": "Does CXorf21 escape X chromosome inactivation?"
+                        }
+                    ],
+                    "context": "This revealed a 637-kb tandem duplication that in addition to DAX1 includes the four MAGEB genes, the hypothetical gene CXorf21, GK, and part of the MAP3K7IP3 geneAmong statin users, diabetes cases had marginal but insignificantly different expression of ZNF532 (up-regulated 15%, Q-value=0.0584), CXORF21 (up-regulated 11%, Q-value=0.0584), and ZNHIT3 (up-regulated 19%, Q-value=0.0959), compared with controls. For this, we selected five SNPs (rs1801274 in FCGR2A and rs2286672 in PLD2, rs887369 in CXorf21, rs9782955 in LYST, and rs3794060 in NADSYN1)Examination of X-linked DEGs, such as GTPBP6, TAF9L, and CXORF21, that show verbal cognition-gene expression correlations may establish a causal link between these genes, neurodevelopment, and language function."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e52ab626d0a277941000046",
+                            "question": "Does promoter shape vary across populations?"
+                        }
+                    ],
+                    "context": "Promoter shape varies across populations and affects promoter evolution and expression noise.Animal promoters initiate transcription either at precise positions (narrow promoters) or dispersed regions (broad promoters), a distinction referred to as promoter shape. Although highly conserved, the functional properties of promoters with different shapes and the genetic basis of their evolution remain unclear. Here we used natural genetic variation across a panel of 81 Drosophila lines to measure changes in transcriptional start site (TSS) usage, identifying thousands of genetic variants affecting transcript levels (strength) or the distribution of TSSs within a promoter (shape). Our results identify promoter shape as a molecular trait that can evolve independently of promoter strength. Broad promoters typically harbor shape-associated variants, with signatures of adaptive selection. Single-cell measurements demonstrate that variants modulating promoter shape often increase expression noise, whereas heteroallelic interactions with other promoter variants alleviate these effects. These results uncover new functional properties of natural promoters and suggest the minimization of expression noise as an important factor in promoter evolution.Promoter shape varies across populations and affects promoter evolution and expression noise"
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e4b5ef36d0a27794100001f",
+                            "question": "Does xaliproden improve prognosis of amyotrophic lateral sclerosis?"
+                        }
+                    ],
+                    "context": "Treatment for crampsThere is evidence (13 RCTs, N = 4012) that for the treatment of cramps in MND, compared to placebo:- memantine and tetrahydrocannabinol (THC) are probably ineffective (moderate-quality evidence);- vitamin E may have little or no effect (low-quality evidence); and- the effects of L-threonine, gabapentin, xaliproden, riluzole, and baclofen are uncertain as the evidence is either very low quality or the trial specified the outcome but did not report numerical data.The medications comprised vitamin E, baclofen, riluzole, L-threonine, xaliproden, indinavir, and memantine. Six studies assessed cramps as an adverse event. The medications comprised creatine, gabapentin, dextromethorphan, quinidine, and lithium. In all 20 studies no favourable effect for the treatment of cramps in ALS/MND could be demonstrated, but many studies were underpowered to draw a definite conclusion.. The six months intent-to-treat analysis showed no statistically significant effect but a trend in favour of 2 mg xaliproden compared to placebo for reduction in the rate of deterioration of FVC, limbs functional score, and manual muscle testing score (MMT).These results support the use of a staging process to select suitable patients for phase II studies, and suggest that xaliproden may have potential effects in ALS and deserve further study.An effect of xaliproden on functional parameters, especially VC, was noted. Although this effect did not reach statistical significance, xaliproden had a small effect on clinically noteworthy aspects of disease progression in ALS."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e8101e3835f4e477700002e",
+                            "question": "Is cathepsin L active in endosomes?"
+                        }
+                    ],
+                    "context": "Cathepsin L in the Late Endosome/Lysosomeendosomal cathepsin LImmunofluorescence and immunoblotting investigations revealed the presence of cathepsin L in the nuclear compartment in addition to its expected endo-lysosomal localization in colorectal carcinoma cells.cleavage by the endosomal/lysosomal protease cathepsin L"
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e4b5f566d0a277941000020",
+                            "question": "Is celecoxib effective for amyotrophic lateral sclerosis?"
+                        }
+                    ],
+                    "context": "In conclusion, the celecoxib-creatine combination was selected as preferable to the minocycline-creatine combination for further evaluation. ESULTS: Celecoxib did not slow the decline in muscle strength, vital capacity, motor unit number estimates, ALS Functional Rating Scale-Revised, or affect survival. INTERPRETATION: At the dosage studied, celecoxib did not have a beneficial effect on research subjects with ALS, and it was safe. INTERPRETATION\n\nAt the dosage studied, celecoxib did not have a beneficial effect on research subjects with ALS, and it was safe.RESULTS\n\nCelecoxib did not slow the decline in muscle strength, vital capacity, motor unit number estimates, ALS Functional Rating Scale-Revised, or affect survival."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e6e8600c6a8763d23000002",
+                            "question": "Is the protein MCL-1 anti-apoptotic?"
+                        }
+                    ],
+                    "context": "increased expression of anti-apoptotic proteins (Bcl-xL, Mcl-1 and XIAP) repression of anti-apoptotic proteins (Mcl-1, Bcl-xl and XIAP)anti-apoptotic BCL-2 family members, such as BCL-2, BCL-XL or MCL-1"
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e48bd2ed14c9f295d000017",
+                            "question": "Is ozanezumab effective for amyotrophic lateral sclerosis?"
+                        }
+                    ],
+                    "context": "The adjusted mean of the joint-rank score was -14\u00b79 (SE 13\u00b75) for the ozanezumab group and 15\u00b70 (13\u00b76) for the placebo group, with a least squares mean difference of -30\u00b70 (95% CI -67\u00b79 to 7\u00b79; p=0\u00b712). INTERPRETATION: Ozanezumab did not show efficacy compared with placebo in patients with ALS. Therefore, Nogo-A does not seem to be an effective therapeutic target in ALS.INTERPRETATION\n\nOzanezumab did not show efficacy compared with placebo in patients with ALS.The adjusted mean of the joint-rank score was -14\u00b79 (SE 13\u00b75) for the ozanezumab group and 15\u00b70 (13\u00b76) for the placebo group, with a least squares mean difference of -30\u00b70 (95% CI -67\u00b79 to 7\u00b79; p=0\u00b712).INTERPRETATION Ozanezumab did not show efficacy compared with placebo in patients with ALS."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e4b62946d0a277941000024",
+                            "question": "Is Dexmecamylamine effective for depression?"
+                        }
+                    ],
+                    "context": "At treatment end, no significant differences were seen for change in MADRS total score with TC-5214 versus placebo. Furthermore, there were no significant differences in any of the secondary endpoints. TC-5214 (dexmecamylamine) is a nicotinic channel modulator that has previously been evaluated for treatment of major depression disorder (MDD) and is currently being evaluated by Targacept as a treatment for overactive bladder. In these 2 flexibly-dosed studies, no specific therapeutic effects were observed for TC-5214 (1-4 mg BID) adjunct to antidepressant in the primary endpoint or any secondary endpoint; however, TC-5214 was generally well tolerated. In conclusion, no antidepressant effect of TC-5214 was observed in these studies.TC-5214 (dexmecamylamine) is a nicotinic channel modulator that has previously been evaluated for treatment of major depression disorder (MDD) and is currently being evaluated by Targacept as a treatment for overactive bladder.No notable differences were observed between dexmecamylamine and placebo for any secondary end point."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e7f64a5835f4e477700001e",
+                            "question": "Can CMB305 be used against sarcomas?"
+                        }
+                    ],
+                    "context": "CMB305 induces NY-ESO-1 specific T cell responses in both SS and MRC patients and these patients had excellent overall survival (OS) outcomes in the initial phase I study.Data suggesting this vaccine may improve OS for SS and MRCL patients is exciting but early, and on-going work is testing the impact of CMB305 on patient outcomes.The potential of the CMB305 vaccine regimen to target NY-ESO-1 and improve outcomes for synovial sarcoma and myxoid/round cell liposarcoma patients."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1759 @@
+{
+    "data": [
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e48edb1f8b2df0d49000002",
+                            "question": "What particles is Hadron therapy using?"
+                        }
+                    ],
+                    "context": "The use of hadron beams, especially proton beams, in cancer radiotherapy has expanded rapidly in the past two decades. "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e29f666aa19d74431000001",
+                            "question": "Which phosphatase is inhibited by LB-100?"
+                        }
+                    ],
+                    "context": "Here, we examined radiosensitizing effects of LB-100, a novel inhibitor of PP2A against AAM as a novel treatment strategy.LB-100, a novel Protein Phosphatase 2A (PP2A) inhibitor, sensitizes malignant meningioma cells to the therapeutic effects of radiation.Pharmacologic PP2A inhibition with LB-100 prior to RT enhanced the radiosensitivity of meningioma cells and reduced survival fraction in clonogenic assays. "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e480da0d14c9f295d000006",
+                            "question": "What is the cyberknife used for?"
+                        }
+                    ],
+                    "context": "Stereotactic radiosurgery using CyberKnife\u00ae seems to be an efficient and safe therapeutic option for malignant melanomas affecting the choroid and ciliary body.Stereotactic radiosurgery (SRS) has emerged as a principal alternative to microresection for small- and medium-sized CSHs.CyberKnife\u00ae is a robotic stereotactic radiotherapy system. The aim of this study is to evaluate the effectiveness and the safety of CyberKnife\u00ae on treating head and neck paragangliomas and to report our resultsStereotactic radiotherapy is a good alternative to surgery for the treatment of head and neck paragangliomas coming up with a clear benefit of acute and late side effects. CyberKnife\u00ae seems to be a safe and efficient system treating head and neck paragangliomas."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e2e136bfbd6abf43b000023",
+                            "question": "Which portal has been developed to explore protein-protein interactions in cancer cell lines?"
+                        }
+                    ],
+                    "context": "The OncoPPi Portal: an integrative resource to explore and prioritize protein-protein interactions for cancer target discovery.As cancer genomics initiatives move toward comprehensive identification of genetic alterations in cancer, attention is now turning to understanding how interactions among these genes lead to the acquisition of tumor hallmarks. Emerging pharmacological and clinical data suggest a highly promising role of cancer-specific protein-protein interactions (PPIs) as druggable cancer targets. However, large-scale experimental identification of cancer-related PPIs remains challenging, and currently available resources to explore oncogenic PPI networks are limited.Results: Recently, we have developed a PPI high-throughput screening platform to detect PPIs between cancer-associated proteins in the context of cancer cells. Here, we present the OncoPPi Portal, an interactive web resource that allows investigators to access, manipulate and interpret a high-quality cancer-focused network of PPIs experimentally detected in cancer cell lines. To facilitate prioritization of PPIs for further biological studies, this resource combines network connectivity analysis, mutual exclusivity analysis of genomic alterations, cellular co-localization of interacting proteins and domain-domain interactions. Estimates of PPI essentiality allow users to evaluate the functional impact of PPI disruption on cancer cell proliferation. Furthermore, connecting the OncoPPi network with the approved drugs and compounds in clinical trials enables discovery of new tumor dependencies to inform strategies to interrogate undruggable targets like tumor suppressors. The OncoPPi Portal serves as a resource for the cancer research community to facilitate discovery of cancer targets and therapeutic development.Availability and implementation: The OncoPPi Portal is available at http://oncoppi.emory.edu.Contact: andrey.ivanov@emory.edu or hfu@emory.edu.Here, we present the OncoPPi Portal, an interactive web resource that allows investigators to access, manipulate and interpret a high-quality cancer-focused network of PPIs experimentally detected in cancer cell lines.Explore Protein-Protein Interactions for Cancer Target Discovery Using the OncoPPi PortalThe established network of oncogenic PPIs , termed the OncoPPi network , is available through the OncoPPi Portal , an interactive web resource that allows to access and interpret a high-quality cancer-focused network of PPIs experimentally detected in cancer cell lines integrated with the analysis of mutual exclusivity of genomic alterations , cellular co-localization of interacting proteins , domain-domain interactions , and therapeutic connectivity"
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5c74266a7c78d694710000a2",
+                            "question": "Which biological process takes place in nuclear speckles?"
+                        }
+                    ],
+                    "context": "Here we demonstrate that mRNAs containing ALREX-promoting elements are trafficked through nuclear speckles.Finally, we demonstrate that mRNAs lacking a poly(A)-tail are not efficiently exported by the ALREX pathway and show enhanced association with nuclear speckles In a previous study (Melc\u00e1k et al., 2001), it has been shown that the pre-spliceosomal assembly on microinjected splicing-competent precursor mRNA takes place in the speckles, and it has been suggested that the targeting of RNA into speckes consists of two interdependent steps, namely the diffusion process, followed by the energy-dependent translocation of RNA into the speckles. Nuclear speckles, a unique nuclear subcompartment, accumulate a family of proteins, namely, serine- and arginine-rich (SR) proteins. They play important roles in regulation of pre-mRNA splicing.  Here we show that C3G localizes to SC35-positive nuclear speckles and regulates splicing activity."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e2b1ed9fbd6abf43b000005",
+                            "question": "PDQ39 questionnaires is design for which disease?"
+                        }
+                    ],
+                    "context": "The outcomes assessed were motor symptoms with Unified PD Rating Scale III (UPDRSIII), functional mobility with Timed Up and Go Test (TUG), endurance with 6 min walking test (6MWT), freezing of gait with Freezing of Gait Questionnaire (FOG_Q), walking velocity with GAITRite and QL with PD Questionnaire (PDQ39).  They were assessed using SCOPA, Hoehn and Yahr Scale (HYS), Unified Parkinson's Disease Rating Scale (UPDRS), Parkinson's Disease Sleep Scale 2nd version (PDSS-2), Non-motor Symptoms Scale (NMSS), Montgomery Asberg Depression Scale (MADS), 39-item Parkinson's Disease Questionnaire (PDQ39), Neurogenic Orthostatic Hypotension Questionnaire (NOHQ), and Rapid Eye Movement Sleep Behaviour Disorder Questionnaire (RBDQ). The median PD questionnaire 39-score index (PDQ39-SI) was 23.22% and the most affected dimension was \"mobility.\" In the 43% of cases in whom oral therapy was changed, total UPDRS improved significantly (effect size\u2009=\u20098) as did the PDQ39 in cases reaching target. NMS Quest and MOCA scores also improved significantly. This study shows that many people in a representative cohort of PD would benefit from objective assessment and treatment of their PD features against a target.Here, we applied a novel diffusion-weighted imaging approach, diffusion MRI connectometry, to investigate the correlation of quality of life, evaluated by Parkinson's Disease Questionnaire (PDQ39) with the white matter structural connectivity in 27 non-demented PD patients (disease duration of 5.3\u00a0\u00b1\u00a02.9\u00a0years, H and Y stage\u00a0=\u00a01.5\u00a0\u00b1\u00a00.6, UPDRS-III\u00a0=\u00a013.7\u00a0\u00b1\u00a06.5, indicating unilateral and mild motor involvement). "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e355e20fbd6abf43b000065",
+                            "question": "Which gene is frequently involved in autosomal dominant adult-onset demyelinating leukodystrophy (ADLD)?"
+                        }
+                    ],
+                    "context": "An LMNB1 Duplication Caused Adult-Onset Autosomal Dominant Leukodystrophy in Chinese Family: Clinical Manifestations, Neuroradiology and Genetic Diagnosis.Duplication or over expression of the lamin B1 (LMNB1) gene causes ADLD. In this study, we undertook a comprehensive clinical evaluation and genetic detection for a Chinese family with ADLD. The proband is a 52-year old man manifested with autonomic abnormalities, pyramidal tract dysfunction. MRI brain scan identified bilateral symmetric white matter (WM) hyper-intensities in periventricular and semi-oval WM, cerebral peduncles and middle cerebellar peduncles. The proband has a positive autosomal dominant family history with similar clinical manifestations with a trend of genetic anticipation. In order to understand the genetic cause of the disease in this family, target exome capture based next generation sequencing has been done, but no causative variants or possibly pathogenic variants has been identified. However, Multiplex ligand-dependent probe amplification (MLPA) showed whole duplication of LMNB1 gene which is co-segregated with the disease phenotype in this family. This is the first genetically confirmed LMNB1 associated ADLD pedigree from China.Chromosomal rearrangements with duplication of the lamin B1 (LMNB1) gene underlie autosomal dominant adult-onset demyelinating leukodystrophy (ADLD), a rare neurological disorder in which overexpression of LMNB1 causes progressive central nervous system demyelination.Autosomal dominant leukodystrophy (ADLD) is an adult onset demyelinating disorder that is caused by duplications of the lamin B1 (LMNB1) gene. However, as only a few cases have been analyzed in detail, the mechanisms underlying LMNB1 duplications are unclear. We report the detailed molecular analysis of the largest collection of ADLD families studied, to date. We have identified the minimal duplicated region necessary for the disease, defined all the duplication junctions at the nucleotide level and identified the first inverted LMNB1 duplication.Duplication of the LMNB1 gene is the genetic cause of ADLD, yet the pathogenetic mechanism is not defined. In this study, we analysed cells and muscle tissue from three patients affected by ADLD, carrying an extra copy of the LMNB1 gene."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e48f2b6f8b2df0d49000005",
+                            "question": "What is the radiation-induced CD8 lymphocyte apoptosis (RILA) assay used for?"
+                        }
+                    ],
+                    "context": "Radiation-induced lymphocyte apoptosis (RILA) has been suggested as a predictive assay for adverse late reactions after radiotherapy.We aimed toevaluate whether radiation-induced CD4 or CD8 T-lymphocyte apoptosis (RILA) correlates with the severity of radiation toxicity."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e2f0afcfbd6abf43b000028",
+                            "question": "Which receptor is inhibited by Tivozanib?"
+                        }
+                    ],
+                    "context": "The addition of VEGF-R inhibitor Tivozanib to these systems abrogated the tension-induced paracrine effects on VECs and subsequently impaired BMSC osteogenesis.BACKGROUND: Tivozanib is a selective inhibitor of vascular endothelial growth factor receptors 1, 2\u00a0and 3 tyrosine kinases. Tivozanib is a selective inhibitor of all three VEGFRs, with limited off-target interaction, which demonstrates efficacy with improved tolerability relative to multikinase VEGFR-TKIs. Tivozanib is a potent small molecule tyrosine kinase inhibitor against VEGFR1-3, with activity against PDGFR\u03b1/\u03b2 and cKIT. Tivozanib is an oral pan-VEGF receptor tyrosine kinase inhibitor that hits a central pathway in glioblastoma angiogenesis. "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e490d276d0a277941000001",
+                            "question": "What is the content of the REPAIRtoire database?"
+                        }
+                    ],
+                    "context": " The database collects and organizes the following types of information: (i) DNA damage linked to environmental mutagenic and cytotoxic agents, (ii) pathways comprising individual processes and enzymatic reactions involved in the removal of damage, (iii) proteins participating in DNA repair and (iv) diseases correlated with mutations in genes encoding DNA repair proteins. REPAIRtoire provides also links to publications and external databases. "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5c7a4fddd774d04240000009",
+                            "question": "How rare are CTCs (circulating tumour cells) in the plasma of patients?"
+                        }
+                    ],
+                    "context": "We have focused on breast cancer as most clinical studies on CTC detection so far have been done in these patients.However, largely because of the extremely low number of CTCs (as low as 1 in 10(9) hematologic cells) in the blood of patients, effective detection and separation of the rare cells remain a tremendous challenge.However, selective capture and quantification of CTCs from whole blood was still full of challenge due to the extremely scare number of CTCs.Finally, the IMNs were successfully applied to the isolation and detection of CTCs in cancer patient peripheral blood samples and as low as one CTC in the whole blood was captured and identified by the ICC method.This study reports a microfluidic-based optical sensing device for label-free detection of circulating tumor cells (CTCs), a rare cell species in blood circulation."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e48f90bf8b2df0d49000006",
+                            "question": "What is gamma sterilization used for?"
+                        }
+                    ],
+                    "context": "Gamma (\u03b3)-sterilization has been commonly employed for wide range of products as indicated by the pharmacopoeias. Gamma sterilization is usually used to minimize the risk of infection transmission through bone allografts. Gamma sterilization of bone allografts is used as a gold standard method to provide safety against disease transmission.It was determined that gamma sterilization was the preferred sterilization method of choice for this device. "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e46da9c3f5415952900000a",
+                            "question": "What is detected by the UV-damaged DNA-binding protein (UV-DDB) complex?"
+                        }
+                    ],
+                    "context": "UV-damaged DNA-binding protein complex (UV-DDB), involved in the damage recognition step of NERThe UV-damaged DNA binding protein complex (UV-DDB) is implicated in global genomic nucleotide excision repair (NER) in mammalian cells.Upon UV irradiation of primate cells, UV-DDB associates tightly with chromatin The cells of some XP-E patients are deficient in a protein complex (consisting of two subunits: p127/DDBI and p48/DDB2) which binds to UV-damaged DNA (UV-DDB)"
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e2902688b3851296d000005",
+                            "question": "Which receptor is inhibited by Teprotumumab?"
+                        }
+                    ],
+                    "context": "A recently completed therapeutic trial of teprotumumab, a human IGF1R inhibiting antibody, in patients with moderate to severe, active TAO, indicates the potential effectiveness and safety of the drug. Results from a very recently published clinical trial assessing the safety and efficacy of teprotumumab, an inhibitory human anti-IGF-IR monoclonal antibody, in active, moderate to severe TAO are extremely encouraging.The induction in fibrocytes is a consequence of increased TNF-\u03b1 gene promoter activity and is independent of ongoing protein synthesis. It could be attenuated by dexamethasone and the IGF-1 receptor inhibiting antibody, teprotumumab.These observations served as the rationale for implementing a recently completed therapeutic trial of teprotumumab, a monoclonal inhibitory antibody targeting IGF-IR in TAO. Results of randomised controlled trials investigating the efficacy of the IGF-1 receptor antibody teprotumumab and the interleukin-6 receptor antibody tocilizumab are expected shortly."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e46e74e3f5415952900000b",
+                            "question": "What is the cause of the disease Xeroderma Pigmentosum?"
+                        }
+                    ],
+                    "context": "ERCC4 (XPF) encodes a protein that forms a complex with ERCC1 and is required for the 5' incision during nucleotide excision repair. ERCC4 is also FANCQ, illustrating a critical role in interstrand crosslink repair. Pathogenic variants in this gene cause xeroderma pigmentosum, ERCC4 mutations have been known to cause xeroderma pigmentosum complementation group F (XP-F)Any mutations in XPA cause classical Xeroderma pigmentosum disease. Individuals with NER-defective xeroderma pigmentosum (XP), in which bulky DNA lesions are not efficiently removed, are cancer-prone and suffer neurodegeneration.mutations in the ERCC1 or ERCC4 genes cause a remarkable array of rare inherited human disorders. These include specific forms of xeroderma pigmentosum,"
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e2a046caa19d74431000008",
+                            "question": "How many different miRNAs can be upregulated by LB-100?"
+                        }
+                    ],
+                    "context": "PP2A inhibition from LB100 therapy enhances daunorubicin cytotoxicity in secondary acute myeloid leukemia via miR-181b-1 upregulation. LB100 profoundly upregulates miR-181b-1, which we show directly binds to the 3' untranslated region of Bcl-2 mRNA leading to its translational inhibition. MiR-181b-1 ectopic overexpression further diminishes Bcl-2 expression leading to suppression of sAML cell growth, and enhancement of DNR cytotoxicity. "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e2902e48b3851296d000006",
+                            "question": "Which disease can be treated with Anifrolumab?"
+                        }
+                    ],
+                    "context": "OBJECTIVES: In a post-hoc analysis, we aimed to validate the Lupus Low Disease Activity State (LLDAS) definition as an endpoint in an systemic lupus erythematosus (SLE) Phase IIb randomised controlled trial (RCT) (MUSE [NCT01438489]) and then utilize LLDAS to discriminate between anifrolumab and placeboCONCLUSIONS: LLDAS attainment represents a clinically meaningful SLE outcome measure, and anifrolumab is associated with more patients who met LLDAS criteria versus placebo. A post-hoc analysis of pooled data from two Phase IIb trials (sifalimumab; NCT01283139, anifrolumab; NCT01438489) assessed the clinical significance of a Systemic Lupus Erythematosus (SLE) Responder Index (SRI(4)) response (Week 52) for 736 patients with moderate to severe SLE disease activity (study entry). Objectives: To compare the pharmacokinetics (PK), safety and tolerability of subcutaneous (SC) and intravenous anifrolumab, an anti-type I interferon receptor monoclonal antibody in development for SLE, in healthy volunteers.Characterisation of anifrolumab, a fully human anti-interferon receptor antagonist antibody for the treatment of systemic lupus erythematosus."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e2e11a1fbd6abf43b000021",
+                            "question": "Which de novo mutation in FGFR cause achondroplasia?"
+                        }
+                    ],
+                    "context": "Achondroplasia, the most common cause of chondrodysplasia in man (1 in 15,000 live births), is a condition of unknown origin characterized by short-limbed dwarfism and macrocephaly. More than 90% of cases are sporadic and there is an increased paternal age at the time of conception of affected individuals, suggesting that de novo mutations are of paternal origin. Affected individuals are fertile and achondroplasia is transmitted as a fully penetrant autosomal dominant trait, accounting for rare familial forms of the disease (10%). In contrast, homozygous achondroplasia is usually lethal in the neonatal period and affects 25% of the offspring of matings between heterozygous achondroplasia parents. The gene responsible for achondroplasia has been mapped to chromosome 4p16.3 (refs 7, 8); the genetic interval encompassing the disease gene contains a member of the fibroblast-growth-factor receptor (FGFR3) family which is expressed in articular chondrocytes. Here we report the finding of recurrent missense mutations in a CpG doublet of the transmembrane domain of the FGFR3 protein (glycine substituted with arginine at residue 380, G380R) in 17 sporadic cases and 6 unrelated familial forms of achondroplasia. We show that the mutant genotype segregates with the disease in these families. Thus it appears that recurrent mutations of a single amino acid in the transmembrane domain of the FGFR3 protein account for all cases (23/23) of achondroplasia in our series."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5c74285c7c78d694710000a3",
+                            "question": "In which cellular compartment do stress granules localize?"
+                        }
+                    ],
+                    "context": "Stress granules are non-membranous structures that transiently form in the cytoplasm during cellular stress, where they promote translational repression of non-essential RNAs and modulate cell signaling by sequestering key signal transduction proteins.Here, we show that Rbfox2 is a novel constituent of cytoplasmic stress granules, the translational silencing machinery assembled in response to cellular stress.Stress prompted the formation of cytoplasmic granules in all subjects and in sporadic ALS FUS mislocalization to the cytoplasm.In this study, we firstly have examined this punctate pattern of Sam68 re-localization in the cytoplasm, and observed the obvious recruitments of Sam68 to the EV71-induced stress granules (SGs)Stress granules (SGs) are cytoplasmic granules that are formed in cells when stress occurs."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5c701f4f7c78d69471000060",
+                            "question": "Which disease is Dasatinib used to treat?"
+                        }
+                    ],
+                    "context": "Patients with chronic myeloid leukemiaOur results suggest that the characteristics of complete molecular response on dasatinib treatment may be similar to that achieved with imatinib, at least in patients with adverse disease features.Dasatinib as salvage therapy for steroid refractory and imatinib resistant or intolerant sclerotic chronic graft-versus-host disease.Dasatinib, a second-generation TKI with a well-established safety and efficacy profile in chronic myeloid leukemia patients, who are refractory or intolerant to imatinib, has also shown potent antifibrotic effects.Furthermore, two recent studies showed dasatinib to be effective in inhibiting the in vitro growth of cells from leukemia patients with c-Cbl RING finger and linker domain mutations"
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e2894109499698331000002",
+                            "question": "Which algorithm has been developed for finding conserved non-coding elements (CNEs)?"
+                        }
+                    ],
+                    "context": "CNEFinder: finding conserved non-coding elements in genomes.Towards this direction, identifying sets of CNEs in a wide range of organisms is an important first step. Currently, there are no tools published in the literature for systematically identifying CNEs in genomes.Results: We fill this gap by presenting CNEFinder; a tool for identifying CNEs between two given DNA sequences with user-defined criteria.Results\nWe fill this gap by presenting CNEFinder; a tool for identifying CNEs between two given DNA sequences with user-defined criteria."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e2daaa2fbd6abf43b00000e",
+                            "question": "What type of antagonist is istradefylline?"
+                        }
+                    ],
+                    "context": " Istradefylline, a selective adenosine A2A receptor antagonist, has been reported to improve daily \"off time\" and motor symptoms in patients with Parkinson's disease (PD). "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e2a080caa19d7443100000a",
+                            "question": "Through which molecular pathway does LB-100 reduce hepatic steatosis?"
+                        }
+                    ],
+                    "context": " PP2A inhibition by LB100 significantly ameliorates hepatic steatosis by regulating hepatic lipogenesis and fatty acid oxidation via the AMPK/Sirt1 pathway. "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e2e1792fbd6abf43b000024",
+                            "question": "Mutations in which gene form the genetic basis of the DOORS syndrome?"
+                        }
+                    ],
+                    "context": "We identified TBC1D24 mutations in 11 individuals from nine families (by exome sequencing in seven families, and Sanger sequencing in two families). 18 families had individuals with all five main features of DOORS syndrome, and TBC1D24 mutations were identified in half of these families. The seizure types in individuals with TBC1D24 mutations included generalised tonic-clonic, complex partial, focal clonic, and infantile spasms. Of the 18 individuals with DOORS syndrome from 17 families without TBC1D24 mutations, eight did not have seizures and three did not have deafness. In expression studies, some mutations abrogated TBC1D24 mRNA stability. We also detected Tbc1d24 expression in mouse phalangeal chondrocytes and calvaria, which suggests a role of TBC1D24 in skeletogenesis.INTERPRETATION: Our findings suggest that mutations in TBC1D24 seem to be an important cause of DOORS syndrome and can cause diverse phenotypes. Thus, individuals with DOORS syndrome without deafness and seizures but with the other features should still be screened for TBC1D24 mutations. More information is needed to understand the cellular roles of TBC1D24 and identify the genes responsible for DOORS phenotypes in individuals who do not have a mutation in TBC1D24.INTERPRETATION\n\nOur findings suggest that mutations in TBC1D24 seem to be an important cause of DOORS syndrome and can cause diverse phenotypes.18 families had individuals with all five main features of DOORS syndrome, and TBC1D24 mutations were identified in half of these families.Thus, individuals with DOORS syndrome without deafness and seizures but with the other features should still be screened for TBC1D24 mutations.Mutations in another BAF complex gene (SMARCA2) and (TBC1D24) were found to cause clinically similar conditions with ID, Nicolaides-Baraitser syndrome and DOORS syndrome, respectively."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e49032df8b2df0d49000008",
+                            "question": "Who should wear dosimeters?"
+                        }
+                    ],
+                    "context": "Nuclear medicine technologists rely on a single dosimeter to measure their work-related dose.  The reconstruction of lifetime radiation doses for medical workers presents special challenges not commonly encountered for the other worker cohorts comprising the Million Worker Study (MWS)Dosimetry for the study of medical radiation workers with a focus on the mean absorbed dose to the lung, brain and other organs.In the radiation safety field there is an increasing recognition of the value of dosimetry-related data that can be used to enhance safety programs and regulatory compliance."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e2a1096aa19d7443100000e",
+                            "question": "What kind of molecule is AZD8601?"
+                        }
+                    ],
+                    "context": "Here, we longitudinally and comprehensively characterize microvascular responses to AZD8601, a modified mRNA encoding vascular endothelial growth factor A (VEGF-A), in vivo. "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e29f6e0aa19d74431000002",
+                            "question": "Which disease category is LB-100 mostly assessed for?"
+                        }
+                    ],
+                    "context": "Protein phosphatase 2A inhibition enhances radiation sensitivity and reduces tumor growth in chordoma.LB100 is a small-molecule inhibitor of PP2A designed to sensitize cancer cells to DNA damage from irradiation and chemotherapy. A recently completed phase I trial of LB100 in solid tumors demonstrated its safety. Here, we show the therapeutic potential of LB100 in chordomaAnimals implanted with chordoma cells and treated with the combination of LB100 and radiation demonstrated tumor growth delay.Combining LB100 and radiation enhanced DNA damage-induced cell death and delayed tumor growth in an animal model of chordoma. PP2A inhibition by LB100 treatment may improve the effectiveness of radiation therapy for chordoma.PP2A inhibition with LB100 enhances cisplatin cytotoxicity and overcomes cisplatin resistance in medulloblastoma cells."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e2b2c85fbd6abf43b000007",
+                            "question": "Which disease can be classified using the Koos Classification?"
+                        }
+                    ],
+                    "context": "INTRODUCTION: Grade IV vestibular schwannoma (Koos classification) is generally considered to be an indication for microsurgical resection or combined radiosurgery-microsurgery.METHODS: The study included a total of 142 patients with VS stage 1 or 2 according to the Koos classification and treated between January 2004 and December 2015.Koos Classification of Vestibular Schwannomas: A Reliability Study.BACKGROUND: The Koos classification of vestibular schwannomas is designed to stratify tumors based on extrameatal extension and compression of the brainstem. CONCLUSION: We have demonstrated that the Koos classification system for vestibular schwannoma is a reliable method for tumor classification."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e2dafccfbd6abf43b000013",
+                            "question": "Which receptor does amantadine antagonize?"
+                        }
+                    ],
+                    "context": "Amantadine is an N-methyl-D-aspartic acid or N-methyl-D-aspartate (NMDA) receptor antagonist that can be effective against postoperative pain."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e2deb35fbd6abf43b00001c",
+                            "question": "Which method has been developed for mapping of Transcription Start Sites (TSS) starting from nanograms of RNA?"
+                        }
+                    ],
+                    "context": "SLIC-CAGE: high-resolution transcription start site mapping using nanogram-levels of total RNA.Cap analysis of gene expression (CAGE) is a methodology for genome-wide quantitative mapping of mRNA 5' ends to precisely capture transcription start sites at a single nucleotide resolution. In combination with high-throughput sequencing, CAGE has revolutionized our understanding of the rules of transcription initiation, led to discovery of new core promoter sequence features, and discovered transcription initiation at enhancers genome-wide. The biggest limitation of CAGE is that even the most recently improved version (nAnT-iCAGE) still requires large amounts of total cellular RNA (5 \u00b5g), preventing its application to scarce biological samples such as those from early embryonic development or rare cell types. Here, we present SLIC-CAGE, a Super-Low Input Carrier-CAGE approach to capture 5' ends of RNA polymerase II transcripts from as little as 5-10 ng of total RNA. This dramatic increase in sensitivity is achieved by specially designed, selectively degradable carrier RNA. We demonstrate the ability of SLIC-CAGE to generate data for genome-wide promoterome with 1000-fold less material than required by existing CAGE methods, by generating a complex, high-quality library from mouse embryonic day 11.5 primordial germ cells."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e36dc8cb5b409ea5300000d",
+                            "question": "What is another name for acid sphingomyelinase deficiency (ASMD)?"
+                        }
+                    ],
+                    "context": "Acid sphingomyelinase deficiency (ASMD) is an autosomal recessive disease with a clinical spectrum ranging from a neurovisceral infantile form (Niemann-Pick disease type A) to a chronic visceral form also encountered in adults (Niemann-Pick disease type B, NP-B)Acid sphingomyelinase deficiency (ASMd, Niemann-Pick disease A/B)Acid sphingomyelinase deficiency (ASMD), a rare lysosomal storage disease, is an autosomal recessive genetic disorder caused by different SMPD1 mutations. Historically, ASMD has been classified as Niemann-Pick disease (NPD) types A (NPD A) and B (NPD B). Acid sphingomyelinase (ASM) deficient Niemann-Pick disease is a lysosomal storage disorder resulting from mutations in the SMPD1 gene. The clinical spectrum distinguishes a severe infantile neurological form (type A), a non-neurological visceral form (type B) and a rare intermediate neurovisceral form. BACKGROUND\n\nAcid sphingomyelinase deficiency (ASMD), [Niemann-Pick Disease Types A and B (NPD A and B)], is an inherited metabolic disorder resulting from deficiency of the lysosomal enzyme acid sphingomyelinase."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e3da25848dab47f26000004",
+                            "question": "What rare disease is associated with a mutation in the GPC6 gene on chromosome 13?"
+                        }
+                    ],
+                    "context": " The proband had normal molecular analysis of the glypican 6 gene (GPC6), which was recently reported as a candidate for autosomal recessive omodysplasiaMutations in the heparan-sulfate proteoglycan glypican 6 (GPC6) impair endochondral ossification and cause recessive omodysplasia.We now report that autosomal-recessive omodysplasia, a genetic condition characterized by short-limbed short stature, craniofacial dysmorphism, and variable developmental delay, maps to chromosome 13 (13q31.1-q32.2) and is caused by point mutations or by larger genomic rearrangements in glypican 6 (GPC6)."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e31cb85fbd6abf43b00004e",
+                            "question": "What gene is mutated in Huntington's Disease patients?"
+                        }
+                    ],
+                    "context": "Huntington's disease (HD) is a fully penetrant neurodegenerative disease caused by a dominantly inherited CAG trinucleotide repeat expansion in the huntingtin gene on chromosome 4Huntington's disease (HD) is caused by a CAG repeat expansion that encodes a polyglutamine (polyQ) expansion in the HD disease protein, huntingtin (HTT). PolyQ expansion promotes misfolding and aggregation of mutant HTT (mHTT) within neurons.Huntington's disease (HD) is a neurodegenerative disorder that is caused by abnormal expansion of CAG repeats in the HTT gene.Two decades ago, researchers identified that a CAG expansion mutation in the huntingtin (HTT) gene was involved in the pathogenesis of Huntington's disease (HD).However, since the identification of the HTT gene, there has been no advance in the development of therapeutic strategies to prevent or reduce the progression of HD"
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e30e689fbd6abf43b00003a",
+                            "question": "Which disease is treated with ZMapp?"
+                        }
+                    ],
+                    "context": "Gene Transfer of ZMapp Antibodies Mediated by Recombinant Adeno-Associated Virus Protects Against Ebola Infections.Vectored delivery of the ZMapp antibody cocktail (c2G4, c4G7, and c13C6) by using recombinant adeno-associated viruses (rAAVs) could be useful for preventive immunization against Ebola virus infections because rAAVs can generate long-term antibody expression.ZMapp Reinforces the Airway Mucosal Barrier Against Ebola Virus.Addition of ZMapp, a cocktail of Ebola-binding immunoglobulin G antibodies, effectively reduced mobility of Ebola pseudovirus in the same mucus secretions. Topical delivery of ZMapp to the mouse airways also facilitated rapid elimination of Ebola pseudovirus. Several strategies have been developed in the past to treat EBOV infection, including the antibody cocktail ZMapp, which has been shown to be effective in nonhuman primate models of infection 1 and has been used under compassionate-treatment protocols in humans 2 "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5d31b847b3a6380763000002",
+                            "question": "How many genes belong to the KRAB-ZNF family in the human genome?"
+                        }
+                    ],
+                    "context": "By mammalian one- or two-hybrid experiments in HEK293 cells, we compared transcriptional repression activities of 61 human KRAB-ZNFsHere, using a reporter system, we show that TRIM28/KRAB-ZNFs alter DNA methylation patterns in addition to H3K9me3 to cause stable gene repression during reprogramming. Using several expression datasets, we identified KRAB-ZNFs (ZNF114, ZNF483, ZNF589) in the human genome that maintain pluripotency.  High-resolution mapping on human chromosome 19 revealed that CBX1 coats large domains 0.1-4 Mb in size, which coincide with the position of KRAB-ZNF gene clustersHere, we examine the structural and functional diversity of the 70 human KRAB-ZNF genes involved in the most recent primate SD events including genes that arose in the hominid lineag Here, we discuss the main evolutionary and molecular features that make transcription factors (TFs), especially the family of zinc finger proteins with a Kr\u00fcppel-associated box domain (KRAB-ZNF), strong candidates to play an important role in postzygotic reproductive isolation"
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e30e80bfbd6abf43b00003b",
+                            "question": "Which molecule is targeted by Asciminib?"
+                        }
+                    ],
+                    "context": "Asciminib, an allosteric ABL1 inhibitor, could demonstrate a higher capacity in overcoming common TKIs resistant mutations, including T315I, but clinical findings are needed.Moreover, allosteric targeting has been identified to consequentially inhibit Bcr-Abl activity, which led to the recent development of ABL-001 (asciminib) that selectively binds the myristoyl pocket.Asciminib (previously ABL001), which binds the myristate-binding pocket of the Bcr-Abl kinase domain, is in phase I clinical trials as monotherapy and in combination with imatinib, nilotinib and dasatinib for the treatment of patients with refractory CML or Ph+ ALL.Asciminib (ABL001) is an orally administered allosteric inhibitor of the BCR-ABL tyrosine kinase.Discovery of Asciminib (ABL001), an Allosteric Inhibitor of the Tyrosine Kinase Activity of BCR-ABL1."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e499e266d0a27794100000c",
+                            "question": "What is the trade name of sildenafil?"
+                        }
+                    ],
+                    "context": "Chronic drug abuse and sexual dysfunction specifically erectile dysfunction may lead drug abusers to seek over-the-counter or non-prescription medications, out of which Sildenafil citrate, sold as the trade name of Viagra\u00ae can be considered as a prime and important treatment. "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e5b6f04b761aafe0900000e",
+                            "question": "How large is the SARS-CoV  proteome?"
+                        }
+                    ],
+                    "context": "The severe acute respiratory syndrome coronavirus (SARS-CoV) genome is predicted to encode 14 functional open reading frames, leading to the expression of up to 30 structural and non-structural protein products. For the first time, all of the four predicted structural proteins of SARS-CoV were identified, including S (Spike), M (Membrane), N (Nucleocapsid), and E (Envolope) proteins."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e5b8b4e752ebcdc7a000001",
+                            "question": "Which is the phenotype of the disease fibrodysplasia ossificans progressiva?"
+                        }
+                    ],
+                    "context": "Fibrodysplasia ossificans progressiva (FOP) is an ultra-rare genetic disorder in which heterotopic bone forms in the soft tissues. Metaphyseal bony outgrowths are a well-recognized feature of fibrodysplasia ossificans progressiva (FOP) phenotype, Fibrodysplasia ossificans progressiva (FOP), a congenital heterotopic ossification (HO) syndrome caused by gain-of-function mutations of bone morphogenetic protein (BMP) type I receptor ACVR1, manifests with progressive ossification of skeletal muscles, tendons, ligaments, and joints."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e4940f46d0a277941000004",
+                            "question": "How many annotated conserved human lncRNAs come from ancestral protein-coding genes?"
+                        }
+                    ],
+                    "context": "These lncRNAs have specific characteristics, such as broader expression domains, that set them apart from other lncRNAs. Fourteen lncRNAs have sequence similarity with the loci of the contemporary homologs of the lost protein-coding genes. We propose that selection acting on enhancer sequences is mostly responsible for retention of these regions. As an example of an RNA element from a protein-coding ancestor that was retained in the lncRNA, we describe in detail a short translated ORF in the JPX lncRNA that was derived from an upstream ORF in a protein-coding gene and retains some of its functionality.CONCLUSIONS: We estimate that\u2009~\u200955 annotated conserved human lncRNAs are derived from parts of ancestral protein-coding genes, and loss of coding potential is thus a non-negligible source of new lncRNAs. Some lncRNAs inherited regulatory elements influencing transcription and translation from their protein-coding ancestors and those elements can influence the expression breadth and functionality of these lncRNAs.CONCLUSIONS\n\nWe estimate that\u2009~\u200955 annotated conserved human lncRNAs are derived from parts of ancestral protein-coding genes, and loss of coding potential is thus a non-negligible source of new lncRNAs.CONCLUSIONS We estimate that ~ 55 annotated conserved human lncRNAs are derived from parts of ancestral protein-coding genes, and loss of coding potential is thus a non-negligible source of new lncRNAs.CONCLUSIONS\nWe estimate that\u2009~\u200955 annotated conserved human lncRNAs are derived from parts of ancestral protein-coding genes, and loss of coding potential is thus a non-negligible source of new lncRNAs.CONCLUSIONS: We estimate that\u2009~\u200955 annotated conserved human lncRNAs are derived from parts of ancestral protein-coding genes, and loss of coding potential is thus a non-negligible source of new lncRNAs."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e5bab131af46fc130000001",
+                            "question": "What is the protein product of the gene GBA2?"
+                        }
+                    ],
+                    "context": "b-glucosidase 2 gene (GBA2)The GBA2 gene encodes the non-lysosomal glucosylceramidase (NLGase), an enzyme that catalyzes the conversion of glucosylceramide (GlcCer) to ceramide and glucose. The non-lysosomal glucosylceramidase GBA2 catalyzes the hydrolysis of glucosylceramide to glucose and ceramide. "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e2dbc55fbd6abf43b000016",
+                            "question": "What has pimavanserin been approved for by the FDA (2018)?"
+                        }
+                    ],
+                    "context": "To summarize the US Food and Drug Administration's (FDA's) review of the safety and effectiveness for pimavanserin, an atypical antipsychotic, for the treatment of hallucinations and delusions associated with Parkinson's disease psychosis. Pimavanserin is the only FDA-approved treatment for the hallucinations and delusions seen in patients with psychosis of Parkinson's disease. "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e5b8170b761aafe09000010",
+                            "question": "Which diagnostic test is approved for coronavirus infection screening?"
+                        }
+                    ],
+                    "context": ": In this study, we present two real-time reverse-transcription polymerase chain reaction (rRT-PCR) assays for in-house rapid and sensitive diagnostic testing of MERS-CoV, detecting the regions upstream of the envelope gene (upE) and open reading frame (ORF) 1b, respectively, for initial screening and final confirmation of MERS-CoV infection, as recommended by the world health organization (WHO) In response, we developed two real-time reverse transcription-PCR (rRT-PCR) assays targeting the MERS-CoV nucleocapsid (N) gene and evaluated these assays as a panel with a previously published assay targeting the region upstream of the MERS-CoV envelope gene (upE) for the detection and confirmation of MERS-CoV infection. SARS-CoV was detected by means of reverse-transcriptase polymerase chain reaction (RT-PCR) in at least one specimen in 59 (54.1%) of 109 patients. Early diagnosis of SARS coronavirus infection by real time RT-PCR."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e319789fbd6abf43b00004a",
+                            "question": "Which molecule is inhibited by encorafenib?"
+                        }
+                    ],
+                    "context": "Encorafenib (LGX818) is a promising BRAFV600E inhibitor that has efficacy against metastatic melanoma. Using patient- and in vivo-derived melanoma cell lines with acquired BRAFi resistance, we show that combined treatment with the BRAFi encorafenib and HDACi panobinostat in 2D and 3D culture systems synergistically induced caspase-dependent apoptotic cell death.Importantly, combination of the BRAF inhibitors (BRAFi) vemurafenib (PLX4032), dabrafenib, or encorafenib with inhibitors dually targeting the EGFR and HER2 (such as lapatinib, canertinib, and afatinib) significantly reduced the metabolic activity and proliferative potential of CRC cells. PURPOSE OF REVIEW: To describe the pharmacological properties, preclinical and clinical data of the novel V-Raf Murine Sarcoma Viral Oncogene Homolog B (BRAF)-inhibitor encorafenib (LGX818) and to compare these with established BRAF-inhibitors in the treatment of locally advanced or metastatic melanoma.We investigated encorafenib, a BRAF inhibitor with unique target-binding properties, alone or in combination with the MEK inhibitor binimetinib, versus vemurafenib in patients with advanced BRAFV600-mutant melanoma."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e31cceafbd6abf43b000052",
+                            "question": "What is the chromosomal location of the LDL receptor gene associated with autosomal dominant Familial Hypercholesterolemia?"
+                        }
+                    ],
+                    "context": "Familial hypercholesterolemia (FH) is an autosomal dominant inherited metabolic disorder resulting in advanced vascular atherosclerosis and premature death, primarily from coronary artery disease. The primary defect is a mutation in the gene encoding for the plasma LDL receptor located on the short arm of chromosome 19.Mutations in the LDLr gene (LDLR), which is located on chromosome 19, cause familial hypercholesterolemiaChromosome 19 is short but has higher relative density of genes than other chromosomes. Increasing number of the genes coding for proteins implicated in the pathogenesis of various human diseases have been mapped on chromosome 19. Mutations of low density lipoprotein receptor (LDL-R) result in one of the most frequent mendelian inherited disorder-familial hypercholesterolemia.Clinical familial hypercholesterolemia has been shown to result from mutations in 2 genes, the low density lipoprotein (LDL) receptor on chromosome 19 and apolipoprotein B on chromosome 2."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e3c6c9eb5b409ea53000022",
+                            "question": "What bacteria is associated with Gastric cancer and peptic ulcers?"
+                        }
+                    ],
+                    "context": "Helicobacter Pylori (H. pylori) is a gram-negative bacteria infecting numerous people all over the world. It has been established that H. pylori play an important role in pathogenesis of gastritis, peptic ulcer and gastric cancerHelicobacter pylori (H. pylori), a gram-negative microaerophilic bacterial pathogen that colonizes the stomachs of more than half of all humans, is linked to chronic gastritis, peptic ulcers and gastric cancer.Strains of Helicobacter pylori that cause ulcer or gastric cancerBACKGROUND Helicobacter pylori chronic infection is associated with chronic gastritis, peptic ulcer, and gastric cancer.Helicobacter pylori has been linked to chronic gastritis, peptic ulcers, gastric cancer and mucosa-associated lymphoid tissue lymphoma."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e540c866d0a277941000052",
+                            "question": "What is another name for AZD0530?"
+                        }
+                    ],
+                    "context": "Antitumor activity of saracatinib (AZD0530), a c-Src/Abl kinase inhibitor, alone or in combination with chemotherapeutic agents in gastric cancer.We evaluated the antitumor effect of a c-Src/Abl kinase inhibitor, saracatinib (AZD0530), alone or combined with chemotherapeutic agents in gastric cancer cell lines and a NCI-N87 xenograft model."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e4adb486d0a277941000015",
+                            "question": "Which application is the backbone of BioPAXViz?"
+                        }
+                    ],
+                    "context": "BioPAXViz: a cytoscape application for the visual exploration of metabolic pathway evolution.BioPAXViz is a Cytoscape (version 3) application, providing a comprehensive framework for metabolic pathway visualization. Beyond the basic parsing, viewing and browsing roles, the main novel function that BioPAXViz provides is a visual comparative analysis of metabolic pathway topologies across pre-computed pathway phylogenomic profiles given a species phylogeny. Furthermore, BioPAXViz supports the display of hierarchical trees that allow efficient navigation through sets of variants of a single reference pathway. Thus, BioPAXViz can significantly facilitate, and contribute to, the study of metabolic pathway evolution and engineering.Availability and Implementation: BioPAXViz has been developed as a Cytoscape app and is available at: https://github.com/CGU-CERTH/BioPAX.Viz.Summary\n\nBioPAXViz is a Cytoscape (version 3) application, providing a comprehensive framework for metabolic pathway visualization.Summary BioPAXViz is a Cytoscape (version 3) application, providing a comprehensive framework for metabolic pathway visualization.Availability and Implementation BioPAXViz has been developed as a Cytoscape app and is available at: https://github.com/CGU-CERTH/BioPAX.Viz."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e763602c6a8763d2300000c",
+                            "question": "Which company produces ORMD-0801?"
+                        }
+                    ],
+                    "context": "In efforts to provide patients with a more compliable treatment method, Oramed Pharmaceuticals tested the capacity of its oral insulin capsule (ORMD-0801, 8 mg insulin) in addressing this resistant clinical state."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5d35e7ddb3a638076300000e",
+                            "question": "In which cell organelle is the SAF-A protein localized?"
+                        }
+                    ],
+                    "context": "SAF-A/hnRNP U is an abundant nuclear protein that interacts specifically with nuclear matrix attachment region DNA (MAR) and RNA as a component of hnRNPs. Scaffold attachment factor A (SAF-A) participates in the regulation of gene expression by organizing chromatin into transcriptionally active domains and by interacting directly with RNA polymerase II.Functional analyses reveal that dual depletion of SAF-A and BRG1 abolishes global transcription by RNA polymerase II, while the nucleolar RNA polymerase I transcription machinery remains unaffectedUsing this domain as a probe, we performed a yeast two-hybrid screening and we found that scaffold attachment factor B (SAF-B), a nuclear matrix-associated protein, exhibits protein-protein interaction to this region. "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e4bed1c6d0a27794100002b",
+                            "question": "What disease is associated with a Malar rash?"
+                        }
+                    ],
+                    "context": " Cutaneous manifestations of SLE are frequently the presenting symptoms, typically noted in the classic malar \"butterfly\" rash; Malar rash is one of the three cutaneous diagnostic criteria of systemic lupus erythematosus (SLE)."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5d35ef017bc3fee31f000001",
+                            "question": "Which epigenetic mark is deposited by PRC2?"
+                        }
+                    ],
+                    "context": "polycomb repressive complex 2 (PRC2), which mediates trimethylation of lysine 27 on histone H3 (K27me3)PRC2, has an additional function to stimulate the PRC2 activity after binding to H3K27me3In Arabidopsis thaliana, LHP1 co-localizes with H3K27me3 epigenetic marks throughout the genome and interacts with PRC1 and PRC2 members as well as with a long noncoding RNAKnockdown of PRC2 H3K27-methyltransferases Ezh2 and Ezh1, or forced expression of the Trithorax/COMPASS subunit Wdr5 activates Runx2/p57 mRNA expression in both immature and mature hippocampal cells.Here, we show that, in cancer cells, the epigenetic remodeling of chromatin into hypoacetylated domains covered with histone H3K27 trimethylation is paralleled by changes in higher-order chromatin structures."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e550b5db761aafe09000007",
+                            "question": "What does osanetant and talnetant have in common?"
+                        }
+                    ],
+                    "context": "Phase II clinical trials in schizophrenia with two selective NK3 antagonists (osanetant and talnetant) have demonstrated significant improvement in positive symptoms. Preclinical and Phase II clinical results of osanetant and talnetant in schizophrenic patients have indicated that NK(3) antagonists may provide significant improvement of the positive symptoms and cognitive impairment associated with this disorder. "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e460f823f54159529000006",
+                            "question": "What is the target of galcanezumab?"
+                        }
+                    ],
+                    "context": "Importance: Galcanezumab (LY2951742), a monoclonal antibody against calcitonin gene-related peptide (CGRP), is one of a novel class of new medicines for migraine prevention.PURPOSE OF REVIEW: Monoclonal antibodies (mAbs) targeting the calcitonin-gene-related peptide (CGRP) pathway have been developed for episodic and chronic migraine prevention, either through binding the CGRP ligand (eptinezumab, fremanezumab, galcanezumab) or the CGRP receptor (erenumab).Background Safety findings from a Phase 2b study of galcanezumab, a humanized monoclonal antibody against calcitonin gene-related peptide, for prevention of migraine (NCT02163993) are reported here.Currently, there is considerable excitement regarding monoclonal antibodies against calcitonin gene-related peptide (eptinezumab, galcanezumab, fremanezumab) and the calcitonin gene-related peptide receptor (erenumab). CGRP receptor antagonists such as ubrogepant are effective for acute relief of migraine headache, whereas monoclonal antibodies against CGRP (eptinezumab, fremanezumab and galcanezumab) or the CGRP receptor (erenumab) effectively prevent migraine attacks. "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e4604d83f54159529000003",
+                            "question": "Which disease was studied in the CADISS trial?"
+                        }
+                    ],
+                    "context": "Prognosis of carotid dissecting aneurysms: Results from CADISS and a systematic review.METHODS: We included 264 patients with extracranial cervical artery dissection (CAD) from the Cervical Artery Dissection in Stroke Study (CADISS), a multicenter prospective study that compared antiplatelet with anticoagulation therapy.CONCLUSIONS: The results of CADISS provide evidence suggesting that DAs may have benign prognosis and therefore medical treatment should be considered.Antiplatelet treatment compared with anticoagulation treatment for cervical artery dissection (CADISS): a randomised trial.We compared their efficacy in the Cervical Artery Dissection in Stroke Study (CADISS), with the additional aim of establishing the true risk of recurrent stroke."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5d35d901b3a638076300000a",
+                            "question": "What is the human RCA locus size in bps?"
+                        }
+                    ],
+                    "context": " The human homologues of these genes are tightly linked, composing the RCA locus, which maps to human chromosome (Chr.)1q32, within a large linkage group conserved between human Chr.1q21-32 and mouse Chr.The primary sequence of the most common structural allotype of CR1 and that of CR2 have been established, and ligand binding on the molecules has been mapped. CR1 and CR2 genes are located in close vicinity in the RCA locus of chromosome 1.Genome and expressed sequence tag information of Xenopus tropicalis suggested that short-consensus repeat (SCR)-containing proteins are encoded by three genes that are mapped within a 300-kb downstream of PFKFB2, which is a marker gene for the regulator of complement activation (RCA) loci in human and chicken.The organization and physical linkage of four members of a major complement locus, the RCA locus, have been determined using the technique of pulsed field gradient gel electrophoresis in conjunction with Southern blotting"
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e4fd44a6d0a277941000033",
+                            "question": "What cellular process is the protein clathrin involved in?"
+                        }
+                    ],
+                    "context": "ligand-receptor complexes are internalized via clathrin coated pits by a process called receptor-mediated endocytosis. Receptor-mediated endocytosis proceeds by transfer of receptor-ligand complexes from clathrin-coated pits at the cell surface to uncoated endocytic vesicles termed receptosomes (or endosomes).while clathrin mediated endocytosis wClathrin-mediated endocytosis (CME) is a cellular trafficking process in which cargoes and lipids are internalized from the plasma membrane into vesicles coated with clathrin and adaptor proteins.Clathrin is involved in the endocytosis and exocytosis of cellular proteins and the process of virus infection."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e48a916d14c9f295d00000f",
+                            "question": "Which receptor is modulated with Siponimod?"
+                        }
+                    ],
+                    "context": "RESULTS: Among a battery of molecules tested, siponimod, a dual agonist of sphingosine-1-phosphate receptor 1 and 5, was among the most efficient favoring remyelination.We validated several known promyelinating compounds and demonstrated that the strong remyelinating efficacy of siponimod implicates the sphingosine-1-phosphate receptor 5.Sphingosine 1-phosphate (S1P1 ) modulators provide an emerging therapeutic approach for various autoimmune disorders such as multiple sclerosis and psoriasis. Fingolimod is the first approved orally active, selective and potent drug of this class. Other drugs belonging to this class include siponimod, ponesimod, ceralifimod, amiselimod, CS-0777 and GSK2018682. S1P receptor antagonists fingolimod and siponimod do not improve the outcome of experimental autoimmune myasthenia gravis mice after disease onset.Functional sphingosine-1-phosphate (S1P) antagonists like fingolimod and siponimod (BAF312) are successfully used for the treatment of multiple sclerosis, and fingolimod was shown to prevent the development of myasthenic symptoms in experimental autoimmune myasthenia gravis (EAMG), the standard model of MG."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e49ac346d0a27794100000e",
+                            "question": "Which drug is the first oral ghrelin receptor inverse agonist to be profiled in healthy subjects?"
+                        }
+                    ],
+                    "context": "Pharmacokinetics and pharmacodynamics of PF-05190457: The first oral ghrelin receptor inverse agonist to be profiled in healthy subjects."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e499e0a6d0a27794100000b",
+                            "question": "What is minodixil approved for?"
+                        }
+                    ],
+                    "context": "Minoxidil is the only topical drug for the treatment of both female and male pattern hair loss. In the US, minoxidil is approved over-the-counter (OTC) at a maximum concentration of 5%."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e5409776d0a277941000051",
+                            "question": "What is AZD0530 an inhibitor of?"
+                        }
+                    ],
+                    "context": "Saracatinib, a highly selective, dual Src/Abl kinase inhibitor, is currently in a Phase II clinical trial for the treatment of ovarian cancer."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5d35e421b3a638076300000d",
+                            "question": "For how long do Drosophila embryos use maternal genome mRNA?"
+                        }
+                    ],
+                    "context": "Mitoses before interphase 14 run on maternal products, and occur in metasynchronous waves.In many animals, the first few hours of life proceed with little or no transcription, and developmental regulation at these early stages is dependent on maternal cytoplasm rather than the zygotic nucleus.. An exceptional case of Nos-independent regulation by Pum has been described-repression of maternal bicoid (bcd) mRNA at the anterior pole of the early embryo, dependent on both Pum and conserved Pum binding sites in the 3'-UTR of the mRNA"
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e2f6353fbd6abf43b00002b",
+                            "question": "Which type of variants can be called by the VarDict algorithm?"
+                        }
+                    ],
+                    "context": "Here we present VarDict, a novel and versatile variant caller for both DNA- and RNA-sequencing data. VarDict simultaneously calls SNV, MNV, InDels, complex and structural variants, expanding the detected genetic driver landscape of tumors. It performs local realignments on the fly for more accurate allele frequency estimation. VarDict performance scales linearly to sequencing depth, enabling ultra-deep sequencing used to explore tumor evolution or detect tumor DNA circulating in blood.VarDict simultaneously calls SNV, MNV, InDels, complex and structural variants, expanding the detected genetic driver landscape of tumors.VarDict simultaneously calls SNV, MNV, InDels, complex and structural variants, expanding the detected genetic driver landscape of tumors."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e4f2aeb6d0a277941000032",
+                            "question": "What is the function of a protein kinase?"
+                        }
+                    ],
+                    "context": "Mycobacterial protein tyrosine kinase, PtkA phosphorylates PtpA at tyrosine residues and the mechanism is stalled by the novel series of inhibitors.Tyrosine kinase (PtkA;TK) activated by autophosphorylation; phosphorylates TP, which subsequently leads to increase in its phosphatase activityDiacylglycerol kinase (DGK) phosphorylates diacylglycerol (DG) to produce phosphatidic acid (PA). Src family kinase tyrosine phosphorylates Toll-like receptor 4 to dissociate MyD88 and Mal/Tirap, suppressing LPS-induced inflammatory responses.Several studies have revealed that cyclin-dependent kinases (CDK) can mediate phosphorylation of steroid receptors at multiple sites, including serine 81 of the androgen receptor (AR)"
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e7641a0c6a8763d23000011",
+                            "question": "Which was the first cholera vaccine approved in the US?"
+                        }
+                    ],
+                    "context": "Vaxchora: The First FDA-Approved Cholera Vaccination in the United States.Vaxchora is the first vaccine approved by the Food and Drug Administration for the prophylaxis of cholera infection. "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e4ada686d0a277941000014",
+                            "question": "Which method is behind HipMCL?"
+                        }
+                    ],
+                    "context": "HipMCL: a high-performance parallel implementation of the Markov clustering algorithm for large-scale networks.Biological networks capture structural or functional properties of relevant entities such as molecules, proteins or genes. Characteristic examples are gene expression networks or protein-protein interaction networks, which hold information about functional affinities or structural similarities. Such networks have been expanding in size due to increasing scale and abundance of biological data. While various clustering algorithms have been proposed to find highly connected regions, Markov Clustering (MCL) has been one of the most successful approaches to cluster sequence similarity or expression networks. Despite its popularity, MCL's scalability to cluster large datasets still remains a bottleneck due to high running times and memory demands. Here, we present High-performance MCL (HipMCL), a parallel implementation of the original MCL algorithm that can run on distributed-memory computers. We show that HipMCL can efficiently utilize 2000 compute nodes and cluster a network of \u223c70 million nodes with \u223c68 billion edges in \u223c2.4 h. By exploiting distributed-memory environments, HipMCL clusters large-scale networks several orders of magnitude faster than MCL and enables clustering of even bigger networks. HipMCL is based on MPI and OpenMP and is freely available under a modified BSD license.While various clustering algorithms have been proposed to find highly connected regions, Markov Clustering (MCL) has been one of the most successful approaches to cluster sequence similarity or expression networks."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e42d1a748dab47f26000010",
+                            "question": "What is drug target for olaparib?"
+                        }
+                    ],
+                    "context": "PARP inhibition with olaparib, warrants further investigation,Olaparib is a PARP inhibitor (PARPi)."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e3df59348dab47f26000006",
+                            "question": "What virus is the  Gardisil vaccine used for?"
+                        }
+                    ],
+                    "context": "Gardisil, the quadrivalent HPV vaccine would have been useful in the prevention of 28% (13/46) of these infectionsGardisil, the quadrivalent HPV vaccine would have been useful in the prevention of 28% (13/46) of these infections.Gardisil, the quadrivalent HPV vaccine would have been useful in the prevention of 28% (13/46) of these infections."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e763bd4c6a8763d2300000f",
+                            "question": "When was vivotif first licenced in Europe?"
+                        }
+                    ],
+                    "context": "Vivotif\u00ae is an oral live attenuated vaccine which contains a mutated strain of Salmonella (Ty21a) and reproduces the natural infection. The vaccine was first licensed in Europe in 1983 and in the US in 1989, and over the years it has proved efficacious and safe."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e2f4a8bfbd6abf43b00002a",
+                            "question": "What animal is thought to be the host for the Coronavirus causing MERS?"
+                        }
+                    ],
+                    "context": "hese data demonstrate a genetic link for each of these clusters to a camel and support the hypothesis that human MERS-CoV diversity results from multiple zoonotic introductions.The exact origin of MERS-CoV remains unknown, but the transmission pattern and evidence from virological studies suggest that dromedary camels are the major reservoir host, from which human infections may sporadically occur through the zoonotic transmission.Middle East respiratory syndrome coronavirus (MERS-CoV) is a zoonotic virus from camels causing significant mortality and morbidity in humans in the Arabian Peninsula Here, we use existing MERS-CoV sequence data to explore its phylodynamics in two of its known major hosts, humans and camels. ong-term MERS-CoV evolution occurs exclusively in camels, whereas humans act as a transient, and ultimately terminal host. "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e51dc516d0a27794100003e",
+                            "question": "Which is the most common monogenic cause of common variable immunodeficiency (CVID) in Europeans?"
+                        }
+                    ],
+                    "context": "Loss-of-function nuclear factor \u03baB subunit 1 (NFKB1) variants are the most common monogenic cause of common variable immunodeficiency in Europeans.The genetic cause of primary immunodeficiency disease (PID) carries prognostic information.OBJECTIVE: We conducted a whole-genome sequencing study assessing a large proportion of the NIHR BioResource-Rare Diseases cohort.METHODS: In the predominantly European study population of principally sporadic unrelated PID cases (n\u00a0=\u00a0846), a novel Bayesian method identified nuclear factor \u03baB subunit 1 (NFKB1) as one of the genes most strongly associated with PID, and the association was explained by 16 novel heterozygous truncating, missense, and gene deletion variants. This accounted for 4% of common variable immunodeficiency (CVID) cases (n\u00a0=\u00a0390) in the cohort. Amino acid substitutions predicted to be pathogenic were assessed by means of analysis of structural protein data. Immunophenotyping, immunoblotting, and ex\u00a0vivo stimulation of lymphocytes determined the functional effects of these variants. Detailed clinical and pedigree information was collected for genotype-phenotype cosegregation analyses.We show that heterozygous loss-of-function variants in NFKB1 are the most common known monogenic cause of CVID, which results in a temporally progressive defect in the formation of immunoglobulin-producing B cells.Monoallelic loss-of-function mutations in NFKB1 were recently recognized as the most common monogenic cause of common variable immunodeficiency (CVID)."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e31b575fbd6abf43b00004c",
+                            "question": "What is the Triad of Alport Syndrome?"
+                        }
+                    ],
+                    "context": "PURPOSE: Alport syndrome is a rare condition characterized by the clinical triad of nephritic syndrome, sensorineural deafness, and ophthalmological alterations.Classical AS is a progressive renal disease presenting with a triad of progressive hematuric nephritis and typical extra-renal complications, such as sensorineural hearing loss (SNHL) and variable ocular anomalies. In 1927, Arthur C. Alport first published his description of a triad of symptoms in a family with hereditary congenital haemorrhagic nephritis, deafness and ocular changes. BACKGROUND: Alport syndrome refers to the clinical triad of hereditary nephritis, sensorineural deafness, and ocular abnormalities. Alport syndrome is an oculo-renal syndrome characterized by a triad of clinical findings consisting of hemorrhagic nephritis, sensorineural hearing loss and characteristic ocular findings. "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e6157cb1af46fc13000000e",
+                            "question": "What disease is associated with mutations in the MECP2 transcription factor?"
+                        }
+                    ],
+                    "context": "Mutations in the methyl-CpG-binding protein-2 gene (MECP2) are commonly associated with Rett syndrome.Rett syndrome (RS) is a debilitating neurological disorder affecting mostly girls with heterozygous mutations in the gene encoding the methyl-CpG-binding protein MeCP2 on the X chromosomeMutations in the MECP2 gene cause the neurodevelopmental disorder Rett syndrome (RTT). Rett syndrome is a severe neurodevelopmental disorder mainly caused by mutations in the transcriptional regulator MeCP2.Mutations in the MeCP2 gene cause Rett syndrome, a progressive neurodevelopmental disorder."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e44b04c48dab47f26000016",
+                            "question": "Which receptor is inhibited by bimagrumab?"
+                        }
+                    ],
+                    "context": "Bimagrumab is a human anti-ActRII antibody which was found to increase muscle mass and function by blocking ActRII signalingBACKGROUND: Bimagrumab is a human monoclonal antibody inhibitor of activin type II receptors (ActRII), with anabolic action on skeletal muscle mass by blocking binding of myostatin and other negative regulators of muscle growth.CONCLUSION: Bimagrumab alters the function of pituitary gonadotroph cells, consistent with blockade of activin on local ActRII. RATIONALE: Bimagrumab is a fully human monoclonal antibody that blocks the activin type II receptors, preventing the activity of myostatin and other negative skeletal muscle regulators.CONCLUSIONS: Blocking the action of negative muscle regulators through the activin type II receptors with bimagrumab treatment safely increased skeletal muscle mass but did not improve functional capacity in patients with COPD and low muscle mass."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5d3852d07bc3fee31f000014",
+                            "question": "Where is the yeast transpozable element Ty3 preferentially inserted?"
+                        }
+                    ],
+                    "context": "We found that extra ORFs occur in all three major lineages of plant Ty3/gypsy elements, being the most frequent in the Tat lineage where most (77\u00a0%) of identified elements contained extra ORFs.The retrovirus-like element Ty3 of Saccharomyces cerevisiae integrates at the transcription initiation region of RNA polymerase III.Ty3 inserts at transcription initiation sites of genomic tRNA genes and plasmid-borne 5S and U6 RNA genes transcribed by RNA polymerase III. Sites of RNA polymerase III transcription initiation and Ty3 integration at the U6 gene are positioned by the TATA box the U6 TATA box is essential in vivo for correct initiation but not for transcription, (ii) a TATA box does not compensate for a weak box A sequence and so cannot perform equivalently, and (iii) the TATA-binding protein, and probably components of transcription factor IIIB, are present on the target at the time of Ty3 integration."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e776cfe835f4e4777000010",
+                            "question": "When was Afrezza approved by the FDA?"
+                        }
+                    ],
+                    "context": "In contrary, MannKind Corporation started developing its ultra-rapid-acting insulin Afrezza in a bold bid, probably by managing the issues in which Exubera was not successful. Afrezza has been marketed since February, 2015 by Sanofi after getting FDA approval in June 2014."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e7f5d0d835f4e4777000016",
+                            "question": "When was Fluzone Intradermal replaced with Fluzone Intradermal Quadrivalent?"
+                        }
+                    ],
+                    "context": "In advance of the 2015-2016 season, Fluzone Intradermal was replaced with Fluzone Intradermal Quadrivalent vaccine, which contains 9\u00a0\u00b5g hemagglutinin per strain of the two A-strain viruses and both B-strain lineage viruses (Victoria and Yamagata)."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5d38790da1e159510500000d",
+                            "question": "Which X chromosome abnormalities present lupus-like symptoms?"
+                        }
+                    ],
+                    "context": "The accelerated development of systemic lupus erythematosus (SLE) in male BXSB mice is associated with the genetic abnormality in its Y chromosome, designated Yaa (Y-linked autoimmune acceleration).Yaa-mediated acceleration of SLE as well as various Yaa-linked cellular traits cannot be explained by the Tlr7 gene duplication alone, and suggest additional contributions from other duplicated genes in the translocated X chromosome."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e35dc26158f994d3a000006",
+                            "question": "How many proteins have been queried for protein partners by the Drosophila protein interaction map (DPiM)?"
+                        }
+                    ],
+                    "context": "Proteins perform essential cellular functions as part of protein complexes, often in conjunction with RNA, DNA, metabolites and other small molecules. The genome encodes thousands of proteins but not all of them are expressed in every cell type; and expressed proteins are not active at all times. Such diversity of protein expression and function accounts for the level of biological intricacy seen in nature. Defining protein-protein interactions in protein complexes, and establishing the when, what and where of potential interactions, is therefore crucial to understanding the cellular function of any protein-especially those that have not been well studied by traditional molecular genetic approaches. We generated a large-scale resource of affinity-tagged expression-ready clones and used co-affinity purification combined with tandem mass-spectrometry to identify protein partners of nearly 5,000 Drosophila melanogaster proteins. The resulting protein complex \"map\" provided a blueprint of metazoan protein complex organization. Here we describe how the map has provided valuable insights into protein function in addition to generating hundreds of testable hypotheses. We also discuss recent technological advancements that will be critical in addressing the next generation of questions arising from the map."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5d386fbfa1e1595105000005",
+                            "question": "Which is the target of belimumab in Systemic Lupus Erythematosus treatment?"
+                        }
+                    ],
+                    "context": "Belimumab: a BLyS-specific inhibitor for systemic lupus erythematosusTo review the efficacy, safety, dosing, drug interactions, as well as economic and therapeutic considerations of belimumab, an investigational B-lymphocyte stimulator (BLyS) inhibitor.Belimumab, an anti-BAFF monoclonal antibodyHere our crystal structure of the BAFF-belimumab Fab complex shows the precise epitope and the BAFF-neutralizing mechanism of belimumab, and demonstrates that the therapeutic activity of belimumab involves not only antagonizing the BAFF-receptor interaction, but also disrupting the formation of the more active BAFF 60-mer to favor the induction of the less active BAFF trimer through interaction with the flap region of BAFFIn recent years, a member of the tumor necrosis factor (TNF) family, soluble human B Lymphocyte Stimulator protein (BLyS), also referred to as B-cell activating factor (BAFF) and TNFSF13B has been studied extensively. This protein is synthesized by myeloid cell lines, specifically interacts with B lymphocytes and increases their life-span"
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e48bf5ed14c9f295d000019",
+                            "question": "Salzburg EEG criteria are used to diagnose which disorder?"
+                        }
+                    ],
+                    "context": "Reevaluation of the Critically Ill Patients With Nonconvulsive Status Epilepticus by Using Salzburg Consensus Criteria.OBJECTIVE: We aimed to assess the usefulness of the Salzburg Consensus Criteria (SCC) for determining the prognosis of critically ill patients with nonconvulsive status epilepticus (NCSE).CONCLUSION AND SIGNIFICANCE: Our findings suggest that SCC is highly compatible with clinical practice in the decision for treatment of patients with NCSE. Clinical presentations and the Salzburg EEG criteria for NCSE were used to identify patients with NCSE after CSE.EEGs recorded in the ICU were classified using the Salzburg criteria for NCSE."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e4601293f54159529000002",
+                            "question": "Central Vein Sign is characteristic to which disease?"
+                        }
+                    ],
+                    "context": "Diagnostic performance of central vein sign for multiple sclerosis with a simplified three-lesion algorithm.BACKGROUND: Detection of a \"central vein sign\" (CVS) on FLAIR* magnetic resonance imaging (MRI) is highly specific and sensitive for multiple sclerosis (MS). CONCLUSION: A simplified determination of CVS in three white matter lesions on 3T FLAIR* MRI demonstrated good specificity and sensitivity and fair inter-rater reliability for a diagnosis of MS and with further study, may be a candidate for clinical application.Central vein sign differentiates Multiple Sclerosis from central nervous system inflammatory vasculopathies.Detection of perivenular lesions in the brain (the \"central vein sign\") improves the pathological specificity of MS diagnosis, but comprehensive evaluation of this MRI biomarker in MS-mimicking inflammatory and/or autoimmune diseases, such as central nervous system (CNS) inflammatory vasculopathies, is lacking."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e6e487151b80c9423000001",
+                            "question": "Which is the catalytic activity of the protein encoded by the gene KMT2C? "
+                        }
+                    ],
+                    "context": "The lysine methyltransferase KMT2C (also known as MLL3), a subunit of the COMPASS complex, implements monomethylation of Lys4 on histone H3 (H3K4) at gene enhancers.KMT2C histone methyltransferase lysine methyltransferase 2C (KMT2C)"
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5d374c727bc3fee31f00000d",
+                            "question": "Which is the most mutated gene in dilated cardiomyopathy (DCM)?"
+                        }
+                    ],
+                    "context": "To examine the function of the novel mutation E82K in LMNA gene identified in a Chinese family infected by dilated cardiomyopathyTo investigate the effect of a novel LMNA gene mutation E82K found in a Chinese family with dilated cardiomyopathy on cell cycle of HEK293 cellsMutations in the lamin A/C gene (LMNA) may cause familial dilated cardiomyopathy (dilated cardiomyopathy)CMR is an accurate tool to determine the typical cardiac involvement in lamin A/C cardiomyopathy and may help to initiate early treatment in this malignant familiar form of DCM.These results demonstrate that three different branches of the MAP kinase signaling pathway with overlapping consequences are involved in the pathogenesis of cardiomyopathy caused by LMNA mutations"
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e36cf8eb5b409ea53000007",
+                            "question": "Which type of cells protect Haematopoietic stem and progenitor cells (HSPCs) from ultraviolet-light-induced DNA damage in aquatic vertebrates?"
+                        }
+                    ],
+                    "context": "Haematopoietic stem and progenitor cells (HSPCs) require a specific microenvironment, the haematopoietic niche, which regulates HSPC behaviour1,2. The location of this niche varies across species, but the evolutionary pressures that drive HSPCs to different microenvironments remain unknown. The niche is located in the bone marrow in adult mammals, whereas it is found in other locations in non-mammalian vertebrates, for example, in the kidney marrow in teleost fish. Here we show that a melanocyte umbrella above the kidney marrow protects HSPCs against ultraviolet light in zebrafish. Because mutants that lack melanocytes have normal steady-state haematopoiesis under standard laboratory conditions, we hypothesized that melanocytes above the stem cell niche protect HSPCs against ultraviolet-light-induced DNA damage. Indeed, after ultraviolet-light irradiation, unpigmented larvae show higher levels of DNA damage in HSPCs, as indicated by staining of cyclobutane pyrimidine dimers and have reduced numbers of HSPCs, as shown by cmyb (also known as myb) expression. The umbrella of melanocytes associated with the haematopoietic niche is highly evolutionarily conserved in aquatic animals, including the sea lamprey, a basal vertebrate. During the transition from an aquatic to a terrestrial environment, HSPCs relocated into the bone marrow, which is protected from ultraviolet light by the cortical bone around the marrow. Our studies reveal that melanocytes above the haematopoietic niche protect HSPCs from ultraviolet-light-induced DNA damage in aquatic vertebrates and suggest that during the transition to terrestrial life, ultraviolet light was an evolutionary pressure affecting the location of the haematopoietic niche."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5d387573a1e159510500000a",
+                            "question": "Which is the primary interacting protein of BLK?"
+                        }
+                    ],
+                    "context": "n this study, we find that expression of Bik/Blk/Nbk is increased in human airway epithelial cells (AECs [HAECs]) in response to IFNgamma.Gene-gene interaction of ATG5, ATG7, BLK and BANK1 in systemic lupus erythematosus.Autophagy-related gene 5 (ATG5), ATG7, B-lymphoid tyrosine kinase (BLK) and B-cell scaffold protein with ankyrin repeats 1 (BANK1) are involved in B-cell signaling;The B cell adaptor protein with ankyrin repeats (BANK1) and the B lymphoid tyrosine kinase (BLK) have been genetically associated with autoimmunity. The proteins of these genes interact physically and work in concert during B-cell signaling. Epistatic interaction between BANK1 and BLK in rheumatoid arthritis"
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e764440c6a8763d23000013",
+                            "question": "How many doses of vaxchora are required?"
+                        }
+                    ],
+                    "context": "Vaxchora: A Single-Dose Oral Cholera Vaccine.To review trials evaluating the efficacy and safety of Vaxchora, a reformulated, single-dose, oral, lyophilized Vibrio cholerae CVD 103-HgR vaccine for the prevention of travel-related cholera caused by V cholerae serogroup O1.Studies that addressed the safety and efficacy of Vaxchora, the reformulated, single-dose oral CVD 103-HgR cholera vaccine, were selected for analysis. Approval of Vaxchora, was based on efficacy of the vaccine in human trials demonstrating 90.3% protection among those challenged with V cholerae 10 days after vaccination and in immunogenicity studies with 90% systemic vibriocidal antibody conversion at 6 months after a single-dose of vaccine. Vaxchora is the only FDA-approved, single-dose oral vaccine for the prevention of cholera caused by V cholerae serogroup O1 in adult travelers from the United States going to cholera-affected areas."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e30fa32fbd6abf43b000048",
+                            "question": "Which bacteria causes rat bite fever?"
+                        }
+                    ],
+                    "context": "Rat bite fever due to Streptobacillus moniliformis induces typical but not pathognomonic clinical signs, such as local purulent wound infection followed by maculopapular exanthema, myalgia as well as purulent joint infections.[Infections after bite wounds : For example rat bite fever due to Streptobacillus moniliformis].Rat-Bite Fever in Human with Streptobacillus notomytis Infection, Japan.We report a case of rat-bite fever in a 94-year-old woman with Streptobacillus notomytis infection. We established an epidemiologic link between exposure to rats and human infection by performing nested PCRs that detected S. notomytis in the intraoral swab specimens obtained from rats captured in the patient's house.Acute Tetraplegia Caused by Rat Bite Fever in Snake Keeper and Transmission of Streptobacillus moniliformis."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e5e502a1af46fc13000000a",
+                            "question": "What receptor is associated with the protein encoded by the Sp\u00e4tzle gene?"
+                        }
+                    ],
+                    "context": " In Drosophila, apoptotic elimination of the weaker \"loser\" cells from growing wing discs is induced by\u00a0a signaling module consisting of the Toll ligand Sp\u00e4tzle (Spz), several Toll-related receptors, and NF-\u03baB factorsThe Drosophila Toll-1 receptor is involved in embryonic development, innate immunity, and tissue homeostasis. Currently, as a ligand for the Toll-1 receptor, only Sp\u00e4tzle (Spz) has been identified and characterized.The Drosophila gene Sp\u00e4tzle encodes the activating ligand for the Toll receptor.The ligand for the Toll receptor is thought to be sp\u00e4tzle (spz), a secreted protein that is activated by proteolytic cleavage.Sp\u00e4tzle protein is an extracellular ligand of Toll receptor in Toll signaling pathway involved in the embryonic dorsoventral patterning and in the innate immunity."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e30b870fbd6abf43b000038",
+                            "question": "Which graph database is used by the Reactome graph database?"
+                        }
+                    ],
+                    "context": "Reactome is a free, open-source, open-data, curated and peer-reviewed knowledgebase of biomolecular pathways. One of its main priorities is to provide easy and efficient access to its high quality curated data. At present, biological pathway databases typically store their contents in relational databases. This limits access efficiency because there are performance issues associated with queries traversing highly interconnected data. The same data in a graph database can be queried more efficiently. Here we present the rationale behind the adoption of a graph database (Neo4j) as well as the new ContentService (REST API) that provides access to these data. The Neo4j graph database and its query language, Cypher, provide efficient access to the complex Reactome data model, facilitating easy traversal and knowledge discovery. The adoption of this technology greatly improved query efficiency, reducing the average query time by 93%. The web service built on top of the graph database provides programmatic access to Reactome data by object oriented queries, but also supports more complex queries that take advantage of the new underlying graph-based data storage. By adopting graph database technology we are providing a high performance pathway data resource to the community. The Reactome graph database use case shows the power of NoSQL database engines for complex biological data types.The Neo4j graph database and its query language, Cypher, provide efficient access to the complex Reactome data model, facilitating easy traversal and knowledge discovery.The Neo4j graph database and its query language, Cypher, provide efficient access to the complex Reactome data model, facilitating easy traversal and knowledge discovery."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e76436cc6a8763d23000012",
+                            "question": "What is the route of administration of vaxchora?"
+                        }
+                    ],
+                    "context": "Vaxchora: A Single-Dose Oral Cholera Vaccine.To review trials evaluating the efficacy and safety of Vaxchora, a reformulated, single-dose, oral, lyophilized Vibrio cholerae CVD 103-HgR vaccine for the prevention of travel-related cholera caused by V cholerae serogroup O1.Studies that addressed the safety and efficacy of Vaxchora, the reformulated, single-dose oral CVD 103-HgR cholera vaccine, were selected for analysis.Vaxchora is the only FDA-approved, single-dose oral vaccine for the prevention of cholera caused by V cholerae serogroup O1 in adult travelers from the United States going to cholera-affected areas."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e6de3f21af46fc130000022",
+                            "question": "What is the target of the drug remdesivir?"
+                        }
+                    ],
+                    "context": "We recently reported that the nucleoside analogue GS-5734 (remdesivir) potently inhibits human and zoonotic CoVs in vitro and in a severe acute respiratory syndrome coronavirus (SARS-CoV) mouse model. Together, these studies define the target of GS-5734 activity and demonstrate that resistance is difficult to select, only partial, and impairs fitness and virulence of MHV and SARS-CoV, supporting further development of GS-5734 as a potential effective pan-CoV antiviral. In non-human primates, early initiation of polymerase inhibitors favipiravir and remdesivir improves survival, but whether they could be effective in patients is unknown."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e36d5b9b5b409ea53000009",
+                            "question": "Which algorithm has been developed for detecting expansions of tandem repeats?"
+                        }
+                    ],
+                    "context": "Identifying large expansions of short tandem repeats (STRs), such as those that cause amyotrophic lateral sclerosis (ALS) and fragile X syndrome, is challenging for short-read whole-genome sequencing (WGS) data. A solution to this problem is an important step toward integrating WGS into precision medicine. We developed a software tool called ExpansionHunter that, using PCR-free WGS short-read data, can genotype repeats at the locus of interest, even if the expanded repeat is larger than the read length. We applied our algorithm to WGS data from 3001 ALS patients who have been tested for the presence of the C9orf72 repeat expansion with repeat-primed PCR (RP-PCR). Compared against this truth data, ExpansionHunter correctly classified all (212/212, 95% CI [0.98, 1.00]) of the expanded samples as either expansions (208) or potential expansions (4). Additionally, 99.9% (2786/2789, 95% CI [0.997, 1.00]) of the wild-type samples were correctly classified as wild type by this method with the remaining three samples identified as possible expansions. We further applied our algorithm to a set of 152 samples in which every sample had one of eight different pathogenic repeat expansions, including those associated with fragile X syndrome, Friedreich's ataxia, and Huntington's disease, and correctly flagged all but one of the known repeat expansions. Thus, ExpansionHunter can be used to accurately detect known pathogenic repeat expansions and provides researchers with a tool that can be used to identify new pathogenic repeat expansions.We developed a software tool called ExpansionHunter that , using PCR-free WGS short-read data , can genotype repeats at the locus of interest , even if the expanded repeat is larger than the read length"
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e319617fbd6abf43b000049",
+                            "question": "Which clotting factor is in the Andexxa?"
+                        }
+                    ],
+                    "context": "Intravenous andexanet alfa [coagulation factor Xa (recombinant), inactivated-zhzo; Andexxa\u00ae] is a first-in-class recombinant modified factor Xa protein that has been developed by Portola Pharmaceuticals as a universal antidote to reverse anticoagulant effects of direct or indirect factor Xa inhibitors. Fostamatinib (Tavalisse) for thrombocytopenia in adults with chronic immune thrombocytopenia; coagulation factor Xa (recombinant), inactivated-zhzo (Andexxa) for the reversal of anticoagulation; epoetin alfa-epbx (Retacrit), a biosimilar for the treatment of anemia.A New Option for Reversing the Anticoagulant Effect of Factor Xa Inhibitors: Andexanet Alfa (ANDEXXA).Andexanet alfa was approved in May 2018, under the brand name ANDEXXA, for the reversal of 2 of FXa inhibitors, apixaban and rivaroxaban, when life-threatening or uncontrolled bleeding occurs. This accelerated approval was based on change in anti-FXa activity from baseline that indicated a reversal of the anticoagulant effect.Andexanet Alfa for Reversing Factor Xa Inhibition."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e669e401af46fc13000001a",
+                            "question": "Cushing's disease is associated with a tumor in what part of the body?"
+                        }
+                    ],
+                    "context": "Cushing's disease (CD) is a rare disabling condition caused by Adrenocorticotropic hormone (ACTH)-secreting adenomas of the pituitaryCushing's syndrome is a rare endocrine disorder that comprises a large group of signs and symptoms resulting from chronic exposure to excess corticosteroids. Most cases of Cushing's syndrome are due to increased adrenocorticotropic hormone production from a pituitary adenoma, which is referred to as Cushing's diseaseCushing's disease (CD) is a rare endocrine disorder associated with increased serum levels of cortisol secreted due to an underlying tumour in pituitary.Cushing's disease is primarily caused by autonomic hypersecretion of adrenocorticotropic hormone (ACTH) from a pituitary adenoma.Cushing 's disease ( CD ) is a rare endocrine disorder associated with increased serum levels of cortisol secreted due to an underlying tumour in pituitary"
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e764647c6a8763d23000016",
+                            "question": "Which was the first genetically modified organism (GMO) to be used as vaccine?"
+                        }
+                    ],
+                    "context": "The oral live cholera vaccine CVD 103-HgR (Orochol, Mutachol), the first genetically modified organism (GMO) used as vaccine, was in its time (launched 1993, Switzerland) the ideal cholera vaccine: single-dose, protective efficacy of 80-100% against moderate to severe cholera, acting within 8 days and exhibiting excellent safety, indiscernible from placebo."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5d3826427bc3fee31f00000f",
+                            "question": "What percentage of patients of nasopharyngeal carcinoma (NPC) develop recurrent disease?"
+                        }
+                    ],
+                    "context": "IMRT group achieved better locoregional control rate, with the 5-year locoregional relapse-free survival (LRRFS) were 84.9% and 87.7% among patients received 2D-RT and IMRT, respectively (P\u202f=\u202f0.050)The patients were divided into the local recurrence (n\u200a=\u200a39), fibrosis (n\u200a=\u200a51), clivus recurrence (n\u200a=\u200a22), and clivus nonrecurrence (n\u200a=\u200a48) groups.  Serum was collected from 40\u00a0patients with NPC\u00a0[recurrence\u00a0(n=20) and no recurrence\u00a0(n=20)]. Compared to non\u2011recurrent NPC\u00a0(nrNPC), we found 59\u00a0proteins to be significantly dysregulated in rNPC; most of these have been previously reported to play a role in carcinogenesis. With a median follow up of 49.50 months, the 3- and 5- year LR-free rate were 95.43% and 94.30% respectively; the 3- and 5- year RR-free rate were 95.94% and 95.41% respectively. The overall recurrence rate was 75% in HPV negative patients and 11% in HPV positive ones."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e6399dd1af46fc13000000f",
+                            "question": "What cellular process is JAK/STAT involved in?"
+                        }
+                    ],
+                    "context": "JAK/STAT signal pathway, a requisite part in the signaling process of growth factors and cytokines, has become attractive targets for numerous immune, inflammatory and hematopoietic diseasesRole of the JAK/STAT signaling pathway in regulation of innate immunity in neuroinflammatory diseasesThe Janus Kinase/Signal Transducers and Activators of Transcription (JAK/STAT) signaling pathway is utilized by numerous cytokines and interferons, and is essential for the development and function of both innate and adaptive immunity.Stimulation of the cholinergic inflammatory pathway can attenuate collagen-induced arthritis (CIA) and inhibit synovitis by Janus kinase (JAK) 2 and signal transducer and activator of transcription (STAT) 3 signaling.Cytokines are key modulators of immunity. Most cytokines use the Janus kinase and signal transducers and activators of transcription (JAK-STAT) pathway to promote gene transcriptional regulation, but their signals must be attenuated by multiple mechanisms"
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e36a718b5b409ea53000004",
+                            "question": "Which T-UCR has been implicated in prostate cancer?"
+                        }
+                    ],
+                    "context": "Transcribed ultraconserved region Uc.63+ promotes resistance to docetaxel through regulation of androgen receptor signaling in prostate cancer.Docetaxel is the standard chemotherapy for metastatic castration-resistant prostate cancer (CRPC). However, nearly all patients ultimately become refractory due to the development of docetaxel resistance. The transcribed ultraconserved regions (T-UCRs) are a novel class of non-coding RNAs that are absolutely conserved across species and are involved in carcinogenesis including prostate cancer (PC). In this study, we investigated the transcriptional levels of 26 representative T-UCRs and determined the regions that were differentially expressed in PC. Quantitative real-time polymerase chain reaction analysis revealed that the expression of T-UCR Uc.63+ was increased in PC tissues. MTT assay and wound healing assay revealed that Uc.63+ was involved in cell growth and cell migration. miR-130b was predicted to have binding sites within the Uc.63+ sequence. The expression of miR-130b was significantly disturbed by the overexpression or knockdown of Uc.63+. We also showed that Uc.63+ regulated the expression of MMP2 via miR-130b regulation. Furthermore, overexpression of Uc.63+ increased the expression of AR and its downstream molecule PSA and promoted resistance to docetaxel through AR regulation. In patients treated with docetaxel, the expression of serum Uc.63+ in the docetaxel-resistant patients was higher than that in the docetaxel-sensitive patients (P = 0.011). Moreover, Kaplan-Meier analysis showed that the high expression of serum Uc.63+ correlated with a worse prognosis (P = 0.020). These results substantially support the important role that Uc.63+ plays in PC progression by interacting with miR-130b and indicate that Uc.63+ could potentially be a promising serum marker for deciding the best treatment for patients with CRPC.Quantitative real-time polymerase chain reaction analysis revealed that the expression of T-UCR Uc.63+ was increased in PC tissues.These results substantially support the important role that Uc.63+ plays in PC progression by interacting with miR-130b and indicate that Uc.63+ could potentially be a promising serum marker for deciding the best treatment for patients with CRPCTranscribed ultraconserved region Uc.63+ promotes resistance to docetaxel through regulation of androgen receptor signaling in prostate cancer"
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5d38663da1e1595105000001",
+                            "question": "Which domain of the MOZ/MYST3 protein complex associates with histone H3?"
+                        }
+                    ],
+                    "context": "In conclusion, our data show that Moz regulates H3K9 acetylation at Hox gene loci and that RA can act independently of Moz to establish specific Hox gene expression boundaries.The double PHD finger domain of MOZ/MYST3 induces \u03b1-helical structure of the histone H3 tail to facilitate acetylation and methylation sampling and modificationere we report novel insights into histone H3 tail structure in complex with the double PHD finger (DPF) of the lysine acetyltransferase MOZ/MYST3/KAT6A. In addition to sampling H3 and H4 modification status, we show that the DPF cooperates with the MYST domain to promote H3K9 and H3K14 acetylation, although not if H3K4 is trimethylated"
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e776db8835f4e4777000011",
+                            "question": "Which company sells the drug Afrezza since 2015?"
+                        }
+                    ],
+                    "context": "In contrary, MannKind Corporation started developing its ultra-rapid-acting insulin Afrezza in a bold bid, probably by managing the issues in which Exubera was not successful. Afrezza has been marketed since February, 2015 by Sanofi after getting FDA approval in June 2014. "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e6df7887fc1ee872b000001",
+                            "question": "What is the gene PTENP?"
+                        }
+                    ],
+                    "context": "PTEN pseudogene (PTENp) acts as an endogenous RNA, which regulates its parental gene by competitively binding to the 3' UTR of PTEN gene in the human. Despite the importance of this pseudogene, little is known about the molecular evolution of PTENp in mammals."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e776845835f4e477700000a",
+                            "question": "What does MVA85A stand for?"
+                        }
+                    ],
+                    "context": "A non-randomised, open-label, Phase I safety and immunogenicity dose-finding study to assess the safety and immunogenicity of the candidate TB vaccine Modified Vaccinia virus Ankara expressing Antigen 85A (MVA85A) from Mycobacterium tuberculosis (MTB) in healthy adult volunteers previously vaccinated with BCG."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e4b540b6d0a27794100001c",
+                            "question": "Which molecule is targeted by Camrelizumab?"
+                        }
+                    ],
+                    "context": "Camrelizumab (SHR-1210) is a humanised anti-programmed death-1 (anti PD-1) antibody.The PD-1 antibody camrelizumab was well tolerated in patients with nasopharyngeal carcinoma.As decitabine is known to boost T-cell function, we assessed the safety and efficacy of anti-PD-1 camrelizumab alone versus decitabine-primed camrelizumab in patients with relapsed/refractory cHL.Camrelizumab (SHR-1210) is a humanised anti-programmed death-1 (anti PD-1) antibody.Decitabine plus camrelizumab may reverse resistance to PD-1 inhibitors in patients with relapsed/refractory cHL."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e822615835f4e4777000034",
+                            "question": "Which protein is mutated in Erythropoietic Protoporphyria?"
+                        }
+                    ],
+                    "context": "Erythropoietic protoporphyria (EPP) is a rare inherited disorder of the heme biosynthesis pathway resulting in the accumulation of protoporphyrins in the blood, erythrocytes, and other tissues. Because of a gene mutation in the FECH gene, ferrochelatase, the enzyme involved in the final step of heme synthesis, is deficient in these patients.  Erythropoietic protoporphyria (EPP) is the most common inherited porphyria in children and is diagnosed in most individuals after the onset of cutaneous manifestations. an erythropoietic protoporphyria (EPP)-associated ferrochelatase (FECH) mutation "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5d386ed6a1e1595105000004",
+                            "question": "Which part of the TNFR2 gene is genetically associated with Systemic Lupus Erythematosus?"
+                        }
+                    ],
+                    "context": "A TNFR2 3' flanking region polymorphism in systemic lupus erythematosus.We therefore characterized the frequency of a genetic polymorphism in the 3' untranslated region of the TNFR2 gene in Caucasoid SLE patients and geographically matched controls. In conclusion, the TNFR2 196R allele was found to be significantly associated with the susceptibility to SLE in the Japanese population. Further population and functional studies will be of particular importance to establish TNFR2 as one of the susceptibility genes to SLE.Thus, among the non-synonymous cSNPs, only nt587 (T-->G) (M196R) was found to be significantly associated with SLE in Japanese.No transmission distortion was observed for TNFR2-196R allele. "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e49c2356d0a277941000010",
+                            "question": "Which database exists that contains regulatory SNPs which affect predicted transcription factor binding site affinity?"
+                        }
+                    ],
+                    "context": "SNP2TFBS - a database of regulatory SNPs affecting predicted transcription factor binding site affinity.SNP2TFBS is a computational resource intended to support researchers investigating the molecular mechanisms underlying regulatory variation in the human genome. The database essentially consists of a collection of text files providing specific annotations for human single nucleotide polymorphisms (SNPs), namely whether they are predicted to abolish, create or change the affinity of one or several transcription factor (TF) binding sites. A SNP's effect on TF binding is estimated based on a position weight matrix (PWM) model for the binding specificity of the corresponding factor. These data files are regenerated at regular intervals by an automatic procedure that takes as input a reference genome, a comprehensive SNP catalogue and a collection of PWMs. SNP2TFBS is also accessible over a web interface, enabling users to view the information provided for an individual SNP, to extract SNPs based on various search criteria, to annotate uploaded sets of SNPs or to display statistics about the frequencies of binding sites affected by selected SNPs. Homepage: http://ccg.vital-it.ch/snp2tfbs/.SNP2TFBS is also accessible over a web interface, enabling users to view the information provided for an individual SNP, to extract SNPs based on various search criteria, to annotate uploaded sets of SNPs or to display statistics about the frequencies of binding sites affected by selected SNPs.SNP2TFBS is a computational resource intended to support researchers investigating the molecular mechanisms underlying regulatory variation in the human genome.SNP2TFBS - a database of regulatory SNPs affecting predicted transcription factor binding site affinity"
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e52a4ec6d0a277941000044",
+                            "question": "Which R package has been developed for MS-based label-free phosphoproteomics?"
+                        }
+                    ],
+                    "context": "Phosphonormalizer: an R package for normalization of MS-based label-free phosphoproteomics.Global centering-based normalization is a commonly used normalization approach in mass spectrometry-based label-free proteomics. It scales the peptide abundances to have the same median intensities, based on an assumption that the majority of abundances remain the same across the samples. However, especially in phosphoproteomics, this assumption can introduce bias, as the samples are enriched during sample preparation which can mask the underlying biological changes. To address this possible bias, phosphopeptides quantified in both enriched and non-enriched samples can be used to calculate factors that mitigate the bias.Results: We present an R package phosphonormalizer for normalizing enriched samples in label-free mass spectrometry-based phosphoproteomics.Availability and implementation: The phosphonormalizer package is freely available under GPL (\u2009>\u2009=2) license from Bioconductor (https://bioconductor.org/packages/phosphonormalizer).Results\n\nWe present an R package phosphonormalizer for normalizing enriched samples in label-free mass spectrometry-based phosphoproteomics.Results We present an R package phosphonormalizer for normalizing enriched samples in label-free mass spectrometry-based phosphoproteomics.Phosphonormalizer: an R package for normalization of MS-based label-free phosphoproteomics"
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e3eba5548dab47f26000009",
+                            "question": "The virus that causes FIP, Feline Infectious Peritonitis belongs to what family?"
+                        }
+                    ],
+                    "context": "Feline infectious peritonitis (FIP) is a common and highly lethal coronavirus disease of domestic catsFeline coronavirus (FCoV) is an etiological agent that causes a benign enteric illness and the fatal systemic disease feline infectious peritonitis (FIP). Feline coronavirus (FCoV) infection is very common in cats, usually causing only mild intestinal signs such as diarrhoea. Up to 10% of FCoV infections, however, result in the fatal disease feline infectious peritonitis (FIP). Feline infectious peritonitis virus (FIPV) belongs to the genus Alphacoronavirus, resulting in a lethal systemic granulomatous disease called feline infectious peritonitis (FIP), which is one of the most important fatal infectious diseases of cats worldwide.The causative agent of this deadly disease, feline infectious peritonitis virus (FIPV), arises from feline enteric coronavirus (FECV)."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e807578835f4e4777000028",
+                            "question": "What is a \"cytokine storm\"?"
+                        }
+                    ],
+                    "context": "Macrophage activation syndrome (MAS) is a life-threatening hyperinflammatory state mediated by uncontrolled cytokine storm and haemophagocytosis.During infectious processes, the production of inflammatory cytokines including tumor necrosis factor (TNF), interleukin-1\u03b2 (IL-1\u03b2), gamma interferon (IFN\u03b3) and chemokines orchestrates the anti-infectious innate immune response. However, an overzealous production, leading up to a cytokine storm, can be deleterious and contributes to mortality consecutive to sepsis or toxic shock syndrome.Reactive oxygen species (ROS) are signaling molecules responsible for the production of cytokines and chemokines that can mediate hyperactivation of the immune response called cytokine storm.  cytokine storm leading to severe organ damage"
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5d38577b7bc3fee31f000017",
+                            "question": "What is the main difference between nascent and mature chromatin?"
+                        }
+                    ],
+                    "context": "Maturation of nucleosomal and nonnucleosomal components of nascent chromatin: differential requirements for concurrent protein synthesis.this class of nascent chromatin exhibits a shortened repeat length of approximately 165 bp, as opposed to the 288-bp repeat of bulk chromatin. Within 10 min of DNA synthesis, the spacing of mature chromatin is established; the spacing maturation can occur in the absence of protein synthesis. The second class of nascent DNA is distinguished from the nucleosomal component by its insolubility, lack of discernible nucleosomal organization, and dependence on protein synthesis to attain typical subunit structure Like normal nascent chromatin, chromatin labeled for brief periods (0.5-1 min) in the presence of butyrate was more sensitive to digestion with DNase I and micrococcal nuclease than control bulk chromatin.Incubation of mature chromatin in butyrate for 1 h did not induce DNase I sensitivity: therefore, the presence of sodium butyrate was required during replication to preserve the increased digestibility of nascent chromatin DNAIn a previous study (Perry and Annunziato, Nucleic Acids Res. 17, 4275 [1989]) it was shown that when replication occurs in the presence of sodium butyrate (thereby inhibiting histone deacetylation), nascent chromatin fails to mature fully and instead remains preferentially sensitive to DNaseI, more soluble in magnesium, and depleted of histone H1 (relative to mature chromatin)."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e4025f148dab47f2600000b",
+                            "question": "What does a PET (Positron Excitation Tomography) measure?"
+                        }
+                    ],
+                    "context": "Positron emission tomography (PET) with [(18)F]2-fluoro-2-deoxy-D-glucose was used to measure changes in regional brain glucose metabolismMapping brain metabolic connectivity in awake rats with \u03bcPET and optogenetic stimulation.Positron emission tomography (PET) allows the quantitative measurement of regional cerebral flow (rCBF) in humans in quantitative termsPositron emission tomography (PET) allows the quantitative measurement of regional cerebral flow (rCBF) in humans in quantitative terms.PURPOSE\n\nPositron emission tomography (PET) is a useful imaging modality that quantifies the physiological distributions of radiolabeled tracers in\u00a0vivo in humans and animals."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e3c69c9b5b409ea53000021",
+                            "question": "As of 2019, what type of cancer is commonly associated with ionizing radiation"
+                        }
+                    ],
+                    "context": "Because latency period for different nosological forms of radiation-induced malignant tumors varies widely, profound attention in further studies should be drawn not only to thyroid, breast cancers and leukemia, but also to malignancies with longer latent period: lung, stomach, colon, ovary, urinary bladder, kidney cancer and multiple myeloma.e highest risk of radiation- induced breast cancer is evidenced in the sub-population of female patients who have undergone radiotherapy for either malignant or non-malignant diseases This study provides strong evidence of positive associations between protracted low-dose radiation exposure and leukaemia.FUBy contrast, osteosarcoma may be caused by external or internal ionizing radiation, Ionizing radiation exposure is a risk factor for development of esophageal squamous cell carcinoma , a histological subtype of esophageal cancer that is highly aggressive and is associated with poor patient prognosis . "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e47681b35b8f0833c000006",
+                            "question": "What is the target of Inebilizumab?"
+                        }
+                    ],
+                    "context": "CONTENT: Although CD19-targeted agents (blinatumomab or inebilizumab) are not associated with an increased risk of infection, they may cause IgG hypogammaglobulinaemia and neutropenia.In this respect, several B cell-targeted therapies emerged, including anti-CD20 antibodies (rituximab, ocrelizumab, and ofatumumab), anti-CD19 antibody (inebilizumab), and agents targeting the BAFF/APRIL signaling pathway (atacicept, belimumab, and LY2127399). Patients with a high PC signature at baseline showed greater improvement in the MRSS (mean \u00b1 SD change 35 \u00b1 16%; P = 6.30 \u00d7 10-4 ) following anti-CD19 treatment with inebilizumab (MEDI-551) than did patients with a low PC signature at baseline (mean \u00b1 SD change 8 \u00b1 12%; P = 0.104).In NMO, though there have yet to be any approved monoclonal antibodies, rituximab, anti-complement C5 (eculizumab), anti-IL-6 receptor (tocilizumab), anti-CD19 (inebilizumab) and non-pathogenic anti-aquaporin 4 (aquaporumab) have been suggested to be effective, and some of these are now under clinical trials.Safety and tolerability of inebilizumab (MEDI-551), an anti-CD19 monoclonal antibody, in patients with relapsing forms of multiple sclerosis: Results from a phase 1 randomised, placebo-controlled, escalating intravenous and subcutaneous dose study."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e50123e6d0a277941000036",
+                            "question": "Which programming language has been used for implementing GWAR?"
+                        }
+                    ],
+                    "context": "In the context of genome-wide association studies (GWAS), there is a variety of statistical techniques in order to conduct the analysis, but, in most cases, the underlying genetic model is usually unknown. Under these circumstances, the classical Cochran-Armitage trend test (CATT) is suboptimal. Robust procedures that maximize the power and preserve the nominal type I error rate are preferable. Moreover, performing a meta-analysis using robust procedures is of great interest and has never been addressed in the past. The primary goal of this work is to implement several robust methods for analysis and meta-analysis in the statistical package Stata and subsequently to make the software available to the scientific community.Results: The CATT under a recessive, additive and dominant model of inheritance as well as robust methods based on the Maximum Efficiency Robust Test statistic, the MAX statistic and the MIN2 were implemented in Stata. Concerning MAX and MIN2, we calculated their asymptotic null distributions relying on numerical integration resulting in a great gain in computational time without losing accuracy. All the aforementioned approaches were employed in a fixed or a random effects meta-analysis setting using summary data with weights equal to the reciprocal of the combined cases and controls. Overall, this is the first complete effort to implement procedures for analysis and meta-analysis in GWAS using Stata.Availability and Implementation: A Stata program and a web-server are freely available for academic users at http://www.compgen.org/tools/GWAR.Availability and Implementation\n\nA Stata program and a web-server are freely available for academic users at http://www.compgen.org/tools/GWAR."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e6e8f92c6a8763d23000004",
+                            "question": "How large is a lncRNAs?"
+                        }
+                    ],
+                    "context": " lncRNAs are defined as RNA transcripts longer than 200 nucleotides that are not transcribed into proteinslncRNAs are the nonprotein coding RNAs that have a size longer than 200 nucleotides.  Long noncoding RNAs (lncRNAs) are more than 200 nucleotides in length and lack transcriptional ability. long noncoding RNA (lncRNA, >200 nucleotides)"
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e80caeb835f4e477700002b",
+                            "question": "What is the drug chloroquine or hydroxychloroquine used for?"
+                        }
+                    ],
+                    "context": "Chloroquine (CQ) has been used for decades as the primary chemotherapeutic drug for the treatment of malaria. Historically chloroquine was used to treat the most deadly form of malaria, caused by the parasite Plasmodium falciparum. we investigated how chloroquine (CQ), a commonly employed disease-modifying antirheumatic drug,Hydroxychloroquine (HCQ), a 4-aminoquinolone antimalarial, is regarded as the oral therapy of choice for cutaneous and systemic lupus erythematosus (SLE). It is also licensed for rheumatoid arthritis (RA).Chloroquine is a potent inhibitor of SARS coronavirus infection and spread."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e5286036d0a277941000040",
+                            "question": "In which chromosome are transgenes inserted in the case of the LiPS-A3S line?"
+                        }
+                    ],
+                    "context": "LiPS-A3S, a human genomic site for robust expression of inserted transgenes.Transgenesis of human pluripotent stem cells (hPSCs) can enable and empower a variety of studies in stem cell research, including lineage tracing and functional genetics studies. While in recent years much progress has been made in the development of tools for gene targeting, little attention has been given to the identification of sites in the human genome where transgenes can be inserted and reliably expressed. In order to find human genomic sites capable of supporting long-term and high-level transgene expression in hPSCs, we performed a lentiviral screen in human induced pluripotent stem cells (iPSCs). We isolated 40 iPSC clones each harboring a single vector copy and characterized the level of transgene expression afforded by each unique integration site. We selected one clone, LiPS-A3 with an integration site in chromosome 15 maintaining robust expression without silencing and demonstrate that different transgenes can be inserted therein rapidly and efficiently through recombinase-mediated cassette exchange (RMCE). The LiPS-A3 line can greatly facilitate the insertion of reporter and other genes in hPSCs. Targeting transgenes in the LiPS-A3S genomic locus can find broad applications in stem cell research and possibly cell and gene therapy.We selected one clone, LiPS-A3 with an integration site in chromosome 15 maintaining robust expression without silencing and demonstrate that different transgenes can be inserted therein rapidly and efficiently through recombinase-mediated cassette exchange (RMCE).We selected one clone , LiPS-A3 with an integration site in chromosome 15 maintaining robust expression without silencing and demonstrate that different transgenes can be inserted therein rapidly and efficiently through recombinase-mediated cassette exchange ( RMCEWe selected one clone, LiPS-A3 with an integration site in chromosome 15 maintaining robust expression without silencing and demonstrate that different transgenes can be inserted therein rapidly and efficiently through recombinase-mediated cassette exchange (RMCE)."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e80489b835f4e4777000022",
+                            "question": "What is the function of the protein encoded by the gene NKCC2?"
+                        }
+                    ],
+                    "context": "2 chloride co-transporter (NKCC2) geneNa-K-2Cl cotransporter (NKCC2) function Na-K-Cl cotransporter 2 (NKCC2)SLC12A1 (NKCC2)"
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e7f6971835f4e4777000020",
+                            "question": "Which disease is ZP-PTH used for?"
+                        }
+                    ],
+                    "context": "Parathyroid hormone (1-34)-coated microneedle patch system: clinical pharmacokinetics and pharmacodynamics for treatment of osteoporosis.To evaluate the clinical PK/PD of PTH(1-34) delivered by a novel transdermal drug-coated microneedle patch system (ZP-PTH) for the treatment of osteoporosis."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e805e62835f4e4777000023",
+                            "question": "Which gene is mutated in the classic Bartter's syndrome?"
+                        }
+                    ],
+                    "context": "The highly variable phenotypes observed in patients with classic Bartter's syndrome (BS) remain unsatisfactorily explained. The wide spectrum of functional severity of CLCNKB mutations may contribute to the phenotypic variability, and the genotype-phenotype association has not been established. Progressive renal failure in patients with classic Bartter's syndrome (cBS) due to inactivating mutations in CLCNKB gene is extraordinarily rareclassic Bartter's syndrome by mutations of ClC-KbClassic Bartter's syndrome has been demonstrated to result from defective chloride transport across the basolateral membrane in the distal nephron due to mutations in the chloride channel gene CLCNKB."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e5438c3b761aafe09000003",
+                            "question": "Name a selective NK3R agonist."
+                        }
+                    ],
+                    "context": "Administration of senktide, highly potent and selective NK3R agonist, resulted in increase of serum LH concentration, induction of VMS, increase in heart rate, and skin temperature in postmenopausal women."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e808ef4835f4e477700002a",
+                            "question": "What is the target of the drug Olmesartan?"
+                        }
+                    ],
+                    "context": "Olmesartan (OL) is the pharmacologically active metabolite of Olmesartan medoxomil (OM), an FDA-approved angiotensin II receptor antagonist for administrating cardiovascular diseases.Either angiotensin converting enzyme inhibitor (ACEI) or angiotensin receptor 1 blocker (ARB) attenuates cardiac remodeling. However, the overall molecular modulation of the reversing remodeling process in response to the ACEI or ARB treatment is not yet well determined. In this study, we examined whether gene expressions are modulated by ACEI (temocapril), ARB (olmesartan) ARB olmesartan (OLM)"
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5d38767ca1e159510500000b",
+                            "question": "In which cells does TLR7 escape X-chromosome inactivation?"
+                        }
+                    ],
+                    "context": " TLR7 is encoded by an X chromosome locus, and we examined here whether the TLR7 gene evades silencing by X chromosome inactivation in immune cells from women and Klinefelter syndrome malesX-inactivation escape of the TLR7 gene was investigated in monoclonal B cell lines and, independently, in pDCs after cell sorting and single-cell picking, indicating regular silencing of one TLR7 allele in females.Female predisposition to TLR7-driven autoimmunity: gene dosage and the escape from X chromosome inactivation"
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e52a7b66d0a277941000045",
+                            "question": "Which tool has been developed for prediction of single-cell DNA methylation states using deep learning?"
+                        }
+                    ],
+                    "context": "DeepCpG: accurate prediction of single-cell DNA methylation states using deep learning.Recent technological advances have enabled DNA methylation to be assayed at single-cell resolution. However, current protocols are limited by incomplete CpG coverage and hence methods to predict missing methylation states are critical to enable genome-wide analyses. We report DeepCpG, a computational approach based on deep neural networks to predict methylation states in single cells. We evaluate DeepCpG on single-cell methylation data from five cell types generated using alternative sequencing protocols. DeepCpG yields substantially more accurate predictions than previous methods. Additionally, we show that the model parameters can be interpreted, thereby providing insights into how sequence composition affects methylation variability.We report DeepCpG, a computational approach based on deep neural networks to predict methylation states in single cells.We evaluate DeepCpG on single-cell methylation data from five cell types generated using alternative sequencing protocols.We report DeepCpG, a computational approach based on deep neural networks to predict methylation states in single cells."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e7644a2c6a8763d23000014",
+                            "question": "When was vaxchora first licensed by the FDA?"
+                        }
+                    ],
+                    "context": "After a decade in obscurity it (Vaxchora) has resurfaced again, now produced in the U.S. and equipped with a U.S. FDA license (June 10, 2016). "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e7745ea835f4e4777000006",
+                            "question": "What is the active ingredient of Eligard?"
+                        }
+                    ],
+                    "context": "Efficacy and Tolerability of Leuprorelin Acetate (Eligard\u00ae) in Daily Practice in Germany: Pooled Data from 2 Prospective, Non-Interventional Studies with 3- or 6-Month Depot Formulations in Patients with Advanced Prostate Cancer.We evaluated the efficacy and tolerability of 3- and 6-month leuprorelin acetate (LA) depot formulations (Eligard\u00ae, Astellas Pharma GmbH) in patients with advanced prostate cancer treated in routine clinical practice in Germany."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e776443835f4e4777000008",
+                            "question": "Which company produces Eligard?"
+                        }
+                    ],
+                    "context": "We evaluated the efficacy and tolerability of 3- and 6-month leuprorelin acetate (LA) depot formulations (Eligard\u00ae, Astellas Pharma GmbH) in patients with advanced prostate cancer treated in routine clinical practice in Germany."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e52be146d0a27794100004a",
+                            "question": "Which type of distance is used in the R-package XenofilteR?"
+                        }
+                    ],
+                    "context": "XenofilteR: computational deconvolution of mouse and human reads in tumor xenograft sequence data.Mouse xenografts from (patient-derived) tumors (PDX) or tumor cell lines are widely used as models to study various biological and preclinical aspects of cancer. However, analyses of their RNA and DNA profiles are challenging, because they comprise reads not only from the grafted human cancer but also from the murine host. The reads of murine origin result in false positives in mutation analysis of DNA samples and obscure gene expression levels when sequencing RNA. However, currently available algorithms are limited and improvements in accuracy and ease of use are necessary.RESULTS: We developed the R-package XenofilteR, which separates mouse from human sequence reads based on the edit-distance between a sequence read and reference genome. To assess the accuracy of XenofilteR, we generated sequence data by in silico mixing of mouse and human DNA sequence data. These analyses revealed that XenofilteR removes >\u200999.9% of sequence reads of mouse origin while retaining human sequences. This allowed for mutation analysis of xenograft samples with accurate variant allele frequencies, and retrieved all non-synonymous somatic tumor mutations.CONCLUSIONS: XenofilteR accurately dissects RNA and DNA sequences from mouse and human origin, thereby outperforming currently available tools. XenofilteR is open source and available at https://github.com/PeeperLab/XenofilteR .RESULTS\n\nWe developed the R-package XenofilteR, which separates mouse from human sequence reads based on the edit-distance between a sequence read and reference genome.RESULTS We developed the R-package XenofilteR, which separates mouse from human sequence reads based on the edit-distance between a sequence read and reference genome.RESULTS\nWe developed the R-package XenofilteR, which separates mouse from human sequence reads based on the edit-distance between a sequence read and reference genome."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5d388535a1e1595105000018",
+                            "question": "How many copies of TP53 does the elephant genome contain?"
+                        }
+                    ],
+                    "context": "Here, we show that the elephant genome encodes 20 copies of the tumor suppressor gene TP53 and that the increase in TP53 copy number occurred coincident with the evolution of large body sizes, the evolution of extreme sensitivity to genotoxic stress, and a hyperactive TP53 signaling pathway in the elephant (Proboscidean) lineage. While humans have 1 copy (2 alleles) of TP53, African elephants have at least 20 copies (40 alleles), including 19 retrogenes (38 alleles) with evidence of transcriptional activity measured by reverse transcription polymerase chain reaction. "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e776a75835f4e477700000d",
+                            "question": "Which company originally developed the drug Afrezza?"
+                        }
+                    ],
+                    "context": "MannKind Corporation has developed a powder formulation of insulin that allows for a high percentage of the administered insulin to be absorbed via the lung. Their product, AFREZZA (Technosphere insulin), is currently under review by the FDA for use in patients with diabetes. "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e2b00bc76af173751000004",
+                            "question": "Which tool exist for predicting drug synergy with deep learning?"
+                        }
+                    ],
+                    "context": "DeepSynergy: predicting anti-cancer drug synergy with Deep Learning.Recently, Deep Learning has had an impact in many research areas by achieving new state-of-the-art model performance. However, Deep Learning has not yet been applied to drug synergy prediction, which is the approach we present here, termed DeepSynergy. DeepSynergy uses chemical and genomic information as input information, a normalization strategy to account for input data heterogeneity, and conical layers to model drug synergies.Results: DeepSynergy was compared to other machine learning methods such as Gradient Boosting Machines, Random Forests, Support Vector Machines and Elastic Nets on the largest publicly available synergy dataset with respect to mean squared error. DeepSynergy significantly outperformed the other methods with an improvement of 7.2% over the second best method at the prediction of novel drug combinations within the space of explored drugs and cell lines. At this task, the mean Pearson correlation coefficient between the measured and the predicted values of DeepSynergy was 0.73. Applying DeepSynergy for classification of these novel drug combinations resulted in a high predictive performance of an AUC of 0.90. Furthermore, we found that all compared methods exhibit low predictive performance when extrapolating to unexplored drugs or cell lines, which we suggest is due to limitations in the size and diversity of the dataset. We envision that DeepSynergy could be a valuable tool for selecting novel synergistic drug combinationsResults\n\nDeepSynergy was compared to other machine learning methods such as Gradient Boosting Machines, Random Forests, Support Vector Machines and Elastic Nets on the largest publicly available synergy dataset with respect to mean squared error.We envision that DeepSynergy could be a valuable tool for selecting novel synergistic drug combinations.Applying DeepSynergy for classification of these novel drug combinations resulted in a high predictive performance of an AUC of 0.90."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e52add36d0a277941000047",
+                            "question": "Which cloud-based platform has been developed for comparing GWAS?"
+                        }
+                    ],
+                    "context": "easyGWAS: A Cloud-Based Platform for Comparing the Results of Genome-Wide Association Studies.The ever-growing availability of high-quality genotypes for a multitude of species has enabled researchers to explore the underlying genetic architecture of complex phenotypes at an unprecedented level of detail using genome-wide association studies (GWAS). The systematic comparison of results obtained from GWAS of different traits opens up new possibilities, including the analysis of pleiotropic effects. Other advantages that result from the integration of multiple GWAS are the ability to replicate GWAS signals and to increase statistical power to detect such signals through meta-analyses. In order to facilitate the simple comparison of GWAS results, we present easyGWAS, a powerful, species-independent online resource for computing, storing, sharing, annotating, and comparing GWAS. The easyGWAS tool supports multiple species, the uploading of private genotype data and summary statistics of existing GWAS, as well as advanced methods for comparing GWAS results across different experiments and data sets in an interactive and user-friendly interface. easyGWAS is also a public data repository for GWAS data and summary statistics and already includes published data and results from several major GWAS. We demonstrate the potential of easyGWAS with a case study of the model organism Arabidopsis thaliana, using flowering and growth-related traits.In order to facilitate the simple comparison of GWAS results, we present easyGWAS, a powerful, species-independent online resource for computing, storing, sharing, annotating, and comparing GWAS.The easyGWAS tool supports multiple species, the uploading of private genotype data and summary statistics of existing GWAS, as well as advanced methods for comparing GWAS results across different experiments and data sets in an interactive and user-friendly interface.easyGWAS is also a public data repository for GWAS data and summary statistics and already includes published data and results from several major GWAS."
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5e7f5d83835f4e4777000017",
+                            "question": "What delivery system is used for the Fluzone Intradermal vaccine?"
+                        }
+                    ],
+                    "context": "On May 9 2011, the US FDA approved Sanofi Pasteur's Fluzone(\u00ae) Intradermal influenza vaccine, the first influenza vaccine licensed in the USA that uses a new microinjection system for intradermal delivery of vaccines (Soluvia\u2122, Becton Dickinson). "
+                }
+            ]
+        },
+        {
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "id": "5d387f24a1e1595105000013",
+                            "question": "How long in bp is the human pseudoautosomal region 2 (PAR2)?"
+                        }
+                    ],
+                    "context": "The human sex chromosomes differ in sequence, except for the pseudoautosomal regions (PAR) at the terminus of the short and the long arms, denoted as PAR1 and PAR2. The boundary between PAR1 and the unique X and Y sequences was established during the divergence of the great apes. The insertion is generated by non-allelic homologous recombination between a 548 bp LTR6B repeat within the Y chromosome PAR1 and a second LTR6B repeat located 105 kb from the PAR boundary on the X chromosome. The pseudoautosomal regions (PAR1 and PAR2) of the human X and Y chromosomes pair and recombine during meiosis. Thus genes in this region are not inherited in a strictly sex-linked fashion. PAR1 is located at the terminal region of the short arms and PAR2 at the tips of the long arms of these chromosomes. To date, 24 genes have been assigned to the PAR1 region.In contrast, so far only 4 genes have been discovered in the PAR2 region.The 320-kb human pseudoautosomal region 2 (PAR2) at the tips of the long arms of the X and Y chromosomes is thought to have been duplicated onto the Y chromosome recently in primate evolution"
+                }
+            ]
+        }
+    ]
+}

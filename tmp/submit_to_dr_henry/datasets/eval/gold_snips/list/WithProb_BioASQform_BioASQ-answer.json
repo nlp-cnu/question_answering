@@ -1,0 +1,5914 @@
+{
+  "questions": [
+    {
+      "type": "factoid",
+      "id": "5e2dadcffbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "hallucination, dizziness, orthostatic hypotension and pedal edema",
+          0.12886671588039755
+        ],
+        [
+          "pedal edema",
+          0.11776658799363234
+        ],
+        [
+          "dizziness, orthostatic hypotension and pedal edema",
+          0.11326295975258772
+        ],
+        [
+          "hallucination",
+          0.10953691436135157
+        ],
+        [
+          "hallucination, dizziness",
+          0.10505968974121628
+        ],
+        [
+          "hallucination, dizziness, orthostatic hypotension",
+          0.09425180522585005
+        ],
+        [
+          "dizziness",
+          0.09233859441116399
+        ],
+        [
+          "orthostatic hypotension and pedal edema",
+          0.08559832624164439
+        ],
+        [
+          "dizziness, orthostatic hypotension",
+          0.08283937670772945
+        ],
+        [
+          "orthostatic hypotension",
+          0.06260574514891834
+        ],
+        [
+          "hypotension and pedal edema",
+          0.004547378300341643
+        ],
+        [
+          "hypotension",
+          0.003325906235166606
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2f93bbfbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "hypotension",
+          0.08385365725508208
+        ],
+        [
+          "abdominal pain",
+          0.08196311430709102
+        ],
+        [
+          "pulsatile abdominal mass and shock",
+          0.05951668843425372
+        ],
+        [
+          "abdominal pain, pulsatile abdominal mass and shock",
+          0.05826695443668293
+        ],
+        [
+          "hypotension, back pain",
+          0.05098638404876566
+        ],
+        [
+          "hypotension, and a pulsatile mass",
+          0.04864281394406388
+        ],
+        [
+          "back pain",
+          0.04705895132461833
+        ],
+        [
+          "pulsatile abdominal mass",
+          0.04699895283894418
+        ],
+        [
+          "abdominal pain, pulsatile abdominal mass",
+          0.0460120667947393
+        ],
+        [
+          "pain, hypotension",
+          0.04297788542383892
+        ],
+        [
+          "pulsatile mass",
+          0.04296016224254889
+        ],
+        [
+          "left flank pain",
+          0.031993134862474806
+        ],
+        [
+          "pain",
+          0.030544334238007044
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2f9596fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "esophageal achalasia",
+          0.26010112735322455
+        ],
+        [
+          "esophageal achalasia, adrenocorticotropic hormone refractoriness, and alacrima",
+          0.15504380249357308
+        ],
+        [
+          "adrenocorticotropic hormone refractoriness, and alacrima",
+          0.09160963633411794
+        ],
+        [
+          "alacrima",
+          0.09025109477615097
+        ],
+        [
+          "achalasia",
+          0.08116945751298932
+        ],
+        [
+          "esophageal achalasia, adrenocorticotropic hormone refractoriness",
+          0.07542481967096973
+        ],
+        [
+          "achalasia, adrenocorticotropic hormone refractoriness, and alacrima",
+          0.04838433984203327
+        ],
+        [
+          "adrenocorticotropic hormone refractoriness",
+          0.044565730390354566
+        ],
+        [
+          "alacrima. Background Triple A syndrome is characterized by achalasia",
+          0.03101587250988188
+        ],
+        [
+          "alacrima. Background Triple A syndrome is characterized by achalasia, alacrima",
+          0.02538840494893339
+        ],
+        [
+          "achalasia, adrenocorticotropic hormone refractoriness",
+          0.023537736102902596
+        ],
+        [
+          "achalasia, alacrima",
+          0.011006533631449409
+        ],
+        [
+          "alacrima, achalasia",
+          0.0064124467564302574
+        ],
+        [
+          "adrenal insufficiency",
+          0.00425560022167717
+        ],
+        [
+          "achalasia, alacrima and adrenal insufficiency",
+          0.00341297812657252
+        ],
+        [
+          "achalasia, adrenal insufficiency",
+          0.0034096431088737893
+        ],
+        [
+          "achalasia and adrenal insufficiency",
+          0.003182631820452108
+        ],
+        [
+          "adrenal insufficiency, alacrima, achalasia",
+          0.002472789671479687
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2b109cfbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Charlson Comorbidity Index",
+          0.20361887355373953
+        ],
+        [
+          "length of stay, acuity of admission, Charlson Comorbidity Index",
+          0.11816652503334037
+        ],
+        [
+          "acuity of admission, Charlson Comorbidity Index",
+          0.10482953319688622
+        ],
+        [
+          "length of stay, acuity of admission",
+          0.09728000394004414
+        ],
+        [
+          "acuity of admission",
+          0.08630039175264563
+        ],
+        [
+          "Comorbidity Index",
+          0.08494364759295711
+        ],
+        [
+          "length of stay",
+          0.05621574463705196
+        ],
+        [
+          "Charlson Comorbidity Index, emergency department visits",
+          0.04480478270147205
+        ],
+        [
+          "Charlson Comorbidity",
+          0.03059128687498869
+        ],
+        [
+          "length of stay, acuity of admission, Charlson Comorbidity Index, emergency department visits",
+          0.026001644073085185
+        ],
+        [
+          "acuity of admission, Charlson Comorbidity Index, emergency department visits",
+          0.023066940571909368
+        ],
+        [
+          "Comorbidity, and Emergency visits",
+          0.02125646875718219
+        ],
+        [
+          "length of stay, acuity of admission, Charlson Comorbidity",
+          0.01775309922516296
+        ],
+        [
+          "Length of stay, Acuity of admission, Comorbidity, and Emergency visits",
+          0.017348974536579343
+        ],
+        [
+          "Comorbidity Index, emergency department visits",
+          0.016415687884311178
+        ],
+        [
+          "acuity of admission, Charlson Comorbidity",
+          0.015749376602610134
+        ],
+        [
+          "emergency department visits",
+          0.012970660384516764
+        ],
+        [
+          "Acuity of admission, Comorbidity, and Emergency visits",
+          0.011478246800578754
+        ],
+        [
+          "Comorbidity",
+          0.01120811188093856
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2f906ffbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "lidocaine",
+          0.2672736758769342
+        ],
+        [
+          "Benzocaine and Lidocaine",
+          0.12360983023589674
+        ],
+        [
+          "lidocaine/ antacid",
+          0.09560548958392295
+        ],
+        [
+          "Benzocaine",
+          0.0908586485294894
+        ],
+        [
+          "lidocaine/ antacid \u00b1 anticholinergic",
+          0.08963002205818417
+        ],
+        [
+          "anticholinergic",
+          0.06337919007498209
+        ],
+        [
+          "antacid",
+          0.058339444542241825
+        ],
+        [
+          "antacid \u00b1 anticholinergic",
+          0.05469315333188409
+        ],
+        [
+          "viscous lidocaine",
+          0.03720063536966317
+        ],
+        [
+          "oral viscous lidocaine",
+          0.02186442804003298
+        ],
+        [
+          "proton pump inhibitor",
+          0.0200536257377361
+        ],
+        [
+          "viscous lidocaine/ antacid",
+          0.020022643892264713
+        ],
+        [
+          "viscous lidocaine/ antacid \u00b1 anticholinergic",
+          0.018771202590323204
+        ],
+        [
+          "oral viscous lidocaine/ antacid",
+          0.011768176865888607
+        ],
+        [
+          "oral viscous lidocaine/ antacid \u00b1 anticholinergic",
+          0.011032650495956257
+        ],
+        [
+          "Benzocaine and Lidocaine as the topical anesthetic in a gastrointestinal",
+          0.006273510721134658
+        ],
+        [
+          "Lidocaine as the topical anesthetic in a gastrointestinal",
+          0.00454973718801342
+        ],
+        [
+          "gastrointestinal (GI) cocktail (oral viscous lidocaine",
+          0.0032985456837433184
+        ],
+        [
+          "gastrointestinal (GI) cocktail (oral viscous lidocaine/ antacid",
+          0.0017753891817078736
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e307a05fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "HiTSelect",
+          0.9342661833645047
+        ],
+        [
+          "HiTSelect using data from both genome-wide RNAi and CRISPR/Cas9 screens. HiTSelect",
+          0.0290698116999421
+        ],
+        [
+          "MAGeCK",
+          0.01592619125622473
+        ],
+        [
+          "HiTS",
+          0.009073160322977175
+        ],
+        [
+          "HiTSelect.MAGeCK",
+          0.006683487208725593
+        ],
+        [
+          "hitselect/, and the source code is available at https://github.com/diazlab/HiTSelect",
+          0.002507015786409902
+        ],
+        [
+          "HiTSelect, a comprehensive analysis pipeline",
+          0.0007416011497731629
+        ],
+        [
+          "HiTSelect using data from both genome-wide RNAi and CRISPR/Cas9 screens. HiTS",
+          0.00037234726695992626
+        ],
+        [
+          "diazlab/HiTSelect.MAGeCK",
+          5.3496589331068854e-05
+        ],
+        [
+          "diazlab/HiTSelect",
+          4.429132248104106e-05
+        ],
+        [
+          "hitselect/, and the source code is available at https://github.com/diazlab/HiTS",
+          4.422303431273852e-05
+        ],
+        [
+          "CK",
+          2.5480757765460795e-05
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e48136dd14c9f295d00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "hemopoietic stem cells",
+          0.6350635585852161
+        ],
+        [
+          "hemopoietic stem",
+          0.27887385845125207
+        ],
+        [
+          "stem cells",
+          0.03639023376468189
+        ],
+        [
+          "stem",
+          0.01597995155399571
+        ],
+        [
+          "hemopoietic",
+          0.007504004344409462
+        ],
+        [
+          "hem",
+          0.006876676967660203
+        ],
+        [
+          "stem cells at high radiation doses, and proliferation of stem cells",
+          0.005349526035614751
+        ],
+        [
+          "hemopoietic stem cells, the possible target cells",
+          0.004826781023293493
+        ],
+        [
+          "stem cells at high radiation doses, and proliferation of stem",
+          0.002092613583279409
+        ],
+        [
+          "stem cells to a premalignant state, inactivation of stem cells",
+          0.0017523959712726258
+        ],
+        [
+          "Number of hemopoietic stem cells",
+          0.0007217048127275746
+        ],
+        [
+          "stem cells to a premalignant state, inactivation of stem",
+          0.000651114444283893
+        ],
+        [
+          "cells",
+          0.0005846296905710108
+        ],
+        [
+          "proliferation of stem cells",
+          0.0005294883957219323
+        ],
+        [
+          "etic stem cells",
+          0.00037119590626256586
+        ],
+        [
+          "Number of hemopoietic stem",
+          0.00032283090823743244
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e482160d14c9f295d00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "peroxiredoxin 1 (Prx1), GSH reductase",
+          0.1265075313883073
+        ],
+        [
+          "peroxiredoxin 1",
+          0.1025643731754435
+        ],
+        [
+          "peroxiredoxin 1 (Prx1)",
+          0.0802216455043261
+        ],
+        [
+          "peroxiredoxin 1 (Prx1), GSH reductase (GSR)",
+          0.079986583683595
+        ],
+        [
+          "thioredoxin 1 (Trx1), peroxiredoxin 1",
+          0.06610295562731795
+        ],
+        [
+          "GSH reductase",
+          0.05570470887648823
+        ],
+        [
+          "thioredoxin 1 (Trx1), peroxiredoxin 1 (Prx1)",
+          0.05170302034656751
+        ],
+        [
+          "thioredoxin 1",
+          0.04371693530868356
+        ],
+        [
+          "peroxiredoxin",
+          0.04088700076398389
+        ],
+        [
+          "thioredoxin 1 (Trx1), peroxiredoxin 1 (Prx1",
+          0.0392942726012306
+        ],
+        [
+          "thioredoxin 1 (Trx1)",
+          0.03849181234234921
+        ],
+        [
+          "GSH reductase (GSR)",
+          0.03522026956990596
+        ],
+        [
+          "peroxiredoxin 1 (Prx1), GSH reductase (GSR",
+          0.03518823216482353
+        ],
+        [
+          "thioredoxin",
+          0.02635194702811145
+        ],
+        [
+          "thioredoxin 1 (Trx1), peroxiredoxin",
+          0.026351758544972508
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5c72c9207c78d6947100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "reversible jump Markov Chain Monte Carlo (RJMCMC)",
+          0.20606687754007721
+        ],
+        [
+          "reversible jump Markov Chain Monte Carlo (RJMCMC) method",
+          0.19485707384630513
+        ],
+        [
+          "reversible jump Markov Chain Monte Carlo",
+          0.07723253287391407
+        ],
+        [
+          "RJMCMC",
+          0.07131911727908556
+        ],
+        [
+          "a reversible jump Markov Chain Monte Carlo (RJMCMC)",
+          0.014041062591870237
+        ],
+        [
+          "a reversible jump Markov Chain Monte Carlo (RJMCMC) method",
+          0.013277244761533963
+        ],
+        [
+          "Markov Chain Monte Carlo (RJMCMC)",
+          0.012607004734981574
+        ],
+        [
+          "Markov Chain Monte Carlo (RJMCMC) method",
+          0.011921198020517656
+        ],
+        [
+          "jump Markov Chain Monte Carlo (RJMCMC)",
+          0.007712356159512712
+        ],
+        [
+          "jump Markov Chain Monte Carlo (RJMCMC) method",
+          0.007292812758862226
+        ],
+        [
+          "a reversible jump Markov Chain Monte Carlo",
+          0.005262499442688925
+        ],
+        [
+          "Markov Chain Monte Carlo",
+          0.004725023833326581
+        ],
+        [
+          "reversible jump",
+          0.004452958449889965
+        ],
+        [
+          "Markov models",
+          0.0036194870470887754
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2f972bfbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "ochronosis",
+          0.22688884296545497
+        ],
+        [
+          "ochronosis, and arthritis",
+          0.20613742089837436
+        ],
+        [
+          "homogentisic aciduria",
+          0.16553053816282162
+        ],
+        [
+          "homogentisic aciduria, ochronosis",
+          0.1313243027631472
+        ],
+        [
+          "homogentisic aciduria, ochronosis, and arthritis",
+          0.11931328450995762
+        ],
+        [
+          "arthritis",
+          0.10085109954377268
+        ],
+        [
+          "ochronotic osteoarthropathy",
+          0.007454237005824559
+        ],
+        [
+          "aciduria",
+          0.0072628974583479385
+        ],
+        [
+          "aciduria, ochronosis",
+          0.005710791057265158
+        ],
+        [
+          "aciduria, ochronosis, and arthritis",
+          0.005291018067943097
+        ],
+        [
+          "ochronotic arthropathy",
+          0.0030680621986009203
+        ],
+        [
+          "arthropathies. The condition is characterised by a clinical triad of symptoms; homogentisic aciduria",
+          0.0022962091773216634
+        ],
+        [
+          "osteoarthropathy",
+          0.0020349318567720277
+        ],
+        [
+          "ochronosis then ochronotic arthropathy",
+          0.0012337902877935173
+        ],
+        [
+          "homogentisic aciduria from birth, ochronosis",
+          0.001147347837148391
+        ],
+        [
+          "ochronotic arthropathies",
+          0.0011168010447938366
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e369ecfb5b409ea5300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "uc.38",
+          0.85491961482015
+        ],
+        [
+          "uc.63",
+          0.1246675979164646
+        ],
+        [
+          "63",
+          0.008686377013358934
+        ],
+        [
+          "38",
+          0.005074425853082081
+        ],
+        [
+          "uc.63 in breast cancer.We found that overexpression of one specific T-UCRs named uc.63",
+          0.0025456709349125062
+        ],
+        [
+          "overexpression of one specific T-UCRs named uc.63",
+          0.0014747826648387247
+        ],
+        [
+          "uc.38, a T-UCR",
+          0.000705238977298895
+        ],
+        [
+          "63 in breast cancer.We found that overexpression of one specific T-UCRs named uc.63",
+          0.0004211673304843917
+        ],
+        [
+          "one specific T-UCRs named uc.63",
+          0.0002050401188632185
+        ],
+        [
+          "uc.63 is associated with bad outcome in luminal A subtype of breast cancer",
+          0.00019199107066104692
+        ],
+        [
+          "uc.63 is associated with bad outcome in luminal A subtype of breast cancer patients. uc.63",
+          0.00014340924080054484
+        ],
+        [
+          "uc.63 is associated with bad outcome in luminal A subtype of breast cancer patients",
+          0.0001408134534883998
+        ],
+        [
+          "u",
+          0.00010997451647757111
+        ],
+        [
+          "uc.38 suppressed breast cancer. Additional experiments revealed that uc.38",
+          0.00010176261863760861
+        ],
+        [
+          "uc.38/PBX1",
+          4.773845565448581e-05
+        ],
+        [
+          "We found that overexpression of one specific T-UCRs named uc.63",
+          4.239235262002252e-05
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e36ad01b5b409ea5300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "uc.160",
+          0.48301889418670707
+        ],
+        [
+          "160",
+          0.2527297545138124
+        ],
+        [
+          "Uc.160+",
+          0.08201658826501534
+        ],
+        [
+          "uc.160 acts as a negative regulator in gastric cancer.uc.160",
+          0.0781791516080664
+        ],
+        [
+          "160 acts as a negative regulator in gastric cancer.uc.160",
+          0.06726801694606889
+        ],
+        [
+          "RNA uc.160",
+          0.019105116234829862
+        ],
+        [
+          "RNA uc.160 acts as a negative regulator in gastric cancer.uc.160",
+          0.005085128520436691
+        ],
+        [
+          "uc.160 acts as a negative regulator in gastric cancer",
+          0.004220171754577151
+        ],
+        [
+          "160 acts as a negative regulator in gastric cancer",
+          0.0036311801709667884
+        ],
+        [
+          "160+",
+          0.0007109256883805551
+        ],
+        [
+          "gastric cancer (GC), indicating that T-UCRs could play an important role in GC biology. Uc.160",
+          0.00039771174480264174
+        ],
+        [
+          "RNA uc.160 acts as a negative regulator in gastric cancer",
+          0.0002744992150583455
+        ],
+        [
+          "uc.160 was found to be a suppressive factor of cancer development",
+          0.0002588032837963947
+        ],
+        [
+          "Transcribed ultraconserved regions",
+          0.00015603661325812708
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e46e8c13f5415952900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "pyrimidine-pyrimidone photoproducts",
+          0.22898221348581443
+        ],
+        [
+          "cyclobutane pyrimidine dimers",
+          0.2090449124634501
+        ],
+        [
+          "cyclobutane pyrimidine dimers (CPDs) and pyrimidine-pyrimidone",
+          0.1803016665821899
+        ],
+        [
+          "pyrimidine-pyrimidone",
+          0.16824713787656434
+        ],
+        [
+          "cyclobutane pyrimidine dimers (CPDs)",
+          0.11424523560053777
+        ],
+        [
+          "pyrimidine-pyrimidone photoproducts (6-4 PPs)",
+          0.008658765348774938
+        ],
+        [
+          "cyclobutane pyrimidine dimer",
+          0.007861064183555918
+        ],
+        [
+          "cyclobutane pyrimidine dimer (CPD)",
+          0.003448507226890919
+        ],
+        [
+          "photoproducts",
+          0.0033807793020737284
+        ],
+        [
+          "cyclobutane pyrimidine dimer (CPD) and a (6-4) photoproduct",
+          0.0021461333216014366
+        ],
+        [
+          "pyrimidone photoproducts",
+          0.002010429855406298
+        ],
+        [
+          "(CPDs) and pyrimidine-pyrimidone photoproducts",
+          0.0017221976706098053
+        ],
+        [
+          "pyrimidine dimers (CPDs) and pyrimidine-pyrimidone photoproducts",
+          0.0016282795210433116
+        ],
+        [
+          "CPDs",
+          0.001539426020251863
+        ],
+        [
+          "pyrimidone",
+          0.0014771849041220813
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5cd96eb2a49efeb44c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "SweeD",
+          0.5584301957054513
+        ],
+        [
+          "SweeD for multi-core processors.We present SweeD",
+          0.1606866902555172
+        ],
+        [
+          "SweeD (Sweep Detector)",
+          0.08566957890326271
+        ],
+        [
+          "SweeD for multi-core processors.We present SweeD (Sweep Detector)",
+          0.02465117609222217
+        ],
+        [
+          "SweepFinder programThe sequential version of SweeD",
+          0.010624854414654066
+        ],
+        [
+          "Sweep Detector",
+          0.010367187942110195
+        ],
+        [
+          "SweepFinder",
+          0.009174078057279166
+        ],
+        [
+          "SweeD is up to 22 times faster than SweepFinder",
+          0.00809052086978519
+        ],
+        [
+          "SweeD: likelihood",
+          0.0060870537963511355
+        ],
+        [
+          "SweepFinder programThe sequential version of SweeD is up to 22 times faster than SweepFinder",
+          0.005112486343733004
+        ],
+        [
+          "Sweep Detector)",
+          0.0036354086765986136
+        ],
+        [
+          "gPLINK",
+          0.0015362119559200254
+        ],
+        [
+          "SweeD:",
+          0.0009761022582411232
+        ],
+        [
+          "gPLINK software",
+          0.0009359072931903346
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5c70273c7c78d6947100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "renal, peripheral vascular, and musculoskeletal",
+          0.22978815213252848
+        ],
+        [
+          "musculoskeletal",
+          0.20307569301091832
+        ],
+        [
+          "renal",
+          0.1791356897759501
+        ],
+        [
+          "renal, peripheral vascular",
+          0.16095756062785932
+        ],
+        [
+          "peripheral vascular, and musculoskeletal",
+          0.12545797821305082
+        ],
+        [
+          "peripheral vascular",
+          0.08787837818039196
+        ],
+        [
+          "renal, peripheral vascular, and musculoskeletal damage",
+          0.003650271161905131
+        ],
+        [
+          "musculoskeletal damage",
+          0.0032259337089500005
+        ],
+        [
+          "peripheral vascular, and musculoskeletal damage",
+          0.0019929471369694437
+        ],
+        [
+          "cardiovascular system",
+          0.001958668899171913
+        ],
+        [
+          "vascular, and musculoskeletal",
+          0.0006969501234989215
+        ],
+        [
+          "renal systems",
+          0.0006947328409578767
+        ],
+        [
+          "vascular",
+          0.00048264527827590245
+        ],
+        [
+          "cardiovascular",
+          0.0003413955913693342
+        ],
+        [
+          "neuropsychiatric and renal",
+          0.00023948905535532588
+        ],
+        [
+          "re",
+          0.00023608417549664774
+        ],
+        [
+          "renal, peripheral vascular, and musculoskeletal damage (24, 19, 38% of patients, respectively)",
+          0.00018743008735067881
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5c7a4ed5d774d0424000",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "non-invasive and repeatable way for the detection and follow-up",
+          0.3459458813126135
+        ],
+        [
+          "follow-up",
+          0.13633430295954405
+        ],
+        [
+          "detection and follow-up",
+          0.11359350228166523
+        ],
+        [
+          "non-invasive",
+          0.0883912942243484
+        ],
+        [
+          "repeatable way for the detection and follow-up",
+          0.08394922296697774
+        ],
+        [
+          "non-invasive and repeatable",
+          0.05872368756715737
+        ],
+        [
+          "non-invasive and repeatable way for the detection and follow-up of these biomarkers",
+          0.04082564344974121
+        ],
+        [
+          "non-invasive and repeatable way",
+          0.030118067710859942
+        ],
+        [
+          "non-invasive and repeatable way for the detection",
+          0.016497485593180986
+        ],
+        [
+          "follow-up of these biomarkers",
+          0.016089035722803402
+        ],
+        [
+          "repeatable",
+          0.014250228741886998
+        ],
+        [
+          "detection and follow-up of these biomarkers",
+          0.013405356366037886
+        ],
+        [
+          "repeatable way for the detection and follow-up of these biomarkers",
+          0.00990698612085976
+        ],
+        [
+          "repeatable way",
+          0.007308624031019291
+        ],
+        [
+          "detection",
+          0.0054170529802530015
+        ],
+        [
+          "exosomes can be used as a non-invasive and repeatable way for the detection and follow-up",
+          0.004039092517306029
+        ],
+        [
+          "repeatable way for the detection",
+          0.0040033750111478986
+        ],
+        [
+          "can be used as a non-invasive and repeatable way for the detection and follow-up",
+          0.003720272303069075
+        ],
+        [
+          "a non-invasive and repeatable way for the detection and follow-up",
+          0.0033115308369905607
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2b0d167d50947c2f00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "acromelic frontonasal dysostosis",
+          0.38879918353848886
+        ],
+        [
+          "frontonasal dysostosis",
+          0.20119682960065274
+        ],
+        [
+          "acromelic frontonasal dysostosis.Acromelic frontonasal dysostosis",
+          0.10947251556032658
+        ],
+        [
+          "acromelic frontonasal dysostosis (AFND)",
+          0.08626560614819488
+        ],
+        [
+          "acromelic frontonasal dysostosis.Acromelic frontonasal dysostosis (AFND)",
+          0.07125598362447652
+        ],
+        [
+          "frontonasal dysostosis.Acromelic frontonasal dysostosis",
+          0.06297137264914439
+        ],
+        [
+          "frontonasal dysostosis.Acromelic frontonasal dysostosis (AFND)",
+          0.0409882523967905
+        ],
+        [
+          "frontonasal dysostosis (AFND)",
+          0.027069291836378885
+        ],
+        [
+          "acromelic",
+          0.005465329712541289
+        ],
+        [
+          "dysostosis",
+          0.003056121426087012
+        ],
+        [
+          "dysostosis.Acromelic frontonasal dysostosis",
+          0.0009688694554311347
+        ],
+        [
+          "dysostosis.Acromelic frontonasal dysostosis (AFND)",
+          0.0006306399893808237
+        ],
+        [
+          "acromelic frontonasal",
+          0.0005633161647901669
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2f9ceefbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "hydrochlorothiazide",
+          0.16407388160839165
+        ],
+        [
+          "enalapril",
+          0.15481818208133097
+        ],
+        [
+          "enalapril (ENA), and atorvastatin",
+          0.13383787188965074
+        ],
+        [
+          "atorvastatin",
+          0.125731982848363
+        ],
+        [
+          "hydrochlorothiazide (HCT), enalapril",
+          0.12369966995483712
+        ],
+        [
+          "hydrochlorothiazide (HCT), enalapril (ENA), and atorvastatin",
+          0.10693640990765751
+        ],
+        [
+          "acetylsalicylic acid, hydrochlorothiazide",
+          0.08004867916863907
+        ],
+        [
+          "acetylsalicylic acid, hydrochlorothiazide (HCT), enalapril",
+          0.06035083156693512
+        ],
+        [
+          "acetylsalicylic acid",
+          0.017863557282825623
+        ],
+        [
+          "enalapril (ENA)",
+          0.009645133662840628
+        ],
+        [
+          "hydrochlorothiazide (HCT), enalapril (ENA)",
+          0.007163826528682312
+        ],
+        [
+          "enalapril (ENA), and atorvastatin (ATR)",
+          0.003730939608310277
+        ],
+        [
+          "atorvastatin (ATR)",
+          0.0035559918393252557
+        ],
+        [
+          "acetylsalicylic acid, hydrochlorothiazide (HCT), enalapril (ENA)",
+          0.0034951013884280905
+        ],
+        [
+          "hydrochlorothiazide (HCT)",
+          0.0018803937043380303
+        ],
+        [
+          "acetylsalicylic acid, hydrochlorothiazide (HCT)",
+          0.0009174100769344216
+        ],
+        [
+          "atorvastatin and hydrochlorthiazide",
+          0.0009058801360773724
+        ],
+        [
+          "valsartan, atorvastatin",
+          0.0006822422964230128
+        ],
+        [
+          "valsartan, atorvastatin and hydrochlorthiazide",
+          0.0006620144500095236
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2a120c76af17375100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "vasodilation",
+          0.2124729637154523
+        ],
+        [
+          "vasodilation, blood flow upregulation, and neovessel formation",
+          0.16700934984687285
+        ],
+        [
+          "neovessel formation",
+          0.1578579774803877
+        ],
+        [
+          "blood flow upregulation, and neovessel formation",
+          0.15439926816547378
+        ],
+        [
+          "vasodilation, blood flow upregulation",
+          0.12992409782175707
+        ],
+        [
+          "blood flow upregulation",
+          0.1201141471368606
+        ],
+        [
+          "vasodilation, blood flow",
+          0.010241052192139815
+        ],
+        [
+          "pronounced, sustained and dose-dependent vasodilation",
+          0.009579936917804309
+        ],
+        [
+          "blood flow",
+          0.009467799049338168
+        ],
+        [
+          "sustained and dose-dependent vasodilation",
+          0.0059902621725631145
+        ],
+        [
+          "pronounced, sustained and dose-dependent vasodilation, blood flow upregulation",
+          0.005671301271061558
+        ],
+        [
+          "sustained and dose-dependent vasodilation, blood flow upregulation, and neovessel formation",
+          0.004578712708349377
+        ],
+        [
+          "sustained and dose-dependent vasodilation, blood flow upregulation",
+          0.0035462218347295307
+        ],
+        [
+          "vasodilation, blood flow upregulation, and neovessel",
+          0.0018243956390527581
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5c7006037c78d6947100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "central nervous system and vascular",
+          0.14077072570196855
+        ],
+        [
+          "central nervous system and vascular, 4 for renal and musculoskeletal",
+          0.13224381339340321
+        ],
+        [
+          "central nervous system",
+          0.11647814999837719
+        ],
+        [
+          "central nervous system and vascular, 4 for renal",
+          0.09681969035933267
+        ],
+        [
+          "renal and musculoskeletal",
+          0.08419061505368833
+        ],
+        [
+          "musculoskeletal",
+          0.06634377187210848
+        ],
+        [
+          "renal",
+          0.06163849235359764
+        ],
+        [
+          "central nervous system and vascular, 4 for renal and musculoskeletal, 2 for serosal",
+          0.04304602509747549
+        ],
+        [
+          "central nervous system and vascular, 4 for renal and musculoskeletal, 2 for serosal, dermal",
+          0.038970750545485544
+        ],
+        [
+          "renal and musculoskeletal, 2 for serosal",
+          0.02740446782029765
+        ],
+        [
+          "renal and musculoskeletal, 2 for serosal, dermal",
+          0.024810018505500495
+        ],
+        [
+          "renal, immunological and hematologic",
+          0.0246800533599785
+        ],
+        [
+          "renal and musculoskeletal, 2 for serosal, dermal, immunologic",
+          0.022536269609061296
+        ],
+        [
+          "renal, immunological",
+          0.021706320799015515
+        ],
+        [
+          "musculoskeletal, 2 for serosal",
+          0.02159523077705221
+        ],
+        [
+          "musculoskeletal, 2 for serosal, dermal",
+          0.019550756421271742
+        ],
+        [
+          "musculoskeletal, 2 for serosal, dermal, immunologic",
+          0.01775899996500136
+        ],
+        [
+          "vascular",
+          0.013863829984032523
+        ],
+        [
+          "vascular, 4 for renal and musculoskeletal",
+          0.013024055507164489
+        ],
+        [
+          "renal and musculoskeletal, 2 for serosal, dermal, immunologic, and 1 for constitutional",
+          0.01256796287618705
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2f992cfbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "aspirin",
+          0.11499844498706575
+        ],
+        [
+          "aspirin [acetylsalicylic acid], ramipril, simvastatin",
+          0.08239274410862836
+        ],
+        [
+          "aspirin [acetylsalicylic acid], ramipril, simvastatin, atenolol",
+          0.07878971345493183
+        ],
+        [
+          "aspirin [acetylsalicylic acid], ramipril",
+          0.07596298876202792
+        ],
+        [
+          "ramipril, simvastatin, atenolol, and hydrochlorothiazide",
+          0.0753298378312076
+        ],
+        [
+          "ramipril, simvastatin",
+          0.06933346044442376
+        ],
+        [
+          "ramipril, simvastatin, atenolol",
+          0.06630151162404269
+        ],
+        [
+          "ramipril",
+          0.06392282395193001
+        ],
+        [
+          "simvastatin, atenolol, and hydrochlorothiazide",
+          0.05926537921428235
+        ],
+        [
+          "atenolol, and hydrochlorothiazide",
+          0.059152390796712216
+        ],
+        [
+          "simvastatin",
+          0.05454775881350583
+        ],
+        [
+          "simvastatin, atenolol",
+          0.05216238799934302
+        ],
+        [
+          "atenolol",
+          0.052062941311329505
+        ],
+        [
+          "hydrochlorothiazide",
+          0.04526135283113116
+        ],
+        [
+          "acetylsalicylic acid], ramipril, simvastatin",
+          0.011358872250932236
+        ],
+        [
+          "acetylsalicylic acid], ramipril, simvastatin, atenolol",
+          0.010862149325214728
+        ],
+        [
+          "acetylsalicylic acid], ramipril",
+          0.01047244990419631
+        ],
+        [
+          "simvastatin (20 mg), and aspirin",
+          0.0070394782444435835
+        ],
+        [
+          "ramipril, 5 mg) at low doses, simvastatin (20 mg), and aspirin",
+          0.0053614950903079755
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5c74305d7c78d6947100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "nuclear localization signal",
+          0.21054597612608078
+        ],
+        [
+          "nuclear localization signal (NLS)",
+          0.1809883564050988
+        ],
+        [
+          "nuclear localization signal (NLS) and causing cytoplasmic mislocalization",
+          0.16773842692200405
+        ],
+        [
+          "nuclear",
+          0.057650368881435154
+        ],
+        [
+          "short deletions affecting nuclear localization signal",
+          0.051541097061912414
+        ],
+        [
+          "cytoplasmic mislocalization",
+          0.04820109430121043
+        ],
+        [
+          "short deletions affecting nuclear localization signal (NLS)",
+          0.04430547007445598
+        ],
+        [
+          "short deletions affecting nuclear localization signal (NLS) and causing cytoplasmic mislocalization",
+          0.04106192244596683
+        ],
+        [
+          "nuclear localization",
+          0.028541587791240077
+        ],
+        [
+          "nuclear localization signal (NLS) and causing cytoplasmic mislocalization can be",
+          0.027146706160660172
+        ],
+        [
+          "deletions affecting nuclear localization signal",
+          0.020587350129077822
+        ],
+        [
+          "deletions affecting nuclear localization signal (NLS)",
+          0.01769718296761378
+        ],
+        [
+          "deletions affecting nuclear localization signal (NLS) and causing cytoplasmic mislocalization",
+          0.016401594505307024
+        ],
+        [
+          "short deletions affecting nuclear",
+          0.014112657543233074
+        ],
+        [
+          "short deletions",
+          0.01361280380186227
+        ],
+        [
+          "cytoplasmic mislocalization can be sequestered into stress granules (SGs) By",
+          0.012274717663662716
+        ],
+        [
+          "we have demonstrated that transcript localization at the endoplasmic reticulum",
+          0.01220351785765045
+        ],
+        [
+          "cytoplasmic mislocalization can be",
+          0.007800841868069176
+        ],
+        [
+          "short deletions affecting nuclear localization",
+          0.006986905063284063
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5c7a4a31d774d0424000",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "variable detection antibodies, differing IHC cutoffs, tissue preparation, processing variability",
+          0.23656781616693623
+        ],
+        [
+          "primary versus metastatic biopsies",
+          0.06943738018017742
+        ],
+        [
+          "variable detection antibodies",
+          0.05877044900481257
+        ],
+        [
+          "tissue preparation, processing variability, primary versus metastatic biopsies",
+          0.04789622388630207
+        ],
+        [
+          "tissue preparation, processing variability",
+          0.04579033624259225
+        ],
+        [
+          "differing IHC cutoffs, tissue preparation, processing variability",
+          0.043162933143205996
+        ],
+        [
+          "variable detection antibodies, differing IHC cutoffs, tissue preparation",
+          0.032461547005985594
+        ],
+        [
+          "variable detection antibodies, differing IHC cutoffs",
+          0.025448131565904284
+        ],
+        [
+          "primary versus metastatic biopsies, oncogenic versus induced PD-L1 expression",
+          0.02539238940353585
+        ],
+        [
+          "processing variability, primary versus metastatic biopsies",
+          0.022154831401247466
+        ],
+        [
+          "processing variability",
+          0.021180734031753072
+        ],
+        [
+          "oncogenic versus induced PD-L1 expression",
+          0.013340557909932245
+        ],
+        [
+          "staining of tumor versus immune cells",
+          0.011132111965728228
+        ],
+        [
+          "oncogenic versus induced PD-L1 expression, and staining of tumor versus immune cells",
+          0.010006292908553543
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e360f3d158f994d3a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "hearing loss, heterochromia iridis, and dystopia canthorum",
+          0.16774276653967374
+        ],
+        [
+          "dystopia canthorum",
+          0.157498015095041
+        ],
+        [
+          "heterochromia iridis, and dystopia canthorum",
+          0.12547373779397267
+        ],
+        [
+          "hearing loss, heterochromia iridis",
+          0.12073834075559915
+        ],
+        [
+          "hearing loss",
+          0.11790725183297532
+        ],
+        [
+          "heterochromia iridis",
+          0.0903138252823813
+        ],
+        [
+          "sensorineural deafness",
+          0.03202643622136764
+        ],
+        [
+          "sensorineural hearing loss",
+          0.02748187041908476
+        ],
+        [
+          "congenital sensorineural hearing loss",
+          0.02360797912729471
+        ],
+        [
+          "dystopia canthorum, and abnormal iris pigmentation",
+          0.023510485713949453
+        ],
+        [
+          "sensorineural hearing loss, dystopia canthorum",
+          0.01945351878154676
+        ],
+        [
+          "congenital sensorineural hearing loss, dystopia canthorum",
+          0.016711317619351705
+        ],
+        [
+          "hearing loss, dystopia canthorum",
+          0.013596454491638611
+        ],
+        [
+          "sensorineural hearing loss, dystopia canthorum, and abnormal iris pigmentation",
+          0.012065238293813521
+        ],
+        [
+          "congenital sensorineural hearing loss, dystopia canthorum, and abnormal iris pigmentation",
+          0.010364501741059897
+        ],
+        [
+          "hearing loss, dystopia canthorum, and abnormal iris pigmentation",
+          0.00843263705835165
+        ],
+        [
+          "abnormal iris pigmentation",
+          0.007058983198291868
+        ],
+        [
+          "deafness",
+          0.004618836908142174
+        ],
+        [
+          "hearing loss, heterochromia",
+          0.00364160521721475
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e493bc06d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "glioblastoma",
+          0.8745005952894599
+        ],
+        [
+          "pancreatic cancer",
+          0.10204100464134196
+        ],
+        [
+          "glioblastoma tumorigenesis.Breast cancer",
+          0.0061710893535476255
+        ],
+        [
+          "pancreatic",
+          0.005899219030971028
+        ],
+        [
+          "carcinoma of the ampulla of Vater (CAV) and cholangiocarcinoma",
+          0.003702264012251905
+        ],
+        [
+          "cholangiocarcinoma",
+          0.0025167603642097755
+        ],
+        [
+          "lioblastoma",
+          0.002124074916922994
+        ],
+        [
+          "g",
+          0.0005413226490256947
+        ],
+        [
+          "carcinoma of the ampulla of Vater",
+          0.0004606917100086623
+        ],
+        [
+          "oma",
+          0.0004066681920896836
+        ],
+        [
+          "blastoma",
+          0.0002769265871856599
+        ],
+        [
+          "glioblast",
+          0.00027033763817637627
+        ],
+        [
+          "glioblastoma cell proliferation in vitro and in vivo",
+          0.00022880033711049873
+        ],
+        [
+          "cancer",
+          0.00018744912627578745
+        ],
+        [
+          "glioblastoma tumorigenesis",
+          0.00016151471359253472
+        ],
+        [
+          "glioblastoma cell proliferation",
+          0.00014037115334683916
+        ],
+        [
+          "glio",
+          0.00013226701156207572
+        ],
+        [
+          "suppresses glioblastoma",
+          8.886989143536444e-05
+        ],
+        [
+          "carcinoma",
+          6.889511523082809e-05
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2f43bafbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Middle East respiratory syndrome",
+          0.15665239456463526
+        ],
+        [
+          "severe acute respiratory syndrome",
+          0.1486785875620032
+        ],
+        [
+          "severe acute respiratory syndrome coronavirus (SARS-CoV) and Middle East respiratory syndrome",
+          0.11582573488899005
+        ],
+        [
+          "severe acute respiratory syndrome CoV (SARS-CoV) and Middle East respiratory syndrome",
+          0.09989774312895727
+        ],
+        [
+          "severe acute respiratory syndrome coronavirus",
+          0.05786108474532341
+        ],
+        [
+          "Middle East respiratory syndrome coronavirus",
+          0.04406177791528026
+        ],
+        [
+          "severe acute respiratory syndrome (SARS) and Middle East respiratory syndrome",
+          0.04247267690067753
+        ],
+        [
+          "Middle East respiratory syndrome ( MERS )",
+          0.018921655099543275
+        ],
+        [
+          "coronavirus (SARS-CoV) and Middle East respiratory syndrome",
+          0.004957714727607642
+        ],
+        [
+          "Middle East respiratory syndrome CoV (MERS-CoV)",
+          0.004059374948687707
+        ],
+        [
+          "severe acute respiratory syndrome CoV (SARS-CoV) and Middle East respiratory syndrome CoV (MERS-CoV)",
+          0.003719546934081189
+        ],
+        [
+          "coronavirus (MERS-CoV).First identified in 2012 , Middle East respiratory syndrome",
+          0.003175238570730636
+        ],
+        [
+          "Middle East respiratory syndrome CoV",
+          0.0025651017375888123
+        ],
+        [
+          "coronavirus",
+          0.0024766408973979355
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2f9e0dfbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "dementia",
+          0.27467159591802454
+        ],
+        [
+          "urinary incontinence and dementia",
+          0.20692499261522346
+        ],
+        [
+          "urinary incontinence",
+          0.1957604325089008
+        ],
+        [
+          "gait disturbance, urinary incontinence and dementia",
+          0.11361149257673996
+        ],
+        [
+          "gait disturbance, urinary incontinence",
+          0.10748162724915879
+        ],
+        [
+          "gait disturbance",
+          0.055639060244386765
+        ],
+        [
+          "cognitive dysfunction, and urinary incontinence",
+          0.011553181414675987
+        ],
+        [
+          "gait disturbance, cognitive dysfunction, and urinary incontinence",
+          0.010881300662103155
+        ],
+        [
+          "cognitive dysfunction",
+          0.006903843473399159
+        ],
+        [
+          "gait disturbance, cognitive dysfunction",
+          0.006502347177092402
+        ],
+        [
+          "gait",
+          0.0019934968442445215
+        ],
+        [
+          "gait disorders, urinary incontinence",
+          0.0010939753364348896
+        ],
+        [
+          "gait disturbances and urinary incontinence",
+          0.0010869717726401773
+        ],
+        [
+          "dementia, gait disturbances and urinary incontinence",
+          0.001025724189840597
+        ],
+        [
+          "gait disorders, urinary incontinence and dementia",
+          0.0008539386866095547
+        ],
+        [
+          "gait disturbances",
+          0.0006827267714267168
+        ],
+        [
+          "dementia, gait disturbances",
+          0.00064425717588158
+        ],
+        [
+          "incontinence and dementia",
+          0.0005325999036545043
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e36e093b5b409ea5300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Aip1, Ede1",
+          0.32402890293028924
+        ],
+        [
+          "Ede1",
+          0.23753031582853001
+        ],
+        [
+          "Aip1",
+          0.19381608024510977
+        ],
+        [
+          "Aip1, Ede1 and Inn1",
+          0.08943152443150156
+        ],
+        [
+          "Inn1",
+          0.08002024338546664
+        ],
+        [
+          "Ede1 and Inn1",
+          0.06555803525900762
+        ],
+        [
+          "Aip1, Ede1 and Inn",
+          0.0017741015285081497
+        ],
+        [
+          "Inn",
+          0.0013821126535878009
+        ],
+        [
+          "Aip",
+          0.0013563274905535833
+        ],
+        [
+          "Ede1 and Inn",
+          0.0013005102093286973
+        ],
+        [
+          "Cdc14",
+          0.0008836316375792139
+        ],
+        [
+          "Aip1, Ede",
+          0.0007037015824178231
+        ],
+        [
+          "Aip1, Ede1 and Inn1 as cytokinetic regulators. Our results suggest that cytokinesis",
+          0.0006177825823585044
+        ],
+        [
+          "Ede",
+          0.000515850461514855
+        ],
+        [
+          "Inn1 as cytokinetic regulators. Our results suggest that cytokinesis",
+          0.0004812831230475512
+        ],
+        [
+          "Ede1 and Inn1 as cytokinetic regulators. Our results suggest that cytokinesis",
+          0.0004528672923123469
+        ],
+        [
+          "mitotic exit to identify Cdk targets that are dephosphorylated at the time of cytokinesis",
+          6.0754624774206845e-05
+        ],
+        [
+          "phosphoproteome analysis",
+          2.5326908478931512e-05
+        ],
+        [
+          "cytokinesis",
+          2.40193311236722e-05
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5d2f3a5db3a638076300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "rituximab",
+          0.37359590406717624
+        ],
+        [
+          "rituximab and cyclophosphamide",
+          0.3296986430676148
+        ],
+        [
+          "cyclophosphamide",
+          0.2903432328796642
+        ],
+        [
+          "epratuzumab",
+          0.005760168179560763
+        ],
+        [
+          "mide",
+          8.775518858082198e-05
+        ],
+        [
+          "b",
+          7.940579501542666e-05
+        ],
+        [
+          "de",
+          7.271843254551414e-05
+        ],
+        [
+          "b and cyclophosphamide",
+          7.007566887988131e-05
+        ],
+        [
+          "lophosphamide",
+          6.130674165476543e-05
+        ],
+        [
+          "yclophosphamide",
+          4.543199061883258e-05
+        ],
+        [
+          "r",
+          3.3731815292118965e-05
+        ],
+        [
+          "rituximab and c",
+          3.2872195245622865e-05
+        ],
+        [
+          "c",
+          2.8948312770302582e-05
+        ],
+        [
+          "clophosphamide",
+          1.8149383746789908e-05
+        ],
+        [
+          "rit",
+          1.788959815558744e-05
+        ],
+        [
+          "uximab",
+          1.3259005848754116e-05
+        ],
+        [
+          "uximab and cyclophosphamide",
+          1.1701081808364167e-05
+        ],
+        [
+          "hosphamide",
+          1.046112050345255e-05
+        ],
+        [
+          "mide.Although some Fc-independent loss of CD22 is expected from internalization by epratuzumab",
+          9.054834685141593e-06
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e49c88c6d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "ncRNA, a circular RNA, and two microRNAs",
+          0.26450851094459427
+        ],
+        [
+          "RNA, and two microRNAs",
+          0.13898525592078312
+        ],
+        [
+          "ncRNA, a circular RNA",
+          0.13258972186438914
+        ],
+        [
+          "ncRNA",
+          0.08168079751453201
+        ],
+        [
+          "RNA",
+          0.06966889783613665
+        ],
+        [
+          "microRNAs",
+          0.06171374071655084
+        ],
+        [
+          "two microRNAs",
+          0.05523729272964704
+        ],
+        [
+          "a long ncRNA, a circular RNA, and two microRNAs",
+          0.046926173803098783
+        ],
+        [
+          "a circular RNA, and two microRNAs",
+          0.04002280152277346
+        ],
+        [
+          "a long ncRNA, a circular RNA",
+          0.02352260163763176
+        ],
+        [
+          "a circular RNA",
+          0.020062160204930953
+        ],
+        [
+          "circular RNA, and two microRNAs",
+          0.017463331305369763
+        ],
+        [
+          "a long ncRNA",
+          0.014490903475486
+        ],
+        [
+          "circular RNA",
+          0.008753813751912382
+        ],
+        [
+          "long ncRNA, a circular RNA, and two microRNAs",
+          0.007675044404447668
+        ],
+        [
+          "ncRNAs-a long ncRNA, a circular RNA, and two microRNAs",
+          0.004142580275019241
+        ],
+        [
+          "centered on four ncRNAs-a long ncRNA, a circular RNA, and two microRNAs",
+          0.003952552584484399
+        ],
+        [
+          "long ncRNA, a circular RNA",
+          0.0038472561780657126
+        ],
+        [
+          "four ncRNAs-a long ncRNA, a circular RNA, and two microRNAs",
+          0.0023864930980930566
+        ],
+        [
+          "long ncRNA",
+          0.002370070232054073
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e5cbf4e1af46fc13000",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "palifermin",
+          0.3437311320068361
+        ],
+        [
+          "amifostine and palifermin",
+          0.3134419887875429
+        ],
+        [
+          "amifostine",
+          0.2901946998357625
+        ],
+        [
+          "palifermin, currently have the US FDA approval for use in radiation therapy",
+          0.00997515154137291
+        ],
+        [
+          "amifostine and palifermin, currently have the US FDA approval for use in radiation therapy",
+          0.00909615407638685
+        ],
+        [
+          "palifermin, currently have the US FDA approval",
+          0.008182983399290026
+        ],
+        [
+          "amifostine and palifermin, currently have the US FDA approval",
+          0.007461909475333484
+        ],
+        [
+          "Only two radioprotective compounds, amifostine",
+          0.0036973158700227154
+        ],
+        [
+          "Only two radioprotective compounds, amifostine and palifermin",
+          0.0036637920550602844
+        ],
+        [
+          "radioprotective compounds, amifostine",
+          0.0017514033058447904
+        ],
+        [
+          "radioprotective compounds, amifostine and palifermin",
+          0.0017355232127140485
+        ],
+        [
+          "palifermin, currently have the US FDA approval for use in radiation",
+          0.001549919753314614
+        ],
+        [
+          "palifermin, currently have the US FDA",
+          0.001467042034156006
+        ],
+        [
+          "amifostine and palifermin, currently have the US FDA approval for use in radiation",
+          0.0014133428272955178
+        ],
+        [
+          "amifostine and palifermin, currently have the US FDA",
+          0.0013377681856633107
+        ],
+        [
+          "two radioprotective compounds, amifostine",
+          0.0012998736334037353
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e48100bd14c9f295d00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "thyroid have also been demonstrated. Radiation-induced leukaemia",
+          0.11134083322349901
+        ],
+        [
+          "leukaemia",
+          0.10974024791690334
+        ],
+        [
+          "leukemia",
+          0.10620946912164259
+        ],
+        [
+          "skin carcinomas leukemia",
+          0.10033491302179735
+        ],
+        [
+          "breast, stomach and thyroid have also been demonstrated. Radiation-induced leukaemia",
+          0.0691310351633486
+        ],
+        [
+          "lung, breast, stomach and thyroid have also been demonstrated. Radiation-induced leukaemia",
+          0.05726203437233817
+        ],
+        [
+          "thyroid",
+          0.0538907767609629
+        ],
+        [
+          "stomach and thyroid have also been demonstrated. Radiation-induced leukaemia",
+          0.053762572361697215
+        ],
+        [
+          "skin carcinoma",
+          0.03823477909997145
+        ],
+        [
+          "breast, stomach and thyroid",
+          0.03346054700133146
+        ],
+        [
+          "breast",
+          0.028162454648227347
+        ],
+        [
+          "lung, breast, stomach and thyroid",
+          0.027715757300323197
+        ],
+        [
+          "stomach and thyroid",
+          0.026021960689152163
+        ],
+        [
+          "leukemia (1952)esides the well-known increase in leukaemia",
+          0.02404130082250786
+        ],
+        [
+          "lung, breast",
+          0.02332728625089628
+        ],
+        [
+          "skin carcinomas leukemia (1952)esides the well-known increase in leukaemia",
+          0.02271155149259337
+        ],
+        [
+          "breast, stomach",
+          0.0226930348231799
+        ],
+        [
+          "lung",
+          0.02028345094465813
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5cf0f567a49efeb44c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "MBF",
+          0.1624788049524597
+        ],
+        [
+          "SBF",
+          0.10956285409415056
+        ],
+        [
+          "SBF (composed of Swi4 and Swi6) and MBF",
+          0.1062099874951487
+        ],
+        [
+          "SBF (composed of Swi4 and Swi6) and MBF (composed of Mbp1",
+          0.037088599169238616
+        ],
+        [
+          "Mbp1",
+          0.03330326791211904
+        ],
+        [
+          "MBF and SBF",
+          0.0325024701214915
+        ],
+        [
+          "Swi6",
+          0.0315761433125692
+        ],
+        [
+          "SBF (composed of Swi4 and Swi6) and MBF (composed of Mbp1 and Swi6",
+          0.03141736465563453
+        ],
+        [
+          "Mbp1 and Swi6",
+          0.02821085011717404
+        ],
+        [
+          "Swi4",
+          0.024923247467787846
+        ],
+        [
+          "Swi6) and MBF (composed of Mbp1",
+          0.022155370339854954
+        ],
+        [
+          "Swi4 and Swi6",
+          0.0210470180699216
+        ],
+        [
+          "Swi6) and MBF (composed of Mbp1 and Swi6",
+          0.01876758261674033
+        ],
+        [
+          "Swi4 and Swi6) and MBF (composed of Mbp1",
+          0.014767619822117894
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e5b626fb761aafe0900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "ABCB4",
+          0.5073049338432397
+        ],
+        [
+          "ABCB4/MDR3 is critical for biliary phosphatidylcholine",
+          0.2804478606739713
+        ],
+        [
+          "phosphatidylcholine",
+          0.09351030415677168
+        ],
+        [
+          "ABCB4/MDR3 is critical for biliary phosphatidylcholine (PC)",
+          0.04555919619377298
+        ],
+        [
+          "ATP-binding cassette transporter ABCB4",
+          0.016895409478237096
+        ],
+        [
+          "phosphatidylcholine (PC)",
+          0.015190896029584669
+        ],
+        [
+          "ATP-binding cassette transporter ABCB4/MDR3 is critical for biliary phosphatidylcholine",
+          0.009340105185822003
+        ],
+        [
+          "phospholipid translocatorThe ATP-binding cassette transporter ABCB4",
+          0.00622624846018314
+        ],
+        [
+          "P-glycoprotein",
+          0.005474144739910338
+        ],
+        [
+          "P-glycoprotein 3 (MDR3) is a phospholipid",
+          0.004593769835871279
+        ],
+        [
+          "biliary phosphatidylcholine",
+          0.003133307049162506
+        ],
+        [
+          "P-glycoprotein 3 (MDR3) is a phospholipid translocatorThe multiple drug resistance",
+          0.002168175106204991
+        ],
+        [
+          "ABCB4/MDR3 is critical for biliary phosphatidylcholine (PC) excretion",
+          0.0019642424460573887
+        ],
+        [
+          "cassette transporter ABCB4",
+          0.0017453560219732735
+        ],
+        [
+          "P-glycoprotein 3",
+          0.0015984006904598083
+        ],
+        [
+          "ABCB4/MDR3 is critical for biliary phosphatidylcho",
+          0.0012007585470476402
+        ],
+        [
+          "cassette transporter ABCB4/MDR3 is critical for biliary phosphatidylcholine",
+          0.0009648661580494112
+        ],
+        [
+          "P-glycoprotein 3 (MDR3) is a phospholipid translocatorThe multiple drug resistance 3",
+          0.0009573452986425278
+        ],
+        [
+          "4",
+          0.0009219560744105668
+        ],
+        [
+          "P",
+          0.000802724010627581
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e30ee25fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "metabolic wasting",
+          0.18749981562716486
+        ],
+        [
+          "multiple allergies and metabolic wasting",
+          0.09167706712543454
+        ],
+        [
+          "dermatitis, multiple allergies and metabolic wasting",
+          0.08914555442546185
+        ],
+        [
+          "multiple allergies",
+          0.07215548019486383
+        ],
+        [
+          "dermatitis",
+          0.07084933686444167
+        ],
+        [
+          "dermatitis, multiple allergies",
+          0.07016302428180539
+        ],
+        [
+          "severe dermatitis",
+          0.0459691868359179
+        ],
+        [
+          "severe dermatitis, multiple allergies and metabolic wasting",
+          0.04350961650418425
+        ],
+        [
+          "severe dermatitis, multiple allergies",
+          0.04328426725190756
+        ],
+        [
+          "skin dermatitis, multiple allergies",
+          0.040098612759739506
+        ],
+        [
+          "skin dermatitis",
+          0.03687603666945469
+        ],
+        [
+          "skin dermatitis, multiple allergies and metabolic wasting",
+          0.033298888587812464
+        ],
+        [
+          "multiple allergies, and metabolic wasting",
+          0.019172642582015897
+        ],
+        [
+          "Severe dermatitis, multiple allergies, and metabolic wasting",
+          0.017049200336444217
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e30f12afbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "ipilimumab",
+          0.2634436065247087
+        ],
+        [
+          "ipilimumab plus nivolumab",
+          0.24926383470215502
+        ],
+        [
+          "nivolumab",
+          0.2263667600928667
+        ],
+        [
+          "nivolumab and ipilimumab",
+          0.12082982968327884
+        ],
+        [
+          "Nivolumab plus ipilimumab",
+          0.05099573225151329
+        ],
+        [
+          "ipilimumab (CheckMate-227; NCT02477826), whereas atezolizumab",
+          0.042682473242797704
+        ],
+        [
+          "nivolumab\u00a0+\u00a0ipilimumab",
+          0.029873714965022835
+        ],
+        [
+          "atezolizumab",
+          0.016145738862161942
+        ],
+        [
+          "b",
+          5.6867206448973696e-05
+        ],
+        [
+          "b plus nivolumab",
+          5.3806346395204e-05
+        ],
+        [
+          "ab",
+          4.646039379166922e-05
+        ],
+        [
+          "i",
+          4.337529825787605e-05
+        ],
+        [
+          "ipilimumab versus chemotherapy",
+          3.767360438536116e-05
+        ],
+        [
+          "Nivolumab plus ipilimumab versus chemotherapy",
+          3.7549497169849095e-05
+        ],
+        [
+          "ipilimumab (CheckMate-227; NCT02477826)",
+          3.316848146802764e-05
+        ],
+        [
+          "nivolumab and ipilimumab (CheckMate-227; NCT02477826)",
+          3.282015790671729e-05
+        ],
+        [
+          "ipilimumab plus ni",
+          3.1825157644760325e-05
+        ],
+        [
+          "ni",
+          2.4763532026651036e-05
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e46f9683f5415952900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Radiation-induced fibrosis",
+          0.2872125823526038
+        ],
+        [
+          "fibrosis",
+          0.1937248933831654
+        ],
+        [
+          "leukencephalopathy",
+          0.0793143383881479
+        ],
+        [
+          "radiation necrosis, microangiopathy, and progressive leukencephalopathy",
+          0.06807644322562882
+        ],
+        [
+          "progressive leukencephalopathy",
+          0.06801897839299799
+        ],
+        [
+          "microangiopathy, and progressive leukencephalopathy",
+          0.06692923109606135
+        ],
+        [
+          "radiation necrosis, microangiopathy",
+          0.047491930775016435
+        ],
+        [
+          "microangiopathy",
+          0.04669160519306585
+        ],
+        [
+          "radiation necrosis",
+          0.04536636871053827
+        ],
+        [
+          "Radiation-induced second malignancies",
+          0.026264022501018367
+        ],
+        [
+          "myositis.Radiation-induced second malignancies",
+          0.014023885296978672
+        ],
+        [
+          "osteoradionecrosis and myositis.Radiation-induced second malignancies",
+          0.012582950825827107
+        ],
+        [
+          "osteitis, osteoradionecrosis and myositis.Radiation-induced second malignancies",
+          0.010051417053113907
+        ],
+        [
+          "colitis, osteitis, osteoradionecrosis and myositis.Radiation-induced second malignancies",
+          0.0070843499831296204
+        ],
+        [
+          "Radiation-induced fibrosis (RIF)",
+          0.005724903981170825
+        ],
+        [
+          "second malignancies",
+          0.005352200979851082
+        ],
+        [
+          "myositis",
+          0.004276478474728663
+        ],
+        [
+          "osteoradionecrosis",
+          0.004114895188408713
+        ],
+        [
+          "fibrosis (RIF)",
+          0.0038614478665827258
+        ],
+        [
+          "osteoradionecrosis and myositis",
+          0.003837076331964292
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e4027f948dab47f2600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Meningitis",
+          0.2837733404230769
+        ],
+        [
+          "sepsis",
+          0.27310524194880675
+        ],
+        [
+          "Meningitis and sepsis",
+          0.24612955182873367
+        ],
+        [
+          "Sepsis and meningitis",
+          0.0223919934821547
+        ],
+        [
+          "septicaemia",
+          0.001425998837395971
+        ],
+        [
+          "meningitis and septicaemia",
+          0.0007498695203736195
+        ],
+        [
+          "psis",
+          0.0001978909066250902
+        ],
+        [
+          "ingitis and sepsis",
+          0.00019658408433760642
+        ],
+        [
+          "itis and sepsis",
+          0.00015946410006484506
+        ],
+        [
+          "itis",
+          0.00015918065297564524
+        ],
+        [
+          "ingitis",
+          0.0001240146559225863
+        ],
+        [
+          "sepsis caused by serogroup B meningococcus",
+          0.0001040597156957901
+        ],
+        [
+          "Meningitis and sepsis caused by serogroup B meningococcus",
+          9.964486931180522e-05
+        ],
+        [
+          "se",
+          9.329749837457346e-05
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e52c1fd6d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Epithelial ovarian cancer",
+          0.32466295805076534
+        ],
+        [
+          "Epithelial Ovarian Cancer.Epithelial ovarian cancer",
+          0.18306806356467326
+        ],
+        [
+          "ovarian cancer",
+          0.17706805182079605
+        ],
+        [
+          "melanoma",
+          0.10565370536058578
+        ],
+        [
+          "Ovarian Cancer.Epithelial ovarian cancer",
+          0.049709328724732084
+        ],
+        [
+          "Epithelial ovarian cancer (EOC)",
+          0.034460511367000984
+        ],
+        [
+          "Epithelial ovarian",
+          0.031544201448107156
+        ],
+        [
+          "Epithelial Ovarian Cancer.Epithelial ovarian cancer (EOC)",
+          0.02509816178607375
+        ],
+        [
+          "ovarian cancer (EOC)",
+          0.021598709767781655
+        ],
+        [
+          "Epithelial Ovarian Cancer.Epithelial ovarian",
+          0.016991787344092686
+        ],
+        [
+          "ovarian",
+          0.016852992431243136
+        ],
+        [
+          "Ovarian Cancer.Epithelial ovarian cancer (EOC)",
+          0.006815021420542308
+        ],
+        [
+          "Ovarian Cancer.Epithelial ovarian",
+          0.004613859600966678
+        ],
+        [
+          "Epithelial",
+          0.001077723453055123
+        ],
+        [
+          "Epithelial Ovarian Cancer.Epithelial",
+          0.0007849238595839657
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e36e254b5b409ea5300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "pontocerebellar hypoplasia",
+          0.13558560965206914
+        ],
+        [
+          "congenital pontocerebellar hypoplasia",
+          0.1271122720698087
+        ],
+        [
+          "optic atrophy",
+          0.11464093800312017
+        ],
+        [
+          "optic atrophy, Charcot-Marie-Tooth type 2, Leigh syndrome",
+          0.09198130533567653
+        ],
+        [
+          "optic atrophy, Charcot-Marie-Tooth type 2, Leigh syndrome, progressive myoclonic ataxia",
+          0.0820097047480544
+        ],
+        [
+          "Leigh syndrome, progressive myoclonic ataxia and lethal congenital pontocerebellar hypoplasia",
+          0.051188129701731346
+        ],
+        [
+          "progressive myoclonic ataxia and lethal congenital pontocerebellar hypoplasia",
+          0.04536394645779324
+        ],
+        [
+          "Leigh syndrome",
+          0.04060843505316413
+        ],
+        [
+          "optic atrophy, Charcot-Marie-Tooth type 2",
+          0.03680098268469173
+        ],
+        [
+          "Leigh syndrome, progressive myoclonic ataxia",
+          0.03620611554529466
+        ],
+        [
+          "inherited optic atrophy",
+          0.035724962014828825
+        ],
+        [
+          "progressive myoclonic ataxia",
+          0.0320865852417708
+        ],
+        [
+          "myoclonic ataxia and lethal congenital pontocerebellar hypoplasia",
+          0.029844060744570435
+        ],
+        [
+          "inherited optic atrophy, Charcot-Marie-Tooth type 2, Leigh syndrome",
+          0.02866365799538365
+        ],
+        [
+          "inherited optic atrophy, Charcot-Marie-Tooth type 2, Leigh syndrome, progressive myoclonic ataxia",
+          0.025556259727147656
+        ],
+        [
+          "myoclonic ataxia",
+          0.021109142255341332
+        ],
+        [
+          "Charcot-Marie-Tooth type 2, Leigh syndrome",
+          0.019664429440549837
+        ],
+        [
+          "Charcot-Marie-Tooth type 2, Leigh syndrome, progressive myoclonic ataxia",
+          0.017532628468069123
+        ],
+        [
+          "lethal congenital pontocerebellar hypoplasia",
+          0.01685273514525321
+        ],
+        [
+          "inherited optic atrophy, Charcot-Marie-Tooth type 2",
+          0.011468099715681
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e5015436d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "MobiDB",
+          0.7762472568445211
+        ],
+        [
+          "DisProt",
+          0.12148238278048058
+        ],
+        [
+          "DisProt database",
+          0.05362471052720341
+        ],
+        [
+          "disprot.org/assessment/.MobiDB",
+          0.011001451443082027
+        ],
+        [
+          "Mob",
+          0.0034025764840811324
+        ],
+        [
+          "MobiD",
+          0.003305921980096711
+        ],
+        [
+          "MobiDB (URL: mobidb.bio.unipd.it)",
+          0.002939662783478034
+        ],
+        [
+          "SwissProt",
+          0.002152505022674879
+        ],
+        [
+          "MobiDB: a comprehensive database of intrinsic protein disorder annotations",
+          0.0018787205884723797
+        ],
+        [
+          "the DisProt",
+          0.001643921522924653
+        ],
+        [
+          "MobiDB (URL: mobidb.bio.unipd.it) database",
+          0.0009724456076263504
+        ],
+        [
+          "MobiDB: a comprehensive database",
+          0.000881485101352958
+        ],
+        [
+          "the DisProt database",
+          0.0007256592583928009
+        ],
+        [
+          "MobiDB: a comprehensive",
+          0.00045724477663561177
+        ],
+        [
+          "MobiDB:",
+          0.00041771049800464475
+        ],
+        [
+          "MobiDB: a",
+          0.00040560389274658384
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e4f0a4f6d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "mu-, gamma-, epsilon",
+          0.11059600719802326
+        ],
+        [
+          "epsilon",
+          0.08189039336843042
+        ],
+        [
+          "epsilon chain using heavy chain specific gamma, alpha, mu, delta and epsilon",
+          0.07271059500305832
+        ],
+        [
+          "mu",
+          0.07107406812518831
+        ],
+        [
+          "epsilon chain using heavy chain specific gamma, alpha, mu, delta",
+          0.07086072468909221
+        ],
+        [
+          "mu-, gamma",
+          0.059558939538745775
+        ],
+        [
+          "mu, delta and epsilon",
+          0.0515256770379041
+        ],
+        [
+          "mu, delta",
+          0.05021478389564037
+        ],
+        [
+          "mu-, gamma-, epsilon-, or alpha",
+          0.05016899938309755
+        ],
+        [
+          "mu, delta or epsilon chain using heavy chain specific gamma, alpha, mu, delta and epsilon",
+          0.040513200443698036
+        ],
+        [
+          "mu, delta or epsilon chain using heavy chain specific gamma, alpha, mu, delta",
+          0.03948248178678973
+        ],
+        [
+          "gamma, alpha, mu, delta and epsilon",
+          0.03761267740492124
+        ],
+        [
+          "epsilon-, or alpha",
+          0.03714744499795859
+        ],
+        [
+          "gamma, alpha, mu, delta",
+          0.036655752552948555
+        ],
+        [
+          "epsilon chain using heavy chain specific gamma",
+          0.03649523430851352
+        ],
+        [
+          "gamma-, epsilon",
+          0.03472412516081359
+        ],
+        [
+          "mu-, gamma-, epsilon-, or alpha-H chain",
+          0.029894521122425608
+        ],
+        [
+          "gamma, alpha, mu, delta or epsilon chain using heavy chain specific gamma, alpha, mu, delta",
+          0.029393440144416125
+        ],
+        [
+          "epsilon chain using heavy chain specific gamma, alpha, mu",
+          0.029320156744048875
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e55046fb761aafe0900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "MLE4901",
+          0.44071674848622094
+        ],
+        [
+          "AZD4901",
+          0.35949881929637895
+        ],
+        [
+          "ESN364",
+          0.15731466891686854
+        ],
+        [
+          "SB222200 in the pubertal but not prepubertal monkeys.NK3R antagonist AZD4901",
+          0.036993516705123734
+        ],
+        [
+          "SB222200",
+          0.00287341839566539
+        ],
+        [
+          "ESN",
+          0.0004771103205784733
+        ],
+        [
+          "MLE490",
+          0.00034377439621280386
+        ],
+        [
+          "M",
+          0.0003401740946494137
+        ],
+        [
+          "AZD490",
+          0.00022596850268869132
+        ],
+        [
+          "ES",
+          0.00019563022893718255
+        ],
+        [
+          "MLE",
+          0.00018436491848074804
+        ],
+        [
+          "A",
+          0.00017093783821555035
+        ],
+        [
+          "ZD4901",
+          0.00015931521322049173
+        ],
+        [
+          "AZD",
+          0.0001444157184565038
+        ],
+        [
+          "1",
+          0.00011549938463913983
+        ],
+        [
+          "D4901",
+          9.81885639653067e-05
+        ],
+        [
+          "364",
+          5.1254606396555386e-05
+        ],
+        [
+          "ESN36",
+          4.909226867232903e-05
+        ],
+        [
+          "4",
+          4.7102144629610145e-05
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e51c6036d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "macrocephaly, seizure, developmental delay",
+          0.1533907899554588
+        ],
+        [
+          "developmental delay",
+          0.10001694165209359
+        ],
+        [
+          "macrocephaly, seizure, developmental delay and dysmorphic facial features",
+          0.08906537454342808
+        ],
+        [
+          "macrocephaly",
+          0.08194139130022292
+        ],
+        [
+          "macrocephaly , seizure , developmental delay",
+          0.06994959424356167
+        ],
+        [
+          "dysmorphic facial features",
+          0.06302594102102849
+        ],
+        [
+          "developmental delay and dysmorphic facial features",
+          0.058074193186687426
+        ],
+        [
+          "intellectual disability, macrocephaly, seizure, developmental delay",
+          0.04836250170501634
+        ],
+        [
+          "macrocephaly, seizure",
+          0.04626743036862602
+        ],
+        [
+          "macrocephaly , seizure , developmental delay and dysmorphic facial features",
+          0.042770045170216625
+        ],
+        [
+          "macrocephaly/hemi/megalencephaly",
+          0.03788141075059349
+        ],
+        [
+          "intellectual disability , macrocephaly , seizure , developmental delay",
+          0.029468768341239827
+        ],
+        [
+          "intellectual disability, macrocephaly, seizure, developmental delay and dysmorphic facial features",
+          0.028081375221193118
+        ],
+        [
+          "macrocephaly/hemi/megalencephaly, and seizures",
+          0.026009352164598175
+        ],
+        [
+          "intellectual disability, macrocephaly",
+          0.025835258281277352
+        ],
+        [
+          "seizure, developmental delay",
+          0.024132520113929377
+        ],
+        [
+          "macrocephaly , seizure",
+          0.020594960492922802
+        ],
+        [
+          "intellectual disability , macrocephaly",
+          0.01756010373439339
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e494b0e6d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "atezolizumab",
+          0.3675842169314005
+        ],
+        [
+          "atezolizumab (TECENTRIQ\u00ae, Genentech), durvalumab",
+          0.19330383508014112
+        ],
+        [
+          "avelumab",
+          0.15854265299170714
+        ],
+        [
+          "durvalumab (IMFINZI\u00ae, Astra-Zeneca), and avelumab",
+          0.14127794690942858
+        ],
+        [
+          "durvalumab",
+          0.11547959457000781
+        ],
+        [
+          "durvalumab (IMFINZI\u00ae, Astra-Zeneca)",
+          0.0065325430273346355
+        ],
+        [
+          "atezolizumab (TECENTRIQ\u00ae, Genentech)",
+          0.005322445510527848
+        ],
+        [
+          "durvalumab (IMFINZI\u00ae, Astra-Zeneca), and avelumab (BAVENCIO\u00ae",
+          0.0014113245893227527
+        ],
+        [
+          "(IMFINZI\u00ae, Astra-Zeneca), and avelumab",
+          0.0013308250649364426
+        ],
+        [
+          "atezolizumab (TECENTRIQ\u00ae, Genentech), durvalumab (IMFINZI\u00ae",
+          0.0012426373247223785
+        ],
+        [
+          "durvalumab (IMFINZI\u00ae, Astra-Zeneca), and avelumab (BAVENCIO",
+          0.0011388471958965413
+        ],
+        [
+          "(TECENTRIQ\u00ae, Genentech), durvalumab",
+          0.0008095070921220525
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e4be9496d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "cetuximab",
+          0.12002891363993122
+        ],
+        [
+          "cetuximab, panitumumab",
+          0.10982916049493352
+        ],
+        [
+          "panitumumab",
+          0.1015518621128747
+        ],
+        [
+          "cetuximab, panitumumab, zalutumumab",
+          0.06015470608725524
+        ],
+        [
+          "panitumumab, zalutumumab",
+          0.054243191729545816
+        ],
+        [
+          "Cetuximab, Panitumumab-monoclonal antibodies and Gefitinib",
+          0.05385852449871601
+        ],
+        [
+          "Panitumumab-monoclonal antibodies and Gefitinib",
+          0.05130873998215729
+        ],
+        [
+          "Gefitinib",
+          0.04991420551931711
+        ],
+        [
+          "zalutumumab",
+          0.049547194187622004
+        ],
+        [
+          "cetuximab, panitumumab, zalutumumab and nimotuzumab",
+          0.049425222065282846
+        ],
+        [
+          "Cetuximab, Panitumumab-monoclonal antibodies and Gefitinib, Erlotinib",
+          0.045098285554221476
+        ],
+        [
+          "nimotuzumab), EGFR tyrosine kinase inhibitors (gefitinib",
+          0.044823481053611336
+        ],
+        [
+          "panitumumab, zalutumumab and nimotuzumab",
+          0.044568113970563074
+        ],
+        [
+          "Panitumumab-monoclonal antibodies and Gefitinib, Erlotinib",
+          0.04296323058753298
+        ],
+        [
+          "Gefitinib, Erlotinib",
+          0.04179552103726729
+        ],
+        [
+          "zalutumumab and nimotuzumab",
+          0.04070971723945875
+        ],
+        [
+          "Erlotinib",
+          0.040179930239709304
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5d36a9507bc3fee31f00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "thymocytes",
+          0.48187619725305275
+        ],
+        [
+          "thymocytes into naive T cells",
+          0.21595444291855226
+        ],
+        [
+          "thymocytes into naive T",
+          0.06589235174445585
+        ],
+        [
+          "naive T cells",
+          0.06498700737351969
+        ],
+        [
+          "T cells",
+          0.06371116099358881
+        ],
+        [
+          "naive T",
+          0.019999013672213385
+        ],
+        [
+          "T",
+          0.01960638643444526
+        ],
+        [
+          "thymocytes into naive",
+          0.015393167380802802
+        ],
+        [
+          "thy",
+          0.00978926191496456
+        ],
+        [
+          "naive T cells.The inhibition of dopamine synthesis in fetuses changes the pattern of T",
+          0.005248359406406631
+        ],
+        [
+          "T cells.The inhibition of dopamine synthesis in fetuses changes the pattern of T",
+          0.005145321882140379
+        ],
+        [
+          "naive",
+          0.004671986304286773
+        ],
+        [
+          "antigen-specific human T cells",
+          0.0030094094939249524
+        ],
+        [
+          "cytes",
+          0.0025817945520707672
+        ],
+        [
+          "antigen-specific human T",
+          0.0014677638742369313
+        ],
+        [
+          "tes",
+          0.0012929770364614966
+        ],
+        [
+          "cytes into naive T cells",
+          0.0011472000962310562
+        ],
+        [
+          "naive T cells.The inhibition of dopamine synthesis in fetuses changes the pattern of T-lymphocyte",
+          0.0009340076758581034
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e30f8abfbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "fms-like tyrosine kinase 3/AXL",
+          0.38694485119819694
+        ],
+        [
+          "fms",
+          0.20643647095797413
+        ],
+        [
+          "fms-like tyrosine kinase 3",
+          0.1588296017315422
+        ],
+        [
+          "AXL",
+          0.14960152915558242
+        ],
+        [
+          "FLT3/AXL",
+          0.04594400081718496
+        ],
+        [
+          "FLT3",
+          0.029864358882420977
+        ],
+        [
+          "tyrosine kinase 3/AXL",
+          0.005600785716196651
+        ],
+        [
+          "kinase 3/AXL",
+          0.0033876502181984444
+        ],
+        [
+          "fms-like tyrosine kinase",
+          0.0029843214808469984
+        ],
+        [
+          "tyrosine kinase 3",
+          0.0022989595595667395
+        ],
+        [
+          "3/AXL",
+          0.0020258611132254645
+        ],
+        [
+          "fms-like tyrosine kinase 3/AXL inhibitor",
+          0.001904544305687778
+        ],
+        [
+          "kinase 3",
+          0.0013905318375373131
+        ],
+        [
+          "3",
+          0.0008315570365664515
+        ],
+        [
+          "AXL inhibitor",
+          0.0007363394023545448
+        ],
+        [
+          "f",
+          0.0002804206727498758
+        ],
+        [
+          "FLT3 inhibitor gilteritinib to confer the resistance to PI3K/Akt",
+          0.0002713646777042992
+        ],
+        [
+          "fms-like",
+          0.0002672281818922698
+        ],
+        [
+          "like tyrosine kinase 3/AXL",
+          0.00022489942864533424
+        ],
+        [
+          "FLT3 inhibitors, in particular to the FLT3",
+          0.00017472362592636925
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e4163b848dab47f2600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "measlesMeasles",
+          0.2669328255892485
+        ],
+        [
+          "Mumps",
+          0.19407306944902217
+        ],
+        [
+          "measles",
+          0.09416106345747494
+        ],
+        [
+          "measles virus",
+          0.043983662139898405
+        ],
+        [
+          "Mumps is a Paramyxoviridae virus. Since chronic paramyxovirus infection with measles",
+          0.02905967953761148
+        ],
+        [
+          "measles is known to be accompanied by increased production of antiviral antibodiesNipah virus",
+          0.0005444895248274606
+        ],
+        [
+          "measles is known to be accompanied by increased production of antiviral antibodiesNipah",
+          0.00045207296261926097
+        ],
+        [
+          "measles virus) from the paramyxovirus family",
+          0.00010350327818507914
+        ],
+        [
+          "paramyxovirus such as measlesMeasles",
+          0.00010066123434819388
+        ],
+        [
+          "les",
+          5.223793867620289e-05
+        ],
+        [
+          "(measles virus) from the paramyxovirus family.Mumps",
+          5.144861872614611e-05
+        ],
+        [
+          "lesMeasles",
+          4.657122322730479e-05
+        ],
+        [
+          "me",
+          4.469007446757101e-05
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e342175fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "presacral mass",
+          0.18569209239506537
+        ],
+        [
+          "sacral bony defect, and presacral mass",
+          0.18348522502859776
+        ],
+        [
+          "anorectal malformation, sacral bony defect, and presacral mass",
+          0.17404990603808798
+        ],
+        [
+          "sacral bony defect",
+          0.13969993199211972
+        ],
+        [
+          "anorectal malformation, sacral bony defect",
+          0.13251617416588202
+        ],
+        [
+          "anorectal malformation",
+          0.09972465745810388
+        ],
+        [
+          "sacral bony defects",
+          0.014795782297133063
+        ],
+        [
+          "presacral mass (most commonly an anterior sacral meningocele) and sacral bony defects",
+          0.010825584364490434
+        ],
+        [
+          "anorectal malformations, presacral mass",
+          0.00845661716327689
+        ],
+        [
+          "anorectal malformations",
+          0.0078694360191863
+        ],
+        [
+          "anorectal malformation, and presence of a pre-sacral mass",
+          0.006992542819863816
+        ],
+        [
+          "sacral agenesis, anorectal malformation",
+          0.006346271738676769
+        ],
+        [
+          "sacral agenesis",
+          0.00599351069373399
+        ],
+        [
+          "sacral agenesis, anorectal malformation, and presence of a pre-sacral mass",
+          0.005953705340404594
+        ],
+        [
+          "sacral anomalies, anorectal malformations",
+          0.004066068679302055
+        ],
+        [
+          "anorectal malformations and a presacral mass",
+          0.004041942689094927
+        ],
+        [
+          "sacral anomalies",
+          0.0026828626552470587
+        ],
+        [
+          "pre-sacral mass",
+          0.0024740574475560985
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e36a901b5b409ea5300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "uc.339",
+          0.5300650729280862
+        ],
+        [
+          "uc.339 in lung cancer.Our results support a key role for uc.339",
+          0.3723801398816447
+        ],
+        [
+          "339",
+          0.05341135187295757
+        ],
+        [
+          "339 in lung cancer.Our results support a key role for uc.339",
+          0.032266610600070626
+        ],
+        [
+          "Transcribed ultraconserved region 339",
+          0.0015561203799264135
+        ],
+        [
+          "339 promotes carcinogenesis by modulating tumor suppressor microRNAs",
+          0.001472758563230645
+        ],
+        [
+          "support a key role for uc.339",
+          0.0005048817003414416
+        ],
+        [
+          "a key role for uc.339",
+          0.00047531626461307303
+        ],
+        [
+          "results support a key role for uc.339",
+          0.00045558874747947495
+        ],
+        [
+          "key role for uc.339",
+          0.0004372417371080088
+        ],
+        [
+          "uc.339 in lung cancer.Our results",
+          0.00038144513353994386
+        ],
+        [
+          "support a key role for uc.339 in lung cancer.Our results support a key role for uc.339",
+          0.0003546883728034947
+        ],
+        [
+          "a key role for uc.339 in lung cancer.Our results support a key role for uc.339",
+          0.00033391812844203435
+        ],
+        [
+          "results support a key role for uc.339 in lung cancer.Our results support a key role for uc.339",
+          0.0003200591968411525
+        ],
+        [
+          "key role for uc.339 in lung cancer.Our results support a key role for uc.339",
+          0.00030717009579022656
+        ],
+        [
+          "ultraconserved region 339",
+          0.00030425559694974703
+        ],
+        [
+          "339 promotes carcinogenesis by modulating tumor suppressor microRNAs.The",
+          0.00026211468291897894
+        ],
+        [
+          "339 promotes carcinogenesis by modulating tumor suppressor microRNAs.The transcribed",
+          0.00022597168805368187
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e3a6a4eb5b409ea5300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "internuclear ophthalmoplegia",
+          0.21306864253583038
+        ],
+        [
+          "gaze palsy associated with internuclear ophthalmoplegia",
+          0.18183434219345498
+        ],
+        [
+          "gaze palsy",
+          0.17576462394693732
+        ],
+        [
+          "Unilateral gaze palsy associated with internuclear ophthalmoplegia",
+          0.09528865762161662
+        ],
+        [
+          "Unilateral gaze palsy",
+          0.09210787616485108
+        ],
+        [
+          "internuclear ophthalmoplegia (INO) with an associated left conjugate horizontal gaze palsy",
+          0.07387640315229582
+        ],
+        [
+          "diplopia on right horizontal gaze due to a left internuclear ophthalmoplegia",
+          0.04534269987523331
+        ],
+        [
+          "internuclear ophthalmoplegia syndrome",
+          0.039603832923119614
+        ],
+        [
+          "conjugate horizontal gaze palsy",
+          0.01839368655589188
+        ],
+        [
+          "ophthalmoplegia",
+          0.01495584566799151
+        ],
+        [
+          "ophthalmoplegia (INO) with an associated left conjugate horizontal gaze palsy",
+          0.01368006807316888
+        ],
+        [
+          "diplopia",
+          0.010750566261483942
+        ],
+        [
+          "left internuclear ophthalmoplegia",
+          0.004731509067461481
+        ],
+        [
+          "left conjugate horizontal gaze palsy",
+          0.004595249607470232
+        ],
+        [
+          "left internuclear ophthalmoplegia (INO) with an associated left conjugate horizontal gaze palsy",
+          0.0043278974368008045
+        ],
+        [
+          "gaze",
+          0.003392595290224696
+        ],
+        [
+          "internuclear ophthalmoplegia (INO) with an associated left conjugate horizontal gaze",
+          0.0027644008495146485
+        ],
+        [
+          "ophthalmoplegia syndrome",
+          0.002016856809071434
+        ],
+        [
+          "Unilateral gaze",
+          0.0017778591610323774
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e639b111af46fc13000",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Sarcoma",
+          0.11860490940374596
+        ],
+        [
+          "sarcomas, brain tumors, leukemia, lymphoma",
+          0.06623666609817307
+        ],
+        [
+          "adrenal cortical carcinoma",
+          0.06508140604765361
+        ],
+        [
+          "Sarcomas, Breast cancer",
+          0.0594065896279452
+        ],
+        [
+          "sarcomas, brain tumors, leukemia, lymphoma, lung carcinoma",
+          0.05850423593559314
+        ],
+        [
+          "lymphoma, and adrenal cortical carcinoma",
+          0.05470268560361864
+        ],
+        [
+          "lymphoma",
+          0.053104017274141525
+        ],
+        [
+          "carcinoma of the breast followed by sarcomas, brain tumors, leukemia, lymphoma",
+          0.049330620795042156
+        ],
+        [
+          "leukemia, lymphoma, and adrenal cortical carcinoma",
+          0.04586207420893271
+        ],
+        [
+          "sarcomas, brain tumors, leukemia",
+          0.045345989093351684
+        ],
+        [
+          "leukemia, lymphoma",
+          0.044521769893835245
+        ],
+        [
+          "adrenalcortical carcinoma syndrome.sarcomas, brain tumors, leukemia, lymphoma",
+          0.04414525002326911
+        ],
+        [
+          "carcinoma of the breast followed by sarcomas, brain tumors, leukemia, lymphoma, lung carcinoma",
+          0.043571792601470115
+        ],
+        [
+          "lymphoma, lung carcinoma",
+          0.043304782293997646
+        ],
+        [
+          "adrenocortical carcinomsarcoma, breast cancer",
+          0.04288414674399124
+        ],
+        [
+          "sarcomas, brain tumors",
+          0.041724992664287586
+        ],
+        [
+          "lymphoma, lung carcinoma, and adrenocortical carcinomsarcoma, breast cancer",
+          0.04145030108726928
+        ],
+        [
+          "lung carcinoma",
+          0.04117545446442819
+        ],
+        [
+          "Sarcomas, Breast cancers, brain tumors",
+          0.04104231613925415
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e475d3035b8f0833c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "male gender",
+          0.08696849198737312
+        ],
+        [
+          "Neutrophilia and male gender",
+          0.08502527617637871
+        ],
+        [
+          "Anorexia, migratory Pain",
+          0.06746395051632537
+        ],
+        [
+          "migratory Pain, local Peritonism, Elevated C-reactive protein, Neutrophilia and male gender",
+          0.0629766092380905
+        ],
+        [
+          "migratory Pain",
+          0.061845761234725294
+        ],
+        [
+          "local Peritonism, Elevated C-reactive protein, Neutrophilia and male gender",
+          0.059452754243442915
+        ],
+        [
+          "Neutrophilia",
+          0.049762709625839265
+        ],
+        [
+          "Anorexia, migratory Pain, local Peritonism",
+          0.049366307130653306
+        ],
+        [
+          "Anorexia",
+          0.04571092773623562
+        ],
+        [
+          "migratory Pain, local Peritonism",
+          0.045255233654063774
+        ],
+        [
+          "local Peritonism",
+          0.042722977899504015
+        ],
+        [
+          "Anorexia, migratory Pain, local Peritonism, Elevated C-reactive protein, Neutrophilia",
+          0.04020657432105507
+        ],
+        [
+          "migratory Pain, local Peritonism, Elevated C-reactive protein, Neutrophilia",
+          0.03685829508197098
+        ],
+        [
+          "local Peritonism, Elevated C-reactive protein, Neutrophilia",
+          0.03479588986850897
+        ],
+        [
+          "Elevated C-reactive protein, Neutrophilia and male gender",
+          0.03284131403728513
+        ],
+        [
+          "male gender (Dude). RESULTS The final components of the new CPR, the APPEND score, were Anorexia",
+          0.03101302363349669
+        ],
+        [
+          "C-reactive protein, Neutrophilia and male gender",
+          0.026655095207602595
+        ],
+        [
+          "Anorexia, migratory Pain, local Peritonism, Elevated C-reactive protein",
+          0.025485087945197757
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e493a3e6d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "SR-lncRNA-1",
+          0.17169487697074828
+        ],
+        [
+          "Hotair",
+          0.13916954034440548
+        ],
+        [
+          "SR-lncRNA-1 and SR-lncRNA-2",
+          0.12270216211256832
+        ],
+        [
+          "SR-lncRNA-2",
+          0.09902022843410664
+        ],
+        [
+          "Mir155hg",
+          0.08940537223367731
+        ],
+        [
+          "Hotair, Mir155hg",
+          0.06269774446064241
+        ],
+        [
+          "lncRNA-2",
+          0.032821725323043616
+        ],
+        [
+          "lncRNA-1",
+          0.016215774683575584
+        ],
+        [
+          "lncRNA-1 and SR-lncRNA-2",
+          0.012249014423847808
+        ],
+        [
+          "SR-lncRNA",
+          0.005455321012146614
+        ],
+        [
+          "SR",
+          0.0013761887940925747
+        ],
+        [
+          "SR-lncRNA-1 and SR-lncRNA",
+          0.0010078179855662782
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e6e4a6c51b80c942300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "MLL1",
+          0.5283419115972517
+        ],
+        [
+          "MLL1 (mixed-lineage leukaemia 1) and multiple regulatory subunits in which WDR5",
+          0.16369192814473604
+        ],
+        [
+          "Mll4",
+          0.10969479120979496
+        ],
+        [
+          "WDR5",
+          0.03347537087250588
+        ],
+        [
+          "Mll4 (Kmt2d), a member of the COMPASS The lysine methyltransferase KMT2C",
+          0.02953567048702982
+        ],
+        [
+          "MLL1 (mixed-lineage leukaemia 1)",
+          0.02417366950844392
+        ],
+        [
+          "WDR5 (WD40 repeat-containing protein 5), RBBP5",
+          0.019105851249612883
+        ],
+        [
+          "Mll4 (Kmt2d)",
+          0.013527126370439544
+        ],
+        [
+          "KMT2C",
+          0.012715026650545812
+        ],
+        [
+          "DPY30",
+          0.010065285407088228
+        ],
+        [
+          "ASH2 (absent, small or homoeotic discs 2) and DPY30",
+          0.008804136732063008
+        ],
+        [
+          "RBBP5",
+          0.008202155712644205
+        ],
+        [
+          "RBBP5 (retinoblastoma-binding protein 5), ASH2",
+          0.007279755900617676
+        ],
+        [
+          "MLL3",
+          0.006127892045950181
+        ],
+        [
+          "ASH2",
+          0.005268306028758595
+        ],
+        [
+          "catalytic subunits such as MLL1",
+          0.004241862279404363
+        ],
+        [
+          "KMT2C (also known as MLL3)",
+          0.003569713031453324
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e6e5d1d51b80c942300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "schizophrenia",
+          0.2850643951600179
+        ],
+        [
+          "bipolar, schizophrenia",
+          0.20779401390644997
+        ],
+        [
+          "schizophrenia, and attention-deficit/hyperactivity disorder",
+          0.15270124981518685
+        ],
+        [
+          "attention-deficit/hyperactivity disorder",
+          0.14229249950429437
+        ],
+        [
+          "bipolar, schizophrenia, and attention-deficit/hyperactivity disorder",
+          0.11130960641302712
+        ],
+        [
+          "bipolar",
+          0.09409200695939735
+        ],
+        [
+          "hyperactivity disorder",
+          0.0037378120267456075
+        ],
+        [
+          "schizophrenia, and attention-deficit/hyperactivity",
+          0.0006682608801402877
+        ],
+        [
+          "attention-deficit/hyperactivity",
+          0.0006227094478348156
+        ],
+        [
+          "bipolar, schizophrenia, and attention-deficit/hyperactivity",
+          0.00048712014891603533
+        ],
+        [
+          "schizophrenia, and attention",
+          0.0003034398511100826
+        ],
+        [
+          "attention",
+          0.00028275613274889136
+        ],
+        [
+          "bipolar, schizophrenia, and attention",
+          0.00022118856550270153
+        ],
+        [
+          "zophrenia",
+          0.0001517493366426818
+        ],
+        [
+          "schizophrenia and ADHD",
+          0.00010573780497238139
+        ],
+        [
+          "s",
+          8.295512704924849e-05
+        ],
+        [
+          "chizophrenia",
+          8.249891996352407e-05
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e7f5a18835f4e477700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "H1N1",
+          0.47991145562123977
+        ],
+        [
+          "H1N1 vaccine strain, 17 \u03bcg of haemagglutinin per H3N2",
+          0.262788773414097
+        ],
+        [
+          "H3N2",
+          0.2049131132830998
+        ],
+        [
+          "H1N1 vaccine strain",
+          0.018859132368689472
+        ],
+        [
+          "H1N1 vaccine strain, 17 \u03bcg of haemagglutinin per H3N2 vaccine strain",
+          0.008738914078479883
+        ],
+        [
+          "H3N2 vaccine strain",
+          0.0068142868786599505
+        ],
+        [
+          "H1N1 vaccine",
+          0.004828419887516776
+        ],
+        [
+          "fluvirin: 18 \u03bcg of haemagglutinin per H1N1",
+          0.0022800911134788415
+        ],
+        [
+          "1",
+          0.0016370300816936027
+        ],
+        [
+          "H3N2 vaccine strain, and 15 \u03bcg of haemagglutinin per B vaccine strain",
+          0.0012760004494091497
+        ],
+        [
+          "H3N2 vaccine strain, and 15 \u03bcg of haemagglutinin per B",
+          0.001153869407015912
+        ],
+        [
+          "H",
+          0.0010795353175741455
+        ],
+        [
+          "H1N1 vaccine strain, 17 \u03bcg of haemagglutinin per H3N2 vaccine",
+          0.0010632140626948346
+        ],
+        [
+          "18 \u03bcg of haemagglutinin per H1N1",
+          0.001002280439440556
+        ],
+        [
+          "1 vaccine strain, 17 \u03bcg of haemagglutinin per H3N2",
+          0.0008964010385069072
+        ],
+        [
+          "H3N2 vaccine",
+          0.0008290555979340183
+        ],
+        [
+          "vaccine strain, 17 \u03bcg of haemagglutinin per H3N2",
+          0.0008276652228157779
+        ],
+        [
+          "haemagglutinin per H1N1",
+          0.0005930999877040622
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e7f5b43835f4e477700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Victoria and Yamagata",
+          0.48921149545473147
+        ],
+        [
+          "Yamagata",
+          0.38081630173576153
+        ],
+        [
+          "Victoria",
+          0.11026112295072324
+        ],
+        [
+          "V",
+          0.0005688126768153625
+        ],
+        [
+          "Victoria and Yamagata)",
+          0.0002896906047563453
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e44baaa48dab47f2600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "HER2",
+          0.34405619876728283
+        ],
+        [
+          "EGFR/HER2",
+          0.2501807397169888
+        ],
+        [
+          "HER2 dual tyrosine kinase",
+          0.09121523540157929
+        ],
+        [
+          "epidermal growth factor receptor 2",
+          0.07848075895556028
+        ],
+        [
+          "EGFR/HER2 dual tyrosine kinase",
+          0.06632723127206859
+        ],
+        [
+          "HER2 dual tyrosine kinase inhibitor",
+          0.04103498706257936
+        ],
+        [
+          "EGFR/HER2 dual tyrosine kinase inhibitor",
+          0.029838623615490008
+        ],
+        [
+          "HER2 dual tyrosine kinase inhibitor SHR1258",
+          0.020596613198962964
+        ],
+        [
+          "tyrosine kinase inhibitor developed for the treatment of human epidermal growth factor receptor 2",
+          0.015739792295806316
+        ],
+        [
+          "EGFR/HER2 dual tyrosine kinase inhibitor SHR1258",
+          0.014976843737283215
+        ],
+        [
+          "HER2 dual",
+          0.008360523530343236
+        ],
+        [
+          "kinase",
+          0.006650090809690072
+        ],
+        [
+          "EGFR/HER2 dual",
+          0.006079361362291087
+        ],
+        [
+          "EGFR",
+          0.005402501407467761
+        ],
+        [
+          "pan-ErbB receptor tyrosine kinase",
+          0.00493272607753631
+        ],
+        [
+          "kinase inhibitor developed for the treatment of human epidermal growth factor receptor 2",
+          0.004553615042471504
+        ],
+        [
+          "tyrosine kinase",
+          0.004345971510796573
+        ],
+        [
+          "dual tyrosine kinase",
+          0.002878651926067808
+        ],
+        [
+          "kinase inhibitor",
+          0.0023142141265883203
+        ],
+        [
+          "receptor tyrosine kinase",
+          0.0020353201831454955
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e35c75d158f994d3a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "TALEN",
+          0.35037079154010986
+        ],
+        [
+          "TALEN and CRISPR/Cas9",
+          0.2817884050439665
+        ],
+        [
+          "CRISPR/Cas9",
+          0.10570790275168618
+        ],
+        [
+          "TALEN and CRISPR/Cas9 systems",
+          0.057148420463993155
+        ],
+        [
+          "TALEN and CRISPR",
+          0.030678495849109647
+        ],
+        [
+          "TALEN and CRISPR/Cas9 systems to induce targeted mutations",
+          0.021979963763564512
+        ],
+        [
+          "CRISPR/Cas9 systems",
+          0.021438212377396074
+        ],
+        [
+          "CRISPR/Cas9 systems to induce targeted mutations and homologous recombination-mediated transgenesis",
+          0.020140354713936593
+        ],
+        [
+          "CRISPR",
+          0.011508491469972668
+        ],
+        [
+          "TALEN and CRISPR/Cas9 systems to induce targeted mutations and homologous recombination",
+          0.010803053528082229
+        ],
+        [
+          "CRISPR/Cas9 systems to induce targeted mutations",
+          0.008245392040321682
+        ],
+        [
+          "homologous recombination-mediated transgenesis",
+          0.008027273376289024
+        ],
+        [
+          "Cas9",
+          0.007622689487549679
+        ],
+        [
+          "CRISPR/Cas9 systems to induce targeted mutations and homologous recombination",
+          0.004052573176634429
+        ],
+        [
+          "homologous recombination",
+          0.001615220448116036
+        ],
+        [
+          "Cas9 systems",
+          0.0015459282784647597
+        ],
+        [
+          "Cas9 systems to induce targeted mutations and homologous recombination-mediated transgenesis",
+          0.001452338625183794
+        ],
+        [
+          "homologous recombination-mediated transgenesis in the sea anemone Nematostella vectensis",
+          0.0013765781565823643
+        ],
+        [
+          "TALE",
+          0.0008092285939636853
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e3e8b1c48dab47f2600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "increases its steady-state levels",
+          0.6026801456420059
+        ],
+        [
+          "increases",
+          0.12801173612230526
+        ],
+        [
+          "destabilizing effect",
+          0.03067013614659428
+        ],
+        [
+          "increases its steady-state levels ostensibly by occluding access to proteases",
+          0.021109754813096026
+        ],
+        [
+          "destabilizing",
+          0.012865263756339947
+        ],
+        [
+          "levels",
+          0.0030819302656507714
+        ],
+        [
+          "recruitment of dimers on accumulating wild-type Tau increases its steady-state levels",
+          0.002332568916539233
+        ],
+        [
+          "increases its steady-state levels ostensibly",
+          0.0015602826860649747
+        ],
+        [
+          "steady-state levels",
+          0.001075258805840881
+        ],
+        [
+          "levels ostensibly by occluding access to proteases in a phosphorylation-dependent manner",
+          0.0009639065515750989
+        ],
+        [
+          "occluding access to proteases in a phosphorylation-dependent manner",
+          0.0008985381032170483
+        ],
+        [
+          "toxicity",
+          0.0005148451305536267
+        ],
+        [
+          "recruitment of dimers on accumulating wild-type Tau increases",
+          0.0004954472099176783
+        ],
+        [
+          "phosphorylation-dependent manner",
+          0.00045184037101054565
+        ],
+        [
+          "regulate",
+          0.0004297362047416204
+        ],
+        [
+          "stabilizes the mutant protein, elevated D14-3-3\u025b has a destabilizing effect",
+          0.0004236158181288809
+        ],
+        [
+          "elevated D14-3-3\u025b has a destabilizing effect",
+          0.000411945464724935
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e4b52e36d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "trifluridine/tipiracil",
+          0.39629334365941915
+        ],
+        [
+          "trifluridine",
+          0.38373376211809695
+        ],
+        [
+          "tipiracil",
+          0.1781432812176574
+        ],
+        [
+          "trifluridine and tipiracil",
+          0.025583478548752054
+        ],
+        [
+          "TAS-102",
+          0.006102870835352453
+        ],
+        [
+          "trifluridine, FTD) with a thymidine phosphorylase inhibitor (tipiracil",
+          0.002001968555532929
+        ],
+        [
+          "trifluridine/tipiracil (TAS-102, Lonsurf\u00ae)",
+          0.0006410906519754017
+        ],
+        [
+          "tipiracil (TAS-102, Lonsurf\u00ae)",
+          0.0002675665031471756
+        ],
+        [
+          "Trifluridine/tipiracil (FTD/TPI; TAS-102, Lonsurf\u00ae)",
+          0.00022416242506273992
+        ],
+        [
+          "tipiracil (FTD/TPI; TAS-102, Lonsurf\u00ae)",
+          0.00021887972265975867
+        ],
+        [
+          "triflurid",
+          0.00018586617879657734
+        ],
+        [
+          "trifluridine/tipiraci",
+          9.68799631677368e-05
+        ],
+        [
+          "tipiraci",
+          6.912301523105312e-05
+        ],
+        [
+          "102",
+          4.464825528482198e-05
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5d38673da1e159510500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "miR-146a",
+          0.6259332869726172
+        ],
+        [
+          "miR-143-3p.The NF-\u03baB family member RelB regulates microRNA miR-146a",
+          0.12587696694732722
+        ],
+        [
+          "146a",
+          0.05361024129035339
+        ],
+        [
+          "microRNA miR-146a",
+          0.04277980753600892
+        ],
+        [
+          "miR-143",
+          0.029698232541353523
+        ],
+        [
+          "143-3p.The NF-\u03baB family member RelB regulates microRNA miR-146a",
+          0.022021115695267136
+        ],
+        [
+          "miR-143-3p",
+          0.018110968608609813
+        ],
+        [
+          "miR-143-5p",
+          0.01195733835633969
+        ],
+        [
+          "143",
+          0.005195455773984072
+        ],
+        [
+          "microRNA-16 targeting of COX-2.. We identified miR-16",
+          0.004411901610048697
+        ],
+        [
+          "miR-26b",
+          0.003255029741685965
+        ],
+        [
+          "143-3p",
+          0.00316836149420755
+        ],
+        [
+          "miR-16",
+          0.0029001451166838104
+        ],
+        [
+          "miR-146",
+          0.0026057157738425844
+        ],
+        [
+          "microRNA-16",
+          0.001735685215633258
+        ],
+        [
+          "143-5p",
+          0.0013546861383725696
+        ],
+        [
+          "miR-26a and miR-26b",
+          0.001074291542743833
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e5e50751af46fc13000",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "mupirocin",
+          0.11599366519879982
+        ],
+        [
+          "clarithromycin",
+          0.11566012802777162
+        ],
+        [
+          "azithromycin, clarithromycin",
+          0.08729060864092045
+        ],
+        [
+          "clarithromycin, erythromycin, fusidic acid, mupirocin",
+          0.0867789805576745
+        ],
+        [
+          "azithromycin",
+          0.06712049216331518
+        ],
+        [
+          "azithromycin, clarithromycin, erythromycin, fusidic acid, mupirocin",
+          0.06549352970021914
+        ],
+        [
+          "mupirocin, retapamulin, rifampin",
+          0.06344962052769695
+        ],
+        [
+          "fusidic acid, mupirocin",
+          0.05810777989398555
+        ],
+        [
+          "clarithromycin, erythromycin",
+          0.04640842852731692
+        ],
+        [
+          "erythromycin, fusidic acid, mupirocin",
+          0.039379373432643264
+        ],
+        [
+          "mupirocin, retapamulin, rifampin, and telithromycin",
+          0.0377408962992762
+        ],
+        [
+          "azithromycin, clarithromycin, erythromycin",
+          0.03502520740116632
+        ],
+        [
+          "rifampin",
+          0.033695710101637695
+        ],
+        [
+          "fusidic acid, mupirocin, retapamulin, rifampin",
+          0.03178549947241835
+        ],
+        [
+          "erythromycin, fusidic acid, mupirocin, retapamulin, rifampin",
+          0.02154088584611377
+        ],
+        [
+          "erythromycin",
+          0.021059648611390903
+        ],
+        [
+          "rifampin, and telithromycin",
+          0.020042772361755227
+        ],
+        [
+          "clarithromycin, erythromycin, fusidic acid",
+          0.019672822277892226
+        ],
+        [
+          "fusidic acid, mupirocin, retapamulin, rifampin, and telithromycin",
+          0.018906547106701532
+        ],
+        [
+          "azithromycin, clarithromycin, erythromycin, fusidic acid",
+          0.014847403851304185
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e47546d3f5415952900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Crohn's Disease",
+          0.525800463334815
+        ],
+        [
+          "Crohn's",
+          0.33489407624451023
+        ],
+        [
+          "ulcerative colitis",
+          0.1176584232799343
+        ],
+        [
+          "Ulcerative Colitis Endoscopic Index of Severity, Ulcerative Colitis",
+          0.01918663125165429
+        ],
+        [
+          "Crohn's Disease Activity Index (CDAI) <220 or Rachmilewitz Index (RI) <11",
+          0.0005639198289082883
+        ],
+        [
+          "Disease",
+          0.0003302348290660393
+        ],
+        [
+          "colitis",
+          0.00028290669970608493
+        ],
+        [
+          "C",
+          0.00025424367451506704
+        ],
+        [
+          "Crohn's Disease Activity Index (CDAI) <220",
+          0.00020270614292576276
+        ],
+        [
+          "Crohn",
+          0.0001909084309094738
+        ],
+        [
+          "Crohn's Disease Activity Index",
+          7.933566509441052e-05
+        ],
+        [
+          "hn's Disease",
+          6.977059090958567e-05
+        ],
+        [
+          "hn's",
+          4.443844998443954e-05
+        ],
+        [
+          "Colitis Endoscopic Index of Severity, Ulcerative Colitis",
+          4.198684927312767e-05
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e80669e835f4e477700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "captoprilenalapril",
+          0.4200058914076476
+        ],
+        [
+          "captoprilenalapril, lisinopril",
+          0.2343060396908623
+        ],
+        [
+          "captoprilenalapril, lisinopril, or ramipril",
+          0.1352454135388132
+        ],
+        [
+          "lisinopril",
+          0.10532441249150963
+        ],
+        [
+          "lisinopril, or ramipril",
+          0.06086040742422063
+        ],
+        [
+          "ramipril",
+          0.04057493918712725
+        ],
+        [
+          "captopril",
+          0.0008320670461117873
+        ],
+        [
+          "rilenalapril",
+          0.000396472632080102
+        ],
+        [
+          "ril",
+          0.0003746116827463791
+        ],
+        [
+          "angiotensin-converting enzyme inhibitor captoprilenalapril",
+          0.00035123535341404676
+        ],
+        [
+          "lapril",
+          0.00032969730805441325
+        ],
+        [
+          "rilenalapril, lisinopril",
+          0.00022145397923471841
+        ],
+        [
+          "captop",
+          0.0002099659830508065
+        ],
+        [
+          "ril, lisinopril",
+          0.0002092433149212649
+        ],
+        [
+          "angiotensin-converting enzyme inhibitor captoprilenalapril, lisinopril",
+          0.00019618621909251583
+        ],
+        [
+          "cap",
+          0.0001892068787967717
+        ],
+        [
+          "enalapril",
+          0.00018859994610988587
+        ],
+        [
+          "lapril, lisinopril",
+          0.00018415591620677958
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e4609b83f5415952900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "proliferative vitreoretinopathy",
+          0.49880026876214645
+        ],
+        [
+          "vitreoretinopathy",
+          0.2173984257874037
+        ],
+        [
+          "Retinopathy",
+          0.059485325893510216
+        ],
+        [
+          "proliferative vitreoretinopathy of the left eye",
+          0.047929876698012776
+        ],
+        [
+          "aplastic anemia, and Coats' plus syndrome. Retinopathy",
+          0.027474219242988786
+        ],
+        [
+          "severe proliferative vitreoretinopathy",
+          0.024907306379632718
+        ],
+        [
+          "cotton wool spots",
+          0.022019911087917808
+        ],
+        [
+          "vitreoretinopathy of the left eye",
+          0.020889883977390302
+        ],
+        [
+          "retinal hemorrhages, vessel sclerosis, and cotton wool spots",
+          0.017557856925846143
+        ],
+        [
+          "pulmonary fibrosis, aplastic anemia, and Coats' plus syndrome. Retinopathy",
+          0.008618218353473315
+        ],
+        [
+          "idiopathic pulmonary fibrosis, aplastic anemia, and Coats' plus syndrome. Retinopathy",
+          0.008424541877228815
+        ],
+        [
+          "retinal hemorrhages, vessel sclerosis",
+          0.008271390062791954
+        ],
+        [
+          "Coats' plus syndrome. Retinopathy",
+          0.0080982821674998
+        ],
+        [
+          "retinal hemorrhages",
+          0.005230117020334232
+        ],
+        [
+          "vessel sclerosis, and cotton wool spots",
+          0.005140792061962237
+        ],
+        [
+          "dyskeratosis congenita, as well as a subset of idiopathic pulmonary fibrosis, aplastic anemia",
+          0.005100869861847284
+        ],
+        [
+          "dyskeratosis congenita, as well as a subset of idiopathic pulmonary fibrosis",
+          0.004880198378745291
+        ],
+        [
+          "aplastic anemia",
+          0.004193811836991289
+        ],
+        [
+          "cotton wool spots in the right eye associated with peripheral retinal nonperfusion",
+          0.002925590110419872
+        ],
+        [
+          "dyskeratosis congenita",
+          0.0026531135138572154
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5d387360a1e159510500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "reduced activation of the AKT/mTOR pathway, which is known to enhance Th17 differentiation",
+          0.274698793888141
+        ],
+        [
+          "reduced Il17 transcription",
+          0.27322523162200557
+        ],
+        [
+          "enhance Th17 differentiation",
+          0.09056078228312317
+        ],
+        [
+          "reduced activation of the AKT/mTOR pathway",
+          0.06653351383885407
+        ],
+        [
+          "reduced activation of the AKT",
+          0.06637611560438983
+        ],
+        [
+          "reduced",
+          0.01709138270264477
+        ],
+        [
+          "decreased activation of the cAMP response element modulator \u03b1 (CREM-\u03b1)",
+          0.011666111163754841
+        ],
+        [
+          "differentiation",
+          0.00911586010582052
+        ],
+        [
+          "inhibited crocin-mediated HO-1 expression",
+          0.008659992089178616
+        ],
+        [
+          "phosphorylation of Akt",
+          0.00736028744272665
+        ],
+        [
+          "inhibited crocin-mediated HO-1 expression, Nrf2 activation",
+          0.006897957072557086
+        ],
+        [
+          "AKT/mTOR pathway, which is known to enhance Th17 differentiation",
+          0.005106589575556751
+        ],
+        [
+          "inhibited crocin-mediated HO-1 expression, Nrf2 activation, and phosphorylation of Akt",
+          0.004924496620054457
+        ],
+        [
+          "reduced Il17 transcription through decreased activation",
+          0.004388153791115082
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e4949d36d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Cornelia de Lange Syndrome (CdLS), and Warsaw Breakage Syndrome",
+          0.14281942719265295
+        ],
+        [
+          "Cornelia de Lange Syndrome",
+          0.13815184458222277
+        ],
+        [
+          "Roberts syndrome (RBS), Cornelia de Lange Syndrome (CdLS), and Warsaw Breakage Syndrome",
+          0.12652339780339983
+        ],
+        [
+          "Warsaw Breakage Syndrome",
+          0.12554979991994972
+        ],
+        [
+          "Roberts syndrome (RBS), Cornelia de Lange Syndrome",
+          0.12238839724354553
+        ],
+        [
+          "Roberts syndrome",
+          0.09338018055933606
+        ],
+        [
+          "Cornelia de Lange Syndrome (CdLS), and Warsaw Breakage Syndrome (WABS)",
+          0.06982013398739328
+        ],
+        [
+          "Warsaw Breakage Syndrome (WABS)",
+          0.061377531228134295
+        ],
+        [
+          "Cornelia de Lange Syndrome (CdLS)",
+          0.03337637640470919
+        ],
+        [
+          "Roberts syndrome (RBS), Cornelia de Lange Syndrome (CdLS)",
+          0.029568054095278337
+        ],
+        [
+          "Roberts syndrome (RBS)",
+          0.012313913035259343
+        ],
+        [
+          "Roberts syndrome (RBS), Cornelia de Lange Syndrome (CdLS",
+          0.007584482810817115
+        ],
+        [
+          "CdLS), and Warsaw Breakage Syndrome (WABS)",
+          0.006256588485823911
+        ],
+        [
+          "Cornelia de Lange Syndrome (CdLS), and Warsaw Breakage Syndrome (WABS",
+          0.001882940830537913
+        ],
+        [
+          "Roberts syndrome (RBS), Cornelia de Lange Syndrome (CdLS), and Warsaw Breakage Syndrome (WABS",
+          0.0016680928948206004
+        ],
+        [
+          "(RBS), Cornelia de Lange Syndrome (CdLS), and Warsaw Breakage Syndrome",
+          0.0013333070521348454
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e3c841148dab47f2600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "multiple sclerosis",
+          0.3757151180681632
+        ],
+        [
+          "Alzheimer disease",
+          0.25883118096437163
+        ],
+        [
+          "Alzheimer disease (AD) patientsThe hypothetical roles of arsenic in multiple sclerosis",
+          0.22133072049521477
+        ],
+        [
+          "Alzheimer's disease",
+          0.10745943050020552
+        ],
+        [
+          "Alzheimer",
+          0.018651570518519987
+        ],
+        [
+          "multiple sclerosis (MS)",
+          0.010078131555312451
+        ],
+        [
+          "Alzheimer's",
+          0.00393040517983206
+        ],
+        [
+          "neurofibrillary tangles (NFTs) in the brain of Alzheimer disease",
+          0.0016148961778891838
+        ],
+        [
+          "Alzheimer's disease (AD) is the most common cause of progressive dementia",
+          0.0007095813071229829
+        ],
+        [
+          "multiple",
+          0.00031004825543903277
+        ],
+        [
+          "Alzheimer disease (AD) patientsThe hypothetical roles of arsenic in multiple",
+          0.00027728702539101766
+        ],
+        [
+          "amyloid P protein are all found in lesions of multiple sclerosis",
+          0.0002476565125201373
+        ],
+        [
+          "rosis",
+          0.00022467501162447008
+        ],
+        [
+          "Alzheimer disease (AD)",
+          0.0001395915555598089
+        ],
+        [
+          "neurofibrillary tangles (NFTs) in the brain of Alzheimer",
+          0.0001163706390774248
+        ],
+        [
+          "disease",
+          8.313190054410852e-05
+        ],
+        [
+          "Alzheimer disease (AD) patients",
+          8.2436127209996e-05
+        ],
+        [
+          "Al",
+          8.168375566005953e-05
+        ],
+        [
+          "disease (AD) patientsThe hypothetical roles of arsenic in multiple sclerosis",
+          7.1087429941823e-05
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e4703d13f5415952900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "resveratrol",
+          0.5892060034212562
+        ],
+        [
+          "resveratrol and 3,3'-diindolylmethane",
+          0.28080765173683075
+        ],
+        [
+          "3,3'-diindolylmethane",
+          0.09174717087338077
+        ],
+        [
+          "diindolylmethane",
+          0.0174896844599195
+        ],
+        [
+          "A combination of resveratrol",
+          0.006620607829538539
+        ],
+        [
+          "resveratrol and 3,3'-diindolylmethane, a potent radioprotector",
+          0.0033441125763286946
+        ],
+        [
+          "A combination of resveratrol and 3,3'-diindolylmethane",
+          0.0030754438889102134
+        ],
+        [
+          "Amifostine",
+          0.0019261176777288444
+        ],
+        [
+          "combination of resveratrol",
+          0.001875153270938411
+        ],
+        [
+          "combination of resveratrol and 3,3'-diindolylmethane",
+          0.0008710572830107494
+        ],
+        [
+          "3,3'-diindolylmethane, a potent radioprotector",
+          0.0008197120333559182
+        ],
+        [
+          "resveratrol and 3",
+          0.0006563320669452391
+        ],
+        [
+          "re",
+          0.00041409694015141606
+        ],
+        [
+          "veratrol",
+          0.0003860635753501065
+        ],
+        [
+          "rol",
+          0.0003844585314834031
+        ],
+        [
+          "melatonin",
+          0.0003763338348709559
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e52900d6d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "PAR1&2",
+          0.404668764782411
+        ],
+        [
+          "PAR1",
+          0.3777445267796869
+        ],
+        [
+          "PAR",
+          0.038190305652353505
+        ],
+        [
+          "PAR1&2 endow breast cancer growth.Here we show signal-binding motifs in PAR1&2",
+          0.022781283802398525
+        ],
+        [
+          "PAR1&2 endow breast cancer growth.Here we show signal-binding motifs in PAR1",
+          0.018547634671483147
+        ],
+        [
+          "PAR1&2 endow breast cancer growth.Here we show signal-binding motifs in PAR",
+          0.010590982572137754
+        ],
+        [
+          "PAR1&2 endow breast cancer",
+          0.009355824131556523
+        ],
+        [
+          "PAR1&2 endow breast cancer growth",
+          0.008685070701720251
+        ],
+        [
+          "PAR2",
+          0.004699842163650986
+        ],
+        [
+          "PAR1 and PAR2",
+          0.0029904541082466417
+        ],
+        [
+          "PH motifs in PAR1&2",
+          0.0012177669412778553
+        ],
+        [
+          "PH motifs in PAR1",
+          0.0011367440163272625
+        ],
+        [
+          "2",
+          0.0008012076240571697
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e52c5166d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "relapsing-remitting",
+          0.2227637227906888
+        ],
+        [
+          "secondary progressive multiple sclerosis",
+          0.10235669252526872
+        ],
+        [
+          "primary progressive",
+          0.0936193390451763
+        ],
+        [
+          "relapsing-remitting multiple sclerosis",
+          0.0825090144865659
+        ],
+        [
+          "secondary progressive",
+          0.06461202115834805
+        ],
+        [
+          "primary progressive multiple sclerosis",
+          0.03278314038996531
+        ],
+        [
+          "secondary progressive multiple sclerosis. relapsing-remitting MS",
+          0.02607813297820201
+        ],
+        [
+          "secondary progressive multiple sclerosis. relapsing-remitting",
+          0.025558150300484077
+        ],
+        [
+          "relapsing-remitting MS (RRMS) C and D groupsMultiple sclerosis",
+          0.02433436327446252
+        ],
+        [
+          "primary progressive MS A and B groups, the relapsing-remitting",
+          0.017239712796107826
+        ],
+        [
+          "relapsing-remitting MS",
+          0.015972351479819732
+        ],
+        [
+          "primary progressive MS A and B",
+          0.014927082300095146
+        ],
+        [
+          "secondary progressive multiple sclerosis. relapsing-remitting MS, primary and secondary progressive",
+          0.01061379232482102
+        ],
+        [
+          "primary progressive MS A and B groups, the relapsing-remitting MS",
+          0.006985059155066154
+        ],
+        [
+          "relapsing-remitting MS, primary and secondary progressive",
+          0.0065007422765869585
+        ],
+        [
+          "primary progressive MS A",
+          0.006255785878398382
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e6e8897c6a8763d2300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "S63845A-1210477",
+          0.7466823850687518
+        ],
+        [
+          "S63845,Mcl-1 inhibitor S63845A-1210477",
+          0.06952262454914879
+        ],
+        [
+          "S63845",
+          0.0563238372131803
+        ],
+        [
+          "1210477",
+          0.04953772499598709
+        ],
+        [
+          "S63845A",
+          0.038008530936155485
+        ],
+        [
+          "A-1210477",
+          0.01044298293789046
+        ],
+        [
+          "A-1210477 (an MCL-1 inhibitor)a highly specific MCL-1 inhibitor, S63845",
+          0.006044916232896629
+        ],
+        [
+          "S63845,Mcl-1 inhibitor S63845",
+          0.005244239138410581
+        ],
+        [
+          "Mcl-1 inhibitor S63845A-1210477",
+          0.004518987164782019
+        ],
+        [
+          "S63845,Mcl-1 inhibitor S63845A",
+          0.003538924821021106
+        ],
+        [
+          "1210477 (an MCL-1 inhibitor)a highly specific MCL-1 inhibitor, S63845",
+          0.003310342207786634
+        ],
+        [
+          "-1210477",
+          0.0019142453629145818
+        ],
+        [
+          "63845A-1210477",
+          0.00180627213473233
+        ],
+        [
+          "-1210477 (an MCL-1 inhibitor)a highly specific MCL-1 inhibitor, S63845",
+          0.0011080601143227526
+        ],
+        [
+          "inhibitor S63845A-1210477",
+          0.0010901292265912865
+        ],
+        [
+          "S",
+          0.0004545766178985922
+        ],
+        [
+          "S63845A-1210477, a selective",
+          0.00045122127752974834
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e7659db835f4e477700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Rotarix",
+          0.6199168773439188
+        ],
+        [
+          "RotaTeq and Rotarix",
+          0.2984278613772735
+        ],
+        [
+          "RotaTeq",
+          0.07933202176131834
+        ],
+        [
+          "rotavirus vaccines, RotaTeq and Rotarix",
+          0.0005041404999936037
+        ],
+        [
+          "vaccines, RotaTeq and Rotarix",
+          0.0001361625159484855
+        ],
+        [
+          "rotavirus vaccines, RotaTeq",
+          0.00013565800974017726
+        ],
+        [
+          "RotaTe",
+          0.0001258554538244313
+        ],
+        [
+          ", RotaTeq and Rotarix",
+          0.00012355694644650183
+        ],
+        [
+          "Rot",
+          0.00011449872164081357
+        ],
+        [
+          "q and Rotarix",
+          9.917081294440545e-05
+        ],
+        [
+          "x",
+          6.842069734586448e-05
+        ],
+        [
+          "RotaTeq and Rot",
+          5.5119661810309204e-05
+        ],
+        [
+          "Rotarix, are licensed for global use;",
+          4.829382122254976e-05
+        ],
+        [
+          "Two rotavirus vaccines, RotaTeq and Rotarix",
+          3.900706594713752e-05
+        ],
+        [
+          "vaccines, RotaTeq",
+          3.663965881539183e-05
+        ],
+        [
+          "Rotari",
+          3.6156665881919907e-05
+        ],
+        [
+          ", RotaTeq",
+          3.324765505790304e-05
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e80e449835f4e477700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "pancreas",
+          0.260023262840812
+        ],
+        [
+          "pneumocytes and surface enterocytes of the small intestine",
+          0.08625038739523568
+        ],
+        [
+          "islets of pancreas",
+          0.08103420686847251
+        ],
+        [
+          "pancreas, but not in hepatocytes",
+          0.07520932349624329
+        ],
+        [
+          "small intestine",
+          0.06986014986095651
+        ],
+        [
+          "hepatocytes",
+          0.05761691672608742
+        ],
+        [
+          "lung, kidney, heart, and islets of pancreas",
+          0.05565899035499085
+        ],
+        [
+          "enterocytes of the small intestine",
+          0.048141068697118955
+        ],
+        [
+          "pneumocytes",
+          0.0434704861289199
+        ],
+        [
+          "heart, and islets of pancreas",
+          0.04212788695147866
+        ],
+        [
+          "kidney, heart, and islets of pancreas",
+          0.04124500459922418
+        ],
+        [
+          "islets of pancreas, but not in hepatocytes",
+          0.02582103856642928
+        ],
+        [
+          "pneumocytes and surface enterocytes",
+          0.022209720352938313
+        ],
+        [
+          "lung, kidney, heart, and islets of pancreas, but not in hepatocytes",
+          0.01773538598159447
+        ],
+        [
+          "pneumocytes and surface enterocytes of the small intestine.endothelial cells",
+          0.017025032279116538
+        ],
+        [
+          "islets",
+          0.016215142909713785
+        ],
+        [
+          "small intestine.endothelial cells",
+          0.013789750310992829
+        ],
+        [
+          "heart, and islets of pancreas, but not in hepatocytes",
+          0.013423785284428095
+        ],
+        [
+          "kidney, heart, and islets of pancreas, but not in hepatocytes",
+          0.013142460395246606
+        ]
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e7768f9835f4e477700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        [
+          "Exubera\u00ae",
+          0.9269253428777995
+        ],
+        [
+          "Afrezza\u00ae",
+          0.052328392543698296
+        ],
+        [
+          "Exubera",
+          0.018772680187648907
+        ],
+        [
+          "Afrezza",
+          0.0011918562277552296
+        ],
+        [
+          "\u00ae",
+          0.0003716393341200113
+        ],
+        [
+          "ubera\u00ae",
+          9.820290713265292e-05
+        ],
+        [
+          "first inhalable insulin, Exubera\u00ae",
+          8.962040085108511e-05
+        ],
+        [
+          "Ex",
+          6.135204915024188e-05
+        ],
+        [
+          "frezza\u00ae",
+          4.4129463147676546e-05
+        ],
+        [
+          "ra\u00ae",
+          3.082473560045308e-05
+        ],
+        [
+          "inhalable insulin, Exubera\u00ae",
+          1.88549974086186e-05
+        ],
+        [
+          "the first inhalable insulin, Exubera\u00ae",
+          1.198025741423762e-05
+        ],
+        [
+          "Exubera\u00ae, due to suboptimal market acceptance",
+          1.152320746099867e-05
+        ],
+        [
+          "Afrezza\u00ae and several others awaiting approval",
+          9.125527513592e-06
+        ],
+        [
+          "insulin, Exubera\u00ae",
+          7.4624181748268464e-06
+        ],
+        [
+          "A",
+          7.297526108085568e-06
+        ],
+        [
+          "za\u00ae",
+          6.82152117964433e-06
+        ],
+        [
+          "uation of the first inhalable insulin, Exubera\u00ae",
+          6.471094488644564e-06
+        ],
+        [
+          "discontinuation of the first inhalable insulin, Exubera\u00ae",
+          6.422723347243275e-06
+        ]
+      ]
+    }
+  ]
+}

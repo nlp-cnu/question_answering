@@ -1,0 +1,1874 @@
+{
+  "questions": [
+    {
+      "type": "factoid",
+      "id": "5e48edb1f8b2df0d4900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "gold nanoparticle",
+        "gold nanoparticle (GNP) and other metal nanoparticle",
+        "gold",
+        "gold nanoparticle (GNP) and other metal nanoparticle (MNP)",
+        "metal nanoparticle"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e29f666aa19d7443100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "PP2A",
+        "Protein phosphatase 2A",
+        "Protein phosphatase 2A (PP2A)",
+        "2A",
+        "PP2"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e480da0d14c9f295d00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "CyberKnife",
+        "C"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2e136bfbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "(PPIs) as druggable cancer targets",
+        "PPIs",
+        "PPI networks are limited",
+        "PPI",
+        "protein-protein interactions (PPIs) as druggable cancer targets"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5c74266a7c78d6947100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "transcription",
+        "active transcription",
+        "transcription sites",
+        "active transcription sites",
+        "gene-expression"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2b1ed9fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "Parkinson's disease",
+        "Parkinson's disease (PD)",
+        "Parkinson's",
+        "disease",
+        "(NMSs) are a real burden in Parkinson's disease"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e355e20fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "lamin B1",
+        "LMNB1",
+        "lamin B1 (LMNB1) gene",
+        "lamin B1 (LMNB1)",
+        "(LMNB1) gene"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e48f2b6f8b2df0d4900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "severity of radiation toxicity",
+        "radiation toxicity",
+        "the severity of radiation toxicity",
+        "with the severity of radiation toxicity",
+        "toxicity"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2f0afcfbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "VEGF-R",
+        "VEGF",
+        "R",
+        "VEGF-R inhibitor",
+        "VE"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e490d276d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "systems biology of DNA damage and repair",
+        "DNA damage and repair",
+        "systems biology",
+        "repair",
+        "systems biology of DNA damage"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5c7a4fddd774d0424000",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "rare cell species in blood circulation",
+        "circulating tumor cells (CTCs), a rare cell species in blood circulation",
+        "a rare cell species in blood circulation",
+        "rare",
+        "rare cell species"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e48f90bf8b2df0d4900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "intimal hyperplasia",
+        "anastomotic intimal hyperplasia",
+        "hyperplasia",
+        "vascular grafts are limited because of the development of anastomotic intimal hyperplasia",
+        "synthetic vascular grafts are limited because of the development of anastomotic intimal hyperplasia"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e46da9c3f5415952900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "genomic nucleotide excision repair",
+        "nucleotide excision repair",
+        "global genomic nucleotide excision repair",
+        "excision repair",
+        "genomic nucleotide excision repair (NER)"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2902688b3851296d00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "IGF-I",
+        "IGF-I receptor",
+        "IGF",
+        "I",
+        "IGF-I receptor-blocking antibodies"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e46e74e3f5415952900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "mutations",
+        "XPA",
+        "mutations in XPA",
+        "Any mutations",
+        "mutations in XPA cause classical Xeroderma pigmentosum disease. The extent to which XPA"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2a046caa19d7443100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "miR-181b-1",
+        "miR-181b",
+        "181b-1",
+        "upregulates miR-181b-1",
+        "miR-181b-1, which we show directly binds to the 3' untranslated region of Bcl-2"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2902e48b3851296d00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "In a",
+        "a"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2e11a1fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "G380R",
+        "glycine substituted with arginine at residue 380, G380R",
+        "glycine substituted with arginine at residue 380",
+        "G380",
+        "380R"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5c74285c7c78d6947100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "cytoplasmic",
+        "cytoplasmic stress granules",
+        "c",
+        "cytoplas",
+        "mic"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5c701f4f7c78d6947100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "chronic myeloid leukemia",
+        "mixed connective tissue disease",
+        "chronic phase chronic myeloid leukemia",
+        "leukemia",
+        "mixed connective tissue disease (MCTD)"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e289410949969833100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "Conserved non-coding elements",
+        "there are no tools published in the literature for systematically identifying CNEs in genomes",
+        "Conserved non-coding elements (CNEs)",
+        "no tools published in the literature for systematically identifying CNEs in genomes",
+        "non-coding elements"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2daaa2fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "adenosine A2A",
+        "selective adenosine A2A",
+        "adenosine A2A receptor",
+        "selective adenosine A2A receptor",
+        "adenosine A2A receptor antagonist"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2a080caa19d7443100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "serine/threonine protein phosphatase 2A",
+        "protein phosphatase 2A",
+        "PP2A",
+        "2A",
+        "serine/threonine protein phosphatase 2A (PP2A)"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2e1792fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "TBC1D24",
+        "SMARCA2) and (TBC1D24",
+        "(SMARCA2) and (TBC1D24",
+        "TBC1",
+        "SMARCA2"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e49032df8b2df0d4900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "Nuclear medicine technologists",
+        "technologists",
+        "Nuclear medicine",
+        "logists",
+        "medicine technologists"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2a1096aa19d7443100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "vascular endothelial growth factor A (VEGF-A)",
+        "vascular endothelial growth factor A",
+        "vascular endothelial growth factor",
+        "VEGF-A",
+        "mRNA encoding vascular endothelial growth factor A (VEGF-A)"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e29f6e0aa19d7443100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "medulloblastoma",
+        "medulloblastoma (MB)",
+        "oma",
+        "medulloblastoma (MB) in vitro and in vivo in an intracranial xenograft model",
+        "cancers"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2b2c85fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "vestibular schwannoma",
+        "unilateral vestibular schwannoma",
+        "schwannoma",
+        "vestibular schwannoma (VS)",
+        "small unilateral vestibular schwannoma"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2dafccfbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "N-methyl-D-aspartate",
+        "N-methyl-D-aspartate (NMDA)",
+        "N-methyl-D-aspartate (NMDA) receptor",
+        "N-methyl-D-aspartic acid or N-methyl-D-aspartate",
+        "N-methyl-D-aspartic acid or N-methyl-D-aspartate (NMDA)"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2deb35fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "SLIC-CAGE",
+        "SLIC",
+        "SLIC-CAGE, a Super-Low Input Carrier-CAGE",
+        "CAGE",
+        "S"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e36dc8cb5b409ea5300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "autosomal recessive",
+        "Niemann-Pick disease",
+        "Acid sphingomyelinase deficiency (ASMD) is an autosomal recessive",
+        "Acid sphingomyelinase deficiency",
+        "(ASMD) is an autosomal recessive"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e3da25848dab47f2600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "omodysplasia",
+        "dominant omodysplasia",
+        "omodysplasia, a rare osteochondrodysplasia",
+        "osteochondrodysplasia",
+        "dominant omodysplasia, a rare osteochondrodysplasia"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e31cb85fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "huntingtin",
+        "huntingtin gene leading to the production of mutant huntingtin",
+        "mHtt",
+        "huntingtin gene",
+        "the huntingtin"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e30e689fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "Ebola virus",
+        "Ebola virus (EBOV)",
+        "Ebola",
+        "EBOV",
+        "EBOV infection, including the antibody cocktail ZMapp"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5d31b847b3a638076300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "61",
+        "61 human KRAB-ZNFs",
+        "61 human KRAB-ZNFs. The results showed that six",
+        "one of the largest gene families of transcriptional factors in the human genome",
+        "(KRAB-ZNF) is one of the largest gene families of transcriptional factors in the human genome"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e30e80bfbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "BCR-ABL",
+        "ABL",
+        "B",
+        "BCR",
+        "BCR-AB"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e499e266d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "Viagra\u00ae",
+        "Viagra",
+        "Sildenafil citrate",
+        "Sildenafil citrate, sold as the trade name of Viagra\u00ae",
+        "citrate"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e5b6f04b761aafe0900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "four",
+        "The proteomes of the severe acute respiratory syndrome-associated coronavirus",
+        "(SARS-CoV) and its infected Vero E6 cells were detected in the present study",
+        "SARS-CoV) and its infected Vero E6 cells were detected in the present study",
+        "SARS-CoV"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e5b8b4e752ebcdc7a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "heterotopic ossification",
+        "progressive heterotopic ossification",
+        "episodic and progressive heterotopic ossification",
+        "ossification",
+        "heterotopic bone forms in the soft tissues"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e4940f46d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "a small portion",
+        "Only a small portion",
+        "small portion",
+        "a small portion of human long non-coding RNAs (lncRNAs) appear to be conserved outside of mammals",
+        "a small portion of human long non-coding RNAs (lncRNAs)"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e5bab131af46fc13000",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "b-glucosidase",
+        "b-glucosidase 2",
+        "glucosidase",
+        "glucosidase 2",
+        "b-glucosidas"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2dbc55fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "Parkinson's disease psychosis",
+        "hallucinations and delusions associated with Parkinson's disease psychosis",
+        "psychosis",
+        "treatment of hallucinations and delusions associated with Parkinson's disease psychosis",
+        "Parkinson's disease"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e5b8170b761aafe0900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "SARS-CoV",
+        "CoV",
+        "SARS",
+        "SARS-CoV) became available",
+        "SA"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e319789fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "BRAF",
+        "BRAF and MEK",
+        "BRAF and MEK, respectively. BRAF and MEK",
+        "BRAF and MEK, respectively. BRAF",
+        "BRAF and MEK, respectively"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e31cceafbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "chromosome 19",
+        "short arm of chromosome 19",
+        "the short arm of chromosome 19",
+        "19",
+        "on the short arm of chromosome 19"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e3c6c9eb5b409ea5300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "Helicobacter pylori",
+        "The human pathogen Helicobacter pylori",
+        "pylori",
+        "Helicobacter pyl",
+        "ori"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e540c866d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "saracatinib",
+        "c-Src/Abl kinase inhibitor, saracatinib",
+        "saracatinib (AZD0530)",
+        "sa",
+        "saracati"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e4adb486d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "Cytoscape",
+        "Cytoscape (version 3) application, providing a comprehensive framework for metabolic pathway",
+        "Cytoscape (version 3)",
+        "a Cytoscape",
+        "Cytoscape (version 3) application"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e763602c6a8763d2300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "oral insulin capsule (ORMD-0801",
+        "oral insulin capsule",
+        "oral insulin capsule (ORMD-0801, 8 mg insulin)",
+        "ORMD-0801, 8 mg insulin",
+        "(ORMD-0801"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5d35e7ddb3a638076300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "nucleus",
+        "the nucleus",
+        "nucleocytoplasmic localization. All isoforms primarily localized in the nucleus",
+        "nuclear",
+        "in the nucleus"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e4bed1c6d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "Systemic lupus erythematosus",
+        "lupus erythematosus",
+        "Systemic lupus erythematosus (SLE)",
+        "Systemic lupus",
+        "SLE"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5d35ef017bc3fee31f00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "H3K27me3",
+        "27me3",
+        "3K27me3",
+        "H3K27",
+        "H3K27me3 epigenetic marks"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e550b5db761aafe0900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "selective NK3",
+        "NK3",
+        "two antagonists have similar contact sides",
+        "The NK3 receptor",
+        "similar contact sides"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e460f823f5415952900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "calcitonin gene-related peptide",
+        "calcitonin gene-related peptide (CGRP)",
+        "CGRP",
+        "calcitonin gene-related peptide (CGRP) ligand. A potent vasodilator, CGRP",
+        "calcitonin gene-related peptide (CGRP) ligand"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e4604d83f5415952900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "dissecting aneurysm",
+        "dissecting aneurysm (DA)",
+        "dissecting aneurysm (DA) and whether DA is associated with an increased recurrent stroke",
+        "aneurysm",
+        "dissecting"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5d35d901b3a638076300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "C4bp",
+        "1q21-32 and mouse Chr.1. RFLP associated with C4bp",
+        "1q32",
+        "1q21-32",
+        "1q21"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e4fd44a6d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "Clathrin-independent endocytosis",
+        "endocytosis",
+        "Clathrin-independent endocytosis (CIE) is the process of cellular uptake",
+        "uptake",
+        "independent endocytosis"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e48a916d14c9f295d00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "S1P1",
+        "1",
+        "1P1",
+        "P1",
+        "S"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e49ac346d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "PF-05190457",
+        "05190457",
+        "457",
+        "PF-05190457, an oral ghrelin receptor inverse agonist, in healthy adults",
+        "PF-0519045"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e499e0a6d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "pattern hair loss",
+        "hair loss",
+        "Minoxidil is the only topical drug for the treatment of both female and male pattern hair loss",
+        "AGA",
+        "female and male pattern hair loss"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e5409776d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "Src/Abl kinase",
+        "Src/Abl",
+        "kinase",
+        "Abl kinase",
+        "Src"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5d35e421b3a638076300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "anterior pole of the early embryo",
+        "takes place exclusively in the posterior",
+        "early embryo",
+        "(hb) mRNA, takes place exclusively in the posterior",
+        "at the anterior pole of the early embryo"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2f6353fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "SNV, MNV, InDels, complex and structural variants",
+        "complex and structural variants",
+        "InDels, complex and structural variants",
+        "SNV, MNV, InDels",
+        "structural variants"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e4f2aeb6d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "microtubule turnover",
+        "promote microtubule turnover",
+        "Precise regulation of kinetochore-microtubule attachments",
+        "kinetochore-microtubule attachments",
+        "regulates kinetochore-microtubule dynamics"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e7641a0c6a8763d2300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "Vaxchora",
+        "Vaxchor",
+        "Vaxchora is",
+        "Vaxchora is the first vaccine",
+        "V"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e4ada686d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "MCL",
+        "MCL (HipMCL), a parallel implementation of the original MCL",
+        "MPI",
+        "Markov Clustering",
+        "MCL and enables clustering of even bigger networks. HipMCL is based on MPI"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e42d1a748dab47f2600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "PARP",
+        "MET pathway. PARP",
+        "PARP inhibition",
+        "PARP inhibition with olaparib",
+        "PAR"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e3df59348dab47f2600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "the quadrivalent HPV",
+        "quadrivalent HPV",
+        "HPV",
+        "the quadrivalent HPV vaccine would have been useful in the prevention of 28% (13/46)",
+        "Gardisil, the quadrivalent HPV"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e763bd4c6a8763d2300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "Vivotif",
+        "V",
+        ". Vivotif",
+        "vaccination against typhoid is an effective measure",
+        "vaccination against typhoid is an effective measure. Vivotif"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2f4a8bfbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "dromedary camels",
+        "camels",
+        "dromedary",
+        "camel",
+        "ls"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e51dc516d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "PID",
+        "genetic cause of primary immunodeficiency disease (PID)",
+        "The genetic cause of primary immunodeficiency disease (PID)",
+        "primary immunodeficiency disease (PID)",
+        "genetic"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e31b575fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "macrothrombocytopenia, deafness and nephritis",
+        "Epstein's triad",
+        "deafness and nephritis",
+        "macrothrombocytopenia",
+        "macrothrombocytopenia, deafness"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e6157cb1af46fc13000",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "Rett syndrome",
+        "Rett",
+        "Rett syndrome, a progressive neurodevelopmental disorder",
+        "Mutations in the MeCP2 gene cause Rett syndrome",
+        "syndrome"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e44b04c48dab47f2600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "activin type II",
+        "ActRII",
+        "activin type II receptors (ActRII). We investigated whether such blockade of ActRII",
+        "activin type II receptors",
+        "activin type II receptors (ActRII)"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5d3852d07bc3fee31f00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "the Tat lineage",
+        "Tat lineage",
+        "gypsy elements, being the most frequent in the Tat lineage",
+        "in the Tat lineage",
+        "plant Ty3/gypsy elements, being the most frequent in the Tat lineage"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e776cfe835f4e477700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "2014",
+        "June 2014",
+        "2006",
+        "2015 by Sanofi after getting FDA approval in June 2014",
+        "in June 2014"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e7f5d0d835f4e477700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "2015-2016",
+        "2015-2016 season",
+        "advance of the 2015-2016",
+        "advance of the 2015-2016 season",
+        "the 2015-2016"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5d38790da1e159510500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "Yaa",
+        "Y",
+        "Y chromosome, designated Yaa (Y-linked autoimmune acceleration). Recently, the Yaa",
+        "Y chromosome, designated Yaa",
+        "Yaa (Y-linked autoimmune acceleration). Recently, the Yaa"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e35dc26158f994d3a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "5,000",
+        "nearly 5,000",
+        "5,000 Drosophila melanogaster proteins",
+        "nearly 5,000 Drosophila melanogaster proteins",
+        "5"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5d386fbfa1e159510500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "B lymphocyte stimulator",
+        "B lymphocyte stimulator (BLyS)",
+        "BLyS",
+        "B lymphocyte",
+        "B"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e48bf5ed14c9f295d00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "Status Epilepticus",
+        "non-convulsive status epilepticus",
+        "non-convulsive status epilepticus (NCSE)",
+        "status epilepticus (NCSE)",
+        "Epilepticus"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e4601293f5415952900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "multiple sclerosis",
+        "multiple sclerosis (MS)",
+        "multiple",
+        "rosis",
+        "multiple scle"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e6e487151b80c942300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "lysine methyltransferase",
+        "Polycomb repressive complex 2",
+        "The lysine methyltransferase",
+        "methyltransferase",
+        "Polycomb repressive complex"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5d374c727bc3fee31f00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "LMNA",
+        "LMNA gene",
+        "LM",
+        "LMNA gene mutation E82K found in a Chinese family with dilated cardiomyopathy",
+        "L"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e36cf8eb5b409ea5300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "haematopoietic niche",
+        "the haematopoietic niche",
+        "haematopoietic",
+        "the haematopoietic",
+        "niche"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5d387573a1e159510500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "Nbk",
+        "Bik",
+        "Bik but not BikL61G",
+        "Bik/Blk/Nbk",
+        "BikL61G"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e764440c6a8763d2300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "single-dose",
+        "single-dose, oral, lyophilized Vibrio cholerae CVD 103-HgR",
+        "single",
+        "single-dose, oral",
+        "103-HgR"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e30fa32fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "Streptobacillus moniliformis",
+        "Streptobacillus",
+        "treptobacillus moniliformis",
+        "moniliformis",
+        "Streptobacill"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e5e502a1af46fc13000",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "Toll",
+        "Toll ligand Sp\u00e4tzle (Spz), several Toll-related receptors",
+        "Toll-related receptors",
+        "Toll ligand Sp\u00e4tzle (Spz), several Toll",
+        "Toll ligand Sp\u00e4tzle (Spz), several Toll-related"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e30b870fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "Neo4j",
+        "Neo4j) as well as the new ContentService (REST API) that provides access to these data. The Neo4j",
+        "Neo4j graph database",
+        "(Neo4j) as well as the new ContentService (REST API) that provides access to these data. The Neo4j",
+        "Neo4j graph database and its query language, Cypher"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e76436cc6a8763d2300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "oral",
+        "single-dose, oral",
+        "oral, lyophilized",
+        "oral, lyophilized Vibrio cholerae CVD 103-HgR",
+        "lyophilized"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e6de3f21af46fc13000",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "nsp14",
+        "nsp14 exoribonuclease",
+        "CoV nsp14",
+        "nsp",
+        "CoV"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e36d5b9b5b409ea5300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "ExpansionHunter",
+        "Expansion",
+        "ExpansionHun",
+        "ter",
+        "a software tool called ExpansionHunter"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e319617fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "coagulation factor Xa",
+        "Xa",
+        "coagulation factor Xa (recombinant), inactivated-zhzo",
+        "coagulation factor Xa (recombinant)",
+        "Xa (recombinant), inactivated-zhzo"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e669e401af46fc13000",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "pituitary",
+        "pituitary adenoma",
+        "pituit",
+        "pit",
+        "pituitary ad"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e764647c6a8763d2300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "103-HgR",
+        "CVD 103-HgR",
+        "cholera vaccine CVD 103-HgR",
+        "The oral live cholera vaccine CVD 103-HgR",
+        "103-HgR (Orochol, Mutachol)"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e6399dd1af46fc13000",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "differentiation",
+        "differentiation, secretion of cytokines or proliferation and apoptosis",
+        "cell differentiation",
+        "cell differentiation, secretion of cytokines or proliferation and apoptosis",
+        "apoptosis"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e36a718b5b409ea5300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "transcribed ultraconserved regions",
+        "The transcribed ultraconserved regions",
+        "Uc.63+ was increased in PC tissues",
+        "Uc.63+",
+        "Uc.63"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5d38663da1e159510500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "double PHD finger",
+        "double PHD finger (DPF)",
+        "the double PHD finger",
+        "MYST domain",
+        "DPF"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e776db8835f4e477700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "Sanofi",
+        "MannKind",
+        "MannKind Corporation",
+        "Afrezza has been marketed since February, 2015 by Sanofi",
+        "Sano"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e6df7887fc1ee872b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "Phosphatase and tensin homolog",
+        "Phosphatase and tensin",
+        "Phosphatase and tensin homolog (PTEN) is a tumor-suppressor gene",
+        "Phosphatase and tensin homolog (PTEN)",
+        "Phosphatase and tensin homolog (PTEN) is a tumor-suppressor"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e776845835f4e477700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "Modified Vaccinia virus Ankara expressing Antigen 85A",
+        "Modified Vaccinia virus Ankara expressing Antigen 85A (MVA85A) from Mycobacterium tuberculosis",
+        "Mycobacterium tuberculosis",
+        "Antigen 85A",
+        "Modified Vaccinia virus Ankara"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e4b540b6d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "PD-1",
+        "programmed death-1",
+        "anti-PD-1",
+        "Anti-programmed death-1",
+        "1"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e822615835f4e477700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "erythrocyte protoporphyrin",
+        "protoporphyrin",
+        "erythrocyte protoporphyrin were elevated and confirmed a diagnosis of EPP",
+        "phyrin",
+        "total porphyrins and erythrocyte protoporphyrin"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5d386ed6a1e159510500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "TNF-R75",
+        "R75",
+        "196",
+        "587G) of tumor necrosis factor receptor 2 (TNFR2, TNF-R75",
+        "Arg at the position 196"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e49c2356d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "SNP2TFBS",
+        "SNP2",
+        "2TFBS",
+        "SNP",
+        "SNP2TFBS is"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e52a4ec6d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "Global centering-based normalization",
+        "Global",
+        "Global centering",
+        "Global centering-based normalization is a commonly used normalization approach in mass spectrometry",
+        "normalization"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e3eba5548dab47f2600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "feline coronavirus family",
+        "feline coronavirus",
+        "coronavirus family",
+        "coronavirus",
+        "the feline coronavirus family"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e807578835f4e477700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "Hemophagocytic lymphohistiocytosis",
+        "lymphohistiocytosis",
+        "BACKGROUND Hemophagocytic lymphohistiocytosis",
+        "Hemophagocytic lymphohistiocytosis (HLH)",
+        "severe organ damage"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5d38577b7bc3fee31f00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "more sensitive",
+        "more sensitive to digestion with DNase I and micrococcal nuclease than control bulk chromatin",
+        "more sensitive to digestion with DNase I and micrococcal nuclease",
+        "chromatin labeled for brief periods (0.5-1 min) in the presence of butyrate was more sensitive",
+        "sensitive"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e4025f148dab47f2600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "regional cerebral flow",
+        "regional cerebral flow (rCBF)",
+        "cerebral flow",
+        "flow",
+        "cerebral flow (rCBF)"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e3c69c9b5b409ea5300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "breast cancer",
+        "breast",
+        "cancer",
+        "ionizing radiation is not primary or major risk factor leading to development of breast cancer",
+        "radiation- induced breast cancer"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e47681b35b8f0833c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "DLBCL",
+        "DL",
+        "FL and DLBCL",
+        "inebilizumab in patients with relapsed/refractory FL and DLBCL",
+        "LBCL"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e50123e6d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "Stata",
+        "tata",
+        "package Stata",
+        "the statistical package Stata",
+        "statistical package Stata"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e6e8f92c6a8763d2300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "200 nucleotides",
+        "longer than 200 nucleotides",
+        "200 nucleotide",
+        "200",
+        "longer than 200 nucleotide"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e80caeb835f4e477700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "antirheumatic",
+        "disease-modifying antirheumatic",
+        "antirheumatic drug",
+        "disease-modifying antirheumatic drug",
+        "disease-modifying"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e5286036d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "chromosome 15",
+        "15",
+        "in chromosome 15",
+        "chromosome",
+        "integration site in chromosome 15"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e80489b835f4e477700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "Na-K-Cl",
+        "Na-K-Cl cotransporter",
+        "cotransporter",
+        "Na-K-Cl cotransporter 2",
+        "Na-K-Cl cotransport"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e7f6971835f4e477700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "osteoporosis",
+        "treatment of osteoporosis",
+        "steoporosis",
+        "oste",
+        "osteoporo"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e805e62835f4e477700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "ClC-Kb",
+        "NKCC2 or ROMK, classic Bartter's syndrome by mutations of ClC-Kb",
+        "ClC-Kb, Bartter's syndrome associated with sensorineural deafness is due to mutations of BSND",
+        "ROMK, classic Bartter's syndrome by mutations of ClC-Kb",
+        "NKCC2"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e5438c3b761aafe0900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "senktide",
+        "senktide, highly potent and selective NK3R agonist",
+        "Administration of senktide",
+        "senk",
+        "se"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e808ef4835f4e477700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "periostin",
+        "periostin knockout mice. These findings indicate that periostin",
+        "periostin is a target gene of ARB",
+        "perios",
+        "periostin is a target gene of olmesartan"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5d38767ca1e159510500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "monoclonal B cell lines",
+        "B cell lines",
+        "monoclonal B",
+        "Plasmacytoid dendritic cells",
+        "B"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e52a7b66d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "DeepCpG",
+        "CpG",
+        "DeepCpG, a computational approach based on deep neural networks",
+        "deep neural networks to predict methylation states in single cells. We evaluate DeepCpG",
+        "neural networks to predict methylation states in single cells. We evaluate DeepCpG"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e7644a2c6a8763d2300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "June 10, 2016",
+        "2016",
+        "10, 2016",
+        "June 10",
+        "(June 10"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e7745ea835f4e477700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "leuprorelin acetate",
+        "leuprorelin",
+        "acetate",
+        "leuprorelin acetate (LA)",
+        "LA"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e776443835f4e477700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "Astellas",
+        "Astellas Pharma GmbH",
+        "Astellas Pharma",
+        "Eligard\u00ae, Astellas",
+        "Pharma GmbH"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e52be146d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "PDX",
+        "Mouse xenografts from (patient-derived) tumors (PDX",
+        "Mouse xenografts from (patient-derived) tumors (PDX)",
+        "Mouse",
+        "Mouse xenografts from (patient-derived) tumors"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5d388535a1e159510500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "20",
+        "20 copies",
+        "the elephant genome encodes 20",
+        "the elephant genome encodes 20 copies",
+        "20 copies of the tumor suppressor gene"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e776a75835f4e477700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "MannKind",
+        "MannKind Corporation",
+        "Man",
+        "ind",
+        "Technosphere insulin"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2b00bc76af17375100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "DeepSynergy",
+        "DeepSynergy. DeepSynergy",
+        "Synergy",
+        "Synergy. DeepSynergy",
+        "DeepSynergy. DeepSyner"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e52add36d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "easyGWAS",
+        "easyG",
+        "The easyGWAS",
+        "easyGWAS tool",
+        "easyGWAS, a powerful, species-independent online"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e7f5d83835f4e477700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "microinjection system",
+        "microinjection system for intradermal delivery of vaccines (Soluvia\u2122, Becton Dickinson)",
+        "Becton Dickinson",
+        "microinjection",
+        "(Soluvia\u2122, Becton Dickinson)"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5d387f24a1e159510500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "548 bp",
+        "548",
+        "long arms",
+        "long arms, denoted as PAR1 and PAR2",
+        "PAR2"
+      ]
+    }
+  ]
+}

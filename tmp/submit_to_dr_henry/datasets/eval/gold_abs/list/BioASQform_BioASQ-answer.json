@@ -1,0 +1,1096 @@
+{
+  "questions": [
+    {
+      "type": "factoid",
+      "id": "5e2dadcffbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "pedal edema",
+        "hallucination, dizziness, orthostatic hypotension and pedal edema",
+        "hallucination",
+        "hallucination, dizziness",
+        "hallucination, dizziness, orthostatic hypotension"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2f93bbfbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "ruptured abdominal aortic aneurysms",
+        "ruptured abdominal aortic aneurysms (RAAAs)",
+        "ruptured",
+        "abdominal aortic aneurysms",
+        "abdominal aortic aneurysms (RAAAs)"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2f9596fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "achalasia",
+        "achalasia, ACTH-resistant adrenal insufficiency",
+        "alacrima, achalasia",
+        "alacrima, achalasia, ACTH-resistant adrenal insufficiency",
+        "alacrima"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2b109cfbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "Length of stay, Acute/emergent admission",
+        "Length of stay",
+        "Charlson comorbidity index",
+        "Acute/emergent admission",
+        "Length of stay, Acute/emergent admission, Charlson comorbidity index"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2f906ffbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "viscous lidocaine",
+        "lidocaine",
+        "antacid plus 15 mL of 2% viscous lidocaine",
+        "2% viscous lidocaine",
+        "viscous"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e307a05fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "MAGeCK",
+        "MAGe",
+        "Model",
+        "MAGeCK demonstrates better performance compared with existing methods",
+        "(MAGeCK) method"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e48136dd14c9f295d00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "stem cells",
+        "stem cells at high radiation doses, and proliferation of stem cells",
+        "stem",
+        "stem cells at high radiation doses, and proliferation of stem",
+        "inactivation of stem cells"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e482160d14c9f295d00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "peroxiredoxin 1",
+        "thioredoxin 1 (Trx1), peroxiredoxin 1",
+        "thioredoxin 1",
+        "peroxiredoxin 1 (Prx1), GSH reductase",
+        "PTEN"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5c72c9207c78d6947100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "Markov models",
+        "Jensen-Shannon divergence",
+        "Jensen-Shannon divergence that has been introduced earlier. Higher-order Markov models",
+        "Markov-model",
+        "Markov-model-based"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2f972bfbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "homogentisic aciduria",
+        "homogentisic aciduria (dark urine), relentlessly progressive arthritis",
+        "arthritis",
+        "homogentisic aciduria (dark urine), relentlessly progressive arthritis and ochronosis",
+        "ochronosis"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e369ecfb5b409ea5300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "uc.38",
+        "38",
+        "uc.38, a T-UCR",
+        "expression of uc.38",
+        "uc.38, a T-UCR, was down-regulated in both breast cancer tissues and breast cancer cell lines"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e36ad01b5b409ea5300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "Uc.160+",
+        "Uc.160",
+        "160+",
+        "Uc",
+        "U"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e46e8c13f5415952900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "cyclobutane pyrimidine dimer",
+        "cyclobutane pyrimidine dimer (CPD) and a (6-4) photoproduct",
+        "cyclobutane pyrimidine dimer (CPD)",
+        "a cyclobutane pyrimidine dimer",
+        "CPD) and a (6-4) photoproduct"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5cd96eb2a49efeb44c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "Linkage disequilibrium",
+        "detecting such patterns could accurately reveal targets of positive selection",
+        "linkage disequilibria",
+        "detecting such patterns",
+        "positive selection"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5c70273c7c78d6947100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "end",
+        "end organ damage",
+        "end organ",
+        "end organ damage and health status",
+        "damage"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5c7a4ed5d774d0424000",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "improve patient care",
+        "significant potential to improve patient care",
+        "patient care",
+        "to improve patient care",
+        "potential to improve patient care"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2b0d167d50947c2f00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "Acromelic frontonasal dysostosis",
+        "frontonasal dysostosis",
+        "Acromelic frontonasal dysostosis (AFND)",
+        "frontonasal dysostosis (AFND)",
+        "dysostosis"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2f9ceefbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "atorvastatin",
+        "atorvastatin and hydrochlorthiazide",
+        "valsartan, atorvastatin",
+        "valsartan, atorvastatin and hydrochlorthiazide",
+        "valsartan"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2a120c76af17375100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "vasodilation",
+        "vasodilation, blood flow upregulation, and neovessel formation",
+        "blood flow upregulation, and neovessel formation",
+        "vasodilation, blood flow upregulation",
+        "neovessel formation"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5c7006037c78d6947100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "Disease Activity Index 2000",
+        "Systemic Lupus Erythematosus Disease Activity Index 2000",
+        "2000",
+        "Disease Activity",
+        "Disease Activity Index"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2f992cfbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "aspirin",
+        "ramipril",
+        "aspirin [acetylsalicylic acid], ramipril",
+        "ramipril, simvastatin",
+        "aspirin [acetylsalicylic acid], ramipril, simvastatin"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5c74305d7c78d6947100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "cytoplasmic mRNA",
+        "mRNA",
+        "cytoplasmic",
+        "cytoplasmic mRNA is sequestered to insoluble ribonucleoprotein",
+        "mRNA is sequestered to insoluble ribonucleoprotein (RNP) granules"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5c7a4a31d774d0424000",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "heterogeneity",
+        "heterogeneity in methodologies of PD-L1 assays in terms of primary antibodies and scoring algorithms",
+        "tumor heterogenity",
+        "heterogeneity in methodologies",
+        "tumor heterogenity for PD-L1 expression are important issues to be considered"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e360f3d158f994d3a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "congenital sensorineural deafness",
+        "sensorineural deafness",
+        "hyperplasia of the medial portion of the eyebrows, and congenital sensorineural deafness",
+        "poliosis",
+        "poliosis, heterochromia iridis, hyperplasia of the medial portion of the eyebrows"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e493bc06d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "breast cancer",
+        "Breast",
+        "cancer",
+        "numerous susceptibility loci of breast cancer",
+        "breast cancer have been discovered by genome-wide association studies"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2f43bafbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "Middle East respiratory syndrome",
+        "respiratory syndrome",
+        "Middle East respiratory",
+        "East respiratory syndrome",
+        "syndrome"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e2f9e0dfbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "urinary urgency",
+        "gait disturbance, and urinary urgency",
+        "gait disturbance",
+        "cognitive disorder, gait disturbance, and urinary urgency",
+        "cognitive disorder, gait disturbance"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e36e093b5b409ea5300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "Aip1, Ede1",
+        "Ede1",
+        "Aip1",
+        "Aip1, Ede1 and Inn1",
+        "Ede1 and Inn1"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5d2f3a5db3a638076300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "cyclophosphamide",
+        "cyclophosphamide and glucocorticosteroids",
+        "glucocorticosteroids",
+        "mide",
+        "yclophosphamide"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e49c88c6d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "ncRNA, a circular RNA, and two microRNAs",
+        "RNA, and two microRNAs",
+        "ncRNA, a circular RNA",
+        "ncRNA",
+        "RNA"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e5cbf4e1af46fc13000",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "amifostine",
+        "amifostine and palifermin",
+        "palifermin",
+        "amifostine and palifermin, currently have the US FDA approval for use in radiation therapy",
+        "palifermin, currently have the US FDA approval for use in radiation therapy"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e48100bd14c9f295d00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "leukaemia",
+        "leukaemia, increases in solid cancer such as cancers of the lung, breast",
+        "leukaemia, increases in solid cancer such as cancers of the lung, breast, stomach and thyroid",
+        "leukaemia, increases in solid cancer such as cancers of the lung",
+        "thyroid have also been demonstrated. Radiation-induced leukaemia"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5cf0f567a49efeb44c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "MBF",
+        "MBF in Saccharomyces cerevisiae or MBF",
+        "SBF and MBF",
+        "SBF",
+        "SBF and MBF in Saccharomyces cerevisiae or MBF"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e5b626fb761aafe0900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "phosphatidylcholine",
+        "phosphatidylcholine across the canalicular membrane of the hepatocyte into bile",
+        "phosphatidylcholine across the canalicular membrane",
+        "choline",
+        "hosphatidylcholine"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e30ee25fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "metabolic wasting",
+        "multiple allergies and metabolic wasting",
+        "multiple allergies",
+        "Severe dermatitis, multiple allergies and metabolic wasting",
+        "Severe dermatitis"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e30f12afbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "ipilimumab",
+        "ipilimumab plus nivolumab",
+        "nivolumab",
+        "ipilimumab plus",
+        "b"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e46f9683f5415952900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "fibrosis",
+        "Radiation-induced fibrosis",
+        "fibrosis (RIF)",
+        "Radiation-induced fibrosis (RIF)",
+        "induced fibrosis"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e4027f948dab47f2600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "meningitis",
+        "Sepsis and meningitis",
+        "Sepsis",
+        "psis and meningitis",
+        "ingitis"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e52c1fd6d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "ovarian cancer",
+        "Epithelial ovarian cancer",
+        "ovarian cancer (EOC)",
+        "Epithelial ovarian cancer (EOC)",
+        "ovarian"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e36e254b5b409ea5300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "congenital pontocerebellar hypoplasia",
+        "pontocerebellar hypoplasia",
+        "optic atrophy",
+        "optic atrophy, Charcot-Marie-Tooth type 2, Leigh syndrome",
+        "optic atrophy, Charcot-Marie-Tooth type 2, Leigh syndrome, progressive myoclonic ataxia"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e5015436d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "MobiDB",
+        "MobiDB (URL: mobidb.bio.unipd.it)",
+        "The MobiDB",
+        "MobiDB (URL: mobidb.bio.unipd.it) database",
+        "MobiDB (URL: mobidb.bio.unipd.it) database of protein disorder and mobility annotations"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e4f0a4f6d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "kappa or lambda",
+        "lambda",
+        "mu, delta or epsilon chain or only kappa or lambda",
+        "kappa",
+        "epsilon chain or only kappa or lambda"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e55046fb761aafe0900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "SB222200",
+        "SB",
+        "00",
+        "kisspeptin-induced GnRH release was blocked in the presence of the NK3R antagonist SB222200",
+        "antagonist SB222200"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e51c6036d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "macrocephaly/hemi/megalencephaly",
+        "macrocephaly",
+        "macrocephaly/hemi/megalencephaly, and seizures",
+        "intellectual disability, macrocephaly/hemi/megalencephaly",
+        "intellectual disability, macrocephaly"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e494b0e6d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "nivolumab",
+        "immune checkpoint inhibitors (ICI), such as nivolumab",
+        "inhibitors (ICI), such as nivolumab",
+        "ab",
+        "lumab"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e4be9496d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "erlotinib and gefitinib, or EGFR-neutralizing antibodies, cetuximab",
+        "gefitinib, or EGFR-neutralizing antibodies, cetuximab",
+        "cetuximab",
+        "erlotinib and gefitinib",
+        "erlotinib"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5d36a9507bc3fee31f00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "T cells",
+        "T",
+        "T cells (defined by low or negative TCR expression) and fewer mature T cells",
+        "T cells (intermediate or high expression of TCR)",
+        "T cells (defined by low or negative TCR expression) and fewer mature T"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e30f8abfbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "FLT3",
+        "FLT3 inhibitors have been reported in acute myeloid leukemia",
+        "FLT3 inhibitor",
+        "FLT3 inhibitors",
+        "FL"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e4163b848dab47f2600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "Mumps",
+        "Mumps is a Paramyxoviridae virus. This disease was rampant prior to introduction of the measles",
+        "measles, mumps, and rubella",
+        "measles, mumps",
+        "rubella"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e342175fbd6abf43b00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "sacral anomalies, anorectal malformations and a presacral mass",
+        "sacral anomalies, anorectal malformations",
+        "sacral anomalies",
+        "anorectal malformations and a presacral mass",
+        "anorectal malformations"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e36a901b5b409ea5300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "uc.339",
+        "339",
+        "uc.339 that we call \"entrapping\". Our results support a key role for uc.339",
+        "key role for uc.339",
+        "support a key role for uc.339"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e3a6a4eb5b409ea5300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "internuclear ophthalmoplegia",
+        "horizontal conjugate gaze palsy with internuclear ophthalmoplegia",
+        "conjugate gaze palsy with internuclear ophthalmoplegia",
+        "horizontal conjugate gaze palsy",
+        "gaze palsy with internuclear ophthalmoplegia"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e639b111af46fc13000",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "adrenal cortical carcinoma",
+        "laryngeal and lung cancer, and adrenal cortical carcinoma",
+        "laryngeal and lung cancer",
+        "leukaemia, laryngeal and lung cancer, and adrenal cortical carcinoma",
+        "leukaemia"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e475d3035b8f0833c00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "clinical prediction rules (CPRs) for appendicitis",
+        "appendicitis",
+        "clinical prediction rules",
+        "clinical",
+        "clinical prediction rules (CPRs)"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e493a3e6d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "adipogenesis",
+        "9",
+        "required for adipogenesis",
+        "neurogenesis. Of the lncRNAs",
+        "lncRNAs"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e6e4a6c51b80c942300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "KMT2C",
+        "KMT2C (also known as MLL3)",
+        "KMT2C (also known as MLL3), a subunit of the COMPASS complex",
+        "MLL3",
+        "KMT2C (also known as MLL3), a subunit of the COMPASS"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e6e5d1d51b80c942300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "fibromyalgia syndrome",
+        "fibromyalgia",
+        "fibromyalgia syndrome (FMS)",
+        "syndrome",
+        "gia syndrome"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e7f5a18835f4e477700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "influenza",
+        "microneedle patch vaccination against influenza",
+        "Microneedle patches provide an alternative to conventional needle-and-syringe immunisation",
+        "vaccination against influenza",
+        "microneedle patch vaccination"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e7f5b43835f4e477700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "Yamagata",
+        "Victoria and Yamagata",
+        "Victoria",
+        "B-strain lineage viruses",
+        "V"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e44baaa48dab47f2600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "pan-ErbB inhibitor",
+        "pan-ErbB",
+        "pan-ErbB inhibitor, in patients with human epidermal growth factor receptor 2",
+        "ErbB inhibitor",
+        "pan"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e35c75d158f994d3a00",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "homologous recombination-mediated transgenesis",
+        "homologous recombination",
+        "transgenesis",
+        "Cas9 systems to induce targeted mutations and homologous recombination-mediated transgenesis",
+        "TALEN and CRISPR/Cas9 systems to induce targeted mutations and homologous recombination"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e3e8b1c48dab47f2600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "destabilizing effect",
+        "increases its steady-state levels",
+        "destabilizing",
+        "increases",
+        "elevated D14-3-3\u025b has a destabilizing effect"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e4b52e36d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "trifluridine/tipiracil",
+        "trifluridine",
+        "tipiracil",
+        "trifluridine/tipiracil (TAS-102, Lonsurf\u00ae)",
+        "triflurid"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5d38673da1e159510500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "miR-144",
+        "144",
+        "miR-144 in ovulation. miR-144",
+        "144 alter prostaglandin E2 (PGE2) production by regulating COX-2 expression. In addition, miR-144",
+        "144 in ovulation. miR-144"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e5e50751af46fc13000",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "antibiotics",
+        "antibacterials",
+        "anti",
+        "antibacterial",
+        "biotics"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e47546d3f5415952900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "ulcerative colitis",
+        "Ulcerative Colitis Endoscopic Index of Severity, Ulcerative Colitis",
+        "Crohn's disease",
+        "Crohn's disease, such as the Crohn's Disease",
+        "colitis"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e80669e835f4e477700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "captopril",
+        "captop",
+        "ril",
+        "inhibitor captopril",
+        "cap"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e4609b83f5415952900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "proliferative vitreoretinopathy",
+        "vitreoretinopathy",
+        "proliferative vitreoretinopathy of the left eye",
+        "severe proliferative vitreoretinopathy",
+        "vitreoretinopathy of the left eye"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5d387360a1e159510500",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "ameliorated EAE and lupus-like disease",
+        "decreased the frequency of IL-17-producing T cells and ameliorated EAE and lupus-like disease",
+        "reduced Il17 transcription",
+        "reduced activation of the AKT/mTOR pathway, which is known to enhance Th17 differentiation",
+        "ameliorated EAE and lupus-like disease in murine models"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e4949d36d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "Chronic Atrial and Intestinal Dysrhythmia (CAID) syndrome",
+        "Intestinal Dysrhythmia (CAID) syndrome",
+        "Chronic Atrial and Intestinal Dysrhythmia",
+        "Intestinal Dysrhythmia",
+        "(CAID) syndrome"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e3c841148dab47f2600",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "Alzheimer's disease",
+        "Alzheimer's disease (AD) is the most common cause of progressive dementia",
+        "Alzheimer's disease (AD)",
+        "dementia",
+        "Alzheimer's"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e4703d13f5415952900",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "Melanin",
+        "Melanin, a naturally occurring, ubiquitous pigment",
+        "Melanin, a naturally occurring, ubiquitous pigment, has been shown to confer radioresistance",
+        "Melani",
+        "Me"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e52900d6d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "PAR2",
+        "Vav3. A point mutation in PAR2",
+        "PAR",
+        "Akt/PKB as also Etk/Bmx and Vav3. A point mutation in PAR2",
+        "Etk/Bmx and Vav3. A point mutation in PAR2"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e52c5166d0a27794100",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "multiple sclerosis",
+        "analysis of multiple sclerosis",
+        "transcriptomic analysis of multiple sclerosis",
+        "perform systematic transcriptomic analysis of multiple sclerosis",
+        "systematic transcriptomic analysis of multiple sclerosis"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e6e8897c6a8763d2300",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "A-1210477",
+        "1210477",
+        "ABT-263",
+        "-1210477",
+        "A-1210477, a selective MCL-1 inhibitor"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e7659db835f4e477700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "Rotarix",
+        "RotaTeq and Rotarix",
+        "RotaTeq",
+        "q and Rotarix",
+        "Rot"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e80e449835f4e477700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "pneumocytes and surface enterocytes of the small intestine",
+        "pneumocytes",
+        "small intestine",
+        "enterocytes of the small intestine",
+        "pneumocytes and surface enterocytes"
+      ]
+    },
+    {
+      "type": "factoid",
+      "id": "5e7768f9835f4e477700",
+      "ideal_answer": [
+        "Dummy"
+      ],
+      "exact_answer": [
+        "Exubera\u00ae",
+        "Afrezza\u00ae",
+        "Exubera",
+        "Afrezza",
+        "\u00ae"
+      ]
+    }
+  ]
+}
