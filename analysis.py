@@ -1,6 +1,5 @@
-from asyncio.subprocess import DEVNULL
 from lxml import etree as et
-from sklearn.metrics import classification_report
+from sklearn.metrics import classification_report, confusion_matrix
 import numpy
 import os
 import pandas as pd
@@ -46,13 +45,7 @@ def get_three_files(a_dir):
 
 def get_col_list(gold_df, gen_df, col):
     gold_col = gold_df.loc[:, ["id", col]].copy()
-    if gen_df == None:
-        gen_ids = None
-        gen_vals = None
-    else:
-        gen_col = gen_df.loc[:, ["id", col]].copy()
-
-
+    gen_col = gen_df.loc[:, ["id", col]].copy()
     gold = gold_col.to_dict(orient="list")
     gen = gen_col.to_dict(orient="list")
     gen_ids = gen["id"]
@@ -126,7 +119,7 @@ def parse_qa_output(xml_file, qa_folder):
         rows.append(
             {
                 "id": id,
-                "type":qa_type,
+                "type": qa_type,
                 "exact_answer": exact_answer,
             }
         )
@@ -411,14 +404,19 @@ def do_concepts_eval(gold_df, gen_df):
     )
 
     # OVERALL SCORES
-    f1_sum = p_sum = r_sum = 0
-    for f1, p, r in scores:
-        f1_sum += f1
-        p_sum += p
-        r_sum += r
-    f1_sum /= len(scores)
-    p_sum /= len(scores)
-    r_sum /= len(scores)
+    if scores != []:
+        f1_sum = p_sum = r_sum = 0
+        for f1, p, r in scores:
+            f1_sum += f1
+            p_sum += p
+            r_sum += r
+        f1_sum /= len(scores)
+        p_sum /= len(scores)
+        r_sum /= len(scores)
+    else:
+        f1_sum = 0
+        p_sum = 0
+        r_sum = 0
 
     print(
         f"Concepts mean f1 {GREEN}{f1_sum}{OFF}, precision {GREEN}{p_sum}{OFF}, recall {GREEN}{r_sum}{OFF}"
@@ -526,11 +524,11 @@ def do_pmids_eval(gold_df, gen_df):
 def do_factoid_eval(gold_df, gen_df, gen_factoid_path):
     print(f"{CYAN}Factoid Evaluation{OFF}")
     factoid_gold_df = gold_df[gold_df["type"] == "factoid"]
-    # factoid_gen_df = gen_df[gen_df["type"] == "factoid"]
+    factoid_gen_df = gen_df[gen_df["type"] == "factoid"]
 
-    # if DEBUG:
-    #     print(f" [{len(factoid_gold_df)}] Gold Factoid Questions")
-    #     print(f" [{len(factoid_gen_df)}] Generated Factoid Questions")
+    if DEBUG:
+        print(f" [{len(factoid_gold_df)}] Gold Factoid Questions")
+        print(f" [{len(factoid_gen_df)}] Generated Factoid Questions")
     gold_ids, gold_ans, gen_ids, gen_ans = get_col_list(
         factoid_gold_df, gen_df, "exact_answer"
     )
@@ -541,16 +539,17 @@ def do_factoid_eval(gold_df, gen_df, gen_factoid_path):
 
     gen_factoid_answers = {}
     for question in factoid_gen_json["questions"]:
-        id = question["id"]
-        if len(id) == 24:
-            id = id[0:20]
+        qid = question["id"]
+        if len(qid) == 24:
+            qid = qid[0:20]
         answer = question["exact_answer"]
         if answer == []:
             answer = "empty"
-        if isinstance(answer, list):
-            if isinstance(answer[0], list):  # handle list in list
-                answer = [e[0] for e in answer]
-        gen_factoid_answers[id] = answer
+        if isinstance(answer, list) and isinstance(
+            answer[0], list
+        ):  # handle list in list
+            answer = [e[0] for e in answer]
+        gen_factoid_answers[qid] = answer
 
     num_gold_q_without_ans = 0
     num_strict = 0
@@ -572,10 +571,13 @@ def do_factoid_eval(gold_df, gen_df, gen_factoid_path):
         gen_vals = gen_factoid_answers[trimmed_id]
         # do some answer cleaning (helps with whitespace)
         gen_vals_clean = [e.lower().strip() for e in gen_vals]
+        if isinstance(gold_val, list):
+            gold_val_clean = gold_val[0].lower().strip()
+        else:
+            gold_val_clean = gold_val.lower().strip()
         if DEBUG:
-            print(gold_val, " | ", gen_vals)
+            print(gold_val, " | ", gen_vals_clean)
         # accuracy calculations
-        gold_val_clean = gold_val
         num_total += 1
         if (
             gold_val_clean == gen_vals_clean[0]
@@ -617,7 +619,7 @@ def do_factoid_eval(gold_df, gen_df, gen_factoid_path):
     return lenient_acc, strict_acc, average_mrr, mrrs
 
 
-def do_list_eval(gold_df, gen_df,gen_list_path):
+def do_list_eval(gold_df, gen_df, gen_list_path):
     print(f"{CYAN}List Evaluation{OFF}")
     list_gold_df = gold_df[gold_df["type"] == "list"]
     list_gen_df = gen_df[gen_df["type"] == "list"]
@@ -642,7 +644,9 @@ def do_list_eval(gold_df, gen_df,gen_list_path):
         answer = question["exact_answer"]
         if answer == []:
             answer = "empty"
-        if isinstance(answer, list) and isinstance(answer[0], list):  # handle list in list
+        if isinstance(answer, list) and isinstance(
+            answer[0], list
+        ):  # handle list in list
             answer = [e[0] for e in answer]
         gen_list_answers[qid] = answer
 
@@ -673,11 +677,11 @@ def do_list_eval(gold_df, gen_df,gen_list_path):
         gen_vals = gen_list_answers[trimmed_id]
         gen_vals_clean = [e.lower().strip() for e in gen_vals]
         # if answers are found
-        if gen_vals != None: 
+        if gen_vals != None:
             # TP is answer in Gold AND Gen
             # FP is answer NOT IN GOLD, but YES IN GEN
             # FN is answer IN Gold but NOT GEN
-            gold_list = gold_val[0]
+            gold_list = [e.lower().strip() for e in gold_val[0]]
             for val in gold_list:
                 if val in gen_vals_clean:
                     tp += 1
@@ -768,9 +772,9 @@ def gen_gold_ir_output(gold_df, gen_folder, xml_name="bioasq_qa.xml"):
             ir = question.find("IR")
             # remove original generated articles
             ir.clear()
-
-            gold_abstracts = gold_df.loc[gold_df["id"] == q_id].values[0][8]
-            gold_titles = gold_df.loc[gold_df["id"] == q_id].values[0][9]
+            # new is abs 7 titles 8 cons 9 ||||| old is cons 7 abs 8 titles 9
+            gold_abstracts = gold_df.loc[gold_df["id"] == q_id].values[0][7]
+            gold_titles = gold_df.loc[gold_df["id"] == q_id].values[0][8]
             # system just using top abstract atm
             if isinstance(gold_abstracts, list) and gold_abstracts != []:
                 gold_abstract = gold_abstracts[0]
@@ -822,18 +826,18 @@ def run_qu_tests(gold_dataset_path, generation_folder_path, qu_output, tag="gen"
     try:
         print(f"{CYAN}Type Evaluation{OFF}")
         print(classification_report(gold_type, gen_type))
+        print("{CYAN}confusion matrix [yn list factoid summ]{OFF}")
+        print(
+            confusion_matrix(
+                gold_type, gen_type, labels=["yesno", "list", "factoid", "summary"]
+            )
+        )
+        print()
         type_report = classification_report(gold_type, gen_type, output_dict=True)
     except:
         type_report = f"TypeReport: Found input variables with inconsistent numbers of samples: [{len(gold_type)}] [{len(gen_type)}]"
-    test_results = (
-        concepts_report,
-        None,
-        type_report,
-        None,
-        None,
-        None
-    )
-    
+    test_results = (concepts_report, None, type_report, None, None, None)
+
     save_results(test_results, generation_folder_path, tag)
 
 
@@ -842,7 +846,7 @@ def run_ir_tests(gold_dataset_path, generation_folder_path, ir_output, tag="gen"
     gen_df = parse_ir_output(ir_output)
 
     pmids_report = do_pmids_eval(gold_df, gen_df)
-    test_results = (None,pmids_report,None,None,None,None)
+    test_results = (None, pmids_report, None, None, None, None)
 
     save_results(test_results, generation_folder_path, tag)
 
@@ -855,7 +859,7 @@ def run_qa_tests(gold_dataset_path, generation_folder_path, qa_input, tag="gen")
 
     yes_no_report = do_yes_no_eval(gold_df, gen_df)
     factoid_report = do_factoid_eval(gold_df, gen_df, factoid_path)
-    list_report = do_list_eval(gold_df, gen_df,list_path)
+    list_report = do_list_eval(gold_df, gen_df, list_path)
 
     test_results = (
         None,
@@ -892,7 +896,7 @@ def run_all_the_tests(gold_dataset_path, generation_folder_path, xml_name, tag="
         type_report = f"TypeReport: Found input variables with inconsistent numbers of samples: [{len(gold_type)}] [{len(gen_type)}]"
     yes_no_report = do_yes_no_eval(gold_df, gen_df)
     factoid_report = do_factoid_eval(gold_df, gen_df, factoid_path)
-    list_report = do_list_eval(gold_df, gen_df,list_path)
+    list_report = do_list_eval(gold_df, gen_df, list_path)
 
     test_results = (
         concepts_report,
@@ -931,15 +935,7 @@ def gen_gold_ir_output_FROM_SNIPPETS(gold_df, gen_folder, xml_name="bioasq_qa.xm
                     if DEBUG:
                         print(e)
                     gold_snippet += ""
-
-            # gold_snippet =  gold_df.loc[gold_df["id"] == id].values[0][6][0].get("text")
-            # gold_abstracts = gold_df.loc[gold_df["id"] == id].values[0][8]
             gold_titles = gold_df.loc[gold_df["id"] == id].values[0][9]
-            # system just using top abstract atm
-            # if isinstance(gold_abstracts, list):
-            #     gold_abstract = gold_abstracts[0]
-            # else:
-            #     gold_abstract = ""
             if isinstance(gold_titles, list) and gold_titles != []:
                 gold_title = gold_titles[0]
             else:
@@ -1059,16 +1055,8 @@ save_results(test_results, gen_folder)
 
 if __name__ == "__main__":
     print("Running manual analysis")
-    golden_dataset_path = "testing_datasets/augmented_concepts_abstracts_titles.json"
-    qa_input = "tmp/submit_to_dr_henry/datasets/gen_abs/bioasq_qa_GENERATED_ABSTRACTS.xml"
-    qa_output
-    gold_df = get_gold_df(golden_dataset_path)
-    gen_df = parse_qa_output(qa_input, generation_folder_path + "/qa")
-    do_factoid_eval(gold_df, gen_df, gen_factoid_path)
-
-    raw_test_results = analysis.run_qa_tests(
-                            gold_dataset_path=golden_dataset_path,
-                            generation_folder_path=gen_folder,
-                            qa_input=ir_output_generated,
-                            tag="gen",
-                        )
+    # golden_dataset_path = "testing_datasets/augmented_concepts_abstracts_titles.json"
+    golden_dataset_path = "eval/master_golden.json"
+    qa_input = "tmp/submit_to_dr_henry/datasets/gold_snips/bioasq_qa_GOLD_SNIPPETS.xml"
+    gen_folder = "tmp/submit_to_dr_henry/datasets/gold_snips"
+    run_qa_tests(golden_dataset_path, gen_folder, qa_input, tag="gold_snips")
